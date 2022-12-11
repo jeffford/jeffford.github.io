@@ -1,0 +1,82 @@
+Script started on Mon 24 Apr 2006 04:19:47 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ groups
+Student
+]0;Student@localhost:~[Student@localhost ~]$ umask
+0002
+]0;Student@localhost:~[Student@localhost ~]$ mkdir garg[Kab[Kb[K[Kbage
+]0;Student@localhost:~[Student@localhost ~]$ ls -l
+[00mtotal 96
+drwxrwxr-x  3 Student Student  4096 Apr 23 20:30 [00;34massignments[00m
+drwxrwxr-x  2 Student Student  4096 Apr 24 11:48 [00;34mbackups[00m
+drwxrwxr-x  3 Student Student  4096 Apr 24 12:09 [00;34mbusLetters[00m
+drwx------  3 Student Student  4096 Apr 24 12:44 [00;34mchapter_4[00m
+drwxr-xr-x  2 Student Student  4096 Jul 27  2005 [00;34mDesktop[00m
+drwxrwxr-x  2 Student Student  4096 Apr 24 16:20 [00;34mgarbage[00m
+drwxrwxr-x  3 Student Student  4096 Apr 24 12:09 [00;34mletters[00m
+-rw-rw-r--  1 Student Student  1555 Apr 21 12:10 [00mmoeller2edit.txt[00m
+-rw-rw-r--  1 Student Student  4638 Apr 23 22:15 [00mmoeller.2.III.txt[00m
+-rw-rw-r--  1 Student Student 19671 Apr 23 21:07 [00mmoeller.2.II.txt[00m
+-rw-rw-r--  1 Student Student  1656 Apr 23 20:35 [00mmoeller.2.I.txt[00m
+-rw-rw-r--  1 Student Student 12217 Apr 24 12:11 [00mmoeller.2.IV.txt[00m
+-rw-rw-r--  1 Student Student     0 Apr 24 16:19 [00mmoeller.4.II.txt[00m
+-rw-rw-r--  1 Student Student  8897 Apr 24 12:49 [00mmoeller.4.I.txt[00m
+drwxrwxr-x  5 Student Student  4096 Apr 23 20:29 [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ echo 'the [K[K[K[Kthe [K[K[K[KThe permission for h[Kthe garbage directory is 775'
+The permission for the garbage directory is 775
+]0;Student@localhost:~[Student@localhost ~]$ umask 111
+]0;Student@localhost:~[Student@localhost ~]$ ls -l
+[00mtotal 96
+drwxrwxr-x  3 Student Student  4096 Apr 23 20:30 [00;34massignments[00m
+drwxrwxr-x  2 Student Student  4096 Apr 24 11:48 [00;34mbackups[00m
+drwxrwxr-x  3 Student Student  4096 Apr 24 12:09 [00;34mbusLetters[00m
+drwx------  3 Student Student  4096 Apr 24 12:44 [00;34mchapter_4[00m
+drwxr-xr-x  2 Student Student  4096 Jul 27  2005 [00;34mDesktop[00m
+drwxrwxr-x  2 Student Student  4096 Apr 24 16:20 [00;34mgarbage[00m
+drwxrwxr-x  3 Student Student  4096 Apr 24 12:09 [00;34mletters[00m
+-rw-rw-r--  1 Student Student  1555 Apr 21 12:10 [00mmoeller2edit.txt[00m
+-rw-rw-r--  1 Student Student  4638 Apr 23 22:15 [00mmoeller.2.III.txt[00m
+-rw-rw-r--  1 Student Student 19671 Apr 23 21:07 [00mmoeller.2.II.txt[00m
+-rw-rw-r--  1 Student Student  1656 Apr 23 20:35 [00mmoeller.2.I.txt[00m
+-rw-rw-r--  1 Student Student 12217 Apr 24 12:11 [00mmoeller.2.IV.txt[00m
+-rw-rw-r--  1 Student Student     0 Apr 24 16:19 [00mmoeller.4.II.txt[00m
+-rw-rw-r--  1 Student Student  8897 Apr 24 12:49 [00mmoeller.4.I.txt[00m
+drwxrwxr-x  5 Student Student  4096 Apr 23 20:29 [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ echo ' [Kt[KThe permissions for the garbage directory were not  changed because since garbage was already made, the new default settings will nt [Achanged because since garbage was already made, the new default settings will n[K
+[K[Achanged because since garbage was already made, the new default settings will no t take affect on already md[Kade directories;[K'
+The permissions for the garbage directory were not changed because since garbage was already made, the new default settings will not take affect on already made directories
+]0;Student@localhost:~[Student@localhost ~]$ rm garbage
+rm: cannot remove `garbage': Is a directory
+]0;Student@localhost:~[Student@localhost ~]$ rmdir garbage
+]0;Student@localhost:~[Student@localhost ~]$ mkdir session_II[K[K[K[K[K[K[K[K[K[Kchapter_4/session_II
+]0;Student@localhost:~[Student@localhost ~]$ cd chapter_4
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ ls -l
+[00mtotal 8
+drwx------  2 Student Student 4096 Apr 24 12:45 [00;34msession_I[00m
+drw-rw-rw-  2 Student Student 4096 Apr 24 16:29 [00;34msession_II[00m
+[m]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ umask
+0111
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ rmdir sesso[Kion_i[KII
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ umask 111[K3
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ umask
+0113
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ mkdir session_II
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ ls -l
+[00mtotal 8
+drwx------  2 Student Student 4096 Apr 24 12:45 [00;34msession_I[00m
+drw-rw-r--  2 Student Student 4096 Apr 24 16:36 [00;34msession_II[00m
+[m]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ echo ' there is no x permission'
+ there is no x permission
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ cd session_II
+bash: cd: session_II: Permission denied
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ chmod 764 chapter_4/sessin[Kon_II
+chmod: cannot access `chapter_4/session_II': No such file or directory
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ ls
+[00m[00;34msession_I[00m  [00;34msession_II[00m
+[m]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ lschmod 764 chapter_4/session_II[17Pd session_IIhmod 764 chapter_4/session_II[Student@localhost chapter_4]$ chmod 764 c[Student@localhost chapter_4]$ chmod 764 ch[1Phapter_4/session_II[1Papter_4/session_II[1Ppter_4/session_II[1Pter_4/session_II[1Per_4/session_II[1Pr_4/session_II[1P_4/session_II[1P4/session_II[1P/session_II[1Psession_II[Student@localhost chapter_4]$ chmod 764 s[Student@localhost chapter_4]$ chmod 764 se[Student@localhost chapter_4]$ chmod 764 ses[Student@localhost chapter_4]$ chmod 764 sess[Student@localhost chapter_4]$ chmod 764 sessi[Student@localhost chapter_4]$ chmod 764 sessio[Student@localhost chapter_4]$ chmod 764 session[Student@localhost chapter_4]$ chmod 764 session_[Student@localhost chapter_4]$ chmod 764 session_I[Student@localhost chapter_4]$ chmod 764 session_II
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ ls -l
+[00mtotal 8
+drwx------  2 Student Student 4096 Apr 24 12:45 [00;34msession_I[00m
+drwxrw-r--  2 Student Student 4096 Apr 24 16:36 [00;34msession_II[00m
+[m]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ exit
+
+Script done on Mon 24 Apr 2006 04:47:54 PM EDT

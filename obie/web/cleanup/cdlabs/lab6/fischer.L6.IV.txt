@@ -1,0 +1,86 @@
+Script started on Fri 28 Apr 2006 08:36:27 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6s4f1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6s4f1[Student@localhost ~]$ cat >[1P Ch6s4f1[1PCh6s4f1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6s4f1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ uniq
+
+
+]0;Student@localhost:~[Student@localhost ~]$ uniq Ch6s4f1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ wc -1[Kl Ch6s4f1
+7 Ch6s4f1
+]0;Student@localhost:~[Student@localhost ~]$ sort +1-2 -r Ch6s4f1
+sort: open failed: +1-2: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ sort +1-2 -r Ch6s4f1[K[K[K[K[K[K[K[K[Kr[4hC[4l[4hh[4l[4h6[4l[4hs[4l[4h4[4l[4hf[4l[4h1[4l[4h [4l
+sort: stat failed: +1-2: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6s4f1 +1-2 -r[1P[1P[1P[1P[1P[1P[1P[1P[Student@localhost ~]$ sort [Student@localhost ~]$ sort +[Student@localhost ~]$ sort +1[Student@localhost ~]$ sort +1-[Student@localhost ~]$ sort +1-2[1P -r[1P -r[Student@localhost ~]$ sort +1 [Student@localhost ~]$ sort +1 -[Student@localhost ~]$ sort +1 -r Ch6s4f1
+8001	7.00	14
+2351	67.90	56
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+3456	14.56	22
+1420	12.56	45
+]0;Student@localhost:~[Student@localhost ~]$ sort +1 -r Ch6s4f1[1P[4h2[4l
+2351	67.90	56
+1420	12.56	45
+2341	45.12	34
+1122	23.56	28
+3456	14.56	22
+1443	23.23	19
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort +2 -r Ch6s4f1 ; head -1
+2351	67.90	56
+1420	12.56	45
+2341	45.12	34
+1122	23.56	28
+3456	14.56	22
+1443	23.23	19
+8001	7.00	14
+^[[A^[[A        ]0;Student@localhost:~[Student@localhost ~]$ sort +2 -r Ch6s4f1 ; head -1[Student@localhost ~]$ sort +2 -r Ch6s4f1 ;[1P[4h|[4l
+2351	67.90	56
+]0;Student@localhost:~[Student@localhost ~]$ sort +2 -r Ch6s4f1 | head -1[Student@localhost ~]$ sort +[Student@localhost ~]$ sort +2[1P[4h3[4l[Student@localhost ~]$ sort +3 [Student@localhost ~]$ sort +3 -[Student@localhost ~]$ sort +3 -r[Student@localhost ~]$ sort +3 -r [Student@localhost ~]$ sort +3 -r C[Student@localhost ~]$ sort +3 -r Ch[Student@localhost ~]$ sort +3 -r Ch6[Student@localhost ~]$ sort +3 -r Ch6s[Student@localhost ~]$ sort +3 -r Ch6s4[Student@localhost ~]$ sort +3 -r Ch6s4f[Student@localhost ~]$ sort +3 -r Ch6s4f1[Student@localhost ~]$ sort +3 -r Ch6s4f1 [Student@localhost ~]$ sort +3 -r Ch6s4f1 |[Student@localhost ~]$ sort +3 -r Ch6s4f1 | [Student@localhost ~]$ sort +3 -r Ch6s4f1 | h[Student@localhost ~]$ sort +3 -r Ch6s4f1 | he[Student@localhost ~]$ sort +3 -r Ch6s4f1 | hea[Student@localhost ~]$ sort +3 -r Ch6s4f1 | head[Student@localhost ~]$ sort +3 -r Ch6s4f1 | head [Student@localhost ~]$ sort +3 -r Ch6s4f1 | head -[Student@localhost ~]$ sort +3 -r Ch6s4f1 | head -1|[K | chu[K[Kut-[K -f1
+8001
+]0;Student@localhost:~[Student@localhost ~]$ sort +3 -r Ch6s4f1 | head -1 | cut -f1[K[K[K[K[K[K[K[K[K
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort +3 -r Ch6s4f1 | head -1 [Student@localhost ~]$ sort +3 -r Ch6s4f1 | head -1 | cut -f1[Student@localhost ~]$ sort +[Student@localhost ~]$ sort +3[1P[4h2[4l
+2351
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -r Ch6s4f2[K1
+8001	7.00	14
+3456	14.56	22
+2351	67.90	56
+2341	45.12	34
+1443	23.23	19
+1420	12.56	45
+1122	23.56	28
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Fri 28 Apr 2006 08:50:35 AM EDT

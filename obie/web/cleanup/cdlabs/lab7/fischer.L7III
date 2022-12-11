@@ -1,0 +1,31 @@
+Script started on Mon 01 May 2006 10:12:35 AM EDT
+]0;fischerrl@cs:~[fischerrl@cs fischerrl]$ pwd
+/home/fischerrl
+]0;fischerrl@cs:~[fischerrl@cs fischerrl]$ mkdir RemoteWork
+]0;fischerrl@cs:~[fischerrl@cs fischerrl]$ cd RemoteWork
+]0;fischerrl@cs:~/RemoteWork[fischerrl@cs RemoteWork]$ cat > fischer.L7IIIlin[K[K[Kf1.txt[1Pf1.txt[1Pf1.txt[1Pf1.txt[fischerrl@cs RemoteWork]$ cat > fischer.L7f[fischerrl@cs RemoteWork]$ cat > fischer.L7f1[fischerrl@cs RemoteWork]$ cat > fischer.L7f1.[fischerrl@cs RemoteWork]$ cat > fischer.L7f1.t[fischerrl@cs RemoteWork]$ cat > fischer.L7f1.tx[fischerrl@cs RemoteWork]$ cat > fischer.L7f1.txt
+This is a file. 
+Who  oohoo!
+]0;fischerrl@cs:~/RemoteWork[fischerrl@cs RemoteWork]$ cd
+]0;fischerrl@cs:~[fischerrl@cs fischerrl]$ ls -l
+[00mtotal 68
+-rw-rw-r--    1 fischerrl fischerrl       98 Apr 30 17:11 [00mCh5s6f2[00m
+-rw-rw-r--    1 fischerrl fischerrl       97 Apr 30 16:31 [00mCh6s4f1[00m
+-rw-rw-r--    1 fischerrl fischerrl       97 Apr 30 17:13 [00mCh6s5f1[00m
+-rw-rw-r--    1 fischerrl fischerrl       28 Apr 30 16:35 [00mCh6s5f2[00m
+-rw-rw-r--    1 fischerrl fischerrl      195 Apr 30 17:21 [00mCh6s5f3[00m
+-rw-rw-r--    1 fischerrl fischerrl      195 Apr 30 17:25 [00mCh6s5f4[00m
+-rw-rw-r--    1 fischerrl fischerrl      195 Apr 30 17:25 [00mCh6s5f5[00m
+-rw-rw-r--    1 fischerrl fischerrl       83 Apr 30 17:27 [00mCh6s5f6[00m
+-rw-rw-r--    1 fischerrl fischerrl      107 Apr 30 17:42 [00mCh6s6f1[00m
+-rw-rw-r--    1 fischerrl fischerrl     8192 Apr 30 17:44 [00mfischer.L6.VI.txt[00m
+-rw-rw-r--    1 fischerrl fischerrl    12288 Apr 30 17:47 [00mfischer.L6.V.txt[00m
+-rw-rw-r--    1 fischerrl fischerrl        0 May  1 10:12 [00mfischer.L7III[00m
+drwxrwxr-x    2 fischerrl fischerrl     4096 May  1 10:14 [00;34mRemoteWork[00m
+-rw-rw-r--    1 fischerrl fischerrl       97 Apr 30 17:15 [00msort1[00m
+-rw-rw-r--    1 fischerrl fischerrl       98 Apr 30 17:15 [00msort2[00m
+lrwxrwxrwx    1 root     root           24 Dec  3 23:20 [00;36mweb[00m -> [00;34m/home/webusers/fischerrl[00m
+[m]0;fischerrl@cs:~[fischerrl@cs fischerrl]$ exit
+exit
+
+Script done on Mon 01 May 2006 10:15:46 AM EDT

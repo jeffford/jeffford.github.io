@@ -1,0 +1,216 @@
+Script started on Fri 28 Apr 2006 08:25:34 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ head /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+]0;Student@localhost:~[Student@localhost ~]$ /etc/tail
+bash: /etc/tail: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ tail /etc/passwd
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ cat [K[K[K[Ktail 
+/etc/passwd[7P/etc/tailhead 
+/etc/passwd[4Pcat Ch6SIIF4[4hut -f1 
+Ch6SIIF3[4l >
+[Student@localhost ~]$ cut -f1 Ch6SIIF3 > 
+Ch6SIIF4[9P
+[Student@localhost ~]$ cut -f1 > 
+Ch6SIIF4[6Pat Ch6SIIF3[4hut 
+-[4lf1
+[Student@localhost ~]$ cut -f1 
+Ch6SIIF3[4Pat
+[Student@localhost ~]$ cat 
+Ch6SIIF3[4hpaste Ch6SIIF1 Ch6SIIF[4l2 >
+[Student@localhost ~]$ 
+paste Ch6SIIF1 Ch6SIIF2 > Ch6SIIF3temp1 temp2 
+temp3 > Ch6SIIF2
+
+[Student@localhost ~]$ [4Pcut -f2 -d"/" Ch6SIIF1 > 
+temp23 -d"/" Ch6SIIF1 > temp3
+
+[Student@localhost 
+~]$ c[18Pat Ch6SIIF3[4hpaste Ch6SIIF1 Ch6SIIF[4l2 
+ >
+[Student@localhost ~]$ paste Ch6SIIF1 Ch6SIIF2 > 
+Ch6SIIF3temp1 temp2 temp3 > 
+Ch6SIIF2
+
+[Student@localhost ~]$ [4Pcut -f1 -d"/" Ch6SIIF1 > 
+temp3
+
+[Student@localhost ~]$ paste temp1 temp2 temp3 > 
+Ch6SIIF2Ch6SIIF1 Ch6SIIF2 > 
+Ch6SIIF3
+
+[Student@localhost ~]$ [22Pcat
+[Student@localhost ~]$ cat 
+Ch6SIIF3ut -f3 -d"/" Ch6SIIF1 > temp32 
+-d"/" Ch6SIIF1 > temp2
+
+[Student@localhost ~]$ paste temp1 temp2 temp3 > 
+Ch6SIIF2Ch6SIIF1 Ch6SIIF2 > 
+Ch6SIIF3
+
+[Student@localhost ~]$ [22Pcat
+[Student@localhost ~]$ cat 
+Ch6SIIF3[4hut -[4lf1
+[Student@localhost ~]$ cut -f1 
+Ch6SIIF3[4Pat
+[Student@localhost ~]$ cat 
+Ch6SIIF3ut -f1 > Ch6SIIF4[4hCh6SIIF3 
+[4l
+[Student@localhost ~]$ cut -f1 Ch6SIIF3 > Ch6SIIF4
+
+[Student@localhost 
+~]$ c[15Pat
+[Student@localhost ~]$ cat Ch6SIIF4head 
+/etc/passwd[7P/etc/tailtail 
+/etc/passwd[Kcat Ch6SIIF1
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ echo i didnt 
+w[Kan[K[Kwant to type itr [K[K again
+i didnt want to type it again
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 > 
+temp1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 > 
+temp1[K2p[1P[4h2[4l
+[Student@localhost ~]$ cut 
+-f2 
+[Student@localhost ~]$ cut -f2 -
+[Student@localhost ~]$ cut -f2 
+-d
+[Student@localhost ~]$ cut -f2 -d"
+[Student@localhost ~]$ cut -f2 
+-d"/
+[Student@localhost ~]$ cut -f2 -d"/"
+[Student@localhost ~]$ cut -f2 
+-d"/" 
+[Student@localhost ~]$ cut -f2 -d"/" C
+[Student@localhost ~]$ cut -f2 
+-d"/" Ch
+[Student@localhost ~]$ cut -f2 -d"/" Ch6
+[Student@localhost ~]$ cut 
+-f2 -d"/" Ch6S
+[Student@localhost ~]$ cut -f2 -d"/" Ch6SI
+[Student@localhost 
+~]$ cut -f2 -d"/" Ch6SII
+[Student@localhost ~]$ cut -f2 -d"/" 
+Ch6SIIF
+[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1
+[Student@localhost ~]$ 
+cut -f2 -d"/" Ch6SIIF1 
+[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 
+ >
+[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > 
+[Student@localhost ~]$ 
+cut -f2 -d"/" Ch6SIIF1 > t
+[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > 
+te
+[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > tem
+[Student@localhost 
+~]$ cut -f2 -d"/" Ch6SIIF1 > tem2[1Pp
+[Student@localhost ~]$ cut -f2 
+-d"/" Ch6SIIF1 > temp2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > 
+temp2[K3
+[Student@localhost ~]$ cut 
+-f
+[Student@localhost ~]$ cut -f2[1P[4h3[4l
+[Student@localhost ~]$ cut 
+-f3 
+[Student@localhost ~]$ cut -f3 -
+[Student@localhost ~]$ cut -f3 
+-d
+[Student@localhost ~]$ cut -f3 -d"
+[Student@localhost ~]$ cut -f3 
+-d"/
+[Student@localhost ~]$ cut -f3 -d"/"
+[Student@localhost ~]$ cut -f3 
+-d"/" 
+[Student@localhost ~]$ cut -f3 -d"/" C
+[Student@localhost ~]$ cut -f3 
+-d"/" Ch
+[Student@localhost ~]$ cut -f3 -d"/" Ch6
+[Student@localhost ~]$ cut 
+-f3 -d"/" Ch6S
+[Student@localhost ~]$ cut -f3 -d"/" Ch6SI
+[Student@localhost 
+~]$ cut -f3 -d"/" Ch6SII
+[Student@localhost ~]$ cut -f3 -d"/" 
+Ch6SIIF
+[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1
+[Student@localhost ~]$ 
+cut -f3 -d"/" Ch6SIIF1 
+[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 
+ >
+[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > 
+[Student@localhost ~]$ 
+cut -f3 -d"/" Ch6SIIF1 > t
+[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > 
+te
+[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > tem
+[Student@localhost 
+~]$ cut -f3 -d"/" Ch6SIIF1 > temp
+[Student@localhost ~]$ cut -f3 -d"/" 
+Ch6SIIF1 > temp3
+]0;Student@localhost:~[Student@localhost ~]$ paset[K[K[Kste temp1 
+temp [K2 temp3 > Ch6SIIF2
+]0;Student@localhost:~[Student@localhost ~]$ 
+Ch^SIIF2[K[K[K[K[K[K6SIIF2cCh6SIIF2aCh6SIIF2tCh6SIIF2 
+Ch6SIIF2
+[Student@localhost ~]$ cat C
+[Student@localhost ~]$ cat 
+Ch
+[Student@localhost ~]$ cat Ch6
+[Student@localhost ~]$ cat 
+Ch6S
+[Student@localhost ~]$ cat Ch6SI
+[Student@localhost ~]$ cat 
+Ch6SII
+[Student@localhost ~]$ cat Ch6SIIF
+[Student@localhost ~]$ cat 
+Ch6SIIF2
+Juan	jj@yahoo.com	330-569-5211
+George	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5615
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6SIIF1 Ch6SIID[KF2 
+ > Ch6SIIF3 | cat Ch6SIIF3
+]0;Student@localhost:~[Student@localhost ~]$ cat CH[Kh6SIIF3
+Juan/jj@yahoo.com/330-569-5211	Juan	jj@yahoo.com	330-569-5211
+George/george@hotmail.com/330-274-1999	George	george@hotmail.com	330-274-1999
+Anna/sister@aol.com/330-274-5615	Anna	sister@aol.com	330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678	Ben	davisbj@hiram.edu	512-345-5678
+Tuan/tt1234@aol.com/404-213-1434	Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6SIIF3 > 
+Ch6SIIF3[K4
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF4
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Fri 28 Apr 2006 08:30:07 AM EDT
+

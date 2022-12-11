@@ -1,0 +1,97 @@
+Script started on Fri 05 May 2006 12:25:12 AM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat > Ch10S2F1
+          The Widson m of Aesop          
+It is one thing to say that something should be done.
+   It is quite a different matter to do it.
+      "Belling the Cat"
+
+Liars are not believed even when they tell the truth.
+      "The Shepherd Boy and the Wolf"
+
+Flattery is not a proof of true admiration.
+      "The Owl and the Grasshopper"
+
+Those who work the hardest do not always get the profit.
+      "The Lion, the Bear, and the Fox"
+]0;prattjk@cs:~[prattjk@cs prattjk]$ egrep -v '^$' Ch10S2F1 > Ch10S2F2
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S2f[KF2
+          The Widsom of Aesop          
+It is one thing to say that something should be done.
+   It is quite a different matter to do it.
+      "Belling the Cat"
+Liars are not believed even when they tell the truth.
+      "The Shepherd Boy and the Wolf"
+Flattery is not a proof of true admiration.
+      "The Owl and the Grasshopper"
+Those who work the hardest do not always get the profit.
+      "The Lion, the Bear, and the Fox"
+]0;prattjk@cs:~[prattjk@cs prattjk]$ egrep '^[ ][ ]*.*' Ch10S2F2 > Ch10S2F3
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S2F3
+          The Widsom of Aesop          
+   It is quite a different matter to do it.
+      "Belling the Cat"
+      "The Shepherd Boy and the Wolf"
+      "The Owl and the Grasshopper"
+      "The Lion, the Bear, and the Fox"
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S2F3[26@egrep '^[ ][ ]*.*' Ch10S2F2 >[prattjk@cs prattjk]$ egrep '^[ ][ ]*.*' Ch10S2F2 > Ch10S2F343[K[prattjk@cs prattjk]$ egrep [1@ [1@-[1@v[prattjk@cs prattjk]$ egrep -v '^[ ][ ]*.*' Ch10S2F2 > Ch10S2F4
+]0;prattjk@cs:~[prattjk@cs prattjk]$ egrep -v '^[ ][ ]*.*' Ch10S2F2 > Ch10S2F4[prattjk@cs prattjk]$ cat Ch10S2F3[K43[K
+It is one thing to say that something should be done.
+Liars are not believed even when they tell the truth.
+Flattery is not a proof of true admiration.
+Those who work the hardest do not always get the profit.
+]0;prattjk@cs:~[prattjk@cs prattjk]$ grep '^/([ ][ ]*\).*[^\*]\1$' Ch10S2F2[K3 > Ch10S2F5
+grep: Unmatched ) or \)
+]0;prattjk@cs:~[prattjk@cs prattjk]$ grep '^/([ ][ ]*\).*[^\*]\1$' Ch10S2F3 > Ch10S2F5[1@\[1@*[1P[prattjk@cs prattjk]$ grep '^/([\*][prattjk@cs prattjk]$ grep '^/([\*][[1@\[1@*[1P[prattjk@cs prattjk]$ grep '^/([\*][\*][prattjk@cs prattjk]$ grep '^[1@\[1P[prattjk@cs prattjk]$ grep '^\([\*][\*]*\).*[^\*]\1$' Ch10S2F3 > Ch10S2F5
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S2F5
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S2F535[K
+          The Widsom of Aesop          
+   It is quite a different matter to do it.
+      "Belling the Cat"
+      "The Shepherd Boy and the Wolf"
+      "The Owl and the Grasshopper"
+      "The Lion, the Bear, and the Fox"
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S2F35[39@grep '^\([\*][\*]*\).*[^\*]\1$' Ch10S2F3 >[prattjk@cs prattjk]$ grep '^\([\*][\*]*\).*[^\*]\1$' Ch10S2F3 > Ch10S2F5[1P[1@[[1P[1P[prattjk@cs prattjk]$ grep '^\([][prattjk@cs prattjk]$ grep '^\([][[1@ [prattjk@cs prattjk]$ grep '^\([ ][1@ [1P[prattjk@cs prattjk]$ grep '^\([ ][[1@ [1P[1P[prattjk@cs prattjk]$ grep '^\([ ][ ][prattjk@cs prattjk]$ grep '^\([ ][ ]*[prattjk@cs prattjk]$ grep '^\([ ][ ]*\[prattjk@cs prattjk]$ grep '^\([ ][ ]*\)[prattjk@cs prattjk]$ grep '^\([ ][ ]*\).[prattjk@cs prattjk]$ grep '^\([ ][ ]*\).*[prattjk@cs prattjk]$ grep '^\([ ][ ]*\).*[[prattjk@cs prattjk]$ grep '^\([ ][ ]*\).*[^[1@ [1P[1P[prattjk@cs prattjk]$ grep '^\([ ][ ]*\).*[^ ]\1$' Ch10S2F3 > Ch10S2F5
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S2F5
+          The Widsom of Aesop          
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S2F1
+          The Widsom of Aesop          
+It is one thing to say that something should be done.
+   It is quite a different matter to do it.
+      "Belling the Cat"
+
+Liars are not believed even when they tell the truth.
+      "The Shepherd Boy and the Wolf"
+
+Flattery is not a proof of true admiration.
+      "The Owl and the Grasshopper"
+
+Those who work the hardest do not always get the profit.
+      "The Lion, the Bear, and the Fox"
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S2F121[K
+          The Widsom of Aesop          
+It is one thing to say that something should be done.
+   It is quite a different matter to do it.
+      "Belling the Cat"
+Liars are not believed even when they tell the truth.
+      "The Shepherd Boy and the Wolf"
+Flattery is not a proof of true admiration.
+      "The Owl and the Grasshopper"
+Those who work the hardest do not always get the profit.
+      "The Lion, the Bear, and the Fox"
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S2F232[K
+          The Widsom of Aesop          
+   It is quite a different matter to do it.
+      "Belling the Cat"
+      "The Shepherd Boy and the Wolf"
+      "The Owl and the Grasshopper"
+      "The Lion, the Bear, and the Fox"
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S2F343[K
+It is one thing to say that something should be done.
+Liars are not believed even when they tell the truth.
+Flattery is not a proof of true admiration.
+Those who work the hardest do not always get the profit.
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S2F454[K
+          The Widsom of Aesop          
+]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+
+Script done on Fri 05 May 2006 12:39:39 AM EDT

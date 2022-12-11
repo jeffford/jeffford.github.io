@@ -1,0 +1,90 @@
+Script started on Sun 30 Apr 2006 06:53:20 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cp /etc/passwd Ch62[KS7F2[K1
+]0;Student@localhost:~[Student@localhost ~]$ wc -l Ch6S7F1
+34 Ch6S7F1
+]0;Student@localhost:~[Student@localhost ~]$ cut -d "[K[K':' -f1,3 <[K[K<Ch6s[KS7F1 >Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -1 Ch6S7F2 >file ; [K[K[K; cp file Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ tr ":" " "[K" [K<Ch6S7F2 >Ch6S7F2.nocol
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6S7.[KF2.nocol
+adm 3
+bin 1
+daemon 2
+dbus 81
+ftp 14
+games 12
+gdm 42
+gopher 13
+haldaemon 68
+halt 7
+lp 4
+mail 8
+mailnull 47
+named 25
+netdump 34
+news 9
+nfsnobody 65534
+nobody 99
+nscd 28
+ntp 38
+operator 11
+pcap 77
+root 0
+[7m--More--(67%)[m[K]0;Student@localhost:~[Student@localhost ~]$ cut[K[K[Khead[K[K[K[Khead -24 Ch6S7F2.nocol >a.file
+]0;Student@localhost:~[Student@localhost ~]$ tail -12 Ch6S7F2.nocol >b.file
+]0;Student@localhost:~[Student@localhost ~]$ tail -12 Ch6S7F2.nocol >b.file[1P[4h0[4lhead -24 Ch6S7F2.nocol >a.file[Student@localhost ~]$ tail -10 Ch6S7F2.nocol >b.file[1P.filec.file
+]0;Student@localhost:~[Student@localhost ~]$ tail -10 Ch6S7F2.nocol >c.file2 Ch6S7F2.nocol >b.file[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P >b.filea >b.file. >b.filef >b.filei >b.filel >b.filee >b.file[Student@localhost ~]$ tail -12 a.file >b.file
+]0;Student@localhost:~[Student@localhost ~]$ tail -12 a.file >b.file0 Ch6S7F2.nocol >c.file2 Ch6S7F2.nocol >b.file[Student@localhost ~]$ head -24 Ch6S7F2.nocol >a.file[1P[1P[4h1[4l[4h2[4l[Student@localhost ~]$ head -12 [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[4hC[4l[4hh[4l[4h6[4l[1P[4h6[4l[4hS[4l[4h7[4l[4hF[4l[4h2[4l[1P[1P[4h.[4l[4hn[4l[4ho[4l[4hc[4l[4ho[4l[Student@localhost ~]$ head -12 Ch6S7F2.nocol >a.file
+]0;Student@localhost:~[Student@localhost ~]$ more a.file b.file c.file
+::::::::::::::
+a.file
+::::::::::::::
+adm 3
+bin 1
+daemon 2
+dbus 81
+ftp 14
+games 12
+gdm 42
+gopher 13
+haldaemon 68
+halt 7
+lp 4
+mail 8
+[7m--More--(Next file: b.file)[m::::::::::::::[K
+b.file
+::::::::::::::
+mailnull 47
+[7m--More--(10%)[mnamed 25[K
+[7m--More--(18%)[mnetdump 34[K
+[7m--More--(28%)[mnews 9[K
+[7m--More--(34%)[mnfsnobody 65534
+[7m--More--(48%)[mnobody 99[K
+[7m--More--(57%)[mnscd 28[K
+[7m--More--(64%)[mntp 38[K
+[7m--More--(70%)[moperator 11[K
+[7m--More--(80%)[mpcap 77[K
+[7m--More--(87%)[mroot 0[K
+[7m--More--(93%)[mrpc 32[K
+[7m--More--(Next file: c.file)[m::::::::::::::[K
+c.file
+::::::::::::::
+rpcuser 29
+[7m--More--(12%)[m[K]0;Student@localhost:~[Student@localhost ~]$ paste afile[K[K[K[K.file b.file c.file [K >Ch6S7F3
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6S7F3
+adm 3	mailnull 47	rpcuser 29
+bin 1	named 25	rpm 37
+daemon 2	netdump 34	shutdown 6
+dbus 81	news 9	smmsp 51
+ftp 14	nfsnobody 65534	sshd 74
+games 12	nobody 99	Student 500
+gdm 42	nscd 28	sync 5
+gopher 13	ntp 38	uucp 10
+haldaemon 68	operator 11	vcsa 69
+halt 7	pcap 77	xfs 43
+lp 4	root 0	
+mail 8	rpc 32	
+]0;Student@localhost:~[Student@localhost ~]$ echo " due to d[Kdifferent length on the login names, [Student@localhost ~]$ echo " due to different length on the login names, [4hs[4l[Student@localhost ~]$ echo " due to different lengths on the login names, colum ns fo[K[Kdo not look equal, but there are 3 columns."
+ due to different lengths on the login names, columns do not look equal, but there are 3 columns.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Sun 30 Apr 2006 07:04:40 PM EDT

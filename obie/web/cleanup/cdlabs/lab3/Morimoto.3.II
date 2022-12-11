@@ -1,0 +1,41 @@
+2. ls -R
+
+3. cd ~/assignments/UNIX
+
+4. pwd
+
+5. vi hw4
+
+6. : w
+
+7. : q
+
+8. more ~/assignments/UNIX/hw4
+
+9.cp ~/assignments/UNIX/hw4 ~/assignments/UNIX/hw4.bk.
+
+10. ls ~/assignments/UNIX
+
+11. cd ~/assignments/UNIX
+
+12. pwd
+
+13. ln ~/assignments/UNIX/hw4 ~/assignments/UNIX/hw4HL
+
+14. ln -s ~/assignments/UNIX/hw4 ~/assignments/UNIX/hw4SL
+
+15. ls -l -i  ~/assignments/UNIX
+    total 44
+    263607 -rw-rw-r--  2 Student Student   50 Apr 23 17:15 hw4
+    263588 -rw-rw-r--  1 Student Student   50 Apr 23 17:20 hw4.bk.
+    263607 -rw-rw-r--  2 Student Student   50 Apr 23 17:15 hw4HL
+    263606 lrwxrwxrwx  1 Student Student   34 Apr 23 17:26 hw4SL -> /home/Student/assignments/UNIX/hw4
+    263600 drwxrwxr-x  2 Student Student 4096 Apr 23 16:57 HWs
+    263596 drwxrwxr-x  2 Student Student 4096 Apr 23 16:55 Projects
+
+    hw4 and hw4HL are same
+    hw4Sl has symbolic link
+
+16.ls -p
+   hw4SL@
+

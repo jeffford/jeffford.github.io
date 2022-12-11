@@ -1,0 +1,229 @@
+Script started on Mon 01 May 2006 08:34:00 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1 > Ch^[K6S5F1
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6S5F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch^[K6S5F11[K[K2
+1420	12.56	45
+2456	14.56	22
+2341	45.12	34
+	1322	23.56	28
+	1443	23.23	19
+2351	67.90	56	
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1[K2
+cat: Ch6S4F2: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F2[1PF25F2[Student@localhost ~]$ cat Ch6S5F2[K1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F1[K2
+1420	12.56	45
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ sort -Rn[K[Krn +1[K0 Ch6S5F1
+8001	 7.00	14
+3456	14.56	22
+2351	67.90	56
+2341	45.12	34
+1443	23.23	19
+1420	12.56	45
+1122	23.56	28
+]0;Student@localhost:~[Student@localhost ~]$ sort -rn +0 Ch6S5F1[1P[Student@localhost ~]$ sort -n +0 Ch6S5F1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +0 Ch6S5F1 > Ch6S5F1a
+]0;Student@localhost:~[Student@localhost ~]$ cp Ch6S4F1[K[K[K5F1a Ch6S5F1
+]0;Student@localhost:~[Student@localhost ~]$ rm Ch6S5F1a
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +0 Ch6s5[K[KS5F1[K2 > a
+]0;Student@localhost:~[Student@localhost ~]$ cp a Ch6S5F2
+]0;Student@localhost:~[Student@localhost ~]$ rm a
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F2[K1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F1[K2
+1322	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6S5F1 Ch6S5F2
+1122	23.56	28	1322	23.56	28
+1420	12.56	45	1420	12.56	45
+1443	23.23	19	1443	23.23	19
+2341	45.12	34	2341	45.12	34
+2351	67.90	56	2351	67.90	56
+3456	14.56	22	2456	14.56	22
+8001	 7.00	14	3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6S5F1 Ch6S5F2 > Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6S5F1 Ch6S5F2 > Ch6S5F3[K[10Pcat[Student@localhost ~]$ cat Ch6S5F21[7Prm acp a Ch6S5F2sort -n +0 Ch6S5F2 > a[Student@localhost ~]$ sort -n +0 Ch6S5F2 >[Student@localhost ~]$ sort -n +0 Ch6S5F2 > [Student@localhost ~]$ sort -n +0 Ch6S5F2 > a[1P[4h3[4l
+]0;Student@localhost:~[Student@localhost ~]$ more a
+1122	23.56	28	1322	23.56	28
+1420	12.56	45	1420	12.56	45
+1443	23.23	19	1443	23.23	19
+2341	45.12	34	2341	45.12	34
+2351	67.90	56	2351	67.90	56
+3456	14.56	22	2456	14.56	22
+8001	 7.00	14	3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ more a[K[K[K[K[K[Kuniq -u Ch6S4[K6[K5F3
+1122	23.56	28	1322	23.56	28
+1420	12.56	45	1420	12.56	45
+1443	23.23	19	1443	23.23	19
+2341	45.12	34	2341	45.12	34
+2351	67.90	56	2351	67.90	56
+3456	14.56	22	2456	14.56	22
+8001	 7.00	14	3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ uniq -u Ch6S5F3[Ksort -n +0 Ch6S5F3 > apaste Ch6S5F1 Ch6S5F2 > Ch6S5F3[1P[1P[1P[1P[1P[4hc[4l[4ha[4l[4ht[4l
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F1 Ch6S5F2 > Ch6S5F3[Student@localhost ~]$ [14Puniq -u[Student@localhost ~]$ uniq -u Ch6S5F3[4hcat Ch6S5F1 Ch[4l6S5F2 >[Student@localhost ~]$ cat Ch6S5F1 Ch6S5F2 > Ch6S5F3[1P Ch6S5F3[1PCh6S5F3[1P Ch6S5F3[1P Ch6S5F3[1P Ch6S5F3[1P Ch6S5F3[1P Ch6S5F3[1P Ch6S5F3[1P Ch6S5F3[1PCh6S5F3[1P Ch6S5F3[1P Ch6S5F3[1P Ch6S5F3[1P Ch6S5F3[1P Ch6S5F3[1P Ch6S5F3[1P Ch6S5F3[1PCh6S5F3
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+1322	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F31 Ch6S5F2 > Ch6S5F3[Student@localhost ~]$ [14Puniq -u[Student@localhost ~]$ uniq -u Ch6S5F3[Ksort -n +0 Ch6S5F3 > a[Kuniq -u Ch6S5F3
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+1322	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ uniq -u Ch6S5F3[4Pcat[Student@localhost ~]$ cat Ch6S5F31 Ch6S5F2 > Ch6S5F3[Student@localhost ~]$ [14Puniq -u[Student@localhost ~]$ uniq -u Ch6S5F3[Ksort -n +0 Ch6S5F3 > a[Student@localhost ~]$ sort -n +0 Ch6S5F3 > a[K[K a
+]0;Student@localhost:~[Student@localhost ~]$ more a
+1122	23.56	28
+1322	23.56	28
+1420	12.56	45
+1420	12.56	45
+1443	23.23	19
+1443	23.23	19
+2341	45.12	34
+2341	45.12	34
+2351	67.90	56
+2351	67.90	56
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cp a [K[K[K[K[Kcan[K[K[Kr[Kmv a Ch6Sc[K6[K5[K5F3
+]0;Student@localhost:~[Student@localhost ~]$ rm a
+rm: cannot remove `a': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ rm amv a Ch6S5F3[8Prm a[K[K[K[Kmv a Ch6S5F3[6Pore a[4hsort -n +0 Ch6S5[4lF3 >[Student@localhost ~]$ sort -n +0 Ch6S5F3 > a[7Puniq -u Ch6S5F3
+1122	23.56	28
+1322	23.56	28
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ uniq -u Ch6S5F3 > Ch6S5F2[K3
+]0;Student@localhost:~[Student@localhost ~]$ moreuniq -u Ch6S5F3 > Ch6S5F3[K[Kmv a Ch6S5F3[6Pore a[KCh6S5F2[K3
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6S5F3[4huniq -u Ch6S5[4lF3 >[Student@localhost ~]$ uniq -u Ch6S5F3 > Ch6S5F3[K[Kmv a Ch6S5F3[6Pore a[4hsort -n +0 Ch6S5[4lF3 >[Student@localhost ~]$ sort -n +0 Ch6S5F3 > a[7Puniq -u Ch6S5F3[4Pcat[Student@localhost ~]$ cat Ch6S5F31 Ch6S5F2 > Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F1 Ch6S5F2 > Ch6S5F3[Student@localhost ~]$ [17Pmore[Student@localhost ~]$ more Ch6S5F3[4huniq -u Ch6S5[4lF3 >[Student@localhost ~]$ uniq -u Ch6S5F3 > Ch6S5F3[K[Kmv a Ch6S5F3[6Pore a[4hsort -n +0 Ch6S5[4lF3 >[Student@localhost ~]$ sort -n +0 Ch6S5F3 > a
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +0 Ch6S5F3 > acat Ch6S5F1 Ch6S5F2 > Ch6S5F3[Student@localhost ~]$ [17Pmore[Student@localhost ~]$ more Ch6S5F3[4huniq -u Ch6S5[4lF3 >[Student@localhost ~]$ uniq -u Ch6S5F3 > Ch6S5F3[K[Kmv a Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ mv a Ch6S5F3sort -n +0 Ch6S5F3 > acat Ch6S5F1 Ch6S5F2 > Ch6S5F3a[K[K[K[K[K[K[K[Ka
+]0;Student@localhost:~[Student@localhost ~]$ mvcat Ch6S5F1 Ch6S5F2 > a[11Pmv a Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6F[KS5F3
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+1322	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F3[4hm[4lv a[Student@localhost ~]$ mv a Ch6S5F3cat Ch6S5F1 Ch6S5F2 > a[11Pmv a Ch6S5F3sort -n +0 Ch6S5F3 > acat Ch6S5F1 Ch6S5F2 > Ch6S5F3[Student@localhost ~]$ [17Pmore[Student@localhost ~]$ more Ch6S5F3[4huniq -u Ch6S5[4lF3 >[Student@localhost ~]$ uniq -u Ch6S5F3 > Ch6S5F3[Student@localhost ~]$ uniq -u Ch6S5F[1P[1P[1P[1P[1P[1P[1P[4ha[4l[4h [4l[Student@localhost ~]$ uniq -u a[Student@localhost ~]$ uniq -u a [1P[Student@localhost ~]$ uniq -u a [Student@localhost ~]$ uniq -u a >[Student@localhost ~]$ uniq -u a > Ch6S5F3
+uniq: a: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ uniq -u a > Ch6S5F3[8Pcat[Student@localhost ~]$ cat Ch6S5F3[4hm[4lv a[Student@localhost ~]$ mv a Ch6S5F3cat Ch6S5F1 Ch6S5F2 > a[11Pmv a Ch6S5F3sort -n +0 Ch6S5F3 > acat Ch6S5F1 Ch6S5F2 > Ch6S5F3[Student@localhost ~]$ [7Psort -n +0 Ch6S5F3 > acat Ch6S5F1 Ch6S5F2 > Ch6S5F3[Student@localhost ~]$ [17Pmore[Student@localhost ~]$ more Ch6S5F3[4huniq -u Ch6S5[4lF3 >[Student@localhost ~]$ uniq -u Ch6S5F3 > Ch6S5F3[K[K[K[K[K[K[Ka
+]0;Student@localhost:~[Student@localhost ~]$ uniq -u Ch6S5F3 > aa > Ch6S5F3[8Pcat[Student@localhost ~]$ cat Ch6S5F3[4hm[4lv a[Student@localhost ~]$ mv a Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ mv a Ch6S5F3uniq -u Ch6S5F3 > aa > Ch6S5F3[8Pcat[Student@localhost ~]$ cat Ch6S5F3[4hm[4lv a[Student@localhost ~]$ mv a Ch6S5F3cat Ch6S5F1 Ch6S5F2 > a[11Pmv a Ch6S5F3sort -n +0 Ch6S5F3 > a[10Pmv a Ch6S5F3cat Ch6S5F1 Ch6S5F2 > a[11Pmv a Ch6S5F3[1Pcat[Student@localhost ~]$ cat Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F3[4hm[4lv a[Student@localhost ~]$ mv a Ch6S5F3uniq -u Ch6S5F3 > a[7Pmv a Ch6S5F3[1P Ch6S5F3[1PCh6S5F3[1P Ch6S5F3[1P Ch6S5F3m Ch6S5F3o Ch6S5F3r Ch6S5F3e Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6S5F3[1Pcat[Student@localhost ~]$ cat Ch6S5F3[4hm[4lv a[Student@localhost ~]$ mv a Ch6S5F3uniq -u Ch6S5F3 > aa > Ch6S5F3[8Pcat[Student@localhost ~]$ cat Ch6S5F3[4hm[4lv a[Student@localhost ~]$ mv a Ch6S5F3cat Ch6S5F1 Ch6S5F2 > a[11Pmv a Ch6S5F3sort -n +0 Ch6S5F3 > acat Ch6S5F1 Ch6S5F2 > Ch6S5F3[K[K[K[K[K[K[K[K a
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F1 Ch6S5F2 > a[11Pmore Ch6S5F3[K[K[K[K[K[Ka[K[Ka
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+1322	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ more a[4hcat Ch6S5F1 Ch6S5[4lF2 >[Student@localhost ~]$ cat Ch6S5F1 Ch6S5F2 > a[11Pmore Ch6S5F3[1Pcat[Student@localhost ~]$ cat Ch6S5F3[4hm[4lv a[Student@localhost ~]$ mv a Ch6S5F3uniq -u Ch6S5F3 > aa > Ch6S5F3[8Pcat[Student@localhost ~]$ cat Ch6S5F3[4hm[4lv a[Student@localhost ~]$ mv a Ch6S5F3cat Ch6S5F1 Ch6S5F2 > a[11Pmv a Ch6S5F3cat Ch6S5F1 Ch6S5F2 > a[11Pmv a Ch6S5F3cat Ch6S5F1 Ch6S5F2 > a[11Pmv a Ch6S5F3cat Ch6S5F1 Ch6S5F2 > a[11Pmv a Ch6S5F3sort -n +0 Ch6S5F3 > acat Ch6S5F1 Ch6S5F2 > Ch6S5F3[Student@localhost ~]$ [7Psort -n +0 Ch6S5F3 > a[1P[1P[1P[1P[1P[1P[1P[4hs[4l[Student@localhost ~]$ sort -n +0 s [1P[1P[4ha[4l[4h [4l[Student@localhost ~]$ sort -n +0 a >[1Pa[K Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +0 a > Ch6S5F3more a[K[4hcat Ch6S5F1 Ch6S5[4lF2 >[Student@localhost ~]$ cat Ch6S5F1 Ch6S5F2 > a[11Pmore Ch6S5F3[1Pcat[Student@localhost ~]$ cat Ch6S5F3[4hm[4lv a[Student@localhost ~]$ mv a Ch6S5F3uniq -u Ch6S5F3 > aa > Ch6S5F3Ch6S5F3 > a
+]0;Student@localhost:~[Student@localhost ~]$ more a
+1122	23.56	28
+1322	23.56	28
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ more a[4huniq -u Ch6S5[4lF3 >[Student@localhost ~]$ uniq -u Ch6S5F3 > asort -n +0 a > Ch6S5F3more a[K[4hcat Ch6S5F1 Ch6S5[4lF2 >[Student@localhost ~]$ cat Ch6S5F1 Ch6S5F2 > a[11Pmore Ch6S5F3[1Pcat[Student@localhost ~]$ cat Ch6S5F3[4hm[4lv a[Student@localhost ~]$ mv a Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6S5F3
+1122	23.56	28
+1322	23.56	28
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 01 May 2006 08:53:31 AM EDT

@@ -1,0 +1,106 @@
+Script started on Sun 30 Apr 2006 05:17:09 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ head /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+]0;Student@localhost:~[Student@localhost ~]$ tail /etc/passwd
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ cat > [K[Student@localhost ~]$ cat > Ch2[K^[K6SIIFI
+Juan/jj@yahoo.cp om/330-569-5211
+George/george@yahpp     hotmail.com/330-274-1999
+Anna/sister@aol.cp,  om/330-274-5615
+Ben/davisbj@hiram.edu/512-345-6 5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6SIIFI[1PCh6SIIFI[1PCh6SIIFI
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ Ch[K[Kcut -d [K-[K[Kf1-3 -d"/" Ch6SIIFI
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1-3 -d"/" Ch6SIIFI[1P[1P[Student@localhost ~]$ cut -f1 [Student@localhost ~]$ cut -f1 -[Student@localhost ~]$ cut -f1 -d[Student@localhost ~]$ cut -f1 -d"[Student@localhost ~]$ cut -f1 -d"/[Student@localhost ~]$ cut -f1 -d"/"[Student@localhost ~]$ cut -f1 -d"/" [Student@localhost ~]$ cut -f1 -d"/" C[Student@localhost ~]$ cut -f1 -d"/" Ch[Student@localhost ~]$ cut -f1 -d"/" Ch6[Student@localhost ~]$ cut -f1 -d"/" Ch6S[Student@localhost ~]$ cut -f1 -d"/" Ch6SI[Student@localhost ~]$ cut -f1 -d"/" Ch6SII[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIFI > field1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIFI > field1[Student@localhost ~]$ cut -f1[1P[4h2[4l[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIFI > field1[K2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIFI > field2[Student@localhost ~]$ cut -f2[1P[4h2[4l[1P[4h3[4l[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIFI > field2[K3
+]0;Student@localhost:~[Student@localhost ~]$ paste field1 field2 field3
+Juan	jj@yahoo.com	330-569-5211
+George	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5615
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ paste field1 field2 field3 >Ch6SII Ch6SII[Student@localhost ~]$ paste field1 field2 field3 > C[Student@localhost ~]$ paste field1 field2 field3 > Ch[Student@localhost ~]$ paste field1 field2 field3 > Ch6[Student@localhost ~]$ paste field1 field2 field3 > Ch6S[Student@localhost ~]$ paste field1 field2 field3 > Ch6SI[Student@localhost ~]$ paste field1 field2 field3 > Ch6SIIF2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF2
+Juan	jj@yahoo.com	330-569-5211
+George	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5615
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6SIIF1 Ch6SIIF3 [K[K2 > Ch6SIIf[KF3
+paste: Ch6SIIF1: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6SIIF1 Ch6SIIF2 > Ch6SIIF3[Student@localhost ~]$ paste Ch6SIIF1[1P[4hI[4l[Student@localhost ~]$ paste Ch6SIIFI Ch6SIIF2 > Ch6SIIF3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF3
+Juan/jj@yahoo.com/330-569-5211	Juan	jj@yahoo.com	330-569-5211
+George/george@hotmail.com/330-274-1999	George	george@hotmail.com	330-274-1999
+Anna/sister@aol.com/330-274-5615	Anna	sister@aol.com	330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678	Ben	davisbj@hiram.edu	512-345-5678
+Tuan/tt1234@aol.com/404-213-1434	Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S1F1
+1425	Juan	12 4.25
+4321	George	21.11
+^[[D^[[C^[[A            1451	Ben	]0;Student@localhost:~[Student@localhost ~]$ cat>[K <[K?[K> Ch6S1F1
+1425	14.25	Juan
+1451	21.77	Ben
+2277	18.77	Tuan
+4321	Geor    21.11	George
+6781	16.77	Anna
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6S1F1 Ch6SIIf[KF2 >Ch[K[K Ch6WIIF[K[K[K[KSIIF#[K3
+]0;Student@localhost:~[Student@localhost ~]$ ca[K[Kpaste Ch6S1F1 Ch6SIIF2 > Ch6SIIF3[Student@localhost ~]$ [20Pcat > Ch6S1F1[1PCh6SIIF3
+1425	14.25	Juan	Juan	jj@yahoo.com	330-569-5211
+1451	21.77	Ben	George	george@hotmail.com	330-274-1999
+2277	18.77	Tuan	Anna	sister@aol.com	330-274-5615
+4321	21.11	George	Ben	davisbj@hiram.edu	512-345-5678
+6781	16.77	Anna	Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1-3 [K, 5-6[K[K[K[K5-6 Ch6SIIF3 <[K> Ch6SIIF4
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF4
+1425	14.25	Juan	jj@yahoo.com	330-569-5211
+1451	21.77	Ben	george@hotmail.com	330-274-1999
+2277	18.77	Tuan	sister@aol.com	330-274-5615
+4321	21.11	George	davisbj@hiram.edu	512-345-5678
+6781	16.77	Anna	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF4[4hut -f1-3,5-6 Ch6SIIF3[4l >[Student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3 > Ch6SIIF4[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksort -u Ch6SIIF3
+1425	14.25	Juan	Juan	jj@yahoo.com	330-569-5211
+1451	21.77	Ben	George	george@hotmail.com	330-274-1999
+2277	18.77	Tuan	Anna	sister@aol.com	330-274-5615
+4321	21.11	George	Ben	davisbj@hiram.edu	512-345-5678
+6781	16.77	Anna	Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ sort -u Ch6SIIF3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat [K[K[K[Kcut -f1-3 Ch6W[KSIIF3 | sort -2 +[K[K[K[K+2 -3 [K > Ch6SIIF5
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1-3 Ch6SIIF3 | sort +2 -3 > Ch6SIIF5[1P[4h3[4l[Student@localhost ~]$ cut -f3-[Student@localhost ~]$ cut -f3-3[1P[Student@localhost ~]$ cut -f3[1P[4h4[4l[Student@localhost ~]$ cut -f4-[Student@localhost ~]$ cut -f4- [4h6[4l[Student@localhost ~]$ cut -f4-6 [Student@localhost ~]$ cut -f4-6 C[Student@localhost ~]$ cut -f4-6 Ch[Student@localhost ~]$ cut -f4-6 Ch6[Student@localhost ~]$ cut -f4-6 Ch6S[Student@localhost ~]$ cut -f4-6 Ch6SI[Student@localhost ~]$ cut -f4-6 Ch6SII[Student@localhost ~]$ cut -f4-6 Ch6SIIF[Student@localhost ~]$ cut -f4-6 Ch6SIIF3[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 [Student@localhost ~]$ cut -f4-6 Ch6SIIF3 |[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | [Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | s[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | so[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sor[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort [Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +2[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +2 [Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +2 -[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +2 -3[1P[4h0[4l[Student@localhost ~]$ [26Psort -u Ch6SIIF3cut -f4-6 Ch6SIIF3 | sort +0 -3 > Ch6SIIF5[1P[4h1[4l[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +0 -1 [Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +0 -1 >[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +0 -1 > [Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +0 -1 > C[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +0 -1 > Ch[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +0 -1 > Ch6[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +0 -1 > Ch6S[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +0 -1 > Ch6SI[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +0 -1 > Ch6SII[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +0 -1 > Ch6SIIF[Student@localhost ~]$ cut -f4-6 Ch6SIIF3 | sort +0 -1 > Ch6SIIF5[K6
+]0;Student@localhost:~[Student@localhost ~]$ pa[K[Kpaste Ch6SIIF5 Ch6SIIF6 | cut -f1-3,5-6 > Ch6SIIF4
+]0;Student@localhost:~[Student@localhost ~]$ cay [K[Kt Ch6SIIF4
+6781	16.77	Anna	sister@aol.com	330-274-5615
+1451	21.77	Ben	davisbj@hiram.edu	512-345-5678
+4321	21.11	George	george@hotmail.com	330-274-1999
+1425	14.25	Juan	jj@yahoo.com	330-569-5211
+2277	18.77	Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Sun 30 Apr 2006 05:58:03 PM EDT

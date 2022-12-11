@@ -1,0 +1,338 @@
+Script started on Thu 27 Apr 2006 04:18:36 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat [K[K[K[Kexitmore Ch6s2f4[4hcut -f1 Ch6s2[4lf3 >[Student@localhost ~]$ cut -f1 Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[4hcut -f2 Ch6s2[4lf3 >[Student@localhost ~]$ cut -f2 Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore Ch6s2f3vi script calapa.6.II.txt[Student@localhost ~]$ script -a[Student@localhost ~]$ script -a calapa.6.II.txt[Student@localhost ~]$ exit[Kscript calapa.6.II.txt[3Ptail -3 /etc/passwdhead[Student@localhost ~]$ head -3 /etc/passwd[3P/etc/passwdscript calapa.6.I.txt[8Pcat > newfile[2PCh6S1F1> newfilescript calapa.6.I.txt[8Pcat > newfile[2PCh6S1F1ch6s1f1[1Pvi Ch6S1F1cat 1425Juan14.25 [8Pvi Ch6S1F1cat ch6s1f1Ch6S1F1> newfilescript calapa.6.I.txt[8Pcat > newfile[2PCh6S1F1ch6s1f1[1Pvi Ch6S1F1cat 1425Juan14.25 script calapa.6.I.txtexit[Kcut -f2 | paste > Ch6s2f4[8P[Student@localhost ~]$ cut -f2 > Ch6s2f4[5Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq  Ch6s2[4lf3 >[Student@localhost ~]$ uniq  Ch6s2f3 > Ch6s2f4[11Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq -d Ch6s2[4lf3 >[Student@localhost ~]$ uniq -d Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq -u Ch6s2[4lf3 >[Student@localhost ~]$ uniq -u Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq Ch6s2[4lf3 >[Student@localhost ~]$ uniq Ch6s2f3 > Ch6s2f4[10Pmore Ch6s2f3[4hpaste Ch6s2f1 Ch6s2[4lf2 >[Student@localhost ~]$ paste Ch6s2f1 Ch6s2f2 > Ch6s2f3[Student@localhost ~]$ [19Pmore Ch6s2f21 | tr '/' '\t' > Ch6s2f22[K1 | tr '/' '<tab>' > Ch6s2f2[3Ppaste -d"/"[Student@localhost ~]$ more Ch6s2f1 | paste -d"/" > Ch6s2f22[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste [4l-d >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 Ch6s2f1 | paste -d"[4l/" >[Student@localhost ~]$ cut -f1-3 Ch6s2f1 | paste -d"/" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 Ch6s2f1 | paste -d"\[4lt" >[Student@localhost ~]$ cut -f1-3 Ch6s2f1 | paste -d"\t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"\t[4l#" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\t#" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"ta[4lb" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"tab" > Ch6s2f2[1P/" Ch6s2f1 | paste -d"" > Ch6s2f2^[Student@localhost ~]$ more Ch6s2f2[Kcut -f1-3 -d"/" Ch6s2f1 | paste -d"^I" > Ch6s2f2^[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | pas[4lte >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"/[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"/t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"\[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\t" > Ch6s2f2[1P[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"/[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"/t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"\[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"/[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"/t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"[4l\" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\" > Ch6s2f2[4ht[4l[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"/[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"/t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | pas[4lte >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[Kcut -f1-3 -d"/" Ch6s2f1 | paste -d"^I" > Ch6s2f2^[Student@localhost ~]$ more Ch6s2f2[Kcut -f1-3 -d"//" Ch6s2f1 | paste -d"" > Ch6s2f2^" Ch6s2f1 | paste -d"tab" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"\t[4l#" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\t#" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 Ch6s2f1 | paste -d"\[4lt" >[Student@localhost ~]$ cut -f1-3 Ch6s2f1 | paste -d"\t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 Ch6s2f1 | paste -d"[4l/" >[Student@localhost ~]$ cut -f1-3 Ch6s2f1 | paste -d"/" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste [4l-d >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K1 | paste -d"/" > Ch6s2f2[4htr [4l'/' '<tab>'[Student@localhost ~]$ more Ch6s2f1 | tr '/' '<tab>' > Ch6s2f22[K1 | tr '/' '\t' > Ch6s2f22[Kpaste Ch6s2f1 Ch6s2f2 > Ch6s2f3[Student@localhost ~]$ [19Pmore[Student@localhost ~]$ more Ch6s2f3uniq Ch6s2f3 > Ch6s2f4[10Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq -u Ch6s2[4lf3 >[Student@localhost ~]$ uniq -u Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq -d Ch6s2[4lf3 >[Student@localhost ~]$ uniq -d Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq  Ch6s2[4lf3 >[Student@localhost ~]$ uniq  Ch6s2f3 > Ch6s2f4[11Pmore[Student@localhost ~]$ more Ch6s2f4[4hcut -[4lf2 >[Student@localhost ~]$ cut -f2 > Ch6s2f4[4h| paste [4l[Student@localhost ~]$ cut -f2 | paste > Ch6s2f4[Student@localhost ~]$ exit[Kscript calapa.6.I.txt[3Pcat 1425Juan14.25 [8Pvi Ch6S1F1cat ch6s1f1Ch6S1F1> newfilescript calapa.6.I.txt[5Phead /etc/passwd-3 /etc/passwdtail[Student@localhost ~]$ tail -3 /etc/passwdscript calapa.6.II.txtexit[Kscript -a calapa.6.II.txt[Student@localhost ~]$ vi script[Student@localhost ~]$ vi script calapa.6.II.txt[Student@localhost ~]$ [13Pmore Ch6s2f3cut -f2 Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[4hcut -f1 Ch6s2[4lf3 >[Student@localhost ~]$ cut -f1 Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[8Pexit[K [Kcat > [K[K> Ch6s3f1
+Alphabetical Facts                 LPHABETICAL FACTS
+THE FIRE ST THREE LETTERS ARE ABC.^[[A^[[B         .^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D                                                                ^[[3~     \ THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LAT  ETTERS ARE MN
+THE LAST THREE LETTERS ARE XYZ.
+THE FIRST WOT RD ON    IN THE DICTON  IONARY IS AAL.
+THE   LAST WORD IN THE DICTONARY     IONARY IS Y ZYTHUM.
+THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG.
+THE LAST LETTER MAY BE PRONOUNCED ZEE OR ZED.
+THE FIRE ST GREEK LETTER IS AP LPHA.
+THE LSAT     AST GREEK LETTER IS OMEGA.
+]0;Student@localhost:~[Student@localhost ~]$ MORE[K[K[K[Kmore Ch6s3f1
+ALPHABETICAL FACTS
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN
+THE LAST THREE LETTERS ARE XYZ.
+THE FIRST WORD IN THE DICTIONARY IS AAL.
+THE LAST WORD IN THE DICTIONARY IS ZYTHUM.
+THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG.
+THE LAST LETTER MAY BE PRONOUNCED ZEE OR ZED.
+THE FIRST GREEK LETTER IS ALPHA.
+THE LAST GREEK LETTER IS OMEGA.
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6s3f1[1P Ch6s3f1[1P Ch6s3f1[1P Ch6s3f1[1P Ch6s3f1v Ch6s3f1i Ch6s3f1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch6s3f1" 10L, 351C[1;1HALPHABETICAL FACTS
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN
+THE LAST THREE LETTERS ARE XYZ.
+THE FIRST WORD IN THE DICTIONARY IS AAL.
+THE LAST WORD IN THE DICTIONARY IS ZYTHUM.
+THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG.
+THE LAST LETTER MAY BE PRONOUNCED ZEE OR ZED.
+THE FIRST GREEK LETTER IS ALPHA.
+THE LAST GREEK LETTER IS OMEGA.
+[1m[34m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;66H9[1;19H[?12l[?25h[?25l.[24;65H20[1;20H[?12l[?25h[?25l[24;63H2[2;20H[?12l[?25h[?25l[24;63H3[3;20H[?12l[?25h[?25l.ARE MN[24;66H1[3;21H[?12l[?25h[?25lARE MN[3;26H[K[24;66H0[3;20H[?12l[?25h[?25l[24;66H6[3;26H[?12l[?25h[?25l.[24;66H7[3;27H[?12l[?25h[24;1H[K[3;26H[?25l[24;63H3,26[10CAll[3;26H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25h[?25l"Ch6s3f1" 10L, 353C written[35C3,26[10CAll[24;63H[K[24;63H3,26[10CAll[3;26H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ tr vi Ch6s3f1[4hmo[4lre[Student@localhost ~]$ more Ch6s3f1[4hc[4lat >[Student@localhost ~]$ cat > Ch6s3f1exit[Kmore Ch6s2f4[4hcut -f1 Ch6s2[4lf3 >[Student@localhost ~]$ cut -f1 Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[4hcut -f2 Ch6s2[4lf3 >[Student@localhost ~]$ cut -f2 Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore Ch6s2f3vi script calapa.6.II.txt[Student@localhost ~]$ script -a[Student@localhost ~]$ script -a calapa.6.II.txt[Student@localhost ~]$ exit[Kscript calapa.6.II.txt[3Ptail -3 /etc/passwdhead[Student@localhost ~]$ head -3 /etc/passwd[3P/etc/passwdscript calapa.6.I.txt[8Pcat > newfile[2PCh6S1F1ch6s1f1[1Pvi Ch6S1F1cat 1425Juan14.25 script calapa.6.I.txtexit[Kcut -f2 | paste > Ch6s2f4[8P[Student@localhost ~]$ cut -f2 > Ch6s2f4[5Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq  Ch6s2[4lf3 >[Student@localhost ~]$ uniq  Ch6s2f3 > Ch6s2f4[11Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq -d Ch6s2[4lf3 >[Student@localhost ~]$ uniq -d Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq -u Ch6s2[4lf3 >[Student@localhost ~]$ uniq -u Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq Ch6s2[4lf3 >[Student@localhost ~]$ uniq Ch6s2f3 > Ch6s2f4[10Pmore Ch6s2f3[4hpaste Ch6s2f1 Ch6s2[4lf2 >[Student@localhost ~]$ paste Ch6s2f1 Ch6s2f2 > Ch6s2f3[Student@localhost ~]$ [19Pmore Ch6s2f21 | tr '/' '\t' > Ch6s2f22[K1 | tr '/' '<tab>' > Ch6s2f2[3Ppaste -d"/"[Student@localhost ~]$ more Ch6s2f1 | paste -d"/" > Ch6s2f22[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste [4l-d >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 Ch6s2f1 | paste -d"[4l/" >[Student@localhost ~]$ cut -f1-3 Ch6s2f1 | paste -d"/" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 Ch6s2f1 | paste -d"\[4lt" >[Student@localhost ~]$ cut -f1-3 Ch6s2f1 | paste -d"\t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"\t[4l#" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\t#" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 Ch6s2f1 | paste -d"\[4lt" >[Student@localhost ~]$ cut -f1-3 Ch6s2f1 | paste -d"\t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"\t[4l#" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\t#" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"ta[4lb" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"tab" > Ch6s2f2[1P/" Ch6s2f1 | paste -d"" > Ch6s2f2^[Student@localhost ~]$ more Ch6s2f2[Kcut -f1-3 -d"/" Ch6s2f1 | paste -d"^I" > Ch6s2f2^[Student@localhost ~]$ more Ch6s2f2[K [A[K[Kcut -f1-3 -d"/" Ch6s2f1 | paste > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"/[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"/t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"\[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\t" > Ch6s2f2[1P[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"/[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"/t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"\[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | pas[4lte >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste > Ch6s2f2[Student@localhost ~]$ cut -[8Pd"/" Ch6s2f1 | paste[Student@localhost ~]$ cut -d"/" Ch6s2f1 | paste Ch6s2f2[Student@localhost ~]$ man cut[Kcat Ch6s2f1> Ch6s2f1[2PCh6s2f1tail -3 /etc/passwdhead[Student@localhost ~]$ head -3 /etc/passwdexit[Kpaste Ch6s1f1 | cut -f3,2[Student@localhost ~]$ [13Pmore Ch6s1f1paste --helpf2 Ch6s1f1[2Pcut[Student@localhost ~]$ cut -f2 Ch6s1f1[2Ppaste Ch6f1s1[Kcut -f1 Ch6s1f1sort +0[Student@localhost ~]$ sort +0 Ch6s1f1[K[Kcat Ch6s1f1> Ch6s1f1[2PCh6s1f1> Ch6s1f1exit[Kscript calapa.5.VI.txt[1P.txtIV.txtexit[Kvi .bash_logout[4Punalias dir[1P-als[Kdir[1Plsunalias -adirvi .bash_logoutexit[Kscript calapa.5.IV.txt[1PV.txtI.txtexit[Kcat > Ch6s1f1[2PCh6s1f1> Ch6s1f1[2PCh6s1f1[6Psort +0 Ch6s1f1cut -f1[Student@localhost ~]$ cut -f1 Ch6s1f1[9Ppaste Ch6f1s1cut -f2 Ch6s1f1[4hpa[4lste[Student@localhost ~]$ paste -f2 Ch6s1f1[5P-helpmore Ch6s1f1paste Ch6s1f1 | cut -f3,2[Student@localhost ~]$ exit[Khead -3 /etc/passwdtail[Student@localhost ~]$ tail -3 /etc/passwd[8Pcat Ch6s2f1> Ch6s2f1[2PCh6s2f1[4Pman cutcut -d"/" Ch6s2f1 | paste Ch6s2f2[4hf1-3 -d"[4l/" Ch6s2f1 | paste >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"\[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"/[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"/t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"[4l\" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\" > Ch6s2f2[4ht[4l[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"/[4lt" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"/t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | pas[4lte >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2 [Kcut -f1-3 -d"/" Ch6s2f1 | paste -d"^I" > Ch6s2f2^[Student@localhost ~]$ more Ch6s2f2[Kcut -f1-3 -d"//" Ch6s2f1 | paste -d"" > Ch6s2f2^" Ch6s2f1 | paste -d"tab" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste -d"\t[4l#" >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d"\t#" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 Ch6s2f1 | paste -d"\[4lt" >[Student@localhost ~]$ cut -f1-3 Ch6s2f1 | paste -d"\t" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 Ch6s2f1 | paste -d"[4l/" >[Student@localhost ~]$ cut -f1-3 Ch6s2f1 | paste -d"/" > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K[4hcut -f1-3 -d"/" Ch6s2f1 | paste [4l-d >[Student@localhost ~]$ cut -f1-3 -d"/" Ch6s2f1 | paste -d > Ch6s2f2[Student@localhost ~]$ more Ch6s2f2[K1 | paste -d"/" > Ch6s2f2[4htr [4l'/' '<tab>'[Student@localhost ~]$ more Ch6s2f1 | tr '/' '<tab>' > Ch6s2f22[K1 | tr '/' '\t' > Ch6s2f22[Kpaste Ch6s2f1 Ch6s2f2 > Ch6s2f3[Student@localhost ~]$ [19Pmore[Student@localhost ~]$ more Ch6s2f3uniq Ch6s2f3 > Ch6s2f4[10Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq -u Ch6s2[4lf3 >[Student@localhost ~]$ uniq -u Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq -d Ch6s2[4lf3 >[Student@localhost ~]$ uniq -d Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[4huniq  Ch6s2[4lf3 >[Student@localhost ~]$ uniq  Ch6s2f3 > Ch6s2f4[11Pmore[Student@localhost ~]$ more Ch6s2f4[4hcut -[4lf2 >[Student@localhost ~]$ cut -f2 > Ch6s2f4[4h| paste [4l[Student@localhost ~]$ cut -f2 | paste > Ch6s2f4[Student@localhost ~]$ exit[Kscript calapa.6.I.txt[3Pcat 1425Juan14.25 [8Pvi Ch6S1F1cat ch6s1f1Ch6S1F1> newfilescript calapa.6.I.txt[5Phead /etc/passwd-3 /etc/passwdtail[Student@localhost ~]$ tail -3 /etc/passwdscript calapa.6.II.txtexit[Kscript -a calapa.6.II.txt[Student@localhost ~]$ vi script[Student@localhost ~]$ vi script calapa.6.II.txt[Student@localhost ~]$ [13Pmore Ch6s2f3cut -f2 Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[4hcut -f1 Ch6s2[4lf3 >[Student@localhost ~]$ cut -f1 Ch6s2f3 > Ch6s2f4[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s2f4[8Pexitcat > Ch6s3f1[1Pmore[Student@localhost ~]$ more Ch6s3f1[2Pvi[Student@localhost ~]$ vi Ch6s3f1tr [K[Student@localhost ~]$ tr [Student@localhost ~]$ tr [Student@localhost ~]$ tr [Student@localhost ~]$ tr [Student@localhost ~]$ tr [Student@localhost ~]$ tr [Student@localhost ~]$ tr [Student@localhost ~]$ tr [Student@localhost ~]$ tr [1P[1P [Kcat Ch6s3f1 | tr '[A-S[KZ]' '[F-E]'
+tr: range-endpoints of `F-E' are in reverse collating sequence order
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-Z]' '[F-E]'[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-Z]' [Student@localhost ~]$ cat Ch6s3f1 | tr '[A-Z]' '[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-Z]' '[[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-Z]' '[F[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-Z]' '[F-[1P[4hU[4l[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-U][Student@localhost ~]$ cat Ch6s3f1 | tr '[A-U]'[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-U]' [Student@localhost ~]$ cat Ch6s3f1 | tr '[A-U]' '[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-U]' '[[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-U]' '[F[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-U]' '[F-[1P]'Z]'
+FQUMFGJYNHFQ KFHYX.
+YMJ KNWXY YMWJJ QJYYJWX FWJ FGH.
+YMJ RJINFS QJYYJWX FWJ RS.
+YMJ QFXY YMWJJ QJYYJWX FWJ XYZ.
+YMJ KNWXY WTWI NS YMJ INHYNTSFWY NX FFQ.
+YMJ QFXY WTWI NS YMJ INHYNTSFWY NX ZYYMZR.
+YMJ VZNHP GWTWS KTX OZRUJI TVJW YMJ QFZY ITL.
+YMJ QFXY QJYYJW RFY GJ UWTSTZSHJI ZJJ TW ZJI.
+YMJ KNWXY LWJJP QJYYJW NX FQUMF.
+YMJ QFXY LWJJP QJYYJW NX TRJLF.
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-U]' '[F-Z]' && '[v[KV-Z]' '[A-E]'
+FQUMFGJYNHFQ KFHYX.
+YMJ KNWXY YMWJJ QJYYJWX FWJ FGH.
+YMJ RJINFS QJYYJWX FWJ RS.
+YMJ QFXY YMWJJ QJYYJWX FWJ XYZ.
+YMJ KNWXY WTWI NS YMJ INHYNTSFWY NX FFQ.
+YMJ QFXY WTWI NS YMJ INHYNTSFWY NX ZYYMZR.
+YMJ VZNHP GWTWS KTX OZRUJI TVJW YMJ QFZY ITL.
+YMJ QFXY QJYYJW RFY GJ UWTSTZSHJI ZJJ TW ZJI.
+YMJ KNWXY LWJJP QJYYJW NX FQUMF.
+YMJ QFXY LWJJP QJYYJW NX TRJLF.
+bash: [V-Z]: command not found
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-U]' '[F-Z]' && '[V-Z]' '[A-E]'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Student@localhost ~]$ [Kman tr
+[?1049h[?1h=[24;1H[KTR(1)                            User Commands                           TR(1)
+
+[1mNAME[0m
+       tr - translate or delete characters
+
+[1mSYNOPSIS[0m
+       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m]
+
+[1mDESCRIPTION[0m
+       Translate, squeeze, and/or delete characters from standard input, writ-
+       ing to standard output.
+
+       [1m-c[0m, [1m--complement[0m
+              first complement SET1
+
+       [1m-d[0m, [1m--delete[0m
+              delete characters in SET1, do not translate
+
+       [1m-s[0m, [1m--squeeze-repeats[0m
+              replace each input sequence of  a  repeated  character  that  is
+              listed in SET1 with a single occurrence of that character
+
+       [1m-t[0m, [1m--truncate-set1[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              first truncate SET1 to length of SET2
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       SETs  are  specified  as  strings  of characters.  Most represent them-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       selves.  Interpreted sequences are:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \NNN   character with octal value NNN (1 to 3 octal digits)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \\     backslash
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \a     audible BEL
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \b     backspace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \f     form feed
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \n     new line
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \r     return
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \t     horizontal tab
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \v     vertical tab
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       CHAR1-CHAR2
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all characters from CHAR1 to CHAR2 in ascending order
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [CHAR*]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              in SET2, copies of CHAR until length of SET1
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [CHAR*REPEAT]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              REPEAT copies of CHAR, REPEAT octal if starting with 0
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:alnum:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all letters and digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:alpha:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:blank:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all horizontal whitespace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:cntrl:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all control characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:digit:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:graph:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all printable characters, not including space
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:lower:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all lower case letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:print:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all printable characters, including space
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:punct:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all punctuation characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:space:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all horizontal or vertical whitespace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:upper:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all upper case letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:xdigit:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all hexadecimal digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [=CHAR=]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all characters which are equivalent to CHAR
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Translation occurs if [1m-d[0m is not given and both SET1  and  SET2  appear.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-t[0m  may  be  used only when translating.  SET2 is extended to length of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       SET1 by repeating its last character as necessary.   Excess  characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       of  SET2  are  ignored.  Only [:lower:] and [:upper:] are guaranteed to
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       expand in ascending order; used in SET2  while  translating,  they  may
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       only  be used in pairs to specify case conversion.  [1m-s[0m uses SET1 if not
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       translating nor deleting; else squeezing uses  SET2  and  occurs  after
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       translation or deletion.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mAUTHOR[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Written by Jim Meyering.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mREPORTING[0m [1mBUGS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Report bugs to <bug-coreutils@gnu.org>.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mCOPYRIGHT[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Copyright © 2004 Free Software Foundation, Inc.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       This is free software; see the source for copying conditions.  There is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       NO warranty; not even for MERCHANTABILITY or FITNESS FOR  A  PARTICULAR
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       PURPOSE.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mSEE[0m [1mALSO[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all characters which are equivalent to CHAR
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [=CHAR=]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all hexadecimal digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:xdigit:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all upper case letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:upper:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all horizontal or vertical whitespace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:space:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all punctuation characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:punct:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all printable characters, including space
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:print:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all lower case letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:lower:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all printable characters, not including space
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:graph:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:digit:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all control characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:cntrl:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all horizontal whitespace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:blank:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:alpha:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all letters and digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:alnum:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              REPEAT copies of CHAR, REPEAT octal if starting with 0
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [CHAR*REPEAT]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              in SET2, copies of CHAR until length of SET1
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [CHAR*]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all characters from CHAR1 to CHAR2 in ascending order
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       CHAR1-CHAR2
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       \v     vertical tab
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       \t     horizontal tab
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       \r     return
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       \n     new line
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       \f     form feed
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       \b     backspace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       \a     audible BEL
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       \\     backslash
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       \NNN   character with octal value NNN (1 to 3 octal digits)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       selves.  Interpreted sequences are:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       SETs  are  specified  as  strings  of characters.  Most represent them-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              first truncate SET1 to length of SET2
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-t[0m, [1m--truncate-set1[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              listed in SET1 with a single occurrence of that character
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \n     new line
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \r     return
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              first truncate SET1 to length of SET2
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-t[0m, [1m--truncate-set1[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              listed in SET1 with a single occurrence of that character
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              replace each input sequence of  a  repeated  character  that  is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-s[0m, [1m--squeeze-repeats[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              delete characters in SET1, do not translate
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-d[0m, [1m--delete[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              first complement SET1
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-c[0m, [1m--complement[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       ing to standard output.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       Translate, squeeze, and/or delete characters from standard input, writ-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mDESCRIPTION[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       SETs  are  specified  as  strings  of characters.  Most represent them-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mSYNOPSIS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       tr - translate or delete characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mNAME[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HMTR(1)                            User Commands                           TR(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              first truncate SET1 to length of SET2
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mNAME[0m
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;Student@localhost:~[Student@localhost ~]$ man trcat Ch6s3f1 | tr '[A-U]' '[F-Z]'Z]' '[F-E]'[Student@localhost ~]$ vi Ch6s3f1[K[4hmo[4lre[Student@localhost ~]$ more Ch6s3f1[4hc[4lat >[Student@localhost ~]$ cat > Ch6s3f1[1Pmore[Student@localhost ~]$ more Ch6s3f1[2Pvi[Student@localhost ~]$ vi Ch6s3f1cat Ch6s3f1 | tr '[A-Z]' '[F-E]'U]' '[F-Z]'[Student@localhost ~]$ man tr[Kcat Ch6s3f1 | tr '[A-U]' '[F-Z]'[Student@localhost ~]$ man tr[K[Kman trcat Ch6s3f1 | tr '[A-U]' '[F-Z]'[1P]'[1P]'[1P]'V]'-]'Z]'[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-U]' '[V-Z][Student@localhost ~]$ cat Ch6s3f1 | tr '[A-U]' '[V-Z]' [K[K[K[K[K[K[K[K[K[K[K, V-[K[K[K[K [Kv_z[K[K[KV-Z]' '[F[KE-Z[1P-ZF-Z[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-UV-Z]' '[F-[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-UV-Z]' '[F-ZA-E]'
+FQUMFGJYNHFQ KFHYX.
+YMJ KNWXY YMWJJ QJYYJWX FWJ FGH.
+YMJ RJINFS QJYYJWX FWJ RS.
+YMJ QFXY YMWJJ QJYYJWX FWJ CDE.
+YMJ KNWXY BTWI NS YMJ INHYNTSFWD NX FFQ.
+YMJ QFXY BTWI NS YMJ INHYNTSFWD NX EDYMZR.
+YMJ VZNHP GWTBS KTC OZRUJI TAJW YMJ QFED ITL.
+YMJ QFXY QJYYJW RFD GJ UWTSTZSHJI EJJ TW EJI.
+YMJ KNWXY LWJJP QJYYJW NX FQUMF.
+YMJ QFXY LWJJP QJYYJW NX TRJLF.
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-UV-Z]' '[F-ZA-E]' > Ch6s3f1Encr\
+> cat Ch6s3f1 | tr '[A-UV-Z]' '[F-ZA-E]' > Ch6s3f1Encr\> [K
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-UV-Z]' '[F-ZA-E]' > Ch6s3f1Encr\[K
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6s3f1Encr
+FQUMFGJYNHFQ KFHYX.
+YMJ KNWXY YMWJJ QJYYJWX FWJ FGH.
+YMJ RJINFS QJYYJWX FWJ RS.
+YMJ QFXY YMWJJ QJYYJWX FWJ CDE.
+YMJ KNWXY BTWI NS YMJ INHYNTSFWD NX FFQ.
+YMJ QFXY BTWI NS YMJ INHYNTSFWD NX EDYMZR.
+YMJ VZNHP GWTBS KTC OZRUJI TAJW YMJ QFED ITL.
+YMJ QFXY QJYYJW RFD GJ UWTSTZSHJI EJJ TW EJI.
+YMJ KNWXY LWJJP QJYYJW NX FQUMF.
+YMJ QFXY LWJJP QJYYJW NX TRJLF.
+]0;Student@localhost:~[Student@localhost ~]$ cat [K[K[K[Kmore Ch6s3f1Encr[4hcat Ch6s3f1 | tr '[A-UV-Z]' '[F-ZA-E[4l]' >[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-UV-Z]' '[F-ZA-E]' > Ch6s3f1Encr[Student@localhost ~]$ more Ch6s3f1Encr[K[1P Ch6s3f1Encr[1P Ch6s3f1Encr[1P Ch6s3f1Encr[1P Ch6s3f1Encrc Ch6s3f1Encra Ch6s3f1Encrt Ch6s3f1Encr
+FQUMFGJYNHFQ KFHYX.
+YMJ KNWXY YMWJJ QJYYJWX FWJ FGH.
+YMJ RJINFS QJYYJWX FWJ RS.
+YMJ QFXY YMWJJ QJYYJWX FWJ CDE.
+YMJ KNWXY BTWI NS YMJ INHYNTSFWD NX FFQ.
+YMJ QFXY BTWI NS YMJ INHYNTSFWD NX EDYMZR.
+YMJ VZNHP GWTBS KTC OZRUJI TAJW YMJ QFED ITL.
+YMJ QFXY QJYYJW RFD GJ UWTSTZSHJI EJJ TW EJI.
+YMJ KNWXY LWJJP QJYYJW NX FQUMF.
+YMJ QFXY LWJJP QJYYJW NX TRJLF.
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6s3f1Encr[4hm[4lore[Student@localhost ~]$ more Ch6s3f1Encr[4hcat Ch6s3f1 | tr '[A-UV-Z]' '[F-ZA-E[4l]' >[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-UV-Z]' '[F-ZA-E]' > Ch6s3f1Encr[1P[4hf[4l[1P[4hF[4l[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-[1P[4hZ[4l[1P[4hA[4l[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-[1P[4hE[4l[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E][Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]'[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' [Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[[1P[4hA[4l[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-[1P[4hU[4l[1P[4hV[4l[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-E[1P[4hZ[4l[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z][Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z]'[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z]' [Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z]' >[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z]' > [Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z]' > C[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z]' > Ch[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z]' > Ch6[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z]' > Ch6s[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z]' > Ch6s3[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z]' > Ch6s3f[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z]' > Ch6s3f1[1Pncr[1Pcr[1Pr[K
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6s3f1
+]0;Student@localhost:~[Student@localhost ~]$ more [K[K[K[K[Kcat Ch6s3f1
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6s3f1
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6s3f1[1Pcat[Student@localhost ~]$ cat Ch6s3f1 | tr '[F-ZA-E]' '[A-UV-Z]' > Ch6s3f1[Student@localhost ~]$ cat Ch6s3f1Encr[K[4hm[4lore[Student@localhost ~]$ more Ch6s3f1Encr[4hcat Ch6s3f1 | tr '[A-UV-Z]' '[F-ZA-E[4l]' >[Student@localhost ~]$ cat Ch6s3f1 | tr '[A-UV-Z]' '[F-ZA-E]' > Ch6s3f1Encr[Student@localhost ~]$ more Ch6s3f1Encr[K[1Pcat[Student@localhost ~]$ cat Ch6s3f1Encr | tr '[F-ZA-E]' '[A-UV-Z]' > Ch6s3f1[Student@localhost ~]$ cat Ch6s3f1[K | tr '[F-ZA-E]' '[A-UV-Z]' > Ch6s3f1[Student@localhost ~]$ cat Ch6s3f1[K[4hm[4lore[Student@localhost ~]$ more Ch6s3f1[Kexit
+
+Script done on Thu 27 Apr 2006 04:51:01 PM EDT

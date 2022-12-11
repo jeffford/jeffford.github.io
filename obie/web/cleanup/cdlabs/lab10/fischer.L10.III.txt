@@ -1,0 +1,80 @@
+Script started on Thu 04 May 2006 06:43:41 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ exitmore Ch10s3f5 egrep '[0-2][0-9]$' Ch10s3f1 |egrep -v '[2][5-9]$' > Ch100s3f4[A[Student@localhost ~]$  egrep '[[19P2][5-9]$' Ch10s3f1 > Ch10s3f5
+[K[A[Student@localhost ~]$  egrep '[2][5-9]$' Ch10s3f1 > Ch10s3f54[Student@localhost ~]$ [25Pmore[Student@localhost ~]$ more Ch10s3f4 egrep '[0-2][0-9]$' Ch10s3f1 |egrep -v '[2][5-9]$' > Ch100s3f4[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4[4h egrep '[0-2][0-9]$' Ch10s3[4lf1 >[Student@localhost ~]$  egrep '[0-2][0-9]$' Ch10s3f1 > Ch10s3f4[Student@localhost ~]$ more Ch10s3f4[K[4h egrep '[0-2][0-9]$'Ch10s3[4lf1 >[Student@localhost ~]$  egrep '[0-2][0-9]$'Ch10s3f1 > Ch10s3f4[Student@localhost ~]$ [26Pmore[Student@localhost ~]$ more Ch10s3f4 egrep '[0-2][0-9]$'Ch10s3f1 |egrep -v '[2][5-9]$' > Ch10ss3f4[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4 egrep '.........[0-2][0-9]'Ch10s3f1 |egrep -v '.........[[2][5-9]' > Ch10s3f4[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4 egrep '......[0-2][0-9]'Ch10s3f1 |egrep -v '......[2][5-99]' > Ch10s3f4[A[Student@localhost ~]$  egrep '......[0-2][0-9]'|egrep -v '[2][5-9]'  > Ch10s3f4 [K[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4cut -f4 Ch10s3f1 | egrep '[0-2][0-9]'|egrep -v '[2][5-9]'   > Ch10s3f4[A[Student@localhost ~]$ cut -f4 Ch10s3f1 | egrep '[0-2][0-9]'|egrep -v '[2][5-9]  [1P > Ch10s3f4[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4-s3f4cut -f4 Ch10s3f1 | egrep '[0-24]' > Ch10s3f4[Student@localhost ~]$ more Ch10s3f3[K[4hegrep 'CIS'  Ch10s3[4lf1 >[Student@localhost ~]$ egrep 'CIS'  Ch10s3f1 > Ch10s3f3\<1\>' Ch10s3f1 > Ch10s3f2[2PCIS[Student@localhost ~]$ egrep 'CIS' Ch10s3f1 > Ch10s3f2[4h\<[4l1\>[Student@localhost ~]$ egrep '\<1\>' Ch10s3f1 > Ch10s3f2[K[1P\< 1\>[Student@localhost ~]$ egrep \< 1\> Ch10s3f1[4h [4l[Student@localhost ~]$ egrep \< 1 \> Ch10s3f1[2P1[Student@localhost ~]$ egrep \<1\> Ch10s3f1[3P1.[Student@localhost ~]$ egrep 1. Ch10s3f1[4Pmore[Student@localhost ~]$ more Ch10s3f1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PhE	17	2	25
+CIS	54	2	67
+
+]0;Student@localhost:~[Student@localhost ~]$ more Ch10s3f1exit[Kmore Ch10s3f5 egrep '[0-2][0-9]$' Ch10s3f1 |egrep -v '[2][5-9]$' > Ch100s3f4[A[Student@localhost ~]$  egrep '[[19P2][5-9]$' Ch10s3f1 > Ch10s3f5
+[K[A[Student@localhost ~]$  egrep '[2][5-9]$' Ch10s3f1 > Ch10s3f54[Student@localhost ~]$ [25Pmore[Student@localhost ~]$ more Ch10s3f4 egrep '[0-2][0-9]$' Ch10s3f1 |egrep -v '[2][5-9]$' > Ch100s3f4[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4[4h egrep '[0-2][0-9]$' Ch10s3[4lf1 >[Student@localhost ~]$  egrep '[0-2][0-9]$' Ch10s3f1 > Ch10s3f4[Student@localhost ~]$ more Ch10s3f4[K[4h egrep '[0-2][0-9]$'Ch10s3[4lf1 >[Student@localhost ~]$  egrep '[0-2][0-9]$'Ch10s3f1 > Ch10s3f4[Student@localhost ~]$ [26Pmore[Student@localhost ~]$ more Ch10s3f4 egrep '[0-2][0-9]$'Ch10s3f1 |egrep -v '[2][5-9]$' > Ch10ss3f4[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4 egrep '.........[0-2][0-9]'Ch10s3f1 |egrep -v '.........[[2][5-9]' > Ch10s3f4[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4 egrep '......[0-2][0-9]'Ch10s3f1 |egrep -v '......[2][5-99]' > Ch10s3f4[A[Student@localhost ~]$  egrep '......[0-2][0-9]'|egrep -v '[2][5-9]'  > Ch10s3f4 [K[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4cut -f4 Ch10s3f1 | egrep '[0-2][0-9]'|egrep -v '[2][5-9]'   > Ch10s3f4[A[Student@localhost ~]$ cut -f4 Ch10s3f1 | egrep '[0-2][0-9]'|egrep -v '[2][5-9]  [1P > Ch10s3f4[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4-s3f4cut -f4 Ch10s3f1 | egrep '[0-24]' > Ch10s3f4[Student@localhost ~]$ more Ch10s3f3[K[4hegrep 'CIS'  Ch10s3[4lf1 >[Student@localhost ~]$ egrep 'CIS'  Ch10s3f1 > Ch10s3f3\<1\>' Ch10s3f1 > Ch10s3f2
+]0;Student@localhost:~[Student@localhost ~]$ egrep '\<1\>' Ch10s3f1 > Ch10s3f2[Student@localhost ~]$ [20Pmore Ch10s3f1exit[Kmore Ch10s3f5 egrep '[0-2][0-9]$' Ch10s3f1 |egrep -v '[2][5-9]$' > Ch100s3f4[A[Student@localhost ~]$  egrep '[[19P2][5-9]$' Ch10s3f1 > Ch10s3f5
+[K[A[Student@localhost ~]$  egrep '[2][5-9]$' Ch10s3f1 > Ch10s3f54[Student@localhost ~]$ [25Pmore[Student@localhost ~]$ more Ch10s3f4 egrep '[0-2][0-9]$' Ch10s3f1 |egrep -v '[2][5-9]$' > Ch100s3f4[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4[4h egrep '[0-2][0-9]$' Ch10s3[4lf1 >[Student@localhost ~]$  egrep '[0-2][0-9]$' Ch10s3f1 > Ch10s3f4[Student@localhost ~]$ more Ch10s3f4[K[4h egrep '[0-2][0-9]$'Ch10s3[4lf1 >[Student@localhost ~]$  egrep '[0-2][0-9]$'Ch10s3f1 > Ch10s3f4[Student@localhost ~]$ [26Pmore[Student@localhost ~]$ more Ch10s3f4 egrep '[0-2][0-9]$'Ch10s3f1 |egrep -v '[2][5-9]$' > Ch10ss3f4[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4 egrep '.........[0-2][0-9]'Ch10s3f1 |egrep -v '.........[[2][5-9]' > Ch10s3f4[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4 egrep '......[0-2][0-9]'Ch10s3f1 |egrep -v '......[2][5-99]' > Ch10s3f4[A[Student@localhost ~]$  egrep '......[0-2][0-9]'|egrep -v '[2][5-9]'  > Ch10s3f4 [K[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4cut -f4 Ch10s3f1 | egrep '[0-2][0-9]'|egrep -v '[2][5-9]'   > Ch10s3f4[A[Student@localhost ~]$ cut -f4 Ch10s3f1 | egrep '[0-2][0-9]'|egrep -v '[2][5-9]  [1P > Ch10s3f4[A[Student@localhost ~]$ more Ch10s3f4[K
+[K[A[Student@localhost ~]$ more Ch10s3f4-s3f4cut -f4 Ch10s3f1 | egrep '[0-24]' > Ch10s3f4[Student@localhost ~]$ more Ch10s3f3[K[4hegrep 'CIS'  Ch10s3[4lf1 >[Student@localhost ~]$ egrep 'CIS'  Ch10s3f1 > Ch10s3f3
+]0;Student@localhost:~[Student@localhost ~]$ egrep 'CIS'  Ch10s3f1 > Ch10s3f3\<1\>' Ch10s3f1 > Ch10s3f2[Student@localhost ~]$ [20Pmore Ch10s3f1exit[Kmore Ch10s3f5 egrep '[0-2][0-9]$' Ch10s3f1 |egrep -v '[2][5-9]$' > Ch100s3f4
+]0;Student@localhost:~[Student@localhost ~]$  egrep '[0-2][0-9]$' Ch10s3f1 |egrep -v '[2][5-9]$' > Ch100s3f4[A[Student@localhost ~]$ [25Pegrep 'CIS'  Ch10s3f1 > Ch10s3f3
+[K[A[Student@localhost ~]$ egrep 'CIS'  Ch10s3f1 > Ch10s3f3\<1\>' Ch10s3f1 > Ch10s3f2[Student@localhost ~]$ [20Pmore Ch10s3f1exit[Kmore Ch10s3f5 egrep '[0-2][0-9]$' Ch10s3f1 |egrep -v '[2][5-9]$' > Ch100s3f4[A[Student@localhost ~]$  egrep '[[19P2][5-9]$' Ch10s3f1 > Ch10s3f5
+[K[A[Student@localhost ~]$  egrep '[2][5-9]$' Ch10s3f1 > Ch10s3f54[K5[Student@localhost ~]$  egrep '[2][5-9]$' Ch10[Student@localhost ~]$  egrep '[2][5-9]$' Ch10s[Student@localhost ~]$  egrep '[2][5-9]$' Ch10s3[Student@localhost ~]$  egrep '[2][5-9]$' Ch10s3f[Student@localhost ~]$  egrep '[2][5-9]$' Ch10s3f1[Student@localhost ~]$  egrep '[2][5-9]$' Ch10s3f1 [4h|[4l[4h [4l[4he[4l[4hg[4l[4hr[4l[4he[4l[4hp[4l[4h [4l[4h-[4l[4hv[4l[4h [4l[4h-[4l[4h3[4l[Student@localhost ~]$  egrep '[2-3][Student@localhost ~]$  egrep '[2-3][[4h0[4l[4h\[4l[Student@localhost ~]$  egrep '[2-3][0\5[Student@localhost ~]$  egrep '[2-3][0\5-[Student@localhost ~]$  egrep '[2-3][0\5-9[Student@localhost ~]$  egrep '[2-3][0\5-9][Student@localhost ~]$  egrep '[2-3][0\5-9]$[Student@localhost ~]$  egrep '[2-3][0\5-9]$'[Student@localhost ~]$  egrep '[2-3][0\5-9]$' [Student@localhost ~]$  egrep '[2-3][0\5-9]$' C[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch1[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 [Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 |[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | [Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | e[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | eg[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egr[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egre[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep [Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v [4h [4l[4h'[4l[4h[[4l3 > Ch10s3f5 [A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3] > Ch10s3f55[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][ > Ch10s3f5[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5 > Ch10s3f5[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5- > Ch10s3f5[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9 > Ch10s3f5[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9] > Ch10s3f5[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]' > Ch10s3f5[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]'
+
+]0;Student@localhost:~[Student@localhost ~]$ more Ch10s3f1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PhE	17	2	25
+CIS	54	2	67
+
+]0;Student@localhost:~[Student@localhost ~]$ more Ch10s3f1[K2
+CIS	15	1	45
+CIS	54	1	20
+CIS	45	1	38
+MTH	35	1	56
+]0;Student@localhost:~[Student@localhost ~]$ more Ch10s3f21 egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]' > Chh10s3f5[A[Student@localhost ~]$  egrep '[0-2][0-9]$' Ch10s3f1 |egrep -v '[2][5-9]$' > Ch10[2Ps3f4[A[Student@localhost ~]$ [25Pegrep 'CIS'  Ch10s3f1 > Ch10s3f3
+[K[A[Student@localhost ~]$ egrep 'CIS'  Ch10s3f1 > Ch10s3f3
+]0;Student@localhost:~[Student@localhost ~]$ egrep 'CIS'  Ch10s3f1 > Ch10s3f3[Student@localhost ~]$ [19Pmore Ch10s3f2
+CIS	15	1	45
+CIS	54	1	20
+CIS	45	1	38
+MTH	35	1	56
+]0;Student@localhost:~[Student@localhost ~]$ more Ch10s3f2egrep 'CIS'  Ch10s3f1 > Ch10s3f3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmore Ch10s3f2[K3
+CIS	15	1	45
+CIS	54	1	20
+CIS	45	1	38
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ more Ch10s3f3[K4
+CIS	54	1	20
+BUS	34	2	20
+]0;Student@localhost:~[Student@localhost ~]$ more Ch10s3f4[K5
+CIS	54	1	20
+BUS	34	2	20
+PhE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ more Ch10s3f5432[Kmore Ch10s3f21 egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]' > Chh10s3f5[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]' > [Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9][Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]'\ > Ch10s3f5[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]'\ > Ch[1P10s3f5[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]'[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]'  > Ch10s3f5[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]' | > Ch10s3f5[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]' |[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]' |  > Ch10s3f5[A[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]' | e > Ch10s3f5[4hg[4l[4hr[4l[4he[4l[4hp[4lgrep [4h [4l[4h-[4l[4hv[4lgrep -v [4h [4l[4h'[4l[4h[[4l[4h2[4l[4h][4l[4h[[4l[4h0[4l[4h][4l[4h'[4l
+]0;Student@localhost:~[Student@localhost ~]$  egrep '[2-3][0\5-9]$' Ch10s3f1 | egrep -v '[3][5-9]' | eggrep -v '[2][0]' > Ch10s3f5[Amore Ch10s3f5[K
+[K[A[Student@localhost ~]$ more Ch10s3f5
+PhE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Thu 04 May 2006 06:48:28 AM EDT

@@ -1,0 +1,14 @@
+Stuart Lee Stevenson
+Lab 4
+Sessions I and II
+
+L4.I.3) 0077 is the umask, which means that the permission is 700
+L4.I.7) Yes
+L4.I.11) It's 600, because a text file can't be executed.  The difference between files and directories is that Directories can be run (executed), whereas files are opened.
+L4.I.12) Other users in my group would not have access to this file, nor do those outside of the group and myself, and this is shown by the permission code of 600.
+
+L4.II.5) Permission is drwxr-xr-x for the garbage directory
+L4.II.6) The default permission for the directories is 667
+L4.II.7) Yes, the garbage directory changed was changed, because I altered the umask within the Home directory, which impacts all directories below it.
+L4.II.10) drw-rw-r--
+L4.II.12) Because I didn't have the execute ability to access the file, so I used the chmod command to alter the permission.

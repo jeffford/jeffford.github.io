@@ -1,0 +1,98 @@
+Script started on Mon 24 Apr 2006 07:48:49 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ find -name hw4
+./assignments/UNIX/hw4
+]0;Student@localhost:~[Student@localhost ~]$ find -name hw4.bk.[K
+]0;Student@localhost:~[Student@localhost ~]$ find -name hw4.bk.
+./assignments/UNIX/hw4.bk.
+]0;Student@localhost:~[Student@localhost ~]$ find -name hw4.bk.[K[K[K[KHL
+./assignments/UNIX/hw4HL
+]0;Student@localhost:~[Student@localhost ~]$ find -name hw4HL[K[KSL
+./assignments/UNIX/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ cp .[Kfind -name hw4SL[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcp ./assignments/UNIX/hw4 ha[K[Kbackups
+]0;Student@localhost:~[Student@localhost ~]$ cp ./assignments/UNIX/hw4 backups. backupsb backupsk backups. backups
+]0;Student@localhost:~[Student@localhost ~]$ cp ./assignments/UNIX/hw4.bk. backups[Student@localhost ~]$ cp ./assignments/UNIX/hw4.bk[Student@localhost ~]$ cp ./assignments/UNIX/hw4.bk.[1P backups[1P backups[1P backups[1P backupsH backupsL backups
+]0;Student@localhost:~[Student@localhost ~]$ cp ./assignments/UNIX/hw4HL backups[1P backups[1P backupsS backupsL backups
+]0;Student@localhost:~[Student@localhost ~]$ ls -i /[K./assignments/UNIX/hw4
+[00m1431793 [00m./assignments/UNIX/hw4[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -i ./assignments/UNIX/hw4.bk.
+[00m1431810 [00m./assignments/UNIX/hw4.bk.[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -i ./assignments/UNIX/hw4.bk.[K[K[K[KHL
+[00m1431793 [00m./assignments/UNIX/hw4HL[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -i ./assignments/UNIX/hw4HL[K[K[K4SL
+[00m1431793 [00m./assignments/UNIX/hw4SL[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -i ./assignments/UNIX/hw4SL[Student@localhost ~]$ ls -i ./assignments/UNIX/hw[Student@localhost ~]$ ls -i ./assignments/UNIX/hw4[Student@localhost ~]$ ls -i ./assignments/UNIX/hw4S[Student@localhost ~]$ ls -i ./assignments/UNIX/hw4SL[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kbackups/hw4
+[00m1431803 [00m./backups/hw4[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -i ./backups/hw4.bk.
+[00m1431833 [00m./backups/hw4.bk.[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -i ./backups/hw4.bk.[K[K[K[Kh[KHL
+[00m1431847 [00m./backups/hw4HL[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -i ./backups/hw4HL[K[KSL
+[00m1431899 [00m./backups/hw4SL[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ rm hw4
+rm: cannot remove `hw4': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ rm ./assignmetn[K[Knts/UNIX/hw4
+]0;Student@localhost:~[Student@localhost ~]$ ls backups
+[00m[00mhw4[00m  [00mhw4.bk.[00m  [00mhw4HL[00m  [00mhw4SL[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls assignmetns[K[K[Knts/UNIX
+[00m[00mhw4.bk.[00m  [00mhw4HL[00m  [00mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ more backups/wh4[K[K[Khw4
+I really enjoy my martial art activities.
+]0;Student@localhost:~[Student@localhost ~]$ more backups/hw4.bk.
+I really enjoy my martial art activities.
+]0;Student@localhost:~[Student@localhost ~]$ more backups/hw4.bk.[K[K[K[KHL
+I really enjoy my martial art activities.
+]0;Student@localhost:~[Student@localhost ~]$ more backups/hw4HL[K[KSL
+I really enjoy my martial art activities.
+]0;Student@localhost:~[Student@localhost ~]$ more backups/hw4SL[K[K[K[K[K[K[K[K[K[K[K[K[Kassignments/I[KUNIX/hw4
+assignments/UNIX/hw4: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ more assignments/UNIX/hw4.bkb[K.
+I really enjoy my martial art activities.
+]0;Student@localhost:~[Student@localhost ~]$ more assignments/UNIX/hw4.bk.[K[K[K[KHL
+I really enjoy my martial art activities.
+]0;Student@localhost:~[Student@localhost ~]$ more assignments/UNIX/hw4HL[K[KSL
+I really enjoy my martial art activities.
+]0;Student@localhost:~[Student@localhost ~]$ cp assignments/UNIX.hw4.bk. 
+cp: missing destination file
+Try `cp --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cp backups/hw4 assignments/UNIX
+]0;Student@localhost:~[Student@localhost ~]$ rm assignments/UNIX/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ cp backups/hw4SL assignments/UNIx[KX
+]0;Student@localhost:~[Student@localhost ~]$ ls _R[K[K-R
+[00m.:
+[00;34massignments[00m  [00mgrady.L3.IIItxt[00m   [00mgrady.lab2.session.txt[00m  [00mgtysbrg.txt[00m
+[00;34mbackups[00m      [00mgrady.L3.III.txt[00m  [00mgtsbrgII.txt[00m            [00;34mletters[00m
+[00;34mDesktop[00m      [00mgrady.L3.II.txt[00m   [00mgtsybrgII.txt[00m           [00;34mreports[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bk.[00m  [00mhw4HL[00m  [00mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+[00mhw4[00m  [00mhw4.bk.[00m  [00mhw4HL[00m  [00mhw4SL[00m
+
+./Desktop:
+
+./letters:
+[00;34mfirends[00m  [00;34mformal[00m
+
+./letters/firends:
+
+./letters/formal:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/presonal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 24 Apr 2006 08:25:40 AM EDT

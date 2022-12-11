@@ -1,0 +1,346 @@
+Script started on Tue 02 May 2006 07:49:51 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch10S1F1
+1425	Juan	18	14.25
+4321	George	22	21.11
+6781	Anne	44	16.77
+1451	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;Student@localhost:~[Student@localhost ~]$ grep 'Anne' Ch10S1F1 | cut 
+-f4
+16.77
+]0;Student@localhost:~[Student@localhost ~]$ grep '1451' Ch10S1F1 | cut 
+-f2
+Ben
+]0;Student@localhost:~[Student@localhost ~]$ u[Kcut -f 
+[K[K[K[K[K[K[Kcut -f2 3 | egri[Ka[Kep '[2-9] [0-9]' 
+Ch6[K10S1F1
+[Student@localhost ~]$ cut -f2 3 | 
+e[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[Student@localhost 
+~]$ e
+[Student@localhost ~]$ eg
+[Student@localhost ~]$ 
+egr
+[Student@localhost ~]$ egre
+[Student@localhost ~]$ 
+egrep
+[Student@localhost ~]$ egrep 
+[Student@localhost ~]$ egrep 
+'
+[Student@localhost ~]$ egrep '[
+[Student@localhost ~]$ egrep 
+'[2
+[Student@localhost ~]$ egrep '[2-
+[Student@localhost ~]$ egrep 
+'[2-9
+[Student@localhost ~]$ egrep '[2-9]
+[Student@localhost ~]$ egrep 
+'[2-9] 
+[Student@localhost ~]$ egrep '[2-9] [
+[Student@localhost ~]$ egrep 
+'[2-9] [0
+[Student@localhost ~]$ egrep '[2-9] [0-
+[Student@localhost ~]$ 
+egrep '[2-9] [0-9
+[Student@localhost ~]$ egrep '[2-9] 
+[0-9]
+[Student@localhost ~]$ egrep '[2-9] [0-9]'
+[Student@localhost ~]$ 
+egrep '[2-9] [0-9]' 
+[Student@localhost ~]$ egrep '[2-9] [0-9]' 
+C
+[Student@localhost ~]$ egrep '[2-9] [0-9]' Ch
+[Student@localhost ~]$ egrep 
+'[2-9] [0-9]' Ch1
+[Student@localhost ~]$ egrep '[2-9] [0-9]' 
+Ch10
+[Student@localhost ~]$ egrep '[2-9] [0-9]' Ch10S
+[Student@localhost ~]$ 
+egrep '[2-9] [0-9]' Ch10S1
+[Student@localhost ~]$ egrep '[2-9] [0-9]' 
+Ch10S1F
+[Student@localhost ~]$ egrep '[2-9] [0-9]' Ch10S1F1 | cut -f2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 3 | egrep '{[K[2-9] 
+[0-9]' Ch6[K10S1F1 | cut -f1
+cut: 3: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 3 
+Ch10s1F![K1[K[K[K[KS1F1 | egrep '[2-9] [0-9]' Ch[K[K[K | cut 
+-f1
+cut: 3: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cut 
+-f2[K[K[K[K[K[K[Kcut -f2 3 Ch10S1F1 | egrep '[2-9] [0-9]' 
+| cut -f1[1P[4h,[4l
+]0;Student@localhost:~[Student@localhost ~]$  c[K[Kcat Ch10S1F1
+1425	Juan	18	14.25
+4321	George	22	21.11
+6781	Anne	44	16.77
+1451	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S1F1ut 
+-f2,3 Ch10S1F1 | egrep '[2-9] [0-9]' | cut 
+-f1
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep 
+'[2-9] [1P
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep 
+'[2-9][
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep 
+'[2-9][0
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep 
+'[2-9][0-
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep 
+'[2-9][0-9
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep 
+'[2-9][0-9]
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep 
+'[2-9][0-9]'
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep '[2-9][0-9]' 
+
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep '[2-9][0-9]' 
+|
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep '[2-9][0-9]' | 
+
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep '[2-9][0-9]' | 
+c
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep '[2-9][0-9]' | 
+cu
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep '[2-9][0-9]' | 
+cut
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep '[2-9][0-9]' | cut 
+
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep '[2-9][0-9]' | cut 
+-
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep '[2-9][0-9]' | cut 
+-f
+[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep '[2-9][0-9]' | cut 
+-f1
+George
+Anne
+Ben
+]0;Student@localhost:~[Student@localhost ~]$ cut -4 Ch6[K10S1F1 | egrep 
+'[2-9]\.[0-9]' | 
+[Student@localhost 
+~]$ cut -[4hf[4l
+[Student@localhost ~]$ cut -f4
+[Student@localhost ~]$ cut 
+-f4 
+[Student@localhost ~]$ cut -f4 C
+[Student@localhost ~]$ cut -f4 
+Ch
+[Student@localhost ~]$ cut -f4 Ch1
+[Student@localhost ~]$ cut -f4 
+Ch10
+[Student@localhost ~]$ cut -f4 Ch10S
+[Student@localhost ~]$ cut -f4 
+Ch10S1
+[Student@localhost ~]$ cut -f4 Ch10S1F
+[Student@localhost ~]$ cut -f4 
+Ch10S1F1
+[Student@localhost ~]$ cut -f4 Ch10S1F1 
+[Student@localhost ~]$ cut 
+-f4 Ch10S1F1 |
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | 
+[Student@localhost 
+~]$ cut -f4 Ch10S1F1 | e
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | 
+eg
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egr
+[Student@localhost ~]$ cut 
+-f4 Ch10S1F1 | egre
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | 
+egrep
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+[Student@localhost 
+~]$ cut -f4 Ch10S1F1 | egrep '
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | 
+egrep '[
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+'[2
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep '[2-
+[Student@localhost 
+~]$ cut -f4 Ch10S1F1 | egrep '[2-9
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | 
+egrep '[2-9]
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+'[2-9]\
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+'[2-9]\.
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+'[2-9]\.[
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+'[2-9]\.[0
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+'[2-9]\.[0-
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+'[2-9]\.[0-9
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+'[2-9]\.[0-9]
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+'[2-9]\.[0-9]'
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+'[2-9]\.[0-9]' 
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+'[2-9]\.[0-9]' |
+[Student@localhost ~]$ cut -f4 Ch10S1F1 | egrep 
+'[2-9]\.[0-9]' | 
+[1P
+[Student@localhost ~]$ cut -f 
+
+[Student@localhost ~]$ cut -f C
+[Student@localhost ~]$ cut -f 
+Ch
+[Student@localhost ~]$ cut -f Ch1
+[Student@localhost ~]$ cut -f 
+Ch10
+[Student@localhost ~]$ cut -f Ch10S
+[Student@localhost ~]$ cut -f 
+Ch10S1
+[Student@localhost ~]$ cut -f Ch10S1F
+[Student@localhost ~]$ cut -f 
+Ch10S1F1
+[Student@localhost ~]$ cut -f Ch10S1F1 
+[Student@localhost ~]$ cut 
+-f Ch10S1F1 |
+[Student@localhost ~]$ cut -f Ch10S1F1 | 
+[Student@localhost 
+~]$ cut -f Ch10S1F1 | e
+[Student@localhost ~]$ cut -f Ch10S1F1 | 
+eg
+[Student@localhost ~]$ cut -f Ch10S1F1 | egr
+[Student@localhost ~]$ cut 
+-f Ch10S1F1 | egre
+[Student@localhost ~]$ cut -f Ch10S1F1 | 
+egrep
+[Student@localhost ~]$ cut -f Ch10S1F1 | egrep 
+[Student@localhost ~]$ 
+cut -f Ch10S1F1 | egrep '
+[Student@localhost ~]$ cut -f Ch10S1F1 | egrep 
+'[
+[Student@localhost ~]$ cut -f Ch10S1F1 | egrep '[2
+[Student@localhost ~]$ 
+cut -f Ch10S1F1 | egrep '[2-
+[Student@localhost ~]$ cut -f Ch10S1F1 | egrep 
+'[2-9
+[Student@localhost ~]$ cut -f Ch10S1F1 | egrep 
+'[2-9][4h[[4l[4h0[4l[4h-[4l[4h9[4l[4h][4l
+[Student@localhost ~]$ 
+cut -f Ch10S1F1 | egrep '[2-9][0-9]\
+[Student@localhost ~]$ cut -f Ch10S1F1 
+| egrep '[2-9][0-9]\.
+[Student@localhost ~]$ cut -f Ch10S1F1 | egrep 
+'[2-9][0-9]\.[
+[Student@localhost ~]$ cut -f Ch10S1F1 | egrep 
+'[2-9][0-9]\.[0
+[Student@localhost ~]$ cut -f Ch10S1F1 | egrep 
+'[2-9][0-9]\.[0-
+[Student@localhost ~]$ cut -f Ch10S1F1 | egrep 
+'[2-9][0-9]\.[0-9
+[Student@localhost ~]$ cut -f Ch10S1F1 | egrep 
+'[2-9][0-9]\.[0-9][4h[[4l[4h0[4l[4h-[4l[4h9[4l[4h][4l
+[Student@localhost 
+~]$ cut -f Ch10S1F1 | egrep '[2-9][0-9]\.[0-9][0-9]'
+[Student@localhost ~]$ 
+cut -f Ch10S1F1 | egrep '[2-9][0-9]\.[0-9][0-9]' 
+[Student@localhost ~]$ cut 
+-f Ch10S1F1 | egrep '[2-9][0-9]\.[0-9][0-9]' |
+[Student@localhost ~]$ cut -f 
+Ch10S1F1 | egrep '[2-9][0-9]\.[0-9][0-9]' | 
+
+[Student@localhost ~]$ cut -f 
+Ch10S1
+[Student@localhost ~]$ cut -f Ch10S1F
+[Student@localhost ~]$ cut -f 
+Ch10S1F1
+[Student@localhost ~]$ cut -f Ch10S1F1 
+[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[Student@localhost 
+~]$ e
+[Student@localhost ~]$ eg
+[Student@localhost ~]$ 
+egr
+[Student@localhost ~]$ egre
+[Student@localhost ~]$ 
+egrep
+[Student@localhost ~]$ egrep 
+[Student@localhost ~]$ egrep 
+'
+[Student@localhost ~]$ egrep '[
+[Student@localhost ~]$ egrep 
+'[2
+[Student@localhost ~]$ egrep '[2-
+[Student@localhost ~]$ egrep 
+'[2-9
+[Student@localhost ~]$ egrep '[2-9]
+[Student@localhost ~]$ egrep 
+'[2-9][
+[Student@localhost ~]$ egrep '[2-9][0
+[Student@localhost ~]$ egrep 
+'[2-9][0-
+[Student@localhost ~]$ egrep '[2-9][0-9
+[Student@localhost ~]$ 
+egrep '[2-9][0-9]
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\
+[Student@localhost ~]$ egrep '[2-9][0-9]\.
+[Student@localhost 
+~]$ egrep '[2-9][0-9]\.[
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9]
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]'
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' 
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' |
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' | cut -f1,3
+[Student@localhost ~]$ 
+egrep '[2-9][0-9]\.[0-9][0-9]' [4hC[4l[4hh[4l[4h1[4l[4h0[4l[4h 
+[4l[1P[4hS[4l[4h1[4l[4hF[4l[4h1[4l[4h [4l
+[Student@localhost 
+~]$ egrep '[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 |
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | 
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | c
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | cu
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | cut
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | cut 
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | cut -
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | cut -f
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | cut -f1
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | cut -f1,
+[Student@localhost ~]$ egrep 
+'[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | cut -f1,3
+4321	22
+1451	36
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[0-90[K]' | 
+[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcut 
+-f[K[K[K[K[K[Kegrep '[0][[[K0-9]' |[K[K
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[0][0-9]' Ch10S1F1
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 02 May 2006 08:12:27 AM EDT
+

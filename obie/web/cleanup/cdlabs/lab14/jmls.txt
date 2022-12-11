@@ -1,0 +1,21 @@
+#! /bin/bash
+# Script: jmls
+# Purpose: To print any 3 columns of the ls command that we want.
+
+
+if (( $# != 3 ))
+then 
+	echo "Must have three arguments"
+exit 1
+fi
+
+if [[ $1 != [0-9] || $2 != [0-9] || $3 != [0-9] ]]
+then 
+	echo "All arguments must be numerical and equal to or less than 9"
+exit 2
+fi
+
+
+ls -l | sed 's/  / /g' | sed 's/  / /g' | sed 's/  / /g' |  cut -d" " -f$1,$2,$3
+
+

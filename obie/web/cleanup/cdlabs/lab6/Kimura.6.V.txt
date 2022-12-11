@@ -1,0 +1,108 @@
+Script started on Sun 30 Apr 2006 05:36:39 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cp[K[Kcat Ch6S4F1 >Ch6S5F1
+]0;Student@localhost:~[Student@localhost ~]$ Cat[K[K[Kcat >Ch6S5F1[K2
+1420	12.56	45
+2456  	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	1 56
+3467	56.90	14
+
+]0;Student@localhost:~[Student@localhost ~]$ cat >Ch6S5F2Ch6S4F1 >Ch6S5F1[1P[4h5[4l[Student@localhost ~]$ cat Ch6S5F[Student@localhost ~]$ cat Ch6S5F1[Student@localhost ~]$ cat Ch6S5F1 [1PCh6S5F1[Student@localhost ~]$ cat Ch6S5F1 C[Student@localhost ~]$ cat Ch6S5F1 Ch[Student@localhost ~]$ cat Ch6S5F1 Ch6[Student@localhost ~]$ cat Ch6S5F1 Ch6S[Student@localhost ~]$ cat Ch6S5F1 Ch6S5[Student@localhost ~]$ cat Ch6S5F1 Ch6S5F[Student@localhost ~]$ cat Ch6S5F1 Ch6S5F1[K2
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	07.00	14
+1420	12.56	45
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ sort 0[K-0 +[K[K[K[K+0 -1 Ch6s[KS5F1 >file1 [K | sort +0 -1 Ch6S5F2 >file2
+]0;Student@localhost:~[Student@localhost ~]$ paste file1 file2 >Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ echo "or I can use cat to e[Knmer[K[K[K[Kmergeth[K[K the files"
+or I can use cat to merge the files
+]0;Student@localhost:~[Student@localhost ~]$ cat file1 file2 >file3[K[K[K[K[Kcom[K[K[Kfile_[K.combile[K[Kned[Student@localhost ~]$ cat file1 file2 >files.combined[Student@localhost ~]$ cat file1 file2 >files.combined
+]0;Student@localhost:~[Student@localhost ~]$ cat file1 file2 >files.combined[Student@localhost ~]$ echo "or I can use cat to merge the files"[Student@localhost ~]$ [16Ppaste file1 file2 >Ch6S5F3[Student@localhost ~]$ sort +0 -1 Ch6S5F1 >file1 | sort +0 -1 Ch6S5F2 >file2
+]0;Student@localhost:~[Student@localhost ~]$ more[K[K[K[Kca[K[Kmore file1 file2
+::::::::::::::
+file1
+::::::::::::::
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	07.00	14
+[7m--More--(Next file: file2)[m::::::::::::::[K
+file2
+::::::::::::::
+1322	23.56	28
+[7m--More--(14%)[m[K1420	12.56	45
+[7m--More--(28%)[m[K1443	23.23	19
+[7m--More--(42%)[m[K2341	45.12	34
+[7m--More--(57%)[m[K2351	67.90	56
+[7m--More--(71%)[m[K2456	14.56	22
+[7m--More--(85%)[m[K3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ cat file1 filw[Ke2 >file3
+]0;Student@localhost:~[Student@localhost ~]$ more file3[K[K[K[K[K[K[K[K[K[Ksort +0 -1 file3>[K >file4
+]0;Student@localhost:~[Student@localhost ~]$ more file4[K[K[K[K[K[K[K[K[K[Kcat file4
+1122	23.56	28
+1322	23.56	28
+1420	12.56	45
+1420	12.56	45
+1443	23.23	19
+1443	23.23	19
+2341	45.12	34
+2341	45.12	34
+2351	67.90	56
+2351	67.90	56
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	07.00	14
+]0;Student@localhost:~[Student@localhost ~]$ un[Kniz[Kz[Kq -u file4 >file5 | uniq -d file4 >file6[K[K[K[K[K> file5
+]0;Student@localhost:~[Student@localhost ~]$ more[K[K[K[Kcat file5
+1122	23.56	28
+1322	23.56	28
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	07.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat file5[4huniq -u file4 >file5 | uniq -d file4[4l >>[Student@localhost ~]$ uniq -u file4 >file5 | uniq -d file4 >> file5[1P file5> file5[1Pfile5[Student@localhost ~]$ uniq -u file4 >file5 | uniq -d file4 >>file5
+]0;Student@localhost:~[Student@localhost ~]$ uniq -u file4 >file5 | uniq -d file4 >>file5[Student@localhost ~]$ cat file5[K
+1122	23.56	28
+1322	23.56	28
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	07.00	14
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+]0;Student@localhost:~[Student@localhost ~]$ sort 0+[K[K+0 -1[K[K[K[K[K[K[K[K[K[Kecho " to [K[K[K[KTo put them back to the sorted order"
+To put them back to the sorted order
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -1 file5 >Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F3
+1122	23.56	28
+1322	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	07.00	14
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Sun 30 Apr 2006 06:06:28 PM EDT

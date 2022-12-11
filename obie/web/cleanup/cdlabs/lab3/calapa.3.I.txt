@@ -1,0 +1,70 @@
+Script started on Mon 24 Apr 2006 08:05:38 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ mkdir letters reports assignments
+mkdir: cannot create directory `letters': File exists
+mkdir: cannot create directory `reports': File exists
+mkdir: cannot create directory `assignments': File exists
+]0;Student@localhost:~[Student@localhost ~]$ mkdir letters reports assignments
+]0;Student@localhost:~[Student@localhost ~]$ cd letters
+]0;Student@localhost:~/letters[Student@localhost letters]$ mkdir friendly formal
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd re[K[K~/[K[KStudet[Knt's home/reports
+> 
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd ~/reports[K[K[K[K[K[K[K[K[Kreports
+bash: cd: reports: No such file or directory
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd home/reports
+bash: cd: home/reports: No such file or directory
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd studn[Kent's home/reports
+> 
+]0;Student@localhost:~/letters[Student@localhost letters]$ 
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd Student/reports
+bash: cd: Student/reports: No such file or directory
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd ~/repor[Krts
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir personal business school
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ~/assisn[K[Kgnments UNIX
+mkdir: cannot create directory `/home/Student/assignments': File exists
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ~/assignments UNIX[Student@localhost reports]$ mkdir ~/assignmen[Student@localhost reports]$ mkdir ~/assignment[Student@localhost reports]$ mkdir ~/assignments[1P UNIX[1P UNIX[1P UNIX[1P UNIX[1P UNIX[1P UNIX[1P UNIX[1P UNIX[1P UNIX[1P UNIX[1P UNIX[1P UNIX[1P UNIX[1PUNIX[Student@localhost reports]$ mkdir [Student@localhost reports]$ mkdir U[Student@localhost reports]$ mkdir UN[Student@localhost reports]$ mkdir UNI[Student@localhost reports]$ mkdir UNIX ~/assignments
+mkdir: cannot create directory `UNIX': File exists
+mkdir: cannot create directory `/home/Student/assignments': File exists
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir UNIX ~/assignments~/assignments UNIXpersonal business school[6P~/assignments UNIXUNIX ~/assignments[Kmkdir UNIX ~/assignments[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K~/assignments/UNIX
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ~/assignments/UNIX/ hws[K[K[K[KHWs Projects
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ~/assignments/UNIX/HWs Projects1[K[K[K[K[K[K[K[K[K[K 
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ~/assignments/UNIX/HWs [K[K[K[KProjects
+]0;Student@localhost:~/reports[Student@localhost reports]$ cd
+]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00m205lab1.odt[00m  [00mCalapa2edit.txt[00m  [00mgtysbrg.txt[00m  [00;34mreports[00m
+[00;34massignments[00m  [00;34mDesktop[00m          [00;34mletters[00m      [00mtypescript[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+[00m205lab1.odt[00m  [00mbook hw ch1.odt[00m  [00mLab 2 writeup.odt[00m
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpersonal[00m  [00;34mProjects[00m  [00;34mschool[00m  [00;34mUNIX[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/Projects:
+
+./reports/school:
+
+./reports/UNIX:
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:

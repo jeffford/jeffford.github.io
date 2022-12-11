@@ -1,0 +1,231 @@
+Script started on Thu 27 Apr 2006 08:38:10 AM EDT
+]0;student@localhost:~[student@localhost ~]$ more /etc/profile
+# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc
+
+pathmunge () {
+	if ! echo $PATH | /bin/egrep -q "(^|:)$1($|:)" ; then
+	   if [ "$2" = "after" ] ; then
+	      PATH=$PATH:$1
+	   else
+	      PATH=$1:$PATH
+	   fi
+	fi
+}
+
+# Path manipulation
+if [ $EUID = 0 ]; then
+	pathmunge /sbin
+	pathmunge /usr/sbin
+	pathmunge /usr/local/sbin
+fi
+
+pathmunge /usr/X11R6/bin after
+[7m--More--(51%)[m[K
+[7m--More--(51%)[m[K
+[7m--More--(51%)[m# No core files by default
+[7m--More--(55%)[mulimit -S -c 0 > /dev/null 2>&1
+[7m--More--(58%)[m[K
+[7m--More--(59%)[mUSER="`id -un`"
+[7m--More--(60%)[mLOGNAME=$USER
+[7m--More--(62%)[mMAIL="/var/spool/mail/$USER"
+[7m--More--(66%)[m[K
+[7m--More--(66%)[mHOSTNAME=`/bin/hostname`
+[7m--More--(69%)[mHISTSIZE=1000
+[7m--More--(70%)[m[K
+[7m--More--(70%)[mif [ -z "$INPUTRC" -a ! -f "$HOME/.inputrc" ]; then
+[7m--More--(77%)[m    INPUTRC=/etc/inputrc
+[7m--More--(80%)[mfi[K
+[7m--More--(80%)[m[K
+[7m--More--(80%)[mexport PATH USER LOGNAME MAIL HOSTNAME HISTSIZE INPUTRC
+[7m--More--(87%)[m[K
+[7m--More--(87%)[mfor i in /etc/profile.d/*.sh ; do
+[7m--More--(91%)[m    if [ -r "$i" ]; then
+[7m--More--(94%)[m[K    	. $i
+[7m--More--(95%)[m    fi[K
+[7m--More--(96%)[mdone[K
+[7m--More--(97%)[m[K
+[7m--More--(97%)[munset i[K
+[7m--More--(98%)[munset pathmunge
+]0;student@localhost:~[student@localhost ~]$ MAIL [K="/vare[K/home/mail/%[K$USER"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi /etc/pri[Kofile
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/profile" [readonly] 49L, 840C[1;1H[34m# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc[m
+
+pathmunge () [35m{[m[7;9H[33mif[m [33m![m [33mecho[m[31m [m[35m$PATH[m[31m [m[33m|[m /bin/egrep [33m-q[m [33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m [33mthen[8;12Hif[m [33m[[m [33m"[m[35m$2[m[33m"[m [33m=[m [33m"[m[31mafter[m[33m"[m [33m][m [33m;[m [33mthen[m[9;15H[36mPATH[m=[35m$PATH[m:[35m$1[m[10;12H[33melse[m[11;15H[36mPATH[m=[35m$1[m:[35m$PATH[m[12;12H[33mfi[13;9Hfi[m
+[35m}[m
+
+[34m# Path manipulation[m
+[33mif[m [33m[[m [35m$EUID[m [33m=[m [31m0[m [33m];[m [33mthen[m[18;9Hpathmunge /sbin[19;9Hpathmunge /usr/sbin[20;9Hpathmunge /usr/local/sbin
+[33mfi[m
+
+pathmunge /usr/X11R6/bin after[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CTop[24;14H[31mW10: Warning: Changing a readonly file[m[24;63H[K[1;1H[?12l[?25h[24;1H[K[1;1H[?25l[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ more /etc/aliases
+#
+#  Aliases in this file will NOT be expanded in the header from
+#  Mail, but WILL be visible over networks or from /bin/mail.
+#
+#	>>>>>>>>>>	The program "newaliases" must be run after
+#	>> NOTE >>	this file is updated for any changes to
+#	>>>>>>>>>>	show through to sendmail.
+#
+
+# Basic system aliases -- these MUST be present.
+mailer-daemon:	postmaster
+postmaster:	root
+
+# General redirections for pseudo accounts.
+bin:		root
+daemon:		root
+adm:		root
+lp:		root
+sync:		root
+shutdown:	root
+halt:		root
+mail:		root
+news:		root
+[7m--More--(34%)[m[Kuucp:		root
+[7m--More--(35%)[m[Koperator:	root
+[7m--More--(36%)[m[Kgames:		root
+[7m--More--(37%)[m[Kgopher:		root
+[7m--More--(38%)[m[Kftp:		root
+[7m--More--(39%)[m[Knobody:		root
+[7m--More--(40%)[m[Kradiusd:	root
+[7m--More--(41%)[m[Knut:		root
+[7m--More--(41%)[m[Kdbus:		root
+[7m--More--(42%)[m[Kvcsa:		root
+[7m--More--(43%)[m[Kcanna:		root
+[7m--More--(44%)[m[Kwnn:		root
+[7m--More--(44%)[m[Krpm:		root
+[7m--More--(45%)[m[Knscd:		root
+[7m--More--(46%)[m[Kpcap:		root
+[7m--More--(47%)[m[Kapache:		root
+[7m--More--(48%)[m[Kwebalizer:	root
+[7m--More--(49%)[m[Kdovecot:	root
+[7m--More--(50%)[m[Kfax:		root
+[7m--More--(50%)[m[Kquagga:		root
+[7m--More--(51%)[m[Kradvd:		root
+[7m--More--(52%)[m[Kpvm:		root
+[7m--More--(53%)[m[Kamanda:		root
+[7m--More--(54%)[m[Kprivoxy:	root
+[7m--More--(55%)[m[Kident:		root
+[7m--More--(56%)[m[Knamed:		root
+[7m--More--(56%)[m[Kxfs:		root
+[7m--More--(57%)[m[Kgdm:		root
+[7m--More--(58%)[m[Kmailnull:	root
+[7m--More--(59%)[m[Kpostgres:	root
+[7m--More--(60%)[m[Ksshd:		root
+[7m--More--(61%)[m[Ksmmsp:		root
+[7m--More--(62%)[m[Kpostfix:	root
+[7m--More--(62%)[m[Knetdump:	root
+[7m--More--(63%)[m[Kldap:		root
+[7m--More--(64%)[m[Ksquid:		root
+[7m--More--(65%)[m[Kntp:		root
+[7m--More--(66%)[m[Kmysql:		root
+[7m--More--(67%)[m[Kdesktop:	root
+[7m--More--(68%)[m[Krpcuser:	root
+[7m--More--(68%)[m[Krpc:		root
+[7m--More--(69%)[m[Knfsnobody:	root
+[7m--More--(70%)[m[K
+[7m--More--(70%)[m[Kingres:		root
+[7m--More--(71%)[m[Ksystem:		root
+[7m--More--(72%)[m[Ktoor:		root
+[7m--More--(73%)[m[Kmanager:	root
+[7m--More--(74%)[m[Kdumper:		root
+[7m--More--(75%)[m[Kabuse:		root
+[7m--More--(76%)[m[K
+[7m--More--(76%)[m[Knewsadm:	news
+[7m--More--(77%)[m[Knewsadmin:	news
+[7m--More--(78%)[m[Kusenet:		news
+[7m--More--(79%)[m[Kftpadm:		ftp
+[7m--More--(80%)[m[Kftpadmin:	ftp
+[7m--More--(80%)[m[Kftp-adm:	ftp
+[7m--More--(81%)[m[Kftp-admin:	ftp
+[7m--More--(82%)[m[Kwww:		webmaster
+[7m--More--(83%)[m[Kwebmaster:	root
+[7m--More--(84%)[m[Knoc:		root
+[7m--More--(85%)[m[Ksecurity:	root
+[7m--More--(86%)[m[Khostmaster:	root
+[7m--More--(87%)[m[Kinfo:		postmaster
+[7m--More--(88%)[m[Kmarketing:	postmaster
+[7m--More--(90%)[m[Ksales:		postmaster
+[7m--More--(91%)[m[Ksupport:	postmaster
+[7m--More--(92%)[m[K
+[7m--More--(93%)[m[K
+[7m--More--(93%)[m# trap decode to catch security attacks
+[7m--More--(95%)[m[Kdecode:		root
+[7m--More--(96%)[m[K
+[7m--More--(96%)[m# Person who should get root's mail
+[7m--More--(99%)[m[K#root:		marc
+]0;student@localhost:~[student@localhost ~]$ alias
+alias l.='ls -d .* --color=tty'
+alias ll='ls -l --color=tty'
+alias ls='ls --color=tty'
+alias vi='vim'
+alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
+]0;student@localhost:~[student@localhost ~]$ more .bashrc
+# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+]0;student@localhost:~[student@localhost ~]$ cp .bash [Krc Stevenson.b[Ktxt[K[K[K[K
+]0;student@localhost:~[student@localhost ~]$ more st[K[KStevenson
+# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+]0;student@localhost:~[student@localhost ~]$ vi Stevenson
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Stevenson" 8L, 124C[1;1H[34m# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions[m
+if [ -f /etc/bashrc ]; then[7;9H. /etc/bashrc
+fi
+[1m[34m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;65H2[8;2H[?12l[?25h[?25l[24;65H3[8;3H[?12l[?25h[?25l[9;1H[K[24;63H9,1[9;1H[?12l[?25h[?25l[10;1H[K[24;63H10,1[10;1H[?12l[?25h[?25lv[24;66H2[10;2H[?12l[?25h[?25li[24;66H3[10;3H[?12l[?25h[?25l[24;66H4[10;4H[?12l[?25h[?25l[24;66H3[10;3H[?12l[?25h[?25l[10;2H[K[24;66H2[10;2H[?12l[?25h[?25l[10;1H[K[24;66H1[10;1H[?12l[?25h[?25l:[24;66H2[10;2H[?12l[?25h[?25lw[24;66H3[10;3H[?12l[?25h[?25lq[24;66H4[10;4H[?12l[?25h[?25l[11;1H[K[24;64H1,1[11;1H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;64H0,4[10;4H[?12l[?25h[?25l[10;3H[K[24;66H3[10;3H[?12l[?25h[?25l[10;2H[K[24;66H2[10;2H[?12l[?25h[?25l[10;1H[K[24;66H1[10;1H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;63H9,1 [9;1H[?12l[?25h[24;1H[K[9;1H[?25l[24;63H9,0-1[9CAll[9;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25ha[?25l[?12l[?25h[?25l[24;3H[K[24;3H[?12l[?25hq[?25l[?12l[?25h[?25l"Stevenson" 9L, 125C written
+[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ vi Stevenson
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Stevenson" 9L, 125C[1;1H[34m# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions[m
+if [ -f /etc/bashrc ]; then[7;9H. /etc/bashrc
+fi
+
+[1m[34m~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H9,0-1[9CAll[9;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H9,1[11CAll[9;1H[?12l[?25h[?25l[10;1H[K[24;63H10,1[10;1H[?12l[?25h[?25la[24;66H2[10;2H[?12l[?25h[?25ll[24;66H3[10;3H[?12l[?25h[?25li[24;66H4[10;4H[?12l[?25h[?25la[24;66H5[10;5H[?12l[?25h[?25ls[24;66H6[10;6H[?12l[?25h[?25l[24;66H7[10;7H[?12l[?25h[?25lv[24;66H8[10;8H[?12l[?25h[?25l[10;7H[K[24;66H7[10;7H[?12l[?25h[?25l[24;66H6[10;6H[?12l[?25h[?25lv[24;66H7[10;7H[?12l[?25h[?25li[24;66H8[10;8H[?12l[?25h[?25l[10;7H[K[24;66H7[10;7H[?12l[?25h[?25l[10;6H[K[24;66H6[10;6H[?12l[?25h[?25l[24;66H7[10;7H[?12l[?25h[?25lv[24;66H8[10;8H[?12l[?25h[?25li[24;66H9[10;9H[?12l[?25h[?25l=[24;66H10[10;10H[?12l[?25h[?25l'[24;67H1[10;11H[?12l[?25h[?25lv[24;67H2[10;12H[?12l[?25h[?25li[24;67H3[10;13H[?12l[?25h[?25lm[24;67H4[10;14H[?12l[?25h[?25l[31m'vim'[m[24;67H5[10;15H[?12l[?25h[?25l[11;1H[K[24;64H1,1 [11;1H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;64H0,15[10;15H[?12l[?25h[?25l'vim[10;14H[K[24;67H4[10;14H[?12l[?25h[?25l[31m'vim'[m[24;67H5[10;15H[?12l[?25h[?25l[11;1H[K[24;64H1,1 [11;1H[?12l[?25h[24;1H[K[11;1H[?25l[24;63H11,0-1[8CAll[11;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Stevenson" 11L, 141C written
+[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ vi Stevenson
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Stevenson" 11L, 141C[1;1H[34m# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions[m
+if [ -f /etc/bashrc ]; then[7;9H. /etc/bashrc
+fi
+
+alias vi=[31m'vim'[m
+
+[1m[34m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H11,0-1[8CAll[11;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H11,1[10CAll[11;1H[?12l[?25h[?25lalias ll=[31m'ls -l --color=tty'[m[24;66H29[11;29H[?12l[?25h[?25l:[24;66H30[11;30H[?12l[?25h[?25l[11;29H[K[24;66H29[11;29H[?12l[?25h[?25l[12;1H[K[24;64H2,1 [12;1H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;64H1,29[11;29H[?12l[?25h[24;1H[K[11;28H[?25l[24;63H11,28[9CAll[11;28H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hs[?25l[?12l[?25h[?25l[24;3H[K[24;3H[?12l[?25hq[?25l[?12l[?25h[?25l"Stevenson" 11L, 169C written
+[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ more Stevenson
+# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+alias vi='vim'
+alias ll='ls -l --color=tty'
+]0;student@localhost:~[student@localhost ~]$ 
+Script done on Thu 27 Apr 2006 08:45:17 AM EDT

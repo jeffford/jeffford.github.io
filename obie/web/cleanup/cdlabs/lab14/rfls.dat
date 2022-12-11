@@ -1,0 +1,44 @@
+#! /bin/ksh
+# This script displays three columns of the ls -l command
+
+if(( $# != 3))
+	then echo "This takes three parameters"
+	exit 1
+	fi
+if(( $1 > 9 ))
+	then echo "$1: There are not that many columnms"
+	exit 2
+	fi
+if(( $2 > 9 ))
+        then echo "$2: There are not that many columnms"
+        exit 3
+        fi
+if(( $3 > 9 ))
+        then echo "$3: There are not that many columnms"
+        exit 4
+        fi
+
+case $1 in
+[0-9]) break;;
+ 
+*) echo "Has to be a number"; exit 5;; 
+
+esac
+case $2 in
+[0-9]) break;;
+
+*) echo "Has to be a number"; exit 6;;
+
+esac
+case $3 in
+[0-9]) break;;
+
+*) echo "Has to be a number"; exit 7;;
+
+esac
+
+ls -l | cut -d" " -f$1 > temp1
+ls -l | cut -d" " -f$2 > temp2
+ls -l | cut -d" " -f$3 > temp3
+paste temp1 temp2 temp3 > temp4
+cat temp4

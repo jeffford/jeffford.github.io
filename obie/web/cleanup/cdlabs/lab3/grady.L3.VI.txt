@@ -1,0 +1,131 @@
+Script started on Mon 24 Apr 2006 08:32:25 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ls ass[K[K[K_[K-r[KR assignments
+[00massignments:
+[00;34mUNIX[00m
+
+assignments/UNIX:
+[00mhw4[00m  [00mhw4.bk.[00m  [00mhw4HL[00m  [00mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+assignments/UNIX/HWs:
+
+assignments/UNIX/Projects:
+[m]0;Student@localhost:~[Student@localhost ~]$ ls assignments/hw[K[KUNIX.[K/hws[K[K[KHWS
+[00mls: assignments/UNIX/HWS: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ mv hw.bk.4.bk.[Student@localhost ~]$ mv hw4.[Student@localhost ~]$ mv hw4.b[Student@localhost ~]$ mv hw4.bk[Student@localhost ~]$ mv hw4.bk.[K,^?. [K[K[K[K. hw4.bak
+mv: cannot stat `hw4.bk.': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cd assigmner[K[K[Ker[Kbts[K[K[K[K[K[K[K[K[K[K[K[K[Kmv assigm[Knments/UNIX[Kx[KX [K/hw4 assignments/UNIX?[K/hw4. assignments/UNIX/hw4k assignments/UNIX/hw4b assignments/UNIX/hw4. assignments/UNIX/hw4[1P assignments/UNIX/hw4[1P assignments/UNIX/hw4[1P assignments/UNIX/hw4b assignments/UNIX/hw4k assignments/UNIX/hw4. assignments/UNIX/hw4[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. [Student@localhost ~]$ mv assignments/UNIX/hw4.bk. a[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. as[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. ass[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assi[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assig[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assign[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignm[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignme[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignmen[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignment[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignments[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignments/[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignments/U[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignments/UN[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignments/UNI[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignments/UNIX[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignments/UNIX/[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignments/UNIX/h[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignments/UNIX/hw[Student@localhost ~]$ mv assignments/UNIX/hw4.bk. assignments/UNIX/hw4.bak
+]0;Student@localhost:~[Student@localhost ~]$ ls _[K-R assignments.[K>[K/UNIC[KX
+[00massignments/UNIX:
+[00mhw4[00m  [00mhw4.bak[00m  [00mhw4HL[00m  [00mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+assignments/UNIX/HWs:
+
+assignments/UNIX/Projects:
+[m]0;Student@localhost:~[Student@localhost ~]$ cd [K[K[Kls -R
+[00m.:
+[00;34massignments[00m  [00mgrady.L3.IIItxt[00m   [00mgrady.L3.VI.txt[00m         [00mgtsybrgII.txt[00m  [00;34mreports[00m
+[00;34mbackups[00m      [00mgrady.L3.III.txt[00m  [00mgrady.lab2.session.txt[00m  [00mgtysbrg.txt[00m
+[00;34mDesktop[00m      [00mgrady.L3.II.txt[00m   [00mgtsbrgII.txt[00m            [00;34mletters[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bak[00m  [00mhw4HL[00m  [00mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+[00mhw4[00m  [00mhw4.bk.[00m  [00mhw4HL[00m  [00mhw4SL[00m
+
+./Desktop:
+
+./letters:
+[00;34mfirends[00m  [00;34mformal[00m
+
+./letters/firends:
+
+./letters/formal:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/presonal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ cd letters
+]0;Student@localhost:~/letters[Student@localhost letters]$ vi friend.1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"friend.1" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25lt[24;63H1,2[1;2H[?12l[?25h[?25lh[24;65H3[1;3H[?12l[?25h[?25li[24;65H4[1;4H[?12l[?25h[?25ls[24;65H5[1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25li[24;65H7[1;7H[?12l[?25h[?25ls[24;65H8[1;8H[?12l[?25h[?25l[24;65H9[1;9H[?12l[?25h[?25lj[24;65H10[1;10H[?12l[?25h[?25lu[24;66H1[1;11H[?12l[?25h[?25ls[24;66H2[1;12H[?12l[?25h[?25lt[24;66H3[1;13H[?12l[?25h[?25l[24;66H4[1;14H[?12l[?25h[?25lo[24;66H5[1;15H[?12l[?25h[?25ln[24;66H6[1;16H[?12l[?25h[?25le[24;66H7[1;17H[?12l[?25h[?25l[24;66H8[1;18H[?12l[?25h[?25ll[24;66H9[1;19H[?12l[?25h[?25li[24;65H20[1;20H[?12l[?25h[?25ln[24;66H1[1;21H[?12l[?25h[?25le[24;66H2[1;22H[?12l[?25h[?25l[24;66H3[1;23H[?12l[?25h[?25lo[24;66H4[1;24H[?12l[?25h[?25lf[24;66H5[1;25H[?12l[?25h[?25l[24;66H6[1;26H[?12l[?25h[?25lf[24;66H7[1;27H[?12l[?25h[?25lr[24;66H8[1;28H[?12l[?25h[?25li[24;66H9[1;29H[?12l[?25h[?25le[24;65H30[1;30H[?12l[?25h[?25ln[24;66H1[1;31H[?12l[?25h[?25ld[24;66H2[1;32H[?12l[?25h[?25l[1;31H[K[24;66H1[1;31H[?12l[?25h[?25ln[24;66H2[1;32H[?12l[?25h[?25ll[24;66H3[1;33H[?12l[?25h[?25ly[24;66H4[1;34H[?12l[?25h[?25l[24;66H5[1;35H[?12l[?25h[?25lt[24;66H6[1;36H[?12l[?25h[?25le[24;66H7[1;37H[?12l[?25h[?25lx[24;66H8[1;38H[?12l[?25h[?25lt[24;66H9[1;39H[?12l[?25h[?25l[24;65H40[1;40H[?12l[?25h[?25lt[24;66H1[1;41H[?12l[?25h[?25lo[24;66H2[1;42H[?12l[?25h[?25l[24;66H3[1;43H[?12l[?25h[?25la[24;66H4[1;44H[?12l[?25h[?25l[24;66H5[1;45H[?12l[?25h[?25lf[24;66H6[1;46H[?12l[?25h[?25lr[24;66H7[1;47H[?12l[?25h[?25li[24;66H8[1;48H[?12l[?25h[?25le[24;66H9[1;49H[?12l[?25h[?25ln[24;65H50[1;50H[?12l[?25h[?25ld[24;66H1[1;51H[?12l[?25h[?25l[24;66H2[1;52H[?12l[?25h[?25lb[24;66H3[1;53H[?12l[?25h[?25ll[24;66H4[1;54H[?12l[?25h[?25la[24;66H5[1;55H[?12l[?25h[?25lh[24;66H6[1;56H[?12l[?25h[?25l[24;66H7[1;57H[?12l[?25h[?25lb[24;66H8[1;58H[?12l[?25h[?25ll[24;66H9[1;59H[?12l[?25h[?25la[24;65H60[1;60H[?12l[?25h[?25lh[24;66H1[1;61H[?12l[?25h[?25l[24;66H2[1;62H[?12l[?25h[?25lb[24;66H3[1;63H[?12l[?25h[?25ll[24;66H4[1;64H[?12l[?25h[?25la[24;66H5[1;65H[?12l[?25h[?25lh[24;66H6[1;66H[?12l[?25h[?25l.[24;66H7[1;67H[?12l[?25h[?25l[24;66H8[1;68H[?12l[?25h[?25lt[24;66H9[1;69H[?12l[?25h[?25l[1;68H[K[24;66H8[1;68H[?12l[?25h[?25lt[24;66H9[1;69H[?12l[?25h[?25le[24;65H70[1;70H[?12l[?25h[?25lx[24;66H1[1;71H[?12l[?25h[?25lt[24;66H2[1;72H[?12l[?25h[?25l[24;66H3[1;73H[?12l[?25h[?25lt[24;66H4[1;74H[?12l[?25h[?25lo[24;66H5[1;75H[?12l[?25h[?25l[24;66H6[1;76H[?12l[?25h[?25la[24;66H7[1;77H[?12l[?25h[?25l[24;66H8[1;78H[?12l[?25h[?25lf[24;66H9[1;79H[?12l[?25h[?25lr[24;65H80[1;80H[?12l[?25h[?25li[24;66H1[2;1H[?12l[?25h[?25le[2;2H[K[24;66H2[2;2H[?12l[?25h[?25ln[24;66H3[2;3H[?12l[?25h[?25ld[24;66H4[2;4H[?12l[?25h[?25l.[24;66H5[2;5H[?12l[?25h[24;1H[K[2;4H[?25l[24;63H1,84[10CAll[2;4H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"friend.1" [New] 1L, 85C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~/letters[Student@localhost letters]$ mv friend.1 friend.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;Student@localhost:~[Student@localhost ~]$ cd letters/formal;[K
+]0;Student@localhost:~/letters/formal[Student@localhost formal]$ vi formal;[K.1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"formal.1" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25lb[24;63H1,2[1;2H[?12l[?25h[?25ll[24;65H3[1;3H[?12l[?25h[?25la[24;65H4[1;4H[?12l[?25h[?25ln[24;65H5[1;5H[?12l[?25h[?25l[1;4H[K[24;65H4[1;4H[?12l[?25h[?25lh[24;65H5[1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25lb[24;65H7[1;7H[?12l[?25h[?25ll[24;65H8[1;8H[?12l[?25h[?25la[24;65H9[1;9H[?12l[?25h[?25lh[24;65H10[1;10H[?12l[?25h[?25l[24;66H1[1;11H[?12l[?25h[?25lb[24;66H2[1;12H[?12l[?25h[?25ll[24;66H3[1;13H[?12l[?25h[?25la[24;66H4[1;14H[?12l[?25h[?25lh[24;66H5[1;15H[?12l[?25h[?25l.[24;66H6[1;16H[?12l[?25h[24;1H[K[1;15H[?25l[24;63H1,15[10CAll[1;15H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"formal.1" [New] 1L, 16C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~/letters/formal[Student@localhost formal]$ cp formal.1 formal.2
+]0;Student@localhost:~/letters/formal[Student@localhost formal]$ ls 
+[00m[00mformal.1[00m  [00mformal.2[00m
+[m]0;Student@localhost:~/letters/formal[Student@localhost formal]$ lpr formal*
+]0;Student@localhost:~/letters/formal[Student@localhost formal]$ cd ../..
+]0;Student@localhost:~[Student@localhost ~]$ sl[K[Kls
+[00m[00;34massignments[00m  [00mgrady.L3.IIItxt[00m   [00mgrady.L3.VI.txt[00m         [00mgtsybrgII.txt[00m  [00;34mreports[00m
+[00;34mbackups[00m      [00mgrady.L3.III.txt[00m  [00mgrady.lab2.session.txt[00m  [00mgtysbrg.txt[00m
+[00;34mDesktop[00m      [00mgrady.L3.II.txt[00m   [00mgtsbrgII.txt[00m            [00;34mletters[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ mkdir busLtt[K[Ketters
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m  [00;34mDesktop[00m           [00mgrady.L3.II.txt[00m         [00mgtsbrgII.txt[00m   [00;34mletters[00m
+[00;34mbackups[00m      [00mgrady.L3.IIItxt[00m   [00mgrady.L3.VI.txt[00m         [00mgtsybrgII.txt[00m  [00;34mreports[00m
+[00;34mbusLetters[00m   [00mgrady.L3.III.txt[00m  [00mgrady.lab2.session.txt[00m  [00mgtysbrg.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cp letters/formal buslet[K[K[KT[K[KsTe[K[KLetters
+cp: omitting directory `letters/formal'
+]0;Student@localhost:~[Student@localhost ~]$ ls busLter[K[K[Ketters
+[00m[m]0;Student@localhost:~[Student@localhost ~]$ cp ll[Ketters/forla[K[Kmal busLetters.busLetters/busLetters
+cp: omitting directory `letters/formal'
+]0;Student@localhost:~[Student@localhost ~]$ mv letters/forma;[K[Kal ./busLetters
+]0;Student@localhost:~[Student@localhost ~]$ ls busLetters
+[00m[00;34mformal[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m  [00;34mDesktop[00m           [00mgrady.L3.II.txt[00m         [00mgtsbrgII.txt[00m   [00;34mletters[00m
+[00;34mbackups[00m      [00mgrady.L3.IIItxt[00m   [00mgrady.L3.VI.txt[00m         [00mgtsybrgII.txt[00m  [00;34mreports[00m
+[00;34mbusLetters[00m   [00mgrady.L3.III.txt[00m  [00mgrady.lab2.session.txt[00m  [00mgtysbrg.txt[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bak[00m  [00mhw4HL[00m  [00mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+[00mhw4[00m  [00mhw4.bk.[00m  [00mhw4HL[00m  [00mhw4SL[00m
+
+./busLetters:
+[00;34mformal[00m
+
+./busLetters/formal:
+[00mformal.1[00m  [00mformal.2[00m
+
+./Desktop:
+
+./letters:
+[00;34mfriends[00m
+
+./letters/friends:
+[00mfriend.1[00m
+
+./reports:
+[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/presonal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ D[K
+Script done on Mon 24 Apr 2006 08:49:56 AM EDT

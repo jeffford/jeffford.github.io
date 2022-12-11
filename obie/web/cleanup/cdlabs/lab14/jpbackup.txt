@@ -1,0 +1,33 @@
+#! /bin/bash
+# Script: jpbackup
+# Written by: prattjk
+# Date: 05/08/06
+#Purpose: Check for errors before running script, then
+# copy the files listed in the input file to ./bkupDir
+dir=bkupDir                  #subdirectory will be bkupDir
+if [[ $# != 2 ]]
+then
+	echo "Requires two arguments: file name with list of files to back up"
+	echo "and directory name where file resides"
+	exit 1
+fi
+if [[ ! -s $1 ]]
+then
+	echo "$1 file does not exist or is empty"
+	exit 2
+fi
+if [[ ! -d "$2" ]]
+then
+	echo "$2 directory does not exist" 
+	exit 3
+fi
+#End of error checking
+#copy the files listed in $line to the backup directory
+cat $1 | while read line
+  do
+    if [[ -f $line ]]    #only work with files
+    then
+        cp $line $dir/$line.bak    #copy and add .bak to name
+        echo "$line is backed up in $dir"       #print a msg about what happened
+    fi
+  done

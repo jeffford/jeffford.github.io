@@ -1,0 +1,54 @@
+Script started on Fri 05 May 2006 03:12:12 PM EDT
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat > Ch11S4F1
+/bin/date
+/bin/programs/cal
+/usr/bin/date
+/usr/report/file1
+/urs/report/letters/lett1
+/spool/mails
+]0;moellerja@cs:~[moellerja@cs moellerja]$ vi CH1[K[Kh11S4F1
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"Ch11S4F1" 6L, 99C[1;1H/bin/date
+/bin/programs/cal
+/usr/bin/date
+/usr/report/file1
+/urs/report/letters/lett1
+/spool/mails
+[1m[34m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H5,1[11CAll[5;1H[?25h[?25l[24;63H6[6;1H[?25h[?25l[24;65H2[6;2H[?25h[?25l[24;63H5[5;2H[?25h[?25l[24;63H4[4;2H[?25h[?25l[24;63H5[5;2H[?25h[?25l[24;65H3[5;3H[?25h[?25l[24;65H4[5;4H[?25h[?25l[24;65H5[5;5H[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H5,5[11CAll[5;5H[?25h[?25l/report/letters/lett1[5;25H[K[24;65H4[5;4H[?25h[?25l/report/letters/lett1[5;24H[K[24;65H3[5;3H[?25h[?25ls/report/letters/lett1[24;65H4[5;4H[?25h[?25lr/report/letters/lett1[24;65H5[5;5H[?25h[?25l[24;63H6[6;5H[?25h[24;1H[K[6;4H[?25l[24;63H6,4[11CAll[6;4H[?25h[?25l[24;63H[K[24;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"Ch11S4F1" 6L, 99C written
+[?1l>[?25h[?1047l[?1048l]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S4F1
+/bin/date
+/bin/programs/cal
+/usr/bin/date
+/usr/report/file1
+/usr/report/letters/lett1
+/spool/mails
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat > Ch11S4.sed
+s/\(..*\)[/]\(..*\)$/\1 \2/
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S4.e[Ksed
+s/\(..*\)[/]\(..*\)$/\1 \2/
+]0;moellerja@cs:~[moellerja@cs moellerja]$ sed -f Ch11S4.sed Ch11S4F1 Ch[K[K> Ch11S4F2
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S4F2
+/bin date
+/bin/programs cal
+/usr/bin date
+/usr/report file1
+/usr/report/letters lett1
+/spool mails
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S4F1
+/bin/date
+/bin/programs/cal
+/usr/bin/date
+/usr/report/file1
+/usr/report/letters/lett1
+/spool/mails
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S4.sed
+s/\(..*\)[/]\(..*\)$/\1 \2/
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S4F2
+/bin date
+/bin/programs cal
+/usr/bin date
+/usr/report file1
+/usr/report/letters lett1
+/spool mails
+]0;moellerja@cs:~[moellerja@cs moellerja]$ exit
+
+Script done on Fri 05 May 2006 03:15:33 PM EDT

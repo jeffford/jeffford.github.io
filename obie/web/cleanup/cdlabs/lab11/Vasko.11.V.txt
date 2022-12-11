@@ -1,0 +1,60 @@
+Script started on Fri 05 May 2006 06:02:21 AM EDT
+]0;student@localhost:~[student@localhost ~]$ cat Ch11S5F1
+/* The greeting program. This program demonstrates   */
+/*	some of the components of a simple C program.*/
+/*     Written by: Kent Vasko			     */
+/*     Date:       May 4, 2006			     */
+#include <stdio.h>
+
+
+int main (void)
+{
+/*	Statments */
+
+  printf("Hello World!\n");
+
+
+  return 0;
+} /* main */
+]0;student@localhost:~[student@localhost ~]$ cat > Ch11S5.sed
+#S Ch11S5.sed
+#h This st r critp  tp  pt is set up to              will take all of the comments out of the program.
+s/\([\/\*].*[/*  \*\/[ ]\)//g
+]0;student@localhost:~[student@localhost ~]$ sed -f Ch11S5.sed Ch11S5F1
+
+
+
+
+#include <stdio.h>
+
+
+int main (void)
+{
+
+
+  printf("Hello World!\n");
+
+
+  return 0;
+} 
+]0;student@localhost:~[student@localhost ~]$ sed -f Ch11S5.sed Ch11S5F1 > Ch11S5F2
+]0;student@localhost:~[student@localhost ~]$ cat Ch11S5F2
+
+
+
+
+#include <stdio.h>
+
+
+int main (void)
+{
+
+
+  printf("Hello World!\n");
+
+
+  return 0;
+} 
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Fri 05 May 2006 06:05:05 AM EDT

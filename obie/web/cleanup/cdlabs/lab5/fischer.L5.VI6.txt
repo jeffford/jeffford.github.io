@@ -1,0 +1,174 @@
+Script started on Wed 26 Apr 2006 10:31:03 PM EDT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ more ../../etc/profile
+# /etc/profile: system-wide .profile file for the Bourne shell (sh(1))
+# and Bourne compatible shells (bash(1), ksh(1), ash(1), ...).
+
+if [ "`id -u`" -eq 0 ]; then
+  PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X1
+1"
+else
+  PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X1
+1:/usr/games"
+fi
+
+if [ "$PS1" ]; then
+  if [ "$BASH" ]; then
+    PS1='\u@\h:\w\$ '
+    if [ -f /etc/bash.bashrc ]; then
+	. /etc/bash.bashrc
+    fi
+  else
+    if [ "`id -u`" -eq 0 ]; then
+      PS1='# '
+    else
+      PS1='$ '
+    fi
+[7m--More--(94%)[27m  fi[K
+[7m--More--(95%)[27mfi[K
+[7m--More--(95%)[27m[K
+[7m--More--(96%)[27mexport PATH[K
+[7m--More--(98%)[27m[K
+[7m--More--(98%)[27mumask 022[K
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ 
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ vi ../../etc/profile
+[?1049h[?1h=[>c[1;24r[27m[m[H[2J[?25l[24;1H"../../etc/profile" [readonly] 27L, 597C[1;1H# /etc/profile: system-wide .profile file for the Bourne shell (sh(1))
+# and Bourne compatible shells (bash(1), ksh(1), ash(1), ...).
+
+if [ "`id -u`" -eq 0 ]; then
+  PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11[6;1H1"
+else
+  PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11[9;1H1:/usr/games"
+fi
+
+if [ "$PS1" ]; then
+  if [ "$BASH" ]; then
+    PS1='\u@\h:\w\$ '
+    if [ -f /etc/bash.bashrc ]; then[16;9H. /etc/bash.bashrc
+    fi
+  else
+    if [ "`id -u`" -eq 0 ]; then[20;7HPS1='# '
+    else[22;7HPS1='$ '
+    fi[24;63H1,1[11CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;1H[K[24;1H:[?25hq[?25l[?25h[?25l[24;1H[K[24;1H[?1l>[?25h[?1049l]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ alias
+alias ls='ls --color=auto'
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ more .bashrc
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+
+# don't put duplicate lines in the history. See bash(1) for more options
+#export HISTCONTROL=ignoredups
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# enable color support of ls and also add handy aliases
+if [ "$TERM" != "dumb" ]; then
+    eval "`dircolors -b`"
+    alias ls='ls --color=auto'
+    #alias dir='ls --color=auto --format=vertical'
+    #alias vdir='ls --color=auto --format=long'
+fi
+
+# some more ls aliases
+[7m--More--(35%)[27m#alias ll='ls -l'
+[7m--More--(36%)[27m#alias la='ls -A'
+[7m--More--(37%)[27m#alias l='ls -CF'
+[7m--More--(38%)[27m[K
+[7m--More--(38%)[27m# make less more friendly for non-text input files, see lesspipe(1)
+[7m--More--(41%)[27m[ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
+[7m--More--(43%)[27m[K
+[7m--More--(43%)[27m# set variable identifying the chroot you work in (used in the prompt below)
+[7m--More--(47%)[27mif [ -z "$debian_chroot" -a -r /etc/debian_chroot ]; then
+[7m--More--(50%)[27m    debian_chroot=$(cat /etc/debian_chroot)
+[7m--More--(52%)[27mfi[K
+[7m--More--(52%)[27m[K
+[7m--More--(52%)[27m# set a fancy prompt (non-color, unless we know we "want" color)
+[7m--More--(55%)[27mcase "$TERM" in
+[7m--More--(56%)[27mxterm-color)[K
+[7m--More--(57%)[27m    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\0
+[7m--More--(61%)[27m33[01;34m\]\w\[\033[00m\]\$ '
+[7m--More--(62%)[27m    ;;[K
+[7m--More--(63%)[27m*)[K
+[7m--More--(63%)[27m    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+[7m--More--(65%)[27m    ;;[K
+[7m--More--(66%)[27mesac[K
+[7m--More--(66%)[27m[K
+[7m--More--(66%)[27m# Comment in the above and uncomment this below for a color prompt
+[7m--More--(69%)[27m#PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[
+[7m--More--(73%)[27m01;34m\]\w\[\033[00m\]\$ '
+[7m--More--(75%)[27m[K
+[7m--More--(75%)[27m# If this is an xterm set the title to user@host:dir
+[7m--More--(77%)[27mcase "$TERM" in
+[7m--More--(78%)[27mxterm*|rxvt*)
+[7m--More--(79%)[27m    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
+[7m--More--(82%)[27m    ;;[K
+[7m--More--(82%)[27m*)[K
+[7m--More--(83%)[27m    ;;[K
+[7m--More--(83%)[27mesac[K
+[7m--More--(83%)[27m[K
+[7m--More--(83%)[27m# Define your own aliases here ...
+[7m--More--(85%)[27m#if [ -f ~/.bash_aliases ]; then
+[7m--More--(87%)[27m#    . ~/.bash_aliases
+[7m--More--(88%)[27m#fi[K
+[7m--More--(88%)[27m[K
+[7m--More--(88%)[27m# enable programmable completion features (you don't need to enable
+[7m--More--(91%)[27m# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+[7m--More--(95%)[27m# sources /etc/bash.bashrc).
+[7m--More--(96%)[27m#if [ -f /etc/bash_completion ]; then
+[7m--More--(98%)[27m#    . /etc/bash_completion
+[7m--More--(99%)[27m#fi[K
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ 
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cp .bashrc .bashrc.bk
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ vi .bashrc
+[?1049h[?1h=[>c[1;24r[27m[m[H[2J[?25l[24;1H".bashrc" 68L, 2044C[1;1H# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+
+# don't put duplicate lines in the history. See bash(1) for more options
+#export HISTCONTROL=ignoredups
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# enable color support of ls and also add handy aliases
+if [ "$TERM" != "dumb" ]; then
+    eval "`dircolors -b`"
+    alias ls='ls --color=auto'
+    #alias dir='ls --color=auto --format=vertical'
+    #alias vdir='ls --color=auto --format=long'
+fi
+
+# some more ls aliases[24;63H1,1[11CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CTop[1;1H[?25h[?25l[24;63H2[2;1H[?25h[?25l[24;63H3[3;1H[?25h[?25l[24;63H4[4;1H[?25h[?25la[24;65H2[4;2H[?25h[?25ll[24;65H3[4;3H[?25h[?25li[24;65H4[4;4H[?25h[?25la[24;65H5[4;5H[?25h[?25ls[24;65H6[4;6H[?25h[?25l[24;65H7[4;7H[?25h[?25lm[24;65H8[4;8H[?25h[?25le[24;65H9[4;9H[?25h[?25le[24;65H10[4;10H[?25h[?25lp[24;66H1[4;11H[?25h[?25l=[24;66H2[4;12H[?25h[?25ll[24;66H3[4;13H[?25h[?25ls[24;66H4[4;14H[?25h[?25l:[24;66H5[4;15H[?25h[?25l[4;14H[K[24;66H4[4;14H[?25h[24;1H[K[4;13H[?25l[24;63H4,13[10CTop[4;13H[?25h[?25l[24;63H[K[24;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l".bashrc" 68L, 2057C written
+[?1l>[?25h[?1049l]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ meep
+bash: meep: command not found
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ source.[K .bashrc
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ meeo
+bash: meeo: command not found
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ meep
+[00m[01;34massignments[00m  [00mfile4[00m              [00mfischer.L5.Itake2.txt[00m  [00mHWch3.txt[00m
+[01;34mbackups[00m      [00mfile5[00m              [00mfischer.L5.I.txt[00m       [00mHWch4.doc[00m
+[01;34mbusLetters[00m   [00mfischer.3.III.txt[00m  [00mfischer.L5.IV.txt[00m      [00mHWch5.doc[00m
+[01;34mchaper_4[00m     [00mfischer.4.VI.txt[00m   [00mfischer.L5.VI6.txt[00m     [01;34mletters[00m
+[01;34mDesktop[00m      [00mfischer.L2.txt[00m     [00mfischer.L5.VI.txt[00m      [00mmeeep.txt[00m
+[00mfile1[00m        [00mfischer.L2.txt~[00m    [00mfischer.L5.V.txt[00m       [01;34mreports[00m
+[00mfile2[00m        [00mfischer.L4.II[00m      [00mHWch2.doc[00m
+[00mfile3[00m        [00mfischer.L4.I.txt[00m   [00mHWch2.txt[00m
+[00mfile3.bak[00m    [00mfischer.L5.II.txt[00m  [00mHWch3.doc[00m
+[m]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cp bash[K[K[K[K.bashrc.bk .bashrc
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ more .bash_logout
+.bash_logout: No such file or directory
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo "I don't have this file on my pc"[K, i looked"
+I don't have this file on my pc, i looked
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ ex[K[Kecho "i did it in lab and it worked there."
+i did it in lab and it worked there.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ exit
+
+Script done on Wed 26 Apr 2006 10:35:28 PM EDT

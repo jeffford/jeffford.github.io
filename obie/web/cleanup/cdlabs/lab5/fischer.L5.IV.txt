@@ -1,0 +1,44 @@
+Script started on Wed 26 Apr 2006 10:10:17 PM EDT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo i like s[Kcheese
+i like cheese
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo " [K This[K[Ke                                 quotes                   preserve                                                             w[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwhitespace"
+ The                                 quotes                  preserve                                              whitespace
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo " The                                 quotes                   preserve                                              whitespace"[Arebecca@rebecca:~$ echo i like cheese[K
+[K[Arebecca@rebecca:~$ echo i like cheeserebecca@rebecca:~$ echo [1@ [1@f[1@i[1@l[1P[1P[1P[1@f[1@i[1@e[1P[1@;[1P[1@l[1@e[1@1rebecca@rebecca:~$ echo file1 [1@ [1Prebecca@rebecca:~$ echrebecca@rebecca:~$ echorebecca@rebecca:~$ echo [1@ [1@>rebecca@rebecca:~$ echo > rebecca@rebecca:~$ echo > frebecca@rebecca:~$ echo > firebecca@rebecca:~$ echo > filrebecca@rebecca:~$ echo > filerebecca@rebecca:~$ echo > [1Prebecca@rebecca:~$ echo >frebecca@rebecca:~$ echo >firebecca@rebecca:~$ echo >filrebecca@rebecca:~$ echo >filerebecca@rebecca:~$ echo >file1rebecca@rebecca:~$ echo >file1 [1@"rebecca@rebecca:~$ echo >file1 "irebecca@rebecca:~$ echo >file1 "i rebecca@rebecca:~$ echo >file1 "i lrebecca@rebecca:~$ echo >file1 "i lirebecca@rebecca:~$ echo >file1 "i likrebecca@rebecca:~$ echo >file1 "i likerebecca@rebecca:~$ echo >file1 "i like rebecca@rebecca:~$ echo >file1 "i like crebecca@rebecca:~$ echo >file1 "i like chrebecca@rebecca:~$ echo >file1 "i like cherebecca@rebecca:~$ echo >file1 "i like cheerebecca@rebecca:~$ echo >file1 "i like cheesrebecca@rebecca:~$ echo >file1 "i like cheese"
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ more file1
+i like cheese
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ more file1echo >file1 "i like cheese"" The                                 quotes                   preserve                                              whitespace"[Arebecca@rebecca:~$ echo i like cheese[K
+[K[Arebecca@rebecca:~$ echo i like cheese" The                                 quotes                   preserve                                              whitespace"[Arebecca@rebecca:~$ echo i like cheese[K
+[K[Arebecca@rebecca:~$ echo i like cheese" The                                 quotes                   preserve                                              whitespace"[Arebecca@rebecca:~$ echo " The                                 quotes           rebecca@rebecca:~$ echrebecca@rebecca:~$ echo> " The                                 quotes
+      [1@ [Arebecca@rebecca:~$ echo>f " The                                 quotes
+       [1@ [Arebecca@rebecca:~$ echo>fi " The                                 quotes
+        [1@ [Arebecca@rebecca:~$ echo>fil " The                                 quotes
+         [1@ [Arebecca@rebecca:~$ echo>file " The                                 quotes
+          [1@ [Arebecca@rebecca:~$ echo>file2 " The                                 quotes
+           [1@ [Arebecca@rebecca:~$ echo>file2rebecca@rebecca:~$ echo>file2  " The                                 quotes
+            [1@ [Arebecca@rebecca:~$ echo>file2 
+
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ more file2
+ The                                 quotes                  preserve           
+                                   whitespace
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ faa[Kcts="UNIX vs,[K. Oht[K[Kh[Kthers"
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo "This is the fact $facts in our life."
+This is the fact UNIX vs. Others in our life.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo "This is the fact $facts in our life."rebecca@rebecca:~$ echo "This is the fact [1@`rebecca@rebecca:~$ echo "This is the fact `$rebecca@rebecca:~$ echo "This is the fact `$frebecca@rebecca:~$ echo "This is the fact `$farebecca@rebecca:~$ echo "This is the fact `$facrebecca@rebecca:~$ echo "This is the fact `$factrebecca@rebecca:~$ echo "This is the fact `$facts[1@`
+bash: UNIX: command not found
+This is the fact  in our life.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo "This is the fact `$facts` in our life."rebecca@rebecca:~$ echo "This is the fact `$facts`[1P[1@'rebecca@rebecca:~$ echo "This is the fact `[1P[1@'
+This is the fact 'UNIX vs. Others' in our life.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo "This is the fact '$facts' in our life."rebecca@rebecca:~$ echo "This is the fact '$factrebecca@rebecca:~$ echo "This is the fact '$factsrebecca@rebecca:~$ echo "This is the fact '$facts'[1P[1Prebecca@rebecca:~$ echo "This is the fact'rebecca@rebecca:~$ echo "This is the fact'[1P[1@ [1@/
+This is the fact /UNIX vs. Others in our life.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo "This is the fact /$facts in our life."[1P[1@\
+This is the fact $facts in our life.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo "This is the fact \$facts in our life."/rebecca@rebecca:~$ echo "This is the fact /$facts in our life."[1@'$facts'rebecca@rebecca:~$ echo "This is the fact '$facts' in our life."`$facts`rebecca@rebecca:~$ echo "This is the fact `$facts` in our life."[2P$factsrebecca@rebecca:~$ echo "This is the fact $facts in our life."rebecca@rebecca:~$ echo "This is the fact $facts[1@"[1Prebecca@rebecca:~$ echo "This is the fact $facts[1@"rebecca@rebecca:~$ echo "This is the factrebecca@rebecca:~$ echo "This is the fact [1@"
+This is the fact UNIX vs. Others in our life.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo "This is the fact "$facts" in our life."rebecca@rebecca:~$ echo "This is the fact "$facts"[1@"rebecca@rebecca:~$ echo "This is the fact "[1@"
+This is the fact UNIX vs. Others in our life.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo "This is the fact ""$facts"" in our life."rebecca@rebecca:~$ echo "This is the fact "rebecca@rebecca:~$ echo "This is the fact ""[1Prebecca@rebecca:~$ echo "This is the fact""$facts"" in our life."[1P[1@ [1@ [1@/rebecca@rebecca:~$ echo "This is the fact / [1Prebecca@rebecca:~$ echo "This is the fact /"[1@ rebecca@rebecca:~$ echo "This is the fact /" $rebecca@rebecca:~$ echo "This is the fact /" $frebecca@rebecca:~$ echo "This is the fact /" $farebecca@rebecca:~$ echo "This is the fact /" $facrebecca@rebecca:~$ echo "This is the fact /" $factrebecca@rebecca:~$ echo "This is the fact /" $factsrebecca@rebecca:~$ echo "This is the fact /" $facts"[1P[1P[1@c[1@\[1P[1P[1@srebecca@rebecca:~$ echo "This is the fact /" $facts"rebecca@rebecca:~$ echo "This is the fact /" $facts"[1Prebecca@rebecca:~$ echo "This is the fact /" $facts [1@ rebecca@rebecca:~$ [Kecho "This is the fact /" $facts  in our life."rebecca@rebecca:~$ echo "This is the fact /" $facts [1@\[1@"rebecca@rebecca:~$ echo "This is the fact rebecca@rebecca:~$ echo "This is the fact /[1P[1@\
+This is the fact " UNIX vs. Others " in our life.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ exit
+
+Script done on Wed 26 Apr 2006 10:16:01 PM EDT

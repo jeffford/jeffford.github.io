@@ -1,0 +1,50 @@
+Script started on Tue 09 May 2006 06:50:19 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ fi[K[Kykbackup
+it must be exactly 2 arguments
+]0;Student@localhost:~[Student@localhost ~]$ ykbackup file.list
+it must be exactly 2 arguments
+]0;Student@localhost:~[Student@localhost ~]$ ykbackup file.list file1 file2
+it must be exactly 2 arguments
+]0;Student@localhost:~[Student@localhost ~]$ ykbackup file.list backupsfile.list[6Pafile backups
+ the file does not exist
+]0;Student@localhost:~[Student@localhost ~]$ ykbackup afile backups[4hfile[4l.list[Student@localhost ~]$ ykbackup file.list backupsfile.list
+the directory does not exist
+]0;Student@localhost:~[Student@localhost ~]$ ykbackup file.list file.list[6Pafile backups[4hfile[4l.list[Student@localhost ~]$ ykbackup file.list backups
+file1 is backed  up in backups
+file2 is backed  up in backups
+a.file is backed  up in backups
+]0;Student@localhost:~[Student@localhost ~]$ cat ykbackup
+#! /bin/bash
+# Script: ykbackup
+# Purpose: To backup the files that is listed in the file.list file to backups
+# directory
+if (( $# != 2 ))
+then
+	echo "it must be exactly 2 arguments"
+	elif [[ ! -r $1 ]]
+	then
+		echo " the file does not exist"
+	elif [[ ! -d $2 ]]
+	then
+		echo "the directory does not exist"
+	else
+	
+		for a in $(cat $1)
+		do
+			if [[ -f $a ]]	#handle files only
+			then
+				cp $a $2/$a.bak
+				echo "$a is backed  up in $2"
+			fi
+		done
+
+	fi		
+
+]0;Student@localhost:~[Student@localhost ~]$ exit[K[K[K[Kcat file.list
+file1
+file2
+a.file
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Tue 09 May 2006 06:58:33 PM EDT

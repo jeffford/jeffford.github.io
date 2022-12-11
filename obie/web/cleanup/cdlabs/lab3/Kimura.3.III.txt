@@ -1,0 +1,105 @@
+Script started on Tue 25 Apr 2006 08:21:19 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ma[Kkdirdir backups[1P[1P[1P[Student@localhost ~]$ mkdir backups
+[Student@localhost ~]$ find assignments/UNIX/hw4* -exec cp {} backups; ;\;
+cp: omitting directory `assignments/UNIX/hw4HL'
+]0;Student@localhost:~[Student@localhost ~]$ ls -li assignments/UNIX
+[00mtotal 44
+2334413 -rw-rw-r--  1 Student Student   87 Apr 25 07:59 [00mhw4.bk[00m
+2334449 drwxrwxr-x  2 Student Student 4096 Apr 25 08:07 [00;34mhw4HL[00m
+2334470 lrwxrwxrwx  1 Student Student    7 Apr 25 08:08 [00;36mhw4SL[00m -> [00mhw4.txt[00m
+2334458 -rw-rw-r--  3 Student Student   87 Apr 25 07:56 [00mhw4.txt[00m
+2334362 drwxrwxr-x  2 Student Student 4096 Apr 25 07:48 [00;34mHWs[00m
+2334397 drwxrwxr-x  2 Student Student 4096 Apr 25 07:48 [00;34mProjects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -ai assignmnets[K[K[K[K[Kments/UNIX
+[00m2334130 [00;34m.[00m   2334413 [00mhw4.bk[00m  2334470 [00;36mhw4SL[00m    2334362 [00;34mHWs[00m
+2334118 [00;34m..[00m  2334449 [00;34mhw4HL[00m   2334458 [00mhw4.txt[00m  2334397 [00;34mProjects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ rm assignments/UNIX/hw4.txt
+]0;Student@localhost:~[Student@localhost ~]$ find assignments/UNIX/hw4*
+assignments/UNIX/hw4.bk
+assignments/UNIX/hw4HL
+assignments/UNIX/hw4HL/hw4HL
+assignments/UNIX/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ find hw4*assignments/UNIX/hw4*[Student@localhost ~]$ find assignments/UN[Student@localhost ~]$ find assignments/UNI[Student@localhost ~]$ find assignments/UNIX[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1Phw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*a/hw4*[1P/hw4*b/hw4*a/hw4*c/hw4*k/hw4*u/hw4*p/hw4*s/hw4*
+backups/hw4.bk
+backups/hw4HL
+backups/hw4SL
+backups/hw4.txt
+]0;Student@localhost:~[Student@localhost ~]$ more assignments/UNIX/hw4*
+::::::::::::::
+assignments/UNIX/hw4.bk
+::::::::::::::
+I love to snowboard in the winter, and the rest of the seasons,
+I hope for sun shines.
+
+*** assignments/UNIX/hw4HL: directory ***
+
+assignments/UNIX/hw4SL: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ more assignments/UNIX/hw4*[1PNIX/hw4*[1PIX/hw4*[1PX/hw4*[1P/hw4*[1Phw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*[1P/hw4*b/hw4*a/hw4*c/hw4*k/hw4*u/hw4*p/hw4*s/hw4*
+::::::::::::::
+backups/hw4.bk
+::::::::::::::
+I love to snowboard in the winter, and the rest of the seasons,
+I hope for sun shines.
+[7m--More--(Next file: backups/hw4HL)[m::::::::::::::[K
+backups/hw4HL
+::::::::::::::
+I love to snowboard in the winter, and the rest of the seasons,
+[7m--More--(73%)[mI hope for sun shines.
+[7m--More--(Next file: backups/hw4SL)[m::::::::::::::[K
+backups/hw4SL
+::::::::::::::
+I love to snowboard in the winter, and the rest of the seasons,
+[7m--More--(73%)[mI hope for sun shines.
+[7m--More--(Next file: backups/hw4.txt)[m::::::::::::::[K
+backups/hw4.txt
+::::::::::::::
+I love to snowboard in the winter, and the rest of the seasons,
+[7m--More--(73%)[mI hope for sun shines.
+]0;Student@localhost:~[Student@localhost ~]$ cm[K[Kcp assignments/UNIX/hw4.bk assignments/UNIX/hw4.txt
+]0;Student@localhost:~[Student@localhost ~]$ rm assignments/UNIX/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ rm assignments/UNIX/hw4SL[Student@localhost ~]$ cp assignments/UNIX/hw4.bk assignments/UNIX/hw4.txt[Student@localhost ~]$ [34Pmore backups/hw4*assignments/UNIX/hw4*[K[Student@localhost ~]$ [8Pfind backups/hw4*[8Phw4*assignments/UNIX/hw4*[Student@localhost ~]$ rm assignments/UNIX/hw4.txt[Student@localhost ~]$ [4Pls -ai assignments/UNIXl[Student@localhost ~]$ ls -li assignments/UNIXfind assignments/UNIX/hw4* -exec cp {} backups \;[2P;assignments/UNIX/hw4**} bnackups;[A[Student@localhost ~]$ find assignments/UNIX/hw4* -exec cp {[9P} bnackups;
+[K[A[Student@localhost ~]$ find assignments/UNIX/hw4* -exec cp {} bnackups;[Kassignments/UNIX/hw4HL/hw4*[Student@localhost ~]$ find hw4*[Kmkdir backupsexit[Kmkdir backups[4Pfind hw4*mkdir backupsexit[Kls -l hw4.txt hw4.bk hw4HL/hw4HL hw4SL[Student@localhost ~]$ ls -i[Student@localhost ~]$ ls -i hw4.txt hw4.bk hw4HL/hw4HL hw4SL[Student@localhost ~]$ l[19Pn -s hw4.txt[Student@localhost ~]$ ln -s hw4.txt hw4SL[4hs -i hw4.txt hw4.bk[4l hw4HL/hw4HL[Student@localhost ~]$ ls -i hw4.txt hw4.bk hw4HL/hw4HL hw4SL[Student@localhost ~]$ l[19Pn -s hw4.txt[Student@localhost ~]$ ln -s hw4.txt hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m    [00mgtysbrg.txt[00m       [00mKimura.3.II.txt~[00m   [00mkimura.L2.txt[00m
+[00;34mbackups[00m        [01;05;37;41mhw4SL[00m             [00mKimura.3.I.txt[00m     [00;34mletters[00m
+[00;34mDesktop[00m        [00mKimura.3.III.txt[00m  [00mKimura.3.I.txt~[00m    [00;34mreports[00m
+[00mgtysbrgII.txt[00m  [00mKimura.3.II.txt[00m   [00mKimura.L1.txt.odt[00m  [00mtypescript~[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00mhw4.bk[00m  [00;34mhw4HL[00m  [00mhw4.txt[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/hw4HL:
+[00mhw4HL[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+[00mhw4.bk[00m  [00mhw4HL[00m  [00mhw4SL[00m  [00mhw4.txt[00m
+
+./Desktop:
+[00;31mparted-1.7.0rc4.tar.gz[00m
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpersonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 25 Apr 2006 08:42:13 AM EDT

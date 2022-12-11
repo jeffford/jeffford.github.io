@@ -1,0 +1,20 @@
+Script started on Mon 01 May 2006 06:20:17 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ fist[K[Krst=PARENT
+]0;Student@localhost:~[Student@localhost ~]$ exho[K[K[Kcho $first
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ ksh[K[K[Kbash
+]0;Student@localhost:~[Student@localhost ~]$ exitcho "This is a fact \"$facts\" in our life"[3P$facts[Student@localhost ~]$ echo "This is a fact \$facts in our life"[4h'[4l$facts'[Student@localhost ~]$ echo "This is a fact '$facts' in our life"[1P\$facts[Student@localhost ~]$ echo "This is a fact \$facts in our life"[4h"$f[4lacts\"[Student@localhost ~]$ echo "This is a fact \"$facts\" in our life"[Student@localhost ~]$ exit[K[Kexi[K[Kcho=[K $first
+
+]0;Student@localhost:~[Student@localhost ~]$ second=SUNSHELL[K[K[K[K[K[KBSHELL
+]0;Student@localhost:~[Student@localhost ~]$ ex[Kcho $second
+SUBSHELL
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+]0;Student@localhost:~[Student@localhost ~]$ bashecho $first[K[K[K[K[Ksecond[K[K[K[K[K[Kfirst
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ echo $first[K[K[K[K[Ksecond
+
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 01 May 2006 06:22:09 AM EDT

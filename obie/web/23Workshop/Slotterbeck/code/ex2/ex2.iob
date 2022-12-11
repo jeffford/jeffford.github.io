@@ -1,0 +1,216 @@
+        include 1a00 
+         shape_ a100 4096,1,1 1,0,0 
+           main 1800 EX2 
+          ident 6500 
+          temp_ 6b11 STMP$ 48 0 0 16 CS$ 
+         entry_ 6f00 STMP$ 
+          temp_ 6b21 SFTMP$ 61 0 8 24 CS$ 
+         entry_ 6f00 SFTMP$ 
+          decl_ 6111 OUTBF$ 7200 0 0 16 CS$ 
+         entry_ 6f00 OUTBF$ 
+          decl_ 6112 STACK$ 32 0 0 32 CS$ 
+         entry_ 6f00 STACK$ 
+          decl_ 6111 host_stack$ 1 0 0 16 CS$ 
+         entry_ 6f00 host_stack$ 
+          temp_ 6b12 IPTMP$ 16 16 0 16 CS$ 
+          temp_ 6b22 RPTMP$ 15 32 8 24 CS$ 
+          temp_ 6b32 LPTMP$ 17 1 0 1 CS$ 
+          temp_ 6b42 LITMP$ 5 32 0 32 CS$ 
+          decl_ 6132 TRUE$ 1 1 0 1 CS$ 
+          decl_ 6132 FALSE$ 1 1 0 1 CS$ 
+          decl_ 6132 IOMASK 1 1 0 1 CS$ 
+          decl_ 6115 C10D$ 1 10 0 16 
+         entry_ 6f00 C10D$ 
+          decl_ 6115 C8D$ 1 8 0 16 
+         entry_ 6f00 C8D$ 
+          decl_ 6115 C2D$ 1 2 0 16 
+         entry_ 6f00 C2D$ 
+          decl_ 6115 C1D$ 1 1 0 16 
+         entry_ 6f00 C1D$ 
+          decl_ 6115 C0D$ 1 0 0 16 
+         entry_ 6f00 C0D$ 
+          decl_ 6115 C16D$ 1 16 0 16 
+         entry_ 6f00 C16D$ 
+          decl_ 6115 C48D$ 1 48 0 16 
+         entry_ 6f00 C48D$ 
+          decl_ 6115 C45D$ 1 45 0 16 
+         entry_ 6f00 C45D$ 
+          decl_ 6115 C32D$ 1 32 0 16 
+         entry_ 6f00 C32D$ 
+          decl_ 6132 THEM 1 1 0 1 CS$ 
+          decl_ 6112 LEX$ 1 96 0 96 CS$ 
+          decl_ 6112 LEX_VAL$ 1 96 0 96 CS$ 
+          decl_ 6132 LEX_BI$ 1 1 0 1 CS$ 
+          decl_ 6132 GLOBAL_BI$ 1 1 0 1 CS$ 
+          decl_ 6132 THEIR 1 1 0 1 CS$ 
+          decl_ 6132 ITS 1 1 0 1 CS$ 
+          decl_ 6132 THE 1 1 0 1 CS$ 
+          decl_ 6132 AN 1 1 0 1 CS$ 
+          decl_ 6132 A 1 1 0 1 CS$ 
+          decl_ 6132 @ 1 1 0 1 CS$ 
+          decl_ 6111 PERFORM 1 1 0 1 CS$ 
+          decl_ 6111 PA_PERFORM 1 1 0 1 CS$ 
+          decl_ 6111 SC_PERFORM 1 1 0 1 CS$ 
+          decl_ 6111 HANDLE$ 2 0 0 16 CS$ 
+          decl_ 6112 AA 1 16 0 16 CS$ 
+          decl_ 6112 BB 1 16 0 16 CS$ 
+          decl_ 6112 CC 1 16 0 16 CS$ 
+          decl_ 6132 XX 1 1 0 1 CS$ 
+          decl_ 6132 BI 1 1 0 1 CS$ 
+          decl_ 6132 BBI 1 1 0 1 CS$ 
+          decl_ 6122 DD 1 32 8 24 CS$ 
+          decl_ 6111 SUMM 1 0 0 16 CS$ 
+         entry_ 6f00 SUMM 
+          decl_ 6132 YY 1 1 0 1 CS$ 
+      clr_array 6600 
+         alloc_ 3a0c THE 
+     init_stack 6700 
+   beg_of_stmt  1c00 9 0 
+       beg_read 5a00 SYSOT BBI AA,BB,BI, 
+          mvsc_ 4711 C0D$ STMP$+0 
+          mvsc_ 4711 C0D$ STMP$+1 
+          loop_ 3200 PT$S1 
+        read_ln 5b00 SYSIN STMP$+1 PT$R1 
+         until_ 3601 STMP$+1 PT$E1 
+          read_ 5c12 OUTBF$,C0D$ STMP$+0 16 PT$R1 
+          decl_ 6115 C2400D$ 1 2400 0 16 
+         entry_ 6f00 C2400D$ 
+          read_ 5c12 OUTBF$,C2400D$ STMP$+0 16 PT$R1 
+          decl_ 6115 C4800D$ 1 4800 0 16 
+         entry_ 6f00 C4800D$ 
+          read_ 5c32 OUTBF$,C4800D$ STMP$+0 1 PT$R1 
+            add 111 STMP$+0 C1D$ STMP$+0 
+        endloop 2900 PT$E1 PT$S1 
+             gt 911 STMP$+0 C2400D$ STMP$+1 
+            if_ 3001 STMP$+1 PT$N1 
+            msg 1e00 SYSOT ERROR - I/O BUFFER OVERFLOW ON READ - SOME DATA OVERWRITTEN. 
+          else_ 2c01 PT$F1 PT$N1 
+         endif_ 2701 PT$F1 
+       ioalloc2 5d5c BBI STMP$+0 
+         expand 5e12 OUTBF$,C0D$ AA C16D$ 
+         input_ 5f12 AA C16D$ 
+         expand 5e12 OUTBF$,C2400D$ BB C16D$ 
+         input_ 5f12 BB C16D$ 
+         expand 5e32 OUTBF$,C4800D$ BI C1D$ 
+         input_ 5f32 BI C1D$ 
+       endread_ 6000 
+   beg_of_stmt  1c00 11 0 
+          msg_  1e00 SYSOT Input data:  
+       print_nl 5800 SYSOT 
+   beg_of_stmt  1c00 12 0 
+        fstout_ 6a00 BBI 
+         outpt_ 5412 AA C16D$ 
+        colapse 5512 OUTBF$,C0D$ STMP$+0 AA C16D$ 
+         outpt_ 5412 BB C16D$ 
+        colapse 5512 OUTBF$,C2400D$ STMP$+0 BB C16D$ 
+         outpt_ 5432 BBI C1D$ 
+        colapse 5532 OUTBF$,C4800D$ STMP$+0 BBI C1D$ 
+      beg_print 5600 SYSOT BBI AA,BB,BBI, 
+             gt 911 STMP$+0 C2400D$ STMP$+1 
+            if_ 3001 STMP$+1 PT$N2 
+            msg 1e00 SYSOT ERROR - I/O BUFFER OVERFLOW ON PRINT - SOME DATA LOST. 
+          else_ 2c01 PT$F2 PT$N2 
+         endif_ 2701 PT$F2 
+          mvsc_ 4711 C0D$ STMP$+1 
+          loop_ 3200 PT$S2 
+             ge a11 STMP$+1 STMP$+0 STMP$+2 
+         until_ 3601 STMP$+2 PT$E2 
+        sprint_ 5712 SYSOT OUTBF$,C0D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+        sprint_ 5712 SYSOT OUTBF$,C2400D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+        sprint_ 5732 SYSOT OUTBF$,C4800D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+       print_nl 5800 SYSOT 
+            add 111 STMP$+1 C1D$ STMP$+1 
+        endloop 2900 PT$E2 PT$S2 
+       endprint 5900 
+   beg_of_stmt  1c00 14 0 
+          decl_ 6115 C13D$ 1 13 0 16 
+         entry_ 6f00 C13D$ 
+            eq_ 714 BB C13D$ LPTMP$+0 
+          mvpa_ 4832 LPTMP$+0 THEM 
+          mvpa_ 4832 LPTMP$+0 YY 
+   beg_of_stmt  1c00 15 0 
+       release_ 3f02 YY BBI 
+   beg_of_stmt  1c00 16 0 
+         alloc_ 3a00 XX BBI C1D$ 
+          mvpa_ 4832 XX ITS 
+   beg_of_stmt  1c00 17 0 
+          decl_ 6115 C5D$ 1 5 0 16 
+         entry_ 6f00 C5D$ 
+          resf_ 1d02 XX LPTMP$+0 
+          mvsc_ 4716 LPTMP$+0 C5D$ AA 
+   beg_of_stmt  1c00 18 0 
+          decl_ 6115 C6D$ 1 6 0 16 
+         entry_ 6f00 C6D$ 
+          mvsc_ 4712 C6D$ BB C16D$ 
+   beg_of_stmt  1c00 19 0 
+      endalloc_ 4000 AL$E1 
+   beg_of_stmt  1c00 20 0 
+        fstout_ 6a00 BBI 
+         outpt_ 5412 AA C16D$ 
+        colapse 5512 OUTBF$,C0D$ STMP$+0 AA C16D$ 
+         outpt_ 5412 BB C16D$ 
+          decl_ 6115 C1440D$ 1 1440 0 16 
+         entry_ 6f00 C1440D$ 
+        colapse 5512 OUTBF$,C1440D$ STMP$+0 BB C16D$ 
+         outpt_ 5432 BBI C1D$ 
+          decl_ 6115 C2880D$ 1 2880 0 16 
+         entry_ 6f00 C2880D$ 
+        colapse 5532 OUTBF$,C2880D$ STMP$+0 BBI C1D$ 
+         outpt_ 5432 XX C1D$ 
+          decl_ 6115 C4320D$ 1 4320 0 16 
+         entry_ 6f00 C4320D$ 
+        colapse 5532 OUTBF$,C4320D$ STMP$+0 XX C1D$ 
+         outpt_ 5432 YY C1D$ 
+          decl_ 6115 C5760D$ 1 5760 0 16 
+         entry_ 6f00 C5760D$ 
+        colapse 5532 OUTBF$,C5760D$ STMP$+0 YY C1D$ 
+      beg_print 5600 SYSOT BBI AA,BB,BBI,XX,YY, 
+             gt 911 STMP$+0 C1440D$ STMP$+1 
+            if_ 3001 STMP$+1 PT$N3 
+            msg 1e00 SYSOT ERROR - I/O BUFFER OVERFLOW ON PRINT - SOME DATA LOST. 
+          else_ 2c01 PT$F3 PT$N3 
+         endif_ 2701 PT$F3 
+          mvsc_ 4711 C0D$ STMP$+1 
+          loop_ 3200 PT$S3 
+             ge a11 STMP$+1 STMP$+0 STMP$+2 
+         until_ 3601 STMP$+2 PT$E3 
+        sprint_ 5712 SYSOT OUTBF$,C0D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+        sprint_ 5712 SYSOT OUTBF$,C1440D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+        sprint_ 5732 SYSOT OUTBF$,C2880D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+        sprint_ 5732 SYSOT OUTBF$,C4320D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+        sprint_ 5732 SYSOT OUTBF$,C5760D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+       print_nl 5800 SYSOT 
+            add 111 STMP$+1 C1D$ STMP$+1 
+        endloop 2900 PT$E3 PT$S3 
+       endprint 5900 
+   beg_of_stmt  1c00 22 0 
+          msg_  1e00 SYSOT bi[$]= 
+       print_nl 5800 SYSOT 
+          dump_ 8732 SYSOT BI CS$ 
+       print_nl 5800 SYSOT 
+       print_nl 5800 SYSOT 
+   beg_of_stmt  1c00 23 0 
+          msg_  1e00 SYSOT bbi[$]= 
+       print_nl 5800 SYSOT 
+          dump_ 8732 SYSOT BBI CS$ 
+       print_nl 5800 SYSOT 
+       print_nl 5800 SYSOT 
+   beg_of_stmt  1c00 24 0 
+          msg_  1e00 SYSOT xx[$]= 
+       print_nl 5800 SYSOT 
+          dump_ 8732 SYSOT XX CS$ 
+       print_nl 5800 SYSOT 
+       print_nl 5800 SYSOT 
+   beg_of_stmt  1c00 26 0 
+         label_ 6800 $EXIT$ 
+          stop_ 6c00 
+        endmain 7400 EX2 
+

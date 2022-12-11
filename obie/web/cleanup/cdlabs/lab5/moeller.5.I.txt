@@ -1,0 +1,51 @@
+Script started on Mon 24 Apr 2006 05:09:22 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ echo $SHELL
+/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ vi /etc/as[K[Kpasswd
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/passwd" [readonly] 37L, 1703C[1;1Hroot:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin[24;63H6,1[11CTop[6;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H6,2[11CTop[24;14H[31mW10: Warning: Changing a readonly file[m[24;63H[K[6;2H[?12l[?25h[24;1H[K[6;1H[?25l[24;63H6,1[11CTop[6;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ echo $0
+bash
+]0;Student@localhost:~[Student@localhost ~]$ csh
+[Student@localhost ~]$ echo $0
+csh
+[Student@localhost ~]$ echo ' no, my new ch[K[Kshell is currently in use;[K'
+no, my new shell is currently in use
+[Student@localhost ~]$ bash
+]0;Student@localhost:~[Student@localhost ~]$ echo $0
+bash
+]0;Student@localhost:~[Student@localhost ~]$ eh[Kcho 'it does not mach [K[K[Ktch the previou [Ks shell, but does matc h my login shell"[K[Kl'
+it does not match the previous shell, but does match my login shell
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+[Student@localhost ~]$ echo $0
+csh
+[Student@localhost ~]$ exit
+exit
+]0;Student@localhost:~[Student@localhost ~]$ echo $0
+bash
+]0;Student@localhost:~[Student@localhost ~]$ 'y[K[Kecho 'yes, we are back to the login shell [K[K[K[K[K[K[K[K[K[K[K[Kbash login shell:[K;[K'
+yes, we are back to the bash login shell
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 24 Apr 2006 05:24:20 PM EDT

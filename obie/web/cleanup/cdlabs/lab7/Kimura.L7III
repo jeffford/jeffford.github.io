@@ -1,0 +1,106 @@
+Script started on Thu 04 May 2006 11:18:30 AM EDT
+]0;kimuray@cs:~[kimuray@cs kimuray]$ pwd
+/home/kimuray
+]0;kimuray@cs:~[kimuray@cs kimuray]$ dir
+assignments  file   file2    KimuraL7II.doc  Kimura.L7Is   lab3sessionII   lab3sessionIII  RemoteWork  reports	text
+backups      file1  HW6.doc  Kimura.L7III    lab3session1  lab3sessionII2  letters	   report      test
+]0;kimuray@cs:~[kimuray@cs kimuray]$ cd RemoteWork
+]0;kimuray@cs:~/RemoteWork[kimuray@cs RemoteWork]$ cat >Kimuray.[K[K.L7III.txt
+Anote her S ma  sa mall file for      .  
+This is o for lab 7, section III.
+let's put some numbers,
+! 123	432	234
+123  	567	234
+done.
+]0;kimuray@cs:~/RemoteWork[kimuray@cs RemoteWork]$ cat >Kimura.L7III.txt[1PKimura.L7III.txt[1P[1P[1P Kimura.L7III.txt[1PKimura.L7III.txt[1Pimura.L7III.txt[1Pmura.L7III.txt[1Pura.L7III.txt[1Pra.L7III.txt[1Pa.L7III.txt[1P.L7III.txt[1PL7III.txt[1P7III.txt[1PIII.txt[kimuray@cs RemoteWork]$ II[1P.txt[kimuray@cs RemoteWork]$ I[1P.txt[1P.txt[1Ptxt[1Pxt[1Pt[Kecho "I'm just checking if the ci[K[Kfile was[K[K[Kreally works."
+I'm just checking if the file really works.
+]0;kimuray@cs:~/RemoteWork[kimuray@cs RemoteWork]$ echo "I'm just checking if the file really works."[kimuray@cs RemoteWork]$ [29Pcat >Kimura.L7III.txt[1PKimura.L7III.txt[kimuray@cs RemoteWork]$ cat Kimura.L7III.txt
+Another small file.
+This is for lab 7, section III.
+let's put some numbers,
+123	432	234
+123	567	234
+done.
+]0;kimuray@cs:~/RemoteWork[kimuray@cs RemoteWork]$ di[K[Kcd
+]0;kimuray@cs:~[kimuray@cs kimuray]$ ls -lR
+[00m.:
+total 136
+drwxrwxr-x    3 kimuray  kimuray      4096 Apr 25 01:31 [00;34massignments[00m
+drwxrwxr-x    2 kimuray  kimuray      4096 Apr 25 03:23 [00;34mbackups[00m
+-rw-rw-r--    1 kimuray  kimuray       226 May  1 10:19 [00mfile[00m
+-rw-rw-r--    1 kimuray  kimuray        20 May  1 10:26 [00mfile1[00m
+-rw-rw-r--    1 kimuray  kimuray        20 May  1 10:27 [00mfile2[00m
+-rw-r--r--    1 kimuray  kimuray     36864 May  2 12:25 [00mHW6.doc[00m
+-rw-r--r--    1 kimuray  kimuray     24064 May  1 20:49 [00mKimuraL7II.doc[00m
+-rw-rw-r--    1 kimuray  kimuray         0 May  4 11:18 [00mKimura.L7III[00m
+-rw-rw-r--    1 kimuray  kimuray     10262 May  1 20:48 [00mKimura.L7Is[00m
+-rw-rw-r--    1 kimuray  kimuray      2232 Apr 25 01:40 [00mlab3session1[00m
+-rw-rw-r--    1 kimuray  kimuray      4096 Apr 25 01:56 [00mlab3sessionII[00m
+-rw-rw-r--    1 kimuray  kimuray      3852 Apr 25 02:19 [00mlab3sessionII2[00m
+-rw-rw-r--    1 kimuray  kimuray     10347 Apr 25 03:05 [00mlab3sessionIII[00m
+drwxrwxr-x    4 kimuray  kimuray      4096 Apr 25 01:27 [00;34mletters[00m
+drwxrwxr-x    2 kimuray  kimuray      4096 May  4 11:19 [00;34mRemoteWork[00m
+lrwxrwxrwx    1 kimuray  kimuray         1 Apr 24 01:54 [00;36mreport[00m -> [00;34m/[00m
+drwxrwxr-x    5 kimuray  kimuray      4096 Apr 25 01:29 [00;34mreports[00m
+-rw-rw-r--    1 kimuray  kimuray       525 Apr 28 02:09 [00mtest[00m
+-rw-rw-r--    1 kimuray  kimuray         4 Apr 28 01:49 [00mtext[00m
+
+./assignments:
+total 4
+drwxrwxr-x    4 kimuray  kimuray      4096 Apr 25 03:23 [00;34mUNIX[00m
+
+./assignments/UNIX:
+total 16
+-rw-rw-r--    1 kimuray  kimuray       122 Apr 25 03:03 [00mhw4[00m
+-rw-rw-r--    1 kimuray  kimuray       122 Apr 25 01:55 [00mhw4HL[00m
+lrwxrwxrwx    1 kimuray  kimuray        20 Apr 25 03:04 [01;05;37;41mhw4SL[00m -> [01;05;37;41massignments/UNIX/hw4[00m
+drwxrwxr-x    2 kimuray  kimuray      4096 Apr 25 01:35 [00;34mHWs[00m
+drwxrwxr-x    2 kimuray  kimuray      4096 Apr 25 01:35 [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+total 0
+
+./assignments/UNIX/Projects:
+total 0
+
+./backups:
+total 8
+-rw-rw-r--    1 kimuray  kimuray       122 Apr 25 02:50 [00mhw4[00m
+-rw-rw-r--    1 kimuray  kimuray       122 Apr 25 02:50 [00mhw4HL[00m
+
+./letters:
+total 8
+drwxrwxr-x    2 kimuray  kimuray      4096 Apr 25 01:27 [00;34mformal[00m
+drwxrwxr-x    2 kimuray  kimuray      4096 Apr 25 01:27 [00;34mfriendly[00m
+
+./letters/formal:
+total 0
+
+./letters/friendly:
+total 0
+
+./RemoteWork:
+total 36
+-rw-r--r--    1 kimuray  kimuray     24064 May  1 20:50 [00mKimuraL7II.doc[00m
+-rw-rw-r--    1 kimuray  kimuray       106 May  4 11:20 [00mKimura.L7III.txt[00m
+-rw-rw-r--    1 kimuray  kimuray       154 May  1 20:47 [00mKimura.L7I.txt[00m
+-rw-rw-r--    1 kimuray  kimuray        23 May  2 12:09 [00mKimuray.L7I.txt[00m
+
+./reports:
+total 12
+drwxrwxr-x    2 kimuray  kimuray      4096 Apr 25 01:29 [00;34mbusiness[00m
+drwxrwxr-x    2 kimuray  kimuray      4096 Apr 25 01:29 [00;34mpersonal[00m
+drwxrwxr-x    2 kimuray  kimuray      4096 Apr 25 01:29 [00;34mschool[00m
+
+./reports/business:
+total 0
+
+./reports/personal:
+total 0
+
+./reports/school:
+total 0
+[m]0;kimuray@cs:~[kimuray@cs kimuray]$ exit
+exit
+
+Script done on Thu 04 May 2006 11:21:41 AM EDT

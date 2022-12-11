@@ -1,0 +1,19 @@
+Script started on Mon 08 May 2006 05:05:57 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11s4f1
+/bin/date
+/bin/programs/cal
+/usr/bin/date
+/usr/report/file1
+/usr/report/letters/lett1
+/spool/mails
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11s4f1[5Pvi rfls./rfls 3 4 5a[Student@localhost ~]$ ./rfls a 4 5[5Pvi rfls./rfls a 4 53[Student@localhost ~]$ ./rfls 3 4 5[5Pvi rfls./rfls a 4 5[K[K[K[K[K[K[K[K[K[K[K[Ksed -f '[KCh11s4.sed Ch11s4f1
+/bin  date
+/bin/programs  cal
+/usr/bin  date
+/usr/report  file1
+/usr/report/letters  lett1
+/spool  mails
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 08 May 2006 05:06:46 PM EDT

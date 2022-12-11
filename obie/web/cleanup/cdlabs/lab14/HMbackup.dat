@@ -1,0 +1,30 @@
+#! /bin/bash
+# Script: HMbackup
+# purpose: backup a list of files
+
+if (( $# != 2))
+then 
+	echo "Usarge: $0 [filename of list] [directory]"
+	exit
+fi
+
+if [[ ! -f $1 ]]
+then
+	echo "No such file: $1"
+fi
+
+if [[ ! -d $2 ]]
+then
+	echo "No such directory: $2"
+	exit
+fi
+
+dir=$2
+cat $1 | while read filename
+do 
+	if [[ -f $filename ]]
+	then
+		cp $filename $dir/$filename.bak
+		echo "$filename is backed up to $2"
+	fi
+done

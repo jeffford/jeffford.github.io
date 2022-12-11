@@ -1,0 +1,7 @@
+#!/bin/sh
+#PBS -N myjob
+#PBS -j oe
+source /opt/intel/composerxe-2011.0.084/bin/iccvars.sh  intel64
+export OMP_NUM_THREADS=16
+/home/racheseb/Grossman/code/solution/L1t
+

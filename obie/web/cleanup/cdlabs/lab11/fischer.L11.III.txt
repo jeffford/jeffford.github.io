@@ -1,0 +1,199 @@
+Script started on Mon 08 May 2006 06:54:50 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ csa[K[Kat fishcer[K[K[K[K[K[K[KCh11s3f1b
+     1	a
+     2	a
+     3	a
+     4	a
+     5	a
+     6	a
+     7	a
+     8	ad
+     9	d
+    10	d
+    11	d
+    12	d
+    13	d
+    14	d
+    15	d
+    16	d
+    17	f
+    18	f
+    19	f
+    20	f
+    21	f
+    22	f
+    23	f
+    24	f
+    25	f
+    26	f
+    27	f
+    28	f
+    29	g
+    30	g
+    31	g
+    32	g
+    33	g
+    34	g
+    35	g
+    36	g
+    37	g
+    38	g
+    39	h
+    40	h
+    41	h
+    42	h
+    43	h
+    44	j
+    45	j
+    46	j
+    47	j
+    48	j
+    49	h
+    50	h
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11s3f1bexit[Ksed -f Ch11s6.sed Ch11s6f1 > Ch11s6f2[Student@localhost ~]$ [24Pvi Ch11s6.sedsed -f Ch11s6.sed Ch11s6f1 > Ch11s6f2[Student@localhost ~]$ [24Pvi Ch11s6.sedsed -f Ch11s6.sed Ch11s6f1 > Ch11s6f2[Student@localhost ~]$ [24Pvi Ch11s6.sedsed -f Ch11s6.sed Ch11s6f1 > Ch11s6f2[Student@localhost ~]$ [24Pvi Ch11s6.sedsed -f Ch11s6.sed Ch11s6f1 > Ch11s6f2[Student@localhost ~]$ [24Pvi Ch11s6.sed[1Pcat Ch11s6f2[4hsed -f Ch11s6.sed Ch11s6f[4l1 >[Student@localhost ~]$ sed -f Ch11s6.sed Ch11s6f1 > Ch11s6f2[Student@localhost ~]$ [24Pvi Ch11s6.sed[4hcp Ch11s5.s[4led[Student@localhost ~]$ cp Ch11s5.sed Ch11s6.sed[12Pat Ch11s6f25f2sed -f Ch11s5.sed Ch11s6f1 > Ch11s6f2[Student@localhost ~]$ vi Ch11s6f1[K[7Pexit[K[K[K[Ksed Chcat Ch11s5f2[4hsed -f Ch11s5.sed Ch11s5f[4l1 >[Student@localhost ~]$ sed -f Ch11s5.sed Ch11s5f1 > Ch11s5f2[Student@localhost ~]$ cat Ch11s5f1[Ksed -f Ch11s5.sed Ch11s5f1 > Ch11s5f2[Student@localhost ~]$ cat Ch11s5f2[K[4hsed -f Ch11s5.sed Ch11s5f[4l1 >[Student@localhost ~]$ sed -f Ch11s5.sed Ch11s5f1 > Ch11s5f2[Student@localhost ~]$ cat Ch11s5f1[Ksed -f Ch11s5.sed Ch11s5f1 > Ch11s5f2[Student@localhost ~]$ cat Ch11s5f1[Kvi Ch11s3.sed
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11s3.sed" 15L, 135C[1;1H[35m10,15{[m
+[36mw[m [31mCh11s3f2[m
+[35m}
+20,30{[m [36mw[m [31mCh11s3f3[m
+[35m}
+31,37{[m [36mw[m [31mCh11s3f4[m
+[35m}
+1,9[m [35m{[m[36mw[m [31mCh11s3f5[m
+[35m}
+16,19[m [35m{[m[36mw[m [31mCh11s3f5[m
+[35m}
+38,50[m [35m{[m[36mw[m [31mCh11s3f5[m
+[35m}[m
+
+[34m#end of script[m
+[1m[34m~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H13,1[10CAll[13;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11s3.sed" 15L, 135C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Ch11s3.sed
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11s3.sed" 15L, 135C[1;1H[35m10,15{[m
+[36mw[m [31mCh11s3f2[m
+[35m}
+20,30{[m [36mw[m [31mCh11s3f3[m
+[35m}
+31,37{[m [36mw[m [31mCh11s3f4[m
+[35m}
+1,9[m [35m{[m[36mw[m [31mCh11s3f5[m
+[35m}
+16,19[m [35m{[m[36mw[m [31mCh11s3f5[m
+[35m}
+38,50[m [35m{[m[36mw[m [31mCh11s3f5[m
+[35m}[m
+
+[34m#end of script[m
+[1m[34m~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H13,1[10CAll[13;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11s3.sed" 15L, 135C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Ch11s3.sedcat Ch11s3f1bexit[Ksed -f Ch11s6.sed Ch11s6f1 > Ch11s6f2[Student@localhost ~]$ [24Pvi Ch11s6.sedsed -f Ch11s6.sed Ch11s6f1 > Ch11s6f2[Student@localhost ~]$ [24Pvi Ch11s6.sedsed -f Ch11s6.sed Ch11s6f1 > Ch11s6f2[Student@localhost ~]$ [24Pvi Ch11s6.sedsed -f Ch11s6.sed Ch11s6f1 > Ch11s6f2[Student@localhost ~]$ [24Pvi Ch11s6.sedsed -f Ch11s6.sed Ch11s6f1 > Ch11s6f2[Student@localhost ~]$ [24Pvi Ch11s6.sed[K[K[K[K[K[K[K[K[K[K[K[K[Ksed Ch11s3.sed Ch11s3f1b
+sed: -e expression #1, char 1: unknown command: `C'
+]0;Student@localhost:~[Student@localhost ~]$ sed Ch11s3.sed Ch11s3f1b[Student@localhost ~]$ sed [4h-[4l[4hf[4l[4h [4l
+     1	a
+     2	a
+     3	a
+     4	a
+     5	a
+     6	a
+     7	a
+     8	ad
+     9	d
+    10	d
+    11	d
+    12	d
+    13	d
+    14	d
+    15	d
+    16	d
+    17	f
+    18	f
+    19	f
+    20	f
+    21	f
+    22	f
+    23	f
+    24	f
+    25	f
+    26	f
+    27	f
+    28	f
+    29	g
+    30	g
+    31	g
+    32	g
+    33	g
+    34	g
+    35	g
+    36	g
+    37	g
+    38	g
+    39	h
+    40	h
+    41	h
+    42	h
+    43	h
+    44	j
+    45	j
+    46	j
+    47	j
+    48	j
+    49	h
+    50	h
+]0;Student@localhost:~[Student@localhost ~]$ car Ch11s3f2
+bash: car: command not found
+]0;Student@localhost:~[Student@localhost ~]$ car Ch11s3f2[1P Ch11s3f2t Ch11s3f2
+    10	d
+    11	d
+    12	d
+    13	d
+    14	d
+    15	d
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11s3f2[K3
+    20	f
+    21	f
+    22	f
+    23	f
+    24	f
+    25	f
+    26	f
+    27	f
+    28	f
+    29	g
+    30	g
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11s3f3[K4
+    31	g
+    32	g
+    33	g
+    34	g
+    35	g
+    36	g
+    37	g
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11s3f4[K5
+     1	a
+     2	a
+     3	a
+     4	a
+     5	a
+     6	a
+     7	a
+     8	ad
+     9	d
+    16	d
+    17	f
+    18	f
+    19	f
+    38	g
+    39	h
+    40	h
+    41	h
+    42	h
+    43	h
+    44	j
+    45	j
+    46	j
+    47	j
+    48	j
+    49	h
+    50	h
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 08 May 2006 07:02:41 PM EDT

@@ -1,0 +1,25 @@
+Script started on Thu 27 Apr 2006 08:30:54 AM EDT
+]0;student@localhost:~[student@localhost ~]$ fist[Kr[K[Krst=PARENT
+]0;student@localhost:~[student@localhost ~]$ echo $first
+PARENT
+]0;student@localhost:~[student@localhost ~]$ echo $0
+bash
+]0;student@localhost:~[student@localhost ~]$ bash
+]0;student@localhost:~[student@localhost ~]$ echo $0
+bash
+]0;student@localhost:~[student@localhost ~]$ echo $first
+
+]0;student@localhost:~[student@localhost ~]$ echo $SHELL
+/bin/bash
+]0;student@localhost:~[student@localhost ~]$ second=SUBSHELL
+]0;student@localhost:~[student@localhost ~]$ echo #[K$second
+SUBSHELL
+]0;student@localhost:~[student@localhost ~]$ exit
+exit
+]0;student@localhost:~[student@localhost ~]$ echo $first
+PARENT
+]0;student@localhost:~[student@localhost ~]$ echo $second
+
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 08:32:09 AM EDT

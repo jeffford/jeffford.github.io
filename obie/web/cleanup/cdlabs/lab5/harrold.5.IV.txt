@@ -1,0 +1,38 @@
+Script started on Mon 01 May 2006 06:10:53 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ script fischer.test1exit[Kmore /etc/passwd[1Plpr[Student@localhost ~]$ lpr /etc/passwdcal 2006 | head | head -2[Student@localhost ~]$ [10Plpr /etc/passwd[4hm[4lore[Student@localhost ~]$ more /etc/passwdexit[Kscript fischer.test1[Kdate > file1
+]0;Student@localhost:~[Student@localhost ~]$ rn[Km file1
+]0;Student@localhost:~[Student@localhost ~]$ rm file1[4hdate[4l >[Student@localhost ~]$ date > file1[1P[1P[1P[1P[4hc[4l[1P[4ht[4l[4hi[4l[4hm[4l[4he[4l
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+]0;Student@localhost:~[Student@localhost ~]$ time > file1[K[K[K[K[K[K[K[K[K[K[K[Kf[Kdate > file1
+]0;Student@localhost:~[Student@localhost ~]$ date > file1tim[Student@localhost ~]$ time > file1[4Prm[Student@localhost ~]$ rm file1
+]0;Student@localhost:~[Student@localhost ~]$ echo "\n This is a one linw [K[Ke di[K[Kfile" > file1
+]0;Student@localhost:~[Student@localhost ~]$ more file1
+\n This is a one line file
+]0;Student@localhost:~[Student@localhost ~]$ more file1[4hecho "\n This is a one line fil[4le" >[Student@localhost ~]$ echo "\n This is a one line file" > file1[1P[1P[Student@localhost ~]$ echo " This is a one line file" > file1[Student@localhost ~]$ echo " This is a one line file" > file1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K"echo[K[K[K[K[K(echo "t[KThis will be a te[Kwo-line file.  In order to get two  lines, I  [Khave to type more than I did in the last example.  This should be two  inw[K[K[Klines.:[K" > file2
+> bash: syntax error: unexpected end of file
+]0;Student@localhost:~[Student@localhost ~]$ (echo "This will be a two-line file.  In order to get two  lines, I have to type more than I did in the last example.  This should be two llines." > file2[A[A[Student@localhost ~]$ more file1[K
+[K
+[K[A[A[Student@localhost ~]$ more file1(echo "This will be a two-line file.  In order to get two  lines, I have to type more than I did in the last example.  This should be two llines." > file2lines."lines." lines." >lines." > lines." > flines." > filines." > fillines." > filelines." > file2)
+]0;Student@localhost:~[Student@localhost ~]$ more file2
+This will be a two-line file.  In order to get two lines, I have to type more th
+an I did in the last example.  This should be two lines.
+]0;Student@localhost:~[Student@localhost ~]$ more file2(echo "This will be a two-line file.  In order to get two  lines, I have to type more than I did in the last example.  This should be two llines." > file2)[A[A[Student@localhost ~]$ more file2[K
+[K
+[K[A[A[Student@localhost ~]$ more file2[Kfacts = Unix [K[K[K[K[K""Uni[K[K[K[KUnix vs. Others"
+bash: facts: command not found
+]0;Student@localhost:~[Student@localhost ~]$ facts = "Unix vs. Others"[1P[1P[Student@localhost ~]$ facts="Unix vs. Others"
+]0;Student@localhost:~[Student@localhost ~]$ echo "this i[K[K[K[K[K[KThis is a fact $facts in our life.":[K
+This is a fact Unix vs. Others in our life.
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact '$facts' in our life"
+This is a fact 'Unix vs. Others' in our life
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact '$facts' in our life"[1P[4h\[4l[Student@localhost ~]$ echo "This is a fact \$[Student@localhost ~]$ echo "This is a fact \$f[Student@localhost ~]$ echo "This is a fact \$fa[Student@localhost ~]$ echo "This is a fact \$fac[Student@localhost ~]$ echo "This is a fact \$fact[Student@localhost ~]$ echo "This is a fact \$facts[Student@localhost ~]$ echo "This is a fact \$facts'[Student@localhost ~]$ echo "This is a fact \$facts' [Student@localhost ~]$ echo "This is a fact \$facts' i[Student@localhost ~]$ echo "This is a fact \$facts' in[Student@localhost ~]$ echo "This is a fact \$facts' in [Student@localhost ~]$ echo "This is a fact \$facts' in o[Student@localhost ~]$ echo "This is a fact \$facts' in ou[Student@localhost ~]$ echo "This is a fact \$facts' in our[Student@localhost ~]$ echo "This is a fact \$facts' in our [Student@localhost ~]$ echo "This is a fact \$facts' in our l[1P[Student@localhost ~]$ echo "This is a fact \$facts in our life"
+This is a fact $facts in our life
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact \$facts in our life"[4h"[4l[1P[4h"[4l[Student@localhost ~]$ echo "This is a fact \"$[Student@localhost ~]$ echo "This is a fact \"$f[Student@localhost ~]$ echo "This is a fact \"$fa[Student@localhost ~]$ echo "This is a fact \"$fac[Student@localhost ~]$ echo "This is a fact \"$fact[Student@localhost ~]$ echo "This is a fact \"$facts[Student@localhost ~]$ echo "This is a fact \"$facts [Student@localhost ~]$ echo "This is a fact \"$facts i[Student@localhost ~]$ echo "This is a fact \"$facts in[Student@localhost ~]$ echo "This is a fact \"$facts in [Student@localhost ~]$ echo "This is a fact \"$facts in o[Student@localhost ~]$ echo "This is a fact \"$facts in ou[Student@localhost ~]$ echo "This is a fact \"$facts in our[Student@localhost ~]$ echo "This is a fact \"$facts in our [Student@localhost ~]$ echo "This is a fact \"$facts[4h/[4l[1P[4h\[4l[4h"[4l[Student@localhost ~]$ echo "This is a fact \"$facts\" in our life"
+This is a fact "Unix vs. Others" in our life
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 01 May 2006 06:20:06 AM EDT

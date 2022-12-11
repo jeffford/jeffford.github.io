@@ -1,0 +1,422 @@
+Script started on Sun 07 May 2006 12:20:54 AM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat > Ch11S3F1
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+eleven
+twelve
+thirette    teen
+fourteen
+fifteen
+sixteen
+seventeen
+eith  ghteen
+nineteen
+twtne   enty
+twenty= -one
+twenty-two
+twenty-three
+twenty-four
+twenty-five
+twenty-six
+twenty-seven
+twenty-s eight
+twenty-nine
+thirty
+thirty-one
+thirty-two
+thirty-three
+thirty-four
+thirty-five
+thirty-six
+thirty-seven
+thirty-eight
+thirty-nine
+thirty-       fourty
+fourty-one
+fourth=y-two       y= -two
+fourth-three
+fourth y-four
+fourty-five
+fourty-six
+fourth=  y-seven
+fourty-eight
+fourth-nine
+fourty      fify  ty  fty
+]0;prattjk@cs:~[prattjk@cs prattjk]$ vi Ch11S3F1
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"Ch11S3F1" 50L, 476C[1;1Hone
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+eleven
+twelve
+thirteen
+fourteen
+fifteen
+sixteen
+seventeen
+eighteen
+nineteen
+twenty
+twenty-one
+twenty-two
+twenty-three[24;63H1,1[11CTop[1;1H[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CTop[1;1H[?25h[?25l[24;63H2[2;1H[?25h[?25l[24;63H3[3;1H[?25h[?25l[24;63H4[4;1H[?25h[?25l[24;63H5[5;1H[?25h[?25l[24;63H6[6;1H[?25h[?25l[24;63H7[7;1H[?25h[?25l[24;63H8[8;1H[?25h[?25l[24;63H9[9;1H[?25h[?25l[24;63H10,1[10;1H[?25h[?25l[24;64H1[11;1H[?25h[?25l[24;64H2[12;1H[?25h[?25l[24;64H3[13;1H[?25h[?25l[24;64H4[14;1H[?25h[?25l[24;64H5[15;1H[?25h[?25l[24;64H6[16;1H[?25h[?25l[24;64H7[17;1H[?25h[?25l[24;64H8[18;1H[?25h[?25l[24;64H9[19;1H[?25h[?25l[24;63H20[20;1H[?25h[?25l[24;64H1[21;1H[?25h[?25l[24;64H2[22;1H[?25h[?25l[24;64H3[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Htwenty-four[24;64H4[12C 3%[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Htwenty-five[24;64H5[13C7[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Htwenty-six[24;64H6[12C11[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Htwenty-seven[24;64H7[13C4[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Htwenty-eight[24;64H8[13C8[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Htwenty-nine[24;64H9[12C22[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hthirty[24;63H30[13C5[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hthirty-one[24;64H1[13C9[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hthirty-two[24;64H2[12C33[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hthirty-three[24;64H3[13C7[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hthirty-four[24;64H4[12C40[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hthirty-five[24;64H5[13C4[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hthirty-six[24;64H6[13C8[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hthirty-seven[24;64H7[12C51[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hthirty-eight[24;64H8[13C5[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hthirty-nine[24;64H9[13C9[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfourty[24;63H40[12C62[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfourty-one[24;64H1[13C6[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfourty-two[24;64H2[12C70[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfourth-three[24;64H3[13C4[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfourty-four[24;64H4[13C7[23;1H[?25h[?25l[24;64H3[22;1H[?25h[?25l[24;66H2[22;2H[?25h[?25l[24;66H3[22;3H[?25h[?25l[24;66H4[22;4H[?25h[?25l[24;66H5[22;5H[?25h[?25l[24;66H6[22;6H[?25h[?25lyh-three[24;66H7[22;7H[?25h[?25l-thre[22;13H[K[22;7H[?25h[?25l[24;64H4[23;7H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfourty-five[24;64H5[12C81[23;7H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfourty-six[24;64H6[13C5[23;7H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfourty-seven[24;64H7[13C8[23;7H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfourty-eight[24;64H8[12C92[23;7H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfourth-nine[24;64H9[13C6[23;7H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfifty[24;63H50,6[10CBot[23;6H[?25h[?25l[24;63H49,7[22;7H[?25h[?25l[24;66H6[22;6H[?25h[?25lyh-nine[24;66H7[22;7H[?25h[?25l-nine[22;12H[K[22;7H[?25h[24;1H[K[22;6H[?25l[24;63H49,6[10CBot[22;6H[?25h[?25l[24;63H[K[24;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"Ch11S3F1" 50L, 476C written
+[?1l>[?25h[?1047l[?1048l]0;prattjk@cs:~[prattjk@cs prattjk]$ cp Ch11S3F1 Ch11S3F1.cpy
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat -n Ch11S3F1 > Ch11S3F1.nbr
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S3F1.nbr
+     1	one
+     2	two
+     3	three
+     4	four
+     5	five
+     6	six
+     7	seven
+     8	eight
+     9	nine
+    10	ten
+    11	eleven
+    12	twelve
+    13	thirteen
+    14	fourteen
+    15	fifteen
+    16	sixteen
+    17	seventeen
+    18	eighteen
+    19	nineteen
+    20	twenty
+    21	twenty-one
+    22	twenty-two
+    23	twenty-three
+    24	twenty-four
+    25	twenty-five
+    26	twenty-six
+    27	twenty-seven
+    28	twenty-eight
+    29	twenty-nine
+    30	thirty
+    31	thirty-one
+    32	thirty-two
+    33	thirty-three
+    34	thirty-four
+    35	thirty-five
+    36	thirty-six
+    37	thirty-seven
+    38	thirty-eight
+    39	thirty-nine
+    40	fourty
+    41	fourty-one
+    42	fourty-two
+    43	fourty-three
+    44	fourty-four
+    45	fourty-five
+    46	fourty-six
+    47	fourty-seven
+    48	fourty-eight
+    49	fourty-nine
+    50	fifty
+]0;prattjk@cs:~[prattjk@cs prattjk]$ sed [K[K[K[Kcat Ch11S3.d[Ksed
+10,15{/^.*$/w Ch11S3F2
+}
+20,30{/^.*$/w Ch11S3F3
+}
+31,37{/^.*$/w Ch11S3F4
+}
+38,${/^.*$/w Ch11S3F5
+}
+]0;prattjk@cs:~[prattjk@cs prattjk]$ sed -f Ch11S3.sed Ch11S3F1.nbr
+     1	one
+     2	two
+     3	three
+     4	four
+     5	five
+     6	six
+     7	seven
+     8	eight
+     9	nine
+    10	ten
+    11	eleven
+    12	twelve
+    13	thirteen
+    14	fourteen
+    15	fifteen
+    16	sixteen
+    17	seventeen
+    18	eighteen
+    19	nineteen
+    20	twenty
+    21	twenty-one
+    22	twenty-two
+    23	twenty-three
+    24	twenty-four
+    25	twenty-five
+    26	twenty-six
+    27	twenty-seven
+    28	twenty-eight
+    29	twenty-nine
+    30	thirty
+    31	thirty-one
+    32	thirty-two
+    33	thirty-three
+    34	thirty-four
+    35	thirty-five
+    36	thirty-six
+    37	thirty-seven
+    38	thirty-eight
+    39	thirty-nine
+    40	fourty
+    41	fourty-one
+    42	fourty-two
+    43	fourty-three
+    44	fourty-four
+    45	fourty-five
+    46	fourty-six
+    47	fourty-seven
+    48	fourty-eight
+    49	fourty-nine
+    50	fifty
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S3.sed
+10,15{/^.*$/w Ch11S3F2
+}
+20,30{/^.*$/w Ch11S3F3
+}
+31,37{/^.*$/w Ch11S3F4
+}
+38,${/^.*$/w Ch11S3F5
+}
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S3F1
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+eleven
+twelve
+thirteen
+fourteen
+fifteen
+sixteen
+seventeen
+eighteen
+nineteen
+twenty
+twenty-one
+twenty-two
+twenty-three
+twenty-four
+twenty-five
+twenty-six
+twenty-seven
+twenty-eight
+twenty-nine
+thirty
+thirty-one
+thirty-two
+thirty-three
+thirty-four
+thirty-five
+thirty-six
+thirty-seven
+thirty-eight
+thirty-nine
+fourty
+fourty-one
+fourty-two
+fourty-three
+fourty-four
+fourty-five
+fourty-six
+fourty-seven
+fourty-eight
+fourty-nine
+fifty
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S3F1.cpy
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+eleven
+twelve
+thirteen
+fourteen
+fifteen
+sixteen
+seventeen
+eighteen
+nineteen
+twenty
+twenty-one
+twenty-two
+twenty-three
+twenty-four
+twenty-five
+twenty-six
+twenty-seven
+twenty-eight
+twenty-nine
+thirty
+thirty-one
+thirty-two
+thirty-three
+thirty-four
+thirty-five
+thirty-six
+thirty-seven
+thirty-eight
+thirty-nine
+fourty
+fourty-one
+fourty-two
+fourty-three
+fourty-four
+fourty-five
+fourty-six
+fourty-seven
+fourty-eight
+fourty-nine
+fifty
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S3F1.nbr
+     1	one
+     2	two
+     3	three
+     4	four
+     5	five
+     6	six
+     7	seven
+     8	eight
+     9	nine
+    10	ten
+    11	eleven
+    12	twelve
+    13	thirteen
+    14	fourteen
+    15	fifteen
+    16	sixteen
+    17	seventeen
+    18	eighteen
+    19	nineteen
+    20	twenty
+    21	twenty-one
+    22	twenty-two
+    23	twenty-three
+    24	twenty-four
+    25	twenty-five
+    26	twenty-six
+    27	twenty-seven
+    28	twenty-eight
+    29	twenty-nine
+    30	thirty
+    31	thirty-one
+    32	thirty-two
+    33	thirty-three
+    34	thirty-four
+    35	thirty-five
+    36	thirty-six
+    37	thirty-seven
+    38	thirty-eight
+    39	thirty-nine
+    40	fourty
+    41	fourty-one
+    42	fourty-two
+    43	fourty-three
+    44	fourty-four
+    45	fourty-five
+    46	fourty-six
+    47	fourty-seven
+    48	fourty-eight
+    49	fourty-nine
+    50	fifty
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S3F2|more
+    10	ten
+    11	eleven
+    12	twelve
+    13	thirteen
+    14	fourteen
+    15	fifteen
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S3F2|more32|more[1P|more
+    20	twenty
+    21	twenty-one
+    22	twenty-two
+    23	twenty-three
+    24	twenty-four
+    25	twenty-five
+    26	twenty-six
+    27	twenty-seven
+    28	twenty-eight
+    29	twenty-nine
+    30	thirty
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S3F3|more43|more[1P|more[prattjk@cs prattjk]$ cat Ch11S3F4|more
+    31	thirty-one
+    32	thirty-two
+    33	thirty-three
+    34	thirty-four
+    35	thirty-five
+    36	thirty-six
+    37	thirty-seven
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S3F4|more54|more[1P|more[prattjk@cs prattjk]$ cat Ch11S3F5|more
+    38	thirty-eight
+    39	thirty-nine
+    40	fourty
+    41	fourty-one
+    42	fourty-two
+    43	fourty-three
+    44	fourty-four
+    45	fourty-five
+    46	fourty-six
+    47	fourty-seven
+    48	fourty-eight
+    49	fourty-nine
+    50	fifty
+]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+
+Script done on Sun 07 May 2006 12:33:36 AM EDT

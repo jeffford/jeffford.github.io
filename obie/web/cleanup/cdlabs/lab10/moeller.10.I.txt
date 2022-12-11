@@ -1,0 +1,31 @@
+Script started on Tue 02 May 2006 10:06:45 PM EDT
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat > Ch10S2[K1FD[K1
+1425	Jaun   uan	18	14.25
+4321	George	22	21.11
+6781  	Anne	44	16.77
+1451	Bn en	36	21.77
+2277	Tuan	16	18.77
+]0;moellerja@cs:~[moellerja@cs moellerja]$ fgrep 'Anne' Ch10S1F1 | cut -f4
+16.77
+]0;moellerja@cs:~[moellerja@cs moellerja]$ fgrep '1451' Ch10S1F1 | cut -f2
+Ben
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cut -f1[K2,3 Cho[K10S1F1 | egrep '[2-9][0-9]' | cut -f1
+George
+Anne
+Ben
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep '[2-9][0-9]\.[0-9][0-9]' | cut[K[K[K[K[KCh10S1F1 | cut -f1,2[K3
+4321	22
+1451	36
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^.}[K]' Ch10S1F1 | cut -f1,2,4
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch10S1F1
+1425	Juan	18	14.25
+4321	George	22	21.11
+6781	Anne	44	16.77
+1451	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch10S1F1egrep '[^0-9][0][0-9][^.]' Ch10S1F1 | cut -f1,2,4[1P[1@0[1@-[1@9[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9][moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]'[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' [moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' C[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch1[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 [moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 |[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 | [moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 | c[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 | cu[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 | cut[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 | cut [moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 | cut -[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 | cut -f[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 | cut -f1[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 | cut -f1,[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 | cut -f1,2[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 | cut -f1,2,[moellerja@cs moellerja]$ egrep '[^0-9][0][0-9][^0-9]' Ch10S1F1 | cut -f1,2,4
+]0;moellerja@cs:~[moellerja@cs moellerja]$ echo the reason nothing was pin[K[Krinted out after this com mand was because there is no one in this list that worked fewer than 10 hours.
+the reason nothing was printed out after this command was because there is no one in this list that worked fewer than 10 hours.
+]0;moellerja@cs:~[moellerja@cs moellerja]$ exit
+
+Script done on Tue 02 May 2006 10:19:47 PM EDT

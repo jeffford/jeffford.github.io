@@ -1,0 +1,39 @@
+Script started on Thu 04 May 2006 08:43:55 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ch[K[KC[Kcat ?[K>Ch10S1F1
+1425	Juan	18	14.25
+4321	F George	22	21.11
+6781	Anne	44	16.77
+1451	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;Student@localhost:~[Student@localhost ~]$ grep 'Annt[Ke' Ch10S1F1 |cut -f4[Student@localhost ~]$ [16Pcat >Ch10S1F1[1P[1P[1P >Ch10S1F1c >Ch10S1F1p >Ch10S1F1[Student@localhost ~]$ cp [1PCh10S1F1[Student@localhost ~]$ cp Ch10S1F1 Ch10S1D[KF1.bak
+]0;Student@localhost:~[Student@localhost ~]$ grep 'Anne' Ch10S1F1 | cut -f4
+16.77
+]0;Student@localhost:~[Student@localhost ~]$ grep '1451 [K' Ch10S1F1 | cut -f2
+Ben
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | grep '[][]'[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | grep '[2][]'-][]'9][]'[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | grep '[2-9][Student@localhost ~]$ cut -f2,3 Ch10S1F1 | grep '[2-9][0]'-]'9]'[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | grep '[2-9][0-9]'
+George	22
+Anne	44
+Ben	36
+]0;Student@localhost:~[Student@localhost ~]$ grep '[][]\.[][]'2][]\.[][]'-][]\.[][]'9][]\.[][]'[Student@localhost ~]$ grep '[2-9][Student@localhost ~]$ grep '[2-9][0]\.[][]'-]\.[][]'9]\.[][]'[Student@localhost ~]$ grep '[2-9][0-9][Student@localhost ~]$ grep '[2-9][0-9]\[Student@localhost ~]$ grep '[2-9][0-9]\.[Student@localhost ~]$ grep '[2-9][0-9]\.[0][]'-][]'9][]'[Student@localhost ~]$ grep '[2-9][0-9]\.[0-9][Student@localhost ~]$ grep '[2-9][0-9]\.[0-9][0]'-]'9]'[Student@localhost ~]$ grep '[2-9][0-9]\.[0-9][0-9]' [K[K' Ch10S1F1 | cut -f1,3
+4321	22
+1451	36
+]0;Student@localhost:~[Student@localhost ~]$ echo[K[K[Kxit
+exit
+
+Script done on Thu 04 May 2006 09:02:01 AM EDT
+
+Script started on Sat 06 May 2006 03:54:19 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ grep '0[]0]-]9][Student@localhost ~]$ grep '0[0-9]' Ch10S1F1 |cut -f1,2,4
+]0;Student@localhost:~[Student@localhost ~]$ echo ''[K[K''T'h'i's' 'e'c'[1P'x'p'r'e's's'i'o'n' 'w'o'u'l'd' 'w'o'r'k' 'f'o'r' 't'h'e' 'd'a't'a' 'g'i'v'e'n','[1P' 'f'o'r'
+This expression would work for the data given for
+]0;Student@localhost:~[Student@localhost ~]$ echo 'This expression would work for the data given for'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K''s'e'c'i'o'n' '7',' 'h'o'w'e'v'e'r' 'w'i't'h' 'l'a'[1P'[1P'd'i'f'f'e'r'e'n't' 'd'a't'a',' 'i't' 'w'o'u'l'd' 'n'o' [A[Student@localhost ~]$ echo 'secion 7, however with different data, it would not'' 'w'o'r'k' 'b'e'c'a'u's'e' 't'h'i's' 'w'o'u'l'd' 'l'o'o'k' 'f'o'r' 'n'u'm'b'e'r' 't'h'a't' 'i's' 'b'e'l'o'w' '1'0' 'i'n' 'e'v'e'r'y' 'l'i'n'e'.' 's'o' '[1P'[1P'[1P'S'o' 't'h'i' [A work because this would look for number that is below 10 in every line. So this'' 'e'[1P'n'e'x't' 'e'x'p'r'e's's'i'o'n' 'w'o'r'k's' 'f'o'r'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P's'h'o'u'l'd' 'w'o'r'k' 'b'e't't'e'r'.'
+secion 7, however with different data, it would not work because this would look for number that is below 10 in every line. So this next expression should work better.
+]0;Student@localhost:~[Student@localhost ~]$ '[Kecho '[K[K[K[K[K[Kcut -f3[K[K[K[K[K[K[Kecho 'This method actually allows [K[K[K[K[K[K[Kcuts[Ks and pasts the [K[K[K[K[K[K[K[K[K[K[K[K[K[Kand pasts the CH10S1F1 fi le ine a [K[K[K[K[Kn[Kn a way that the hours worked to the first co[K[K[K[K[K[K[K[Kbeginning line[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K first column, so that [K[K[K[K[Kit wil [Kl allow us [K[K[Kus to ch eck the begining[K[K[Kning line for [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khou[K[K[Knumber that is less than 19[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khours worked, and not the other nm[Kumber that is below th[K[K190[K[K0.'
+This method actually cuts and pasts the CH10S1F1 file in a way that the hours worked to the first column, so it will allow us to check the hours worked, and not the other number that is below 10.
+]0;Student@localhost:~[Student@localhost ~]$ cut -f3 Ch10S1F1 >Ch10S1F1Hourly; cut -f1,2,4 Ch10S1F1 >C h10S1F1rest; paste Ch10S1F1Hourly CH[Kh10S1F1rest >file1; grep '^0[]0]-]9]h10S1F1rest; paste Ch10S1F1Hourly Ch10S1F1rest >file1; grep '^0[0-9]' file1 | cu t -f2,3,4
+]0;Student@localhost:~[Student@localhost ~]$ echo '[K'However, since there is no [K[K[K[K[K[K[K are not[K[K[K[K[K[K[Karen't any worker who worked l ess than 10hours, so th[K[Kit doesn't give any [K[K[K[K[K[K[K[K[Kprint any outpue[Kt.'
+However, since there arent any worker who worked less than 10hours, so it doesnt print any output.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Sat 06 May 2006 04:09:37 PM EDT

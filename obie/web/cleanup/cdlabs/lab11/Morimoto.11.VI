@@ -1,0 +1,59 @@
+Script started on Sun 07 May 2006 04:52:04 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 1--[K[K ---
+--- 1 ---
+]0;Student@localhost:~[Student@localhost ~]$ vi Ch11S6F1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11S6F1" 13L, 281C[1;1H/* This program reads two interger numbers form the
+   keyboard and prints their product.[3;15HWritten by:[4;15HDate:
+*/
+
+/*     Statements  */
+  scanf("%d", &number1);
+  scanf("%d", $number2);
+  result = number1 * number2;
+  printf ("%d", result);
+} /* main */
+
+[1m[34m~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H13,0-1[8CAll[13;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11S6F1" 13L, 281C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo 00[K[K--- 23[K ---
+--- 2 ---
+]0;Student@localhost:~[Student@localhost ~]$ Ch11S6[K[K[K[K[K[Kcp Ch11S5,[K.sed Ch11S6.sed
+]0;Student@localhost:~[Student@localhost ~]$ sed -f Ch11S6.sed Ch11D[KS5[K6F1 > Ch11S6F2
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat ---[K[K[K[K[K[K[Kecho --- cat commn[Kand ---
+--- cat command ---
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S6F1
+/* This program reads two interger numbers form the
+   keyboard and prints their product.
+              Written by:
+              Date:
+*/
+
+/*     Statements  */
+  scanf("%d", &number1);
+  scanf("%d", $number2);
+  result = number1 * number2;
+  printf ("%d", result);
+} /* main */
+
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S6F1[K2
+
+  scanf("%d", &number1);
+  scanf("%d", $number2);
+  result = number1 * number2;
+  printf ("%d", result);
+} 
+
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S6F2[K[K[K6.sed
+# Script Name: Ch11S5.sed
+# Delete the comments from the file.
+
+ /^\/\*.*\*\/$/d
+ s/\/\*.*\*\///
+ /\/\*/,/\*\//d
+
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Sun 07 May 2006 04:53:22 PM EDT

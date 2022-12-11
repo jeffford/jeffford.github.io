@@ -1,0 +1,412 @@
+Script started on Mon 01 May 2006 09:16:40 AM EDT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cp /etc/passwd Ch6f[Ks6[K7f1
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cay Ch6s7f1
+bash: cay: command not found
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cay Ch6s7f1[1P Ch6s7f1t Ch6s7f1
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+postfix:x:100:103::/var/spool/postfix:/bin/false
+syslog:x:105:105::/home/syslog:/bin/false
+klog:x:106:106::/home/klog:/bin/false
+rebecca:x:1000:1000:Rebecca Fischer,,,:/home/rebecca:/bin/bash
+messagebus:x:101:110::/var/run/dbus:/bin/false
+cupsys:x:102:107::/:/bin/false
+fetchmail:x:103:65534::/var/run/fetchmail:/bin/sh
+hal:x:111:111:Hardware abstraction layer,,,:/var/run/hal:/bin/false
+saned:x:113:113::/home/saned:/bin/false
+gdm:x:104:114:Gnome Display Manager:/var/lib/gdm:/bin/false
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat Ch6s7f1[Kwc -l Ch6s7f1
+28 Ch6s7f1
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cut -d':' -f0 Ch6s7f1
+cut: missing list of fields
+Try `cut --help' for more information.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cut -d':' -f0 Ch6s7f1[1Prebecca@rebecca:~$ cut -d':'-rebecca@rebecca:~$ cut -d':'-frebecca@rebecca:~$ cut -d':'-f0rebecca@rebecca:~$ cut -d':'-f0 rebecca@rebecca:~$ cut -d':'-f0 Crebecca@rebecca:~$ cut -d':'-f0 Chrebecca@rebecca:~$ cut -d':'-f0 Ch6rebecca@rebecca:~$ cut -d':'-f0 Ch6srebecca@rebecca:~$ cut -d':'-f0 Ch6s7rebecca@rebecca:~$ cut -d':'-f0 Ch6s7frebecca@rebecca:~$ cut -d':'-f0 Ch6s7f1
+cut: the delimiter must be a single character
+Try `cut --help' for more information.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cut -d':'-f0 Ch6s7f1[1@ rebecca@rebecca:~$ cut -d':' -rebecca@rebecca:~$ cut -d':' -frebecca@rebecca:~$ cut -d':' -f0[1P Ch6s7f12 Ch6s7f1rebecca@rebecca:~$ cut -d':' -f2 rebecca@rebecca:~$ cut -d':' -f2 Crebecca@rebecca:~$ cut -d':' -f2 Chrebecca@rebecca:~$ cut -d':' -f2 Ch6rebecca@rebecca:~$ cut -d':' -f2 Ch6srebecca@rebecca:~$ cut -d':' -f2 Ch6s7rebecca@rebecca:~$ cut -d':' -f2 Ch6s7frebecca@rebecca:~$ cut -d':' -f2 Ch6s7f1
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cut -d':' -f2 Ch6s7f1[1P Ch6s7f11 Ch6s7f1
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+postfix
+syslog
+klog
+rebecca
+messagebus
+cupsys
+fetchmail
+hal
+saned
+gdm
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cut -d':' -f1 Ch6s7f1 >sort1[K[K[K[K[Kcut1
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cut -d':' -f1 Ch6s7f1 >cut1rebecca@rebecca:~$ cut -d':' -f1[1P[1@3rebecca@rebecca:~$ cut -d':' -f3 rebecca@rebecca:~$ cut -d':' -f3 Crebecca@rebecca:~$ cut -d':' -f3 Chrebecca@rebecca:~$ cut -d':' -f3 Ch6rebecca@rebecca:~$ cut -d':' -f3 Ch6srebecca@rebecca:~$ cut -d':' -f3 Ch6s7rebecca@rebecca:~$ cut -d':' -f3 Ch6s7frebecca@rebecca:~$ cut -d':' -f3 Ch6s7f1rebecca@rebecca:~$ cut -d':' -f3 Ch6s7f1 rebecca@rebecca:~$ cut -d':' -f3 Ch6s7f1 >rebecca@rebecca:~$ cut -d':' -f3 Ch6s7f1 >crebecca@rebecca:~$ cut -d':' -f3 Ch6s7f1 >curebecca@rebecca:~$ cut -d':' -f3 Ch6s7f1 >cutrebecca@rebecca:~$ cut -d':' -f3 Ch6s7f1 >cut1[K2
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat cut2
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+13
+33
+34
+38
+39
+41
+65534
+100
+105
+106
+1000
+101
+102
+103
+111
+113
+104
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ paste cut 1 [K[K[K1 cut2 > fiwl[K[K[K[KCh6s7f2
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort -m Ch6s7f2
+root	0
+daemon	1
+bin	2
+sys	3
+sync	4
+games	5
+man	6
+lp	7
+mail	8
+news	9
+uucp	10
+proxy	13
+www-data	33
+backup	34
+list	38
+irc	39
+gnats	41
+nobody	65534
+postfix	100
+syslog	105
+klog	106
+rebecca	1000
+messagebus	101
+cupsys	102
+fetchmail	103
+hal	111
+saned	113
+gdm	104
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort -m Ch6s7f2[Ksort -m Ch6s7f2rebecca@rebecca:~$ sort -mrebecca@rebecca:~$ sort -m [10@paste cut1 cut2 >rebecca@rebecca:~$ paste cut1 cut2 > Ch6s7f2
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort -m +0 -1 Ch6s7f2
+root	0
+daemon	1
+bin	2
+sys	3
+sync	4
+games	5
+man	6
+lp	7
+mail	8
+news	9
+uucp	10
+proxy	13
+www-data	33
+backup	34
+list	38
+irc	39
+gnats	41
+nobody	65534
+postfix	100
+syslog	105
+klog	106
+rebecca	1000
+messagebus	101
+cupsys	102
+fetchmail	103
+hal	111
+saned	113
+gdm	104
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort -m +0 -1 Ch6s7f2rebecca@rebecca:~$ sort -mrebecca@rebecca:~$ sort -m [1P[1P[1P
+backup	34
+bin	2
+cupsys	102
+daemon	1
+fetchmail	103
+games	5
+gdm	104
+gnats	41
+hal	111
+irc	39
+klog	106
+list	38
+lp	7
+mail	8
+man	6
+messagebus	101
+news	9
+nobody	65534
+postfix	100
+proxy	13
+rebecca	1000
+root	0
+saned	113
+sync	4
+sys	3
+syslog	105
+uucp	10
+www-data	33
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort +0 -1 Ch6s7f2[3@-m rebecca@rebecca:~$ sort -m +0 -1 Ch6s7f2[3Prebecca@rebecca:~$ sort +0 -1 Ch6s7f2 > temp1
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cp temp1 Ch6s7f2
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ head -9 > temp1
+^[[A]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ 
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ head -9 > temp1[1@C[1@h[1@6[1@s[1@7[1@f[1@2[1@ 
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ head -9 Ch6s7f2 > temp1[1P[1P[1P[1P[1@t[1@a[1@i[1@k[1P[1@lrebecca@rebecca:~$ tail [Ktail -9 Ch6s7f2 > temp1[1P[1@+
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ tail +9 Ch6s7f2 > temp1rebecca@rebecca:~$ head -rebecca@rebecca:~$ head -9 Ch6s7f2 > temp1[K2
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ head -9 Ch6s7f2 > temp2[1@1
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ head -19 Ch6s7f2 > temp2[1Prebecca@rebecca:~$ head -9rebecca@rebecca:~$ head -9 rebecca@rebecca:~$ head -9 Crebecca@rebecca:~$ head -9 Chrebecca@rebecca:~$ head -9 Ch6rebecca@rebecca:~$ head -9 Ch6srebecca@rebecca:~$ head -9 Ch6s7rebecca@rebecca:~$ head -9 Ch6s7frebecca@rebecca:~$ head -9 Ch6s7f2rebecca@rebecca:~$ head -9 Ch6s7f2 rebecca@rebecca:~$ head -9 Ch6s7f2 >[1P[1P[1P[1P[1P[1P[1P[1@t[1@e[1@m[1@p[1@2rebecca@rebecca:~$ head -9 temp2 rebecca@rebecca:~$ head -9 temp2 >rebecca@rebecca:~$ head -9 temp2 > rebecca@rebecca:~$ head -9 temp2 > trebecca@rebecca:~$ head -9 temp2 > terebecca@rebecca:~$ head -9 temp2 > temrebecca@rebecca:~$ head -9 temp2 > temprebecca@rebecca:~$ head -9 temp2 > temp2[K3
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ head -9 temp2 > temp3rebecca@rebecca:~$ head[1P[1P[1P[1P[1@t[1@a[1@i[1@lrebecca@rebecca:~$ tail rebecca@rebecca:~$ tail -rebecca@rebecca:~$ tail -9[1P[1P[1@+[1@1[1@0rebecca@rebecca:~$ tail +10 rebecca@rebecca:~$ tail +10 trebecca@rebecca:~$ tail +10 terebecca@rebecca:~$ tail +10 temrebecca@rebecca:~$ tail +10 temprebecca@rebecca:~$ tail +10 temp2rebecca@rebecca:~$ tail +10 temp2 rebecca@rebecca:~$ tail +10 temp2 >rebecca@rebecca:~$ tail +10 temp2 > rebecca@rebecca:~$ tail +10 temp2 > trebecca@rebecca:~$ tail +10 temp2 > terebecca@rebecca:~$ tail +10 temp2 > temrebecca@rebecca:~$ tail +10 temp2 > temprebecca@rebecca:~$ tail +10 temp2 > temp3[K4
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ paste temp3 temp4 temp1 > Ch[K[K[K[K
+backup	34	irc	39	hal	111
+bin	2	klog	106	irc	39
+cupsys	102	list	38	klog	106
+daemon	1	lp	7	list	38
+fetchmail	103	mail	8	lp	7
+games	5	man	6	mail	8
+gdm	104	messagebus	101	man	6
+gnats	41	news	9	messagebus	101
+hal	111	nobody	65534	news	9
+	postfix	100	nobody	65534
+		postfix	100
+		proxy	13
+		rebecca	1000
+		root	0
+		saned	113
+		sync	4
+		sys	3
+		syslog	105
+		uucp	10
+		www-data	33
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat temp2
+backup	34
+bin	2
+cupsys	102
+daemon	1
+fetchmail	103
+games	5
+gdm	104
+gnats	41
+hal	111
+irc	39
+klog	106
+list	38
+lp	7
+mail	8
+man	6
+messagebus	101
+news	9
+nobody	65534
+postfix	100
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat temp1
+hal	111
+irc	39
+klog	106
+list	38
+lp	7
+mail	8
+man	6
+messagebus	101
+news	9
+nobody	65534
+postfix	100
+proxy	13
+rebecca	1000
+root	0
+saned	113
+sync	4
+sys	3
+syslog	105
+uucp	10
+www-data	33
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ tail +9 temp1
+news	9
+nobody	65534
+postfix	100
+proxy	13
+rebecca	1000
+root	0
+saned	113
+sync	4
+sys	3
+syslog	105
+uucp	10
+www-data	33
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ tail +9 temp1[1P temp18 temp1
+messagebus	101
+news	9
+nobody	65534
+postfix	100
+proxy	13
+rebecca	1000
+root	0
+saned	113
+sync	4
+sys	3
+syslog	105
+uucp	10
+www-data	33
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ tail +8 temp1[1P temp11 temp11 temp1
+postfix	100
+proxy	13
+rebecca	1000
+root	0
+saned	113
+sync	4
+sys	3
+syslog	105
+uucp	10
+www-data	33
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ tail +11 temp1 >templ[K[K[K[K[Klast
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ head +tail +11 temp1 >last[1P[1@2
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat last
+proxy	13
+rebecca	1000
+root	0
+saned	113
+sync	4
+sys	3
+syslog	105
+uucp	10
+www-data	33
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ head -9 temp1
+hal	111
+irc	39
+klog	106
+list	38
+lp	7
+mail	8
+man	6
+messagebus	101
+news	9
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ head -9 temp1[K[K[K[K[1Pcat lasthead -9 temp2
+backup	34
+bin	2
+cupsys	102
+daemon	1
+fetchmail	103
+games	5
+gdm	104
+gnats	41
+hal	111
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ head -9 temp2 ?[K> fis[Krst
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ tail - 11 [K[K[K[K11 temp[K[K[K[K[K[K[K[K+11 temp2
+klog	106
+list	38
+lp	7
+mail	8
+man	6
+messagebus	101
+news	9
+nobody	65534
+postfix	100
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ tail +11 temp2[1P temp20 temp2
+irc	39
+klog	106
+list	38
+lp	7
+mail	8
+man	6
+messagebus	101
+news	9
+nobody	65534
+postfix	100
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ tail +10 temp2 > mide[K
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ past[Kte first mid last
+backup	34	irc	39	proxy	13
+bin	2	klog	106	rebecca	1000
+cupsys	102	list	38	root	0
+daemon	1	lp	7	saned	113
+fetchmail	103	mail	8	sync	4
+games	5	man	6	sys	3
+gdm	104	messagebus	101	syslog	105
+gnats	41	news	9	uucp	10
+hal	111	nobody	65534	www-data	33
+	postfix	100	
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ 
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ paste first mid lasttail +10 temp2 > midpaste first mid last > CH[Kh6s7f2
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ paste first mid last > Ch6s7f2[K3
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat Ch6s7f3
+backup	34	irc	39	proxy	13
+bin	2	klog	106	rebecca	1000
+cupsys	102	list	38	root	0
+daemon	1	lp	7	saned	113
+fetchmail	103	mail	8	sync	4
+games	5	man	6	sys	3
+gdm	104	messagebus	101	syslog	105
+gnats	41	news	9	uucp	10
+hal	111	nobody	65534	www-data	33
+	postfix	100	
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ exit
+
+Script done on Mon 01 May 2006 09:42:54 AM EDT

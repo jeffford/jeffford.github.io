@@ -1,0 +1,20 @@
+Script started on Mon 01 May 2006 11:59:33 AM EDT
+]0;winfieldaj@cs:~[winfieldaj@cs winfieldaj]$ mkdir RemoteWork
+mkdir: cannot create directory `RemoteWork': File exists
+]0;winfieldaj@cs:~[winfieldaj@cs winfieldaj]$ cat > 
+winfield[K[K[K[K[K[K[K[KRemoteWork/winfield.L7I.txt
+this is a short file
+]0;winfieldaj@cs:~[winfieldaj@cs winfieldaj]$ ls -l
+[00mtotal 8
+drwxrwxr-x    2 winfieldaj winfieldaj     4096 May  1 12:00 
+[00;34mRemoteWork[00m
+lrwxrwxrwx    1 root     root           25 Dec  3 23:22 [00;36mweb[00m -> 
+[00;34m/home/webusers/winfieldaj[00m
+-rw-rw-r--    1 winfieldaj winfieldaj        0 May  1 11:59 
+[00mwinfield.L7Is[00m
+-rw-rw-r--    1 winfieldaj winfieldaj       21 May  1 11:43 
+[00mwinfield.L7I.txt[00m
+[m]0;winfieldaj@cs:~[winfieldaj@cs winfieldaj]$ exit
+
+Script done on Mon 01 May 2006 12:01:22 PM EDT
+

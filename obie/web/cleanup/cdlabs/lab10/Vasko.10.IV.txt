@@ -1,0 +1,29 @@
+Script started on Tue 02 May 2006 04:51:54 PM EDT
+]0;student@localhost:~[student@localhost ~]$ \[Kecho file previously created.[K
+file previously created
+]0;student@localhost:~[student@localhost ~]$ egrep 'wo[K[Kwork[Kd\[K|[K.*word\[K|the.*the|it.*it|find.*find' Ch10S4F1
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+The duplicated words are hard to find, but grep can find them for you.
+]0;student@localhost:~[student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|find.*find' Ch10S4F1 >  Ch10S4F2
+]0;student@localhost:~[student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|find.*find' Ch10S4F1 > CCh10S4F2[K3[A[student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|find.*find' Ch10S4F1 >' Ch10S4F1 > Ch[1P10S4F3[A[student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|find.*fin' Ch10S4F1 > Ch1[1P0S4F3[A[student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|find.*fi' Ch10S4F1 > Ch10[1PS4F3[A[student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|find.*f' Ch10S4F1 > Ch10S[1P4F3[A[student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|find.*' Ch10S4F1 > Ch10S4[1PF3[A[student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|find.' Ch10S4F1 > Ch10S4F[1P3[A[student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|find' Ch10S4F1 > Ch10S4F3[K[A[student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|fin' Ch10S4F1 > Ch10S4F3 [K[A[student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|fi[1P
+[K[A[student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|f[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@s[1@.[1@*[1@i[1@s[1@.[1@*[1@i[1@s[student@localhost ~]$ egrep 'is.*is.*is'[student@localhost ~]$ egrep 'is.*is.*is' [student@localhost ~]$ egrep 'is.*is.*is' C[student@localhost ~]$ egrep 'is.*is.*is' Ch[student@localhost ~]$ egrep 'is.*is.*is' Ch1[student@localhost ~]$ egrep 'is.*is.*is' Ch10[student@localhost ~]$ egrep 'is.*is.*is' Ch10S[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1 [student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1 >[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1 > [student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1 > C[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1 > Ch[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1 > Ch1[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1 > Ch10[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1 > Ch10S[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1 > Ch10S4[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1 > Ch10S4F[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1 > Ch10S4F3[K[K[K[K[K[K[K[K[K[K[K
+If it is repeated thrice, it is triplicated (thrice is three).
+]0;student@localhost:~[student@localhost ~]$ egrep 'is.*is.*is' Ch10S4F1 > Ch10S4F3
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S4F1 Ch10S4F[K[K[K[K[K[K[K[K
+This is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+For example, the following line has duplicate words.
+The duplicated words are hard to find, but grep can find them for you.
+However, you need to write the regular expression very carefully.
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S4F1[K2
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+The duplicated words are hard to find, but grep can find them for you.
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S4F2[K3
+If it is repeated thrice, it is triplicated (thrice is three).
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Tue 02 May 2006 05:02:58 PM EDT

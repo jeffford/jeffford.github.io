@@ -1,0 +1,156 @@
+Script started on Sun 30 Apr 2006 04:45:36 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1 > Ch6S5F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F2
+1420	12.56	45
+2456	14.56	22
+2341	45.12	34
+1322	23.23	19
+2351	67.90	56
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ 
+1420[K[K[K[Kcat[K[K[Kcat 
+Ch6S5F2
+[Student@localhost ~]$ cat
+[Student@localhost ~]$ cat 
+ >Ch6S5F2 Ch6S5F2
+[Student@localhost ~]$ cat > 
+C
+[Student@localhost ~]$ cat > Ch
+[Student@localhost ~]$ cat > 
+Ch6
+[Student@localhost ~]$ cat > Ch6S
+[Student@localhost ~]$ cat > 
+Ch6S5
+[Student@localhost ~]$ cat > Ch6S5F
+[Student@localhost ~]$ cat > 
+Ch6S5F2[K[K[K[K[K[K[K[K[K[K[K[K[Kcat 
+Ch6S5F1 Ch6S5F2
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	 7.00	14
+1420	12.56	45
+2456	14.56	22
+2341	45.12	34
+1322	23.23	19
+2351	67.90	56
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ sort 
+Ch6S[K[K[K[KCh6S4[K5F1 | sort Ch6S5F2
+1322	23.23	19
+1420	12.56	45
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S5F1 > F1s | 
+Sort[K[K[K[Ksort C[KS[KC[KCh6S5F2 > F2s
+]0;Student@localhost:~[Student@localhost ~]$ sprt[K[K[Kort F1s F2s
+1122	23.56	28
+1322	23.23	19
+1420	12.56	45
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2341	45.12	34
+2351	67.90	56
+2351	67.90	56
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort F1s F2s > Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ sort -u Ch6S5F3 > 
+S[KCh6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ sort F1s F2s > Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F3
+1122	23.56	28
+1322	23.23	19
+1420	12.56	45
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2341	45.12	34
+2351	67.90	56
+2351	67.90	56
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort -u Ch6S5F3
+1122	23.56	28
+1322	23.23	19
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ echo ok i m[K[Km not shur 
+wht the > 
+[Student@localhost ~]$ 
+echo
+[Student@localhost ~]$ echo [4h"[4l
+[Student@localhost ~]$ echo 
+"o
+[Student@localhost ~]$ echo "ok
+[Student@localhost ~]$ echo "ok 
+
+[Student@localhost ~]$ echo "ok i
+[Student@localhost ~]$ echo "ok 
+im
+[Student@localhost ~]$ echo "ok im 
+[Student@localhost ~]$ echo "ok im 
+n
+[Student@localhost ~]$ echo "ok im no
+[Student@localhost ~]$ echo "ok im 
+not
+[Student@localhost ~]$ echo "ok im not 
+[Student@localhost ~]$ echo "ok 
+im not s
+[Student@localhost ~]$ echo "ok im not sh
+[Student@localhost ~]$ 
+echo "ok im not shu
+[Student@localhost ~]$ echo "ok im not 
+shur
+[Student@localhost ~]$ echo "ok im not shur 
+[Student@localhost ~]$ 
+echo "ok im not shur w
+[Student@localhost ~]$ echo "ok im not shur 
+wh
+[Student@localhost ~]$ echo "ok im not shur wht
+[Student@localhost ~]$ 
+echo "ok im not shur wht 
+[Student@localhost ~]$ echo "ok im not shur wht 
+t
+[Student@localhost ~]$ echo "ok im not shur wht th
+[Student@localhost ~]$ 
+echo "ok im not shur wht the
+[Student@localhost ~]$ echo "ok im not shur wht 
+the 
+[Student@localhost ~]$ echo "ok im not shur wht the 
+ >
+[Student@localhost ~]$ echo "ok im not shur wht the > didnt work you can 
+grade m 
+e [K
+[K[A
+[Student@localhost ~]$ echo "ok im not shur wht the > 
+didnt work you can grade [K
+
+[K[A
+[Student@localhost ~]$ echo "ok im not shur wht the > didnt work you 
+can grade [K m 
+e down if you like but please let me n[Kknow why it 
+didnt e[Kwork."
+ok im not shur wht the > didnt work you can grade me down if you like but 
+please let me know why it didnt work.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Sun 30 Apr 2006 04:57:17 PM EDT
+

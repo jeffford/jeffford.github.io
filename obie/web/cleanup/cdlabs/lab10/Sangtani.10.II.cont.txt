@@ -1,0 +1,15 @@
+Script started on Thu 04 May 2006 04:40:23 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ grep '^[ ][ ]*' Ch10S2F2[13Pvi[Student@localhost ~]$ vi Ch10S2F2[4hgrep '^[ ][ ][4l*'[Student@localhost ~]$ grep '^[ ][ ]*' Ch10S2F2 > Ch10S2F3
+]0;Student@localhost:~[Student@localhost ~]$ grep '^[^ ]' Ch10S2F2 > Ch10S2F3[K4
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F4
+It is one thing to say that something should be done.
+Liars are not believed even when they tell the truth.
+Flattery is not a proof of true admiration.
+Those who work the hardest do not always get the profit.
+Familiarity breeds contempt.
+]0;Student@localhost:~[Student@localhost ~]$ cat [K[K[K[Kgrep '^[ ].*&[K[ ]$' Ch10S2F5[K5[K3 >  [KCh10S2F5
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S3[K2F5
+          The Wisdom of Aesop          
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 04 May 2006 04:45:09 PM EDT

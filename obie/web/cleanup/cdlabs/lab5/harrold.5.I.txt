@@ -1,0 +1,82 @@
+Script started on Mon 01 May 2006 06:43:54 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ bash[K[K[K[Kshells[K[K[K[K[K[Kecho $ash[K[K[Kshee[Kll
+
+]0;Student@localhost:~[Student@localhost ~]$ echo $shell[K[K[K[K[KSCHEL[K[K[K[KHELL
+/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ more /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+[7m--More--(61%)[m
+Most commands optionally preceded by integer argument k.  Defaults in brackets.
+Star (*) indicates argument becomes new default.
+-------------------------------------------------------------------------------
+<space>                 Display next k lines of text [current screen size]
+z                       Display next k lines of text [current screen size]*
+<return>                Display next k lines of text [1]*
+d or ctrl-D             Scroll k lines [current scroll size, initially 11]*
+q or Q or <interrupt>   Exit from more
+s                       Skip forward k lines of text [1]
+f                       Skip forward k screenfuls of text [1]
+b or ctrl-B             Skip backwards k screenfuls of text [1]
+'                       Go to place where previous search started
+=                       Display current line number
+/<regular expression>   Search for kth occurrence of regular expression [1]
+n                       Search for kth occurrence of last r.e [1]
+!<cmd> or :!<cmd>       Execute <cmd> in a subshell
+v                       Start up /usr/bin/vi at current line
+ctrl-L                  Redraw screen
+:n                      Go to kth next file [1]
+:p                      Go to kth previous file [1]
+:f                      Display current file name and line number
+.                       Repeat previous command
+-------------------------------------------------------------------------------
+[K[7m--More--(61%)[mnetdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ echo $0
+bash
+]0;Student@localhost:~[Student@localhost ~]$ csh
+[Student@localhost ~]$ echo $0
+csh
+[Student@localhost ~]$ bash
+]0;Student@localhost:~[Student@localhost ~]$ exitscript harrold.5.VI.txt[7Pharrold.5.VI.txtscript harrold.5.V.txt[6Pharrold.5.VI.txtscript harrold.5.VI.txtexit[K[Student@localhost ~]$ exit[K[K[K[Kecho $0
+bash
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+[Student@localhost ~]$ exit
+exit
+]0;Student@localhost:~[Student@localhost ~]$ cshecho $0
+bash
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 01 May 2006 06:47:18 AM EDT

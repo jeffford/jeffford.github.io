@@ -1,0 +1,46 @@
+Script started on Thu 27 Apr 2006 05:31:34 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ echo "i [K[KI forgot to cct[K[Kat all files created in this session.  Here they are, sorry"
+I forgot to cat all files created in this session. Here they are, sorry
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF1
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cat temp1 temp2 temp3
+Juan
+George
+Anna
+Ben
+Tuan
+jj@yahoo.com
+george@hotmail.com
+sister@aol.com
+davisbj@hiram.edu
+tt1234@aol.com
+330-569-5211
+330-274-1999
+330-274-5615
+512-345-5678
+404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF2
+Juan	330-569-5211	jj@yahoo.com
+George	330-274-1999	george@hotmail.com
+Anna	330-274-5615	sister@aol.com
+Ben	512-345-5678	davisbj@hiram.edu
+Tuan	404-213-1434	tt1234@aol.com
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF3
+1425	14.25	Juan	Juan	330-569-5211	jj@yahoo.com
+1451	21.77	Ben	George	330-274-1999	george@hotmail.com
+2277	18.77	Tuan	Anna	330-274-5615	sister@aol.com
+4321	21.11	George	Ben	512-345-5678	davisbj@hiram.edu
+6781	16.77	Anna	Tuan	404-213-1434	tt1234@aol.com
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF4
+1425	14.25	Juan	330-569-5211	jj@yahoo.com
+1451	21.77	Ben	330-274-1999	george@hotmail.com
+2277	18.77	Tuan	330-274-5615	sister@aol.com
+4321	21.11	George	512-345-5678	davisbj@hiram.edu
+6781	16.77	Anna	404-213-1434	tt1234@aol.com
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 05:33:32 PM EDT

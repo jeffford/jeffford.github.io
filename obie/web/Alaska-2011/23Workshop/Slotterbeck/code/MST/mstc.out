@@ -1,0 +1,50 @@
+-- Pass 2 (020505) e option  --
+INPUT VALUES FOR GRAPH:
+A blank line terminates input
+TAIL,HEAD,WEIGHT,
+Input data is:  
+DUMP OF ASSOCIATION GRAPH FOLLOWS:
+ TAIL,HEAD,WEIGHT,
+A  B     2  
+B  A     2  
+A  G     3  
+G  A     3  
+A  F     7  
+F  A     7  
+B  C     4  
+C  B     4  
+B  G     6  
+G  B     6  
+F  E     6  
+E  F     6  
+F  I     5  
+I  F     5  
+I  E     2  
+E  I     2  
+I  H     4  
+H  I     4  
+E  D     1  
+D  E     1  
+H  D     8  
+D  H     8  
+G  I     1  
+I  G     1  
+G  H     3  
+H  G     3  
+C  H     2  
+H  C     2  
+C  D     2  
+D  C     2  
+nodetail and nodehead  E   D  
+34 WARNING - first called with null mask, command=1d02
+DUMP OF ASSOCIATION RESULT FOLLOWS:
+ TAIL,HEAD,WEIGHT,
+A  B     2  
+G  A     3  
+I  F     5  
+E  I     2  
+E  D     1  
+I  G     1  
+C  H     2  
+D  C     2  
+STOP quadruple detected. 

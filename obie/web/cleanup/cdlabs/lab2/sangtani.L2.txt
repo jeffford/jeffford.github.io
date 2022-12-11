@@ -1,0 +1,71 @@
+Jaina Sangtani
+Chapter 2
+
+L.I.1 Commands:
+vi gtysbrg.txt
+Result:
+Opened the vi editor in command mode
+
+L.I.2 Commands:
+i allowed me to enter the text mode
+typed the text using arrow keys backspace and returns.
+
+L.I.3 Corrected typing errors with backspaces
+
+L.I.4 Commands:
+esc to enter the command prompt
+:w to save the file
+
+L.I.5 Commands:
+:q! to quit the vi editor
+
+L.II.1 Commands:
+vi gtysbrg.txt
+
+L.II.2 r to recover the file. 
+Opened previous file in vi editor
+
+L.II.3 Commands:
+Clicked down and right arrows until the word country was reached
+x until country is deleted
+i to insert nation instead.
+esc to enter command mode
+$ to reach the end of the line
+<- arrow until the word idea
+i to insert text
+backspace idea and type proposition instead
+esc back to command mode
+- to reach beginning of the line
+-> arrow till the word our is reached
+x to delete our
+i to insert that instead
+down and left until the word last is reached
+backspace last and type long endure instead
+down the last two lines
+esc and o to type on a new line and enter the rest of the text for the
+paragraph
+
+L.II.4 
+make sure that we are in the command mode by typing esc
+w gtsybrgII.txt saves the file with this name
+Now there are two versions of the file
+
+L.III.3 
+Down arrows until the line "those who here..." type o
+Down and left arrows clicked until 'very' is reached
+esc x to delete 'very'
+i to insert 'altogether' instead
+Down arrow, esc, and $ takes the cursor to the end of the next line
+a to append a , at the end of hallow
+<- arrow until 'we' is reached
+backspace 'now can we' and type cannot instead
+Down arrows until the line "what they..."
+esc o and enter to type the rest of the address
+
+L.III.4
+make sure that we are in the command mode by typing exc
+w Sangtani2edit.txt to save the file
+
+L.III.5
+q! to log off
+

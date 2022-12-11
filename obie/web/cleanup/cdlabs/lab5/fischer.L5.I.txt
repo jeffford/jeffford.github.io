@@ -1,0 +1,63 @@
+Script started on Wed 26 Apr 2006 10:00:33 PM EDT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo $SHELL
+/bin/bash
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ m [K[Kmore ../../ect/pawws[K[K[Ksswd[K[K[K[K[K[K[K[K[Ktc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+postfix:x:100:103::/var/spool/postfix:/bin/false
+syslog:x:105:105::/home/syslog:/bin/false
+klog:x:106:106::/home/klog:/bin/false
+rebecca:x:1000:1000:Rebecca Fischer,,,:/home/rebecca:/bin/bash
+messagebus:x:101:110::/var/run/dbus:/bin/false
+[7m--More--(79%)[27mcupsys:x:102:107::/:/bin/false
+[7m--More--(81%)[27mfetchmail:x:103:65534::/var/run/fetchmail:/bin/sh
+[7m--More--(86%)[27mhal:x:111:111:Hardware abstraction layer,,,:/var/run/hal:/bin/false
+[7m--More--(91%)[27msaned:x:113:113::/home/saned:/bin/false
+[7m--More--(95%)[27mgdm:x:104:114:Gnome Display Manager:/var/lib/gdm:/bin/false
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ 
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ 
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ 
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ 
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ 
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ 
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo $0
+bash
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ c
+bash: c: command not found
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ C
+bash: C: command not found
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ tch
+bash: tch: command not found
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ ksh
+bash: ksh: command not found
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sh
+sh-3.00$ echo $0
+sh
+sh-3.00$ bash
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo $0
+bash
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ l[Kexit
+exit
+sh-3.00$ exit
+exit
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo $0
+bash
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ exit
+
+Script done on Wed 26 Apr 2006 10:05:03 PM EDT

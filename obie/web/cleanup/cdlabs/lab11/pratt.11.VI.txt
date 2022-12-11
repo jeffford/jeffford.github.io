@@ -1,0 +1,84 @@
+Script started on Sun 07 May 2006 01:38:47 AM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat > Ch11S6F1
+/* This program reads two integer numbr ers from the
+   keyboard and proints     n ints their product.
+          Written by:
+          Date:
+*/
+
+/*     Statements */
+  scanf ("%d", &number1);
+  scanf ("%d", &number2);
+  result = number1 * number2;
+  printf ("%d", resus lt);
+  return 0;
+} /* main */
+]0;prattjk@cs:~[prattjk@cs prattjk]$ vi S[KCh11S5[K6.sed
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"Ch11S6.sed" 13L, 286C[1;1H[34m# Script name: Delete comments from a C program
+# Author: prattjk
+# Date Written: 05/06/06
+#
+# delete any line that is totally a comment[m
+[35m/^\/\*.*\*\/$/[m[36md[m
+
+[34m# delete any part of a line that is a comment[m
+[43ms[m[35m/\/\*.*\*\///[m
+
+[34m# delete a block of lines that are wholly one comment[m
+[35m/\/\*/,/\*\//[m[36md[m
+
+[1m[34m~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H11,1[10CAll[11;1H[?25h[?25l[24;1H[K[24;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"Ch11S6.sed" 13L, 286C written
+[?1l>[?25h[?1047l[?1048l]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S6.sed
+# Script name: Delete comments from a C program
+# Author: prattjk
+# Date Written: 05/06/06
+#
+# delete any line that is totally a comment
+/^\/\*.*\*\/$/d
+
+# delete any part of a line that is a comment
+s/\/\*.*\*\///
+
+# delete a block of lines that are wholly one comment
+/\/\*/,/\*\//d
+
+]0;prattjk@cs:~[prattjk@cs prattjk]$ sed -f Ch11S6.sed Ch11S5[K6F1 > Ch11S6F2
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S6.sed
+# Script name: Delete comments from a C program
+# Author: prattjk
+# Date Written: 05/06/06
+#
+# delete any line that is totally a comment
+/^\/\*.*\*\/$/d
+
+# delete any part of a line that is a comment
+s/\/\*.*\*\///
+
+# delete a block of lines that are wholly one comment
+/\/\*/,/\*\//d
+
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S6F1
+/* This program reads two integer numbers from the
+   keyboard and prints their product.
+          Written by:
+          Date:
+*/
+
+/*     Statements */
+  scanf ("%d", &number1);
+  scanf ("%d", &number2);
+  result = number1 * number2;
+  printf ("%d", result);
+  return 0;
+} /* main */
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S6F2
+
+  scanf ("%d", &number1);
+  scanf ("%d", &number2);
+  result = number1 * number2;
+  printf ("%d", result);
+  return 0;
+} 
+]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+
+Script done on Sun 07 May 2006 01:44:36 AM EDT

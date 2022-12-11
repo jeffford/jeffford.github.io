@@ -1,0 +1,55 @@
+Script started on Mon 08 May 2006 04:10:45 PM EDT
+]0;student@localhost:~[student@localhost ~]$ cat ba[K[Kkvbackup
+#! /bin/bash
+# Script: kvbackup
+#This script will create backup files of all the files in the current
+#directory and save them to a specified directory. It will be done with
+# the command and two arguments, the first argument is the file and the second
+# argument is the file.
+case $# in
+	0) echo "Usage: [filename] [destination directory]" ; exit;;
+	1) echo "Usage: [filename] [destination directory]" ; exit;;
+	2) filename=$1 directory=$2;;
+	*) echo "Usage: [filename] [destination directory]" ; exit;;
+esac
+cat $1 | while read line
+do
+	if [[ -f $filename ]]
+	then
+		cp $line $directory/$line.bak
+		echo "$filename is now backed up in $directory"
+	fi
+done
+]0;student@localhost:~[student@localhost ~]$ cat Fourteen
+Ch11S2F1
+Ch11S1F1
+Ch10S1F1
+Ch10S2F1
+]0;student@localhost:~[student@localhost ~]$ PATH=$PATH:.
+]0;student@localhost:~[student@localhost ~]$ kvbackup
+Usage: [filename] [destination directory]
+]0;student@localhost:~[student@localhost ~]$ kvbackup Fourteen
+Usage: [filename] [destination directory]
+]0;student@localhost:~[student@localhost ~]$ kvbackup Fourteen B[Kbackups hoohaa[K[K[K[K[K[Kblah
+Usage: [filename] [destination directory]
+]0;student@localhost:~[student@localhost ~]$ kvbackup Fourteen backups blah[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khoohaa backups
+cat: hoohaa: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ kvbackup hoohaa backups[K[K[K[K[K[K[K[K[K[K[K[K[K[KFourteen backups blah[K[K[K[K[K[K[K[K[K[K[K[KCh11F2F1[K[K[K[K[K1S2F1
+cp: accessing `Ch11S2F1/Ch11S2F1.bak': Not a directory
+Fourteen is now backed up in Ch11S2F1
+cp: accessing `Ch11S2F1/Ch11S1F1.bak': Not a directory
+Fourteen is now backed up in Ch11S2F1
+cp: accessing `Ch11S2F1/Ch10S1F1.bak': Not a directory
+Fourteen is now backed up in Ch11S2F1
+cp: accessing `Ch11S2F1/Ch10S2F1.bak': Not a directory
+Fourteen is now backed up in Ch11S2F1
+]0;student@localhost:~[student@localhost ~]$ kvbackup Fourteen Ch11S2F1[K[K[K[K[K[K[K[Kbackups
+Fourteen is now backed up in backups
+Fourteen is now backed up in backups
+Fourteen is now backed up in backups
+Fourteen is now backed up in backups
+]0;student@localhost:~[student@localhost ~]$ ls backups
+[00m[00mCh10S1F1.bak[00m  [00mCh10S2F1.bak[00m  [00mCh11S1F1.bak[00m  [00mCh11S2F1.bak[00m
+[m]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Mon 08 May 2006 04:13:43 PM EDT

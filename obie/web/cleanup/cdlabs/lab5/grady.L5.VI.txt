@@ -1,0 +1,1269 @@
+Script started on Wed 26 Apr 2006 04:16:28 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ /ect/profile
+bash: /ect/profile: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ more ./ect/profile
+./ect/profile: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ vi /ect/pril[K[Kofilre[K[Ke
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/ect/profile" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi /ect/profile[Student@localhost ~]$ vi /ect/profile
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/ect/profile" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1mrecording[m[24;10H[K[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ ls /etc
+[00m[00ma2ps.cfg[00m              [00;34mhotplug.d[00m             [00mprelink.conf[00m
+[00ma2ps-site.cfg[00m         [00;34mhowl[00m                  [00mprintcap[00m
+[00;34macpi[00m                  [00;34mhtdig[00m                 [00mprofile[00m
+[00madjtime[00m               [00midmapd.conf[00m           [00;34mprofile.d[00m
+[00;34malchemist[00m             [00mim_palette.pal[00m        [00mprotocols[00m
+[00maliases[00m               [00mim_palette-small.pal[00m  [00mpwdb.conf[00m
+[00maliases.db[00m            [00mim_palette-tiny.pal[00m   [00mquotagrpadmins[00m
+[00;34malsa[00m                  [00mimrc[00m                  [00mquotatab[00m
+[00;34malternatives[00m          [00;36minit.d[00m                [00;34mracoon[00m
+[00manacrontab[00m            [00minitlog.conf[00m          [00;36mrc[00m
+[00mant.conf[00m              [00minittab[00m               [00;36mrc0.d[00m
+[00;34mant.d[00m                 [00minputrc[00m               [00;36mrc1.d[00m
+[00masound.conf[00m           [00;34miproute2[00m              [00;36mrc2.d[00m
+[00masound.state[00m          [00;34misdn[00m                  [00;36mrc3.d[00m
+[00mat.deny[00m               [00missue[00m                 [00;36mrc4.d[00m
+[00mauditd.conf[00m           [00missue.net[00m             [00;36mrc5.d[00m
+[00maudit.rules[00m           [00;34mjava[00m                  [00;36mrc6.d[00m
+[00mauto.master[00m           [00mjwhois.conf[00m           [00;34mrc.d[00m
+[00mauto.misc[00m             [00;34mkde[00m                   [00;36mrc.local[00m
+[00;32mauto.net[00m              [00mkderc[00m                 [00;36mrc.sysinit[00m
+[00;32mauto.smb[00m              [00;34mkermit[00m                [00;34mredhat-lsb[00m
+[00mbashrc[00m                [00mkrb5.conf[00m             [00;36mredhat-release[00m
+[00mblkid.tab[00m             [00mkrb.conf[00m              [00mresolv.conf[00m
+[00mblkid.tab.old[00m         [00mkrb.realms[00m            [00mresolv.conf.predhclient[00m
+[00;34mbluetooth[00m             [00mksysguarddrc[00m          [00;34mrhgb[00m
+[00;34mbonobo-activation[00m     [00mldap.conf[00m             [00;36mrmt[00m
+[00mcdrecord.conf[00m         [00mld.so.cache[00m           [00mrndc.conf[00m
+[00mcpuspeed.conf[00m         [00mld.so.conf[00m            [00mrndc.key[00m
+[00;34mcron.d[00m                [00;34mld.so.conf.d[00m          [00mrpc[00m
+[00;34mcron.daily[00m            [00mlftp.conf[00m             [00;34mrpm[00m
+[00mcron.deny[00m             [00mlibuser.conf[00m          [00;34msamba[00m
+[00;34mcron.hourly[00m           [00mlisarc[00m                [00;34msane.d[00m
+[00;34mcron.monthly[00m          [00mlocaltime[00m             [00mscreenrc[00m
+[00mcrontab[00m               [00;34mlog.d[00m                 [00mscrollkeeper.conf[00m
+[00;34mcron.weekly[00m           [00mlogin.defs[00m            [00mscsi_id.config[00m
+[00mcsh.cshrc[00m             [00mlogrotate.conf[00m        [00msecuretty[00m
+[00mcsh.login[00m             [00;34mlogrotate.d[00m           [00;34msecurity[00m
+[00;34mcups[00m                  [00mlsb-release[00m           [00;34mselinux[00m
+[00;34mdbus-1[00m                [00mltrace.conf[00m           [00msensors.conf[00m
+[00;34mdefault[00m               [00;34mlvm[00m                   [00mservices[00m
+[00;34mdev.d[00m                 [00;34mmail[00m                  [00msestatus.conf[00m
+[00mDIR_COLORS[00m            [00mmailcap[00m               [00;34msetuptool.d[00m
+[00mDIR_COLORS.xterm[00m      [00mmail.rc[00m               [00;34msgml[00m
+[00mdumpdates[00m             [00;34mmakedev.d[00m             [00mshadow[00m
+[00menscript.cfg[00m          [00mman.config[00m            [00mshadow-[00m
+[00menvironment[00m           [00;34mmgetty+sendfax[00m        [00mshells[00m
+[00mesd.conf[00m              [00mmime.types[00m            [00;34mskel[00m
+[00mexports[00m               [00mminicom.users[00m         [00mslrn.rc[00m
+[00mfb.modes[00m              [00mmodprobe.conf[00m         [00;34msmrsh[00m
+[00mfdprm[00m                 [00mmodprobe.conf~[00m        [00;34msnmp[00m
+[00mfedora-release[00m        [00mmodprobe.conf.dist[00m    [00;34msound[00m
+[00mfilesystems[00m           [00mmotd[00m                  [00;34mssh[00m
+[00;34mfonts[00m                 [00mmtab[00m                  [00;34mstunnel[00m
+[00;34mfoomatic[00m              [00mmtools.conf[00m           [00msudoers[00m
+[00mfstab[00m                 [00mMuttrc[00m                [00;34msysconfig[00m
+[00;34mgaim[00m                  [00mMuttrc.local[00m          [00msysctl.conf[00m
+[00;34mgconf[00m                 [00mnamed.conf[00m            [00msyslog.conf[00m
+[00;34mghostscript[00m           [00;34mnetplug[00m               [00mtermcap[00m
+[00;34mgimp[00m                  [00;34mnetplug.d[00m             [00;34mudev[00m
+[00;34mgnome-vfs-2.0[00m         [00mnscd.conf[00m             [00mupdatedb.conf[00m
+[00mgnome-vfs-mime-magic[00m  [00mnsswitch.conf[00m         [00mvimrc[00m
+[00;34mgnopernicus-1.0[00m       [00;34mntp[00m                   [00mwarnquota.conf[00m
+[00mgpm-root.conf[00m         [00mntp.conf[00m              [00mwgetrc[00m
+[00;34mgre.d[00m                 [00;34mopenldap[00m              [00mwvdial.conf[00m
+[00mgroup[00m                 [00;34mopt[00m                   [00;34mX11[00m
+[00mgroup-[00m                [00;34mpam.d[00m                 [00;34mxdg[00m
+[00;36mgrub.conf[00m             [00mpam_smb.conf[00m          [00;34mxinetd.d[00m
+[00mgshadow[00m               [00;34mpango[00m                 [00;34mxml[00m
+[00mgshadow-[00m              [00mpasswd[00m                [00myp.conf[00m
+[00mgssapi_mech.conf[00m      [00mpasswd-[00m               [00;34myum[00m
+[00;34mgtk[00m                   [00mpasswd.OLD[00m            [00myum.conf[00m
+[00;34mgtk-2.0[00m               [00mpbm2ppa.conf[00m          [00;34myum.repos.d[00m
+[00;34mhal[00m                   [00;34mpcmcia[00m                [00mzlogin[00m
+[00mhost.conf[00m             [00mpinforc[00m               [00mzlogout[00m
+[00mhosts[00m                 [00;34mpki[00m                   [00mzprofile[00m
+[00mhosts.allow[00m           [00mpnm2ppa.conf[00m          [00mzshenv[00m
+[00mhosts.deny[00m            [00;34mppp[00m                   [00mzshrc[00m
+[00;34mhotplug[00m               [00mprelink.cache[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls /etc/profile
+[00m[00m/etc/profile[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ vi profi[K[K[K[K[K/[K[K/[K /etc/prf[K0[K[Krofile
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/profile" [readonly] 49L, 840C[1;1H[34m# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc[m
+
+pathmunge () [35m{[m[7;9H[33mif[m [33m![m [33mecho[m[31m [m[35m$PATH[m[31m [m[33m|[m /bin/egrep [33m-q[m [33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m [33mthen[8;12Hif[m [33m[[m [33m"[m[35m$2[m[33m"[m [33m=[m [33m"[m[31mafter[m[33m"[m [33m][m [33m;[m [33mthen[m[9;15H[36mPATH[m=[35m$PATH[m:[35m$1[m[10;12H[33melse[m[11;15H[36mPATH[m=[35m$1[m:[35m$PATH[m[12;12H[33mfi[13;9Hfi[m
+[35m}[m
+
+[34m# Path manipulation[m
+[33mif[m [33m[[m [35m$EUID[m [33m=[m [31m0[m [33m];[m [33mthen[m[18;9Hpathmunge /sbin[19;9Hpathmunge /usr/sbin[20;9Hpathmunge /usr/local/sbin
+[33mfi[m
+
+pathmunge /usr/X11R6/bin after[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;1H[1mrecording[m[24;10H[K[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi /etc/profilels[Student@localhost ~]$ ls /etc/profile[Kvi /ect/profile[8Pls /etcvi /ect/profilemore ./ect/profile[3Pvi /ect/profile[8Pls /etc/profilevi[Student@localhost ~]$ vi /etc/profile[Kvi /etc/profile
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/profile" [readonly] 49L, 840C[1;1H[34m# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc[m
+
+pathmunge () [35m{[m[7;9H[33mif[m [33m![m [33mecho[m[31m [m[35m$PATH[m[31m [m[33m|[m /bin/egrep [33m-q[m [33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m [33mthen[8;12Hif[m [33m[[m [33m"[m[35m$2[m[33m"[m [33m=[m [33m"[m[31mafter[m[33m"[m [33m][m [33m;[m [33mthen[m[9;15H[36mPATH[m=[35m$PATH[m:[35m$1[m[10;12H[33melse[m[11;15H[36mPATH[m=[35m$1[m:[35m$PATH[m[12;12H[33mfi[13;9Hfi[m
+[35m}[m
+
+[34m# Path manipulation[m
+[33mif[m [33m[[m [35m$EUID[m [33m=[m [31m0[m [33m];[m [33mthen[m[18;9Hpathmunge /sbin[19;9Hpathmunge /usr/sbin[20;9Hpathmunge /usr/local/sbin
+[33mfi[m
+
+pathmunge /usr/X11R6/bin after[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5,0-1[5;1H[?12l[?25h[?25l[24;63H6,1  [6;1H[?12l[?25h[?25l[24;63H7,1-8[7;8H[?12l[?25h[?25l[24;63H8[8;8H[?12l[?25h[?25l[24;63H9[9;8H[?12l[?25h[?25l[24;63H10,1-8[10;8H[?12l[?25h[?25l[24;64H1[11;8H[?12l[?25h[?25l[24;64H2[12;8H[?12l[?25h[?25l[24;64H3[13;8H[?12l[?25h[?25l[24;64H4,1  [14;1H[?12l[?25h[?25l[24;64H5,0-1[15;1H[?12l[?25h[?25l[24;64H6,1  [16;1H[?12l[?25h[?25l[24;64H7[17;1H[?12l[?25h[?25l[24;64H8,1-8[18;8H[?12l[?25h[?25l[24;64H9[19;8H[?12l[?25h[?25l[24;63H20[20;8H[?12l[?25h[?25l[24;64H1,1  [21;1H[?12l[?25h[?25l[24;64H2,0-1[22;1H[?12l[?25h[?25l[24;64H3,1  [23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;1H[K[24;63H24,0-1[9C3%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H25,0-1[9C7%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[34m# No core files by default[m[24;63H[K[24;63H26,1[10C11%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mulimit[m [35m-S[m [35m-c[m [31m0[m [33m>[m /dev/null [33m2>&1[m[24;63H[K[24;63H27,1[10C15%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H28,0-1[8C19%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mUSER[m=[33m"[m[35m`id -un`[m[33m"[m[24;63H[K[24;63H29,1[10C23%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mLOGNAME[m=[35m$USER[m[24;63H[K[24;63H30,1[10C26%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mMAIL[m=[33m"[m[31m/var/spool/mail/[m[35m$USER[m[33m"[m[24;63H[K[24;63H31,1[10C30%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H32,0-1[8C34%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mHOSTNAME[m=[35m`/bin/hostname`[m[24;63H[K[24;63H33,1[10C38%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mHISTSIZE[m=[31m1000[m[24;63H[K[24;63H34,1[10C42%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H35,0-1[8C46%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mif[m [33m[[m [33m-z[m [33m"[m[35m$INPUTRC[m[33m"[m [33m-a[m [33m![m [33m-f[m [33m"[m[35m$HOME[m[31m/.inputrc[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H36,1[10C50%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[36mINPUTRC[m=/etc/inputrc[24;63H[K[24;63H37,1[10C53%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mfi[m[24;63H[K[24;63H38,1[10C57%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H39,0-1[8C61%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mexport [m[36mPATH[m [36mUSER[m [36mLOGNAME[m [36mMAIL[m [36mHOSTNAME[m [36mHISTSIZE[m [36mINPUTRC[m[24;63H[K[24;63H40,1[10C65%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H41,0-1[8C69%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mfor[m i [33min[m /etc/profile.d/*.sh [33m;[m [33mdo[m[24;63H[K[24;63H42,1[10C73%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H43,1[10C76%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33m    . [m[35m$i[m[24;63H[K[24;63H44,1[10C80%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mfi[m[24;63H[K[24;63H45,1[10C84%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mdone[m[24;63H[K[24;63H46,1[10C88%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H47,0-1[8C92%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33munset [m[36mi[m[24;63H[K[24;63H48,1[10C96%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33munset [m[36mpathmunge[m[24;63H[K[24;63H49,1[10CBot[23;1H[?12l[?25h[?25l[24;64H8[22;1H[?12l[?25h[?25l[24;64H7,0-1[21;1H[?12l[?25h[?25l[24;64H6,1  [20;1H[?12l[?25h[?25l[24;64H5[19;1H[?12l[?25h[?25l[24;64H4[18;1H[?12l[?25h[?25l[24;64H3[17;1H[?12l[?25h[?25l[24;64H2[16;1H[?12l[?25h[?25l[24;64H1,0-1[15;1H[?12l[?25h[?25l[24;64H0,1  [14;1H[?12l[?25h[?25l[24;63H39,0-1[13;1H[?12l[?25h[?25l[24;64H8,1  [12;1H[?12l[?25h[?25l[24;64H7[11;1H[?12l[?25h[?25l[24;64H6[10;1H[?12l[?25h[?25l[24;64H5,0-1[9;1H[?12l[?25h[?25l[24;64H4,1  [8;1H[?12l[?25h[?25l[24;64H3[7;1H[?12l[?25h[?25l[24;64H2,0-1[6;1H[?12l[?25h[?25l[24;64H1,1  [5;1H[?12l[?25h[?25l[24;64H0[4;1H[?12l[?25h[?25l[24;63H29[3;1H[?12l[?25h[?25l[24;64H8,0-1[2;1H[?12l[?25h[?25l[24;64H7,1  [1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# No core files by default[m[24;63H[K[24;63H26,1[10C96%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H25,0-1[8C92%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H24,0-1[8C88%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hpathmunge /usr/X11R6/bin after[24;63H[K[24;63H23,1[10C84%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H22,0-1[8C80%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mfi[m[24;63H[K[24;63H21,1[10C76%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9Hpathmunge /usr/local/sbin[24;63H[K[24;63H20,1-8[8C73%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9Hpathmunge /usr/sbin[24;63H[K[24;63H19,1-8[8C69%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9Hpathmunge /sbin[24;63H[K[24;63H18,1-8[8C65%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mif[m [33m[[m [35m$EUID[m [33m=[m [31m0[m [33m];[m [33mthen[m[24;63H[K[24;63H17,1[10C61%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# Path manipulation[m[24;63H[K[24;63H16,1[10C57%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H15,0-1[8C53%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[35m}[m[24;63H[K[24;63H14,1[10C50%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mfi[m[24;63H[K[24;63H13,1-8[8C46%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;12H[33mfi[m[24;63H[K[24;63H12,1-8[8C42%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;15H[36mPATH[m=[35m$1[m:[35m$PATH[m[24;63H[K[24;63H11,1-8[8C38%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;12H[33melse[m[24;63H[K[24;63H10,1-8[8C34%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;15H[36mPATH[m=[35m$PATH[m:[35m$1[m[24;63H[K[24;63H9,1-8[9C30%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;12H[33mif[m [33m[[m [33m"[m[35m$2[m[33m"[m [33m=[m [33m"[m[31mafter[m[33m"[m [33m][m [33m;[m [33mthen[m[24;63H[K[24;63H8,1-8[9C26%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mif[m [33m![m [33mecho[m[31m [m[35m$PATH[m[31m [m[33m|[m /bin/egrep [33m-q[m [33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m [33mthen[m[24;63H[K[24;63H7,1-8[9C23%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hpathmunge () [35m{[m[24;63H[K[24;63H6,1[11C19%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H5,0-1[9C15%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# Functions and aliases go in /etc/bashrc[m[24;63H[K[24;63H4,1[11C11%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# System wide environment and startup programs, for login setup[m[24;63H[K[24;63H3,1[12C7%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H2,0-1[10C3%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# /etc/profile[m[24;63H[K[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5,0-1[5;1H[?12l[?25h[?25l[24;63H6,1  [6;1H[?12l[?25h[?25l[24;63H7,1-8[7;8H[?12l[?25h[?25l[24;63H8[8;8H[?12l[?25h[?25l[24;63H9[9;8H[?12l[?25h[?25l[24;63H10,1-8[10;8H[?12l[?25h[?25l[24;64H1[11;8H[?12l[?25h[?25l[24;64H2[12;8H[?12l[?25h[?25l[24;64H3[13;8H[?12l[?25h[?25l[24;64H4,1  [14;1H[?12l[?25h[?25l[24;64H5,0-1[15;1H[?12l[?25h[?25l[24;64H6,1  [16;1H[?12l[?25h[?25l[24;64H7[17;1H[?12l[?25h[?25l[24;64H8,1-8[18;8H[?12l[?25h[?25l[24;64H9[19;8H[?12l[?25h[?25l[24;63H20[20;8H[?12l[?25h[?25l[24;64H1,1  [21;1H[?12l[?25h[?25l[24;64H2,0-1[22;1H[?12l[?25h[?25l[24;64H3,1  [23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H24,0-1[9C3%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H25,0-1[9C7%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[34m# No core files by default[m[24;63H[K[24;63H26,1[10C11%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mulimit[m [35m-S[m [35m-c[m [31m0[m [33m>[m /dev/null [33m2>&1[m[24;63H[K[24;63H27,1[10C15%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H28,0-1[8C19%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mUSER[m=[33m"[m[35m`id -un`[m[33m"[m[24;63H[K[24;63H29,1[10C23%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mLOGNAME[m=[35m$USER[m[24;63H[K[24;63H30,1[10C26%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mMAIL[m=[33m"[m[31m/var/spool/mail/[m[35m$USER[m[33m"[m[24;63H[K[24;63H31,1[10C30%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H32,0-1[8C34%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mHOSTNAME[m=[35m`/bin/hostname`[m[24;63H[K[24;63H33,1[10C38%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mHISTSIZE[m=[31m1000[m[24;63H[K[24;63H34,1[10C42%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H35,0-1[8C46%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mif[m [33m[[m [33m-z[m [33m"[m[35m$INPUTRC[m[33m"[m [33m-a[m [33m![m [33m-f[m [33m"[m[35m$HOME[m[31m/.inputrc[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H36,1[10C50%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[36mINPUTRC[m=/etc/inputrc[24;63H[K[24;63H37,1[10C53%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mfi[m[24;63H[K[24;63H38,1[10C57%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H39,0-1[8C61%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mexport [m[36mPATH[m [36mUSER[m [36mLOGNAME[m [36mMAIL[m [36mHOSTNAME[m [36mHISTSIZE[m [36mINPUTRC[m[24;63H[K[24;63H40,1[10C65%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H41,0-1[8C69%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mfor[m i [33min[m /etc/profile.d/*.sh [33m;[m [33mdo[m[24;63H[K[24;63H42,1[10C73%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H43,1[10C76%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33m    . [m[35m$i[m[24;63H[K[24;63H44,1[10C80%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mfi[m[24;63H[K[24;63H45,1[10C84%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mdone[m[24;63H[K[24;63H46,1[10C88%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H47,0-1[8C92%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33munset [m[36mi[m[24;63H[K[24;63H48,1[10C96%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33munset [m[36mpathmunge[m[24;63H[K[24;63H49,1[10CBot[23;1H[?12l[?25h[?25l[24;64H8[22;1H[?12l[?25h[?25l[24;64H7,0-1[21;1H[?12l[?25h[?25l[24;64H6,1  [20;1H[?12l[?25h[?25l[24;64H5[19;1H[?12l[?25h[?25l[24;64H4[18;1H[?12l[?25h[?25l[24;64H3[17;1H[?12l[?25h[?25l[24;64H2[16;1H[?12l[?25h[?25l[24;64H1,0-1[15;1H[?12l[?25h[?25l[24;64H0,1  [14;1H[?12l[?25h[?25l[24;63H39,0-1[13;1H[?12l[?25h[?25l[24;64H8,1  [12;1H[?12l[?25h[?25l[24;64H7[11;1H[?12l[?25h[?25l[24;64H6[10;1H[?12l[?25h[?25l[24;64H5,0-1[9;1H[?12l[?25h[?25l[24;64H4,1  [8;1H[?12l[?25h[?25l[24;64H3[7;1H[?12l[?25h[?25l[24;64H2,0-1[6;1H[?12l[?25h[?25l[24;64H1,1  [5;1H[?12l[?25h[?25l[24;64H0[4;1H[?12l[?25h[?25l[24;63H29[3;1H[?12l[?25h[?25l[24;64H8,0-1[2;1H[?12l[?25h[?25l[24;64H7,1  [1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# No core files by default[m[24;63H[K[24;63H26,1[10C96%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H25,0-1[8C92%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H24,0-1[8C88%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hpathmunge /usr/X11R6/bin after[24;63H[K[24;63H23,1[10C84%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H22,0-1[8C80%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mfi[m[24;63H[K[24;63H21,1[10C76%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9Hpathmunge /usr/local/sbin[24;63H[K[24;63H20,1-8[8C73%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9Hpathmunge /usr/sbin[24;63H[K[24;63H19,1-8[8C69%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9Hpathmunge /sbin[24;63H[K[24;63H18,1-8[8C65%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mif[m [33m[[m [35m$EUID[m [33m=[m [31m0[m [33m];[m [33mthen[m[24;63H[K[24;63H17,1[10C61%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# Path manipulation[m[24;63H[K[24;63H16,1[10C57%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H15,0-1[8C53%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[35m}[m[24;63H[K[24;63H14,1[10C50%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mfi[m[24;63H[K[24;63H13,1-8[8C46%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;12H[33mfi[m[24;63H[K[24;63H12,1-8[8C42%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;15H[36mPATH[m=[35m$1[m:[35m$PATH[m[24;63H[K[24;63H11,1-8[8C38%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;12H[33melse[m[24;63H[K[24;63H10,1-8[8C34%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;15H[36mPATH[m=[35m$PATH[m:[35m$1[m[24;63H[K[24;63H9,1-8[9C30%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;12H[33mif[m [33m[[m [33m"[m[35m$2[m[33m"[m [33m=[m [33m"[m[31mafter[m[33m"[m [33m][m [33m;[m [33mthen[m[24;63H[K[24;63H8,1-8[9C26%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mif[m [33m![m [33mecho[m[31m [m[35m$PATH[m[31m [m[33m|[m /bin/egrep [33m-q[m [33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m [33mthen[m[24;63H[K[24;63H7,1-8[9C23%[1;8H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hpathmunge () [35m{[m[24;63H[K[24;63H6,1[11C19%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H5,0-1[9C15%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# Functions and aliases go in /etc/bashrc[m[24;63H[K[24;63H4,1[11C11%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# System wide environment and startup programs, for login setup[m[24;63H[K[24;63H3,1[12C7%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H2,0-1[10C3%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# /etc/profile[m[24;63H[K[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ echo i s[K[K[Kwe see several differnet if statmenemen[Student@localhost ~]$ echo we see several differnet if statem[Student@localhost ~]$ echo we see several differnet if stateme[Student@localhost ~]$ echo we see several differnet if statements ad[Knd a for loo p whis[Kch ar[K[Kform te[Khe program that is respoi[Kmn[K[Knsibler[K[Ke for starting [K up the ligin systen[Km.
+we see several differnet if statements and a for loop which form the program that is responsible for starting up the ligin system.
+]0;Student@localhost:~[Student@localhost ~]$ echo we see several differnet if statements and a for loopp which form the program that is responsible for starting up the ligin system.[A[Student@localhost ~]$ vi /etc/profile[K
+[K[A[Student@localhost ~]$ vi /etc/profile
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/profile" [readonly] 49L, 840C[1;1H[34m# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc[m
+
+pathmunge () [35m{[m[7;9H[33mif[m [33m![m [33mecho[m[31m [m[35m$PATH[m[31m [m[33m|[m /bin/egrep [33m-q[m [33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m [33mthen[8;12Hif[m [33m[[m [33m"[m[35m$2[m[33m"[m [33m=[m [33m"[m[31mafter[m[33m"[m [33m][m [33m;[m [33mthen[m[9;15H[36mPATH[m=[35m$PATH[m:[35m$1[m[10;12H[33melse[m[11;15H[36mPATH[m=[35m$1[m:[35m$PATH[m[12;12H[33mfi[13;9Hfi[m
+[35m}[m
+
+[34m# Path manipulation[m
+[33mif[m [33m[[m [35m$EUID[m [33m=[m [31m0[m [33m];[m [33mthen[m[18;9Hpathmunge /sbin[19;9Hpathmunge /usr/sbin[20;9Hpathmunge /usr/local/sbin
+[33mfi[m
+
+pathmunge /usr/X11R6/bin after[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,3[11CTop[24;14H[31mW10: Warning: Changing a readonly file[m[24;63H[K[1;3H[34msdf/etc/profile[m[24;63H1,6[11CTop[1;6H[?12l[?25h[?25l[34m/etc/profile[m[1;17H[K[24;65H5[1;5H[?12l[?25h[?25l[34m/etc/profile[m[1;16H[K[24;65H4[1;4H[?12l[?25h[?25l[34mf/etc/profile[m[24;65H5[1;5H[?12l[?25h[?25l[34mf/etc/profile[m[24;65H6[1;6H[?12l[?25h[?25l[34ma/etc/profile[m[24;65H7[1;7H[?12l[?25h[?25l[34ms/etc/profile[m[24;65H8[1;8H[?12l[?25h[?25l[34md/etc/profile[m[24;65H9[1;9H[?12l[?25h[?25l[34mf/etc/profile[m[24;65H10[1;10H[?12l[?25h[24;1H[K[1;9H[?25l[24;63H1,9[11CTop[1;9H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi /etc/profile
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/profile" [readonly] 49L, 840C[1;1H[34m# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc[m
+
+pathmunge () [35m{[m[7;9H[33mif[m [33m![m [33mecho[m[31m [m[35m$PATH[m[31m [m[33m|[m /bin/egrep [33m-q[m [33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m [33mthen[8;12Hif[m [33m[[m [33m"[m[35m$2[m[33m"[m [33m=[m [33m"[m[31mafter[m[33m"[m [33m][m [33m;[m [33mthen[m[9;15H[36mPATH[m=[35m$PATH[m:[35m$1[m[10;12H[33melse[m[11;15H[36mPATH[m=[35m$1[m:[35m$PATH[m[12;12H[33mfi[13;9Hfi[m
+[35m}[m
+
+[34m# Path manipulation[m
+[33mif[m [33m[[m [35m$EUID[m [33m=[m [31m0[m [33m];[m [33mthen[m[18;9Hpathmunge /sbin[19;9Hpathmunge /usr/sbin[20;9Hpathmunge /usr/local/sbin
+[33mfi[m
+
+pathmunge /usr/X11R6/bin after[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,3  [3;3H[?12l[?25h[?25l[24;63H4[4;3H[?12l[?25h[?25l[24;63H5,0-1[5;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ aliases
+bash: aliases: command not found
+]0;Student@localhost:~[Student@localhost ~]$ vi aliases
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"aliases" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25h2[?25l[?12l[?25h[?25l[24;2H[K[24;2H[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ alias
+alias l.='ls -d .* --color=tty'
+alias ll='ls -l --color=tty'
+alias ls='ls --color=tty'
+alias vi='vim'
+alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
+]0;Student@localhost:~[Student@localhost ~]$ alias --help
+bash: alias: --: invalid option
+alias: usage: alias [-p] [name[=value] ... ]
+]0;Student@localhost:~[Student@localhost ~]$ man alias
+[?1049h[?1h=[24;1H[KBASH_BUILTINS(1)                                              BASH_BUILTINS(1)
+
+[1mNAME[0m
+       bash,  :,  ., [, alias, bg, bind, break, builtin, cd, command, compgen,
+       complete, continue, declare, dirs, disown, echo,  enable,  eval,  exec,
+       exit,  export,  fc,  fg, getopts, hash, help, history, jobs, kill, let,
+       local, logout, popd, printf, pushd, pwd, read, readonly,  return,  set,
+       shift,  shopt,  source,  suspend,  test,  times,  trap,  type, typeset,
+       ulimit, umask, unalias, unset,  wait  -  bash  built-in  commands,  see
+       [1mbash[0m(1)
+
+[1mBASH[0m [1mBUILTIN[0m [1mCOMMANDS[0m
+       Unless otherwise noted, each builtin command documented in this section
+       as accepting options preceded by [1m-[0m accepts [1m--[0m to signify the end of the
+       options.
+       [1m:[0m [[4marguments[24m]
+              No  effect;  the command does nothing beyond expanding [4marguments[24m
+              and performing any specified redirections.  A zero exit code  is
+              returned.
+
+        [1m.[0m  [4mfilename[24m [[4marguments[24m]
+       [1msource[0m [4mfilename[24m [[4marguments[24m]
+              Read  and  execute  commands  from [4mfilename[24m in the current shell
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;Student@localhost:~[Student@localhost ~]$ w[Kvi .bashrc
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".bashrc" 8L, 124C[1;1H[34m# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions[m
+[33mif[m [33m[[m [33m-f[m /etc/bashrc [33m];[m [33mthen
+        . [m/etc/bashrc
+[33mfi[m
+[1m[34m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25h...[?25l:append[?12l[?25h[?25l[24;7H[K[24;7H[?12l[?25hq[?25l[?12l[?25h[?25l[24;7H[K[24;7H[?12l[?25h[?25l[24;6H[K[24;6H[?12l[?25h[?25l[24;5H[K[24;5H[?12l[?25h[?25l[24;4H[K[24;4H[?12l[?25h[?25l[24;3H[K[24;3H[?12l[?25h[?25l[24;2H[K[24;2H[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ cp ,bashrc [1P[4h.[4l[Student@localhost ~]$ cp .b[Student@localhost ~]$ cp .ba[Student@localhost ~]$ cp .bas[Student@localhost ~]$ cp .bash[Student@localhost ~]$ cp .bashr[Student@localhost ~]$ cp .bashrc[Student@localhost ~]$ cp .bashrc bach[Kkups
+]0;Student@localhost:~[Student@localhost ~]$ cp .bashrc backups
+]0;Student@localhost:~[Student@localhost ~]$ ls ,[K.bashrc
+[00m[00m.bashrc[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls .bashrccp .bashrc backups[8Pvi .bashrc
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".bashrc" 8L, 124C[1;1H[34m# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions[m
+[33mif[m [33m[[m [33m-f[m /etc/bashrc [33m];[m [33mthen
+        . [m/etc/bashrc
+[33mfi[m
+[1m[34m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ ls 
+[00m[00;34massignments[00m  [00mfile3[00m             [00mgrady.L3.IV.txt[00m  [00mgrady.L5.V.txt[00m
+[00;34mbackups[00m      [00mfile3.bak[00m         [00mgrady.L4.II.txt[00m  [00mgrady.lab2.session.txt[00m
+[00;34mbusLetters[00m   [00mfile4[00m             [00mgrady.L4.I.txt[00m   [00mgtsbrgII.txt[00m
+[00;34mchapter_4[00m    [00mfile5[00m             [00mgrady.L5.II.txt[00m  [00mgtsybrgII.txt[00m
+[00;34mDesktop[00m      [00mgrady.L3.IIItxt[00m   [00mgrady.L5.I.txt[00m   [00mgtysbrg.txt[00m
+[00mfile1[00m        [00mgrady.L3.III.txt[00m  [00mgrady.L5.IV.txt[00m  [00;34mletters[00m
+[00mfile2[00m        [00mgrady.L3.II.txt[00m   [00mgrady.L5.VI.txt[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ sl[K[Kls ec[Ktc
+[00mls: etc: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls etc.[K/
+[00mls: etc/: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ lsetc[K[K[K /etc
+[00m[00ma2ps.cfg[00m              [00;34mhotplug.d[00m             [00mprelink.conf[00m
+[00ma2ps-site.cfg[00m         [00;34mhowl[00m                  [00mprintcap[00m
+[00;34macpi[00m                  [00;34mhtdig[00m                 [00mprofile[00m
+[00madjtime[00m               [00midmapd.conf[00m           [00;34mprofile.d[00m
+[00;34malchemist[00m             [00mim_palette.pal[00m        [00mprotocols[00m
+[00maliases[00m               [00mim_palette-small.pal[00m  [00mpwdb.conf[00m
+[00maliases.db[00m            [00mim_palette-tiny.pal[00m   [00mquotagrpadmins[00m
+[00;34malsa[00m                  [00mimrc[00m                  [00mquotatab[00m
+[00;34malternatives[00m          [00;36minit.d[00m                [00;34mracoon[00m
+[00manacrontab[00m            [00minitlog.conf[00m          [00;36mrc[00m
+[00mant.conf[00m              [00minittab[00m               [00;36mrc0.d[00m
+[00;34mant.d[00m                 [00minputrc[00m               [00;36mrc1.d[00m
+[00masound.conf[00m           [00;34miproute2[00m              [00;36mrc2.d[00m
+[00masound.state[00m          [00;34misdn[00m                  [00;36mrc3.d[00m
+[00mat.deny[00m               [00missue[00m                 [00;36mrc4.d[00m
+[00mauditd.conf[00m           [00missue.net[00m             [00;36mrc5.d[00m
+[00maudit.rules[00m           [00;34mjava[00m                  [00;36mrc6.d[00m
+[00mauto.master[00m           [00mjwhois.conf[00m           [00;34mrc.d[00m
+[00mauto.misc[00m             [00;34mkde[00m                   [00;36mrc.local[00m
+[00;32mauto.net[00m              [00mkderc[00m                 [00;36mrc.sysinit[00m
+[00;32mauto.smb[00m              [00;34mkermit[00m                [00;34mredhat-lsb[00m
+[00mbashrc[00m                [00mkrb5.conf[00m             [00;36mredhat-release[00m
+[00mblkid.tab[00m             [00mkrb.conf[00m              [00mresolv.conf[00m
+[00mblkid.tab.old[00m         [00mkrb.realms[00m            [00mresolv.conf.predhclient[00m
+[00;34mbluetooth[00m             [00mksysguarddrc[00m          [00;34mrhgb[00m
+[00;34mbonobo-activation[00m     [00mldap.conf[00m             [00;36mrmt[00m
+[00mcdrecord.conf[00m         [00mld.so.cache[00m           [00mrndc.conf[00m
+[00mcpuspeed.conf[00m         [00mld.so.conf[00m            [00mrndc.key[00m
+[00;34mcron.d[00m                [00;34mld.so.conf.d[00m          [00mrpc[00m
+[00;34mcron.daily[00m            [00mlftp.conf[00m             [00;34mrpm[00m
+[00mcron.deny[00m             [00mlibuser.conf[00m          [00;34msamba[00m
+[00;34mcron.hourly[00m           [00mlisarc[00m                [00;34msane.d[00m
+[00;34mcron.monthly[00m          [00mlocaltime[00m             [00mscreenrc[00m
+[00mcrontab[00m               [00;34mlog.d[00m                 [00mscrollkeeper.conf[00m
+[00;34mcron.weekly[00m           [00mlogin.defs[00m            [00mscsi_id.config[00m
+[00mcsh.cshrc[00m             [00mlogrotate.conf[00m        [00msecuretty[00m
+[00mcsh.login[00m             [00;34mlogrotate.d[00m           [00;34msecurity[00m
+[00;34mcups[00m                  [00mlsb-release[00m           [00;34mselinux[00m
+[00;34mdbus-1[00m                [00mltrace.conf[00m           [00msensors.conf[00m
+[00;34mdefault[00m               [00;34mlvm[00m                   [00mservices[00m
+[00;34mdev.d[00m                 [00;34mmail[00m                  [00msestatus.conf[00m
+[00mDIR_COLORS[00m            [00mmailcap[00m               [00;34msetuptool.d[00m
+[00mDIR_COLORS.xterm[00m      [00mmail.rc[00m               [00;34msgml[00m
+[00mdumpdates[00m             [00;34mmakedev.d[00m             [00mshadow[00m
+[00menscript.cfg[00m          [00mman.config[00m            [00mshadow-[00m
+[00menvironment[00m           [00;34mmgetty+sendfax[00m        [00mshells[00m
+[00mesd.conf[00m              [00mmime.types[00m            [00;34mskel[00m
+[00mexports[00m               [00mminicom.users[00m         [00mslrn.rc[00m
+[00mfb.modes[00m              [00mmodprobe.conf[00m         [00;34msmrsh[00m
+[00mfdprm[00m                 [00mmodprobe.conf~[00m        [00;34msnmp[00m
+[00mfedora-release[00m        [00mmodprobe.conf.dist[00m    [00;34msound[00m
+[00mfilesystems[00m           [00mmotd[00m                  [00;34mssh[00m
+[00;34mfonts[00m                 [00mmtab[00m                  [00;34mstunnel[00m
+[00;34mfoomatic[00m              [00mmtools.conf[00m           [00msudoers[00m
+[00mfstab[00m                 [00mMuttrc[00m                [00;34msysconfig[00m
+[00;34mgaim[00m                  [00mMuttrc.local[00m          [00msysctl.conf[00m
+[00;34mgconf[00m                 [00mnamed.conf[00m            [00msyslog.conf[00m
+[00;34mghostscript[00m           [00;34mnetplug[00m               [00mtermcap[00m
+[00;34mgimp[00m                  [00;34mnetplug.d[00m             [00;34mudev[00m
+[00;34mgnome-vfs-2.0[00m         [00mnscd.conf[00m             [00mupdatedb.conf[00m
+[00mgnome-vfs-mime-magic[00m  [00mnsswitch.conf[00m         [00mvimrc[00m
+[00;34mgnopernicus-1.0[00m       [00;34mntp[00m                   [00mwarnquota.conf[00m
+[00mgpm-root.conf[00m         [00mntp.conf[00m              [00mwgetrc[00m
+[00;34mgre.d[00m                 [00;34mopenldap[00m              [00mwvdial.conf[00m
+[00mgroup[00m                 [00;34mopt[00m                   [00;34mX11[00m
+[00mgroup-[00m                [00;34mpam.d[00m                 [00;34mxdg[00m
+[00;36mgrub.conf[00m             [00mpam_smb.conf[00m          [00;34mxinetd.d[00m
+[00mgshadow[00m               [00;34mpango[00m                 [00;34mxml[00m
+[00mgshadow-[00m              [00mpasswd[00m                [00myp.conf[00m
+[00mgssapi_mech.conf[00m      [00mpasswd-[00m               [00;34myum[00m
+[00;34mgtk[00m                   [00mpasswd.OLD[00m            [00myum.conf[00m
+[00;34mgtk-2.0[00m               [00mpbm2ppa.conf[00m          [00;34myum.repos.d[00m
+[00;34mhal[00m                   [00;34mpcmcia[00m                [00mzlogin[00m
+[00mhost.conf[00m             [00mpinforc[00m               [00mzlogout[00m
+[00mhosts[00m                 [00;34mpki[00m                   [00mzprofile[00m
+[00mhosts.allow[00m           [00mpnm2ppa.conf[00m          [00mzshenv[00m
+[00mhosts.deny[00m            [00;34mppp[00m                   [00mzshrc[00m
+[00;34mhotplug[00m               [00mprelink.cache[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cp /etx[Kc/.bashrc backups
+cp: cannot stat `/etc/.bashrc': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cp . etc/bashrc backups
+cp: omitting directory `.'
+cp: cannot stat `etc/bashrc': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ vi[K[Kcd ect
+bash: cd: ect: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cd ect~ect
+bash: cd: ~ect: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cd / [Ketc
+]0;Student@localhost:/etc[Student@localhost etc]$ cp .bashrc backups
+cp: cannot stat `.bashrc': No such file or directory
+]0;Student@localhost:/etc[Student@localhost etc]$ cp bac[Kshrc backups
+cp: cannot create regular file `backups': Permission denied
+]0;Student@localhost:/etc[Student@localhost etc]$ cp bashrc backups[Student@localhost etc]$ cp bashrc b[Student@localhost etc]$ cp bashrc ba[Student@localhost etc]$ cp bashrc bac[Student@localhost etc]$ cp bashrc back[Student@localhost etc]$ cp bashrc backu[Student@localhost etc]$ cp bashrc backup[Student@localhost etc]$ cp bashrc backups
+cp: cannot create regular file `backups': Permission denied
+]0;Student@localhost:/etc[Student@localhost etc]$ cp bashrc backups.backups.backups/backups
+cp: cannot create regular file `../backups': Permission denied
+]0;Student@localhost:/etc[Student@localhost etc]$ umask [K[K[K[K[K[Kcd ..
+]0;Student@localhost:/[Student@localhost /]$ cd ..
+]0;Student@localhost:/[Student@localhost /]$ umaks[K[Ksk 777
+]0;Student@localhost:/[Student@localhost /]$ cd etc
+]0;Student@localhost:/etc[Student@localhost etc]$ cp .bashrc ../backups
+cp: cannot stat `.bashrc': No such file or directory
+]0;Student@localhost:/etc[Student@localhost etc]$ cp bashrc ../backups
+cp: cannot create regular file `../backups': Permission denied
+]0;Student@localhost:/etc[Student@localhost etc]$ ls -la
+[00mtotal 3508
+drwxr-xr-x  82 root root   12288 Apr 26 16:12 [00;34m.[00m
+drwxr-xr-x  23 root root    4096 Apr 26 16:12 [00;34m..[00m
+-rw-r--r--   1 root root   15289 Mar 23  2005 [00ma2ps.cfg[00m
+-rw-r--r--   1 root root    2562 Mar 23  2005 [00ma2ps-site.cfg[00m
+drwxr-xr-x   4 root root    4096 Jul 27  2005 [00;34macpi[00m
+-rw-r--r--   1 root root      12 May 25  2005 [00madjtime[00m
+drwxr-xr-x   4 root root    4096 Jul 27  2005 [00;34malchemist[00m
+-rw-r--r--   1 root root    1512 Apr 25  2005 [00maliases[00m
+-rw-r-----   1 root smmsp  12288 Apr 26 16:12 [00maliases.db[00m
+drwxr-xr-x   4 root root    4096 Jul 27  2005 [00;34malsa[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34malternatives[00m
+-rw-r--r--   1 root root     329 Mar 16  2005 [00manacrontab[00m
+-rw-r--r--   1 root root     395 Jan 12  2005 [00mant.conf[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mant.d[00m
+-rw-r--r--   1 root root     102 Jul 27  2005 [00masound.conf[00m
+-rw-r--r--   1 root root   62340 Apr 25 08:57 [00masound.state[00m
+-rw-------   1 root root       1 Apr  8  2005 [00mat.deny[00m
+-rw-r-----   1 root root     372 May 20  2005 [00mauditd.conf[00m
+-rw-r-----   1 root root     261 May 20  2005 [00maudit.rules[00m
+-rw-r--r--   1 root root     343 Apr 25  2005 [00mauto.master[00m
+-rw-r--r--   1 root root     581 Apr 25  2005 [00mauto.misc[00m
+-rwxr-xr-x   1 root root    1272 Apr 25  2005 [00;32mauto.net[00m
+-rwxr-xr-x   1 root root     538 Apr 25  2005 [00;32mauto.smb[00m
+-rw-r--r--   1 root root    1171 Apr 15  2005 [00mbashrc[00m
+-rw-r--r--   1 root root     354 Apr 26 16:12 [00mblkid.tab[00m
+-rw-r--r--   1 root root     354 Apr 26 16:12 [00mblkid.tab.old[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mbluetooth[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mbonobo-activation[00m
+-rw-r--r--   1 root root     976 Apr  6  2005 [00mcdrecord.conf[00m
+-rw-r--r--   1 root root     463 May  9  2005 [00mcpuspeed.conf[00m
+drwxr-xr-x   2 root root    4096 Apr 14  2005 [00;34mcron.d[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mcron.daily[00m
+-rw-r--r--   1 root root       0 Jul 27  2005 [00mcron.deny[00m
+drwxr-xr-x   2 root root    4096 Sep 20  2004 [00;34mcron.hourly[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mcron.monthly[00m
+-rw-r--r--   1 root root     255 Sep 20  2004 [00mcrontab[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mcron.weekly[00m
+-rw-r--r--   1 root root     665 May 19  2005 [00mcsh.cshrc[00m
+-rw-r--r--   1 root root     535 Nov 18  2004 [00mcsh.login[00m
+drwxrwxr-x   5 root sys     4096 Jul 27  2005 [00;34mcups[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mdbus-1[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mdefault[00m
+drwxr-xr-x   9 root root    4096 Jul 27  2005 [00;34mdev.d[00m
+-rw-r--r--   1 root root    2518 May 25  2005 [00mDIR_COLORS[00m
+-rw-r--r--   1 root root    2434 May 25  2005 [00mDIR_COLORS.xterm[00m
+-rw-rw-r--   1 root disk       0 May 11  2005 [00mdumpdates[00m
+-rw-r--r--   1 root root    4975 Mar  8  2005 [00menscript.cfg[00m
+-rw-r--r--   1 root root       0 May 19  2005 [00menvironment[00m
+-rw-r--r--   1 root root     153 Jun  1  2005 [00mesd.conf[00m
+-rw-r--r--   1 root root       0 Jan 12  2000 [00mexports[00m
+-rw-r--r--   1 root root   22060 Mar  4  2005 [00mfb.modes[00m
+-rw-r--r--   1 root root    1246 May  4  2005 [00mfdprm[00m
+-rw-r--r--   1 root root      31 Jun  3  2005 [00mfedora-release[00m
+-rw-r--r--   1 root root      51 Mar 12  2002 [00mfilesystems[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mfonts[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mfoomatic[00m
+-rw-r--r--   1 root root     709 Apr 26 16:12 [00mfstab[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mgaim[00m
+drwxr-xr-x   6 root root    4096 May 17  2005 [00;34mgconf[00m
+drwxr-xr-x   2 root root    4096 Mar 10  2005 [00;34mghostscript[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mgimp[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mgnome-vfs-2.0[00m
+-rw-r--r--   1 root root   10793 Jan 27  2005 [00mgnome-vfs-mime-magic[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mgnopernicus-1.0[00m
+-rw-r--r--   1 root root    1756 Mar  4  2005 [00mgpm-root.conf[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mgre.d[00m
+-rw-r--r--   1 root root     595 Jul 27  2005 [00mgroup[00m
+-rw-------   1 root root     580 Jul 27  2005 [00mgroup-[00m
+lrwxrwxrwx   1 root root      22 Jul 27  2005 [00;36mgrub.conf[00m -> [00m../boot/grub/grub.conf[00m
+-r--------   1 root root     490 Jul 27  2005 [00mgshadow[00m
+-rw-------   1 root root     478 Jul 27  2005 [00mgshadow-[00m
+-rw-r--r--   1 root root     804 May 26  2005 [00mgssapi_mech.conf[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mgtk[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mgtk-2.0[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mhal[00m
+-rw-r--r--   1 root root      17 Jul 23  2000 [00mhost.conf[00m
+-rw-r--r--   1 root root     147 Jul 27  2005 [00mhosts[00m
+-rw-r--r--   1 root root     161 Jan 12  2000 [00mhosts.allow[00m
+-rw-r--r--   1 root root     347 Jan 12  2000 [00mhosts.deny[00m
+drwxr-xr-x   4 root root    4096 Jul 27  2005 [00;34mhotplug[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mhotplug.d[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mhowl[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mhtdig[00m
+-rw-r--r--   1 root root     177 May 26  2005 [00midmapd.conf[00m
+-rw-r--r--   1 root root    3376 Apr 10  2005 [00mim_palette.pal[00m
+-rw-r--r--   1 root root     920 Apr 10  2005 [00mim_palette-small.pal[00m
+-rw-r--r--   1 root root     224 Apr 10  2005 [00mim_palette-tiny.pal[00m
+-rw-r--r--   1 root root    5464 Apr 10  2005 [00mimrc[00m
+lrwxrwxrwx   1 root root      11 Jul 27  2005 [00;36minit.d[00m -> [00;34mrc.d/init.d[00m
+-rw-r--r--   1 root root     658 May 25  2005 [00minitlog.conf[00m
+-rw-r--r--   1 root root    1663 Jul 27  2005 [00minittab[00m
+-rw-r--r--   1 root root     758 Sep 23  2004 [00minputrc[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34miproute2[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34misdn[00m
+-rw-r--r--   1 root root      51 Jun  3  2005 [00missue[00m
+-rw-r--r--   1 root root      50 Jun  3  2005 [00missue.net[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mjava[00m
+-rw-r--r--   1 root root   28686 Apr 30  2005 [00mjwhois.conf[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mkde[00m
+-rw-r--r--   1 root root     463 Apr 13  2005 [00mkderc[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mkermit[00m
+-rw-r--r--   1 root root     657 Jul 27  2005 [00mkrb5.conf[00m
+-rw-r--r--   1 root root    2281 Jul 27  2005 [00mkrb.conf[00m
+-rw-r--r--   1 root root    1296 Mar 16  2005 [00mkrb.realms[00m
+-rw-r--r--   1 root root     848 Feb 23  2003 [00mksysguarddrc[00m
+-rw-r--r--   1 root root    8685 Jul 27  2005 [00mldap.conf[00m
+-rw-r--r--   1 root root   95323 Jul 27  2005 [00mld.so.cache[00m
+-rw-r--r--   1 root root      28 May 30  2005 [00mld.so.conf[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mld.so.conf.d[00m
+-rw-r--r--   1 root root    3243 Apr 25  2005 [00mlftp.conf[00m
+-rw-r--r--   1 root root    2374 Jul 27  2005 [00mlibuser.conf[00m
+-rw-r--r--   1 root root     262 Apr  5  2005 [00mlisarc[00m
+-rw-r--r--   1 root root    1267 Jul 27  2005 [00mlocaltime[00m
+drwxr-xr-x   5 root root    4096 Jul 27  2005 [00;34mlog.d[00m
+-rw-r--r--   1 root root    1180 May 23  2005 [00mlogin.defs[00m
+-rw-r--r--   1 root root     596 Mar 31  2005 [00mlogrotate.conf[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mlogrotate.d[00m
+-rw-r--r--   1 root root      18 Mar 16  2005 [00mlsb-release[00m
+-rw-r--r--   1 root root   10815 Nov  9  2004 [00mltrace.conf[00m
+drwxr-xr-x   4 root root    4096 Jul 27  2005 [00;34mlvm[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mmail[00m
+-rw-r--r--   1 root root     293 Mar  7  2005 [00mmailcap[00m
+-rw-r--r--   1 root root     112 Mar  8  2005 [00mmail.rc[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mmakedev.d[00m
+-rw-r--r--   1 root root    4506 Apr  8  2005 [00mman.config[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mmgetty+sendfax[00m
+-rw-r--r--   1 root root   13085 Mar  7  2005 [00mmime.types[00m
+-rw-r--r--   1 root root    1110 Mar  7  2005 [00mminicom.users[00m
+-rw-r--r--   1 root root     346 Jul 27  2005 [00mmodprobe.conf[00m
+-rw-r--r--   1 root root     311 Jul 27  2005 [00mmodprobe.conf~[00m
+-rw-r--r--   1 root root    5717 Apr 25  2005 [00mmodprobe.conf.dist[00m
+-rw-r--r--   1 root root       0 Jan 12  2000 [00mmotd[00m
+-rw-r--r--   1 root root     409 Apr 26 16:12 [00mmtab[00m
+-rw-r--r--   1 root root    1983 Mar 21  2005 [00mmtools.conf[00m
+-rw-r--r--   1 root root   92812 Mar  7  2005 [00mMuttrc[00m
+-rw-r--r--   1 root root       0 Mar  7  2005 [00mMuttrc.local[00m
+-rw-r--r--   1 root root    1323 Aug 25  2004 [00mnamed.conf[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mnetplug[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mnetplug.d[00m
+-rw-r--r--   1 root root    1670 May 30  2005 [00mnscd.conf[00m
+-rw-r--r--   1 root root    1686 Jul 27  2005 [00mnsswitch.conf[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mntp[00m
+-rw-r--r--   1 root root    2434 Apr 14  2005 [00mntp.conf[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mopenldap[00m
+drwxr-xr-x   2 root root    4096 May 23  2005 [00;34mopt[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mpam.d[00m
+-rw-r--r--   1 root root      10 Jul 27  2005 [00mpam_smb.conf[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mpango[00m
+-rw-r--r--   1 root root    1553 Jul 27  2005 [00mpasswd[00m
+-rw-------   1 root root    1553 Jul 27  2005 [00mpasswd-[00m
+-rw-r--r--   1 root root    1529 Jul 27  2005 [00mpasswd.OLD[00m
+-rw-r--r--   1 root root    1362 Mar 16  2005 [00mpbm2ppa.conf[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mpcmcia[00m
+-rw-r--r--   1 root root    2888 Apr 22  2005 [00mpinforc[00m
+drwxr-xr-x   5 root root    4096 Jul 27  2005 [00;34mpki[00m
+-rw-r--r--   1 root root    6300 Mar 16  2005 [00mpnm2ppa.conf[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mppp[00m
+-rw-r--r--   1 root root  435603 Apr 20 17:29 [00mprelink.cache[00m
+-rw-r--r--   1 root root     821 Oct  1  2004 [00mprelink.conf[00m
+-rw-r--r--   1 root root     207 Apr 26 16:12 [00mprintcap[00m
+-rw-r--r--   1 root root     840 Apr 15  2005 [00mprofile[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mprofile.d[00m
+-rw-r--r--   1 root root    5834 Jul  7  2001 [00mprotocols[00m
+-rw-r--r--   1 root root     134 May  2  2005 [00mpwdb.conf[00m
+-rw-------   1 root root       0 Jul 27  2005 [00m.pwd.lock[00m
+-rw-r--r--   1 root root     220 Apr 11  2005 [00mquotagrpadmins[00m
+-rw-r--r--   1 root root     257 Apr 11  2005 [00mquotatab[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mracoon[00m
+lrwxrwxrwx   1 root root       7 Jul 27  2005 [00;36mrc[00m -> [00;32mrc.d/rc[00m
+lrwxrwxrwx   1 root root      10 Jul 27  2005 [00;36mrc0.d[00m -> [00;34mrc.d/rc0.d[00m
+lrwxrwxrwx   1 root root      10 Jul 27  2005 [00;36mrc1.d[00m -> [00;34mrc.d/rc1.d[00m
+lrwxrwxrwx   1 root root      10 Jul 27  2005 [00;36mrc2.d[00m -> [00;34mrc.d/rc2.d[00m
+lrwxrwxrwx   1 root root      10 Jul 27  2005 [00;36mrc3.d[00m -> [00;34mrc.d/rc3.d[00m
+lrwxrwxrwx   1 root root      10 Jul 27  2005 [00;36mrc4.d[00m -> [00;34mrc.d/rc4.d[00m
+lrwxrwxrwx   1 root root      10 Jul 27  2005 [00;36mrc5.d[00m -> [00;34mrc.d/rc5.d[00m
+lrwxrwxrwx   1 root root      10 Jul 27  2005 [00;36mrc6.d[00m -> [00;34mrc.d/rc6.d[00m
+drwxr-xr-x  10 root root    4096 Jul 27  2005 [00;34mrc.d[00m
+lrwxrwxrwx   1 root root      13 Jul 27  2005 [00;36mrc.local[00m -> [00;32mrc.d/rc.local[00m
+lrwxrwxrwx   1 root root      15 Jul 27  2005 [00;36mrc.sysinit[00m -> [00;32mrc.d/rc.sysinit[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mredhat-lsb[00m
+lrwxrwxrwx   1 root root      14 Jul 27  2005 [00;36mredhat-release[00m -> [00mfedora-release[00m
+-rw-r--r--   1 root root     104 Apr 26 16:12 [00mresolv.conf[00m
+-rw-r--r--   1 root root       1 Apr 25 08:57 [00mresolv.conf.predhclient[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mrhgb[00m
+lrwxrwxrwx   1 root root      11 Jul 27  2005 [00;36mrmt[00m -> [00;32m../sbin/rmt[00m
+-rw-r-----   1 root named   1117 May 17  2005 [00mrndc.conf[00m
+-rw-r-----   1 root named    132 Jul 27  2005 [00mrndc.key[00m
+-rw-r--r--   1 root root    1615 May 30  2005 [00mrpc[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mrpm[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34msamba[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34msane.d[00m
+-rw-r--r--   1 root root    7298 May 27  2005 [00mscreenrc[00m
+-rw-r--r--   1 root root     103 Mar 17  2005 [00mscrollkeeper.conf[00m
+-rw-r--r--   1 root root    1444 May 20  2005 [00mscsi_id.config[00m
+-rw-------   1 root root     122 Feb 17  2003 [00msecuretty[00m
+drwxr-xr-x   4 root root    4096 Jul 27  2005 [00;34msecurity[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mselinux[00m
+-rw-r--r--   1 root root   65682 Mar  2  2005 [00msensors.conf[00m
+-rw-r--r--   1 root root   20385 Nov  5  2004 [00mservices[00m
+-rw-r--r--   1 root root     216 May 19  2005 [00msestatus.conf[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34msetuptool.d[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34msgml[00m
+-r--------   1 root root     997 Dec 11 10:41 [00mshadow[00m
+-rw-------   1 root root     965 Jul 27  2005 [00mshadow-[00m
+-rw-r--r--   1 root root      69 Jul 27  2005 [00mshells[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mskel[00m
+-rw-r--r--   1 root root   21851 Mar  7  2005 [00mslrn.rc[00m
+drwxr-xr-x   2 root root    4096 May  6  2005 [00;34msmrsh[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34msnmp[00m
+drwxr-xr-x   3 root root    4096 May 27  2005 [00;34msound[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mssh[00m
+drwxr-xr-x   2 root root    4096 Apr 26  2005 [00;34mstunnel[00m
+-r--r-----   1 root root     608 Apr 12  2005 [00msudoers[00m
+drwxr-xr-x   8 root root    4096 Jul 27  2005 [00;34msysconfig[00m
+-rw-r--r--   1 root root     670 May 25  2005 [00msysctl.conf[00m
+-rw-r--r--   1 root root     694 May 19  2005 [00msyslog.conf[00m
+-rw-r--r--   1 root root  799248 Mar 16  2005 [00mtermcap[00m
+drwxr-xr-x   6 root root    4096 Jul 27  2005 [00;34mudev[00m
+-rw-r--r--   1 root root     257 Apr 16  2005 [00mupdatedb.conf[00m
+-rw-r--r--   1 root root    1438 Apr 27  2005 [00mvimrc[00m
+-rw-r--r--   1 root root    2657 Apr 11  2005 [00mwarnquota.conf[00m
+-rw-r--r--   1 root root    4002 Mar  2  2005 [00mwgetrc[00m
+-rw-r--r--   1 root root       0 Mar  3  2005 [00mwvdial.conf[00m
+drwxr-xr-x  15 root root    4096 Jul 27  2005 [00;34mX11[00m
+drwxr-xr-x   3 root root    4096 Jul 27  2005 [00;34mxdg[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mxinetd.d[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34mxml[00m
+-rw-r--r--   1 root root     585 Jul 27  2005 [00myp.conf[00m
+drwxr-xr-x   2 root root    4096 Jul 27  2005 [00;34myum[00m
+-rw-r--r--   1 root root     253 May 25  2005 [00myum.conf[00m
+drwxr-xr-x   2 root root    4096 May 25  2005 [00;34myum.repos.d[00m
+-rw-r--r--   1 root root     252 Jan 16  2005 [00mzlogin[00m
+-rw-r--r--   1 root root      86 Jan 16  2005 [00mzlogout[00m
+-rw-r--r--   1 root root     168 Jan 16  2005 [00mzprofile[00m
+-rw-r--r--   1 root root     304 Jan 16  2005 [00mzshenv[00m
+-rw-r--r--   1 root root     640 Jan 16  2005 [00mzshrc[00m
+[m]0;Student@localhost:/etc[Student@localhost etc]$ ls -lacp bashrc ../backups[1Pbackups[1Pbackups[1Pbackups
+cp: cannot create regular file `backups': Permission denied
+]0;Student@localhost:/etc[Student@localhost etc]$ cp bashrc backups/
+cp: cannot create regular file `backups/bashrc': No such file or directory
+]0;Student@localhost:/etc[Student@localhost etc]$ cp bashrc backups/.backups/.backups//backups/
+cp: cannot create regular file `../backups/bashrc': No such file or directory
+]0;Student@localhost:/etc[Student@localhost etc]$ cp bashrc ../backups/[1Pbackups/[1Pbackups/[1Pbackups/[Kld[Ks
+[00m[00ma2ps.cfg[00m              [00;34mhotplug.d[00m             [00mprelink.conf[00m
+[00ma2ps-site.cfg[00m         [00;34mhowl[00m                  [00mprintcap[00m
+[00;34macpi[00m                  [00;34mhtdig[00m                 [00mprofile[00m
+[00madjtime[00m               [00midmapd.conf[00m           [00;34mprofile.d[00m
+[00;34malchemist[00m             [00mim_palette.pal[00m        [00mprotocols[00m
+[00maliases[00m               [00mim_palette-small.pal[00m  [00mpwdb.conf[00m
+[00maliases.db[00m            [00mim_palette-tiny.pal[00m   [00mquotagrpadmins[00m
+[00;34malsa[00m                  [00mimrc[00m                  [00mquotatab[00m
+[00;34malternatives[00m          [00;36minit.d[00m                [00;34mracoon[00m
+[00manacrontab[00m            [00minitlog.conf[00m          [00;36mrc[00m
+[00mant.conf[00m              [00minittab[00m               [00;36mrc0.d[00m
+[00;34mant.d[00m                 [00minputrc[00m               [00;36mrc1.d[00m
+[00masound.conf[00m           [00;34miproute2[00m              [00;36mrc2.d[00m
+[00masound.state[00m          [00;34misdn[00m                  [00;36mrc3.d[00m
+[00mat.deny[00m               [00missue[00m                 [00;36mrc4.d[00m
+[00mauditd.conf[00m           [00missue.net[00m             [00;36mrc5.d[00m
+[00maudit.rules[00m           [00;34mjava[00m                  [00;36mrc6.d[00m
+[00mauto.master[00m           [00mjwhois.conf[00m           [00;34mrc.d[00m
+[00mauto.misc[00m             [00;34mkde[00m                   [00;36mrc.local[00m
+[00;32mauto.net[00m              [00mkderc[00m                 [00;36mrc.sysinit[00m
+[00;32mauto.smb[00m              [00;34mkermit[00m                [00;34mredhat-lsb[00m
+[00mbashrc[00m                [00mkrb5.conf[00m             [00;36mredhat-release[00m
+[00mblkid.tab[00m             [00mkrb.conf[00m              [00mresolv.conf[00m
+[00mblkid.tab.old[00m         [00mkrb.realms[00m            [00mresolv.conf.predhclient[00m
+[00;34mbluetooth[00m             [00mksysguarddrc[00m          [00;34mrhgb[00m
+[00;34mbonobo-activation[00m     [00mldap.conf[00m             [00;36mrmt[00m
+[00mcdrecord.conf[00m         [00mld.so.cache[00m           [00mrndc.conf[00m
+[00mcpuspeed.conf[00m         [00mld.so.conf[00m            [00mrndc.key[00m
+[00;34mcron.d[00m                [00;34mld.so.conf.d[00m          [00mrpc[00m
+[00;34mcron.daily[00m            [00mlftp.conf[00m             [00;34mrpm[00m
+[00mcron.deny[00m             [00mlibuser.conf[00m          [00;34msamba[00m
+[00;34mcron.hourly[00m           [00mlisarc[00m                [00;34msane.d[00m
+[00;34mcron.monthly[00m          [00mlocaltime[00m             [00mscreenrc[00m
+[00mcrontab[00m               [00;34mlog.d[00m                 [00mscrollkeeper.conf[00m
+[00;34mcron.weekly[00m           [00mlogin.defs[00m            [00mscsi_id.config[00m
+[00mcsh.cshrc[00m             [00mlogrotate.conf[00m        [00msecuretty[00m
+[00mcsh.login[00m             [00;34mlogrotate.d[00m           [00;34msecurity[00m
+[00;34mcups[00m                  [00mlsb-release[00m           [00;34mselinux[00m
+[00;34mdbus-1[00m                [00mltrace.conf[00m           [00msensors.conf[00m
+[00;34mdefault[00m               [00;34mlvm[00m                   [00mservices[00m
+[00;34mdev.d[00m                 [00;34mmail[00m                  [00msestatus.conf[00m
+[00mDIR_COLORS[00m            [00mmailcap[00m               [00;34msetuptool.d[00m
+[00mDIR_COLORS.xterm[00m      [00mmail.rc[00m               [00;34msgml[00m
+[00mdumpdates[00m             [00;34mmakedev.d[00m             [00mshadow[00m
+[00menscript.cfg[00m          [00mman.config[00m            [00mshadow-[00m
+[00menvironment[00m           [00;34mmgetty+sendfax[00m        [00mshells[00m
+[00mesd.conf[00m              [00mmime.types[00m            [00;34mskel[00m
+[00mexports[00m               [00mminicom.users[00m         [00mslrn.rc[00m
+[00mfb.modes[00m              [00mmodprobe.conf[00m         [00;34msmrsh[00m
+[00mfdprm[00m                 [00mmodprobe.conf~[00m        [00;34msnmp[00m
+[00mfedora-release[00m        [00mmodprobe.conf.dist[00m    [00;34msound[00m
+[00mfilesystems[00m           [00mmotd[00m                  [00;34mssh[00m
+[00;34mfonts[00m                 [00mmtab[00m                  [00;34mstunnel[00m
+[00;34mfoomatic[00m              [00mmtools.conf[00m           [00msudoers[00m
+[00mfstab[00m                 [00mMuttrc[00m                [00;34msysconfig[00m
+[00;34mgaim[00m                  [00mMuttrc.local[00m          [00msysctl.conf[00m
+[00;34mgconf[00m                 [00mnamed.conf[00m            [00msyslog.conf[00m
+[00;34mghostscript[00m           [00;34mnetplug[00m               [00mtermcap[00m
+[00;34mgimp[00m                  [00;34mnetplug.d[00m             [00;34mudev[00m
+[00;34mgnome-vfs-2.0[00m         [00mnscd.conf[00m             [00mupdatedb.conf[00m
+[00mgnome-vfs-mime-magic[00m  [00mnsswitch.conf[00m         [00mvimrc[00m
+[00;34mgnopernicus-1.0[00m       [00;34mntp[00m                   [00mwarnquota.conf[00m
+[00mgpm-root.conf[00m         [00mntp.conf[00m              [00mwgetrc[00m
+[00;34mgre.d[00m                 [00;34mopenldap[00m              [00mwvdial.conf[00m
+[00mgroup[00m                 [00;34mopt[00m                   [00;34mX11[00m
+[00mgroup-[00m                [00;34mpam.d[00m                 [00;34mxdg[00m
+[00;36mgrub.conf[00m             [00mpam_smb.conf[00m          [00;34mxinetd.d[00m
+[00mgshadow[00m               [00;34mpango[00m                 [00;34mxml[00m
+[00mgshadow-[00m              [00mpasswd[00m                [00myp.conf[00m
+[00mgssapi_mech.conf[00m      [00mpasswd-[00m               [00;34myum[00m
+[00;34mgtk[00m                   [00mpasswd.OLD[00m            [00myum.conf[00m
+[00;34mgtk-2.0[00m               [00mpbm2ppa.conf[00m          [00;34myum.repos.d[00m
+[00;34mhal[00m                   [00;34mpcmcia[00m                [00mzlogin[00m
+[00mhost.conf[00m             [00mpinforc[00m               [00mzlogout[00m
+[00mhosts[00m                 [00;34mpki[00m                   [00mzprofile[00m
+[00mhosts.allow[00m           [00mpnm2ppa.conf[00m          [00mzshenv[00m
+[00mhosts.deny[00m            [00;34mppp[00m                   [00mzshrc[00m
+[00;34mhotplug[00m               [00mprelink.cache[00m
+[m]0;Student@localhost:/etc[Student@localhost etc]$ ls ../backups
+[00mls: ../backups: No such file or directory
+[m]0;Student@localhost:/etc[Student@localhost etc]$ ls ../
+[00m[00;34mbin[00m   [00;34mdev[00m  [00;34mhome[00m  [00;34mlost+found[00m  [00;34mmisc[00m  [00;34mnet[00m  [00;34mproc[00m  [00;34msbin[00m     [00;34msrv[00m  [00;34mtmp[00m  [00;34mvar[00m
+[00;34mboot[00m  [00;34metc[00m  [00;34mlib[00m   [00;34mmedia[00m       [00;34mmnt[00m   [00;34mopt[00m  [00;34mroot[00m  [00;34mselinux[00m  [00;34msys[00m  [00;34musr[00m
+[m]0;Student@localhost:/etc[Student@localhost etc]$ ls
+[00m[00ma2ps.cfg[00m              [00;34mhotplug.d[00m             [00mprelink.conf[00m
+[00ma2ps-site.cfg[00m         [00;34mhowl[00m                  [00mprintcap[00m
+[00;34macpi[00m                  [00;34mhtdig[00m                 [00mprofile[00m
+[00madjtime[00m               [00midmapd.conf[00m           [00;34mprofile.d[00m
+[00;34malchemist[00m             [00mim_palette.pal[00m        [00mprotocols[00m
+[00maliases[00m               [00mim_palette-small.pal[00m  [00mpwdb.conf[00m
+[00maliases.db[00m            [00mim_palette-tiny.pal[00m   [00mquotagrpadmins[00m
+[00;34malsa[00m                  [00mimrc[00m                  [00mquotatab[00m
+[00;34malternatives[00m          [00;36minit.d[00m                [00;34mracoon[00m
+[00manacrontab[00m            [00minitlog.conf[00m          [00;36mrc[00m
+[00mant.conf[00m              [00minittab[00m               [00;36mrc0.d[00m
+[00;34mant.d[00m                 [00minputrc[00m               [00;36mrc1.d[00m
+[00masound.conf[00m           [00;34miproute2[00m              [00;36mrc2.d[00m
+[00masound.state[00m          [00;34misdn[00m                  [00;36mrc3.d[00m
+[00mat.deny[00m               [00missue[00m                 [00;36mrc4.d[00m
+[00mauditd.conf[00m           [00missue.net[00m             [00;36mrc5.d[00m
+[00maudit.rules[00m           [00;34mjava[00m                  [00;36mrc6.d[00m
+[00mauto.master[00m           [00mjwhois.conf[00m           [00;34mrc.d[00m
+[00mauto.misc[00m             [00;34mkde[00m                   [00;36mrc.local[00m
+[00;32mauto.net[00m              [00mkderc[00m                 [00;36mrc.sysinit[00m
+[00;32mauto.smb[00m              [00;34mkermit[00m                [00;34mredhat-lsb[00m
+[00mbashrc[00m                [00mkrb5.conf[00m             [00;36mredhat-release[00m
+[00mblkid.tab[00m             [00mkrb.conf[00m              [00mresolv.conf[00m
+[00mblkid.tab.old[00m         [00mkrb.realms[00m            [00mresolv.conf.predhclient[00m
+[00;34mbluetooth[00m             [00mksysguarddrc[00m          [00;34mrhgb[00m
+[00;34mbonobo-activation[00m     [00mldap.conf[00m             [00;36mrmt[00m
+[00mcdrecord.conf[00m         [00mld.so.cache[00m           [00mrndc.conf[00m
+[00mcpuspeed.conf[00m         [00mld.so.conf[00m            [00mrndc.key[00m
+[00;34mcron.d[00m                [00;34mld.so.conf.d[00m          [00mrpc[00m
+[00;34mcron.daily[00m            [00mlftp.conf[00m             [00;34mrpm[00m
+[00mcron.deny[00m             [00mlibuser.conf[00m          [00;34msamba[00m
+[00;34mcron.hourly[00m           [00mlisarc[00m                [00;34msane.d[00m
+[00;34mcron.monthly[00m          [00mlocaltime[00m             [00mscreenrc[00m
+[00mcrontab[00m               [00;34mlog.d[00m                 [00mscrollkeeper.conf[00m
+[00;34mcron.weekly[00m           [00mlogin.defs[00m            [00mscsi_id.config[00m
+[00mcsh.cshrc[00m             [00mlogrotate.conf[00m        [00msecuretty[00m
+[00mcsh.login[00m             [00;34mlogrotate.d[00m           [00;34msecurity[00m
+[00;34mcups[00m                  [00mlsb-release[00m           [00;34mselinux[00m
+[00;34mdbus-1[00m                [00mltrace.conf[00m           [00msensors.conf[00m
+[00;34mdefault[00m               [00;34mlvm[00m                   [00mservices[00m
+[00;34mdev.d[00m                 [00;34mmail[00m                  [00msestatus.conf[00m
+[00mDIR_COLORS[00m            [00mmailcap[00m               [00;34msetuptool.d[00m
+[00mDIR_COLORS.xterm[00m      [00mmail.rc[00m               [00;34msgml[00m
+[00mdumpdates[00m             [00;34mmakedev.d[00m             [00mshadow[00m
+[00menscript.cfg[00m          [00mman.config[00m            [00mshadow-[00m
+[00menvironment[00m           [00;34mmgetty+sendfax[00m        [00mshells[00m
+[00mesd.conf[00m              [00mmime.types[00m            [00;34mskel[00m
+[00mexports[00m               [00mminicom.users[00m         [00mslrn.rc[00m
+[00mfb.modes[00m              [00mmodprobe.conf[00m         [00;34msmrsh[00m
+[00mfdprm[00m                 [00mmodprobe.conf~[00m        [00;34msnmp[00m
+[00mfedora-release[00m        [00mmodprobe.conf.dist[00m    [00;34msound[00m
+[00mfilesystems[00m           [00mmotd[00m                  [00;34mssh[00m
+[00;34mfonts[00m                 [00mmtab[00m                  [00;34mstunnel[00m
+[00;34mfoomatic[00m              [00mmtools.conf[00m           [00msudoers[00m
+[00mfstab[00m                 [00mMuttrc[00m                [00;34msysconfig[00m
+[00;34mgaim[00m                  [00mMuttrc.local[00m          [00msysctl.conf[00m
+[00;34mgconf[00m                 [00mnamed.conf[00m            [00msyslog.conf[00m
+[00;34mghostscript[00m           [00;34mnetplug[00m               [00mtermcap[00m
+[00;34mgimp[00m                  [00;34mnetplug.d[00m             [00;34mudev[00m
+[00;34mgnome-vfs-2.0[00m         [00mnscd.conf[00m             [00mupdatedb.conf[00m
+[00mgnome-vfs-mime-magic[00m  [00mnsswitch.conf[00m         [00mvimrc[00m
+[00;34mgnopernicus-1.0[00m       [00;34mntp[00m                   [00mwarnquota.conf[00m
+[00mgpm-root.conf[00m         [00mntp.conf[00m              [00mwgetrc[00m
+[00;34mgre.d[00m                 [00;34mopenldap[00m              [00mwvdial.conf[00m
+[00mgroup[00m                 [00;34mopt[00m                   [00;34mX11[00m
+[00mgroup-[00m                [00;34mpam.d[00m                 [00;34mxdg[00m
+[00;36mgrub.conf[00m             [00mpam_smb.conf[00m          [00;34mxinetd.d[00m
+[00mgshadow[00m               [00;34mpango[00m                 [00;34mxml[00m
+[00mgshadow-[00m              [00mpasswd[00m                [00myp.conf[00m
+[00mgssapi_mech.conf[00m      [00mpasswd-[00m               [00;34myum[00m
+[00;34mgtk[00m                   [00mpasswd.OLD[00m            [00myum.conf[00m
+[00;34mgtk-2.0[00m               [00mpbm2ppa.conf[00m          [00;34myum.repos.d[00m
+[00;34mhal[00m                   [00;34mpcmcia[00m                [00mzlogin[00m
+[00mhost.conf[00m             [00mpinforc[00m               [00mzlogout[00m
+[00mhosts[00m                 [00;34mpki[00m                   [00mzprofile[00m
+[00mhosts.allow[00m           [00mpnm2ppa.conf[00m          [00mzshenv[00m
+[00mhosts.deny[00m            [00;34mppp[00m                   [00mzshrc[00m
+[00;34mhotplug[00m               [00mprelink.cache[00m
+[m]0;Student@localhost:/etc[Student@localhost etc]$ ls ../backups[Kcp bashrc backups/.backups/.backups//backups/hbackups/obackups/mbackups/ebackups//backups/[Student@localhost etc]$ cp bashrc ../home/b[Student@localhost etc]$ cp bashrc ../home/ba[Student@localhost etc]$ cp bashrc ../home/bac[Student@localhost etc]$ cp bashrc ../home/back[Student@localhost etc]$ cp bashrc ../home/backu[Student@localhost etc]$ cp bashrc ../home/backup[Student@localhost etc]$ cp bashrc ../home/backups[Student@localhost etc]$ cp bashrc ../home/backups/
+cp: cannot create regular file `../home/backups/bashrc': No such file or directory
+]0;Student@localhost:/etc[Student@localhost etc]$ ls ..
+[00m[00;34mbin[00m   [00;34mdev[00m  [00;34mhome[00m  [00;34mlost+found[00m  [00;34mmisc[00m  [00;34mnet[00m  [00;34mproc[00m  [00;34msbin[00m     [00;34msrv[00m  [00;34mtmp[00m  [00;34mvar[00m
+[00;34mboot[00m  [00;34metc[00m  [00;34mlib[00m   [00;34mmedia[00m       [00;34mmnt[00m   [00;34mopt[00m  [00;34mroot[00m  [00;34mselinux[00m  [00;34msys[00m  [00;34musr[00m
+[m]0;Student@localhost:/etc[Student@localhost etc]$ ls ../home
+[00m[00;34mStudent[00m
+[m]0;Student@localhost:/etc[Student@localhost etc]$ ls ../home[Kcp bashrc ../home/backups/Sbackups/tbackups/ubackups/dbackups/ebackups/nbackups/tbackups//backups/
+]0;Student@localhost:/etc[Student@localhost etc]$ cd ..
+]0;Student@localhost:/[Student@localhost /]$ ls
+[00m[00;34mbin[00m   [00;34mdev[00m  [00;34mhome[00m  [00;34mlost+found[00m  [00;34mmisc[00m  [00;34mnet[00m  [00;34mproc[00m  [00;34msbin[00m     [00;34msrv[00m  [00;34mtmp[00m  [00;34mvar[00m
+[00;34mboot[00m  [00;34metc[00m  [00;34mlib[00m   [00;34mmedia[00m       [00;34mmnt[00m   [00;34mopt[00m  [00;34mroot[00m  [00;34mselinux[00m  [00;34msys[00m  [00;34musr[00m
+[m]0;Student@localhost:/[Student@localhost /]$ cd home
+]0;Student@localhost:/home[Student@localhost home]$ cd
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m  [00mfile3[00m             [00mgrady.L3.IV.txt[00m  [00mgrady.L5.V.txt[00m
+[00;34mbackups[00m      [00mfile3.bak[00m         [00mgrady.L4.II.txt[00m  [00mgrady.lab2.session.txt[00m
+[00;34mbusLetters[00m   [00mfile4[00m             [00mgrady.L4.I.txt[00m   [00mgtsbrgII.txt[00m
+[00;34mchapter_4[00m    [00mfile5[00m             [00mgrady.L5.II.txt[00m  [00mgtsybrgII.txt[00m
+[00;34mDesktop[00m      [00mgrady.L3.IIItxt[00m   [00mgrady.L5.I.txt[00m   [00mgtysbrg.txt[00m
+[00mfile1[00m        [00mgrady.L3.III.txt[00m  [00mgrady.L5.IV.txt[00m  [00;34mletters[00m
+[00mfile2[00m        [00mgrady.L3.II.txt[00m   [00mgrady.L5.VI.txt[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cd backups
+]0;Student@localhost:~/backups[Student@localhost backups]$ ls
+[00m[00;32mbashrc[00m  [00mhw4[00m  [00mhw4.bk.[00m  [00mhw4HL[00m  [00mhw4SL[00m
+[m]0;Student@localhost:~/backups[Student@localhost backups]$ cd bashrc
+bash: cd: bashrc: Not a directory
+]0;Student@localhost:~/backups[Student@localhost backups]$ ls -R
+[00m.:
+[00;32mbashrc[00m  [00mhw4[00m  [00mhw4.bk.[00m  [00mhw4HL[00m  [00mhw4SL[00m
+[m]0;Student@localhost:~/backups[Student@localhost backups]$ vi bashrc
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"bashrc" 48L, 1171C[1;1H[34m# /etc/bashrc
+
+# System wide functions and aliases
+# Environment stuff goes in /etc/profile
+
+# by default, we want this to get set.
+# Even for non-interactive, non-login shells.[m
+[33mif[m [33m[[m [35m$UID[m [33m-gt[m [31m99[m [33m][m [33m&&[m [33m[[m [33m"[m[35m`id -gn`[m[33m"[m [33m=[m [33m"[m[35m`id -un`[m[33m"[m [33m];[m [33mthen
+[m    [33mumask[m [31m002[m
+[33melse
+[m    [33mumask[m [31m022[m
+[33mfi[m
+
+[34m# are we an interactive shell?[m
+[33mif[m [33m[[m [33m"[m[35m$PS1[m[33m"[m [33m];[m [33mthen
+[m    [33mcase[m [35m$TERM[m [33min[m
+    xterm*[33m)[18;9Hif[m [33m[[m [33m-e[m /etc/sysconfig/bash-prompt-xterm [33m];[m [33mthen[m[19;13H[35mPROMPT_COMMAND[m[33m=[m/etc/sysconfig/bash-prompt-xterm[20;9H[33melse[m[21;13H[35mPROMPT_COMMAND[m[33m='[m[31mecho -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOMM[22;1HE/~}\007"[m[33m'[23;9Hfi[m[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5,0-1[5;1H[?12l[?25h[?25l[24;63H6,1  [6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;63H9,1-4[9;4H[?12l[?25h[?25l[24;63H10,1 [10;1H[?12l[?25h[?25l[24;64H1,1-4[11;4H[?12l[?25h[?25l[24;64H2,1  [12;1H[?12l[?25h[?25l[24;64H3,0-1[13;1H[?12l[?25h[?25l[24;64H4,1  [14;1H[?12l[?25h[?25l[24;64H5[15;1H[?12l[?25h[?25l[24;64H6[16;1H[?12l[?25h[?25l[24;64H7,1-4[17;4H[?12l[?25h[?25l[24;64H8[18;4H[?12l[?25h[?25l[24;64H9[19;4H[?12l[?25h[?25l[24;63H20[20;4H[?12l[?25h[?25l[24;64H1[21;4H[?12l[?25h[?25l[24;64H2[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33m;;[m[24;1H[K[24;63H23,1-4[9C3%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hscreen[33m)[m[24;63H[K[24;63H24,1-4[9C7%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33mif[m [33m[[m [33m-e[m /etc/sysconfig/bash-prompt-screen [33m];[m [33mthen[m[24;63H[K[24;63H25,1-4[8C11%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;13H[35mPROMPT_COMMAND[m[33m=[m/etc/sysconfig/bash-prompt-screen[24;63H[K[24;63H26,1-4[8C15%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33melse[m[24;63H[K[24;63H27,1-4[8C19%[23;4H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;9H[35mPROMPT_COMMAND[m[33m='[m[31mecho -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\00[23;1H33\\"[m[33m'[m[24;63H[K[24;63H28,1-4[8C25%[22;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33mfi[m[24;63H[K[24;63H29,1-4[8C29%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33m;;[m[24;63H[K[24;63H30,1-4[8C33%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H*[33m)[m[24;63H[K[24;63H31,1-4[8C37%[23;4H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;9H[33m[[m [33m-e[m /etc/sysconfig/bash-prompt-default [33m][m [33m&&[m [35mPROMPT_COMMAND[m[33m=[m/etc/sysconff[23;1Hig/bash-prompt-default[24;63H[K[24;63H32,1-4[8C42%[22;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33m;;[m[24;63H[K[24;63H33,1-4[8C46%[23;4H[?12l[?25h[?25l[24;64H2[21;4H[?12l[?25h[?25l[24;64H1[20;4H[?12l[?25h[?25l[24;64H0[19;4H[?12l[?25h[?25l[24;63H29[18;4H[?12l[?25h[?25l[24;64H8[16;4H[?12l[?25h[?25l[24;64H7[15;4H[?12l[?25h[?25l[24;64H6[14;4H[?12l[?25h[?25l[24;64H5[13;4H[?12l[?25h[?25l[24;64H4[12;4H[?12l[?25h[?25l[24;64H3[11;4H[?12l[?25h[?25l[24;64H2[10;4H[?12l[?25h[?25l[24;64H1[8;4H[?12l[?25h[?25l[24;64H0[7;4H[?12l[?25h[?25l[24;63H19[6;4H[?12l[?25h[?25l[24;64H8[5;4H[?12l[?25h[?25l[24;64H7[4;4H[?12l[?25h[?25l[24;64H6,1  [3;1H[?12l[?25h[?25l[24;64H5[2;1H[?12l[?25h[?25l[24;64H4[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H13,0-1[8C42%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mfi[m[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H12,1[10C39%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H[33mumask[m [31m022[m[24;63H[K[24;63H11,1-4[8C37%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33melse[m[24;63H[K[24;63H10,1[10C33%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H[33mumask[m [31m002[m[24;63H[K[24;63H9,1-4[9C29%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mif[m [33m[[m [35m$UID[m [33m-gt[m [31m99[m [33m][m [33m&&[m [33m[[m [33m"[m[35m`id -gn`[m[33m"[m [33m=[m [33m"[m[35m`id -un`[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H8,1[11C25%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# Even for non-interactive, non-login shells.[m[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H7,1[11C22%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# by default, we want this to get set.[m[24;63H[K[24;63H6,1[11C19%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H5,0-1[9C15%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# Environment stuff goes in /etc/profile[m[24;63H[K[24;63H4,1[11C11%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# System wide functions and aliases[m[24;63H[K[24;63H3,1[12C7%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H2,0-1[10C3%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# /etc/bashrc[m[24;63H[K[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5,0-1[5;1H[?12l[?25h[?25l[24;63H6,1  [6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;63H9,1-4[9;4H[?12l[?25h[?25l[24;63H10,1 [10;1H[?12l[?25h[?25l[24;64H1,1-4[11;4H[?12l[?25h[?25l[24;64H2,1  [12;1H[?12l[?25h[?25l[24;64H3,0-1[13;1H[?12l[?25h[?25l[24;64H4,1  [14;1H[?12l[?25h[?25l[24;64H5[15;1H[?12l[?25h[?25l[24;64H6[16;1H[?12l[?25h[?25l[24;64H7,1-4[17;4H[?12l[?25h[?25l[24;64H8[18;4H[?12l[?25h[?25l[24;64H9[19;4H[?12l[?25h[?25l[24;63H20[20;4H[?12l[?25h[?25l[24;64H1[21;4H[?12l[?25h[?25l[24;64H2[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33m;;[m[24;63H[K[24;63H23,1-4[9C3%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hscreen[33m)[m[24;63H[K[24;63H24,1-4[9C7%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33mif[m [33m[[m [33m-e[m /etc/sysconfig/bash-prompt-screen [33m];[m [33mthen[m[24;63H[K[24;63H25,1-4[8C11%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;13H[35mPROMPT_COMMAND[m[33m=[m/etc/sysconfig/bash-prompt-screen[24;63H[K[24;63H26,1-4[8C15%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33melse[m[24;63H[K[24;63H27,1-4[8C19%[23;4H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;9H[35mPROMPT_COMMAND[m[33m='[m[31mecho -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\00[23;1H33\\"[m[33m'[m[24;63H[K[24;63H28,1-4[8C25%[22;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33mfi[m[24;63H[K[24;63H29,1-4[8C29%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33m;;[m[24;63H[K[24;63H30,1-4[8C33%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H*[33m)[m[24;63H[K[24;63H31,1-4[8C37%[23;4H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;9H[33m[[m [33m-e[m /etc/sysconfig/bash-prompt-default [33m][m [33m&&[m [35mPROMPT_COMMAND[m[33m=[m/etc/sysconff[23;1Hig/bash-prompt-default[24;63H[K[24;63H32,1-4[8C42%[22;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33m;;[m[24;63H[K[24;63H33,1-4[8C46%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mesac[m[24;63H[K[24;63H34,1[10C50%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[34m# Turn on checkwinsize[m[24;63H[K[24;63H35,1[10C53%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mshopt[m [33m-s[m checkwinsize[24;63H[K[24;63H36,1[10C57%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33m[[m [33m"[m[35m$PS1[m[33m"[m [33m=[m [33m"[m[35m\\[m[31ms-[m[35m\\[m[31mv[m[35m\\\$[m[31m [m[33m"[m [33m][m [33m&&[m [35mPS1[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"[m[24;63H[K[24;63H37,1[10C60%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mfi[m[24;63H[K[24;63H38,1[10C64%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H39,0-1[8C67%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mif[m [33m![m [33mshopt[m [33m-q[m login_shell [33m;[m [33mthen[m [34m# We're not a login shell[m[24;63H[K[24;63H40,1[10C71%[23;1H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;9H[33mfor[m i [33min[m /etc/profile.d/*.sh[33m;[m [33mdo[23;9Hif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H41,1[10C77%[22;1H[?12l[?25h[?25l[24;64H2,1-4[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;12H[33m . [m[35m$i[m[24;63H[K[24;63H43,1-4[8C81%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33mfi[m[24;63H[K[24;63H44,1-4[8C85%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mdone[m[24;63H[K[24;63H45,1-4[8C88%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33munset [m[36mi[m[24;63H[K[24;63H46,1-4[8C92%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mfi[m[24;63H[K[24;63H47,1[10C96%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[34m# vim:ts=4:sw=4[m[24;63H[K[24;63H48,1[10CBot[23;1H[?12l[?25h[?25l[24;64H7[22;1H[?12l[?25h[?25l[24;64H6,1-4[21;4H[?12l[?25h[?25l[24;64H5[20;4H[?12l[?25h[?25l[24;64H4[19;4H[?12l[?25h[?25l[24;64H3[18;4H[?12l[?25h[?25l[24;64H2[17;4H[?12l[?25h[?25l[24;64H1,1  [16;1H[?12l[?25h[?25l[24;64H0[15;1H[?12l[?25h[?25l[24;63H39,0-1[14;1H[?12l[?25h[?25l[24;64H8,1  [13;1H[?12l[?25h[?25l[24;64H7[12;1H[?12l[?25h[?25l[24;64H6[11;1H[?12l[?25h[?25l[24;64H5[10;1H[?12l[?25h[?25l[24;64H4[9;1H[?12l[?25h[?25l[24;64H3,1-4[8;4H[?12l[?25h[?25l[24;64H2[6;4H[?12l[?25h[?25l[24;64H1[5;4H[?12l[?25h[?25l[24;64H0[4;4H[?12l[?25h[?25l[24;63H29[3;4H[?12l[?25h[?25l[24;64H8[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33melse[m[24;63H[K[24;63H27,1-4[8C96%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;13H[35mPROMPT_COMMAND[m[33m=[m/etc/sysconfig/bash-prompt-screen[24;63H[K[24;63H26,1-4[8C92%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mif[m [33m[[m [33m-e[m /etc/sysconfig/bash-prompt-screen [33m];[m [33mthen[m[24;63H[K[24;63H25,1-4[8C88%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hscreen[33m)[m[24;63H[K[24;63H24,1-4[8C85%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33m;;[m[24;63H[K[24;63H23,1-4[8C81%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mfi[m[24;63H[K[24;63H22,1-4[8C77%[1;4H[?12l[?25h[?25l[1;23r[1;1H[2L[1;24r[1;13H[35mPROMPT_COMMAND[m[33m='[m[31mecho -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOMM[2;1HE/~}\007"[m[33m'[m[24;63H[K[24;63H21,1-4[8C71%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33melse[m[24;63H[K[24;63H20,1-4[8C67%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;13H[35mPROMPT_COMMAND[m[33m=[m/etc/sysconfig/bash-prompt-xterm[24;63H[K[24;63H19,1-4[8C64%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mif[m [33m[[m [33m-e[m /etc/sysconfig/bash-prompt-xterm [33m];[m [33mthen[m[24;63H[K[24;63H18,1-4[8C60%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hxterm*[33m)[m[24;63H[K[24;63H17,1-4[8C57%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H[33mcase[m [35m$TERM[m [33min[m[24;63H[K[24;63H16,1[10C53%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mif[m [33m[[m [33m"[m[35m$PS1[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H15,1[10C50%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# are we an interactive shell?[m[24;63H[K[24;63H14,1[10C46%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H13,0-1[8C42%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mfi[m[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H12,1[10C39%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H[33mumask[m [31m022[m[24;63H[K[24;63H11,1-4[8C37%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33melse[m[24;63H[K[24;63H10,1[10C33%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H[33mumask[m [31m002[m[24;63H[K[24;63H9,1-4[9C29%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mif[m [33m[[m [35m$UID[m [33m-gt[m [31m99[m [33m][m [33m&&[m [33m[[m [33m"[m[35m`id -gn`[m[33m"[m [33m=[m [33m"[m[35m`id -un`[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H8,1[11C25%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# Even for non-interactive, non-login shells.[m[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H7,1[11C22%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# by default, we want this to get set.[m[24;63H[K[24;63H6,1[11C19%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H5,0-1[9C15%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# Environment stuff goes in /etc/profile[m[24;63H[K[24;63H4,1[11C11%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# System wide functions and aliases[m[24;63H[K[24;63H3,1[12C7%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H2,0-1[10C3%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# /etc/bashrc[m[24;63H[K[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,2  [3;2H[?12l[?25h[?25l[24;63H4[4;2H[?12l[?25h[?25l[24;63H5,0-1[5;1H[?12l[?25h[?25l[24;63H6,2  [6;2H[?12l[?25h[?25l[24;63H7[7;2H[?12l[?25h[?25l[24;63H8[8;2H[?12l[?25h[?25l[24;63H9,1-4[9;4H[?12l[?25h[?25l[24;63H10,2 [10;2H[?12l[?25h[?25l[24;64H1,1-4[11;4H[?12l[?25h[?25l[24;64H2,2  [12;2H[?12l[?25h[?25l[24;64H3,0-1[13;1H[?12l[?25h[?25l[24;64H4,2  [14;2H[?12l[?25h[?25l[24;66H3[14;3H[?12l[?25h[?25l[24;66H4[14;4H[?12l[?25h[?25l[24;64H5[15;4H[?12l[?25h[?25l[24;66H5[15;5H[?12l[?25h[?25l[24;66H6[15;6H[?12l[?25h[?25l[24;66H7[15;7H[?12l[?25h[?25l[24;66H8[15;8H[?12l[?25h[?25l[24;66H9[15;9H[?12l[?25h[?25l[24;66H10[15;10H[?12l[?25h[?25l[24;67H1[15;11H[?12l[?25h[?25l[24;67H0[15;10H[?12l[?25h[?25l[24;67H2[15;12H[?12l[?25h[?25l[24;67H1[15;11H[?12l[?25h[?25l[24;67H0[15;10H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H15,10[9CTop[15;10H[?12l[?25h[?25l[24;67H1[15;11H[?12l[?25h[?25l[33m"[m [33m];[m [33mthen[m[15;19H[K[24;67H0[15;10H[?12l[?25h[?25l[35m2[m[33m"[m [33m];[m [33mthen[m[24;67H1[15;11H[?12l[?25h[?25l[31m:[m[33m"[m [33m];[m [33mthen[m[24;67H2[15;12H[?12l[?25h`[33m"[m[24;1H[K[?25l[24;63H15,11[9CTop[15;11H[?12l[?25h[?25l[24;1H[1m[37m[41mE78: Unknown mark[m[24;63H[K[24;63H15,11[9CTop[15;11H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H15,11[9CTop[15;11H[?12l[?25h[?25l[24;67H2[15;12H[?12l[?25h[?25l[33m"[m [33m];[m [33mthen[m[15;20H[K[24;67H1[15;11H[?12l[?25h[24;1H[K[15;10H[?25l[24;63H15,10[9CTop[15;10H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25hw[?25l[?12l[?25h[?25l[1m[37m[41mE492: Not an editor command: qw[m[31C15,10[9CTop[15;10H[?12l[?25h[?25l[24;67H1[15;11H[?12l[?25h[?25l[24;67H0[15;10H[?12l[?25h[?25l[24;66H9 [15;9H[?12l[?25h[?25l[24;66H10[15;10H[?12l[?25h[?25l[24;67H1[15;11H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H15,11[9CTop[15;11H[?12l[?25h[?25l[33m"[m [33m];[m [33mthen[m[15;19H[K[24;67H0[15;10H[?12l[?25h[?25l[35m1[m[33m"[m [33m];[m [33mthen[m[24;67H1[15;11H[?12l[?25h[?25l[31m:[m[33m"[m [33m];[m [33mthen[m[24;67H2[15;12H[?12l[?25h[?25l[31mq[m[33m"[m [33m];[m [33mthen[m[24;67H3[15;13H[?12l[?25h[?25l[31mw[m[33m"[m [33m];[m [33mthen[m[24;67H4[15;14H[?12l[?25h[?25l[16;23r[16;1H[L[1;24r[15;14H[K[16;1H[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H16,1[10CTop[16;1H[?12l[?25h[?25l[15;23r[23;1H
+[1;24r[15;1H[33mif[m [33m[[m [33m"[m[35m$PS1[m[31m:qw[m[33m"[m [33m];[m [33mthen[23;9Hfi[m[24;63H[K[24;63H15,14[9CTop[15;14H[?12l[?25h[?25l[33m"[m [33m];[m [33mthen[m[15;22H[K[24;67H3[15;13H[?12l[?25h[?25l[33m"[m [33m];[m [33mthen[m[15;21H[K[24;67H2[15;12H[?12l[?25h[?25l[33m"[m [33m];[m [33mthen[m[15;20H[K[24;67H1[15;11H[?12l[?25h[24;1H[K[15;10H[?25l[24;63H15,10[9CTop[15;10H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25hw[?25l[?12l[?25h[?25l[1m[37m[41mE492: Not an editor command: qw[m[31C15,10[9CTop[15;10H[?12l[?25h[?25l[24;64H6,5 [16;5H[?12l[?25h[?25l[24;64H7,2-5[17;5H[?12l[?25h[?25l[24;64H8,3-9[18;9H[?12l[?25h[?25l[24;64H9,4-13[19;13H[?12l[?25h[?25l[24;63H20,3-9 [20;9H[?12l[?25h[?25l[24;64H1,7-13[21;13H[?12l[?25h[?25l[24;64H2,3-9 [23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33m;;[m[24;1H[K[24;63H23,3-9[9C3%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hscreen[33m)[m[24;63H[K[24;63H24,2-5[9C7%[23;5H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33mif[m [33m[[m [33m-e[m /etc/sysconfig/bash-prompt-screen [33m];[m [33mthen[m[24;63H[K[24;63H25,3-9[8C11%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;13H[35mPROMPT_COMMAND[m[33m=[m/etc/sysconfig/bash-prompt-screen[24;63H[K[24;63H26,4-13[7C15%[23;13H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33melse[m[24;63H[K[24;63H27,3-9[8C19%[23;9H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;9H[35mPROMPT_COMMAND[m[33m='[m[31mecho -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\00[23;1H33\\"[m[33m'[m[24;63H[K[24;63H28,3-9[8C25%[22;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33mfi[m[24;63H[K[24;63H29,3-9[8C29%[23;9H[?12l[?25h[?25l[24;64H8[21;9H[?12l[?25h[?25l[24;64H9[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33m;;[m[24;63H[K[24;63H30,3-9[8C33%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H*[33m)[m[24;63H[K[24;63H31,3-6[8C37%[23;6H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;9H[33m[[m [33m-e[m /etc/sysconfig/bash-prompt-default [33m][m [33m&&[m [35mPROMPT_COMMAND[m[33m=[m/etc/sysconff[23;1Hig/bash-prompt-default[24;63H[K[24;63H32,3-9[8C42%[22;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33m;;[m[24;63H[K[24;63H33,6-9[8C46%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mesac[m[24;63H[K[24;63H34,8[10C50%[23;8H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[34m# Turn on checkwinsize[m[24;63H[K[24;63H35,9[10C53%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mshopt[m [33m-s[m checkwinsize[24;63H[K[24;63H36,9[10C57%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33m[[m [33m"[m[35m$PS1[m[33m"[m [33m=[m [33m"[m[35m\\[m[31ms-[m[35m\\[m[31mv[m[35m\\\$[m[31m [m[33m"[m [33m][m [33m&&[m [35mPS1[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"[m[24;63H[K[24;63H37,9[10C60%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mfi[m[24;63H[K[24;63H38,2[10C64%[23;2H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H39,0-1[8C67%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mif[m [33m![m [33mshopt[m [33m-q[m login_shell [33m;[m [33mthen[m [34m# We're not a login shell[m[24;63H[K[24;63H40,9[10C71%[23;9H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;9H[33mfor[m i [33min[m /etc/profile.d/*.sh[33m;[m [33mdo[23;9Hif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H41,9[10C77%[22;9H[?12l[?25h[?25l[24;64H2,6-9[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;12H[33m . [m[35m$i[m[24;63H[K[24;63H43,6-9[8C81%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33mfi[m[24;63H[K[24;63H44,6-9[8C85%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mdone[m[24;63H[K[24;63H45,5-8[8C88%[23;8H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33munset [m[36mi[m[24;63H[K[24;63H46,6-9[8C92%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mfi[m[24;63H[K[24;63H47,2[10C96%[23;2H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[34m# vim:ts=4:sw=4[m[24;63H[K[24;63H48,9[10CBot[23;9H[?12l[?25h[?25l[24;63H[K[24;1H:[1;5H[34m# Turn on checkwinsize[m[1;27H[K[2;1H    [33mshopt[m [33m-s[m checkwinsize
+    [33m[[m [33m"[m[35m$PS1[m[33m"[m [33m=[m [33m"[m[35m\\[m[31ms-[m[35m\\[m[31mv[m[35m\\\$[m[31m [m[33m"[m [33m][m [33m&&[m [35mPS1[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"
+fi[m[4;9H[K[5;5H[K[6;1H[33mif[m [33m![m [33mshopt[m [33m-q[m login_shell [33m;[m [33mthen[m [34m# We're not a login shell[m[6;59H[K[7;1H        [33mfor[m i [33min[m /etc/profile.d/*.sh[33m;[m [33mdo[8;9Hif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[m
+           [33m . [m[35m$i[m
+        [33mfi[m[10;11H[K[11;5H[33mdone[m[11;9H[K[12;5H[33munset [m[36mi[m[12;12H[K[14;1H[34m# vim:ts=4:sw=4[m
+[7mbashrc [+]                                                    48,9           Bot[m[16;1H[1m[34m:[m[33mw[m gtsybrgII[16;13H[K[17;1H[1m[34m:[m[33mwq[m[17;9H[K[18;1H[1m[34m:[mQ[18;12H[K[19;1H[1m[34m:[m[33mq[m![19;9H[K[20;1H[1m[34m:[m[33mq[m[20;5H[K[21;1H[1m[34m:[mqw[21;5H[K[22;1H[1m[34m:[m[22;2H[K[23;1H[1m[7mcommand-line                                                  10,0-1         Bot[22;2H[?12l[?25h[?25l[23;63H9,1   [21;2H[?12l[?25h[?25l[23;63H10,0-1[22;2H[?12l[?25h[?25l[m
+
+[1mrecording[22;2H[?12l[?25h[?25l[m[24;1H[K[22;2H[?12l[?25h
+
+[?25l[1;5H    [35mPROMPT_COMMAND[m[33m='[m[31mecho -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\00[2;1H33\\"[m[33m'[m[2;7H[K[3;5H    [33mfi[m[3;11H[K[4;1H        [33m;;[m
+    *[33m)[m
+        [33m[[m [33m-e[m /etc/sysconfig/bash-prompt-default [33m][m [33m&&[m [35mPROMPT_COMMAND[m[33m=[m/etc/sysconff[7;1Hig/bash-prompt-default[7;23H[K[8;9H[33m;;[m[8;12H[K[9;5H[33mesac[m[9;12H[K[10;5H[34m# Turn on checkwinsize[m
+    [33mshopt[m [33m-s[m checkwinsize
+    [33m[[m [33m"[m[35m$PS1[m[33m"[m [33m=[m [33m"[m[35m\\[m[31ms-[m[35m\\[m[31mv[m[35m\\\$[m[31m [m[33m"[m [33m][m [33m&&[m [35mPS1[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"[m[14;1H[K[15;1H[33mif[m [33m![m [33mshopt[m [33m-q[m login_shell [33m;[m [33mthen[m [34m# We're not a login shell[m[15;59H[K[16;1H        [33mfor[m i [33min[m /etc/profile.d/*.sh[33m;[m [33mdo[m
+        [33mif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[m
+  [9C[33m . [m[35m$i[m
+        [33mfi[m
+    [33mdone[m
+    [33munset [m[36mi[m
+[33mfi[m
+[34m# vim:ts=4:sw=4[m[23;16H[K[24;63H48,9[10CBot[23;9H[?12l[?25h[?25l[24;66H10[23;10H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[1m[37m[41mE37: No write since last change (add ! to override)[m[11C48,10[9CBot[23;10H[?12l[?25h[?25l[24;67H1[23;11H[?12l[?25h[?25l[24;67H2[23;12H[?12l[?25h[?25l[24;67H3[23;13H[?12l[?25h[?25l[24;67H4[23;14H[?12l[?25h[?25l[24;67H5[23;15H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25hw[?25l[?12l[?25h[?25l[1m[37m[41mE492: Not an editor command: qw[m[31C48,15[9CBot[23;15H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"bashrc" 48L, 1171C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~/backups[Student@localhost backups]$ echo $PS1
+[\u@\h \W]\$
+]0;Student@localhost:~/backups[Student@localhost backups]$ echo $PS1vi bashrc
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"bashrc" 48L, 1171C[1;9H[35mPROMPT_COMMAND[m[33m='[m[31mecho -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\00[2;1H33\\"[m[33m'[3;9Hfi[4;9H;;[m
+    *[33m)[6;9H[[m [33m-e[m /etc/sysconfig/bash-prompt-default [33m][m [33m&&[m [35mPROMPT_COMMAND[m[33m=[m/etc/sysconff[7;1Hig/bash-prompt-default[8;9H[33m;;
+[m    [33mesac[m
+    [34m# Turn on checkwinsize[m
+    [33mshopt[m [33m-s[m checkwinsize
+    [33m[[m [33m"[m[35m$PS1[m[33m"[m [33m=[m [33m"[m[35m\\[m[31ms-[m[35m\\[m[31mv[m[35m\\\$[m[31m [m[33m"[m [33m][m [33m&&[m [35mPS1[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"
+fi
+
+if[m [33m![m [33mshopt[m [33m-q[m login_shell [33m;[m [33mthen[m [34m# We're not a login shell[m[16;9H[33mfor[m i [33min[m /etc/profile.d/*.sh[33m;[m [33mdo[17;9Hif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[18;12H . [m[35m$i[m[19;9H[33mfi
+[m    [33mdone
+[m    [33munset [m[36mi[m
+[33mfi[m
+[34m# vim:ts=4:sw=4[m[24;63H48,1[10CBot[23;1H[?12l[?25h[?25l[24;64H7[22;1H[?12l[?25h[?25l[24;64H6,1-4[21;4H[?12l[?25h[?25l[24;64H5[20;4H[?12l[?25h[?25l[24;64H4[19;4H[?12l[?25h[?25l[24;64H3[18;4H[?12l[?25h[?25l[24;64H2[17;4H[?12l[?25h[?25l[24;64H1,1  [16;1H[?12l[?25h[?25l[24;64H0[15;1H[?12l[?25h[?25l[24;63H39,0-1[14;1H[?12l[?25h[?25l[24;64H8,1  [13;1H[?12l[?25h[?25l[24;64H7[12;1H[?12l[?25h[?25l[24;64H6[11;1H[?12l[?25h[?25l[24;64H5[10;1H[?12l[?25h[?25l[24;64H4[9;1H[?12l[?25h[?25l[24;64H3,1-4[8;4H[?12l[?25h[?25l[24;64H2[6;4H[?12l[?25h[?25l[24;64H1[5;4H[?12l[?25h[?25l[24;64H0[4;4H[?12l[?25h[?25l[24;63H29[3;4H[?12l[?25h[?25l[24;64H8[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33melse[m[24;1H[K[24;63H27,1-4[8C96%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;13H[35mPROMPT_COMMAND[m[33m=[m/etc/sysconfig/bash-prompt-screen[24;63H[K[24;63H26,1-4[8C92%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mif[m [33m[[m [33m-e[m /etc/sysconfig/bash-prompt-screen [33m];[m [33mthen[m[24;63H[K[24;63H25,1-4[8C88%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hscreen[33m)[m[24;63H[K[24;63H24,1-4[8C85%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33m;;[m[24;63H[K[24;63H23,1-4[8C81%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mfi[m[24;63H[K[24;63H22,1-4[8C77%[1;4H[?12l[?25h[?25l[1;23r[1;1H[2L[1;24r[1;13H[35mPROMPT_COMMAND[m[33m='[m[31mecho -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOMM[2;1HE/~}\007"[m[33m'[m[24;63H[K[24;63H21,1-4[8C71%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33melse[m[24;63H[K[24;63H20,1-4[8C67%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;13H[35mPROMPT_COMMAND[m[33m=[m/etc/sysconfig/bash-prompt-xterm[24;63H[K[24;63H19,1-4[8C64%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mif[m [33m[[m [33m-e[m /etc/sysconfig/bash-prompt-xterm [33m];[m [33mthen[m[24;63H[K[24;63H18,1-4[8C60%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hxterm*[33m)[m[24;63H[K[24;63H17,1-4[8C57%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H[33mcase[m [35m$TERM[m [33min[m[24;63H[K[24;63H16,1[10C53%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mif[m [33m[[m [33m"[m[35m$PS1[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H15,1[10C50%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# are we an interactive shell?[m[24;63H[K[24;63H14,1[10C46%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H13,0-1[8C42%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mfi[m[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H12,1[10C39%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H[33mumask[m [31m022[m[24;63H[K[24;63H11,1-4[8C37%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33melse[m[24;63H[K[24;63H10,1[10C33%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H[33mumask[m [31m002[m[24;63H[K[24;63H9,1-4[9C29%[1;4H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mif[m [33m[[m [35m$UID[m [33m-gt[m [31m99[m [33m][m [33m&&[m [33m[[m [33m"[m[35m`id -gn`[m[33m"[m [33m=[m [33m"[m[35m`id -un`[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H8,1[11C25%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# Even for non-interactive, non-login shells.[m[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H7,1[11C22%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# by default, we want this to get set.[m[24;63H[K[24;63H6,1[11C19%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H5,0-1[9C15%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# Environment stuff goes in /etc/profile[m[24;63H[K[24;63H4,1[11C11%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# System wide functions and aliases[m[24;63H[K[24;63H3,1[12C7%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H2,0-1[10C3%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# /etc/bashrc[m[24;63H[K[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5,0-1[5;1H[?12l[?25h[?25l[24;63H6,1  [6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;63H9,1-4[9;4H[?12l[?25h[?25l[24;63H10,1 [10;1H[?12l[?25h[?25l[24;64H1,1-4[11;4H[?12l[?25h[?25l[24;64H2,1  [12;1H[?12l[?25h[?25l[24;64H3,0-1[13;1H[?12l[?25h[?25l[24;64H4,1  [14;1H[?12l[?25h[?25l[24;64H5[15;1H[?12l[?25h[?25l[24;64H6[16;1H[?12l[?25h[?25l[24;64H7,1-4[17;4H[?12l[?25h[?25l[24;66H2-5[17;5H[?12l[?25h[?25l[24;64H6,5  [16;5H[?12l[?25h[?25l[24;66H6[16;6H[?12l[?25h[?25l[24;66H7[16;7H[?12l[?25h[?25l[24;66H8[16;8H[?12l[?25h[?25l[24;66H9[16;9H[?12l[?25h[?25l[24;66H10[16;10H[?12l[?25h[?25l[24;64H5[15;10H[?12l[?25h[?25l[24;67H1[15;11H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H15,11[9CTop[15;11H[?12l[?25h[?25l[33m"[m [33m];[m [33mthen[m[15;19H[K[24;67H0[15;10H[?12l[?25h[?25l[35m2[m[33m"[m [33m];[m [33mthen[m[24;67H1[15;11H[?12l[?25h[?25l[24;64H6[16;11H[?12l[?25h[?25l[24;64H7,8-11[17;11H[?12l[?25h[?25l[24;64H8,5[18;11H[?12l[?25h[?25l[24;64H9,3-9 [19;9H[?12l[?25h[?25l[24;63H20,5-11[20;11H[?12l[?25h[?25l[24;64H1,6-9 [21;9H[?12l[?25h[?25l[24;64H2,5-11[23;11H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33m;;[m[24;63H[K[24;63H23,5-11[8C3%[23;11H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hscreen[33m)[m[24;63H[K[24;63H24,8-11[8C7%[23;11H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33mif[m [33m[[m [33m-e[m /etc/sysconfig/bash-prompt-screen [33m];[m [33mthen[m[24;63H[K[24;63H25,5-11[7C11%[23;11H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;13H[35mPROMPT_COMMAND[m[33m=[m/etc/sysconfig/bash-prompt-screen[24;63H[K[24;63H26,3-9[8C15%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33melse[m[24;63H[K[24;63H27,5-11[7C19%[23;11H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;9H[35mPROMPT_COMMAND[m[33m='[m[31mecho -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\00[23;1H33\\"[m[33m'[m[24;63H[K[24;63H28,5-11[7C25%[22;11H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33mfi[m[24;63H[K[24;63H29,5-11[7C29%[23;11H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33m;;[m[24;63H[K[24;63H30,5-11[7C33%[23;11H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H*[33m)[m[24;63H[K[24;63H31,4-7[8C37%[23;7H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;9H[33m[[m [33m-e[m /etc/sysconfig/bash-prompt-default [33m][m [33m&&[m [35mPROMPT_COMMAND[m[33m=[m/etc/sysconff[23;1Hig/bash-prompt-default[24;63H[K[24;63H32,5-11[7C42%[22;11H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33m;;[m[24;63H[K[24;63H33,8-11[7C46%[23;11H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mesac[m[24;63H[K[24;63H34,9[10C50%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[34m# Turn on checkwinsize[m[24;63H[K[24;63H35,11[9C53%[23;11H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mshopt[m [33m-s[m checkwinsize[24;63H[K[24;63H36,11[9C57%[23;11H[?12l[?25h[?25l[24;67H2[23;12H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33m[[m [33m"[m[35m$PS1[m[33m"[m [33m=[m [33m"[m[35m\\[m[31ms-[m[35m\\[m[31mv[m[35m\\\$[m[31m [m[33m"[m [33m][m [33m&&[m [35mPS1[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"[m[24;63H[K[24;63H37,12[9C60%[23;12H[?12l[?25h[?25l[33m"[m [33m=[m [33m"[m[35m\\[m[31ms-[m[35m\\[m[31mv[m[35m\\\$[m[31m [m[33m"[m [33m][m [33m&[m[1C [35mPS1[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"[m[23;55H[K[24;67H1[23;11H[?12l[?25h[?25l[35m2[m[33m"[m [33m=[m [33m"[m[35m\\[m[31ms-[m[35m\\[m[31mv[m[35m\\\$[m[31m [m[33m"[m [33m][m [33m&&[m [35mPS1[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"[m[24;67H2[23;12H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mfi[m[24;63H[K[24;63H38,3[10C64%[23;3H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H39,1[10C67%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mif[m [33m![m [33mshopt[m [33m-q[m login_shell [33m;[m [33mthen[m [34m# We're not a login shell[m[24;63H[K[24;63H40,12[9C71%[23;12H[?12l[?25h[?25l[1;23r[1;1H[2M[1;24r[22;9H[33mfor[m i [33min[m /etc/profile.d/*.sh[33m;[m [33mdo[23;9Hif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H41,12[9C77%[22;12H[?12l[?25h[?25l[24;64H2,9-12[23;12H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;12H[33m . [m[35m$i[m[24;63H[K[24;63H43,9-12[7C81%[23;12H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[33mfi[m[24;63H[K[24;63H44,8-11[7C85%[23;11H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mdone[m[24;63H[K[24;63H45,6-9[8C88%[23;9H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33munset [m[36mi[m[24;63H[K[24;63H46,9-12[7C92%[23;12H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mfi[m[24;63H[K[24;63H47,3[10C96%[23;3H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[34m# vim:ts=4:sw=4[m[24;63H[K[24;63H48,12[9CBot[23;12H[?12l[?25h[24;1H[K[23;11H[?25l[24;63H48,11[9CBot[23;11H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"bashrc" 48L, 1171C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~/backups[Student@localhost backups]$ echo $PS1
+[\u@\h \W]\$
+]0;Student@localhost:~/backups[Student@localhost backups]$ :[Kecho $PS2
+>
+]0;Student@localhost:~/backups[Student@localhost backups]$ 
+]0;Student@localhost:~/backups[Student@localhost backups]$ echo $PS21vi bashrcecho $PS1vi bashrc
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"bashrc" 48L, 1171C[1;9H[35mPROMPT_COMMAND[m[33m='[m[31mecho -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\00[2;1H33\\"[m[33m'[3;9Hfi[4;9H;;[m
+    *[33m)[6;9H[[m [33m-e[m /etc/sysconfig/bash-prompt-default [33m][m [33m&&[m [35mPROMPT_COMMAND[m[33m=[m/etc/sysconff[7;1Hig/bash-prompt-default[8;9H[33m;;
+[m    [33mesac[m
+    [34m# Turn on checkwinsize[m
+    [33mshopt[m [33m-s[m checkwinsize
+    [33m[[m [33m"[m[35m$PS2[m[33m"[m [33m=[m [33m"[m[35m\\[m[31ms-[m[35m\\[m[31mv[m[35m\\\$[m[31m [m[33m"[m [33m][m [33m&&[m [35mPS1[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"
+fi
+
+if[m [33m![m [33mshopt[m [33m-q[m login_shell [33m;[m [33mthen[m [34m# We're not a login shell[m[16;9H[33mfor[m i [33min[m /etc/profile.d/*.sh[33m;[m [33mdo[17;9Hif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[18;12H . [m[35m$i[m[19;9H[33mfi
+[m    [33mdone
+[m    [33munset [m[36mi[m
+[33mfi[m
+[34m# vim:ts=4:sw=4[m[24;63H48,1[10CBot[23;1H[?12l[?25h[?25l[24;64H7[22;1H[?12l[?25h[?25l[24;64H6,1-4[21;4H[?12l[?25h[?25l[24;64H5[20;4H[?12l[?25h[?25l[24;64H4[19;4H[?12l[?25h[?25l[24;66H2-5[19;5H[?12l[?25h[?25l[24;64H3[18;5H[?12l[?25h[?25l[24;64H2[17;5H[?12l[?25h[?25l[24;64H1,5  [16;5H[?12l[?25h[?25l[24;64H0[15;5H[?12l[?25h[?25l[24;63H39,0-1[14;1H[?12l[?25h[?25l[24;64H8,2  [13;2H[?12l[?25h[?25l[24;64H7,5[12;5H[?12l[?25h[?25l[24;64H6[11;5H[?12l[?25h[?25l[24;66H6[11;6H[?12l[?25h[?25l[24;66H7[11;7H[?12l[?25h[?25l[24;66H8[11;8H[?12l[?25h[?25l[24;66H9[11;9H[?12l[?25h[?25l[24;66H10[11;10H[?12l[?25h[?25l[24;67H1[11;11H[?12l[?25h[?25l[24;67H2[11;12H[?12l[?25h[?25l[24;67H3[11;13H[?12l[?25h[?25l[24;67H4[11;14H[?12l[?25h[?25l[24;67H5[11;15H[?12l[?25h[?25l[24;67H6[11;16H[?12l[?25h[?25l[24;67H7[11;17H[?12l[?25h[?25l[24;67H8[11;18H[?12l[?25h[?25l[24;67H9[11;19H[?12l[?25h[?25l[24;66H20[11;20H[?12l[?25h[?25l[24;64H7[12;20H[?12l[?25h[?25l[24;67H1[12;21H[?12l[?25h[?25l[24;67H2[12;22H[?12l[?25h[?25l[24;67H3[12;23H[?12l[?25h[?25l[24;67H4[12;24H[?12l[?25h[?25l[24;67H5[12;25H[?12l[?25h[?25l[24;67H6[12;26H[?12l[?25h[?25l[24;67H7[12;27H[?12l[?25h[?25l[24;67H8[12;28H[?12l[?25h[?25l[24;67H9[12;29H[?12l[?25h[?25l[24;66H30[12;30H[?12l[?25h[?25l[24;67H1[12;31H[?12l[?25h[?25l[24;67H2[12;32H[?12l[?25h[?25l[24;67H3[12;33H[?12l[?25h[?25l[24;67H4[12;34H[?12l[?25h[?25l[24;67H5[12;35H[?12l[?25h[?25l[24;67H6[12;36H[?12l[?25h[?25l[24;67H7[12;37H[?12l[?25h[?25l[24;67H8[12;38H[?12l[?25h[?25l[24;67H9[12;39H[?12l[?25h[?25l[24;67H8[12;38H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H37,38[9CBot[12;38H[?12l[?25h[?25l[24;67H9[12;39H[?12l[?25h[?25l[36mPS[m=[33m"[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"[m[12;55H[K[24;67H8[12;38H[?12l[?25h[?25l[35mPS2[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"[m[24;67H9[12;39H[?12l[?25h[?25l[24;64H8,3 [13;3H[?12l[?25h[?25l[24;64H9,1[14;1H[?12l[?25h[?25l[24;63H40,39[15;39H[?12l[?25h[?25l[24;64H1[16;39H[?12l[?25h[?25l[24;64H2,26-29[17;29H[?12l[?25h[?25l[24;64H3,14-17[18;17H[?12l[?25h[?25l[24;64H4,8-11 [19;11H[?12l[?25h[24;1H[K[19;10H[?25l[24;63H44,7-10[7CBot[19;10H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"bashrc" 48L, 1171C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~/backups[Student@localhost backups]$ echo %[K$PS![K1
+[\u@\h \W]\$
+]0;Student@localhost:~/backups[Student@localhost backups]$ ehc[K[Kcho $PS2
+>
+]0;Student@localhost:~/backups[Student@localhost backups]$ echo $PS21vi bashrc
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"bashrc" 48L, 1171C[1;9H[35mPROMPT_COMMAND[m[33m='[m[31mecho -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\00[2;1H33\\"[m[33m'[3;9Hfi[4;9H;;[m
+    *[33m)[6;9H[[m [33m-e[m /etc/sysconfig/bash-prompt-default [33m][m [33m&&[m [35mPROMPT_COMMAND[m[33m=[m/etc/sysconff[7;1Hig/bash-prompt-default[8;9H[33m;;
+[m    [33mesac[m
+    [34m# Turn on checkwinsize[m
+    [33mshopt[m [33m-s[m checkwinsize
+    [33m[[m [33m"[m[35m$PS2[m[33m"[m [33m=[m [33m"[m[35m\\[m[31ms-[m[35m\\[m[31mv[m[35m\\\$[m[31m [m[33m"[m [33m][m [33m&&[m [35mPS2[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"
+fi
+
+if[m [33m![m [33mshopt[m [33m-q[m login_shell [33m;[m [33mthen[m [34m# We're not a login shell[m[16;9H[33mfor[m i [33min[m /etc/profile.d/*.sh[33m;[m [33mdo[17;9Hif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[18;12H . [m[35m$i[m[19;9H[33mfi
+[m    [33mdone
+[m    [33munset [m[36mi[m
+[33mfi[m
+[34m# vim:ts=4:sw=4[m[24;63H44,6-9[8CBot[19;9H[?12l[?25h[?25l[24;64H3[18;9H[?12l[?25h[?25l[24;64H2[17;9H[?12l[?25h[?25l[24;64H1,9  [16;9H[?12l[?25h[?25l[24;64H0[15;9H[?12l[?25h[?25l[24;63H39,0-1[14;1H[?12l[?25h[?25l[24;63H40,2  [15;2H[?12l[?25h[?25l[24;63H39,0-1[14;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H39,1[10CBot[14;1H[?12l[?25h[?25l[24;64H8[13;1H[?12l[?25h[?25l[24;66H2[13;2H[?12l[?25h[?25l[24;66H3[13;3H[?12l[?25h[?25l[24;64H7[12;3H[?12l[?25h[?25l[24;66H4[12;4H[?12l[?25h[?25l[24;66H5[12;5H[?12l[?25h[?25l[24;66H6[12;6H[?12l[?25h[?25l[24;66H7[12;7H[?12l[?25h[?25l[24;66H8[12;8H[?12l[?25h[?25l[24;66H9[12;9H[?12l[?25h[?25l[24;66H10[12;10H[?12l[?25h[?25l[24;67H1[12;11H[?12l[?25h[?25l[24;67H2[12;12H[?12l[?25h[?25l[33m"[m [33m=[m [33m"[m[35m\\[m[31ms-[m[35m\\[m[31mv[m[35m\\\$[m[31m [m[33m"[m [33m][m [33m&[m[1C [35mPS2[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"[m[12;55H[K[24;67H1[12;11H[?12l[?25h[?25l[35m1[m[33m"[m [33m=[m [33m"[m[35m\\[m[31ms-[m[35m\\[m[31mv[m[35m\\\$[m[31m [m[33m"[m [33m][m [33m&&[m [35mPS2[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"[m[24;67H2[12;12H[?12l[?25h[?25l[24;67H3[12;13H[?12l[?25h[?25l[24;67H4[12;14H[?12l[?25h[?25l[24;67H5[12;15H[?12l[?25h[?25l[24;67H6[12;16H[?12l[?25h[?25l[24;67H7[12;17H[?12l[?25h[?25l[24;67H8[12;18H[?12l[?25h[?25l[24;67H9[12;19H[?12l[?25h[?25l[24;66H20[12;20H[?12l[?25h[?25l[24;67H1[12;21H[?12l[?25h[?25l[24;67H2[12;22H[?12l[?25h[?25l[24;67H3[12;23H[?12l[?25h[?25l[24;67H4[12;24H[?12l[?25h[?25l[24;67H5[12;25H[?12l[?25h[?25l[24;67H6[12;26H[?12l[?25h[?25l[24;67H7[12;27H[?12l[?25h[?25l[24;67H8[12;28H[?12l[?25h[?25l[24;67H9[12;29H[?12l[?25h[?25l[24;66H30[12;30H[?12l[?25h[?25l[24;67H1[12;31H[?12l[?25h[?25l[24;67H2[12;32H[?12l[?25h[?25l[24;67H3[12;33H[?12l[?25h[?25l[24;67H4[12;34H[?12l[?25h[?25l[24;67H5[12;35H[?12l[?25h[?25l[24;67H6[12;36H[?12l[?25h[?25l[24;67H7[12;37H[?12l[?25h[?25l[24;67H8[12;38H[?12l[?25h[?25l[24;67H9[12;39H[?12l[?25h[?25l[24;66H40[12;40H[?12l[?25h[?25l[24;66H39[12;39H[?12l[?25h[?25l[36mPS[m=[33m"[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"[m[12;55H[K[24;67H8[12;38H[?12l[?25h[?25l[35mPS1[m[33m="[m[31m[\u@\h \W][m[35m\\[m[31m$ [m[33m"[m[24;67H9[12;39H[?12l[?25h[?25l[24;64H6,26[11;26H[?12l[?25h[?25l[24;64H5,27[10;27H[?12l[?25h[?25l[24;64H4,9 [9;9H[?12l[?25h[?25l[24;64H3,8-11[8;11H[?12l[?25h[?25l[24;64H2,33-39[6;39H[?12l[?25h[?25l[24;64H1,4-7  [5;7H[?12l[?25h[?25l[24;64H0,5-11[4;11H[?12l[?25h[?25l[24;63H29[3;11H[?12l[?25h[?25l[24;64H8,33-39[1;39H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33melse[m[24;63H[K[24;63H27,7-13[7C96%[1;13H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;13H[35mPROMPT_COMMAND[m[33m=[m/etc/sysconfig/bash-prompt-screen[24;63H[K[24;63H26,30-39      92%[1;39H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mif[m [33m[[m [33m-e[m /etc/sysconfig/bash-prompt-screen [33m];[m [33mthen[m[24;63H[K[24;63H25,33-39      88%[1;39H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hscreen[33m)[m[24;63H[K[24;63H24,9-12[7C85%[1;12H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33m;;[m[24;63H[K[24;63H23,5-11[7C81%[1;11H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mfi[m[24;63H[K[24;63H22,5-11[7C77%[1;11H[?12l[?25h[?25l[1;23r[1;1H[2L[1;24r[1;13H[35mPROMPT_COMMAND[m[33m='[m[31mecho -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOMM[2;1HE/~}\007"[m[33m'[m[24;63H[K[24;63H21,33-39      71%[1;39H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33melse[m[24;63H[K[24;63H20,7-13[7C67%[1;13H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;13H[35mPROMPT_COMMAND[m[33m=[m/etc/sysconfig/bash-prompt-xterm[24;63H[K[24;63H19,30-39      64%[1;39H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;9H[33mif[m [33m[[m [33m-e[m /etc/sysconfig/bash-prompt-xterm [33m];[m [33mthen[m[24;63H[K[24;63H18,33-39      60%[1;39H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5Hxterm*[33m)[m[24;63H[K[24;63H17,9-12[7C57%[1;12H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H[33mcase[m [35m$TERM[m [33min[m[24;63H[K[24;63H16,18[9C53%[1;18H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mif[m [33m[[m [33m"[m[35m$PS2[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H15,20[9C50%[1;20H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# are we an interactive shell?[m[24;63H[K[24;63H14,31[9C46%[1;31H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H13,1[10C42%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mfi[m[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H12,3[10C39%[1;3H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H[33mumask[m [31m022[m[24;63H[K[24;63H11,11-14      37%[1;14H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33melse[m[24;63H[K[24;63H10,5[10C33%[1;5H[?12l[?25h[?25l[24;64H1,11-14[2;14H[?12l[?25h[?25l[24;64H2,3    [3;3H[?12l[?25h[?25l[24;64H3,1[4;1H[?12l[?25h[?25l[24;64H4,31[5;31H[?12l[?25h[?25l[24;64H5,20[6;20H[?12l[?25h[?25l[24;64H6,18[7;18H[?12l[?25h[?25l[24;67H7[7;17H[?12l[?25h[?25l[24;67H6[7;16H[?12l[?25h[?25l[24;67H5[7;15H[?12l[?25h[?25l[24;67H4[7;14H[?12l[?25h[?25l[24;67H3[7;13H[?12l[?25h[?25l[24;67H2[7;12H[?12l[?25h[?25l[24;67H1[7;11H[?12l[?25h[?25l[24;64H5[6;11H[?12l[?25h[?25l[33m"[m [33m];[m [33mthen[m[6;19H[K[24;67H0[6;10H[?12l[?25h[?25l[35m1[m[33m"[m [33m];[m [33mthen[m[24;67H1[6;11H[?12l[?25h[?25l[24;64H4[5;11H[?12l[?25h[?25l[24;64H3,1 [4;1H[?12l[?25h[?25l[24;64H2,3[3;3H[?12l[?25h[?25l[24;64H1,8-11[2;11H[?12l[?25h[?25l[24;64H0,5   [1;5H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H[33mumask[m [31m002[m[24;63H[K[24;63H9,8-11[8C29%[1;11H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[33mif[m [33m[[m [35m$UID[m [33m-gt[m [31m99[m [33m][m [33m&&[m [33m[[m [33m"[m[35m`id -gn`[m[33m"[m [33m=[m [33m"[m[35m`id -un`[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H8,11[10C25%[1;11H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# Even for non-interactive, non-login shells.[m[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H7,11[10C22%[1;11H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# by default, we want this to get set.[m[24;63H[K[24;63H6,11[10C19%[1;11H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H5,1[11C15%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# Environment stuff goes in /etc/profile[m[24;63H[K[24;63H4,11[10C11%[1;11H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# System wide functions and aliases[m[24;63H[K[24;63H3,11[11C7%[1;11H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H2,1[12C3%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m# /etc/bashrc[m[24;63H[K[24;63H1,11[10CTop[1;11H[?12l[?25h[?25l[24;66H0[1;10H[?12l[?25h[?25l[24;65H9 [1;9H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25l[24;65H7[1;7H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l[24;65H5[1;5H[?12l[?25h[?25l[24;65H4[1;4H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[24;65H1[1;1H[?12l[?25h[24;1H[K[1;1H[?25l[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"bashrc" 48L, 1171C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~/backups[Student@localhost backups]$ source.bashrc
+bash: source.bashrc: command not found
+]0;Student@localhost:~/backups[Student@localhost backups]$ source.bashrc .bashrc
+]0;Student@localhost:~/backups[Student@localhost backups]$ source .bashrc
+]0;Student@localhost:~/backups[Student@localhost backups]$ source .bashrc[1P.bashrc[4Pvi bashrcecho $PS21vi bashrcecho $PS21vi bashrcecho $PS1vi bashrc[4Pls -Rcd bashrcls[Kcd backupsls[Kcd homels[Kcd ..p bashrc ../home/Student/backups/[Student@localhost backups]$ ls ../home[K[Kcp bashrc ../home/backups/ls[K ../backups[Kcp bashrc backups/[K[11Pls -lacp bashrc ../backups[4h.[4l[Student@localhost backups]$ cp .bashrc ../backupsd etc[Kumask 777[4Pcd ..p bashrc ../backups[3Pbackups[4h.[4l[Student@localhost backups]$ cp .bashrc backups[11Pd /etc~ect[1Pectp . etc/bashrc backups/etc/.[Student@localhost backups]$ cp /etc/.bashrc backupsls /etc[Ketc//etccp /etc/.bashrc backupsls /etc[Ketc/[K[Kvi .bashrcls[Student@localhost backups]$ ls .bashrccp .bashrc backups[8Pvi .bashrc[1Pman aliasalias --help[Kvi aliases[3Paliasesvi /etc/profileecho we see several differnet if statements and a foor loop which form the program that is responsible for starting up the ligin systtem.[A[A[Student@localhost backups]$ vi /etc/profile[K
+[K
+[K[A[A[Student@localhost backups]$ vi /etc/profilels[Student@localhost backups]$ ls /etc/profile[Kvi /ect/profile[8Pls /etc/profilevi[Student@localhost backups]$ vi /etc/profileecho we see several differnet if statements and a foor loop which form the program that is responsible for starting up the ligin systtem.[A[A[Student@localhost backups]$ vi /etc/profile[K
+[K
+[K[A[A[Student@localhost backups]$ vi /etc/profile[8Paliasesvi aliases[5Palias --help[3Pman aliasvi .bashrccp .bashrc backups[8Pls .bashrcvi[Student@localhost backups]$ vi .bashrcls [Ketc//etccp /etc/.bashrc backups. etc/[Student@localhost backups]$ cp . etc/bashrc backupsd ect[K~ect/etcp .bashrc backups[1P[Student@localhost backups]$ cp bashrc backups../backupsd ..[Kumask 777[3Pcd etcp .bashrc ../backups[1P[Student@localhost backups]$ cp bashrc ../backupsls -la[Kcp bashrc backups/ls[K ../backups[K[Kcp bashrc ../home/backups/ls ..[K/homecp bashrc ../home/Student/backups/[Student@localhost backups]$ cd ..[K[3Plscd home[Klscd backupsls[Kcd bashrc[4Pls -Rvi bashrcecho $PS1vi bashrcecho $PS12vi bashrcecho $PS12vi bashrcsource.bashrc .bashrc[Kls .bash_logout
+[00mls: .bash_logout: No such file or directory
+[m]0;Student@localhost:~/backups[Student@localhost backups]$ cd ..
+]0;Student@localhost:~[Student@localhost ~]$ cd ..
+]0;Student@localhost:/home[Student@localhost home]$ ls
+[00m[00;34mStudent[00m
+[m]0;Student@localhost:/home[Student@localhost home]$ cd Studentr[K[Kt
+]0;Student@localhost:~[Student@localhost ~]$ ls ,[K.[Ketc
+[00mls: etc: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ..[K[Kcd ..
+]0;Student@localhost:/home[Student@localhost home]$ cd ..
+]0;Student@localhost:/[Student@localhost /]$ ls etc
+[00m[00ma2ps.cfg[00m              [00;34mhotplug.d[00m             [00mprelink.conf[00m
+[00ma2ps-site.cfg[00m         [00;34mhowl[00m                  [00mprintcap[00m
+[00;34macpi[00m                  [00;34mhtdig[00m                 [00mprofile[00m
+[00madjtime[00m               [00midmapd.conf[00m           [00;34mprofile.d[00m
+[00;34malchemist[00m             [00mim_palette.pal[00m        [00mprotocols[00m
+[00maliases[00m               [00mim_palette-small.pal[00m  [00mpwdb.conf[00m
+[00maliases.db[00m            [00mim_palette-tiny.pal[00m   [00mquotagrpadmins[00m
+[00;34malsa[00m                  [00mimrc[00m                  [00mquotatab[00m
+[00;34malternatives[00m          [00;36minit.d[00m                [00;34mracoon[00m
+[00manacrontab[00m            [00minitlog.conf[00m          [00;36mrc[00m
+[00mant.conf[00m              [00minittab[00m               [00;36mrc0.d[00m
+[00;34mant.d[00m                 [00minputrc[00m               [00;36mrc1.d[00m
+[00masound.conf[00m           [00;34miproute2[00m              [00;36mrc2.d[00m
+[00masound.state[00m          [00;34misdn[00m                  [00;36mrc3.d[00m
+[00mat.deny[00m               [00missue[00m                 [00;36mrc4.d[00m
+[00mauditd.conf[00m           [00missue.net[00m             [00;36mrc5.d[00m
+[00maudit.rules[00m           [00;34mjava[00m                  [00;36mrc6.d[00m
+[00mauto.master[00m           [00mjwhois.conf[00m           [00;34mrc.d[00m
+[00mauto.misc[00m             [00;34mkde[00m                   [00;36mrc.local[00m
+[00;32mauto.net[00m              [00mkderc[00m                 [00;36mrc.sysinit[00m
+[00;32mauto.smb[00m              [00;34mkermit[00m                [00;34mredhat-lsb[00m
+[00mbashrc[00m                [00mkrb5.conf[00m             [00;36mredhat-release[00m
+[00mblkid.tab[00m             [00mkrb.conf[00m              [00mresolv.conf[00m
+[00mblkid.tab.old[00m         [00mkrb.realms[00m            [00mresolv.conf.predhclient[00m
+[00;34mbluetooth[00m             [00mksysguarddrc[00m          [00;34mrhgb[00m
+[00;34mbonobo-activation[00m     [00mldap.conf[00m             [00;36mrmt[00m
+[00mcdrecord.conf[00m         [00mld.so.cache[00m           [00mrndc.conf[00m
+[00mcpuspeed.conf[00m         [00mld.so.conf[00m            [00mrndc.key[00m
+[00;34mcron.d[00m                [00;34mld.so.conf.d[00m          [00mrpc[00m
+[00;34mcron.daily[00m            [00mlftp.conf[00m             [00;34mrpm[00m
+[00mcron.deny[00m             [00mlibuser.conf[00m          [00;34msamba[00m
+[00;34mcron.hourly[00m           [00mlisarc[00m                [00;34msane.d[00m
+[00;34mcron.monthly[00m          [00mlocaltime[00m             [00mscreenrc[00m
+[00mcrontab[00m               [00;34mlog.d[00m                 [00mscrollkeeper.conf[00m
+[00;34mcron.weekly[00m           [00mlogin.defs[00m            [00mscsi_id.config[00m
+[00mcsh.cshrc[00m             [00mlogrotate.conf[00m        [00msecuretty[00m
+[00mcsh.login[00m             [00;34mlogrotate.d[00m           [00;34msecurity[00m
+[00;34mcups[00m                  [00mlsb-release[00m           [00;34mselinux[00m
+[00;34mdbus-1[00m                [00mltrace.conf[00m           [00msensors.conf[00m
+[00;34mdefault[00m               [00;34mlvm[00m                   [00mservices[00m
+[00;34mdev.d[00m                 [00;34mmail[00m                  [00msestatus.conf[00m
+[00mDIR_COLORS[00m            [00mmailcap[00m               [00;34msetuptool.d[00m
+[00mDIR_COLORS.xterm[00m      [00mmail.rc[00m               [00;34msgml[00m
+[00mdumpdates[00m             [00;34mmakedev.d[00m             [00mshadow[00m
+[00menscript.cfg[00m          [00mman.config[00m            [00mshadow-[00m
+[00menvironment[00m           [00;34mmgetty+sendfax[00m        [00mshells[00m
+[00mesd.conf[00m              [00mmime.types[00m            [00;34mskel[00m
+[00mexports[00m               [00mminicom.users[00m         [00mslrn.rc[00m
+[00mfb.modes[00m              [00mmodprobe.conf[00m         [00;34msmrsh[00m
+[00mfdprm[00m                 [00mmodprobe.conf~[00m        [00;34msnmp[00m
+[00mfedora-release[00m        [00mmodprobe.conf.dist[00m    [00;34msound[00m
+[00mfilesystems[00m           [00mmotd[00m                  [00;34mssh[00m
+[00;34mfonts[00m                 [00mmtab[00m                  [00;34mstunnel[00m
+[00;34mfoomatic[00m              [00mmtools.conf[00m           [00msudoers[00m
+[00mfstab[00m                 [00mMuttrc[00m                [00;34msysconfig[00m
+[00;34mgaim[00m                  [00mMuttrc.local[00m          [00msysctl.conf[00m
+[00;34mgconf[00m                 [00mnamed.conf[00m            [00msyslog.conf[00m
+[00;34mghostscript[00m           [00;34mnetplug[00m               [00mtermcap[00m
+[00;34mgimp[00m                  [00;34mnetplug.d[00m             [00;34mudev[00m
+[00;34mgnome-vfs-2.0[00m         [00mnscd.conf[00m             [00mupdatedb.conf[00m
+[00mgnome-vfs-mime-magic[00m  [00mnsswitch.conf[00m         [00mvimrc[00m
+[00;34mgnopernicus-1.0[00m       [00;34mntp[00m                   [00mwarnquota.conf[00m
+[00mgpm-root.conf[00m         [00mntp.conf[00m              [00mwgetrc[00m
+[00;34mgre.d[00m                 [00;34mopenldap[00m              [00mwvdial.conf[00m
+[00mgroup[00m                 [00;34mopt[00m                   [00;34mX11[00m
+[00mgroup-[00m                [00;34mpam.d[00m                 [00;34mxdg[00m
+[00;36mgrub.conf[00m             [00mpam_smb.conf[00m          [00;34mxinetd.d[00m
+[00mgshadow[00m               [00;34mpango[00m                 [00;34mxml[00m
+[00mgshadow-[00m              [00mpasswd[00m                [00myp.conf[00m
+[00mgssapi_mech.conf[00m      [00mpasswd-[00m               [00;34myum[00m
+[00;34mgtk[00m                   [00mpasswd.OLD[00m            [00myum.conf[00m
+[00;34mgtk-2.0[00m               [00mpbm2ppa.conf[00m          [00;34myum.repos.d[00m
+[00;34mhal[00m                   [00;34mpcmcia[00m                [00mzlogin[00m
+[00mhost.conf[00m             [00mpinforc[00m               [00mzlogout[00m
+[00mhosts[00m                 [00;34mpki[00m                   [00mzprofile[00m
+[00mhosts.allow[00m           [00mpnm2ppa.conf[00m          [00mzshenv[00m
+[00mhosts.deny[00m            [00;34mppp[00m                   [00mzshrc[00m
+[00;34mhotplug[00m               [00mprelink.cache[00m
+[m]0;Student@localhost:/[Student@localhost /]$ bash_logout
+bash: bash_logout: command not found
+]0;Student@localhost:/[Student@localhost /]$ find bash_logout
+find: bash_logout: No such file or directory
+]0;Student@localhost:/[Student@localhost /]$ find -j[K-help
+Usage: find [path...] [expression]
+
+default path is the current directory; default expression is -print
+expression may consist of: operators, options, tests, and actions:
+
+operators (decreasing precedence; -and is implicit where no others are given):
+      ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2
+      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1 , EXPR2
+
+positional options (always true): -daystart -follow
+normal options (always true, specified before other expressions):
+      -depth --help -maxdepth LEVELS -mindepth LEVELS -mount -noleaf
+      --version -xdev -ignore_readdir_race -noignore_readdir_race
+
+tests (N can be +N or -N or N): -amin N -anewer FILE -atime N -cmin N
+      -cnewer FILE -ctime N -empty -false -fstype TYPE -gid N -group NAME
+      -ilname PATTERN -iname PATTERN -inum N -iwholename PATTERN -iregex PATTERN
+      -links N -lname PATTERN -mmin N -mtime N -name PATTERN -newer FILE
+      -nouser -nogroup -path PATTERN -perm [+-]MODE -regex PATTERN
+      -wholename PATTERN -size N[bcwkMG] -true -type [bcdpflsD] -uid N
+      -used N -user NAME -xtype [bcdpfls]
+
+      -context CONTEXT
+
+actions: -exec COMMAND ; -fprint FILE -fprint0 FILE -fprintf FILE FORMAT
+      -fls FILE -ok COMMAND ; -print -print0 -printf FORMAT -prune -ls -delete
+      -quit
+
+Report (and track progress on fixing) bugs via the findutils bug-reporting
+page at http://savannah.gnu.org/ or, if you have no web access, by sending
+email to <bug-findutils@gnu.org>.
+]0;Student@localhost:/[Student@localhost /]$ vi .bash-Lo[K[Klogout
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".bash-logout" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:/[Student@localhost /]$ find .bash_logout
+find: .bash_logout: No such file or directory
+]0;Student@localhost:/[Student@localhost /]$ vi .bash_logout
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".bash_logout" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:/[Student@localhost /]$ ls
+[00m[00;34mbin[00m   [00;34mdev[00m  [00;34mhome[00m  [00;34mlost+found[00m  [00;34mmisc[00m  [00;34mnet[00m  [00;34mproc[00m  [00;34msbin[00m     [00;34msrv[00m  [00;34mtmp[00m  [00;34mvar[00m
+[00;34mboot[00m  [00;34metc[00m  [00;34mlib[00m   [00;34mmedia[00m       [00;34mmnt[00m   [00;34mopt[00m  [00;34mroot[00m  [00;34mselinux[00m  [00;34msys[00m  [00;34musr[00m
+[m]0;Student@localhost:/[Student@localhost /]$ etc
+bash: etc: command not found
+]0;Student@localhost:/[Student@localhost /]$ ls etc
+[00m[00ma2ps.cfg[00m              [00;34mhotplug.d[00m             [00mprelink.conf[00m
+[00ma2ps-site.cfg[00m         [00;34mhowl[00m                  [00mprintcap[00m
+[00;34macpi[00m                  [00;34mhtdig[00m                 [00mprofile[00m
+[00madjtime[00m               [00midmapd.conf[00m           [00;34mprofile.d[00m
+[00;34malchemist[00m             [00mim_palette.pal[00m        [00mprotocols[00m
+[00maliases[00m               [00mim_palette-small.pal[00m  [00mpwdb.conf[00m
+[00maliases.db[00m            [00mim_palette-tiny.pal[00m   [00mquotagrpadmins[00m
+[00;34malsa[00m                  [00mimrc[00m                  [00mquotatab[00m
+[00;34malternatives[00m          [00;36minit.d[00m                [00;34mracoon[00m
+[00manacrontab[00m            [00minitlog.conf[00m          [00;36mrc[00m
+[00mant.conf[00m              [00minittab[00m               [00;36mrc0.d[00m
+[00;34mant.d[00m                 [00minputrc[00m               [00;36mrc1.d[00m
+[00masound.conf[00m           [00;34miproute2[00m              [00;36mrc2.d[00m
+[00masound.state[00m          [00;34misdn[00m                  [00;36mrc3.d[00m
+[00mat.deny[00m               [00missue[00m                 [00;36mrc4.d[00m
+[00mauditd.conf[00m           [00missue.net[00m             [00;36mrc5.d[00m
+[00maudit.rules[00m           [00;34mjava[00m                  [00;36mrc6.d[00m
+[00mauto.master[00m           [00mjwhois.conf[00m           [00;34mrc.d[00m
+[00mauto.misc[00m             [00;34mkde[00m                   [00;36mrc.local[00m
+[00;32mauto.net[00m              [00mkderc[00m                 [00;36mrc.sysinit[00m
+[00;32mauto.smb[00m              [00;34mkermit[00m                [00;34mredhat-lsb[00m
+[00mbashrc[00m                [00mkrb5.conf[00m             [00;36mredhat-release[00m
+[00mblkid.tab[00m             [00mkrb.conf[00m              [00mresolv.conf[00m
+[00mblkid.tab.old[00m         [00mkrb.realms[00m            [00mresolv.conf.predhclient[00m
+[00;34mbluetooth[00m             [00mksysguarddrc[00m          [00;34mrhgb[00m
+[00;34mbonobo-activation[00m     [00mldap.conf[00m             [00;36mrmt[00m
+[00mcdrecord.conf[00m         [00mld.so.cache[00m           [00mrndc.conf[00m
+[00mcpuspeed.conf[00m         [00mld.so.conf[00m            [00mrndc.key[00m
+[00;34mcron.d[00m                [00;34mld.so.conf.d[00m          [00mrpc[00m
+[00;34mcron.daily[00m            [00mlftp.conf[00m             [00;34mrpm[00m
+[00mcron.deny[00m             [00mlibuser.conf[00m          [00;34msamba[00m
+[00;34mcron.hourly[00m           [00mlisarc[00m                [00;34msane.d[00m
+[00;34mcron.monthly[00m          [00mlocaltime[00m             [00mscreenrc[00m
+[00mcrontab[00m               [00;34mlog.d[00m                 [00mscrollkeeper.conf[00m
+[00;34mcron.weekly[00m           [00mlogin.defs[00m            [00mscsi_id.config[00m
+[00mcsh.cshrc[00m             [00mlogrotate.conf[00m        [00msecuretty[00m
+[00mcsh.login[00m             [00;34mlogrotate.d[00m           [00;34msecurity[00m
+[00;34mcups[00m                  [00mlsb-release[00m           [00;34mselinux[00m
+[00;34mdbus-1[00m                [00mltrace.conf[00m           [00msensors.conf[00m
+[00;34mdefault[00m               [00;34mlvm[00m                   [00mservices[00m
+[00;34mdev.d[00m                 [00;34mmail[00m                  [00msestatus.conf[00m
+[00mDIR_COLORS[00m            [00mmailcap[00m               [00;34msetuptool.d[00m
+[00mDIR_COLORS.xterm[00m      [00mmail.rc[00m               [00;34msgml[00m
+[00mdumpdates[00m             [00;34mmakedev.d[00m             [00mshadow[00m
+[00menscript.cfg[00m          [00mman.config[00m            [00mshadow-[00m
+[00menvironment[00m           [00;34mmgetty+sendfax[00m        [00mshells[00m
+[00mesd.conf[00m              [00mmime.types[00m            [00;34mskel[00m
+[00mexports[00m               [00mminicom.users[00m         [00mslrn.rc[00m
+[00mfb.modes[00m              [00mmodprobe.conf[00m         [00;34msmrsh[00m
+[00mfdprm[00m                 [00mmodprobe.conf~[00m        [00;34msnmp[00m
+[00mfedora-release[00m        [00mmodprobe.conf.dist[00m    [00;34msound[00m
+[00mfilesystems[00m           [00mmotd[00m                  [00;34mssh[00m
+[00;34mfonts[00m                 [00mmtab[00m                  [00;34mstunnel[00m
+[00;34mfoomatic[00m              [00mmtools.conf[00m           [00msudoers[00m
+[00mfstab[00m                 [00mMuttrc[00m                [00;34msysconfig[00m
+[00;34mgaim[00m                  [00mMuttrc.local[00m          [00msysctl.conf[00m
+[00;34mgconf[00m                 [00mnamed.conf[00m            [00msyslog.conf[00m
+[00;34mghostscript[00m           [00;34mnetplug[00m               [00mtermcap[00m
+[00;34mgimp[00m                  [00;34mnetplug.d[00m             [00;34mudev[00m
+[00;34mgnome-vfs-2.0[00m         [00mnscd.conf[00m             [00mupdatedb.conf[00m
+[00mgnome-vfs-mime-magic[00m  [00mnsswitch.conf[00m         [00mvimrc[00m
+[00;34mgnopernicus-1.0[00m       [00;34mntp[00m                   [00mwarnquota.conf[00m
+[00mgpm-root.conf[00m         [00mntp.conf[00m              [00mwgetrc[00m
+[00;34mgre.d[00m                 [00;34mopenldap[00m              [00mwvdial.conf[00m
+[00mgroup[00m                 [00;34mopt[00m                   [00;34mX11[00m
+[00mgroup-[00m                [00;34mpam.d[00m                 [00;34mxdg[00m
+[00;36mgrub.conf[00m             [00mpam_smb.conf[00m          [00;34mxinetd.d[00m
+[00mgshadow[00m               [00;34mpango[00m                 [00;34mxml[00m
+[00mgshadow-[00m              [00mpasswd[00m                [00myp.conf[00m
+[00mgssapi_mech.conf[00m      [00mpasswd-[00m               [00;34myum[00m
+[00;34mgtk[00m                   [00mpasswd.OLD[00m            [00myum.conf[00m
+[00;34mgtk-2.0[00m               [00mpbm2ppa.conf[00m          [00;34myum.repos.d[00m
+[00;34mhal[00m                   [00;34mpcmcia[00m                [00mzlogin[00m
+[00mhost.conf[00m             [00mpinforc[00m               [00mzlogout[00m
+[00mhosts[00m                 [00;34mpki[00m                   [00mzprofile[00m
+[00mhosts.allow[00m           [00mpnm2ppa.conf[00m          [00mzshenv[00m
+[00mhosts.deny[00m            [00;34mppp[00m                   [00mzshrc[00m
+[00;34mhotplug[00m               [00mprelink.cache[00m
+[m]0;Student@localhost:/[Student@localhost /]$ ls
+[00m[00;34mbin[00m   [00;34mdev[00m  [00;34mhome[00m  [00;34mlost+found[00m  [00;34mmisc[00m  [00;34mnet[00m  [00;34mproc[00m  [00;34msbin[00m     [00;34msrv[00m  [00;34mtmp[00m  [00;34mvar[00m
+[00;34mboot[00m  [00;34metc[00m  [00;34mlib[00m   [00;34mmedia[00m       [00;34mmnt[00m   [00;34mopt[00m  [00;34mroot[00m  [00;34mselinux[00m  [00;34msys[00m  [00;34musr[00m
+[m]0;Student@localhost:/[Student@localhost /]$ ls sys
+[00m[00;34mblock[00m  [00;34mbus[00m  [00;34mclass[00m  [00;34mdevices[00m  [00;34mfirmware[00m  [00;34mkernel[00m  [00;34mmodule[00m  [00;34mpower[00m
+[m]0;Student@localhost:/[Student@localhost /]$ find .bash_logout
+find: .bash_logout: No such file or directory
+]0;Student@localhost:/[Student@localhost /]$ ls crv
+[00mls: crv: No such file or directory
+[m]0;Student@localhost:/[Student@localhost /]$ ls crv[1Prvsrv
+[00m[m]0;Student@localhost:/[Student@localhost /]$ ls dev
+[00m[40;33;01madmmidi[00m   [40;33;01mloop4[00m     [40;33;01mram0[00m        [00;36mstdin[00m   [40;33;01mtty31[00m  [40;33;01mtty58[00m   [40;33;01mttyS26[00m  [40;33;01mttyS52[00m   [40;33;01mvcs[00m
+[40;33;01madsp[00m      [40;33;01mloop5[00m     [40;33;01mram1[00m        [00;36mstdout[00m  [40;33;01mtty32[00m  [40;33;01mtty59[00m   [40;33;01mttyS27[00m  [40;33;01mttyS53[00m   [40;33;01mvcs1[00m
+[40;33;01mamidi[00m     [40;33;01mloop6[00m     [40;33;01mram10[00m       [00;36msystty[00m  [40;33;01mtty33[00m  [40;33;01mtty6[00m    [40;33;01mttyS28[00m  [40;33;01mttyS54[00m   [40;33;01mvcs2[00m
+[40;33;01maudio[00m     [40;33;01mloop7[00m     [40;33;01mram11[00m       [40;33;01mtty[00m     [40;33;01mtty34[00m  [40;33;01mtty60[00m   [40;33;01mttyS29[00m  [40;33;01mttyS55[00m   [40;33;01mvcs3[00m
+[00;36mcdrom[00m     [40;33;01mlp0[00m       [40;33;01mram12[00m       [40;33;01mtty0[00m    [40;33;01mtty35[00m  [40;33;01mtty61[00m   [40;33;01mttyS3[00m   [40;33;01mttyS56[00m   [40;33;01mvcs4[00m
+[00;36mcdwriter[00m  [40;33;01mlp1[00m       [40;33;01mram13[00m       [40;33;01mtty1[00m    [40;33;01mtty36[00m  [40;33;01mtty62[00m   [40;33;01mttyS30[00m  [40;33;01mttyS57[00m   [40;33;01mvcs5[00m
+[40;33;01mconsole[00m   [40;33;01mlp2[00m       [40;33;01mram14[00m       [40;33;01mtty10[00m   [40;33;01mtty37[00m  [40;33;01mtty63[00m   [40;33;01mttyS31[00m  [40;33;01mttyS58[00m   [40;33;01mvcs6[00m
+[00;36mcore[00m      [40;33;01mlp3[00m       [40;33;01mram15[00m       [40;33;01mtty11[00m   [40;33;01mtty38[00m  [40;33;01mtty7[00m    [40;33;01mttyS32[00m  [40;33;01mttyS59[00m   [40;33;01mvcs7[00m
+[40;33;01mdmmidi[00m    [00;36mMAKEDEV[00m   [40;33;01mram2[00m        [40;33;01mtty12[00m   [40;33;01mtty39[00m  [40;33;01mtty8[00m    [40;33;01mttyS33[00m  [40;33;01mttyS6[00m    [40;33;01mvcs8[00m
+[40;33;01mdsp[00m       [00;34mmapper[00m    [40;33;01mram3[00m        [40;33;01mtty13[00m   [40;33;01mtty4[00m   [40;33;01mtty9[00m    [40;33;01mttyS34[00m  [40;33;01mttyS60[00m   [40;33;01mvcsa[00m
+[00;36mdvd[00m       [40;33;01mmd0[00m       [40;33;01mram4[00m        [40;33;01mtty14[00m   [40;33;01mtty40[00m  [40;33;01mttyS0[00m   [40;33;01mttyS35[00m  [40;33;01mttyS61[00m   [40;33;01mvcsa1[00m
+[40;33;01mevent0[00m    [40;33;01mmem[00m       [40;33;01mram5[00m        [40;33;01mtty15[00m   [40;33;01mtty41[00m  [40;33;01mttyS1[00m   [40;33;01mttyS36[00m  [40;33;01mttyS62[00m   [40;33;01mvcsa2[00m
+[40;33;01mevent1[00m    [40;33;01mmice[00m      [40;33;01mram6[00m        [40;33;01mtty16[00m   [40;33;01mtty42[00m  [40;33;01mttyS10[00m  [40;33;01mttyS37[00m  [40;33;01mttyS63[00m   [40;33;01mvcsa3[00m
+[00;36mfd[00m        [40;33;01mmidi[00m      [40;33;01mram7[00m        [40;33;01mtty17[00m   [40;33;01mtty43[00m  [40;33;01mttyS11[00m  [40;33;01mttyS38[00m  [40;33;01mttyS64[00m   [40;33;01mvcsa4[00m
+[40;33;01mfd0[00m       [40;33;01mmixer[00m     [40;33;01mram8[00m        [40;33;01mtty18[00m   [40;33;01mtty44[00m  [40;33;01mttyS12[00m  [40;33;01mttyS39[00m  [40;33;01mttyS65[00m   [40;33;01mvcsa5[00m
+[00;36mfloppy[00m    [40;33;01mmouse0[00m    [40;33;01mram9[00m        [40;33;01mtty19[00m   [40;33;01mtty45[00m  [40;33;01mttyS13[00m  [40;33;01mttyS4[00m   [40;33;01mttyS66[00m   [40;33;01mvcsa6[00m
+[40;33;01mfull[00m      [40;33;01mmouse1[00m    [00;36mramdisk[00m     [40;33;01mtty2[00m    [40;33;01mtty46[00m  [40;33;01mttyS14[00m  [40;33;01mttyS40[00m  [40;33;01mttyS67[00m   [40;33;01mvcsa7[00m
+[00;35mgpmctl[00m    [00;34mnet[00m       [40;33;01mrandom[00m      [40;33;01mtty20[00m   [40;33;01mtty47[00m  [40;33;01mttyS15[00m  [40;33;01mttyS41[00m  [40;33;01mttyS68[00m   [40;33;01mvcsa8[00m
+[40;33;01mhda[00m       [40;33;01mnull[00m      [40;33;01mroot[00m        [40;33;01mtty21[00m   [40;33;01mtty48[00m  [40;33;01mttyS16[00m  [40;33;01mttyS42[00m  [40;33;01mttyS69[00m   [00;36mX0R[00m
+[40;33;01mhiddev0[00m   [00;36mpar0[00m      [40;33;01mrtc[00m         [40;33;01mtty22[00m   [40;33;01mtty49[00m  [40;33;01mttyS17[00m  [40;33;01mttyS43[00m  [40;33;01mttyS7[00m    [00;36mXOR[00m
+[40;33;01mhpet[00m      [40;33;01mparport0[00m  [40;33;01msda[00m         [40;33;01mtty23[00m   [40;33;01mtty5[00m   [40;33;01mttyS18[00m  [40;33;01mttyS44[00m  [40;33;01mttyS70[00m   [40;33;01mzero[00m
+[40;33minitctl[00m   [40;33;01mparport1[00m  [40;33;01msda1[00m        [40;33;01mtty24[00m   [40;33;01mtty50[00m  [40;33;01mttyS19[00m  [40;33;01mttyS45[00m  [40;33;01mttyS71[00m
+[00;34minput[00m     [40;33;01mparport2[00m  [40;33;01msda2[00m        [40;33;01mtty25[00m   [40;33;01mtty51[00m  [40;33;01mttyS2[00m   [40;33;01mttyS46[00m  [40;33;01mttyS72[00m
+[40;33;01mkmsg[00m      [40;33;01mparport3[00m  [40;33;01msda3[00m        [40;33;01mtty26[00m   [40;33;01mtty52[00m  [40;33;01mttyS20[00m  [40;33;01mttyS47[00m  [40;33;01mttyS73[00m
+[00;35mlog[00m       [40;33;01mport[00m      [40;33;01msequencer[00m   [40;33;01mtty27[00m   [40;33;01mtty53[00m  [40;33;01mttyS21[00m  [40;33;01mttyS48[00m  [40;33;01mttyS74[00m
+[40;33;01mloop0[00m     [40;33;01mppp[00m       [40;33;01msequencer2[00m  [40;33;01mtty28[00m   [40;33;01mtty54[00m  [40;33;01mttyS22[00m  [40;33;01mttyS49[00m  [40;33;01mttyS75[00m
+[40;33;01mloop1[00m     [40;33;01mptmx[00m      [00;34mshm[00m         [40;33;01mtty29[00m   [40;33;01mtty55[00m  [40;33;01mttyS23[00m  [40;33;01mttyS5[00m   [40;33;01mttyS8[00m
+[40;33;01mloop2[00m     [00;34mpts[00m       [00;34msnd[00m         [40;33;01mtty3[00m    [40;33;01mtty56[00m  [40;33;01mttyS24[00m  [40;33;01mttyS50[00m  [40;33;01mttyS9[00m
+[40;33;01mloop3[00m     [00;36mram[00m       [00;36mstderr[00m      [40;33;01mtty30[00m   [40;33;01mtty57[00m  [40;33;01mttyS25[00m  [40;33;01mttyS51[00m  [40;33;01murandom[00m
+[m]0;Student@localhost:/[Student@localhost /]$ ls 
+[00m[00;34mbin[00m   [00;34mdev[00m  [00;34mhome[00m  [00;34mlost+found[00m  [00;34mmisc[00m  [00;34mnet[00m  [00;34mproc[00m  [00;34msbin[00m     [00;34msrv[00m  [00;34mtmp[00m  [00;34mvar[00m
+[00;34mboot[00m  [00;34metc[00m  [00;34mlib[00m   [00;34mmedia[00m       [00;34mmnt[00m   [00;34mopt[00m  [00;34mroot[00m  [00;34mselinux[00m  [00;34msys[00m  [00;34musr[00m
+[m]0;Student@localhost:/[Student@localhost /]$ ls pot
+[00mls: pot: No such file or directory
+[m]0;Student@localhost:/[Student@localhost /]$ ls opt
+[00m[m]0;Student@localhost:/[Student@localhost /]$ ls vi .bash_logouit[K[Kt
+[00mls: vi: No such file or directory
+ls: .bash_logout: No such file or directory
+[m]0;Student@localhost:/[Student@localhost /]$ ls vi .bash_logout[1P[1P[1P
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".bash_logout" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:/[Student@localhost /]$ cd ..
+]0;Student@localhost:/[Student@localhost /]$ ls
+[00m[00;34mbin[00m   [00;34mdev[00m  [00;34mhome[00m  [00;34mlost+found[00m  [00;34mmisc[00m  [00;34mnet[00m  [00;34mproc[00m  [00;34msbin[00m     [00;34msrv[00m  [00;34mtmp[00m  [00;34mvar[00m
+[00;34mboot[00m  [00;34metc[00m  [00;34mlib[00m   [00;34mmedia[00m       [00;34mmnt[00m   [00;34mopt[00m  [00;34mroot[00m  [00;34mselinux[00m  [00;34msys[00m  [00;34musr[00m
+[m]0;Student@localhost:/[Student@localhost /]$ cd home
+]0;Student@localhost:/home[Student@localhost home]$ ls
+[00m[00;34mStudent[00m
+[m]0;Student@localhost:/home[Student@localhost home]$ cd Stundet[K[K[K[Kdent
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m  [00mfile3[00m             [00mgrady.L3.IV.txt[00m  [00mgrady.L5.V.txt[00m
+[00;34mbackups[00m      [00mfile3.bak[00m         [00mgrady.L4.II.txt[00m  [00mgrady.lab2.session.txt[00m
+[00;34mbusLetters[00m   [00mfile4[00m             [00mgrady.L4.I.txt[00m   [00mgtsbrgII.txt[00m
+[00;34mchapter_4[00m    [00mfile5[00m             [00mgrady.L5.II.txt[00m  [00mgtsybrgII.txt[00m
+[00;34mDesktop[00m      [00mgrady.L3.IIItxt[00m   [00mgrady.L5.I.txt[00m   [00mgtysbrg.txt[00m
+[00mfile1[00m        [00mgrady.L3.III.txt[00m  [00mgrady.L5.IV.txt[00m  [00;34mletters[00m
+[00mfile2[00m        [00mgrady.L3.II.txt[00m   [00mgrady.L5.VI.txt[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ vi .[K,[K.bac[Ksh_logotu[K[Kut
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".bash_logout" 3L, 24C[1;1H[34m# ~/.bash_logout[m
+
+[33mclear[m
+[1m[34m~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Wed 26 Apr 2006 05:02:38 PM EDT

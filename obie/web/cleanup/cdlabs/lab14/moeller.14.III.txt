@@ -1,0 +1,182 @@
+Script started on Mon 08 May 2006 10:21:38 PM EDT
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat jmls
+#! /bin/bash
+# Script: jmls
+# Purpose: To print any 3 columns of the ls command that we want.
+
+
+if (( $# != 3 ))
+then 
+	echo "Must have three arguments"
+exit 1
+fi
+
+if [[ $1 != [0-9] || $2 != [0-9] || $3 != [0-9] ]]
+then 
+	echo "All arguments must be numerical and equal to or less than 9"
+exit 2
+fi
+
+
+ls -l | sed 's/  / /g' | sed 's/  / /g' | sed 's/  / /g' |  cut -d" " -f$1,$2,$3
+
+
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmls 
+Must have three arguments
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jm [Kls 2
+Must have three arguments
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmls 7 4
+Must have three arguments
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmls a 4 7
+All arguments must be numerical and equal to or less than 9
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmls b c 3
+All arguments must be numerical and equal to or less than 9
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmls 14 9 3
+All arguments must be numerical and equal to or less than 9
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmls 1 4 5
+total
+-rw-rw-r-- moellerja 30
+drwxrwxr-x moellerja 4096
+-rw-rw-r-- moellerja 0
+-rw-rw-r-- moellerja 425
+-rw-rw-r-- moellerja 422
+-rw-rw-r-- moellerja 213
+-rw-rw-r-- moellerja 209
+-rw-rw-r-- moellerja 40
+-rw-rw-r-- moellerja 430
+-rw-rw-r-- moellerja 232
+-rw-rw-r-- moellerja 64
+-rw-rw-r-- moellerja 502
+-rw-rw-r-- moellerja 91
+-rw-rw-r-- moellerja 85
+-rw-rw-r-- moellerja 288
+-rw-rw-r-- moellerja 358
+-rw-rw-r-- moellerja 36
+-rw-rw-r-- moellerja 474
+-rw-rw-r-- moellerja 54
+-rw-rw-r-- moellerja 103
+-rw-rw-r-- moellerja 70
+-rw-rw-r-- moellerja 247
+-rw-rw-r-- moellerja 178
+-rw-rw-r-- moellerja 99
+-rw-rw-r-- moellerja 99
+-rw-rw-r-- moellerja 28
+-rw-rw-r-- moellerja 224
+-rw-rw-r-- moellerja 83
+-rw-rw-r-- moellerja 63
+-rw-rw-r-- moellerja 52
+-rw-rw-r-- moellerja 285
+-rw-rw-r-- moellerja 122
+-rw-rw-r-- moellerja 279
+-rw-rw-r-- moellerja 35
+-rw-rw-r-- moellerja 27
+-rw-rw-r-- moellerja 73
+-rw-rw-r-- moellerja 82
+-rw-rw-r-- moellerja 7
+-rwxrw-r-- moellerja 488
+-rwxrw-r-- moellerja 384
+drwxrwxr-x moellerja 4096
+drwxrwxr-x moellerja 4096
+drwxrwxr-x moellerja 4096
+drwxrwxr-x moellerja 4096
+drwxrwxr-x moellerja 4096
+-rw-rw-r-- moellerja 4284
+-rw-rw-r-- moellerja 4284
+-rw-rw-r-- moellerja 4445
+-rw-rw-r-- moellerja 5476
+-rw-rw-r-- moellerja 3759
+-rw-rw-r-- moellerja 3831
+-rw-rw-r-- moellerja 2703
+-rw-rw-r-- moellerja 2284
+-rw-rw-r-- moellerja 0
+-rw-rw-r-- moellerja 3183
+-rw-rw-r-- moellerja 1508
+-rw-rw-r-- moellerja 570
+-rw-rw-r-- moellerja 39
+-rw-rw-r-- moellerja 19
+-rw-rw-r-- moellerja 71
+drwxrwxr-x moellerja 4096
+-rwxrw-r-- moellerja 664
+-rw-rw-r-- moellerja 32
+-rw-rw-r-- moellerja 765
+-rw-rw-r-- moellerja 73
+-rw-rw-r-- moellerja 70
+-rw-rw-r-- moellerja 908
+-rw-rw-r-- moellerja 54
+-rw-rw-r-- moellerja 91
+-rw-rw-r-- moellerja 0
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmls 371[K[K 7 1
+total
+-rw-rw-r-- moellerja 3
+drwxrwxr-x moellerja 8
+-rw-rw-r-- moellerja 2
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 5
+-rw-rw-r-- moellerja 5
+-rw-rw-r-- moellerja 5
+-rw-rw-r-- moellerja 5
+-rw-rw-r-- moellerja 5
+-rw-rw-r-- moellerja 5
+-rw-rw-r-- moellerja 5
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 3
+-rw-rw-r-- moellerja 3
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 8
+-rwxrw-r-- moellerja 8
+-rwxrw-r-- moellerja 8
+drwxrwxr-x moellerja 2
+drwxrwxr-x moellerja 2
+drwxrwxr-x moellerja 2
+drwxrwxr-x moellerja 4
+drwxrwxr-x moellerja 4
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 5
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 5
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 1
+-rw-rw-r-- moellerja 1
+-rw-rw-r-- moellerja 3
+-rw-rw-r-- moellerja 7
+-rw-rw-r-- moellerja 4
+drwxrwxr-x moellerja 1
+-rwxrw-r-- moellerja 8
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 8
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+-rw-rw-r-- moellerja 4
+]0;moellerja@cs:~[moellerja@cs moellerja]$ exit
+
+Script done on Mon 08 May 2006 10:23:21 PM EDT

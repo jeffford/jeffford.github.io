@@ -1,0 +1,55 @@
+Script started on Sun 30 Apr 2006 01:04:07 PM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat > Ch6S6F1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch6S6F1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67
+]0;prattjk@cs:~[prattjk@cs prattjk]$ vi Ch6S5[K6F1
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"Ch6S6F1" 9L, 107C[1;1HCIS     15      1[7C45
+CIS     54      1[7C20
+BUS     34      2[7C20
+ENG     11      2[7C89
+CIS     45      1[7C38
+MTH     35      1[7C56
+MTH     35      2[7C41
+PE      17      2[7C25
+CIS     54      2[7C67
+[1m[34m~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H2,1[11CAll[2;1H[?25h[?25l[24;1H[K[24;1H:[?25hq[?25l[?25h[?25l[24;1H[K[24;1H[?1l>[?25h[?1047l[?1048l]0;prattjk@cs:~[prattjk@cs prattjk]$ sort +0 -1 +1 [Kn -2 +2n -3 0,[K< Ch6S6F1 1> Ch6S6F1.srt
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch6S6F1.srt
+BUS	34	2	20
+CIS	15	1	45
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+ENG	11	2	89
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch6S5[K6F1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67
+]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+
+Script done on Sun 30 Apr 2006 01:08:14 PM EDT

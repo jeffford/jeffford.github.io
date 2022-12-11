@@ -1,0 +1,68 @@
+Script started on Tue 09 May 2006 06:30:23 PM EDT
+]0;Student@localhost:~/backups[Student@localhost backups]$ ykls
+need 3 arguments
+]0;Student@localhost:~/backups[Student@localhost backups]$ ykls 2
+need 3 arguments
+]0;Student@localhost:~/backups[Student@localhost backups]$ ykls 2 3
+need 3 arguments
+]0;Student@localhost:~/backups[Student@localhost backups]$ ykls 2 3 1[Ka
+must be numerical number and less than 10
+]0;Student@localhost:~/backups[Student@localhost backups]$ ykls 2 3 a[1P ar a
+must be numerical number and less than 10
+]0;Student@localhost:~/backups[Student@localhost backups]$ ykls 2 r a[1P a4 a[Student@localhost backups]$ ykls 2 4 [K10
+must be numerical number and less than 10
+]0;Student@localhost:~/backups[Student@localhost backups]$ ykls 2 4 10[1P[4h1[4l[Student@localhost backups]$ ykls 1 [Student@localhost backups]$ ykls 1 4[Student@localhost backups]$ ykls 1 4 [1P0[K5
+total		
+-rw-rw-r--	Student	94
+-rwxr-xr-x	Student	16
+-rwxr-xr-x	Student	46
+-rw-rw-r--	Student	0
+-rw-rw-r--	Student	73
+-rw-rw-r--	Student	105
+-rw-rw-r--	Student	79
+-rw-rw-r--	Student	149
+-rw-rw-r--	Student	0
+-rw-rw-r--	Student	396
+-rwxr-xr-x	Student	162
+-rwxr-xr-x	Student	188
+-rwxr-xr-x	Student	189
+-rwxr-xr-x	Student	351
+]0;Student@localhost:~/backups[Student@localhost backups]$ ykls 1 4 5[1P[4h3[4l[Student@localhost backups]$ ykls 3 [Student@localhost backups]$ ykls 3 4[1P5[K[K7 b1[K[K1
+		total
+Student	9	-rw-rw-r--
+Student	9	-rwxr-xr-x
+Student	9	-rwxr-xr-x
+Student	9	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	9	-rwxr-xr-x
+Student	9	-rwxr-xr-x
+Student	9	-rwxr-xr-x
+Student	9	-rwxr-xr-x
+
+]0;Student@localhost:~/backups[Student@localhost backups]$ cat ys[Kkls
+#! /bin/bash
+# Script: ykls
+
+if (( $# != 3 ))
+then
+	echo "need 3 arguments"
+elif [[ $1 != [0-9] || $2 != [0-9] || $3 != [0-9] ]]
+then
+	echo "must be numerical number and less than 10"
+else
+
+ls -l | sed 's/[ ][ ]*/ /g' >list.mod
+cut -d" " -f$1 list.mod >list1 
+cut -d" " -f$2 list.mod >list2 
+cut -d" " -f$3 list.mod >list3
+paste list1 list2 list3
+fi
+
+]0;Student@localhost:~/backups[Student@localhost backups]$ exit
+
+Script done on Tue 09 May 2006 06:34:16 PM EDT

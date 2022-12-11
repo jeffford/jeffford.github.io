@@ -1,0 +1,193 @@
+#include <iostream>
+#include <omp.h>
+#ifdef WINDOWS
+#include <windows.h> 
+#endif
+
+#define SIZE 100
+
+using namespace std;
+
+// C++ version of a simple stack using omp_nest_locks
+// This example is NOT intended to show how to create a concurrent stack
+// it shows the issues that arise with critical sections and how to implement sameidea using nest_locks
+// when a thread locks itself out by nested calls
+// such as peek () having critical section then calling pop() that has same critical section
+// a work around is to assign ownership at the highest level function - peek
+// and test ownership before reacquring same lock by same thread
+
+template <class T>
+class StackNestedLocks {
+public:
+
+   StackNestedLocks()	
+   {
+      index = -1;
+   };
+
+   bool isEmpty()
+   {  
+      bool test;
+      test = ( index==-1);
+	  return test;
+   };
+
+   void push(T i)
+   {
+	  array[++index] = i;
+   };
+   T pop()
+   {
+      int tmp;
+      tmp = array[index--];
+      return tmp;
+   };
+   T peek()
+   { 
+      //return array[index];
+	  int tmp;
+	  {
+      tmp = pop();
+	  push(tmp);
+	  }
+	  return tmp;
+   };
+
+   ~StackNestedLocks()
+   {
+   };
+
+private:
+   int index;
+   bool owner;
+   T array[SIZE]; 
+};
+ 
+
+
+// C++ version of a simple stack using critical sections
+// This example is NOT intended to show how to create a concurrent stack
+// it shows the issues that arise with critical sections
+// when a thread locks itself out by nested calls
+// such as peek () having critical section then calling pop() that has same critical section
+// a work around is to assign ownership at the highest level function - peek
+// and test ownership before reacquring same lock by same thread
+
+template <class T>
+class StackCriticalSections {
+public:
+   StackCriticalSections()	
+   {
+      owner = false;
+      index = -1;
+   };
+
+   bool isEmpty()
+   { 
+      return index==-1;
+   };
+
+   void push(T i)
+   {
+	  if (owner == true) {
+	     array[++index] = i;
+	  } else {
+		 {
+		    array[++index] = i;
+		 }
+	  }
+   };
+   T pop()
+   {
+      int tmp;
+	  if (owner == true) {
+         tmp = array[index--];
+	  } else {
+	     {
+	        tmp = array[index--];
+	     }
+	  }
+
+
+      return tmp;
+   };
+   T peek()
+   { 
+      //return array[index];
+	  int tmp;
+	  {
+	  owner = true;
+      tmp = pop();
+	  push(tmp);
+	  owner = false;
+	  }
+	  return tmp;
+   };
+private:
+   int index;
+   bool owner;
+   T array[SIZE]; 
+};
+
+
+
+int main()
+{
+   StackNestedLocks<int> myIntStackNestedLocks;
+   cout << "Initializing Stack for serial access" << endl;
+   myIntStackNestedLocks.push(31);
+   myIntStackNestedLocks.push(29);
+   myIntStackNestedLocks.push(27);
+   myIntStackNestedLocks.pop();
+   cout << myIntStackNestedLocks.peek() << endl;
+
+   cout << endl << "Initializing Stack for parallel access using omp_nest_locks" << endl;
+   cout << "Note: stack order may (likely will) be different from serial order" << endl;
+   cout << "Note: what we are testing is whether or not we deadlock" << endl;
+
+#pragma omp parallel sections
+   {
+#pragma omp section
+   myIntStackNestedLocks.push(31);
+#pragma omp section
+   myIntStackNestedLocks.push(29);
+#pragma omp section
+   myIntStackNestedLocks.push(27);
+#pragma omp section
+   myIntStackNestedLocks.pop();
+   }
+   cout << myIntStackNestedLocks.peek() << endl;
+
+
+
+
+
+   StackCriticalSections<int> myIntStackCriticalSections;
+   cout << "\n\nInitializing Stack for serial access" << endl;
+   myIntStackCriticalSections.push(31);
+   myIntStackCriticalSections.push(29);
+   myIntStackCriticalSections.push(27);
+   myIntStackCriticalSections.pop();
+   cout << myIntStackCriticalSections.peek() << endl;
+
+   cout << endl << "Initializing Stack for parallel access using omp critical sections" << endl;
+   cout << "Note: stack order may (likely will) be different from serial order" << endl;
+   cout << "Note: what we are testing is whether or not we deadlock" << endl;
+
+#pragma omp parallel sections
+   {
+#pragma omp section
+   myIntStackCriticalSections.push(31);
+#pragma omp section
+   myIntStackCriticalSections.push(29);
+#pragma omp section
+   myIntStackCriticalSections.push(27);
+#pragma omp section
+   myIntStackCriticalSections.pop();
+   }
+   cout << myIntStackCriticalSections.peek() << endl;
+
+
+return 0;
+}
+

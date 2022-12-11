@@ -1,0 +1,25 @@
+2. groups => Student
+
+3. umask 077
+   The default permission for files chage 600 (rw- --- ---)
+
+4. mkdir chapter_4
+
+5. ls -dl chapter_4 
+	=> drwx------  2 Student Student 4096 Apr 24 16:37 chapter_4
+	It is 700
+
+6. mkdir ./chapter_4/session_I
+
+7.ls -dl ./chapter_4/session_I
+	=> drwx------  2 Student Student 4096 Apr 24 16:43 ./chapter_4/session_I
+	It is 700
+
+8. cd ./chapter_4/session_I
+
+9. vi hw_4_1
+
+10. Esc and :wq
+
+11. ls -l hw_4_1
+	=> permission for file is 600 because when the file or directory is created, the permission set 777 for directory and 666 for file

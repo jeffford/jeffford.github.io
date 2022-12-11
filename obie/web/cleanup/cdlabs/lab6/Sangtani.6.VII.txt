@@ -1,0 +1,284 @@
+Script started on Sun 30 Apr 2006 07:29:28 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cp /etc/pass[K[K[K[K[K[K[K[K[K[K[Kat /etc/passwd ?[K> Ch6S7F1
+]0;Student@localhost:~[Student@localhost ~]$ c[Kcat Ch[K[K[K[K[K[Kcat /etc/passwd > Ch6S7F1[1PCh6S7F1[1PCh6S7F1[1PCh6S7F1[1PCh6S7F1[1PCh6S7F1[1PCh6S7F1[1PCh6S7F1[1PCh6S7F1[1PCh6S7F1[1PCh6S7F1[1PCh6S7F1[1PCh6S7F1[1PCh6S7F1[1PCh6S7F1[Student@localhost ~]$ cat Ch6S7F1
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ wc Ch[K[K-l Ch6S7F1
+34 Ch6S7F1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,3 -d":" Ch6S7F1 > Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,3 -d":" Ch6S7F1 > Ch6S7F2[Student@localhost ~]$ [20Pwc -l Ch6S7F1cut -f1,3 -d":" Ch6S7F1 > Ch6S7F2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat Ch6S7F2
+root:0
+bin:1
+daemon:2
+adm:3
+lp:4
+sync:5
+shutdown:6
+halt:7
+mail:8
+news:9
+uucp:10
+operator:11
+games:12
+gopher:13
+ftp:14
+nobody:99
+dbus:81
+vcsa:69
+rpm:37
+haldaemon:68
+pcap:77
+nscd:28
+named:25
+netdump:34
+sshd:74
+rpc:32
+mailnull:47
+smmsp:51
+rpcuser:29
+nfsnobody:65534
+xfs:43
+ntp:38
+gdm:42
+Student:500
+]0;Student@localhost:~[Student@localhost ~]$ sort +0[K[K-t':"[K' -1 Ch6S7F2 [K
+sort: invalid option -- 1
+Try `sort --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ sort -t':' -1 Ch6S7F2[1P[4h+[4l[Student@localhost ~]$ sort -t':' +1[Student@localhost ~]$ sort -t':' +1 [Student@localhost ~]$ sort -t':' +1 C[Student@localhost ~]$ sort -t':' +1 Ch[Student@localhost ~]$ sort -t':' +1 Ch6[Student@localhost ~]$ sort -t':' +1 Ch6S[Student@localhost ~]$ sort -t':' +1 Ch6S7[Student@localhost ~]$ sort -t':' +1 Ch6S7F[Student@localhost ~]$ sort -t':' +1 Ch6S7F2
+root:0
+bin:1
+uucp:10
+operator:11
+games:12
+gopher:13
+ftp:14
+daemon:2
+named:25
+nscd:28
+rpcuser:29
+adm:3
+rpc:32
+netdump:34
+rpm:37
+ntp:38
+lp:4
+gdm:42
+xfs:43
+mailnull:47
+sync:5
+Student:500
+smmsp:51
+shutdown:6
+nfsnobody:65534
+haldaemon:68
+vcsa:69
+halt:7
+sshd:74
+pcap:77
+mail:8
+dbus:81
+news:9
+nobody:99
+]0;Student@localhost:~[Student@localhost ~]$ sort -t':' +1 Ch6S7F2[Student@localhost ~]$ sort -t[Student@localhost ~]$ sort -t'[Student@localhost ~]$ sort -t':[Student@localhost ~]$ sort -t':'[Student@localhost ~]$ sort -t':' [1P[1P[1P[1P[1P[1P[1P[1P[1P Ch6S7F2[Student@localhost ~]$ sort [Student@localhost ~]$ sort C[Student@localhost ~]$ sort Ch[Student@localhost ~]$ sort Ch6[Student@localhost ~]$ sort Ch6S[Student@localhost ~]$ sort Ch6S7[Student@localhost ~]$ sort Ch6S7F[Student@localhost ~]$ sort Ch6S7F2
+adm:3
+bin:1
+daemon:2
+dbus:81
+ftp:14
+games:12
+gdm:42
+gopher:13
+haldaemon:68
+halt:7
+lp:4
+mail:8
+mailnull:47
+named:25
+netdump:34
+news:9
+nfsnobody:65534
+nobody:99
+nscd:28
+ntp:38
+operator:11
+pcap:77
+root:0
+rpc:32
+rpcuser:29
+rpm:37
+shutdown:6
+smmsp:51
+sshd:74
+Student:500
+sync:5
+uucp:10
+vcsa:69
+xfs:43
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S7F2[1P[1P[1P[4hc[4l[4ha[4l[Student@localhost ~]$ cat Ch6S7F2
+root:0
+bin:1
+daemon:2
+adm:3
+lp:4
+sync:5
+shutdown:6
+halt:7
+mail:8
+news:9
+uucp:10
+operator:11
+games:12
+gopher:13
+ftp:14
+nobody:99
+dbus:81
+vcsa:69
+rpm:37
+haldaemon:68
+pcap:77
+nscd:28
+named:25
+netdump:34
+sshd:74
+rpc:32
+mailnull:47
+smmsp:51
+rpcuser:29
+nfsnobody:65534
+xfs:43
+ntp:38
+gdm:42
+Student:500
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F2[4hs[4lor[Student@localhost ~]$ sort Ch6S7F2 < cat Ch6S7F2>Ch6S7F2 Ch6S7F2[Student@localhost ~]$ sort Ch6S7F2 < cat > C[Student@localhost ~]$ sort Ch6S7F2 < cat > Ch[Student@localhost ~]$ sort Ch6S7F2 < cat > Ch6[Student@localhost ~]$ sort Ch6S7F2 < cat > Ch6S[Student@localhost ~]$ sort Ch6S7F2 < cat > Ch6S7[Student@localhost ~]$ sort Ch6S7F2 < cat > Ch6S7F[Student@localhost ~]$ sort Ch6S7F2 < cat > Ch6S7F2
+bash: cat: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S7F2 < cat > Ch6S7F2[Student@localhost ~]$ [Ksort Ch6S7F2 < cat > Ch6S7F2[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[Student@localhost ~]$ c[Student@localhost ~]$ ca[Student@localhost ~]$ cat[Student@localhost ~]$ cat [4h0[4l[Student@localhost ~]$ cat 0>[Student@localhost ~]$ cat 0> [Student@localhost ~]$ cat 0>[1P Ch6S7F2[1P Ch6S7F2[1PCh6S7F2[1P Ch6S7F2[1P Ch6S7F2[1P Ch6S7F2[1PCh6S7F2[1Ph6S7F2[1P6S7F2[1PS7F2[1P7F2[1PF2[1P2[Ksort Ch67[KS7F2 | car [K[Kt Ch67[KS7F2>Ch6S7F2 Ch6S7F2[Student@localhost ~]$ sort Ch6S7F2 | cat > C[Student@localhost ~]$ sort Ch6S7F2 | cat > Ch[Student@localhost ~]$ sort Ch6S7F2 | cat > Ch6[Student@localhost ~]$ sort Ch6S7F2 | cat > Ch6S[Student@localhost ~]$ sort Ch6S7F2 | cat > Ch6S7[Student@localhost ~]$ sort Ch6S7F2 | cat > Ch6S7F[Student@localhost ~]$ sort Ch6S7F2 | cat > Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ v[Kcat[K[K[Ksort Ch6S7F2 | cat > Ch6S7F2<[Student@localhost ~]$ sort Ch6S7F2 < cat > Ch6S7F2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat S[KCh6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F2[4hsort Ch6S7F2 | ca[4lt >[Student@localhost ~]$ sort Ch6S7F2 | cat > Ch6S7F2<[Student@localhost ~]$ sort Ch6S7F2 < cat > Ch6S7F2[Student@localhost ~]$ [17Pcat[Student@localhost ~]$ cat Ch6S7F2[4hs[4lor[Student@localhost ~]$ sort Ch6S7F2-t':' +1 Ch6S7F2-[Student@localhost ~]$ sort -t':' -1 Ch6S7F2[10Pcat[Student@localhost ~]$ cat Ch6S7F2[4hut -f1,3 -d":" Ch6S7F1[4l >[Student@localhost ~]$ cut -f1,3 -d":" Ch6S7F1 > Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,3 -d":" Ch6S7F1 > Ch6S7F2[Student@localhost ~]$ cat Ch6S7F2[K[4hsort Ch6S7F2 | ca[4lt >[Student@localhost ~]$ sort Ch6S7F2 | cat > Ch6S7F2[K[K[K[K[K[K[K[K Ch6S7F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F2[K3 > Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F3 > Ch6S7F2sort Ch6S7F2 | cat > Ch6S7F3[Student@localhost ~]$ cut -f1,3 -d":" Ch6S7F1 > Ch6S7F2[Student@localhost ~]$ cat Ch6S7F2[K
+adm:3
+bin:1
+daemon:2
+dbus:81
+ftp:14
+games:12
+gdm:42
+gopher:13
+haldaemon:68
+halt:7
+lp:4
+mail:8
+mailnull:47
+named:25
+netdump:34
+news:9
+nfsnobody:65534
+nobody:99
+nscd:28
+ntp:38
+operator:11
+pcap:77
+root:0
+rpc:32
+rpcuser:29
+rpm:37
+shutdown:6
+smmsp:51
+sshd:74
+Student:500
+sync:5
+uucp:10
+vcsa:69
+xfs:43
+]0;Student@localhost:~[Student@localhost ~]$ head Ch[K[K-11 Ch6S7F2 > Chj[K[K[Kfirstlines
+]0;Student@localhost:~[Student@localhost ~]$ he[K[Ktail +11 [K[K[K[K-22 [K[K[K[K[K[K[K[K[Khead -22 Ch6S7F2 | tail -11[K[K[K+11 > middlelines
+]0;Student@localhost:~[Student@localhost ~]$ tail -11 [K[K2 Ch67[KS7F2 >lastlines lastlines[Student@localhost ~]$ tail -12 Ch6S7F2 > lastlines
+]0;Student@localhost:~[Student@localhost ~]$ paste firstlines middlelines lastlines > Ch6S7F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F3
+adm:3	lp:4	root:0
+bin:1	mail:8	rpc:32
+daemon:2	mailnull:47	rpcuser:29
+dbus:81	named:25	rpm:37
+ftp:14	netdump:34	shutdown:6
+games:12	news:9	smmsp:51
+gdm:42	nfsnobody:65534	sshd:74
+gopher:13	nobody:99	Student:500
+haldaemon:68	nscd:28	sync:5
+halt:7	ntp:38	uucp:10
+lp:4	operator:11	vcsa:69
+	pcap:77	xfs:43
+]0;Student@localhost:~[Student@localhost ~]$ cat firstk[Klines
+adm:3
+bin:1
+daemon:2
+dbus:81
+ftp:14
+games:12
+gdm:42
+gopher:13
+haldaemon:68
+halt:7
+lp:4
+]0;Student@localhost:~[Student@localhost ~]$ cate[K middlelines
+lp:4
+mail:8
+mailnull:47
+named:25
+netdump:34
+news:9
+nfsnobody:65534
+nobody:99
+nscd:28
+ntp:38
+operator:11
+pcap:77
+]0;Student@localhost:~[Student@localhost ~]$ cat lastlines
+root:0
+rpc:32
+rpcuser:29
+rpm:37
+shutdown:6
+smmsp:51
+sshd:74
+Student:500
+sync:5
+uucp:10
+vcsa:69
+xfs:43
+]0;Student@localhost:~[Student@localhost ~]$ cat lastlinesmiddlelines[1Pfirstlines[3PCh6S7F3[4hpaste firstlines middlelines lastline[4ls >[Student@localhost ~]$ paste firstlines middlelines lastlines > Ch6S7F3[Student@localhost ~]$ [20Ptail -12 Ch6S7F2 > lastlines[Student@localhost ~]$ head -22 Ch6S7F2 | tail +11 > middlelines[Student@localhost ~]$ head -22 Ch6S7F2 | tail +11[1P[4h0[4l[Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 [Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 >[Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 > [Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 > m[Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 > mi[Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 > mid[Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 > midd[Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 > middl[Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 > middle[Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 > middlel[Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 > middleli[Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 > middlelin[Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 > middleline[Student@localhost ~]$ head -22 Ch6S7F2 | tail +10 > middlelines[1P[4h2[4l[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 [Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 >[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > [Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > m[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > mi[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > mid[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > midd[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > middl[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > middle[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > middlel[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > middleli[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > middlelin[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > middleline[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > middlelines
+]0;Student@localhost:~[Student@localhost ~]$ head -22 Ch6S7F2 | tail +12 > middlelines[Student@localhost ~]$ cat lastlines[Kmiddlelines[1Pfirstlines[3PCh6S7F3[4hpaste firstlines middlelines lastline[4ls >[Student@localhost ~]$ paste firstlines middlelines lastlines > Ch6S7F3
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Sun 30 Apr 2006 08:18:02 AM EDT

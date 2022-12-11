@@ -1,0 +1,62 @@
+Script started on Sat 06 May 2006 10:26:57 PM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat > Ch11S1F1
+John  Adams   55
+George Bull 77
+Anne Blue    99
+Janet  blue 67
+Ben Bn enjamin     78
+Ted White 32
+]0;prattjk@cs:~[prattjk@cs prattjk]$ vi Ch11S1F1
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"Ch11S1F1" 6L, 96C[1;1HJohn  Adams   55
+George Bull 77
+Anne Blue    99
+Janet  blue 67
+Ben Benjamin     78
+Ted White 32
+[1m[34m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?25h[?25l[24;63H2[2;1H[?25h[?25l[24;63H3[3;1H[?25h[?25l[24;63H4[4;1H[?25h[?25l[24;65H2[4;2H[?25h[?25l[24;65H3[4;3H[?25h[?25l[24;65H4[4;4H[?25h[?25l[24;65H5[4;5H[?25h[?25l[24;65H6[4;6H[?25h[?25l[24;65H7[4;7H[?25h[?25l[24;65H8[4;8H[?25h[?25lBblue 67[24;65H9[4;9H[?25h[?25llue 67[4;15H[K[4;9H[?25h[?25l[24;65H15[4;15H[?25h[24;1H[K[4;14H[?25l[24;63H4,14[10CAll[4;14H[?25h[?25l[24;63H[K[24;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"Ch11S1F1" 6L, 96C written
+[?1l>[?25h[?1047l[?1048l]0;prattjk@cs:~[prattjk@cs prattjk]$ cp ch[K[KCh11S1F1 Ch11S1F1.sav
+]0;prattjk@cs:~[prattjk@cs prattjk]$ sed 's/\([A-Z][a-z]*[ ]\)\(A-Z][a-z]*\)[ ][ ]*\([0-9][0-9] \)/\2, \1\3/' Ch11S1F1 > Ch11S1F1.new[A[prattjk@cs prattjk]$ sed 's/\([A-Z][a-z]*[ ]\)\(A-Z][a-z]*\)[ ][ ]*\([0-9][0-9[prattjk@cs prattjk]$ sed 's/\([A-Z][a-z]*[ ]\)[\(A-Z][a-z]*\)[ ][ ]*\([0-9][0-9][1@\[A[prattjk@cs prattjk]$ sed 's/\([A-Z][a-z]*[ ]\)[ \(A-Z][a-z]*\)[ ][ ]*\([0-9][0-9[1@][A[prattjk@cs prattjk]$ sed 's/\([A-Z][a-z]*[ ]\)[ ]\(A-Z][a-z]*\)[ ][ ]*\([0-9][0-[1@9[A[prattjk@cs prattjk]$ sed 's/\([A-Z][a-z]*[ ]\)[ ]*\(A-Z][a-z]*\)[ ][ ]*\([0-9][0[1@-[A[prattjk@cs prattjk]$ sed 's/\([A-Z][a-z]*[ ]\)[ ]*[prattjk@cs prattjk]$ sed 's/\([A-Z][a-z]*[ ]\)[ ]*\[prattjk@cs prattjk]$ sed 's/\([A-Z][a-z]*[ ]\)[ ]*\([A-Z][a-z]*\)[ ][ ]*\([0-9][[1@0[A[prattjk@cs prattjk]$ sed 's/\([A-Z][a-z]*[ ]\)[ ]*\([
+[0-9]\)/\2, \1\3/' Ch11S1F1 > Ch11S1F1.new
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S1F1.new
+Adams, John 55
+Bull, George 77
+Blue, Anne 99
+Blue, Janet 67
+Benjamin, Ben 78
+White, Ted 32
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cp Ch11S1F1.new Ch11S1F1
+]0;prattjk@cs:~[prattjk@cs prattjk]$ sort -t',' +0 -1 -t' ' +2 -3 Ch11S1F1 > Ch11S1F1.new2[1@n[1@b[1P[prattjk@cs prattjk]$ sort -t',' +0 -1 -t' ' +2n -3 Ch11S1F1 > Ch11S1F1.new2
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S1F1.new2
+Adams, John 55
+Benjamin, Ben 78
+Blue, Janet 67
+Blue, Anne 99
+Bull, George 77
+White, Ted 32
+]0;prattjk@cs:~[prattjk@cs prattjk]$ mv Ch11S1F1.new2 Ch11S1F1
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S1F1.sav
+John  Adams   55
+George Bull 77
+Anne Blue    99
+Janet  Blue 67
+Ben Benjamin     78
+Ted White 32
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S1F1
+Adams, John 55
+Benjamin, Ben 78
+Blue, Janet 67
+Blue, Anne 99
+Bull, George 77
+White, Ted 32
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S1F1.new
+Adams, John 55
+Bull, George 77
+Blue, Anne 99
+Blue, Janet 67
+Benjamin, Ben 78
+White, Ted 32
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S1F1.new2
+cat: Ch11S1F1.new2: No such file or directory
+]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+
+Script done on Sat 06 May 2006 10:34:27 PM EDT

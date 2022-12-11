@@ -1,0 +1,61 @@
+
+Stu Stevenson
+Lab 1
+Sessions I-VI
+
+L.I.4)[Student@localhost ~]
+L.I.5)$
+
+
+L.II.3)The man command displays the manual pages associated with the program command.  If the name (first input after the man command) has a slash (/), then man thinks that it’s a file specification.  man then tries to save all formatted data in order to conserve on time the next time it’s used in conjunction with that command, saving them from Dir/manX to Dir/catX, although this can be changed to save to a different directory.
+
+L.II.4)Entering who into Unix should display who is currently logged onto the network that uses the server the computer is accessing, in this case, Hiram.
+
+L.II.5)Using the command whoami should print out the user ID of all of the users currently logged on.
+
+L.II.6)Inputting the date command should make Unix print out (or set) the system’s date and time.
+
+L.II.7)Entering the passwd command would give the ability for the user to change their password to log in.  However, since doing this would result in our death(threat) by the hands of Obie, we opted NOT to verify this command.
+
+L.III.2)We entered the “who” command, and found only ourselves present on the server.  After asking why, it was explained to us that we were the only user currently logged into the server we were using.
+
+L.III.3)From using the who command, it seems as though we’re on terminal 0.
+
+L.III.4)We explored some variants upon the who command, entering who -q, who -b, and who -s.  The result of who -q was # users=2, which we found odd as we’re the only user on this server, who -b yielded no output, and who -s gave a result identical to the original who command.
+
+L.IV.2) date yielded Sun Apr 23 17:55:49 EDT 2006
+L.IV.3) date -u yielded Sun Apr 23 21:58:28 UTC 2006
+
+L.IV.4) The local time is 4 hours earlier than Universal time, and the 3 minutes may have resulted from how long it took me to find out exactly how to obtain the Universal time.
+
+L.IV.5.a) date -u yields Mon Apr 24 12:17:52 UTC 2006.  This is the universal time, and is also the current Eastern Standard Time.
+L.IV.5.b) date --help yields every valid command that can be done on the Linux OS.  We found this very helpful, since it would let us know where the book is wrong (in terms of Linux, not UNIX).
+L.IV.5.c) date "+%a" yielded Mon.  That is the current abbreviated day.
+
+L.IV.6.a) We got a return message of "This is the date" (sans quotes).
+L.IV.6.b) We got a message of "This is the date: April"
+
+L.IV.7.a) date "+%D"
+L.IV.7.b) date "+%A, %B %d, %Y"
+L.IV.7.c) date "+%A, %m/%d/%Y"
+
+L.IV.8.a) date "+Day: %A"
+L.IV.9.a) date "+%r"
+L.IV.10.a) date "+Hours: %I"
+
+L.V.2) Entering a year is necessary, because doing "cal" without an argument (i.e. 2004) will yield just the current month.
+L.V.3) cal
+L.V.4) cal 7 2232
+L.V.5) cal 0001.  The day was a Saturday at the beginning of the AD calendar.
+L.V.6) We input cal 2000, then scrolled up and saw that February had 29 days, which makes 2000 a leap year.
+L.V.7) We input cal 2 1900, and saw that February had only 28 days, so it was not a leap year.
+L.V.8) Aside from making it easier for ourselves to find if February had 29 days, there was a difference of 1 day between the results.
+L.V.9) On Sept. 3, 1752, the Gregorian Reformation occurred, which resulted in the establishment of the current calendar system;if we're not mistaken.
+L.V.10) We entered in man cal and found out the information displayed in L.V.9
+L.V.11) There is no "calendar" command in the Fedora OS.
+
+L.VI.2) The learn command is non-existant on the Fedora OS.
+
+L.VI.3) Inputting man help yielded the help for every aspect of the OS (or so it seemed).  We scrolled down to where it described the help setup, finding that it will give help for builtin commands, and has the modifier of -s, which shortens the description of the processes involved.  We found it very useful, in that it afforded us a better understanding of the possible options within commands, and what those commands are meant to do.
+
+L.VI.4) The finger command will display the information about the users currently logged on.  It has the modifiers of -s, -l, -p, and -m, which do the following (respectively): displays the user's submitted personal info, excluding the password; shows the same information as -s, but each piece of information receives it's own line, and adds in the files of .plan, .project, .pgpkey, and .forward; same as -l, but excludes the files that -l displays; and -m will prevent multiple user names from being displayed.  This information is not particularly handy on a closed network such as the one these computers run on, but it could be quite a good tool if applied in the workplace.

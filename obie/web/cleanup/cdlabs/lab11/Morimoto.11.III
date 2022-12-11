@@ -1,0 +1,261 @@
+Script started on Sun 07 May 2006 04:20:24 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 1 ---
+--- 1 ---
+]0;Student@localhost:~[Student@localhost ~]$ vi Ch11S3F1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11S3F1" 52L, 130C[1;1Hdd
+ee
+ff
+gg
+hh
+ii
+jj
+kk
+ll
+mm
+nn
+oo
+pp
+qq
+rr
+ss
+tt
+uu
+vv
+ww
+xx
+yy
+zz[24;63H52,1[10CBot[23;1H[?12l[?25h[?25l
+[1m-- INSERT --[m[24;13H[K[24;63H52,1[10CBot[23;1H[?12l[?25h[24;1H[K[23;1H[?25l[24;63H52,1[10CBot[23;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11S3F1" 52L, 130C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 3[K2 ---
+--- 2 ---
+]0;Student@localhost:~[Student@localhost ~]$ cat -n > [K[KCh11S3F12[K > Ch11S3F1NUM
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 3 ---
+--- 3 ---
+]0;Student@localhost:~[Student@localhost ~]$ vi Ch11S3.sed
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11S3.sed" 23L, 197C[1;1H[35m10,15{
+      /^/,/$/[m[36mw[m [31mCh11S3F2[m
+[35m}
+
+20,30{
+      /^/,/$/[m[36mw[m [31mCh11S3F3[m
+[35m}
+
+31,37{
+      /^/,/$/[m[36mw[m [31mCh11S3F4[m
+[35m}
+
+1,9{
+     /^/,/$/[m[36mw[m [31mCh11S3F5[m
+[35m}
+
+16,19{
+     /^/,/$/[m[36mw[m [31mCh11S3F5[m
+[35m}
+
+38,${
+     /^/,/$/[m[36mw[m [31mCh11S3F5[m
+[35m}[m[24;63H23,1[10CAll[23;1H[?12l[?25h[?25l[24;64H2[22;1H[?12l[?25h[?25l[24;64H1[21;1H[?12l[?25h[?25l[24;64H0,0-1[20;1H[?12l[?25h[?25l[24;63H19,1  [19;1H[?12l[?25h[?25l[24;64H8[18;1H[?12l[?25h[?25l[24;64H7[17;1H[?12l[?25h[?25l[24;64H6,0-1[16;1H[?12l[?25h[?25l[24;64H5,1  [15;1H[?12l[?25h[?25l[24;64H4[14;1H[?12l[?25h[?25l[24;64H3[13;1H[?12l[?25h[?25l[24;64H2,0-1[12;1H[?12l[?25h[?25l[24;64H1,1  [11;1H[?12l[?25h[?25l[24;64H0[10;1H[?12l[?25h[?25l[24;63H9,1 [9;1H[?12l[?25h[?25l[24;63H8,0-1[8;1H[?12l[?25h[?25l[24;63H7,1  [7;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H4,0-1[4;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H1[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;14H[K[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[2;23r[2;1H[L[1;24r[1;1H[K[2;1H[35m10,15{[m[24;63H[K[24;63H2,1[11CTop[2;1H[?12l[?25h[?25l[3;23r[3;1H[L[1;24r[2;1H[K[3;1H[35m10,15{[m[24;63H[K[24;63H3,1[11CTop[3;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H1[1;1H[?12l[?25h[?25l[34m#[m[24;65H2[1;2H[?12l[?25h[?25l[34m [m[24;65H3[1;3H[?12l[?25h[?25l[34mS[m[24;65H4[1;4H[?12l[?25h[?25l[34mc[m[24;65H5[1;5H[?12l[?25h[?25l[34mr[m[24;65H6[1;6H[?12l[?25h[?25l[34mi[m[24;65H7[1;7H[?12l[?25h[?25l[34mp[m[24;65H8[1;8H[?12l[?25h[?25l[34mt[m[24;65H9[1;9H[?12l[?25h[?25l[34m [m[24;65H10[1;10H[?12l[?25h[?25l[34mN[m[24;66H1[1;11H[?12l[?25h[?25l[34ma[m[24;66H2[1;12H[?12l[?25h[?25l[34mm[m[24;66H3[1;13H[?12l[?25h[?25l[34me[m[24;66H4[1;14H[?12l[?25h[?25l[34m:[m[24;66H5[1;15H[?12l[?25h[?25l[34m [m[24;66H6[1;16H[?12l[?25h[?25l[34mC[m[24;66H7[1;17H[?12l[?25h[?25l[34mh[m[24;66H8[1;18H[?12l[?25h[?25l[34m1[m[24;66H9[1;19H[?12l[?25h[?25l[34m1[m[24;65H20[1;20H[?12l[?25h[?25l[1;19H[K[24;65H19[1;19H[?12l[?25h[?25l[34m1[m[24;65H20[1;20H[?12l[?25h[?25l[34mS[m[24;66H1[1;21H[?12l[?25h[?25l[34m3[m[24;66H2[1;22H[?12l[?25h[?25l[34m.[m[24;66H3[1;23H[?12l[?25h[?25l[34ma[m[24;66H4[1;24H[?12l[?25h[?25l[34ms[m[24;66H5[1;25H[?12l[?25h[?25l[1;24H[K[24;66H4[1;24H[?12l[?25h[?25l[1;23H[K[24;66H3[1;23H[?12l[?25h[?25l[34ms[m[24;66H4[1;24H[?12l[?25h[?25l[34m3[m[24;66H5[1;25H[?12l[?25h[?25l[1;24H[K[24;66H4[1;24H[?12l[?25h[?25l[34me[m[24;66H5[1;25H[?12l[?25h[?25l[34md[m[24;66H6[1;26H[?12l[?25h[?25l[2;23r[2;1H[L[1;24r[24;63H[K[24;63H2,1[11CTop[2;1H[?12l[?25h[?25l[34m#[m[24;65H2[2;2H[?12l[?25h[?25l[34m [m[24;65H3[2;3H[?12l[?25h[?25l[34mS[m[24;65H4[2;4H[?12l[?25h[?25l[34mp[m[24;65H5[2;5H[?12l[?25h[?25l[34ml[m[24;65H6[2;6H[?12l[?25h[?25l[34mi[m[24;65H7[2;7H[?12l[?25h[?25l[34mt[m[24;65H8[2;8H[?12l[?25h[?25l[34m [m[24;65H9[2;9H[?12l[?25h[?25l[34mt[m[24;65H10[2;10H[?12l[?25h[?25l[34mh[m[24;66H1[2;11H[?12l[?25h[?25l[34me[m[24;66H2[2;12H[?12l[?25h[?25l[34m [m[24;66H3[2;13H[?12l[?25h[?25l[34mf[m[24;66H4[2;14H[?12l[?25h[?25l[34mi[m[24;66H5[2;15H[?12l[?25h[?25l[34ml[m[24;66H6[2;16H[?12l[?25h[?25l[34me[m[24;66H7[2;17H[?12l[?25h[?25l[34m [m[24;66H8[2;18H[?12l[?25h[?25l[34mi[m[24;66H9[2;19H[?12l[?25h[?25l[34mn[m[24;65H20[2;20H[?12l[?25h[?25l[34mt[m[24;66H1[2;21H[?12l[?25h[?25l[34mo[m[24;66H2[2;22H[?12l[?25h[?25l[34m [m[24;66H3[2;23H[?12l[?25h[?25l[34mf[m[24;66H4[2;24H[?12l[?25h[?25l[34mo[m[24;66H5[2;25H[?12l[?25h[?25l[34mu[m[24;66H6[2;26H[?12l[?25h[?25l[34mr[m[24;66H7[2;27H[?12l[?25h[?25l[34m [m[24;66H8[2;28H[?12l[?25h[?25l[34mf[m[24;66H9[2;29H[?12l[?25h[?25l[34mi[m[24;65H30[2;30H[?12l[?25h[?25l[34ml[m[24;66H1[2;31H[?12l[?25h[?25l[34me[m[24;66H2[2;32H[?12l[?25h[?25l[34ms[m[24;66H3[2;33H[?12l[?25h[24;1H[K[2;32H[?25l[24;63H2,32[10CTop[2;32H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11S3.sed" 26L, 257C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ sed -nf Ch11S3.sed Ch11S3F1NUM
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 4 and cat command ---
+--- 4 and cat command ---
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S3F1
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+aa
+bb
+cc
+dd
+ee
+ff
+gg
+hh
+ii
+jj
+kk
+ll
+mm
+nn
+oo
+pp
+qq
+rr
+ss
+tt
+uu
+vv
+ww
+xx
+yy
+zz
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S3F1NUM
+     1	a
+     2	b
+     3	c
+     4	d
+     5	e
+     6	f
+     7	g
+     8	h
+     9	i
+    10	j
+    11	k
+    12	l
+    13	m
+    14	n
+    15	o
+    16	p
+    17	q
+    18	r
+    19	s
+    20	t
+    21	u
+    22	v
+    23	w
+    24	x
+    25	y
+    26	z
+    27	aa
+    28	bb
+    29	cc
+    30	dd
+    31	ee
+    32	ff
+    33	gg
+    34	hh
+    35	ii
+    36	jj
+    37	kk
+    38	ll
+    39	mm
+    40	nn
+    41	oo
+    42	pp
+    43	qq
+    44	rr
+    45	ss
+    46	tt
+    47	uu
+    48	vv
+    49	ww
+    50	xx
+    51	yy
+    52	zz
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S3F1NUM[K
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S3F1NUM[Kcat Ch11S3F2
+    10	j
+    11	k
+    12	l
+    13	m
+    14	n
+    15	o
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S3F2[K3
+    20	t
+    21	u
+    22	v
+    23	w
+    24	x
+    25	y
+    26	z
+    27	aa
+    28	bb
+    29	cc
+    30	dd
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S3F3[K4
+    31	ee
+    32	ff
+    33	gg
+    34	hh
+    35	ii
+    36	jj
+    37	kk
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S3F4[K5
+     1	a
+     2	b
+     3	c
+     4	d
+     5	e
+     6	f
+     7	g
+     8	h
+     9	i
+    16	p
+    17	q
+    18	r
+    19	s
+    38	ll
+    39	mm
+    40	nn
+    41	oo
+    42	pp
+    43	qq
+    44	rr
+    45	ss
+    46	tt
+    47	uu
+    48	vv
+    49	ww
+    50	xx
+    51	yy
+    52	zz
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S3,[K.sed
+# Script Name: Ch11S3.sed
+# Split the file into four files
+
+10,15{
+      /^/,/$/w Ch11S3F2
+}
+
+20,30{
+      /^/,/$/w Ch11S3F3
+}
+
+31,37{
+      /^/,/$/w Ch11S3F4
+}
+
+1,9{
+     /^/,/$/w Ch11S3F5
+}
+
+16,19{
+     /^/,/$/w Ch11S3F5
+}
+
+38,${
+     /^/,/$/w Ch11S3F5
+}
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Sun 07 May 2006 04:24:22 PM EDT

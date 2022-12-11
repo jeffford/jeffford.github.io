@@ -1,0 +1,97 @@
+Script started on Sun 23 Apr 2006 05:40:52 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cd .
+]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m  [00mgrady.L3.III.txt[00m  [00mgrady.lab2.session.txt[00m  [00mgtsybrgII.txt[00m  [00;34mletters[00m
+[00;34mDesktop[00m      [00mgrady.L3.II.txt[00m   [00mgtsbrgII.txt[00m            [00mgtysbrg.txt[00m    [00;34mreports[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bk.[00m  [00mhw4HL[00m  [00mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+
+./letters:
+[00;34mfirends[00m  [00;34mformal[00m
+
+./letters/firends:
+
+./letters/formal:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/presonal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ pwd
+/home/Student
+]0;Student@localhost:~[Student@localhost ~]$ cd ..
+]0;Student@localhost:/home[Student@localhost home]$ cd..[K[K ..
+]0;Student@localhost:/[Student@localhost /]$ mkdir da[K[Kbackuip[K[Kps
+mkdir: cannot create directory `backups': Permission denied
+]0;Student@localhost:/[Student@localhost /]$ cd home
+]0;Student@localhost:/home[Student@localhost home]$ ma[K[Kcd homemkdir backups
+mkdir: cannot create directory `backups': Permission denied
+]0;Student@localhost:/home[Student@localhost home]$ cd
+]0;Student@localhost:~[Student@localhost ~]$ cd
+]0;Student@localhost:~[Student@localhost ~]$ pwd
+/home/Student
+]0;Student@localhost:~[Student@localhost ~]$ mkdie[Kr backups
+]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m  [00mgrady.L3.III.txt[00m        [00mgtsbrgII.txt[00m   [00;34mletters[00m
+[00;34mbackups[00m      [00mgrady.L3.II.txt[00m         [00mgtsybrgII.txt[00m  [00;34mreports[00m
+[00;34mDesktop[00m      [00mgrady.lab2.session.txt[00m  [00mgtysbrg.txt[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bk.[00m  [00mhw4HL[00m  [00mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+
+./Desktop:
+
+./letters:
+[00;34mfirends[00m  [00;34mformal[00m
+
+./letters/firends:
+
+./letters/formal:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/presonal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ cd backups
+]0;Student@localhost:~/backups[Student@localhost backups]$ cd ..
+]0;Student@localhost:~[Student@localhost ~]$ cd ..
+]0;Student@localhost:/home[Student@localhost home]$ cp -r s[KStudent backups
+cp: cannot create directory `backups': Permission denied
+]0;Student@localhost:/home[Student@localhost home]$ cp -r Stundent[1Pdent[Student@localhost home]$ cp -r Stud[Student@localhost home]$ cp -r Stude[Student@localhost home]$ cp -r Studen[Student@localhost home]$ cp -r Student
+cp: missing destination file
+Try `cp --help' for more information.
+]0;Student@localhost:/home[Student@localhost home]$ cp -r Student[K[K[K[K[K[K[Kbackups
+cp: missing destination file
+Try `cp --help' for more information.
+]0;Student@localhost:/home[Student@localhost home]$ exit
+
+Script done on Sun 23 Apr 2006 05:51:54 PM EDT

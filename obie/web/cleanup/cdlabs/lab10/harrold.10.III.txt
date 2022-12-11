@@ -1,0 +1,60 @@
+Script started on Mon 08 May 2006 08:39:03 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[^0-2][^0-4][2-9][5-9]' < Ch10S3F1\[K
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[^0-2][^0-4][2-9][5-9]' < Ch10S3F1[1P[1P[Student@localhost ~]$ grep '\<[0[Student@localhost ~]$ grep '\<[0-[Student@localhost ~]$ grep '\<[0-2[Student@localhost ~]$ grep '\<[0-2][Student@localhost ~]$ grep '\<[0-2][[Student@localhost ~]$ grep '\<[0-2][0[Student@localhost ~]$ grep '\<[0-2][0-[Student@localhost ~]$ grep '\<[0-2][0-4[Student@localhost ~]$ grep '\<[0-2][0-4][Student@localhost ~]$ grep '\<[0-2][0-4][[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[4h^[4l[4h8[4l[4h9[4l[Student@localhost ~]$ grep '\<[0-2][0-4]^89' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[0-2][0-4]^89' < Ch10S3F1[Student@localhost ~]$ grep '\<[0-2][0-4]^89[1P[1P[1P[Student@localhost ~]$ grep '\<[0-2][0-4]' < Ch10S3F1
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[0-2][0-4]' < Ch10S3F1[4h{[4l[4hs[4l[4h}[4l[1P[1P[1P[4h[[4l[4hS[4l[4h][4l[Student@localhost ~]$ grep '[S]\<[0-2][0-4]' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '[S]\<[0-2][0-4]' < Ch10S3F1[1P[1P[1P[Student@localhost ~]$ grep '\[Student@localhost ~]$ grep '\<[Student@localhost ~]$ grep '\<[[4h[[4l[4hS[4l[4h][4l[Student@localhost ~]$ grep '\<[S][0-2][0-4]' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[S][0-2][0-4]' < Ch10S3F1[1P[1P[1P[Student@localhost ~]$ grep '\<[0-2][0-4]' < Ch10S3F1
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[0-2][0-4]' < Ch10S3F1[4h$[4l[Student@localhost ~]$ grep '\<[0-2][0-4]$' < Ch10S3F1
+CIS	54	1	20
+BUS	34	2	20
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[0-2][0-4]$' < Ch10S3F1 > Ch10S3F4
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[0-2][0-4]$' < Ch10S3F1 > Ch10S3F4[1P[4h2[4l[Student@localhost ~]$ grep '\<[2-[Student@localhost ~]$ grep '\<[2-2[1P[4h3[4l[Student@localhost ~]$ grep '\<[2-3][Student@localhost ~]$ grep '\<[2-3][[Student@localhost ~]$ grep '\<[2-3][0[1P[4h5[4l[Student@localhost ~]$ grep '\<[2-3][5-[Student@localhost ~]$ grep '\<[2-3][5-4[1P[4h0[4l[Student@localhost ~]$ grep '\<[2-3][5-0]$' < Ch10S3F1 > Ch10S3F4[K[K[K[K[K[K[K[K[K[K[K
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2-3][5-0]$' < Ch10S3F1[Student@localhost ~]$ grep '\<[2-3][5-0]$' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2-3][5-0]$' < Ch10S3F1[Student@localhost ~]$ grep '\<[2-3][5-0]$' < Ch10S3F10-2][0-4]$' < Ch10S3F1 > Ch10S3F4[K
+CIS	54	1	20
+BUS	34	2	20
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[0-2][0-4]$' < Ch10S3F12-3][5-0[Student@localhost ~]$ grep '\<[2-3][5-0]$' < Ch10S3F10-2][0-4]$' < Ch10S3F1 > Ch10S3F4[K[1P[Student@localhost ~]$ grep '\<[0-2][0-4]' < Ch10S3F1[4hS][[4l[Student@localhost ~]$ grep '\<[S][0-2][0-4]' < Ch10S3F1[3P[Student@localhost ~]$ grep '\<[0-2][0-4]' < Ch10S3F1[4h$[4l[Student@localhost ~]$ grep '\<[0-2][0-4]$' < Ch10S3F1 > Ch10S3F4[11P2-3][5-0]$' < Ch10S3F10-2][0-4[Student@localhost ~]$ grep '\<[0-2][0-4]$' < Ch10S3F1[Student@localhost ~]$ [Kgrep '\<[0-2][0-4]$' < Ch10S3F12-3][5-0[Student@localhost ~]$ grep '\<[2-3][5-0]$' < Ch10S3F1[1P[Student@localhost ~]$ grep '\<[2-3][5-0]' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2-3][5-0]' < Ch10S3F1[Student@localhost ~]$ grep '\<[2-3][5-0[Student@localhost ~]$ grep '\<[2-3][5-0][4h$[4l[1P[1P[Student@localhost ~]$ grep '[2-3][5-0]$' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '[2-3][5-0]$' < Ch10S3F1[1P[Student@localhost ~]$ grep '[2-3][5-0]' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '[2-3][5-0]' < Ch10S3F1[4h$[4l[Student@localhost ~]$ grep '[2-3][5-0]$' < Ch10S3F1[4h\[4l<[2-3][5-0][Student@localhost ~]$ grep '\<[2-3][5-0]' < Ch10S3F1[4h0[4l-2][0-4]$[Student@localhost ~]$ grep '\<[0-2][0-4]$' < Ch10S3F1[1P2-3][5-0][Student@localhost ~]$ grep '\<[2-3][5-0]' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2-3][5-0]' < Ch10S3F1[Student@localhost ~]$ grep '\<[2-3][5-0]' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2-3][5-0]' < Ch10S3F1[Student@localhost ~]$ grep '\<[2-3][5-0]' < Ch10S3F1[4h$[4l
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2-3][5-0]$' < Ch10S3F1[1P[Student@localhost ~]$ grep '\<[2-3][5-0]' < Ch10S3F1[2P[Student@localhost ~]$ grep '[2-3][5-0]' < Ch10S3F1[4h$[4l[Student@localhost ~]$ grep '[2-3][5-0]$' < Ch10S3F1[4h\[4l<[2-3][5-0][Student@localhost ~]$ grep '\<[2-3][5-0]' < Ch10S3F1[4h0[4l-2][0-4]$[Student@localhost ~]$ grep '\<[0-2][0-4]$' < Ch10S3F1
+CIS	54	1	20
+BUS	34	2	20
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[0-2][0-4]$' < Ch10S3F1[1P[4h2[4l[Student@localhost ~]$ grep '\<[2-[Student@localhost ~]$ grep '\<[2-2[Student@localhost ~]$ grep '\<[2-2][Student@localhost ~]$ grep '\<[2-2][[1P[4h5[4l[1P[4h3[4l[Student@localhost ~]$ grep '\<[2-3][Student@localhost ~]$ grep '\<[2-3][[Student@localhost ~]$ grep '\<[2-3][5[Student@localhost ~]$ grep '\<[2-3][5-[Student@localhost ~]$ grep '\<[2-3][5-4[1P[4h0[4l[Student@localhost ~]$ grep '\<[2-3][5-0]$' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2-3][5-0]$' < Ch10S3F1[1P[4h0[4l[Student@localhost ~]$ grep '\<[2-3][0-[Student@localhost ~]$ grep '\<[2-3][0-0[1P[4h5[4l[Student@localhost ~]$ grep '\<[2-3][0-5]$' < Ch10S3F1
+CIS	54	1	20
+BUS	34	2	20
+PhE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2-3][0-5]$' < Ch10S3F1[1P[4h1[4l[Student@localhost ~]$ grep '\<[2-3][1-5]$' < Ch10S3F1
+PhE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2-3][1-5]$' < Ch10S3F1[Student@localhost ~]$ grep '\<[2-3][1[1P[4h5[4l[Student@localhost ~]$ grep '\<[2-3][5-[Student@localhost ~]$ grep '\<[2-3][5-5[1P[4h0[4l[Student@localhost ~]$ grep '\<[2-3][5-0][1P[4h9[4l[Student@localhost ~]$ grep '\<[2-[Student@localhost ~]$ grep '\<[2-3[1P[4h2[4l[Student@localhost ~]$ grep '\<[2-2][Student@localhost ~]$ grep '\<[2-2][[Student@localhost ~]$ grep '\<[2-2][5[1P[1P[Student@localhost ~]$ grep '\<[2[Student@localhost ~]$ grep '\<[2][Student@localhost ~]$ grep '\<[2][[Student@localhost ~]$ grep '\<[2][5[Student@localhost ~]$ grep '\<[2][5-[Student@localhost ~]$ grep '\<[2][5-9[Student@localhost ~]$ grep '\<[2][5-9][4h|[4l[4h3[4l[4h0[4l[Student@localhost ~]$ grep '\<[2][5-9]|30$' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2][5-9]|30$' < Ch10S3F1[1P[1P[1P[1P[Student@localhost ~]$ grep '\<[2][5-9]' < Ch10S3F1
+PhE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2][5-9]' < Ch10S3F1[4h-[4l[4h3[4l[Student@localhost ~]$ grep '\<[2-3][5-9]' < Ch10S3F1
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PhE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2-3][5-9]' < Ch10S3F1[1P[4h1[4l[Student@localhost ~]$ grep '\<[2-3][5-1]' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2-3][5-1]' < Ch10S3F1[1P[4h0[4l[1P[1P[1P[Student@localhost ~]$ grep '\<[2][Student@localhost ~]$ grep '\<[2][[Student@localhost ~]$ grep '\<[2][5[Student@localhost ~]$ grep '\<[2][5-[4h0[4l[1P[4h9[4l[Student@localhost ~]$ grep '\<[2][5-9]' < Ch10S3F1
+PhE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2][5-9]' < Ch10S3F1[4h|[4l[4h[[4l[4h2[4l[1P[4h3[4l[4h][4l[4h[[4l[4h0[4l[4h][4l[1P[4h'[4l[Student@localhost ~]$ grep '\<[2][5-9]|[3][0]' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2][5-9]|[3][0]' < Ch10S3F1[4h [4l[4h [4l[1P[Student@localhost ~]$ grep '\<[2][5-9][4h [4l[Student@localhost ~]$ grep '\<[2][5-9] | [3][0]' < Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2][5-9] | [3][0]' < Ch10S3F1[1P[1P[1P[1P[1P[1P[1P[1P[1P[Student@localhost ~]$ grep '\<[2][5-9]' < Ch10S3F1
+PhE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ grep '\<[2][5-9]' < Ch10S3F1 > Ch10S3F5
+]0;Student@localhost:~[Student@localhost ~]$ exitr
+bash: exitr: command not found
+]0;Student@localhost:~[Student@localhost ~]$ exitr[K
+exit
+
+Script done on Mon 08 May 2006 08:46:29 AM EDT

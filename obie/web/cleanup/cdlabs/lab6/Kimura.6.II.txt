@@ -1,0 +1,58 @@
+Script started on Fri 28 Apr 2006 08:39:12 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ head -n1 /t[Ketc/passwd
+root:x:0:0:root:/root:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ head -n1 /etc/passwd[1P[1P[1P[1P[4ht[4l[4ha[4l[4hi[4l[4hl[4l[Student@localhost ~]$ tail -n1 /etc/passwd
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ cat -u [K[K[K[K[K[K[Kcat >Ch6SIIF1
+Jual n/jjyahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/david sbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-13 434
+
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF1
+Juan/jjyahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d'/' file>[K[K[K[K[KCH[Kh6SIIF1 >file1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d'/' Ch6SIIF1 >file1[1P[4h2[4l[Student@localhost ~]$ cut -f2 -d'/' Ch6SIIF1 >file1[K2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 -d'/' Ch6SIIF1 >file2[K3[Student@localhost ~]$ cut -f[1P[4h3[4l[Student@localhost ~]$ cut -f3 -d'/' Ch6SIIF1 >file3
+]0;Student@localhost:~[Student@localhost ~]$ paste file1 file2 file3 >Ch6SIIF2
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6SIIF2
+Juan	jjyahoo.com	330-569-5211
+George	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5615
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6SIIF1 Ch6SIIF2 .[K>Ch6SIIF3
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6SIIF3
+Juan/jjyahoo.com/330-569-5211	Juan	jjyahoo.com	330-569-5211
+George/george@hotmail.com/330-274-1999	George	george@hotmail.com	330-274-
+1999
+Anna/sister@aol.com/330-274-5615	Anna	sister@aol.com	330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678	Ben	davisbj@hiram.edu	512-345-
+5678
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6S1F1 Ch6SIIF2 >Ch6SIIF3
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,2,[K[K[K[K[K[K[K[K[K[Kmore Ch[K[K[K[K[K[K[Kcat Ch6SIIF3
+1425	14.25	Juan	Juan	jjyahoo.com	330-569-5211
+1451	21.77	Ben	George	george@hotmail.com	330-274-1999
+2277	18.77	Tuan	Anna	sister@aol.com	330-274-5615
+4321	21.11	George	Ben	davisbj@hiram.edu	512-345-5678
+6781	16.77	Anna	Tuan	tt1234@aol.com	404-213-1434
+			
+			
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,2,3,5,6 Ch6SIIF3 >Ch6SIIF4
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF4
+1425	14.25	Juan	jjyahoo.com	330-569-5211
+1451	21.77	Ben	george@hotmail.com	330-274-1999
+2277	18.77	Tuan	sister@aol.com	330-274-5615
+4321	21.11	George	davisbj@hiram.edu	512-345-5678
+6781	16.77	Anna	tt1234@aol.com	404-213-1434
+		
+		
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Sun 30 Apr 2006 06:15:13 PM EDT

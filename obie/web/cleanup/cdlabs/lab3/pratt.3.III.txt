@@ -1,0 +1,339 @@
+Script started on Mon 24 Apr 2006 08:02:39 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ mkdir backups
+mkdir: cannot create directory `backups': File exists
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m     [00mchap3[00m          [00;34mDesktop[00m        [00mlab3[00m            [00;36mreport[00m
+[00;34mbackups[00m         [00mchap3evenexer[00m  [00mgtsybrgII.txt[00m  [00;34mletters[00m         [00;34mreports[00m
+[00mchap1exercises[00m  [00mchap3lab2[00m      [00mgtysbrg.txt[00m    [00mpratt3.III.txt[00m
+[00mchap1oddexer[00m    [00mchap3labII[00m     [00mhw4.bk[00m         [00mpratt.3.II.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ find reports/assignments/UNIX/hw4* ~/hw4* -exec cp {} bac kups \;
+cp: cannot stat `reports/assignments/UNIX/hw4SL': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ find /reports/assignments/UNIX/hw4*
+find: /reports/assignments/UNIX: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ ls -lR|more
+.:
+total 324
+drwxrwxr-x  2 Student Student  4096 Apr 21 08:21 assignments
+drwxrwxr-x  2 Student Student 16384 Apr 23 17:58 backups
+-rw-rw-r--  1 Student Student   504 Apr 23 16:11 chap1exercises
+-rw-rw-r--  1 Student Student 10725 Apr 23 16:18 chap1oddexer
+-rw-rw-r--  1 Student Student 87182 Apr 23 18:15 chap3
+-rw-rw-r--  1 Student Student  5559 Apr 23 16:33 chap3evenexer
+-rw-rw-r--  1 Student Student 61991 Apr 23 17:15 chap3lab2
+-rw-rw-r--  1 Student Student  1497 Apr 23 16:35 chap3labII
+drwxr-xr-x  2 Student Student  4096 Jul 27  2005 Desktop
+-rw-rw-r--  1 Student Student  1557 Apr 21 08:12 gtsybrgII.txt
+-rw-rw-r--  1 Student Student   476 Apr 21 07:52 gtysbrg.txt
+-rw-rw-r--  1 Student Student   929 Apr 23 17:03 hw4.bk
+-rw-rw-r--  1 Student Student  4615 Apr 21 08:48 lab3
+drwxrwxr-x  4 Student Student  4096 Apr 21 08:22 letters
+-rw-rw-r--  1 Student Student     0 Apr 24 08:02 pratt3.III.txt
+-rw-rw-r--  1 Student Student  9635 Apr 24 07:59 pratt.3.II.txt
+lrwxrwxrwx  1 Student Student     1 Apr 23 16:30 report -> /
+drwxrwxr-x  6 Student Student  4096 Apr 21 08:35 reports
+
+./assignments:
+total 0
+[7m--More--[m[K
+./backups:
+total 32
+-rw-rw-r--  1 Student Student 929 Apr 24 08:03 hw4
+-rw-rw-r--  1 Student Student 929 Apr 24 08:03 hw4.bk
+-rw-rw-r--  1 Student Student 929 Apr 24 08:03 hw4HL
+-rw-rw-r--  1 Student Student 929 Apr 23 17:58 hw4SL
+
+./Desktop:
+total 0
+
+./letters:
+total 16
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:22 formal
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:22 friendly
+
+./letters/formal:
+total 0
+
+./letters/friendly:
+total 0
+
+./reports:
+[7m--More--[mtotal 32
+drwxrwxr-x  3 Student Student 4096 Apr 21 08:35 assignments
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:33 business
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:33 personal
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:33 school
+
+./reports/assignments:
+total 8
+drwxrwxr-x  4 Student Student 4096 Apr 24 07:51 UNIX
+
+./reports/assignments/UNIX:
+total 44
+-rw-rw-r--  1 Student Student  929 Apr 23 18:13 hw4
+-rw-rw-r--  1 Student Student  929 Apr 24 07:51 hw4.bk
+-rw-rw-r--  1 Student Student  929 Apr 23 17:00 hw4HL
+lrwxrwxrwx  1 Student Student   17 Apr 23 17:08 hw4SL -> /home/Student/hw4
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:37 HWs
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:38 Projects
+
+./reports/assignments/UNIX/HWs:
+total 0
+
+./reports/assignments/UNIX/Projects:
+[7m--More--[mtotal 0[K
+
+./reports/business:
+total 0
+
+./reports/personal:
+total 0
+
+./reports/school:
+total 0
+]0;Student@localhost:~[Student@localhost ~]$ find reports/assignments/UNIX/hw4*
+reports/assignments/UNIX/hw4
+reports/assignments/UNIX/hw4.bk
+reports/assignments/UNIX/hw4HL
+reports/assignments/UNIX/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ find reports/assignments/UNIX/hw4* ~/hw4*
+reports/assignments/UNIX/hw4
+reports/assignments/UNIX/hw4.bk
+reports/assignments/UNIX/hw4HL
+reports/assignments/UNIX/hw4SL
+/home/Student/hw4.bk
+]0;Student@localhost:~[Student@localhost ~]$ find reports/assignments/UNIX/hw4* ~/hw4* e[K-exec cp {} bac kups \;
+cp: cannot stat `reports/assignments/UNIX/hw4SL': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ find reports/assignments/UNIX/hw4* ~/hw4* -exec cp {} bac kups\;
+find: missing argument to `-exec'
+]0;Student@localhost:~[Student@localhost ~]$ find reports/assignments/UNIX/hw4* ~/hw4* -exec cp {} backkups\;[A[Student@localhost ~]$ [K
+[K[A[Student@localhost ~]$ find reports/assignments/UNIX/hw4* ~/hw4* -exec cp {} backkups\; \;[1P\; \;[1P\;[A[Student@localhost ~]$ [K
+[K[A[Student@localhost ~]$ find reports/assignments/UNIX/hw4* ~/hw4* -exec cp {} backkups\; \;
+cp: cannot stat `reports/assignments/UNIX/hw4SL': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ ls ~/backups
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00mhw4SL[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ rm ~/aba[K[K[Kbackups/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ rm ~/backups/hw4SL[6Pls ~/backupsfind reports/assignments/UNIX/hw4* ~/hw4* -exec cp {} backkups \;
+cp: cannot stat `reports/assignments/UNIX/hw4SL': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ echo LOOK AT THIS"[4h"[4l[Student@localhost ~]$ echo "LOOK AT THIS"
+LOOK AT THIS
+]0;Student@localhost:~[Student@localhost ~]$ ls -il backups
+[00mtotal 24
+1267091 -rw-rw-r--  1 Student Student 929 Apr 24 08:16 [00mhw4[00m
+1267092 -rw-rw-r--  1 Student Student 929 Apr 24 08:16 [00mhw4.bk[00m
+1265993 -rw-rw-r--  1 Student Student 929 Apr 24 08:16 [00mhw4HL[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ rm /rep[K[K[K[K[K ~/reports/assignments/UNIX/hw4
+]0;Student@localhost:~[Student@localhost ~]$ ls `[K~/reo[Kports/assignments/UNIX
+[00m[00mhw4.bk[00m  [00mhw4HL[00m  [01;05;37;41mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -lR |more
+.:
+total 328
+drwxrwxr-x  2 Student Student  4096 Apr 21 08:21 assignments
+drwxrwxr-x  2 Student Student 16384 Apr 24 08:16 backups
+-rw-rw-r--  1 Student Student   504 Apr 23 16:11 chap1exercises
+-rw-rw-r--  1 Student Student 10725 Apr 23 16:18 chap1oddexer
+-rw-rw-r--  1 Student Student 87182 Apr 23 18:15 chap3
+-rw-rw-r--  1 Student Student  5559 Apr 23 16:33 chap3evenexer
+-rw-rw-r--  1 Student Student 61991 Apr 23 17:15 chap3lab2
+-rw-rw-r--  1 Student Student  1497 Apr 23 16:35 chap3labII
+drwxr-xr-x  2 Student Student  4096 Jul 27  2005 Desktop
+-rw-rw-r--  1 Student Student  1557 Apr 21 08:12 gtsybrgII.txt
+-rw-rw-r--  1 Student Student   476 Apr 21 07:52 gtysbrg.txt
+-rw-rw-r--  1 Student Student   929 Apr 23 17:03 hw4.bk
+-rw-rw-r--  1 Student Student  4615 Apr 21 08:48 lab3
+drwxrwxr-x  4 Student Student  4096 Apr 21 08:22 letters
+-rw-rw-r--  1 Student Student  4096 Apr 24 08:06 pratt3.III.txt
+-rw-rw-r--  1 Student Student  9635 Apr 24 07:59 pratt.3.II.txt
+lrwxrwxrwx  1 Student Student     1 Apr 23 16:30 report -> /
+drwxrwxr-x  6 Student Student  4096 Apr 21 08:35 reports
+
+./assignments:
+total 0
+[7m--More--[m[K
+[7m--More--[m./backups:
+[7m--More--[mtotal 24
+[7m--More--[m-rw-rw-r--  1 Student Student 929 Apr 24 08:16 hw4
+[7m--More--[m-rw-rw-r--  1 Student Student 929 Apr 24 08:16 hw4.bk
+-rw-rw-r--  1 Student Student 929 Apr 24 08:16 hw4HL
+
+./Desktop:
+total 0
+
+./letters:
+total 16
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:22 formal
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:22 friendly
+
+./letters/formal:
+total 0
+
+./letters/friendly:
+total 0
+
+./reports:
+total 32
+drwxrwxr-x  3 Student Student 4096 Apr 21 08:35 assignments
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:33 business
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:33 personal
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:33 school
+[7m--More--[m[K
+./reports/assignments:
+total 8
+drwxrwxr-x  4 Student Student 4096 Apr 24 08:20 UNIX
+
+./reports/assignments/UNIX:
+total 36
+-rw-rw-r--  1 Student Student  929 Apr 24 07:51 hw4.bk
+-rw-rw-r--  1 Student Student  929 Apr 23 17:00 hw4HL
+lrwxrwxrwx  1 Student Student   17 Apr 23 17:08 hw4SL -> /home/Student/hw4
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:37 HWs
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:38 Projects
+
+./reports/assignments/UNIX/HWs:
+total 0
+
+./reports/assignments/UNIX/Projects:
+total 0
+
+./reports/business:
+total 0
+
+./reports/personal:
+[7m--More--[mtotal 0[K
+
+./reports/school:
+total 0
+]0;Student@localhost:~[Student@localhost ~]$ find ~/assingm[K[K[Kgnments[K[K[K[K[K[K[K[K[K[K[Kreports/assignments/UNIX -name hw*
+/home/Student/reports/assignments/UNIX/hw4.bk
+]0;Student@localhost:~[Student@localhost ~]$ find ~/reports/assignments/UNIX -name hw*[Student@localhost ~]$ find ~/reports/assignments/UNIX[4h/[4l
+/home/Student/reports/assignments/UNIX/hw4.bk
+]0;Student@localhost:~[Student@localhost ~]$ more -c ~/reports/assignments/UNIX/hw*
+[H[K::::::::::::::
+[K/home/Student/reports/assignments/UNIX/hw4.bk
+[K::::::::::::::
+[K2. Define a wildcard. Why do we use wildcards? When do we use wildcards?
+[KA wildcard is a token that specifies that one or more different characters can b
+[Ke used to satisfy a specific request. We use wildcards to group files together s
+[Ko that they can be easily worked with (copied, listed, etc.). Wildcards are used
+[K to replace or denote one or more characters in a search.
+[K
+[K3. Name 3 wildcards used in UNIX to name files.
+[K? [...] *
+[K
+[K4. What is a single-character wildcard?
+[KA single-character wildcard is matches only one character in the filename. You m
+[Kay use more than one single-character wildcard, but each one matches only one ch
+[Karacter in the match.
+[K
+[K6. What is the zero-or-more-character wildcard?
+[K*
+[K
+[K9. What is a directory file? Give an example.
+[KA directory file is a file that contains the names and locations of all files st
+[Kored on a physical device. An example of a directory file is "bin", which stores
+[K[7m[K--More--(98%)[m[J[H[K binary files.
+[K
+[K
+[K
+[J[K[7m[K--More--(Next file: /home/Student/reports/assignments/UNIX/hw4HL)[m[J[H[K::::::::::::::[K
+[K/home/Student/reports/assignments/UNIX/hw4HL
+[K::::::::::::::
+[K2. Define a wildcard. Why do we use wildcards? When do we use wildcards?
+[KA wildcard is a token that specifies that one or more different characters can b
+[Ke used to satisfy a specific request. We use wildcards to group files together s
+[Ko that they can be easily worked with (copied, listed, etc.). Wildcards are used
+[K to replace or denote one or more characters in a search.
+[K
+[K3. Name 3 wildcards used in UNIX to name files.
+[K? [...] *
+[K
+[K4. What is a single-character wildcard?
+[KA single-character wildcard is matches only one character in the filename. You m
+[Kay use more than one single-character wildcard, but each one matches only one ch
+[Karacter in the match.
+[K
+[K6. What is the zero-or-more-character wildcard?
+[K*
+[K
+[K9. What is a directory file? Give an example.
+[KA directory file is a file that contains the names and locations of all files st
+[Kored on a physical device. An example of a directory file is "bin", which stores
+[K[7m[K--More--(98%)[m[J[H[K binary files.
+[K
+[K
+[K
+[J/home/Student/reports/assignments/UNIX/hw4SL: No such file or directory
+[K]0;Student@localhost:~[Student@localhost ~]$ cp ~/backups/hw4.bk ~/reports/assignments/u[KUNIX/hw4
+]0;Student@localhost:~[Student@localhost ~]$ ls `[K~/reports/assignments/UNIC[KX/
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [01;05;37;41mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ rm ~/reports/assignments/UNIX/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ rm ~/reports/assignments/UNIX/hw4SL[Student@localhost ~]$ [5Pls ~/reports/assignments/UNIX/
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ln -s hw4 ~/reports/assignments/UNIX/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ ls ~/reports/assignments/UNIX/
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00;36mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -Rp|more
+.:
+assignments/
+backups/
+chap1exercises
+chap1oddexer
+chap3
+chap3evenexer
+chap3lab2
+chap3labII
+Desktop/
+gtsybrgII.txt
+gtysbrg.txt
+hw4.bk
+lab3
+letters/
+pratt3.III.txt
+pratt.3.II.txt
+report@
+reports/
+
+./assignments:
+
+./backups:
+[7m--More--[mhw4[K
+hw4.bk
+hw4HL
+
+./Desktop:
+
+./letters:
+formal/
+friendly/
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+assignments/
+business/
+personal/
+school/
+
+./reports/assignments:
+UNIX/
+
+[7m--More--[m./reports/assignments/UNIX:
+hw4
+hw4.bk
+hw4HL
+hw4SL@
+HWs/
+Projects/
+
+./reports/assignments/UNIX/HWs:
+
+./reports/assignments/UNIX/Projects:
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Mon 24 Apr 2006 08:27:51 AM EDT

@@ -1,0 +1,24 @@
+Script started on Tue 25 Apr 2006 08:42:26 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ first=""P"E"[1P"A"R"E"N"R"[1P"T"[Student@localhost ~]$ first="PARENT"
+]0;Student@localhost:~[Student@localhost ~]$ echo $first
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ bash
+]0;Student@localhost:~[Student@localhost ~]$ e[Kscript grady.L5.IV.txtecho "This is a fact \" $facts \" in our life."[Student@localhost ~]$ [25Pscript grady.L5.IV.txt[Kscript grady.L5.IV.txt[Kecho $first
+
+]0;Student@localhost:~[Student@localhost ~]$ echo nothing was printed because the sushell [K[Klbshell[Student@localhost ~]$ echo nothing was printed because the subs[Student@localhost ~]$ echo nothing was printed because the subsh[Student@localhost ~]$ echo nothing was printed because the subshe[Student@localhost ~]$ echo nothing was printed because the subshel[Student@localhost ~]$ echo nothing was printed because the subshell can not [K[K[K[K[Knot cll[K[Kall  tothe [K[K[K[K the varialbe becua[K[Kause it is in a higher shell.
+nothing was printed because the subshell cannot call to the varialbe because it is in a higher shell.
+]0;Student@localhost:~[Student@localhost ~]$ second=""S"U"B"S"H"E"L"L"[Student@localhost ~]$ second="SUBSHELL"
+]0;Student@localhost:~[Student@localhost ~]$ second="SUBSHELL"echo nothing was printed because the subshell cannot call  to the varialbe because it is in a higher shell.[A$first[K
+[K[A[Student@localhost ~]$ echo $first[K[K[K[K[K[K$subh[K[K[K[Ksecond
+SUBSHELL
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+]0;Student@localhost:~[Student@localhost ~]$ bashecho $firstfirst="PARENT"script grady.L5.IV.txtecho "This is a fact \" $facts \" in our life."[Student@localhost ~]$ [25Pscript grady.L5.IV.txt[8Pfirst="PARENT"[3Pecho $first[7Pbashecho $first
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ echo $first[7Pbashecho $first[K[K[K[K[Ksecond
+
+]0;Student@localhost:~[Student@localhost ~]$ ehc[Kc[K[Kcho it prints the first because i a [K[Kam in the first shell  where h[Kthat variable is set and it wou[K[Kill not print the second becuas[K[K[Kay[Kuse the variable was iin[K[Kn the second shell and it was close when i moved to the first shell.
+it prints the first because i am in the first shell where that variable is set and it will not print the second because the variablewas in the second shell and it was close when i moved to the first shell.
+]0;Student@localhost:~[Student@localhost ~]$ D[Kexit
+
+Script done on Tue 25 Apr 2006 08:50:09 AM EDT

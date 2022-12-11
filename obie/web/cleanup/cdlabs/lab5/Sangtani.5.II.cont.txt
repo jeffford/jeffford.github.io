@@ -1,0 +1,78 @@
+Script started on Wed 26 Apr 2006 04:45:17 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ (bate [K [K [K; who [K) > tee -a file3
+bash: syntax error near unexpected token `-a'
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) > tee -a file3[1P[1P[4h|[4l[4h [4l[Student@localhost ~]$ (bate; who) | tee -a file3
+bash: bate: command not found
+Student  :0           Apr 26 16:36
+Student  pts/1        Apr 26 16:44 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ (bate [K; who[K[K[K[K[K[K[K[K[K[K(bate; who) | tee -a file3 2>& 1
+bash: bate: command not found
+Student  :0           Apr 26 16:36
+Student  pts/1        Apr 26 16:44 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Wed Apr 26 07:42:13 EDT 2006
+Student  :0           Apr 26 07:19
+Student  pts/1        Apr 26 07:21 (:0.0)
+Student  :0           Apr 26 07:19
+Student  pts/1        Apr 26 07:21 (:0.0)
+Student  :0           Apr 26 16:36
+Student  pts/1        Apr 26 16:44 (:0.0)
+Student  :0           Apr 26 16:36
+Student  pts/1        Apr 26 16:44 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3(bate; who) | tee -a file3 2>& 1
+bash: bate: command not found
+Student  :0           Apr 26 16:36
+Student  pts/1        Apr 26 16:44 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) | tee -a file3 2>& 1[Student@localhost ~]$ more file3[K
+Wed Apr 26 07:42:13 EDT 2006
+Student  :0           Apr 26 07:19
+Student  pts/1        Apr 26 07:21 (:0.0)
+Student  :0           Apr 26 07:19
+Student  pts/1        Apr 26 07:21 (:0.0)
+Student  :0           Apr 26 16:36
+Student  pts/1        Apr 26 16:44 (:0.0)
+Student  :0           Apr 26 16:36
+Student  pts/1        Apr 26 16:44 (:0.0)
+Student  :0           Apr 26 16:36
+Student  pts/1        Apr 26 16:44 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3(bate; who) | tee -a file3 2>& 1[Student@localhost ~]$ (bate; who) | te[Student@localhost ~]$ (bate; who) | tee[Student@localhost ~]$ (bate; who) | tee [Student@localhost ~]$ (bate; who) | tee -[Student@localhost ~]$ (bate; who) | tee -a[Student@localhost ~]$ (bate; who) | tee -a [Student@localhost ~]$ (bate; who) | tee -a f[Student@localhost ~]$ (bate; who) | tee -a fi[Student@localhost ~]$ (bate; who) | tee -a fil[1P[1P[1P[1P[1P[1P[1P[1P[1P[4h>[4l[4h [4l[Student@localhost ~]$ (bate; who) > f[Student@localhost ~]$ (bate; who) > fi[Student@localhost ~]$ (bate; who) > fil[Student@localhost ~]$ (bate; who) > file[Student@localhost ~]$ (bate; who) > file3[Student@localhost ~]$ (bate; who) > file3 [Student@localhost ~]$ (bate; who) > file3 2[Student@localhost ~]$ (bate; who) > file3 2>[Student@localhost ~]$ (bate; who) > file3 2>&[Student@localhost ~]$ (bate; who) > file3 2>& [Student@localhost ~]$ (bate; who) > file3 2>& 1
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) > file3 2>& 1[Student@localhost ~]$ [15Pmore file3
+bash: bate: command not found
+Student  :0           Apr 26 16:36
+Student  pts/1        Apr 26 16:44 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3(bate; who) > file3 2>& 1[4h=[4l[1P[1P[4hd[4l[Student@localhost ~]$ (date; who) > file3 2>& 1
+]0;Student@localhost:~[Student@localhost ~]$ (date; who) > file3 2>& 1[Student@localhost ~]$ [15Pmore file3
+Wed Apr 26 16:56:30 EDT 2006
+Student  :0           Apr 26 16:36
+Student  pts/1        Apr 26 16:44 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3(date; who) > file3 2>& 1[1P[4hb[4l[Student@localhost ~]$ (ba[Student@localhost ~]$ (bat[Student@localhost ~]$ (bate[Student@localhost ~]$ (bate;[Student@localhost ~]$ (bate; [Student@localhost ~]$ (bate; w[Student@localhost ~]$ (bate; wh[Student@localhost ~]$ (bate; who[Student@localhost ~]$ (bate; who)[Student@localhost ~]$ (bate; who) [Student@localhost ~]$ (bate; who) >[Student@localhost ~]$ (bate; who) > [Student@localhost ~]$ (bate; who) > f[Student@localhost ~]$ (bate; who) > fi[Student@localhost ~]$ (bate; who) > fil[Student@localhost ~]$ (bate; who) > file[Student@localhost ~]$ (bate; who) > file3[Student@localhost ~]$ (bate; who) > file3 [Student@localhost ~]$ (bate; who) > file3 2[Student@localhost ~]$ (bate; who) > file3 2>[Student@localhost ~]$ (bate; who) > file3 2>&[Student@localhost ~]$ (bate; who) > file3 2>& [Student@localhost ~]$ (bate; who) > file3 2>& 1[Student@localhost ~]$ (bate; who) >[4h>[4l[Student@localhost ~]$ (bate; who) >> file3 2>& 1
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) >> file3 2>& 1[Student@localhost ~]$ [16Pmore file3
+Wed Apr 26 16:56:30 EDT 2006
+Student  :0           Apr 26 16:36
+Student  pts/1        Apr 26 16:44 (:0.0)
+bash: bate: command not found
+Student  :0           Apr 26 16:36
+Student  pts/1        Apr 26 16:44 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3(bate; who) >> file3 2>& 1[Student@localhost ~]$ (bate; who) >> file3 2>&[Student@localhost ~]$ (bate; who) >> file3 2>& [Student@localhost ~]$ (bate; who) >> file3 2>& 1[K\\\\\[K[K[K[K[K[K[K[K > [Student@localhost ~]$ (bate; who) >> file3[1P[4h4[4l[Student@localhost ~]$ (bate; who) >> file4 [Student@localhost ~]$ (bate; who) >> file4 2[Student@localhost ~]$ (bate; who) >> file4 2 [Student@localhost ~]$ (bate; who) >> file4 2 >[Student@localhost ~]$ (bate; who) >> file4 2 >  f i l e 5 
+bash: syntax error near unexpected token `2'
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m  [00mfile2[00m          [00msangtani2edit.txt![00m      [00mSangtani.5.II.txt[00m
+[00;34mbackups[00m      [00mfile3[00m          [00mSangtani2edit.txt[00m       [00mSangtani.5.I.txt[00m
+[00;34mbusletters[00m   [00mfile3.bak[00m      [00mSangtani.3.II.cont.txt[00m  [00mSangtani.L1.txt.odt[00m
+[00;34mbusLetters[00m   [00mfile4[00m          [00mSangtani.3.III.txt[00m      [00msangtani.L2.txt[00m
+[00mcalstuff[00m     [00mgtsybrgII.txt[00m  [00mSangtani.3.II.txt[00m       [00mSangtani.L4.txt.odt[00m
+[00;34mchapter_4[00m    [00mhw4[00m            [00mSangtani.3.I.txt[00m
+[00;34mDesktop[00m      [00;34mletters[00m        [00mSangtani.3.IV.txt[00m
+[00mfile1[00m        [00;34mreports[00m        [00mSangtani.5.II.cont.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls(bate; who) >> file4 2 > file5 [Student@localhost ~]$ (bate; who) >> file4 [4h [4l[1P[Student@localhost ~]$ (bate; who) >> file4 [Student@localhost ~]$ (bate; who) >> file4 2[Student@localhost ~]$ (bate; who) >> file4 2 [Student@localhost ~]$ (bate; who) >> file4 2 >[Student@localhost ~]$ (bate; who) >> file4 2 > [Student@localhost ~]$ (bate; who) >> file4 2 > f[Student@localhost ~]$ (bate; who) >> file4 2 > fi[Student@localhost ~]$ (bate; who) >> file4 2 > fil[Student@localhost ~]$ (bate; who) >> file4 2 > file[Student@localhost ~]$ (bate; who) >> file4 2 > file5[4h1[4l[Student@localhost ~]$ (bate; who) 1>> file4 2 > file5 
+bash: syntax error near unexpected token `2'
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) 1>> file4 2 > file5 [1P[4h^[[4l[4h[[4l[4hC[4l[Student@localhost ~]$ (bate; who) ^[[C>[Student@localhost ~]$ (bate; who) ^[[C>>[Student@localhost ~]$ (bate; who) ^[[C>> [Student@localhost ~]$ (bate; who) ^[[C>> f[Student@localhost ~]$ (bate; who) ^[[C>> fi[Student@localhost ~]$ (bate; who) ^[[C>> fil[Student@localhost ~]$ (bate; who) ^[[C>> file[Student@localhost ~]$ (bate; who) ^[[C>> file4[Student@localhost ~]$ (bate; who) ^[[C>> file4 [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[2P[1P[1P[1P[1P[1P[1P[1P[4h [4l[1P[Student@localhost ~]$ bate 2 > file5 
+bash: bate: command not found
+]0;Student@localhost:~[Student@localhost ~]$ bate 2 > file5 [4h(bate; who) 1>> f[4lile4[Student@localhost ~]$ (bate; who) 1>> file4 2 > file5 
+bash: syntax error near unexpected token `2'
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) 1>> file4 2 > file5 [Student@localhost ~]$ (bate; who) 1>> file4 2[Student@localhost ~]$ (bate; who) 1>> file4 2 [Student@localhost ~]$ (bate; who) 1>> file4 2 >[Student@localhost ~]$ (bate; who) 1>> file4 2 > [Student@localhost ~]$ (bate; who) 1>> file4 2 > f[Student@localhost ~]$ (bate; who) 1>> file4 2 > fi[Student@localhost ~]$ (bate; who) 1>> file4 2 > fil[Student@localhost ~]$ (bate; who) 1>> file4 2 > file[Student@localhost ~]$ (bate; who) 1>> file4 2 > file5[Student@localhost ~]$ (bate; who) 1>> file4 2 > file5 [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmore file 5[K[K5
+]0;Student@localhost:~[Student@localhost ~]$ more file5(bate; who) 1>> file4 2 > file5 [1P[Student@localhost ~]$ (bate; who) 1>> file4 2> file5 
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) 1>> file4 2> file5 [Student@localhost ~]$ more file5[K
+bash: bate: command not found
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Wed 26 Apr 2006 05:08:50 PM EDT

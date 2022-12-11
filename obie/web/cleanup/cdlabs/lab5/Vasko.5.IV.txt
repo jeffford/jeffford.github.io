@@ -1,0 +1,28 @@
+Script started on Tue 25 Apr 2006 07:56:45 AM EDT
+]0;student@localhost:~[student@localhost ~]$ echo "Hello thisis [K[K[K is a short file." > file1
+]0;student@localhost:~[student@localhost ~]$ more file1
+Hello this is a short file.
+]0;student@localhost:~[student@localhost ~]$ more file1[32@echo "Hello this is a short file." >[student@localhost ~]$ echo "Hello this is a short file." > file1[student@localhost ~]$ [21Pscript Vasko.5.II.txt[11Pmore file54[29@bate 1>> file4 2>> file5 | who >>[student@localhost ~]$ bate 1>> file4 2>> file5 | who >> file4[student@localhost ~]$ more file3[K[29@bate 1>> file3 2>> file3 | who >>[student@localhost ~]$ bate 1>> file3 2>> file3 | who >> file3[student@localhost ~]$ more file3[Kbate 1>> file4 2>> file5 | who >> file4[student@localhost ~]$ more file4[K5script Vasko.5.II.txtecho "Hello this is a short file." > file1[student@localhost ~]$ more file1[K[Kecho "This is just al[K long babble of stuff to get two line s, hig[Kbbig[Kddy gig[Kbbitty flipptiy fo[Klop hooooohaaaa yadd yaddda lili[Klies in the field  smell lvo[K[Kovely like likv[K[Kver." > file [K2
+]0;student@localhost:~[student@localhost ~]$ more file2
+This is just a long babble of stuff to get two lines, hibbiddy gibbitty flipptiy
+ flop hooooohaaaa yadd yaddda lillies in the field smell lovely like liver.
+]0;student@localhost:~[student@localhost ~]$ facts="Unix[K[K[KNIX vs. Others"
+]0;student@localhost:~[student@localhost ~]$ echo "this[K[K[K[KThis is a fact $facts in our life."
+This is a fact UNIX vs. Others in our life.
+]0;student@localhost:~[student@localhost ~]$ echo \#7 This was outpt [K[Kut becasue[K[K[Kuse the $ called for the con tests[K[K[Kntx [K[Ks of the facts variable.
+#7 This was output because the $ called for the contents of the facts variable.
+]0;student@localhost:~[student@localhost ~]$ echo "thi[K[K[KThis is a fact `[K'$facts' in our life"
+This is a fact 'UNIX vs. Others' in our life
+]0;student@localhost:~[student@localhost ~]$ Th[K[Kecho \# [K* [K[K8 This was the oupt[K[Ktput because the $ called for the  contesn[K[Knts of file[K[K[K[Kfile[K[K[K[Kf[Kvar[K[K[Kthe b[Kfacts varib[Kable and the '' n[Kn[Kinside the quotes is kept.
+#8 This was the output because the $ called for the contents of the facts variable and the  inside the quotes is kept.
+]0;student@localhost:~[student@localhost ~]$ echo "This is the f[K[K[K[K[Ka fact /[K\$facts in our life"
+This is a fact $facts in our life
+]0;student@localhost:~[student@localhost ~]$ This [K[K[K[K[Kecho \#9 This o[Kwas th[Khe output because the \ cass[K[K[K[Ktold LINUX tha t we[K[Kwe wn[Kantt[Ked to keep the $.
+#9 This was the output because the  told LINUX that we wanted to keep the $.
+]0;student@localhost:~[student@localhost ~]$ echo "This is a fact "Unix vs. Others'[K" in our life"
+This is a fact Unix vs. Others in our life
+]0;student@localhost:~[student@localhost ~]$ echo \#10 The [K[K[K[KT[KAll double qo[Kurot[K[K[Kotes were taken out because double  qo[Kuotes inside of sou[K[K[Kdouble qo[Kuotes are nt[Kot kept.
+#10 All double quotes were taken out because double quotes inside of double quotes are not kept.
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Tue 25 Apr 2006 08:09:44 AM EDT

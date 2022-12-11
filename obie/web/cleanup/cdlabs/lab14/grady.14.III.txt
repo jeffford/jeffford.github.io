@@ -1,0 +1,685 @@
+Script started on Mon 08 May 2006 05:33:47 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat kl[Kgls
+#! /bin/bash
+# script: kgls
+#this program will do an ls -l list of the home dir useing only 3 columns.
+case $# in 
+	0) echo "Usage: [column number] [column number] [column number]" ; ;;
+	1) echo "Usage: [column number] [column number] [column number]" ; ;;
+	2) echo "Usage: [column number] [column number] [column number]" ; ;;
+	3) column=$1 column=$2 column=$3;;
+	*) echo "Usage: [column number] [column number] [column number]" ; ;;
+esac
+if [[ $1 != [0-9] || $2 != [0-9] || $3 != [0-9] ]]
+then
+	echo "you must enter 3 arguments as numbers in the line."
+fi
+	ls -l | sed 's/  / /g' |sed 's/  / /g' | sed 's/  / /g' | cut -d" " -f$1,$2,$3
+
+]0;Student@localhost:~[Student@localhost ~]$ kgls
+Usage: [column number] [column number] [column number]
+you must enter 3 arguments as numbers in the line.
+cut: missing list of fields
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ kgls 1
+Usage: [column number] [column number] [column number]
+you must enter 3 arguments as numbers in the line.
+total
+drwxrwxr-x
+drwxrwxrwx
+drwx------
+-rwxrwxrwx
+-rwxrwxrwx
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rwxrwxrwx
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+drwxr-xr-x
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rwxrwxrwx
+-rwxrwxrwx
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+]0;Student@localhost:~[Student@localhost ~]$ kgls 12 2[Student@localhost ~]$ kgls 1 2
+Usage: [column number] [column number] [column number]
+you must enter 3 arguments as numbers in the line.
+total 1360
+drwxrwxr-x 2
+drwxrwxrwx 2
+drwx------ 2
+-rwxrwxrwx 1
+-rwxrwxrwx 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rwxrwxrwx 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+drwxr-xr-x 2
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rwxrwxrwx 1
+-rwxrwxrwx 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+]0;Student@localhost:~[Student@localhost ~]$ kgls 1 2 3 a
+Usage: [column number] [column number] [column number]
+total 1360
+drwxrwxr-x 2 Student
+drwxrwxrwx 2 Student
+drwx------ 2 Student
+-rwxrwxrwx 1 Student
+-rwxrwxrwx 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rwxrwxrwx 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+drwxr-xr-x 2 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rwxrwxrwx 1 Student
+-rwxrwxrwx 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+]0;Student@localhost:~[Student@localhost ~]$ kgls 1 2 3 a a[Ks
+Usage: [column number] [column number] [column number]
+total 1364
+drwxrwxr-x 2 Student
+drwxrwxrwx 2 Student
+drwx------ 2 Student
+-rwxrwxrwx 1 Student
+-rwxrwxrwx 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rwxrwxrwx 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+drwxr-xr-x 2 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rwxrwxrwx 1 Student
+-rwxrwxrwx 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+]0;Student@localhost:~[Student@localhost ~]$ kgls 1 2 3 a s[K[K[K[K[Ka
+you must enter 3 arguments as numbers in the line.
+cut: invalid byte, character or field list
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ kgls 1 2 a[1P as a
+you must enter 3 arguments as numbers in the line.
+cut: invalid byte, character or field list
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ kgls 1 s a[K[K[K2 34
+you must enter 3 arguments as numbers in the line.
+total 1368
+drwxrwxr-x 2
+drwxrwxrwx 2
+drwx------ 2
+-rwxrwxrwx 1
+-rwxrwxrwx 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rwxrwxrwx 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+drwxr-xr-x 2
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rwxrwxrwx 1
+-rwxrwxrwx 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+]0;Student@localhost:~[Student@localhost ~]$ kgls 1 2 34[K[K[K[K4 5
+total
+drwxrwxr-x Student 4096
+drwxrwxrwx Student 4096
+drwx------ Student 4096
+-rwxrwxrwx Student 1
+-rwxrwxrwx Student 96
+-rw-rw-r-- Student 546
+-rw-rw-r-- Student 546
+-rw-rw-r-- Student 540
+-rw-rw-r-- Student 216
+-rw-rw-r-- Student 324
+-rw-rw-r-- Student 243
+-rw-rw-r-- Student 108
+-rw-rw-r-- Student 108
+-rw-rw-r-- Student 108
+-rw-rw-r-- Student 81
+-rw-rw-r-- Student 27
+-rw-rw-r-- Student 425
+-rw-rw-r-- Student 61
+-rw-rw-r-- Student 63
+-rw-rw-r-- Student 500
+-rw-rw-r-- Student 91
+-rw-rw-r-- Student 91
+-rw-rw-r-- Student 290
+-rw-rw-r-- Student 360
+-rw-rw-r-- Student 35
+-rw-rw-r-- Student 501
+-rw-rw-r-- Student 0
+-rw-rw-r-- Student 0
+-rw-rw-r-- Student 0
+-rw-rw-r-- Student 98
+-rw-rw-r-- Student 100
+-rw-rw-r-- Student 98
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 288
+-rw-rw-r-- Student 100
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 255
+-rw-rw-r-- Student 121
+-rwxrwxrwx Student 36
+-rw-rw-r-- Student 1928
+-rw-rw-r-- Student 156
+-rw-rw-r-- Student 156
+-rw-rw-r-- Student 98
+-rw-rw-r-- Student 98
+-rw-rw-r-- Student 84
+-rw-rw-r-- Student 182
+-rw-rw-r-- Student 108
+-rw-rw-r-- Student 1553
+-rw-rw-r-- Student 0
+-rw-rw-r-- Student 171
+-rw-rw-r-- Student 171
+-rw-rw-r-- Student 342
+-rw-rw-r-- Student 350
+-rw-rw-r-- Student 171
+-rw-rw-r-- Student 0
+-rw-rw-r-- Student 36
+drwxr-xr-x Student 4096
+-rw-rw-r-- Student 451
+-rw-rw-r-- Student 98
+-rw-rw-r-- Student 84
+-rw-rw-r-- Student 4030
+-rw-rw-r-- Student 19288
+-rw-rw-r-- Student 16107
+-rw-rw-r-- Student 11115
+-rw-rw-r-- Student 15988
+-rw-rw-r-- Student 17993
+-rw-rw-r-- Student 44204
+-rw-rw-r-- Student 11297
+-rw-rw-r-- Student 109442
+-rw-rw-r-- Student 10222
+-rw-rw-r-- Student 79080
+-rw-rw-r-- Student 79078
+-rw-rw-r-- Student 38127
+-rw-rw-r-- Student 8192
+-rw-rw-r-- Student 12533
+-rw-rw-r-- Student 0
+-rw-rw-r-- Student 3698
+-rwxrwxrwx Student 533
+-rwxrwxrwx Student 639
+-rw-rw-r-- Student 254358
+-rw-rw-r-- Student 49
+-rw-rw-r-- Student 29
+-rw-rw-r-- Student 77
+-rw-rw-r-- Student 96
+-rw-rw-r-- Student 0
+-rw-rw-r-- Student 0
+-rw-rw-r-- Student 0
+-rw-rw-r-- Student 0
+-rw-rw-r-- Student 139
+-rw-rw-r-- Student 0
+]0;Student@localhost:~[Student@localhost ~]$ kgls 1 4 5[K[K[K[K[K3 7 1
+total
+drwxrwxr-x Student 28
+drwxrwxrwx Student 8
+drwx------ Student 8
+-rwxrwxrwx Student 28
+-rwxrwxrwx Student 2
+-rw-rw-r-- Student 2
+-rw-rw-r-- Student 2
+-rw-rw-r-- Student 2
+-rw-rw-r-- Student 2
+-rw-rw-r-- Student 2
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 5
+-rw-rw-r-- Student 5
+-rw-rw-r-- Student 5
+-rw-rw-r-- Student 5
+-rw-rw-r-- Student 7
+-rwxrwxrwx Student 7
+-rw-rw-r-- Student 7
+-rw-rw-r-- Student 28
+-rw-rw-r-- Student 28
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 28
+-rw-rw-r-- Student 28
+-rw-rw-r-- Student 28
+-rw-rw-r-- Student 27
+-rw-rw-r-- Student 28
+-rw-rw-r-- Student 28
+-rw-rw-r-- Student 8
+drwxr-xr-x Student 8
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 2
+-rw-rw-r-- Student 2
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 3
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 7
+-rw-rw-r-- Student 5
+-rw-rw-r-- Student 5
+-rw-rw-r-- Student 8
+-rw-rw-r-- Student 8
+-rw-rw-r-- Student 1
+-rw-rw-r-- Student 1
+-rwxrwxrwx Student 8
+-rwxrwxrwx Student 8
+-rw-rw-r-- Student 28
+-rw-rw-r-- Student 28
+-rw-rw-r-- Student 28
+-rw-rw-r-- Student 28
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 30
+-rw-rw-r-- Student 28
+-rw-rw-r-- Student 7
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 08 May 2006 05:35:57 PM EDT

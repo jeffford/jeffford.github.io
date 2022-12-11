@@ -1,0 +1,6 @@
+Script started on Thu 27 Apr 2006 08:00:43 AM EDT
+]0;student@localhost:~[student@localhost ~]$ ksh
+$ ls    exit
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 08:01:31 AM EDT

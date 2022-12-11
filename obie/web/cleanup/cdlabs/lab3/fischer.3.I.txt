@@ -1,0 +1,41 @@
+Script started on Fri 21 Apr 2006 08:30:54 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ mkdir letters reports assignments
+]0;Student@localhost:~[Student@localhost ~]$ cd letters
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd ~/reports
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir personal by[Kusiness school
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ~/assignments/UNIX
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ~/assignments/UNIX/HWs ~/assignments/UNIX/Pro jects
+]0;Student@localhost:~/reports[Student@localhost reports]$ cd
+]0;Student@localhost:~[Student@localhost ~]$ ld [K[Ks -Rp
+[00m.:
+[00;34massignments[00m/  [00;34mDesktop[00m/  [00mfischer.3.I.txt[00m  [00;34mLab2[00m/  [00;34mletters[00m/  [00;34mreports[00m/
+
+./assignments:
+[00;34mUNIX[00m/
+
+./assignments/UNIX:
+[00;34mHWs[00m/  [00;34mProjects[00m/
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+
+./Lab2:
+[00mfischer2edit.txt[00m  [00mfischer.L2[00m
+
+./letters:
+
+./reports:
+[00;34mbusiness[00m/  [00;34mpersonal[00m/  [00;34mschool[00m/
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Fri 21 Apr 2006 08:35:20 AM EDT

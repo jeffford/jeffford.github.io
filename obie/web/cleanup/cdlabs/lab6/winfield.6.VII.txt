@@ -1,0 +1,108 @@
+Script started on Sun 30 Apr 2006 05:22:21 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cp e[K/etc/passwd 
+Ch^=6[K[K[K6S&[K7F1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d":" > temp1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -[K-d":L"[K[K" 
+ > [K[KCh6S&[K7F1 > temp1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f3 -d":" Ch6S7F1 > 
+t1m[Kemp[K[K[K[Kemp2
+]0;Student@localhost:~[Student@localhost ~]$ paste temp1 temp2 > Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F2
+root	0
+bin	1
+daemon	2
+adm	3
+lp	4
+sync	5
+shutdown	6
+halt	7
+mail	8
+news	9
+uucp	10
+operator	11
+games	12
+gopher	13
+ftp	14
+nobody	99
+dbus	81
+vcsa	69
+rpm	37
+haldaemon	68
+pcap	77
+nscd	28
+named	25
+netdump	34
+sshd	74
+rpc	32
+mailnull	47
+smmsp	51
+rpcuser	29
+nfsnobody	65534
+xfs	43
+ntp	38
+gdm	42
+Student	500
+]0;Student@localhost:~[Student@localhost ~]$ sort -n [K[Kd Ch6S7F2 > 
+Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ pat[Kste temp1 temp2 
+ >Ch6[K[K[K Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ sortc [K[Ke[K Ch6S7F2
+adm	3
+bin	1
+daemon	2
+dbus	81
+ftp	14
+games	12
+gdm	42
+gopher	13
+haldaemon	68
+halt	7
+lp	4
+mail	8
+mailnull	47
+named	25
+netdump	34
+news	9
+nfsnobody	65534
+nobody	99
+nscd	28
+ntp	38
+operator	11
+pcap	77
+root	0
+rpc	32
+rpcuser	29
+rpm	37
+shutdown	6
+smmsp	51
+sshd	74
+Student	500
+sync	5
+uucp	10
+vcsa	69
+xfs	43
+]0;Student@localhost:~[Student@localhost ~]$ sorcty[K[K[Ky [K[Kt 
+Ch6S7F2 > Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ cut 
+[K[K[K[Kt[Kt[Khead -12 > [K[KCh6S7F2 > temp1
+]0;Student@localhost:~[Student@localhost ~]$ tail -12 
+Ch[K[K[K[K[K[K[K[K[K[K[Khead[K[K[K[Ktail 
++1[K[K+12 _[K-12 > temp2
+tail: cannot open `-12' for reading: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ tail +12 -12 Ch6S7F2 >Ch[K 
+[K[K temp2
+tail: cannot open `-12' for reading: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ tail -b 12 [K[K3 24 
+Ch6S7F2 > temp2
+tail: invalid option -- b
+Try `tail --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ tail -22 Ch6S7F2 > temp4
+]0;Student@localhost:~[Student@localhost ~]$ temp [K4 
+head[K[K[K[K[K[K[K[K[K[Khead -12 temp4 > temp2
+]0;Student@localhost:~[Student@localhost ~]$ tail temp4 > temp3
+]0;Student@localhost:~[Student@localhost ~]$ paste temp2[K1 temp2 temp3
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Sun 30 Apr 2006 05:38:29 PM EDT
+

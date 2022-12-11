@@ -1,0 +1,40 @@
+Script started on Mon 08 May 2006 09:19:21 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ C[Kcat >Ch11S6F1
+/@ * The greeting program. This program demonstrates	*/
+/*	 S some of the components of a simple C program.*/
+/*	Written by:  		your name here			*/
+/*	Date:		datre  e program written		*/
+#include <stdio.h>
+
+int main (void)
+{
+/*	Statements */
+
+   printf("Hellow World!\n");
+
+	   return 0;
+} /* main */^[[3~     
+]0;Student@localhost:~[Student@localhost ~]$ cat [K[K[K[Kcat >Ch11S5.sed
+s/\(\/\*.*\*\/\)//
+]0;Student@localhost:~[Student@localhost ~]$ sed -f Ch11S3[K4[K5.sed Ch11S6F1 >Ch11S6[K5F2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S5F2
+
+
+
+
+#include <stdio.h>
+
+int main (void)
+{
+
+
+   printf("Hellow World!\n");
+
+   return 0;
+} 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S5.sed
+s/\(\/\*.*\*\/\)//
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 08 May 2006 09:41:38 PM EDT

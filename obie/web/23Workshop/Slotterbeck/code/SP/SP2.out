@@ -1,0 +1,82 @@
+-- Pass 2 (020505) e option  --
+INPUT VALUES FOR GRAPH:
+A blank line terminates input
+TAIL,HEAD,WEIGHT,
+DUMP OF ASSOCIATION GRAPH FOLLOWS:
+ TAIL,HEAD,WEIGHT,
+   1     2     3  
+   2     1     3  
+   2     3     1  
+   3     2     1  
+   3     4     4  
+   4     3     4  
+   4     1     9  
+   1     4     9  
+DUMP OF ASSOCIATION GRAPH FOLLOWS:
+ TAIL,HEAD,WEIGHT,STATE,DISTANCE,
+   1     2     3     2     3  
+   2     1     3     0     0  
+   2     3     1     3     4  
+   3     2     1     0     0  
+   3     4     4     4     0  
+   4     3     4     0     0  
+   4     1     9     0     0  
+   1     4     9     3     9  
+DUMP OF ASSOCIATION GRAPH FOLLOWS:
+ TAIL,HEAD,WEIGHT,STATE,DISTANCE,
+   1     2     3     2     3  
+   2     1     3     0     0  
+   2     3     1     2     4  
+   3     2     1     0     0  
+   3     4     4     3     8  
+   4     3     4     0     0  
+   4     1     9     0     0  
+   1     4     9     3     9  
+DUMP OF ASSOCIATION GRAPH FOLLOWS:
+ TAIL,HEAD,WEIGHT,STATE,DISTANCE,
+   1     2     3     2     3  
+   2     1     3     0     0  
+   2     3     1     2     4  
+   3     2     1     0     0  
+   3     4     4     2     8  
+   4     3     4     0     0  
+   4     1     9     0     0  
+   1     4     9     0     9  
+DUMP OF ASSOCIATION GRAPH FOLLOWS:
+ TAIL,HEAD,WEIGHT,STATE,DISTANCE,
+   1     2     3     2     3  
+   2     1     3     0     0  
+   2     3     1     2     4  
+   3     2     1     0     0  
+   3     4     4     1     8  
+   4     3     4     0     0  
+   4     1     9     0     0  
+   1     4     9     0     9  
+DUMP OF ASSOCIATION GRAPH FOLLOWS:
+ TAIL,HEAD,WEIGHT,STATE,DISTANCE,
+   1     2     3     2     3  
+   2     1     3     0     0  
+   2     3     1     1     4  
+   3     2     1     0     0  
+   3     4     4     1     8  
+   4     3     4     0     0  
+   4     1     9     0     0  
+   1     4     9     0     9  
+DUMP OF ASSOCIATION GRAPH FOLLOWS:
+ TAIL,HEAD,WEIGHT,STATE,DISTANCE,
+   1     2     3     1     3  
+   2     1     3     0     0  
+   2     3     1     1     4  
+   3     2     1     0     0  
+   3     4     4     1     8  
+   4     3     4     0     0  
+   4     1     9     0     0  
+   1     4     9     0     9  
+SCALAR OPERATIONS 63
+PARALLEL OPERATIONS 1495
+DUMP OF ASSOCIATION RESULT FOLLOWS:
+ TAIL,HEAD,WEIGHT,
+   1     2     3  
+   2     3     1  
+   3     4     4  
+STOP quadruple detected. 

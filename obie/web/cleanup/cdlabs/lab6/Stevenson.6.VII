@@ -1,0 +1,589 @@
+Script started on Mon 01 May 2006 08:01:06 AM EDT
+]0;student@localhost:~[student@localhost ~]$ /cet[K[K[Ketc/passwd
+bash: /etc/passwd: Permission denied
+]0;student@localhost:~[student@localhost ~]$ cp e[K/etc/passwd > Ch6S7F1
+cp: missing destination file
+Try `cp --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ cp /[K/etc/passwd > Ch6S7F1[1P Ch6S7F1[1PCh6S7F1
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S76[KF1
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;student@localhost:~[student@localhost ~]$ man /etc/passwd[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwc -l cat Ch6S7F1[1P[1P[1P Ch6S7F1w Ch6S7F1c Ch6S7F1[student@localhost ~]$ wc  Ch6S7F1= Ch6S7F1l Ch6S7F1[1P Ch6S7F1[1P Ch6S7F1- Ch6S7F1l Ch6S7F1[student@localhost ~]$ wc -l [student@localhost ~]$ wc -l C[student@localhost ~]$ wc -l Ch[student@localhost ~]$ wc -l Ch6[student@localhost ~]$ wc -l Ch6S[student@localhost ~]$ wc -l Ch6S7[student@localhost ~]$ wc -l Ch6S7F[student@localhost ~]$ wc -l Ch6S7F1
+34 Ch6S7F1
+]0;student@localhost:~[student@localhost ~]$ cut [K[K[K[Kman cut
+[?1049h[?1h=[24;1H[KCUT(1)                           User Commands                          CUT(1)
+
+[1mNAME[0m
+       cut - remove sections from each line of files
+
+[1mSYNOPSIS[0m
+       [1mcut[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       Print selected parts of lines from each FILE to standard output.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       [1m-b[0m, [1m--bytes[0m=[4mLIST[24m
+              output only these bytes
+
+       [1m-c[0m, [1m--characters[0m=[4mLIST[24m
+              output only these characters
+
+       [1m-d[0m, [1m--delimiter[0m=[4mDELIM[24m
+              use DELIM instead of TAB for field delimiter
+
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-f[0m, [1m--fields[0m=[4mLIST[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output only these fields;  also print any line that contains  no
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              delimiter character, unless the [1m-s[0m option is specified
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-n[0m     with [1m-b[0m: don’t split multibyte characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-s[0m, [1m--only-delimited[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              do not print lines not containing delimiters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--output-delimiter[0m=[4mSTRING[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              use  STRING  as  the  output delimiter the default is to use the
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;student@localhost:~[student@localhost ~]$ cut -f 1,3 Ch6S[K7F1
+cut: Ch67F1: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ cut -f 1,3 Ch67F1S7F1
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;student@localhost:~[student@localhost ~]$ cut -f 1,3 Ch6S7F1[1P
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;student@localhost:~[student@localhost ~]$ cut -f1,3 Ch6S7F1[1P Ch6S7F1[1P Ch6S7F1
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;student@localhost:~[student@localhost ~]$ cut -f1 Ch6S7F1[student@localhost ~]$ cut -f1, Ch6S7F13 Ch6S7F1[student@localhost ~]$ cut -f1,3  Ch6S7F1- Ch6S7F1d Ch6S7F1" Ch6S7F1: Ch6S7F1" Ch6S7F1
+root:0
+bin:1
+daemon:2
+adm:3
+lp:4
+sync:5
+shutdown:6
+halt:7
+mail:8
+news:9
+uucp:10
+operator:11
+games:12
+gopher:13
+ftp:14
+nobody:99
+dbus:81
+vcsa:69
+rpm:37
+haldaemon:68
+pcap:77
+nscd:28
+named:25
+netdump:34
+sshd:74
+rpc:32
+mailnull:47
+smmsp:51
+rpcuser:29
+nfsnobody:65534
+xfs:43
+ntp:38
+gdm:42
+student:500
+]0;student@localhost:~[student@localhost ~]$ cut -f1,3 -d":" Ch6S7F1 > Ch6S7F2
+]0;student@localhost:~[student@localhost ~]$ sort [K[K[K[K[Kman sort
+[?1049h[?1h=[24;1H[KSORT(1)                          User Commands                         SORT(1)
+
+[1mNAME[0m
+       sort - sort lines of text files
+
+[1mSYNOPSIS[0m
+       [1msort[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       Ordering options:
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       [1m-b[0m, [1m--ignore-leading-blanks[0m ignore leading blanks
+
+       [1m-d[0m, [1m--dictionary-order[0m
+              consider only blanks and alphanumeric characters
+
+       [1m-f[0m, [1m--ignore-case[0m
+              fold lower case to upper case characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-g[0m, [1m--general-numeric-sort[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              compare according to general numerical value
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-i[0m, [1m--ignore-nonprinting[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              consider only printable characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-M[0m, [1m--month-sort[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              compare (unknown) < ‘JAN’ < ... < ‘DEC’
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-n[0m, [1m--numeric-sort[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              compare according to string numerical value
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-r[0m, [1m--reverse[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              reverse the result of comparisons
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Other options:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-c[0m, [1m--check[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              check whether input is sorted; do not sort
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-k[0m, [1m--key[0m=[4mPOS1[[24m,POS2]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              start a key at POS1, end it at POS 2 (origin 1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-m[0m, [1m--merge[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              merge already sorted files; do not sort
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-o[0m, [1m--output[0m=[4mFILE[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              write result to FILE instead of standard output
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-s[0m, [1m--stable[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              stabilize sort by disabling last-resort comparison
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-S[0m, [1m--buffer-size[0m=[4mSIZE[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              use SIZE for main memory buffer
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-t[0m, [1m--field-separator[0m=[4mSEP[24m use SEP instead of non-blank to blank transi-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              tion
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-T[0m, [1m--temporary-directory[0m=[4mDIR[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              use  DIR  for temporaries, not $TMPDIR or /tmp; multiple options
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              specify multiple directories
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-u[0m, [1m--unique[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              with [1m-c[0m, check for strict ordering; without [1m-c[0m, output only  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              first of an equal run
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-z[0m, [1m--zero-terminated[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              end lines with 0 byte, not newline
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       POS  is  F[.C][OPTS],  where  F is the field number and C the character
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       position in the field.  OPTS is  one  or  more  single-letter  ordering
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       options,  which  override  global ordering options for that key.  If no
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       key is given, use the entire line as the key.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       SIZE may be followed by the following multiplicative suffixes: % 1%  of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       memory, b 1, K 1024 (default), and so on for M, G, T, P, E, Z, Y.
+[24;1H[K:[24;1H[K [KESCESC[Kqq[24;1H[K:[24;1H[K[?1l>[?1049l]0;student@localhost:~[student@localhost ~]$ sort Ch6S7F2
+adm:3
+bin:1
+daemon:2
+dbus:81
+ftp:14
+games:12
+gdm:42
+gopher:13
+haldaemon:68
+halt:7
+lp:4
+mail:8
+mailnull:47
+named:25
+netdump:34
+news:9
+nfsnobody:65534
+nobody:99
+nscd:28
+ntp:38
+operator:11
+pcap:77
+root:0
+rpc:32
+rpcuser:29
+rpm:37
+shutdown:6
+smmsp:51
+sshd:74
+student:500
+sync:5
+uucp:10
+vcsa:69
+xfs:43
+]0;student@localhost:~[student@localhost ~]$ cut 1,4,7,10,13,[K[K3,16[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwc -l ChS7F2
+wc: ChS7F2: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ wc -l ChS7F26S7F2
+34 Ch6S7F2
+]0;student@localhost:~[student@localhost ~]$ cut [K[K[K[Khead Ch6S7F2- Ch6S7F2[1P Ch6S7F2[student@localhost ~]$ head  Ch6S7F2- Ch6S7F22 Ch6S7F23 Ch6S7F2[student@localhost ~]$ head -23 [student@localhost ~]$ head -23 C[student@localhost ~]$ head -23 Ch[student@localhost ~]$ head -23 Ch6[student@localhost ~]$ head -23 Ch6S[student@localhost ~]$ head -23 Ch6S7[student@localhost ~]$ head -23 Ch6S7F[student@localhost ~]$ head -23 Ch6S7F2[K1 > Ch6S7 t[K[Ktem[K[K[KF3temp
+]0;student@localhost:~[student@localhost ~]$ head -23 Ch[K[K[K[K[K12 Ch6S5[K7F3temp > C[Kcolumn1
+]0;student@localhost:~[student@localhost ~]$ cat column1
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+]0;student@localhost:~[student@localhost ~]$ tail -[K+12 Ch6S6[K7F3temp >c[K column2
+]0;student@localhost:~[student@localhost ~]$ cat column2
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+]0;student@localhost:~[student@localhost ~]$ cat column2[4htail +12 Ch6S7F3tem[4lp >[student@localhost ~]$ tail +12 Ch6S7F3temp > column2[1P[4h1[4l
+]0;student@localhost:~[student@localhost ~]$ cattail +11 Ch6S7F3temp > column2[student@localhost ~]$ [19Pcat[student@localhost ~]$ cat column2
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+]0;student@localhost:~[student@localhost ~]$ cat column2[4htail +11 Ch6S7F3tem[4lp >[student@localhost ~]$ tail +11 Ch6S7F3temp > column2[1P[4h3[4l
+]0;student@localhost:~[student@localhost ~]$ c[Ktail +13 Ch6S7F3temp > column2[student@localhost ~]$ [19Pcat[student@localhost ~]$ cat column2
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+]0;student@localhost:~[student@localhost ~]$ tail -[K+24 Ch6S7F1 > cl[Kolumn3
+]0;student@localhost:~[student@localhost ~]$ cat column3
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;student@localhost:~[student@localhost ~]$ paste column1 column2 column23[K[K3 > Ch6S7F2check
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S7F2 [Kcheck
+root:x:0:0:root:/root:/bin/bash	games:x:12:100:games:/usr/games:/sbin/nologin	netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin	gopher:x:13:30:gopher:/var/gopher:/sbin/nologin	sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin	ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin	rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin	nobody:x:99:99:Nobody:/:/sbin/nologin	mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin	dbus:x:81:81:System message bus:/:/sbin/nologin	smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync	vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin	rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown	rpm:x:37:37::/var/lib/rpm:/sbin/nologin	nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+halt:x:7:0:halt:/sbin:/sbin/halt	haldaemon:x:68:68:HAL daemon:/:/sbin/nologin	xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin	pcap:x:77:77::/var/arpwatch:/sbin/nologin	ntp:x:38:38::/etc/ntp:/sbin/nologin
+news:x:9:13:news:/etc/news:	nscd:x:28:28:NSCD Daemon:/:/sbin/nologin	gdm:x:42:42::/var/gdm:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin	named:x:25:25:Named:/var/named:/sbin/nologin	student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+operator:x:11:0:operator:/root:/sbin/nologin		
+]0;student@localhost:~[student@localhost ~]$ sort [K[K[K[K[Kcut 1,3[K[K[K-f1,3 d":" Ch6F[KS7F2check [K > Ch6S7F2check[K[K[K[K[Krecheck
+cut: d:: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ cut -f1,3 d":" Ch6S7F2check > Ch6S7F2recheck[student@localhost ~]$ cut -f1,3 [4h [4l[4h-[4l[student@localhost ~]$ cut -f1,3 - [student@localhost ~]$ cut -f1,3 - d[student@localhost ~]$ cut -f1,3 - d"[student@localhost ~]$ cut -f1,3 - d":[student@localhost ~]$ cut -f1,3 - d":"[student@localhost ~]$ cut -f1,3 - d":" [student@localhost ~]$ cut -f1,3 - d":" C[student@localhost ~]$ cut -f1,3 - d":" Ch[student@localhost ~]$ cut -f1,3 - d":" Ch6[student@localhost ~]$ cut -f1,3 - d":" Ch6S[student@localhost ~]$ cut -f1,3 - d":" Ch6S7[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2c[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2ch[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2che[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2chec[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check [student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check >[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > [student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > C[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6S[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6S7[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6S7F[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6S7F2[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6S7F2r[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6S7F2re[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6S7F2rec[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6S7F2rech[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6S7F2reche[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6S7F2rechec[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6S7F2recheck
+cut: d:: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ cut -f1,3 - d":" Ch6S7F2check > Ch6S7F2recheck[1P
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S6[K7F2recheck
+root:0
+bin:1
+daemon:2
+adm:3
+lp:4
+sync:5
+shutdown:6
+halt:7
+mail:8
+news:9
+uucp:10
+operator:11
+]0;student@localhost:~[student@localhost ~]$ sort -f1,3 [K [K[K[K[K[K[K[K[K[K[K[Kcut -f1,3 -d":" column1 [K > column1cut
+]0;student@localhost:~[student@localhost ~]$ cat column1cut
+root:0
+bin:1
+daemon:2
+adm:3
+lp:4
+sync:5
+shutdown:6
+halt:7
+mail:8
+news:9
+uucp:10
+operator:11
+]0;student@localhost:~[student@localhost ~]$ cat column1cut[4hut -f1,3 -d":" column1[4l >[student@localhost ~]$ cut -f1,3 -d":" column1 > column1cut[student@localhost ~]$ cut -f1,3 -d":" column[1P[4h2[4l[student@localhost ~]$ cut -f1,3 -d":" column2 [student@localhost ~]$ cut -f1,3 -d":" column2 >[student@localhost ~]$ cut -f1,3 -d":" column2 > [student@localhost ~]$ cut -f1,3 -d":" column2 > c[student@localhost ~]$ cut -f1,3 -d":" column2 > co[student@localhost ~]$ cut -f1,3 -d":" column2 > col[student@localhost ~]$ cut -f1,3 -d":" column2 > colu[student@localhost ~]$ cut -f1,3 -d":" column2 > colum[student@localhost ~]$ cut -f1,3 -d":" column2 > column[student@localhost ~]$ cut -f1,3 -d":" column2 > column1[1Pcut2cut
+]0;student@localhost:~[student@localhost ~]$ cut -f1,3 -d":" column2 > column2cut[1Pcut3cut[1P[4h3[4l
+]0;student@localhost:~[student@localhost ~]$ paste column1 column2 column2[K3 | sort[K[K[K[K[K[K[K
+root:x:0:0:root:/root:/bin/bash	games:x:12:100:games:/usr/games:/sbin/nologin	netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin	gopher:x:13:30:gopher:/var/gopher:/sbin/nologin	sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin	ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin	rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin	nobody:x:99:99:Nobody:/:/sbin/nologin	mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin	dbus:x:81:81:System message bus:/:/sbin/nologin	smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync	vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin	rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown	rpm:x:37:37::/var/lib/rpm:/sbin/nologin	nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+halt:x:7:0:halt:/sbin:/sbin/halt	haldaemon:x:68:68:HAL daemon:/:/sbin/nologin	xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin	pcap:x:77:77::/var/arpwatch:/sbin/nologin	ntp:x:38:38::/etc/ntp:/sbin/nologin
+news:x:9:13:news:/etc/news:	nscd:x:28:28:NSCD Daemon:/:/sbin/nologin	gdm:x:42:42::/var/gdm:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin	named:x:25:25:Named:/var/named:/sbin/nologin	student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+operator:x:11:0:operator:/root:/sbin/nologin		
+]0;student@localhost:~[student@localhost ~]$ paste column1 column2 column3cut -f1,3 -d":" column3 > column3cut[student@localhost ~]$ [7Ppaste column1 column2 column3[4hc[4l[4hu[4l[4ht[4l[student@localhost ~]$ paste column1cut [student@localhost ~]$ paste column1cut c[student@localhost ~]$ paste column1cut co[student@localhost ~]$ paste column1cut col[student@localhost ~]$ paste column1cut colu[student@localhost ~]$ paste column1cut colum[student@localhost ~]$ paste column1cut column[student@localhost ~]$ paste column1cut column2[student@localhost ~]$ paste column1cut column2 c column3u column3t column3[student@localhost ~]$ paste column1cut column2cut [student@localhost ~]$ paste column1cut column2cut c[student@localhost ~]$ paste column1cut column2cut co[student@localhost ~]$ paste column1cut column2cut col[student@localhost ~]$ paste column1cut column2cut colu[student@localhost ~]$ paste column1cut column2cut colum[student@localhost ~]$ paste column1cut column2cut column[student@localhost ~]$ paste column1cut column2cut column3cut
+root:0	games:12	netdump:34
+bin:1	gopher:13	sshd:74
+daemon:2	ftp:14	rpc:32
+adm:3	nobody:99	mailnull:47
+lp:4	dbus:81	smmsp:51
+sync:5	vcsa:69	rpcuser:29
+shutdown:6	rpm:37	nfsnobody:65534
+halt:7	haldaemon:68	xfs:43
+mail:8	pcap:77	ntp:38
+news:9	nscd:28	gdm:42
+uucp:10	named:25	student:500
+operator:11		
+]0;student@localhost:~[student@localhost ~]$ sort [K[K[K[K[Kpaste column1cut column2cut column3cut > S[KCh6F[KS7F2check
+]0;student@localhost:~[student@localhost ~]$ sort Ch6S7F2check
+adm:3	nobody:99	mailnull:47
+bin:1	gopher:13	sshd:74
+daemon:2	ftp:14	rpc:32
+halt:7	haldaemon:68	xfs:43
+lp:4	dbus:81	smmsp:51
+mail:8	pcap:77	ntp:38
+news:9	nscd:28	gdm:42
+operator:11		
+root:0	games:12	netdump:34
+shutdown:6	rpm:37	nfsnobody:65534
+sync:5	vcsa:69	rpcuser:29
+uucp:10	named:25	student:500
+]0;student@localhost:~[student@localhost ~]$ cat ch[K[KCh7[K6S7F2
+root:0
+bin:1
+daemon:2
+adm:3
+lp:4
+sync:5
+shutdown:6
+halt:7
+mail:8
+news:9
+uucp:10
+operator:11
+games:12
+gopher:13
+ftp:14
+nobody:99
+dbus:81
+vcsa:69
+rpm:37
+haldaemon:68
+pcap:77
+nscd:28
+named:25
+netdump:34
+sshd:74
+rpc:32
+mailnull:47
+smmsp:51
+rpcuser:29
+nfsnobody:65534
+xfs:43
+ntp:38
+gdm:42
+student:500
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S7F2sort Ch6S7F2check[4hpaste column1cut column2cut column3c[4lut >[student@localhost ~]$ paste column1cut column2cut column3cut > Ch6S7F2check[K > Ch6S7F2check[student@localhost ~]$ sort Ch6S7F2check[K[6Pcat Ch6S7F2[Khead 1[K-12 Ch6S7F2 > column1
+]0;student@localhost:~[student@localhost ~]$ hea[K[K[Ktail +12[K3 Ch6S7F2 > column23[K/3
+bash: column2/3: Not a directory
+]0;student@localhost:~[student@localhost ~]$ tail +13 Ch6S7F2 > column2/3[1P3a3n3d3
+]0;student@localhost:~[student@localhost ~]$ tail +12 C[Kcolumn2and3 > column3
+]0;student@localhost:~[student@localhost ~]$ ta[K[Khead -11 column2and3 > column2
+]0;student@localhost:~[student@localhost ~]$ cat column [K1
+root:0
+bin:1
+daemon:2
+adm:3
+lp:4
+sync:5
+shutdown:6
+halt:7
+mail:8
+news:9
+uucp:10
+operator:11
+]0;student@localhost:~[student@localhost ~]$ paste column1 column1[K2 column3
+root:0	games:12	netdump:34
+bin:1	gopher:13	sshd:74
+daemon:2	ftp:14	rpc:32
+adm:3	nobody:99	mailnull:47
+lp:4	dbus:81	smmsp:51
+sync:5	vcsa:69	rpcuser:29
+shutdown:6	rpm:37	nfsnobody:65534
+halt:7	haldaemon:68	xfs:43
+mail:8	pcap:77	ntp:38
+news:9	nscd:28	gdm:42
+uucp:10	named:25	student:500
+operator:11		
+]0;student@localhost:~[student@localhost ~]$ paste column1 column2 column3 > Ch6S7F3
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S7F3
+root:0	games:12	netdump:34
+bin:1	gopher:13	sshd:74
+daemon:2	ftp:14	rpc:32
+adm:3	nobody:99	mailnull:47
+lp:4	dbus:81	smmsp:51
+sync:5	vcsa:69	rpcuser:29
+shutdown:6	rpm:37	nfsnobody:65534
+halt:7	haldaemon:68	xfs:43
+mail:8	pcap:77	ntp:38
+news:9	nscd:28	gdm:42
+uucp:10	named:25	student:500
+operator:11		
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Mon 01 May 2006 08:28:16 AM EDT

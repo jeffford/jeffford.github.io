@@ -1,0 +1,115 @@
+Script started on Wed 26 Apr 2006 05:37:20 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ exitcho "\"this is a fact"\" $facts" \"in our life."\"[Student@localhost ~]$ "[Kecho \""this is a fact"\" $facts" \"in our life.""[Student@localhost ~]$ echo [5P'"this is a fact' $facts' in our life."'[2P $facts[Student@localhost ~]$ echo '"this is a fact $facts in our life."'[Student@localhost ~]$ echo [2P"this is a fact $facts in our life."[Student@localhost ~]$ echo $facts[K[7Pfactecho '"this is a fact" $facts " in our life."'[Student@localhost ~]$ "[Kecho '"this is a fact " $facts"' in our life."'[2P't $facts[Student@localhost ~]$ echo '"this is a fac't $facts' in our life."'[2Pt $facts[Student@localhost ~]$ echo '"this is a fact $facts in our life."'[4h\[4l[Student@localhost ~]$ echo '"this is a fact \$facts in our life."'[Student@localhost ~]$ echo [2P"this is a fact \$facts in our life."[4h'[4l$facts'[Student@localhost ~]$ echo "this is a fact '$facts' in our life."[2P$facts[Student@localhost ~]$ echo "this is a fact $facts in our life."[Student@localhost ~]$ [19Pfacts="UNIX vs Others"[2PUNIX vs Others[10Pmore file2the slash n won't work but hitting enter will work" > filee2[A[Student@localhost ~]$ [28Pecho "this is a two-line file
+[K[A[Student@localhost ~]$ echo "this is a two-line file[Student@localhost ~]$ "[Kexitcho "this is a two-lined file it works because the slash  n creates a new line > file2[Amore file2[K
+[K[A[Student@localhost ~]$ more file2echo "this is a two-lined file  \n it works because the sllash n creates a new line" > file2[Amore file2[K
+[K[A[Student@localhost ~]$ more file2echo "\n this is a two-lined file          \n it works beccause the slash n creates a new line" > file2[Amore file2[K
+[K[A[Student@localhost ~]$ more file2echo "\n this is a two-lined file\n       it works becausee the slash n creates a new line" > file2[Arm file2[K
+[K[A[Student@localhost ~]$ rm file2[4hmo[4lre[Student@localhost ~]$ more file2echo "\n this is a two-lined file \n it works because the  slash n creates a new line" > file2[Amore file1[K
+[K[A[Student@localhost ~]$ more file1[4hecho " this is a one-lined fil[4le" >[Student@localhost ~]$ echo " this is a one-lined file" > file1[Student@localhost ~]$ exit[K[1Pkshscript calapa.5.II.txtexit[Kmore file545[6Pexitscript calapa.5.II.txtksh[Kscript calapa.5.II.txtksh[Kexitcho " this is a one-lined file" > file1
+]0;Student@localhost:~[Student@localhost ~]$ echo " this is a one-lined file" > file1[Student@localhost ~]$ exit[Kcho "\"this is a fact"\" $facts" \"in our life."\"[Student@localhost ~]$ "[Kecho \""this is a fact"\" $facts" \"in our life.""[Student@localhost ~]$ echo [5P'"this is a fact' $facts' in our life."'[2P $facts[Student@localhost ~]$ echo '"this is a fact $facts in our life."'[Student@localhost ~]$ echo [2P"this is a fact $facts in our life."[Student@localhost ~]$ echo $facts[K[7Pfactecho '"this is a fact" $facts " in our life."'[Student@localhost ~]$ "[Kecho '"this is a fact " $facts"' in our life."'[2P't $facts[Student@localhost ~]$ echo '"this is a fac't $facts' in our life."'[2Pt $facts[Student@localhost ~]$ echo '"this is a fact $facts in our life."'[4h\[4l[Student@localhost ~]$ echo '"this is a fact \$facts in our life."'[Student@localhost ~]$ echo [2P"this is a fact \$facts in our life."[4h'[4l$facts'[Student@localhost ~]$ echo "this is a fact '$facts' in our life."[2P$facts[Student@localhost ~]$ echo "this is a fact $facts in our life."[Student@localhost ~]$ [19Pfacts="UNIX vs Others"[2PUNIX vs Others[10Pmore file2the slash n won't work but hitting enter will work" > filee2[A[Student@localhost ~]$ [28Pecho "this is a two-line file
+[K[A[Student@localhost ~]$ echo "this is a two-line file[Student@localhost ~]$ "[Kecho "this is a two-line file[Student@localhost ~]$ "[Kexitcho "this is a two-lined file it works because the slash  n creates a new line > file2[Amore file2[K
+[K[A[Student@localhost ~]$ more file2echo "this is a two-lined file  \n it works because the sllash n creates a new line" > file2[Amore file2[K
+[K[A[Student@localhost ~]$ more file2echo "\n this is a two-lined file          \n it works beccause the slash n creates a new line" > file2[Amore file2[K
+[K[A[Student@localhost ~]$ more file2echo "\n this is a two-lined file\n       it works becausee the slash n creates a new line" > file2[Arm file2[K
+[K[A[Student@localhost ~]$ rm file2[4hmo[4lre[Student@localhost ~]$ more file2echo "\n this is a two-lined file \n it works because the  slash n creates a new line" > file2[Amore file1[K
+[K[A[Student@localhost ~]$ more file1[4hecho " this is a one-lined fil[4le" >[Student@localhost ~]$ echo " this is a one-lined file" > file1[Student@localhost ~]$ more file1[K
+ this is a one-lined file
+]0;Student@localhost:~[Student@localhost ~]$ more file1[4hecho " this is a one-lined fil[4le" >[Student@localhost ~]$ echo " this is a one-lined file" > file1[Student@localhost ~]$ exit[Kcho "\"this is a fact"\" $facts" \"in our life."\"[Student@localhost ~]$ "[Kecho \""this is a fact"\" $facts" \"in our life.""[Student@localhost ~]$ echo [5P'"this is a fact' $facts' in our life."'[2P $facts[Student@localhost ~]$ echo '"this is a fact $facts in our life."'[Student@localhost ~]$ echo [2P"this is a fact $facts in our life."[Student@localhost ~]$ echo $facts[K[7Pfactecho '"this is a fact" $facts " in our life."'[Student@localhost ~]$ "[Kecho '"this is a fact " $facts"' in our life."'[2P't $facts[Student@localhost ~]$ echo '"this is a fac't $facts' in our life."'[2Pt $facts[Student@localhost ~]$ echo '"this is a fact $facts in our life."'[4h\[4l[Student@localhost ~]$ echo '"this is a fact \$facts in our life."'[Student@localhost ~]$ echo [2P"this is a fact \$facts in our life."[4h'[4l$facts'[Student@localhost ~]$ echo "this is a fact '$facts' in our life."[2P$facts[Student@localhost ~]$ echo "this is a fact $facts in our life."[Student@localhost ~]$ [19Pfacts="UNIX vs Others"[2PUNIX vs Others[10Pmore file2the slash n won't work but hitting enter will work" > filee2
+> "
+> "
+> 
+> 
+> q
+> 
+]0;Student@localhost:~[Student@localhost ~]$ the slash n won't work but hitting enter will work" > filee2
+"
+"
+
+
+q[A[A[A[A[A[A[Student@localhost ~]$ more file1[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[Student@localhost ~]$ more file1[4hecho " this is a one-lined fil[4le" >[Student@localhost ~]$ echo " this is a one-lined file" > file1[Student@localhost ~]$ exit[Kcho "\"this is a fact"\" $facts" \"in our life."\"[Student@localhost ~]$ "[Kecho \""this is a fact"\" $facts" \"in our life.""[Student@localhost ~]$ echo [5P'"this is a fact' $facts' in our life."'[2P $facts[Student@localhost ~]$ echo '"this is a fact $facts in our life."'[Student@localhost ~]$ echo [2P"this is a fact $facts in our life."[Student@localhost ~]$ echo $facts[K[7Pfactecho '"this is a fact" $facts " in our life."'[Student@localhost ~]$ "[Kecho '"this is a fact " $facts"' in our life."'[2P't $facts[Student@localhost ~]$ echo '"this is a fac't $facts' in our life."'[2Pt $facts[Student@localhost ~]$ echo '"this is a fact $facts in our life."'[4h\[4l[Student@localhost ~]$ echo '"this is a fact \$facts in our life."'[Student@localhost ~]$ echo [2P"this is a fact \$facts in our life."[4h'[4l$facts'[Student@localhost ~]$ echo "this is a fact '$facts' in our life."[2P$facts[Student@localhost ~]$ echo "this is a fact $facts in our life."[Student@localhost ~]$ [19Pfacts="UNIX vs Others"[2PUNIX vs Others[10Pmore file2the slash n won't work but hitting enter will work" > filee2[A[Student@localhost ~]$ [28Pecho "this is a two-line file
+[K[A[Student@localhost ~]$ echo "this is a two-line file[Student@localhost ~]$ "[Kexitcho "this is a two-lined file it works because the slash  n creates a new line > file2[Axit[K
+[K[A[Student@localhost ~]$ exitcho "this is a two-lined file it works because the slash  n creates a new line > file2[Amore file2[K
+[K[A[Student@localhost ~]$ more file2echo "this is a two-lined file  \n it works because the sllash n creates a new line" > file2[Amore file2[K
+[K[A[Student@localhost ~]$ more file2echo "this is a two-lined file  \n it works because the sllash n creates a new line" > file2[Amore file2[K
+[K[A[Student@localhost ~]$ more file2echo "this is a two-lined file it works because the slash  n creates a new line > file2[Axit[K
+[K[A[Student@localhost ~]$ exit"[Kecho "this is a two-line file[Student@localhost ~]$ the slash n won't work but hitting enter will work" > filee2[A[Student@localhost ~]$ more file2[K
+[K[A[Student@localhost ~]$ more file2facts=UNIX vs Others[10Pmore file2the slash n won't work but hitting enter will work" > filee2[A[Student@localhost ~]$ [28Pecho "this is a two-line file
+[K[A[Student@localhost ~]$ echo "this is a two-line file[Student@localhost ~]$ "[Kexit"[Kecho "this is a two-line file[Student@localhost ~]$ the slash n won't work but hitting enter will work" > filee2[A[Student@localhost ~]$ more file2[K
+[K[A[Student@localhost ~]$ more file2facts=UNIX vs Others"UNIX vs Others"echo "this is a fact $facts in our life."[4h'$[4lfacts'[Student@localhost ~]$ echo "this is a fact '$facts' in our life."[1P\$facts[Student@localhost ~]$ echo "this is a fact \$facts in our life."[Student@localhost ~]$ echo '"this is a fact \$facts in our life."'[1P[Student@localhost ~]$ echo '"this is a fact $facts in our life."'[4h't[4l $facts'[Student@localhost ~]$ echo '"this is a fac't $facts' in our life."'[4ht [4l" $facts"[Student@localhost ~]$ echo '"this is a fact " $facts"' in our life."'[Student@localhost ~]$ "[Kecho '"this is a fact" $facts " in our life."'[Student@localhost ~]$ fact[Kecho $facts"this is a fact $facts in our life."[Student@localhost ~]$ echo '"this is a fact $facts in our life."'[4h' [4l$facts'[Student@localhost ~]$ echo '"this is a fact' $facts' in our life."'[Student@localhost ~]$ echo \""this is a fact"\" $facts" \"in our life.""[Student@localhost ~]$ "[Kecho "\"this is a fact"\" $facts" \"in our life."\"[Student@localhost ~]$ exit[Kcho " this is a one-lined file" > file1[Student@localhost ~]$ more file1[Kthe slash n won't work but hitting enter will work" > filee2
+"
+"
+
+
+q[A[A[A[A[A[A[Student@localhost ~]$ [K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[Student@localhost ~]$ echo "this s[Kis a two-line file
+> it workd [K[Ks whenyou[K[K[K you hit enter.  the slash[K[K[K[K[K\n doens[K[K[K[K[Kisn't creating a new line."
+this is a two-line file
+it works when you hit enter.  the \n isn't creating a new line.
+]0;Student@localhost:~[Student@localhost ~]$ echo "this is a two-line file
+it works when you hit enter.  the \n isn't creating a new line." > file2
+]0;Student@localhost:~[Student@localhost ~]$ more file
+file: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ more file2
+this is a two-line file
+it works when you hit enter.  the \n isn't creating a new line.
+]0;Student@localhost:~[Student@localhost ~]$ rm facts
+rm: cannot remove `facts': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ rm $facts
+rm: too few arguments
+Try `rm --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ facts=UNIX vs. Others
+bash: vs.: command not found
+]0;Student@localhost:~[Student@localhost ~]$ facts=UNIX vs. Others[1P Others
+bash: vs: command not found
+]0;Student@localhost:~[Student@localhost ~]$ facts=UNIX vs Others"[Student@localhost ~]$ facts=UNIX vs. Others"[Student@localhost ~]$ facts=[4h"[4l
+bash: facts=UNIX vs. Others: command not found
+]0;Student@localhost:~[Student@localhost ~]$ facts"=UNIX vs. Others"[1P[4h=[4l
+]0;Student@localhost:~[Student@localhost ~]$ echo "this is a fact $facts of our life[1P[1P[4hi[4l[4hn[4l[Student@localhost ~]$ echo "this is a fact $facts in [Student@localhost ~]$ echo "this is a fact $facts in o[Student@localhost ~]$ echo "this is a fact $facts in ou[Student@localhost ~]$ echo "this is a fact $facts in our[Student@localhost ~]$ echo "this is a fact $facts in our [Student@localhost ~]$ echo "this is a fact $facts in our l[Student@localhost ~]$ echo "this is a fact $facts in our li[Student@localhost ~]$ echo "this is a fact $facts in our lif[Student@localhost ~]$ echo "this is a fact $facts in our life."
+this is a fact UNIX vs. Others in our life.
+]0;Student@localhost:~[Student@localhost ~]$ echo "this is a fact $facts in our life."[4h'[4l[Student@localhost ~]$ echo "this is a fact '$[Student@localhost ~]$ echo "this is a fact '$f[Student@localhost ~]$ echo "this is a fact '$fa[Student@localhost ~]$ echo "this is a fact '$fac[Student@localhost ~]$ echo "this is a fact '$fact[Student@localhost ~]$ echo "this is a fact '$facts[Student@localhost ~]$ echo "this is a fact '$facts[4h'[4l
+this is a fact 'UNIX vs. Others' in our life.
+]0;Student@localhost:~[Student@localhost ~]$ echo "this is a fact '$facts' in our life."[1P[4h\[4l[1P[4h\[4l[Student@localhost ~]$ echo "this is a fact \$[Student@localhost ~]$ echo "this is a fact \$f[Student@localhost ~]$ echo "this is a fact \$fa[Student@localhost ~]$ echo "this is a fact \$fac[Student@localhost ~]$ echo "this is a fact \$fact[Student@localhost ~]$ echo "this is a fact \$facts[1P
+this is a fact $facts in our life.
+]0;Student@localhost:~[Student@localhost ~]$ echo "this is a fact \$facts in our life."[4h'[4l$facts'[Student@localhost ~]$ echo "this is a fact '$facts' in our life."[2P$facts[Student@localhost ~]$ echo "this is a fact $facts in our life."[Student@localhost ~]$ [18Pfacts="UNIX vs. Others""=[Student@localhost ~]$ facts"=UNIX vs. Others"[3P=UNIX vs Others. Others[12Prm $facts[1Pfactsmore file2[Kecho "this is a two-line file
+it works when you hit enter.  the \n isn't creating a new line." > file2[K[A[Student@localhost ~]$ the slash n won't work but hitting enter will work" > file2                                                              
+"
+"
+
+
+q[A[A[A[A[A[A[Student@localhost ~]$ more file1[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[Student@localhost ~]$ more file1[4hecho " this is a one-lined fil[4le" >[Student@localhost ~]$ echo " this is a one-lined file" > file1[Student@localhost ~]$ exit[Kcho " this is a one-lined file" > file1[Student@localhost ~]$ exit[Kcho "\"this is a fact"\" $facts" \"in our life."\"[Student@localhost ~]$ "[Kecho \""this is a fact"\" $facts" \"in our life.""[Student@localhost ~]$ echo [5P'"this is a fact' $facts' in our life."'[Student@localhost ~]$ echo \""this is a fact"\" $facts" \"in our life.""
+> 
+]0;Student@localhost:~[Student@localhost ~]$ echo \""this is a fact"\" $facts" \"in our life.""[Student@localhost ~]$ echo [8P"this is a fact \$facts in our life."[4h'[4l$facts'[Student@localhost ~]$ echo "this is a fact '$facts' in our life."[2P$facts[Student@localhost ~]$ echo "this is a fact $facts in our life."[4h'$[4lfacts'[Student@localhost ~]$ echo "this is a fact '$facts' in our life."[1P\$facts[Student@localhost ~]$ echo "this is a fact \$facts in our life."[4h'[4l$facts'[Student@localhost ~]$ echo "this is a fact '$facts' in our life."[2P$facts[Student@localhost ~]$ echo "this is a fact $facts in our life."[Student@localhost ~]$ [18Pfacts="UNIX vs. Others""=[Student@localhost ~]$ facts"=UNIX vs. Others"[3P=UNIX vs Others. Others[12Prm $facts[1Pfactsmore file2[Kecho "this is a two-line file
+it works when you hit enter.  the \n isn't creating a new line." > file2[K[A[Student@localhost ~]$ the slash n won't work but hitting enter will work" > file2                                                              
+"
+"
+
+
+q[A[A[A[A[A[A[Student@localhost ~]$ more file1[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[Student@localhost ~]$ more file1[4hecho " this is a one-lined fil[4le" >[Student@localhost ~]$ echo " this is a one-lined file" > file1[Student@localhost ~]$ exit[Kcho "\"this is a fact"\" $facts" \"in our life."\"[Student@localhost ~]$ "[Kecho "\"this is a fact"\" $facts" \"in our life."\"
+"this is a fact" UNIX vs. Others "in our life."
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Wed 26 Apr 2006 05:43:22 PM EDT

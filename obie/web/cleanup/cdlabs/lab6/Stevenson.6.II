@@ -1,0 +1,464 @@
+Script started on Sun 30 Apr 2006 04:47:44 PM EDT
+]0;student@localhost:~[student@localhost ~]$ head e[K/t[Ketc/passwr[Kd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+]0;student@localhost:~[student@localhost ~]$ tail -20 /etc/passwd
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;student@localhost:~[student@localhost ~]$ cat Ch6SIIF1[student@localhost ~]$ cat >Ch6SIIF1 Ch6SIIF1[student@localhost ~]$ cat > C[student@localhost ~]$ cat > Ch[student@localhost ~]$ cat > Ch6[student@localhost ~]$ cat > Ch6S[student@localhost ~]$ cat > Ch6SI[student@localhost ~]$ cat > Ch6SII[student@localhost ~]$ cat > Ch6SIIF[student@localhost ~]$ cat > Ch6SIIF1
+Juan/jj@yahoo.com/330-59 69-5211
+George/gero  orge@hotmail.com/330-274-1999
+Anna/sister@y aol.com/330-274-  4-5615
+Ben/dayisbj@hr iram.edu/512-345-5678
+Tuan/tt1234@# aol.com/404-213-1434
+]0;student@localhost:~[student@localhost ~]$ cat Ch6IIF1
+cat: Ch6IIF1: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ cat < Ch[K[K[K[K<ChSIIF1[1PChSIIF1>ChSIIF1[student@localhost ~]$ cat >C[student@localhost ~]$ cat >Ch[student@localhost ~]$ cat >ChS[student@localhost ~]$ cat >ChSI[student@localhost ~]$ cat >ChSII[student@localhost ~]$ cat >ChSIIF[student@localhost ~]$ cat >ChSIIF1
+j Juan/jj@yahoo.com/233   330-569-5211
+George/george@hao  otmail.com' /330-274-1999
+Anna/Si  sister@aol.com/330-274-5615
+Ben/day visbj@hiram.edu/512-345-5678
+Tuan/tt1223  35 4@y ao. l.com/404-212 3-1434
+]0;student@localhost:~[student@localhost ~]$ cat Ch5[K6IIF1
+cat: Ch6IIF1: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ ChSIIF1
+bash: ChSIIF1: command not found
+]0;student@localhost:~[student@localhost ~]$ cat ChSIIF1
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;student@localhost:~[student@localhost ~]$ sort +0 -3Ch[K[K Ch6F[KSIIF1
+Anna/sister@aol.com/330-274-5615
+Ben/dayisbj@hiram.edu/512-345-5678
+George/george@hotmail.com/330-274-1999
+Juan/jj@yahoo.com/330-569-5211
+Tuan/tt1234@aol.com/404-213-1434
+]0;student@localhost:~[student@localhost ~]$ paste -d"\t" Ch6IIF1 [K[K[K[KIF1 Ch6IIF2
+paste: Ch6IIF1: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ paste -d"\t" Ch6IIf[KF1 > [KCh6IIF2
+paste: Ch6IIF1: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ paste -d"]\t" Ch6IIF1 >Ch6IIF2[4hS[4l[student@localhost ~]$ paste -d"\t" Ch6SI[student@localhost ~]$ paste -d"\t" Ch6SII[student@localhost ~]$ paste -d"\t" Ch6SIIF[student@localhost ~]$ paste -d"\t" Ch6SIIF1[student@localhost ~]$ paste -d"\t" Ch6SIIF1 [student@localhost ~]$ paste -d"\t" Ch6SIIF1 >[student@localhost ~]$ paste -d"\t" Ch6SIIF1 >C[student@localhost ~]$ paste -d"\t" Ch6SIIF1 >Ch[student@localhost ~]$ paste -d"\t" Ch6SIIF1 >Ch6[student@localhost ~]$ paste -d"\t" Ch6SIIF1 >Ch6I[student@localhost ~]$ paste -d"\t" Ch6SIIF1 >Ch6II[student@localhost ~]$ paste -d"\t" Ch6SIIF1 >Ch6IIF[student@localhost ~]$ paste -d"\t" Ch6SIIF1 >Ch6IIF2
+]0;student@localhost:~[student@localhost ~]$ cat Ch6IIF1[K2
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/dayisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;student@localhost:~[student@localhost ~]$ cut Ch[Kh6II[K[KSIIF2[K[K[K[K[KIIF@[K2 >[K> [4h-[4l[1P[student@localhost ~]$ cut [4h [4l[4h-[4l[4hf[4l[student@localhost ~]$ cut -f [4h [4l[4h1[4l[4h-[4l[1P[1P[1P[4h1[4l[4h,[4l[4h2[4l[4h,[4l[4h3[4l[student@localhost ~]$ cut -f1,2,3 [student@localhost ~]$ cut -f1,2,3 C[student@localhost ~]$ cut -f1,2,3 Ch[student@localhost ~]$ cut -f1,2,3 Ch6[student@localhost ~]$ cut -f1,2,3 Ch6I[student@localhost ~]$ cut -f1,2,3 Ch6II[student@localhost ~]$ cut -f1,2,3 Ch6IIF[student@localhost ~]$ cut -f1,2,3 Ch6IIF2[student@localhost ~]$ cut -f1,2,3 Ch6IIF2 [student@localhost ~]$ cut -f1,2,3 Ch6IIF2 >[student@localhost ~]$ cut -f1,2,3 Ch6IIF2 >  C H [1P h 6 5 [1P S I I F 2 
+]0;student@localhost:~[student@localhost ~]$ cat Ch6SIIF2
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/dayisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;student@localhost:~[student@localhost ~]$ rm [Kcat Ch6SIIF2[1P Ch6SIIF2[1P Ch6SIIF2[1P Ch6SIIF2r Ch6SIIF2m Ch6SIIF2
+]0;student@localhost:~[student@localhost ~]$ rm Ch6SIIF2[4hc[4lat[student@localhost ~]$ cat Ch6SIIF2[1PIIF2
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/dayisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;student@localhost:~[student@localhost ~]$ cat Ch6IIF2[1P[1P[1P Ch6IIF2r Ch6IIF2m Ch6IIF2
+]0;student@localhost:~[student@localhost ~]$ cut -d
+cut: option requires an argument -- d
+Try `cut --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ cut -df[K"\t[K[K[K[Kf [1Pdrm Ch6IIF2[4hc[4lat[student@localhost ~]$ cat Ch6IIF2rm Ch6SIIF2[4hc[4lat[student@localhost ~]$ cat Ch6SIIF2ut -f1,2,3 Ch6IIF2 > Ch6SIIF2 [4hd[4l[4h"[4l[1P[1P[student@localhost ~]$ cut -f1,2,3 [4h [4l[1P[4hd[4l[1P[student@localhost ~]$ cut -f1,2,3 [4h [4l[4h-[4l[4hd[4l[4h"[4l[4h\[4l[4ht[4l[4h"[4l[1P[4h/[4l[1P[1P[4h\[4l[4ht[4l[student@localhost ~]$ cut -f1,2,3 -d"\t"[student@localhost ~]$ cut -f1,2,3 -d"\t" [student@localhost ~]$ cut -f1,2,3 -d"\t" C[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6I[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6II[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF2[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF2 [student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF2 >[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF2 > [student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF2 > C[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF2 > Ch[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF2 > Ch6[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF2 > Ch6S[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF2 > Ch6SI[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF2 > Ch6SII[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF2 > Ch6SIIF[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6IIF2 > Ch6SIIF2[4hS[4l[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SI[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SII[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SIIF[1P[4h1[4l[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SIIF1 [student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SIIF1 >[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SIIF1 > [student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SIIF1 > C[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SIIF1 > Ch[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SIIF1 > Ch6[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SIIF1 > Ch6S[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SIIF1 > Ch6SI[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SIIF1 > Ch6SII
+cut: the delimiter must be a single character
+Try `cut --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ cut \[K=[K[K[K[K[Kcut -f1,2,3 -d"\t" Ch6SIIF1 > Ch6SIIF2 [1P[1P[4h[[4l[4h2[4l[4h~[4l[1P[1P[1P[1P[1P[1P[student@localhost ~]$ cut -f1,2,3 -d"[2~I[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[student@localhost ~]$ cut -f1,2,3 -d"[2~I[1P[1P[1P[1P[1P [1P[1P[1P[1P[1P[1P[1P[1P [1P[1P[1P[1P[1P[1P[1P[1P[1P c u t [student@localhost ~]$ cut  h [1P [K[1P [1P [1P m a n [student@localhost ~]$ man  c u t 
+[?1049h[?1h=[24;1H[KCUT(1)                           User Commands                          CUT(1)
+
+[1mNAME[0m
+       cut - remove sections from each line of files
+
+[1mSYNOPSIS[0m
+       [1mcut[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       Print selected parts of lines from each FILE to standard output.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       [1m-b[0m, [1m--bytes[0m=[4mLIST[24m
+              output only these bytes
+
+       [1m-c[0m, [1m--characters[0m=[4mLIST[24m
+              output only these characters
+
+       [1m-d[0m, [1m--delimiter[0m=[4mDELIM[24m
+              use DELIM instead of TAB for field delimiter
+
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-f[0m, [1m--fields[0m=[4mLIST[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output only these fields;  also print any line that contains  no
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              delimiter character, unless the [1m-s[0m option is specified
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-n[0m     with [1m-b[0m: don’t split multibyte characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-s[0m, [1m--only-delimited[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              do not print lines not containing delimiters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--output-delimiter[0m=[4mSTRING[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              use  STRING  as  the  output delimiter the default is to use the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input delimiter
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Use one, and only one of [1m-b[0m, [1m-c[0m or [1m-f[0m.  Each LIST is  made  up  of  one
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       range, or many ranges separated by commas.  Each range is one of:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       N      N’th byte, character or field, counted from 1
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       N-     from N’th byte, character or field, to end of line
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-f[0m, [1m--fields[0m=[4mLIST[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       N-     from N’th byte, character or field, to end of line
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       N-M    from N’th to M’th (included) byte, character or field
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-M[0m     from first to M’th (included) byte, character or field
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       With no FILE, or when FILE is -, read standard input.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mAUTHOR[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Written by David Ihnat, David MacKenzie, and Jim Meyering.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mREPORTING[0m [1mBUGS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Report bugs to <bug-coreutils@gnu.org>.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mCOPYRIGHT[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Copyright © 2004 Free Software Foundation, Inc.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       This is free software; see the source for copying conditions.  There is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              input delimiter
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              use  STRING  as  the  output delimiter the default is to use the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m--output-delimiter[0m=[4mSTRING[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              do not print lines not containing delimiters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-s[0m, [1m--only-delimited[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-n[0m     with [1m-b[0m: don’t split multibyte characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              delimiter character, unless the [1m-s[0m option is specified
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              output only these fields;  also print any line that contains  no
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-f[0m, [1m--fields[0m=[4mLIST[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              use DELIM instead of TAB for field delimiter
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-d[0m, [1m--delimiter[0m=[4mDELIM[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              output only these characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-c[0m, [1m--characters[0m=[4mLIST[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              output only these bytes
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-b[0m, [1m--bytes[0m=[4mLIST[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       too.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       Mandatory  arguments  to  long  options are mandatory for short options
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       Print selected parts of lines from each FILE to standard output.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mDESCRIPTION[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1mcut[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mSYNOPSIS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-n[0m     with [1m-b[0m: don’t split multibyte characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-s[0m, [1m--only-delimited[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              do not print lines not containing delimiters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--output-delimiter[0m=[4mSTRING[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              use  STRING  as  the  output delimiter the default is to use the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input delimiter
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Use one, and only one of [1m-b[0m, [1m-c[0m or [1m-f[0m.  Each LIST is  made  up  of  one
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       range, or many ranges separated by commas.  Each range is one of:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       N      N’th byte, character or field, counted from 1
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       N-     from N’th byte, character or field, to end of line
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       N-M    from N’th to M’th (included) byte, character or field
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-M[0m     from first to M’th (included) byte, character or field
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       With no FILE, or when FILE is -, read standard input.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mAUTHOR[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Written by David Ihnat, David MacKenzie, and Jim Meyering.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mREPORTING[0m [1mBUGS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Report bugs to <bug-coreutils@gnu.org>.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mCOPYRIGHT[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Copyright © 2004 Free Software Foundation, Inc.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       This is free software; see the source for copying conditions.  There is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       NO warranty; not even for MERCHANTABILITY or FITNESS FOR  A  PARTICULAR
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       PURPOSE.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mSEE[0m [1mALSO[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       The  full  documentation for [1mcut[0m is maintained as a Texinfo manual.  If
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the [1minfo[0m and [1mcut[0m programs are properly installed at your site, the com-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       mand
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1minfo[0m [1mcoreutils[0m [1mcut[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       should give you access to the complete manual.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[Kcut (coreutils) 5.2.1              May 2005                             CUT(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K[?1l>[?1049l]0;student@localhost:~[student@localhost ~]$ man cut [4hcut -f1,2,3 -d"\t" Ch6SIIF1 > C[4lh6SIIF2[student@localhost ~]$ cut -f1,2,3 -d"\t" Ch6SIIF1 > Ch6SIIF2 [student@localhost ~]$ cut -f1,2,3 -d"\[student@localhost ~]$ cut -f1,2,3 -d"\t[4h[[4l[4hA[4lman cut [K[Kman cut 
+[?1049h[?1h=[24;1H[KCUT(1)                           User Commands                          CUT(1)
+
+[1mNAME[0m
+       cut - remove sections from each line of files
+
+[1mSYNOPSIS[0m
+       [1mcut[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       Print selected parts of lines from each FILE to standard output.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       [1m-b[0m, [1m--bytes[0m=[4mLIST[24m
+              output only these bytes
+
+       [1m-c[0m, [1m--characters[0m=[4mLIST[24m
+              output only these characters
+
+       [1m-d[0m, [1m--delimiter[0m=[4mDELIM[24m
+              use DELIM instead of TAB for field delimiter
+
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-f[0m, [1m--fields[0m=[4mLIST[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output only these fields;  also print any line that contains  no
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              delimiter character, unless the [1m-s[0m option is specified
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-n[0m     with [1m-b[0m: don’t split multibyte characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-s[0m, [1m--only-delimited[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              do not print lines not containing delimiters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--output-delimiter[0m=[4mSTRING[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              use  STRING  as  the  output delimiter the default is to use the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input delimiter
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Use one, and only one of [1m-b[0m, [1m-c[0m or [1m-f[0m.  Each LIST is  made  up  of  one
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       range, or many ranges separated by commas.  Each range is one of:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       N      N’th byte, character or field, counted from 1
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       N-     from N’th byte, character or field, to end of line
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       N-M    from N’th to M’th (included) byte, character or field
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-M[0m     from first to M’th (included) byte, character or field
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       With no FILE, or when FILE is -, read standard input.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mAUTHOR[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Written by David Ihnat, David MacKenzie, and Jim Meyering.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mREPORTING[0m [1mBUGS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Report bugs to <bug-coreutils@gnu.org>.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mCOPYRIGHT[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Copyright © 2004 Free Software Foundation, Inc.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       This is free software; see the source for copying conditions.  There is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       NO warranty; not even for MERCHANTABILITY or FITNESS FOR  A  PARTICULAR
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       PURPOSE.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mSEE[0m [1mALSO[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       The  full  documentation for [1mcut[0m is maintained as a Texinfo manual.  If
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the [1minfo[0m and [1mcut[0m programs are properly installed at your site, the com-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       mand
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1minfo[0m [1mcoreutils[0m [1mcut[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       should give you access to the complete manual.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[Kcut (coreutils) 5.2.1              May 2005                             CUT(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[Kqq[24;1H[K[7m(END) [27m[24;1H[K[?1l>[?1049l]0;student@localhost:~[student@localhost ~]$ man cut [4hcut -f1,2,3 -d"\t[A" Ch6SIIF1 > C[4lh6SIIF2[student@localhost ~]$ cut -f1,2,3 -d"\t[A" Ch6SIIF1 > Ch6SIIF2 [student@localhost ~]$ cut -f1,2,3 -d"\t[A[1P[1P[1P[1P[1P[1P[1P[1P[1Pman cut [K[4hcut -f1,2,3 Ch6SIIF1 > C[4lh6SIIF2[student@localhost ~]$ cut -f1,2,3 Ch6SIIF1 > Ch6SIIF2 [student@localhost ~]$ cut -f1,2,3 Ch6SIIF1 >[student@localhost ~]$ cut -f1,2,3 Ch6SIIF1 > [student@localhost ~]$ cut -f1,2,3 Ch6SIIF1 > C[student@localhost ~]$ cut -f1,2,3 Ch6SIIF1 > Ch[student@localhost ~]$ cut -f1,2,3 Ch6SIIF1 > Ch6[student@localhost ~]$ cut -f1,2,3 Ch6SIIF1 > Ch6S[student@localhost ~]$ cut -f1,2,3 Ch6SIIF1 > Ch6SI[student@localhost ~]$ cut -f1,2,3 Ch6SIIF1 > Ch6SII[student@localhost ~]$ cut -f1,2,3 Ch6SIIF1 > Ch6SIIF[student@localhost ~]$ cut -f1,2,3 Ch6SIIF1 > Ch6SIIF2[student@localhost ~]$ cut -f1,2,3 Ch6SIIF1 > Ch6SIIF2 [K[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[4hm[4l[4ho[4l[4hr[4l[4he[4l[student@localhost ~]$ more [student@localhost ~]$ more C[student@localhost ~]$ more Ch[student@localhost ~]$ more Ch6[student@localhost ~]$ more Ch6S[student@localhost ~]$ more Ch6SI[student@localhost ~]$ more Ch6SII[student@localhost ~]$ more Ch6SIIF[student@localhost ~]$ more Ch6SIIF1[1P[1P Ch6SIIF2[1PCh6SIIF2[1Ph6SIIF2[1P6SIIF2[1PSIIF2[1PIIF2[student@localhost ~]$ more Ch6SIIF1I[1PF2[1PF2[1P2[K\
+> > Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/dayisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+
+Script done on Sun 30 Apr 2006 05:06:47 PM EDT
+Script started on Sun 30 Apr 2006 05:07:22 PM EDT
+]0;student@localhost:~[student@localhost ~]$ more Ch6SIIF1
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/dayisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;student@localhost:~[student@localhost ~]$ more Ch6SIIF1[K[K[K[K[K[K[K[K[K[K[K[K[Kcut -d [K"/" [K -f[K[K[K[K[K[K[K[K-f1,2,3,[K d[K-d"\[K/" Ch5[K6SS[KIIF1 Ch6S[student@localhost ~]$ cut -f1,2,3 -d"/" Ch6SIIF1 [student@localhost ~]$ cut -f1,2,3 -d"/" Ch6SIIF1  Ch6S> Ch6S[student@localhost ~]$ cut -f1,2,3 -d"/" Ch6SIIF1 > [student@localhost ~]$ cut -f1,2,3 -d"/" Ch6SIIF1 > C[student@localhost ~]$ cut -f1,2,3 -d"/" Ch6SIIF1 > Ch[student@localhost ~]$ cut -f1,2,3 -d"/" Ch6SIIF1 > Ch6[student@localhost ~]$ cut -f1,2,3 -d"/" Ch6SIIF1 > Ch6SIIF2
+]0;student@localhost:~[student@localhost ~]$ more Ch6SIIF2
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/dayisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;student@localhost:~[student@localhost ~]$ past[K[K[K[Kop[K[Kpoast[K[K[K[Kaste f[K-f1,2,3[K[K[K[K[K[K[K[K[K[K[K[K[Kpaste -[KCh6SIIF21[K[K1 -[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kman cut
+[?1049h[?1h=[24;1H[KCUT(1)                           User Commands                          CUT(1)
+
+[1mNAME[0m
+       cut - remove sections from each line of files
+
+[1mSYNOPSIS[0m
+       [1mcut[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       Print selected parts of lines from each FILE to standard output.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       [1m-b[0m, [1m--bytes[0m=[4mLIST[24m
+              output only these bytes
+
+       [1m-c[0m, [1m--characters[0m=[4mLIST[24m
+              output only these characters
+
+       [1m-d[0m, [1m--delimiter[0m=[4mDELIM[24m
+              use DELIM instead of TAB for field delimiter
+
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-f[0m, [1m--fields[0m=[4mLIST[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output only these fields;  also print any line that contains  no
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              delimiter character, unless the [1m-s[0m option is specified
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-n[0m     with [1m-b[0m: don’t split multibyte characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-s[0m, [1m--only-delimited[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              do not print lines not containing delimiters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--output-delimiter[0m=[4mSTRING[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              use  STRING  as  the  output delimiter the default is to use the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       Print selected parts of lines from each FILE to standard output.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mDESCRIPTION[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1mcut[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+[24;1H[K:[24;1H[K:[24;1H[K[?1l>[?1049l]0;student@localhost:~[student@localhost ~]$ man paste
+[?1049h[?1h=[24;1H[KPASTE(1)                         User Commands                        PASTE(1)
+
+[1mNAME[0m
+       paste - merge lines of files
+
+[1mSYNOPSIS[0m
+       [1mpaste[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       Write  lines  consisting  of  the sequentially corresponding lines from
+       each FILE, separated by TABs, to standard output.   With  no  FILE,  or
+       when FILE is -, read standard input.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       [1m-d[0m, [1m--delimiters[0m=[4mLIST[24m
+              reuse characters from LIST instead of TABs
+
+       [1m-s[0m, [1m--serial[0m
+              paste one file at a time instead of in parallel
+
+       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mAUTHOR[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Written by David M. Ihnat and David MacKenzie.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mREPORTING[0m [1mBUGS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1mpaste[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mSYNOPSIS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       paste - merge lines of files
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mNAME[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HMPASTE(1)                         User Commands                        PASTE(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mAUTHOR[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Written by David M. Ihnat and David MacKenzie.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mREPORTING[0m [1mBUGS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Report bugs to <bug-coreutils@gnu.org>.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mCOPYRIGHT[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Copyright © 2004 Free Software Foundation, Inc.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       This is free software; see the source for copying conditions.  There is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       NO  warranty;  not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       PURPOSE.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mSEE[0m [1mALSO[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       The full documentation for [1mpaste[0m is maintained as a Texinfo manual.  If
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the  [1minfo[0m  and  [1mpaste[0m programs are properly installed at your site, the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       command
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1minfo[0m [1mcoreutils[0m [1mpaste[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       should give you access to the complete manual.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[Kpaste (coreutils) 5.2.1            May 2005                           PASTE(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1minfo[0m [1mcoreutils[0m [1mpaste[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       should give you access to the complete manual.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[Kpaste (coreutils) 5.2.1            May 2005                           PASTE(1)
+[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K[?1l>[?1049l]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Sun 30 Apr 2006 05:10:35 PM EDT

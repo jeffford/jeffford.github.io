@@ -1,0 +1,47 @@
+Script started on Tue 25 Apr 2006 07:40:47 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ mkdir letters reports assignments
+]0;Student@localhost:~[Student@localhost ~]$ cd letters
+]0;Student@localhost:~/letters[Student@localhost letters]$ mkdir friendly formal
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd ../reports
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir pero[K[Krsonal business school
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ../assignments/UNIX
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ../assignments/UNIX/HWs ../assignments/UNIX/Prrojects
+]0;Student@localhost:~/reports[Student@localhost reports]$ cd
+]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m    [00mgtysbrg.txt[00m      [00mKimura.3.I.txt~[00m    [00;34mletters[00m
+[00;34mDesktop[00m        [00mKimura.3.II.txt[00m  [00mKimura.L1.txt.odt[00m  [00;34mreports[00m
+[00mgtysbrgII.txt[00m  [00mKimura.3.I.txt[00m   [00mkimura.L2.txt[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+[00;31mparted-1.7.0rc4.tar.gz[00m
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpersonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Tue 25 Apr 2006 07:49:34 AM EDT

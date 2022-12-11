@@ -1,0 +1,82 @@
+2. who > file1
+   more file1
+	=>
+		Student  :0           Apr 25 07:29
+		Student  pts/1        Apr 25 07:39 (:0.0)
+		Student  pts/2        Apr 25 08:02 (:0.0)
+
+3. date ;  who > file2
+	=> Tue Apr 25 08:06:41 EDT 2006
+   more file2
+	=>
+		Student  :0           Apr 25 07:29
+		Student  pts/1        Apr 25 07:39 (:0.0)
+		Student  pts/2        Apr 25 08:02 (:0.0)
+6. Esc
+   k 
+   (date; who) > file3
+   more file3
+	=> 
+		Tue Apr 25 08:09:15 EDT 2006
+		Student  :0           Apr 25 07:29
+		Student  pts/1        Apr 25 07:39 (:0.0)
+		Student  pts/2        Apr 25 08:02 (:0.0)
+
+7. Esc
+   k
+   date >  file4; who
+	=>	
+		Student  :0           Apr 25 07:29
+		Student  pts/1        Apr 25 07:39 (:0.0)
+		Student  pts/2        Apr 25 08:02 (:0.0)
+   more file4
+	=> Tue Apr 25 08:22:45 EDT 2006
+
+8. cp file3 file3.bak
+
+9. (bate; who) >> file3
+	=> bash: bate: command not found
+   more file3
+	=> 
+		Tue Apr 25 08:09:15 EDT 2006
+		Student  :0           Apr 25 07:29
+		Student  pts/1        Apr 25 07:39 (:0.0)
+		Student  pts/2        Apr 25 08:02 (:0.0)
+		Student  :0           Apr 25 07:29
+		Student  pts/1        Apr 25 07:39 (:0.0)
+		Student  pts/2        Apr 25 08:02 (:0.0)
+   more file3.bak
+	=>
+		Tue Apr 25 08:09:15 EDT 2006
+		Student  :0           Apr 25 07:29
+		Student  pts/1        Apr 25 07:39 (:0.0)
+		Student  pts/2        Apr 25 08:02 (:0.0)
+
+10. (bate; who) 1>> file3 2>&1
+    more file3
+	=>
+		Tue Apr 25 08:09:15 EDT 2006
+		Student  :0           Apr 25 07:29
+		Student  pts/1        Apr 25 07:39 (:0.0)
+		Student  pts/2        Apr 25 08:02 (:0.0)
+		Student  :0           Apr 25 07:29
+		Student  pts/1        Apr 25 07:39 (:0.0)
+		Student  pts/2        Apr 25 08:02 (:0.0)
+		bash: bate: command not found
+		Student  :0           Apr 25 07:29
+		Student  pts/1        Apr 25 07:39 (:0.0)
+		Student  pts/2        Apr 25 08:02 (:0.0)
+
+11. (bate; who) 1>> file4 2>> file5
+     more file4
+	=>		
+		Tue Apr 25 08:22:45 EDT 2006
+		Student  :0           Apr 25 07:29
+		Student  pts/1        Apr 25 07:39 (:0.0)
+		Student  pts/2        Apr 25 08:02 (:0.0)
+     more file5
+	=> bash: bate: command not found
+
+
+
+ 

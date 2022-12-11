@@ -1,0 +1,13 @@
+-- Pass 2 (020505) e option  --
+INPUT VALUES FOR TEST:
+A blank line terminates input
+FIRSTI,SECOND,THIRD,
+DUMP OF ASSOCIATION TEST FOLLOWS:
+ FIRSTI,SECOND,THIRD,
+   4     2    15  
+  24    52   105  
+  17    44   100  
+   1     0     8  
+  37    97  2396  
+  31    67  1281  
+STOP quadruple detected. 

@@ -1,0 +1,45 @@
+Script started on Thu 27 Apr 2006 05:43:22 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat < [K[K> Ch5[K6S6F1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+B ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ cat[K[K[Kcat > Ch6S6F1[1P Ch6S6F1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ sort -n[K[K+0 -1 [K >[K<Ch6S6F1 | sort +1 -2 < Ch6S[K[K[K[K[K[K[1P[Student@localhost ~]$ sort +0 -1 C[Student@localhost ~]$ sort +0 -1 Ch[Student@localhost ~]$ sort +0 -1 Ch6[Student@localhost ~]$ sort +0 -1 Ch6S[Student@localhost ~]$ sort +0 -1 Ch6S6[Student@localhost ~]$ sort +0 -1 Ch6S6F[Student@localhost ~]$ sort +0 -1 Ch6S6F1[Student@localhost ~]$ sort +0 -1 Ch6S6F1 [Student@localhost ~]$ sort +0 -1 Ch6S6F1 |[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | [Student@localhost ~]$ sort +0 -1 Ch6S6F1 | s[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | so[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sor[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort [Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort +[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort +1[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort +1 [Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort +1 -[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort +1 -2[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort +[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort +1[4hn[4l[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort +1n [Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort +1n -[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort +1n -2[Student@localhost ~]$ sort +0 -1 Ch6S6F1 | sort +1n -2 |[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K+1n -2 +2n -3 Ch6S6F1
+BUS	34	2	20
+CIS	15	1	45
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+ENG	11	2	89
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -1 +1n -2 +2n -3 Ch6S6F1 > Ch6S6F1[K1blah
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -1 +1n -2 +2n -3 Ch6S6F1 > Ch6S6F1blah[1P Ch6S6F1blah[1PCh6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1PCh6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1PCh6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1PCh6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1PCh6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1PCh6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1PCh6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1PCh6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blah[1P Ch6S6F1blahc Ch6S6F1blaha Ch6S6F1blaht Ch6S6F1blah[Student@localhost ~]$ cat  Ch6S6F1blah
+BUS	34	2	20
+CIS	15	1	45
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+ENG	11	2	89
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 05:51:45 PM EDT

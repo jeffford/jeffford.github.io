@@ -1,0 +1,37 @@
+#! /bin/bash
+# Script: jmbackup
+# Purpose: create backup copies of files that are listed in one file.
+#
+
+if [[ $# != 2 ]]
+then 
+	echo "Wrong number of arguments"
+exit 
+fi
+
+if [[ ! -f $1 ]]
+then
+	echo "First argument must be a file"
+exit
+fi
+
+if [[ ! -d backups ]]
+then 
+	mkdir backups
+fi
+
+if [[ ! -d $2 ]]
+then 
+	echo "Second argument must be a directory"
+exit
+fi
+
+	
+cat $1 | while read line
+do	
+	if [[ -f $line ]]
+	then 
+		cp $line $2/$line.bak
+		echo "$line is backed up in $2"
+	fi
+done

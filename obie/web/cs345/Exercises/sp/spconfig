@@ -1,0 +1,24 @@
+user Unknown User
+quiet
+logfn mylog2.html
+number 5
+seed 12345 65432
+starving off
+animate on
+classification signal and continue
+queueing fifo
+eatingdist constant 100
+thinkingdist constant 100
+starvingdist constant 900
+thinkingdist1 constant 3
+thinkingdistvalue1 2
+eatingdist1 constant 2
+thinkingdist2 constant 1
+eatingdist2 constant 4
+eatingdistvalue2 2
+thinkingdist3 constant 2
+eatingdist3 constant 4
+thinkingdist4 constant 1
+eatingdist4 constant 5
+starvingdistvalue4 900
+

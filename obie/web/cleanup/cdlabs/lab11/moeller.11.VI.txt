@@ -1,0 +1,100 @@
+Script started on Mon 08 May 2006 08:57:42 AM EDT
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat > Ch11S6F1
+/*  This program reads two integer numbers from the 
+     keyboard and prints their d product.
+         w Written by:
+         Date:
+*/
+
+/*    Statements  */
+  scanf ("%d", &number` 1);
+  scanf ("%d", &number2);
+  result = number1 * number2;
+  printf ("%d", result);
+ return 0;
+} /* main */
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S6F1
+/*  This program reads two integer numbers from the 
+     keyboard and prints their product.
+         Written by:
+         Date:
+*/
+
+/*    Statements  */
+  scanf ("%d", &number1);
+  scanf ("%d", &number2);
+  result = number1 * number2;
+  printf ("%d", result);
+ return 0;
+} /* main */
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat > Ch11S6.sed
+#Script name: Delete comments from C programs
+#  Author  : J Joe Moeller
+#Date Written: 05/07/06
+
+#delete lines that are only comments
+/^\/\*.*\*\/$/d
+
+#delete part of a line that is a comen  ment
+s/\/\*.*\*\///
+
+#D dee lete a set of lines that are considered one lare ge comment
+/\/\*/,/\*/ \//d
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S5[K6.sed
+#Script name: Delete comments from C programs
+#Author: Joe Moeller
+#Date Written: 05/07/06
+
+#delete lines that are only comments
+/^\/\*.*\*\/$/d
+
+#delete part of a line that is a comment
+s/\/\*.*\*\///
+
+#delete a set of lines that are considered one large comment
+/\/\*/,/\*\//d
+]0;moellerja@cs:~[moellerja@cs moellerja]$ sed -f Ch11S6.se [Kd Ch11S6F1 > Ch11S6F2
+]0;moellerja@cs:~[moellerja@cs moellerja]$ a[Kcat Ch11S6F2
+
+  scanf ("%d", &number1);
+  scanf ("%d", &number2);
+  result = number1 * number2;
+  printf ("%d", result);
+ return 0;
+} 
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S6F1 Ch11S6.sed Ch11S6F2
+/*  This program reads two integer numbers from the 
+     keyboard and prints their product.
+         Written by:
+         Date:
+*/
+
+/*    Statements  */
+  scanf ("%d", &number1);
+  scanf ("%d", &number2);
+  result = number1 * number2;
+  printf ("%d", result);
+ return 0;
+} /* main */
+#Script name: Delete comments from C programs
+#Author: Joe Moeller
+#Date Written: 05/07/06
+
+#delete lines that are only comments
+/^\/\*.*\*\/$/d
+
+#delete part of a line that is a comment
+s/\/\*.*\*\///
+
+#delete a set of lines that are considered one large comment
+/\/\*/,/\*\//d
+
+  scanf ("%d", &number1);
+  scanf ("%d", &number2);
+  result = number1 * number2;
+  printf ("%d", result);
+ return 0;
+} 
+]0;moellerja@cs:~[moellerja@cs moellerja]$ exit
+
+Script done on Mon 08 May 2006 09:05:41 AM EDT

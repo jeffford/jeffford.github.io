@@ -1,0 +1,60 @@
+Rebecca Fischer
+Lab 1
+
+L.I.4)$
+L.I.5)Bash
+L.II.2)Bash
+L.II.3)man formats and displays the on-line manual pages.
+L.II.4)who shows various commands. -a, does something about the login, -d tells the time of the last system boot. -H prints a line of column headings, and -1 adds idle time to the report.
+L.II.5)whoami prints  the  user  name  associated with the current effective user id.
+L.II.6) date displays the current time in the given FORMAT, or sets the system date. The -d command displays the time described by string. 
+L.II.7)passwd is used to update a user’s authentication token.
+L.III.3)i am using terminal :0.
+L.III.4) The -q command shows the number of users. There were 2. the -b command does nothing. The -s command shows the basic who information.
+L.IV.2)The local time is Thu Apr 20 08:42:26 EDT 2006.
+L.IV.3)The universal time is Thu Apr 20 12:43:49 UTC 2006.
+L.IV.4)The difference between the local time and the universal time is 4 hours. We are behind the universal time by 4 hours.
+L.IV.5)a-Thu
+A-Thursday
+b-Apr
+B-April
+d-20
+e-20
+D-04/20/2006
+H-08
+I-08
+j-110
+m-04
+M-42
+n-newline
+p-AM
+r-12:46:42 PM
+R-12:46
+S-31
+t-tab character
+T-12:47:22
+U-16
+W-this didn't work. all i got was ">"
+y-06
+Y-2006
+Z-EDT
+L.IV.6.a)This is the date
+L.IV.6.b)This is the date April
+L.IV.7.a)date "+%T"
+L.IV.8.a)date "+Day: %A"
+L.IV.9.a)date "+%r"
+L.IV.10.a) date "+Hours: +%H"
+L.V.2)cal with no value 
+L.V.3)same, it autmatically opens to the current month
+L.V.4)cal july 2232
+L.V.5)saturday
+L.V.6)cal february 2000, it is a leap year.
+L.V.7)cal february 1900, it is not a leap year
+L.V.8)One was a leap year one wasn't. One had a day 29, one didn't.
+
+L.V.9)ncal -e easter was on April 16th
+L.V.10) I found out how to do the above from the man pages. ncal is necessary becasue of the difference in anming in early linux versions. 
+L.V.11)The calendar command gives a list of hoildays while the cal command gives an actual calendar. 
+L.VI.2)The learn command was un available(ubuntu linux version 5.04.
+L.VI.3)The help command was unavailable
+L.VI.4)The finger command displays the user’s login name, real name, terminal name, and write status. It could be useful to see when you logged in at so that you can see how long you had been on the computer. 

@@ -1,0 +1,108 @@
+Script started on Mon 24 Apr 2006 05:45:53 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ mkdir backups
+]0;Student@localhost:~[Student@localhost ~]$ find UNIX -name hw4* -c[Kexec cp backups[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K -type -f[K[K[Kf[K f -exec cp {} backups
+find: missing argument to `-exec'
+]0;Student@localhost:~[Student@localhost ~]$ find UNIX -type f -exec cp {} backups ;
+find: missing argument to `-exec'
+]0;Student@localhost:~[Student@localhost ~]$ find UNIX -type f -exec cp {} backups ;[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+find: UNIX: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ find as[K[K~ U[K-name hw4*[Student@localhost ~]$ find ~ -nam[Student@localhost ~]$ find ~ -name[Student@localhost ~]$ find ~ -name [Student@localhost ~]$ find ~ -name h[Student@localhost ~]$ find ~ -name hw[Student@localhost ~]$ find ~ -name hw4[Student@localhost ~]$ find ~ -name hw4* -exe[K[K[K[K[K
+/home/Student/assignments/UNIX/hw4HL
+/home/Student/assignments/UNIX/hw4.bk
+/home/Student/assignments/UNIX/hw4
+/home/Student/assignments/UNIX/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ find ~ -name hw4* -exec cp {} backups;
+find: missing argument to `-exec'
+]0;Student@localhost:~[Student@localhost ~]$ find ~ -name hw4* -exec cp {} backups; ;/;
+find: missing argument to `-exec'
+]0;Student@localhost:~[Student@localhost ~]$ find ~ -name hw4* -exec cp {} backups /;[1P;\;
+cp: `/home/Student/backups/hw4HL' and `backups/hw4HL' are the same file
+cp: `/home/Student/backups/hw4.bk' and `backups/hw4.bk' are the same file
+cp: `/home/Student/backups/hw4' and `backups/hw4' are the same file
+cp: `/home/Student/backups/hw4SL' and `backups/hw4SL' are the same file
+]0;Student@localhost:~[Student@localhost ~]$ find ~ -name hw4* -exec cp {} backups \;[Student@localhost ~]$ find ~ -name hw4* -exec cp {} backups \[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[1P;[Kls /hoj[Kme/s[KStuyd[K[K[Kudent/backups
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00mhw4SL[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cd backups[K[K[K[K[K[K[K[K[K[Kls -l
+[00mtotal 128
+drwxrwxr-x  3 Student Student  4096 Apr 24 08:22 [00;34massignments[00m
+drwxrwxr-x  2 Student Student  4096 Apr 24 17:55 [00;34mbackups[00m
+-rw-rw-r--  1 Student Student   370 Apr 20 08:13 [00mcalstuff[00m
+drwxr-xr-x  2 Student Student  4096 Jul 27  2005 [00;34mDesktop[00m
+-rw-rw-r--  1 Student Student   843 Apr 21 08:34 [00mgtsybrgII.txt[00m
+drwxrwxr-x  4 Student Student  4096 Apr 24 08:21 [00;34mletters[00m
+drwxrwxr-x  2 Student Student  4096 Apr 24 08:21 [00;34mreports[00m
+-rw-rw-r--  1 Student Student  1537 Apr 21 08:46 [00msangtani2edit.txt![00m
+-rw-rw-r--  1 Student Student   473 Apr 21 08:04 [00mSangtani2edit.txt[00m
+-rw-rw-r--  1 Student Student  2548 Apr 24 17:45 [00mSangtani.3.II.cont.txt[00m
+-rw-rw-r--  1 Student Student     0 Apr 24 17:45 [00mSangtani.3.III.txt[00m
+-rw-rw-r--  1 Student Student  7705 Apr 24 08:59 [00mSangtani.3.II.txt[00m
+-rw-rw-r--  1 Student Student  1946 Apr 24 08:28 [00mSangtani.3.I.txt[00m
+-rw-rw-r--  1 Student Student 10361 Apr 24 08:06 [00mSangtani.L1.txt.odt[00m
+-rw-rw-r--  1 Student Student  1806 Apr 22 08:12 [00msangtani.L2.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -l ba[K[Kbackups
+[00mtotal 32
+-rw-rw-r--  1 Student Student 52 Apr 24 17:55 [00mhw4[00m
+-rw-rw-r--  1 Student Student 52 Apr 24 17:55 [00mhw4.bk[00m
+-rw-rw-r--  1 Student Student 52 Apr 24 17:55 [00mhw4HL[00m
+-rw-rw-r--  1 Student Student 52 Apr 24 17:55 [00mhw4SL[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ rm -r [K[K[Kdel[K[K[Kbackups/hw4
+]0;Student@localhost:~[Student@localhost ~]$ ls backups
+[00m[00mhw4.bk[00m  [00mhw4HL[00m  [00mhw4SL[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ r[Kcp hw[K[Kunipm[K[Kon[K[K[K[K[K[K[K[Kls assignments/UNIC[KX
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00;36mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ more assignmentys[K[Ks/UNIC[KX
+
+*** assignments/UNIX: directory ***
+
+]0;Student@localhost:~[Student@localhost ~]$ more assignments/UNIX/hw4
+I love dancing, singing, speaking, and programming.
+]0;Student@localhost:~[Student@localhost ~]$ more assignments/UNIX/hw4.bk
+I love dancing, singing, speaking, and programming.
+]0;Student@localhost:~[Student@localhost ~]$ more assignments/UNIX/hw4.bk[K[K[KHL
+I love dancing, singing, speaking, and programming.
+]0;Student@localhost:~[Student@localhost ~]$ more assignments/UNIX/hw4HL[K[KSL
+I love dancing, singing, speaking, and programming.
+]0;Student@localhost:~[Student@localhost ~]$ more assignments/UNIX/hw4SL[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kbackups/hw4.bk[K[K[K
+backups/hw4: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ more backups/hw4.bk
+I love dancing, singing, speaking, and programming.
+]0;Student@localhost:~[Student@localhost ~]$ more backups/hw4.bk[K[K[KHL
+I love dancing, singing, speaking, and programming.
+]0;Student@localhost:~[Student@localhost ~]$ more backups/hw4HL[K[KSL
+I love dancing, singing, speaking, and programming.
+]0;Student@localhost:~[Student@localhost ~]$ cp backups/hw4.bk hw4
+]0;Student@localhost:~[Student@localhost ~]$ rm assignm,e[K[Kents/UNIX [K/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ ln -s assignments/UNIX/hw4 assignments/UNOI[K[KIX/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m  [00mgtsybrgII.txt[00m  [00msangtani2edit.txt![00m      [00mSangtani.3.II.txt[00m
+[00;34mbackups[00m      [00mhw4[00m            [00mSangtani2edit.txt[00m       [00mSangtani.3.I.txt[00m
+[00mcalstuff[00m     [00;34mletters[00m        [00mSangtani.3.II.cont.txt[00m  [00mSangtani.L1.txt.odt[00m
+[00;34mDesktop[00m      [00;34mreports[00m        [00mSangtani.3.III.txt[00m      [00msangtani.L2.txt[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [01;05;37;41mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+[00mhw4.bk[00m  [00mhw4HL[00m  [00mhw4SL[00m
+
+./Desktop:
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[m]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 24 Apr 2006 06:18:58 PM EDT

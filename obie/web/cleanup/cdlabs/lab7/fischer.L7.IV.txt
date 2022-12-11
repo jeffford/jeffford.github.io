@@ -1,0 +1,80 @@
+Script started on Mon 01 May 2006 06:30:47 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > fischer.L7.f1.txt[1Pf1.txt[Student@localhost ~]$ cat > fischer.L7f[Student@localhost ~]$ cat > fischer.L7f1[1P.txt[1P.txtI.txtV.txtf.txt1.txt
+This is a small file.
+Woohoooooo!!!!!!!
+]0;Student@localhost:~[Student@localhost ~]$ ftp cs
+Connected to cs.hiram.edu.
+220 (vsFTPd 1.2.1)
+530 Please login with USER and PASS.
+530 Please login with USER and PASS.
+KERBEROS_V4 rejected as an authentication type
+Name (cs:Student): 
+331 Please specify the password.
+Password:
+530 Login incorrect.
+Login failed.
+ftp> exit
+?Invalid command
+ftp> bye
+221 Goodbye.
+]0;Student@localhost:~[Student@localhost ~]$ ftp cc[Ks
+Connected to cs.hiram.edu.
+220 (vsFTPd 1.2.1)
+530 Please login with USER and PASS.
+530 Please login with USER and PASS.
+KERBEROS_V4 rejected as an authentication type
+Name (cs:Student): fischerrl
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> put fisch     /home/Student/fischer.L7IVf1.txt RemoteWork
+local: /home/Student/fischer.L7IVf1.txt remote: RemoteWork
+227 Entering Passive Mode (198,30,199,89,98,42)
+553 Could not create file.
+ftp> ^[[A^[[B        put /home/Student/fischer.L7IVf1.txt                                    cd Remore  teWork
+250 Directory successfully changed.
+ftp> put /home/Student/fischer.L7IVf1.txt
+local: /home/Student/fischer.L7IVf1.txt remote: /home/Student/fischer.L7IVf1.txt
+227 Entering Passive Mode (198,30,199,89,69,15)
+553 Could not create file.
+ftp> ls
+227 Entering Passive Mode (198,30,199,89,219,148)
+150 Here comes the directory listing.
+-rw-rw-r--    1 585      588            25 May 01 14:14 fischer.L7f1.txt
+226 Directory send OK.
+ftp> put fischer.L7IVf1.txt
+local: fischer.L7IVf1.txt remote: fischer.L7IVf1.txt
+227 Entering Passive Mode (198,30,199,89,236,103)
+150 Ok to send data.
+226 File receive OK.
+40 bytes sent in 6.8e-05 seconds (5.7e+02 Kbytes/s)
+ftp> mget f*
+mget fischer.L7IVf1.txt? y
+227 Entering Passive Mode (198,30,199,89,246,102)
+150 Opening BINARY mode data connection for fischer.L7IVf1.txt (40 bytes).
+226 File send OK.
+40 bytes received in 0.00017 seconds (2.2e+02 Kbytes/s)
+mget fischer.L7f1.txt? y
+227 Entering Passive Mode (198,30,199,89,112,234)
+150 Opening BINARY mode data connection for fischer.L7f1.txt (25 bytes).
+226 File send OK.
+25 bytes received in 0.00086 seconds (28 Kbytes/s)
+ftp> cd
+(remote-directory) /home/fischerrl
+250 Directory successfully changed.
+ftp> mget fischer*
+mget fischer.L6.V.txt? n
+mget fischer.L6.VI.txt? n
+mget fischer.L7III? y
+227 Entering Passive Mode (198,30,199,89,210,108)
+150 Opening BINARY mode data connection for fischer.L7III (2251 bytes).
+226 File send OK.
+2251 bytes received in 0.0058 seconds (3.8e+02 Kbytes/s)
+ftp> bye
+221 Goodbye.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 01 May 2006 06:41:00 AM EDT

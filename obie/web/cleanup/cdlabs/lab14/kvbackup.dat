@@ -1,0 +1,20 @@
+#! /bin/bash
+# Script: kvbackup
+#This script will create backup files of all the files in the current
+#directory and save them to a specified directory. It will be done with
+# the command and two arguments, the first argument is the file and the second
+# argument is the file.
+case $# in
+	0) echo "Usage: [filename] [destination directory]" ; exit;;
+	1) echo "Usage: [filename] [destination directory]" ; exit;;
+	2) filename=$1 directory=$2;;
+	*) echo "Usage: [filename] [destination directory]" ; exit;;
+esac
+cat $1 | while read line
+do
+	if [[ -f $filename ]]
+	then
+		cp $line $directory/$line.bak
+		echo "$filename is now backed up in $directory"
+	fi
+done

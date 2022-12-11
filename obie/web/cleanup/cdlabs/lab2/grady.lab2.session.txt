@@ -1,0 +1,147 @@
+Script started on Fri 21 Apr 2006 08:36:15 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ~ reoport[K[K[K[K[Kports
+bash: /home/Student: is a directory
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m  [00mgtsbrgII.txt[00m   [00mgtysbrg.txt[00m    [00;34mletters[00m
+[00;34mDesktop[00m      [00mgtsybrgII.txt[00m  [00mlab3_session1[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ~ [Kreports
+bash: ~reports: command not found
+]0;Student@localhost:~[Student@localhost ~]$ ~reports reports[Student@localhost ~]$ ~ r
+bash: /home/Student: is a directory
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m  [00mgtsbrgII.txt[00m   [00mgtysbrg.txt[00m    [00;34mletters[00m
+[00;34mDesktop[00m      [00mgtsybrgII.txt[00m  [00mlab3_session1[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cd repost[K[Krts
+]0;Student@localhost:~/reports[Student@localhost reports]$ ls
+[00m[m]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir presonal buss[Kiness school
+]0;Student@localhost:~/reports[Student@localhost reports]$ s[Kls
+[00m[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+[m]0;Student@localhost:~/reports[Student@localhost reports]$ cd ./[K.
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m  [00mgtsbrgII.txt[00m   [00mgtysbrg.txt[00m    [00;34mletters[00m
+[00;34mDesktop[00m      [00mgtsybrgII.txt[00m  [00mlab3_session1[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cd assigm[Knments
+]0;Student@localhost:~/assignments[Student@localhost assignments]$ ls
+[00m[m]0;Student@localhost:~/assignments[Student@localhost assignments]$ cd ..
+]0;Student@localhost:~[Student@localhost ~]$ re[K[Kcd report
+bash: cd: report: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cd reports
+]0;Student@localhost:~/reports[Student@localhost reports]$ ls
+[00m[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+[m]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir[Kr UNIX
+]0;Student@localhost:~/reports[Student@localhost reports]$ mv UNIX
+mv: missing file argument
+Try `mv --help' for more information.
+]0;Student@localhost:~/reports[Student@localhost reports]$ mv --help
+Usage: mv [OPTION]... SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... --target-directory=DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+                                 (equivalent to --reply=yes)
+  -i, --interactive            prompt before overwrite
+                                 (equivalent to --reply=query)
+      --reply={yes,no,query}   specify how to handle the prompt about an
+                                 existing destination file
+      --strip-trailing-slashes remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+      --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+      --help     display this help and exit
+      --version  output version information and exit
+
+The backup suffix is `~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+Report bugs to <bug-coreutils@gnu.org>.
+]0;Student@localhost:~/reports[Student@localhost reports]$ mv --help[K[K[K[K[K[KUNIX ../assignments
+]0;Student@localhost:~/reports[Student@localhost reports]$ cd [K[K[Kls
+[00m[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+[m]0;Student@localhost:~/reports[Student@localhost reports]$ cd ass[K[K[K..
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m  [00mgtsbrgII.txt[00m   [00mgtysbrg.txt[00m    [00;34mletters[00m
+[00;34mDesktop[00m      [00mgtsybrgII.txt[00m  [00mlab3_session1[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cd assigm[Knments
+]0;Student@localhost:~/assignments[Student@localhost assignments]$ ls
+[00m[00;34mUNIX[00m
+[m]0;Student@localhost:~/assignments[Student@localhost assignments]$ cd ..
+]0;Student@localhost:~[Student@localhost ~]$ cd ..
+]0;Student@localhost:/home[Student@localhost home]$ ls
+[00m[00;34mStudent[00m
+[m]0;Student@localhost:/home[Student@localhost home]$ cd Student
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m  [00mgtsbrgII.txt[00m   [00mgtysbrg.txt[00m    [00;34mletters[00m
+[00;34mDesktop[00m      [00mgtsybrgII.txt[00m  [00mlab3_session1[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cd reports
+]0;Student@localhost:~/reports[Student@localhost reports]$ ls
+[00m[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+[m]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir HWa[Ks Projects
+]0;Student@localhost:~/reports[Student@localhost reports]$ mov[K[Kv h[KHws[K[KWs ../assigmeds[K[K[K[Knmets[K[K[Kents/UNIX
+]0;Student@localhost:~/reports[Student@localhost reports]$ mv Projects ../assignments?[K/UNIX
+]0;Student@localhost:~/reports[Student@localhost reports]$ ls
+[00m[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+[m]0;Student@localhost:~/reports[Student@localhost reports]$ cd.[K ..
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m  [00mgtsbrgII.txt[00m   [00mgtysbrg.txt[00m    [00;34mletters[00m
+[00;34mDesktop[00m      [00mgtsybrgII.txt[00m  [00mlab3_session1[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls 
+[00m[00;34massignments[00m  [00mgtsbrgII.txt[00m   [00mgtysbrg.txt[00m    [00;34mletters[00m
+[00;34mDesktop[00m      [00mgtsybrgII.txt[00m  [00mlab3_session1[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls r
+[00mls: r: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -r
+[00m[00;34mreports[00m  [00mlab3_session1[00m  [00mgtsybrgII.txt[00m  [00;34mDesktop[00m
+[00;34mletters[00m  [00mgtysbrg.txt[00m    [00mgtsbrgII.txt[00m   [00;34massignments[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls \[K[Kr
+bash: lsr: command not found
+]0;Student@localhost:~[Student@localhost ~]$ ls R
+[00mls: R: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls _[K-R
+[00m.:
+[00;34massignments[00m  [00mgtsbrgII.txt[00m   [00mgtysbrg.txt[00m    [00;34mletters[00m
+[00;34mDesktop[00m      [00mgtsybrgII.txt[00m  [00mlab3_session1[00m  [00;34mreports[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+
+./letters:
+[00;34mfirends[00m  [00;34mformal[00m
+
+./letters/firends:
+
+./letters/formal:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/presonal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Fri 21 Apr 2006 08:46:50 AM EDT

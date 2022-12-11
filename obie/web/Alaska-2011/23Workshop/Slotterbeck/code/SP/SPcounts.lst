@@ -1,0 +1,566 @@
+   1 
+   2 
+   3 /* Program to find the Shortest Path in a graph */
+   4 /* Written by: Matt Boggus */
+   5 /* Modified to show counts of pa_perform and sc_perform during the run */
+   6 
+   7 /** For the algorithm given, the following variables mean:	**/
+   8 /** State values: 1 - in shortest path   			**/
+   9 /**               2 - in S               			**/
+  10 /**               3 - consideration edge 			**/
+  11 /**               4 - not explored yet   			**/
+  12 /**               0 - explored and out    			**/
+  13 /**Distance stores d(v) where v is the node the edge ends at **/
+  14 
+  15 main SPcount
+	include    	
+  16 deflog (TRUE, 1);
+	shape_    	4096,1,1 1,0,0
+	main    	SPCOUNT
+	ident    	
+	temp_fxsc    	STMP$, 48, 0, 0, 16, CS$
+	entry_    	STMP$
+	temp_flsc    	SFTMP$, 61, 0, 8, 24, CS$
+	entry_    	SFTMP$
+	decl_fxsc    	OUTBF$, 7200, 0, 0, 16, CS$
+	entry_    	OUTBF$
+	decl_fxpa    	STACK$, 32, 0, 0, 32, CS$
+	entry_    	STACK$
+	decl_fxsc    	host_stack$, 1, 0, 0, 16, CS$
+	entry_    	host_stack$
+	temp_fxpa    	IPTMP$, 16, 16, 0, 16, CS$
+	temp_flpa    	RPTMP$, 15, 32, 8, 24, CS$
+	temp_lgpa    	LPTMP$, 17, 1, 0, 1, CS$
+	temp_lipa    	LITMP$, 5, 32, 0, 32, CS$
+	decl_lgpa    	TRUE$, 1, 1, 0, 1, CS$
+	decl_lgpa    	FALSE$, 1, 1, 0, 1, CS$
+	decl_lgpa    	IOMASK, 1, 1, 0, 1, CS$
+	decl_fxcn    	C10D$, 1, 10, 0, 16
+	entry_    	C10D$
+	decl_fxcn    	C8D$, 1, 8, 0, 16
+	entry_    	C8D$
+	decl_fxcn    	C2D$, 1, 2, 0, 16
+	entry_    	C2D$
+	decl_fxcn    	C1D$, 1, 1, 0, 16
+	entry_    	C1D$
+	decl_fxcn    	C0D$, 1, 0, 0, 16
+	entry_    	C0D$
+	decl_fxcn    	C16D$, 1, 16, 0, 16
+	entry_    	C16D$
+	decl_fxcn    	C48D$, 1, 48, 0, 16
+	entry_    	C48D$
+	decl_fxcn    	C45D$, 1, 45, 0, 16
+	entry_    	C45D$
+	decl_fxcn    	C32D$, 1, 32, 0, 16
+	entry_    	C32D$
+	decl_lgpa    	THEM, 1, 1, 0, 1, CS$
+	decl_fxpa    	LEX$, 1, 96, 0, 96, CS$
+	decl_fxpa    	LEX_VAL$, 1, 96, 0, 96, CS$
+	decl_lgpa    	LEX_BI$, 1, 1, 0, 1, CS$
+	decl_lgpa    	GLOBAL_BI$, 1, 1, 0, 1, CS$
+	decl_lgpa    	THEIR, 1, 1, 0, 1, CS$
+	decl_lgpa    	ITS, 1, 1, 0, 1, CS$
+	decl_lgpa    	THE, 1, 1, 0, 1, CS$
+	decl_lgpa    	AN, 1, 1, 0, 1, CS$
+	decl_lgpa    	A, 1, 1, 0, 1, CS$
+	decl_lgpa    	@, 1, 1, 0, 1, CS$
+	decl_fxsc    	PERFORM, 1, 1, 0, 1, CS$
+	decl_fxsc    	PA_PERFORM, 1, 1, 0, 1, CS$
+	decl_fxsc    	SC_PERFORM, 1, 1, 0, 1, CS$
+	decl_fxsc    	HANDLE$, 2, 0, 0, 16, CS$
+	decl_lgcn    	TRUE, 1, 1, 0, 1
+  17 deflog (FALSE, 0);
+	decl_lgcn    	FALSE, 1, 0, 0, 1
+  18 
+  19 /* As the emulator doesn't support scalar input, START and ENDING
+  20 must be set and the program  recompiled.
+  21 */
+  22 define (START, 1);   /* NOTE hand set */
+	decl_fxcn    	START, 1, 1, 0, 16
+	entry_    	START
+  23 define (ENDING, 5);
+	decl_fxcn    	ENDING, 1, 5, 0, 16
+	entry_    	ENDING
+  24 
+  25 int parallel tail[$], head[$], weight[$], state[$], distance[$]; 
+	decl_fxpa    	TAIL, 1, 16, 0, 16, CS$
+	decl_fxpa    	HEAD, 1, 16, 0, 16, CS$
+	decl_fxpa    	WEIGHT, 1, 16, 0, 16, CS$
+	decl_fxpa    	STATE, 1, 16, 0, 16, CS$
+	decl_fxpa    	DISTANCE, 1, 16, 0, 16, CS$
+  26 int scalar node;
+	decl_fxsc    	NODE, 1, 0, 0, 16, CS$
+	entry_    	NODE
+  27 index parallel xx[$];
+	decl_lgpa    	XX, 1, 1, 0, 1, CS$
+  28 logical parallel nxtnod[$], graph[$], result[$], used[$];
+	decl_lgpa    	NXTNOD, 1, 1, 0, 1, CS$
+	decl_lgpa    	GRAPH, 1, 1, 0, 1, CS$
+	decl_lgpa    	RESULT, 1, 1, 0, 1, CS$
+	decl_lgpa    	USED, 1, 1, 0, 1, CS$
+  29 associate head[$], tail[$], weight[$], state[$], distance[$] with graph[$];
+  30 
+  31 /** input **/
+  32 read tail[$], head[$], weight[$] in graph[$];
+	clr_array    	
+	alloc_    	THE
+	init_stack    	
+	beg_of_stmt     	32, 0
+  33 
+  34 PERFORM = 1;   /* monitor on */
+	beg_read    	SYSOT, GRAPH, TAIL,HEAD,WEIGHT,
+	mvsc_fxsc    	C0D$, STMP$+0
+	mvsc_fxsc    	C0D$, STMP$+1
+	loop_    	PT$S1
+	read_ln    	SYSIN, STMP$+1, PT$R1
+	until_sc    	STMP$+1, PT$E1
+	read_fxpa    	OUTBF$,C0D$, STMP$+0, 16, PT$R1
+	decl_fxcn    	C2400D$, 1, 2400, 0, 16
+	entry_    	C2400D$
+	read_fxpa    	OUTBF$,C2400D$, STMP$+0, 16, PT$R1
+	decl_fxcn    	C4800D$, 1, 4800, 0, 16
+	entry_    	C4800D$
+	read_fxpa    	OUTBF$,C4800D$, STMP$+0, 16, PT$R1
+	addfxsc    	STMP$+0, C1D$, STMP$+0
+	endloop    	PT$E1, PT$S1
+	gtfxsc    	STMP$+0, C2400D$, STMP$+1
+	if_sc    	STMP$+1, PT$N1
+	msg    	SYSOT, ERROR - I/O BUFFER OVERFLOW ON READ - SOME DATA OVERWRITTEN.
+	else_sc    	PT$F1, PT$N1
+	endif_sc    	PT$F1
+	ioalloc2    	GRAPH, STMP$+0
+	expandfxpa    	OUTBF$,C0D$, TAIL, C16D$
+	input_fxpa    	TAIL, C16D$
+	expandfxpa    	OUTBF$,C2400D$, HEAD, C16D$
+	input_fxpa    	HEAD, C16D$
+	expandfxpa    	OUTBF$,C4800D$, WEIGHT, C16D$
+	input_fxpa    	WEIGHT, C16D$
+	endread_    	
+	beg_of_stmt     	34, 0
+	mvsc_fxsc    	C1D$, PERFORM
+  35 
+  36 /** Create initial state of the graph and path **/
+  37 distance[$] = 0;   /* set empty distance values */
+	beg_of_stmt     	37, 0
+	mvsc_fxpa    	C0D$, DISTANCE, C16D$
+  38 
+  39 if (tail[$] == START) then state[$] = 3; else state[$] = 4; endif;              
+	beg_of_stmt     	39, 0
+
+	begif    	IF$S1
+
+	eq_fxcr    	TAIL, START, LPTMP$+0
+
+	mvpa_lgpa    	LPTMP$+0, THEM
+
+	if_pa    	LPTMP$+0, ELS$1
+
+	beg_of_stmt     	39, 0
+
+	decl_fxcn    	C3D$, 1, 3, 0, 16
+
+	entry_    	C3D$
+
+	mvsc_fxpa    	C3D$, STATE, C16D$
+
+	beg_of_stmt     	39, 0
+
+	label    	ELS$1
+
+	else_pa    	IF$E1
+
+	beg_of_stmt     	39, 0
+
+	decl_fxcn    	C4D$, 1, 4, 0, 16
+
+	entry_    	C4D$
+
+	mvsc_fxpa    	C4D$, STATE, C16D$
+
+	beg_of_stmt     	39, 0
+
+	endif_pa    	IF$E1
+     /* set consideration edges */
+  40 
+  41 if (tail[$] == START) then distance[$] = weight[$]; endif;	                     
+	beg_of_stmt     	41, 0
+
+	begif    	IF$S2
+
+	eq_fxcr    	TAIL, START, LPTMP$+0
+
+	mvpa_lgpa    	LPTMP$+0, THEM
+
+	if_pa    	LPTMP$+0, ELS$2
+
+	beg_of_stmt     	41, 0
+
+	mvpa_fxpa    	WEIGHT, DISTANCE
+
+	beg_of_stmt     	41, 0
+
+	label    	ELS$2
+
+	endif_pa    	IF$E2
+      
+  42                          /* set consideration edges distance */
+  43 
+  44 if (head[$] == START) then state[$] = 0;  endif;       
+	beg_of_stmt     	44, 0
+	begif    	IF$S3
+	eq_fxcr    	HEAD, START, LPTMP$+0
+	mvpa_lgpa    	LPTMP$+0, THEM
+	if_pa    	LPTMP$+0, ELS$3
+	beg_of_stmt     	44, 0
+	mvsc_fxpa    	C0D$, STATE, C16D$
+	beg_of_stmt     	44, 0
+	label    	ELS$3
+	endif_pa    	IF$E3
+  45                          /* remove edges going into START */
+  46 
+  47 if (tail[$] == ENDING) then state[$] = 0; endif;	
+	beg_of_stmt     	47, 0
+	begif    	IF$S4
+	eq_fxcr    	TAIL, ENDING, LPTMP$+0
+	mvpa_lgpa    	LPTMP$+0, THEM
+	if_pa    	LPTMP$+0, ELS$4
+	beg_of_stmt     	47, 0
+	mvsc_fxpa    	C0D$, STATE, C16D$
+	beg_of_stmt     	47, 0
+	label    	ELS$4
+	endif_pa    	IF$E4
+  48                          /* remove edges going out of ENDING */
+  49 
+  50 PERFORM = 0;
+	beg_of_stmt     	50, 0
+	mvsc_fxsc    	C0D$, PERFORM
+  51 MSG "Created initial state: ";
+	beg_of_stmt     	51, 0
+	msg_     	SYSOT, Created initial state: 
+  52 MSG "SCALAR OPERATIONS" SC_PERFORM;
+	print_nl    	SYSOT
+	beg_of_stmt     	52, 0
+	msg_     	SYSOT, SCALAR OPERATIONS
+	dump_lgsc    	SYSOT, SC_PERFORM, CS$
+  53 MSG "PARALLEL OPERATIONS" PA_PERFORM;
+	print_nl    	SYSOT
+	beg_of_stmt     	53, 0
+	msg_     	SYSOT, PARALLEL OPERATIONS
+	dump_lgsc    	SYSOT, PA_PERFORM, CS$
+  54 MSG "    ";
+	print_nl    	SYSOT
+	beg_of_stmt     	54, 0
+	msg_     	SYSOT,     
+  55 MSG "    ";
+	print_nl    	SYSOT
+	beg_of_stmt     	55, 0
+	msg_     	SYSOT,     
+  56 
+  57 /** LOOP to find S **/
+  58 PERFORM = 1;
+	print_nl    	SYSOT
+	beg_of_stmt     	58, 0
+	mvsc_fxsc    	C1D$, PERFORM
+  59 first 
+	beg_of_stmt     	59, 0
+  60 	node = START;
+	beg_of_stmt     	60, 0
+	mvsc_fxsc    	START, NODE
+  61 loop
+	beg_of_stmt     	61, 0
+  62    /* Find next node to add and set values for it */
+  63 	if (state[$] == 3) then nxtnod[$] = mindex(distance[$]); endif;
+	loop       	LO$S2
+	beg_of_stmt     	63, 0
+	begif    	IF$S5
+	eq_fxcr    	STATE, C3D$, LPTMP$+0
+	mvpa_lgpa    	LPTMP$+0, THEM
+	if_pa    	LPTMP$+0, ELS$5
+	beg_of_stmt     	63, 0
+	mindexfxpa    	DISTANCE, LPTMP$+0
+	mvpa_lgpa    	LPTMP$+0, THEM
+	mvpa_lgpa    	LPTMP$+0, NXTNOD
+	beg_of_stmt     	63, 0
+	label    	ELS$5
+	endif_pa    	IF$E5
+  64 	node = head[nxtnod[$]];
+	beg_of_stmt     	64, 0
+	mvpa_fx    	HEAD, STMP$+0, NXTNOD, C16D$
+	mvsc_lgmm    	THE, STMP$+0, HEAD
+	mvsc_fxsc    	STMP$+0, NODE
+  65 
+  66    /* Eliminate all other edges to new node by changing states */
+  67 	if (head[$] == node && state[$] != 2) then state[$] = 0; endif;
+	beg_of_stmt     	67, 0
+	begif    	IF$S6
+	eq_fxcr    	HEAD, NODE, LPTMP$+0
+	ne_fxcr    	STATE, C2D$, LPTMP$+1
+	and_lgpa    	LPTMP$+0, LPTMP$+1, LPTMP$+2
+	mvpa_lgpa    	LPTMP$+2, THEM
+	if_pa    	LPTMP$+2, ELS$6
+	beg_of_stmt     	67, 0
+	mvsc_fxpa    	C0D$, STATE, C16D$
+	beg_of_stmt     	67, 0
+	label    	ELS$6
+	endif_pa    	IF$E6
+  68 
+  69 	/* Add selected edge to graph */
+  70 	state[nxtnod[$]] = 2;
+	beg_of_stmt     	70, 0
+	resf_pa    	NXTNOD, LPTMP$+0
+	mvsc_fxmm    	LPTMP$+0, C2D$, STATE
+  71 
+  72 	/* Find new possible nodes and set their distances and states */
+  73 	if (state[$] == 4 && tail[$] == node) then distance[$] = distance[nxtnod[$]] + 
+	beg_of_stmt     	73, 0
+
+	begif    	IF$S7
+
+	eq_fxcr    	STATE, C4D$, LPTMP$+0
+
+	eq_fxcr    	TAIL, NODE, LPTMP$+1
+
+	and_lgpa    	LPTMP$+0, LPTMP$+1, LPTMP$+2
+
+	mvpa_lgpa    	LPTMP$+2, THEM
+
+	if_pa    	LPTMP$+2, ELS$7
+
+	beg_of_stmt     	73, 0
+
+	mvpa_fx    	DISTANCE, STMP$+0, NXTNOD, C16D$
+
+	mvsc_lgmm    	THE, STMP$+0, DISTANCE
+weight[$]; endif;
+	add_1fx    	STMP$+0, WEIGHT, IPTMP$+0
+	mvpa_fxpa    	IPTMP$+0, DISTANCE
+	beg_of_stmt     	73, 0
+	label    	ELS$7
+	endif_pa    	IF$E7
+  74 	if (state[$] == 4 && tail[$] == node) then state[$] = 3; endif;
+	beg_of_stmt     	74, 0
+	begif    	IF$S8
+	eq_fxcr    	STATE, C4D$, LPTMP$+0
+	eq_fxcr    	TAIL, NODE, LPTMP$+1
+	and_lgpa    	LPTMP$+0, LPTMP$+1, LPTMP$+2
+	mvpa_lgpa    	LPTMP$+2, THEM
+	if_pa    	LPTMP$+2, ELS$8
+	beg_of_stmt     	74, 0
+	mvsc_fxpa    	C3D$, STATE, C16D$
+	beg_of_stmt     	74, 0
+	label    	ELS$8
+	endif_pa    	IF$E8
+  75 
+  76 	nxtnod[$] = FALSE;
+	beg_of_stmt     	76, 0
+	mvsc_lgpa    	FALSE, NXTNOD, C1D$
+  77 
+  78 MSG "In loop to find S ";
+	beg_of_stmt     	78, 0
+	msg_     	SYSOT, In loop to find S 
+  79 PERFORM = 0;
+	print_nl    	SYSOT
+	beg_of_stmt     	79, 0
+	mvsc_fxsc    	C0D$, PERFORM
+  80 MSG "SCALAR OPERATIONS" SC_PERFORM;
+	beg_of_stmt     	80, 0
+	msg_     	SYSOT, SCALAR OPERATIONS
+	dump_lgsc    	SYSOT, SC_PERFORM, CS$
+  81 MSG "PARALLEL OPERATIONS" PA_PERFORM;
+	print_nl    	SYSOT
+	beg_of_stmt     	81, 0
+	msg_     	SYSOT, PARALLEL OPERATIONS
+	dump_lgsc    	SYSOT, PA_PERFORM, CS$
+  82 MSG "  ";
+	print_nl    	SYSOT
+	beg_of_stmt     	82, 0
+	msg_     	SYSOT,   
+  83 MSG "  ";
+	print_nl    	SYSOT
+	beg_of_stmt     	83, 0
+	msg_     	SYSOT,   
+  84 
+  85 until node == ENDING
+	print_nl    	SYSOT
+	beg_of_stmt     	85, 0
+  86 
+  87 endloop;
+	eq_fxsc    	NODE, ENDING, STMP$+0
+	until_sc    	STMP$+0, LO$E2
+	beg_of_stmt     	87, 0
+	endloop    	LO$E2, LO$S2
+  88 
+  89 /** END LOOP to find S **/
+  90 
+  91 /** LOOP to trace back shortest path **/
+  92 PERFORM = 1;
+	beg_of_stmt     	92, 0
+	mvsc_fxsc    	C1D$, PERFORM
+  93 first
+	beg_of_stmt     	93, 0
+  94 	node = ENDING;
+	beg_of_stmt     	94, 0
+	mvsc_fxsc    	ENDING, NODE
+  95 loop
+	beg_of_stmt     	95, 0
+  96 	if (state[$] == 2) then nxtnod[$] = head[$] == node; endif;
+	loop       	LO$S3
+	beg_of_stmt     	96, 0
+	begif    	IF$S9
+	eq_fxcr    	STATE, C2D$, LPTMP$+0
+	mvpa_lgpa    	LPTMP$+0, THEM
+	if_pa    	LPTMP$+0, ELS$9
+	beg_of_stmt     	96, 0
+	eq_fxcr    	HEAD, NODE, LPTMP$+0
+	mvpa_lgpa    	LPTMP$+0, THEM
+	mvpa_lgpa    	LPTMP$+0, NXTNOD
+	beg_of_stmt     	96, 0
+	label    	ELS$9
+	endif_pa    	IF$E9
+  97 	node = tail[nxtnod[$]];
+	beg_of_stmt     	97, 0
+	mvpa_fx    	TAIL, STMP$+0, NXTNOD, C16D$
+	mvsc_lgmm    	THE, STMP$+0, TAIL
+	mvsc_fxsc    	STMP$+0, NODE
+  98 
+  99 	state[nxtnod[$]] = 1;
+	beg_of_stmt     	99, 0
+	resf_pa    	NXTNOD, LPTMP$+0
+	mvsc_fxmm    	LPTMP$+0, C1D$, STATE
+ 100 
+ 101 	nxtnod[$] = FALSE;
+	beg_of_stmt     	101, 0
+	mvsc_lgpa    	FALSE, NXTNOD, C1D$
+ 102 MSG "In loop to find S ";
+	beg_of_stmt     	102, 0
+	msg_     	SYSOT, In loop to find S 
+ 103 MSG "SCALAR OPERATIONS" SC_PERFORM;
+	print_nl    	SYSOT
+	beg_of_stmt     	103, 0
+	msg_     	SYSOT, SCALAR OPERATIONS
+	dump_lgsc    	SYSOT, SC_PERFORM, CS$
+ 104 MSG "PARALLEL OPERATIONS" PA_PERFORM;
+	print_nl    	SYSOT
+	beg_of_stmt     	104, 0
+	msg_     	SYSOT, PARALLEL OPERATIONS
+	dump_lgsc    	SYSOT, PA_PERFORM, CS$
+ 105 MSG "  ";
+	print_nl    	SYSOT
+	beg_of_stmt     	105, 0
+	msg_     	SYSOT,   
+ 106 MSG "  ";
+	print_nl    	SYSOT
+	beg_of_stmt     	106, 0
+	msg_     	SYSOT,   
+ 107 
+ 108 until node == START
+	print_nl    	SYSOT
+	beg_of_stmt     	108, 0
+ 109 
+ 110 endloop;
+	eq_fxsc    	NODE, START, STMP$+0
+	until_sc    	STMP$+0, LO$E3
+	beg_of_stmt     	110, 0
+	endloop    	LO$E3, LO$S3
+ 111 
+ 112 /** END LOOP to trace back shortest path **/
+ 113 
+ 114 PERFORM = 0;
+	beg_of_stmt     	114, 0
+	mvsc_fxsc    	C0D$, PERFORM
+ 115 MSG "Fnal counts: ";
+	beg_of_stmt     	115, 0
+	msg_     	SYSOT, Fnal counts: 
+ 116 MSG "SCALAR OPERATIONS" SC_PERFORM;
+	print_nl    	SYSOT
+	beg_of_stmt     	116, 0
+	msg_     	SYSOT, SCALAR OPERATIONS
+	dump_lgsc    	SYSOT, SC_PERFORM, CS$
+ 117 MSG "PARALLEL OPERATIONS" PA_PERFORM;
+	print_nl    	SYSOT
+	beg_of_stmt     	117, 0
+	msg_     	SYSOT, PARALLEL OPERATIONS
+	dump_lgsc    	SYSOT, PA_PERFORM, CS$
+ 118 
+ 119 
+ 120 	
+ 121 /** print shortest path **/
+ 122 if (state[$] == 1) then result[$] = TRUE; endif;
+	print_nl    	SYSOT
+	beg_of_stmt     	122, 0
+	begif    	IF$S10
+	eq_fxcr    	STATE, C1D$, LPTMP$+0
+	mvpa_lgpa    	LPTMP$+0, THEM
+	if_pa    	LPTMP$+0, ELS$10
+	beg_of_stmt     	122, 0
+	mvsc_lgpa    	TRUE, RESULT, C1D$
+	beg_of_stmt     	122, 0
+	label    	ELS$10
+	endif_pa    	IF$E10
+ 123 print tail[$] head[$] weight[$] in result[$];
+	beg_of_stmt     	123, 0
+ 124 
+ 125 
+ 126 end;ÿ
+	fstout_    	RESULT
+
+	outpt_fxpa    	TAIL, C16D$
+
+	colapsefxpa    	OUTBF$,C0D$, STMP$+0, TAIL, C16D$
+
+	outpt_fxpa    	HEAD, C16D$
+
+	colapsefxpa    	OUTBF$,C2400D$, STMP$+0, HEAD, C16D$
+
+	outpt_fxpa    	WEIGHT, C16D$
+
+	colapsefxpa    	OUTBF$,C4800D$, STMP$+0, WEIGHT, C16D$
+
+	beg_print    	SYSOT, RESULT, TAIL,HEAD,WEIGHT,
+
+	gtfxsc    	STMP$+0, C2400D$, STMP$+1
+
+	if_sc    	STMP$+1, PT$N4
+
+	msg    	SYSOT, ERROR - I/O BUFFER OVERFLOW ON PRINT - SOME DATA LOST.
+
+	else_sc    	PT$F4, PT$N4
+
+	endif_sc    	PT$F4
+
+	mvsc_fxsc    	C0D$, STMP$+1
+
+	loop_    	PT$S4
+
+	gefxsc    	STMP$+1, STMP$+0, STMP$+2
+
+	until_sc    	STMP$+2, PT$E4
+
+	sprint_fxpa    	SYSOT, OUTBF$,C0D$, STMP$+1, CS$
+
+	print_del    	SYSOT
+
+	sprint_fxpa    	SYSOT, OUTBF$,C2400D$, STMP$+1, CS$
+
+	print_del    	SYSOT
+
+	sprint_fxpa    	SYSOT, OUTBF$,C4800D$, STMP$+1, CS$
+
+	print_del    	SYSOT
+
+	print_nl    	SYSOT
+
+	addfxsc    	STMP$+1, C1D$, STMP$+1
+
+	endloop    	PT$E4, PT$S4
+
+	endprint    	
+
+	beg_of_stmt     	126, 0
+
+	label_    	$EXIT$
+
+	stop_    	
+
+	endmain    	SPCOUNT
+

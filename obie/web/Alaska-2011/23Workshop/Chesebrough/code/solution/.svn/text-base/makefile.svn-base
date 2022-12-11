@@ -1,0 +1,23 @@
+CC = icpc
+CFLAGS = -openmp
+
+all:    clean L1 L2 L3 L4 L5
+
+L1: L1_Introduction_to_Multithreading_and_Fork-Join_Parallelism_SumThread.cpp
+	$(CC) L1_Introduction_to_Multithreading_and_Fork-Join_Parallelism_SumThread.cpp $(CFLAGS) -o L1
+
+L2: L2_VecAdd_C++_OMP_and_Cilk.cpp
+	$(CC) L2_VecAdd_C++_OMP_and_Cilk.cpp  $(CFLAGS) -o L2
+
+L3: L3_Parallel_Prefix,_Pack,_and_Sorting_Prefix_sum.cpp
+	$(CC) L3_Parallel_Prefix,_Pack,_and_Sorting_Prefix_sum.cpp $(CFLAGS)  -o L3
+
+L4: L4_Shared-Memory_Concurrency_and_Mutual_Exclusion_BankAccount_scoped_locking_for_C++_classes.cpp
+	$(CC) L4_Shared-Memory_Concurrency_and_Mutual_Exclusion_BankAccount_scoped_locking_for_C++_classes.cpp $(CFLAGS)  -o L4
+
+L5: L5_Locks_and_Critical_Sections_Nest_Locks.cpp
+	$(CC) L5_Locks_and_Critical_Sections_Nest_Locks.cpp $(CFLAGS)  -o L5
+
+
+clean:
+	rm -f L1 L2 L3 L4 L5 a.out

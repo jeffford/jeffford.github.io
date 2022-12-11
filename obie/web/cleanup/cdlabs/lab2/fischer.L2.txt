@@ -1,0 +1,5 @@
+Rebecca Fischer
+Chapter 2
+L.I)In this lab I open the vi editor using the command: vi fischer.L2.txt. I pressed i to be able to type. I then typed in the text using returns as necessary. I saved the file by pressing :w. I closed the program using the :q command. 
+L.II)I reopened the file using: vi fischer.L2.txt. I pressed 'i' to be able to make the changes. I made the changes using the arrow keyes and the backspace key. I then typed the rest of the paragraph. I pressed :w to save.
+L.III) I typed what was left to be typed. I used the arrow keys and the backspace to make edits. I saved by pressing:w and quit by pressing :q.

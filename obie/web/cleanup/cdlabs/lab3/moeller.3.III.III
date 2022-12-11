@@ -1,0 +1,98 @@
+Script started on Sun 23 Apr 2006 09:09:46 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ mkdir backus[Kps
+]0;Student@localhost:~[Student@localhost ~]$ find -name hw4* -exec cp {} backups \;
+]0;Student@localhost:~[Student@localhost ~]$ ls -li
+[00mtotal 52
+1790467 drwxrwxr-x  3 Student Student  4096 Apr 23 20:30 [00;34massignments[00m
+1790481 drwxrwxr-x  2 Student Student  4096 Apr 23 21:31 [00;34mbackups[00m
+1788423 drwxr-xr-x  2 Student Student  4096 Jul 27  2005 [00;34mDesktop[00m
+1790464 drwxrwxr-x  4 Student Student  4096 Apr 23 20:28 [00;34mletters[00m
+1533892 -rw-rw-r--  1 Student Student  1555 Apr 21 12:10 [00mmoeller2edit.txt[00m
+1533896 -rw-rw-r--  1 Student Student     0 Apr 23 21:09 [00mmoeller.2.III.txt[00m
+1533894 -rw-rw-r--  1 Student Student 19671 Apr 23 21:07 [00mmoeller.2.II.txt[00m
+1533891 -rw-rw-r--  1 Student Student  1656 Apr 23 20:35 [00mmoeller.2.I.txt[00m
+1790466 drwxrwxr-x  5 Student Student  4096 Apr 23 20:29 [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ s[Kls -li assignments.[K/UNIX
+[00mtotal 20
+1790478 -rw-rw-r--  2 Student Student  266 Apr 23 20:50 [00mhw4[00m
+1790479 -rw-rw-r--  1 Student Student  266 Apr 23 20:55 [00mhw4.bk[00m
+1790478 -rw-rw-r--  2 Student Student  266 Apr 23 20:50 [00mhw4HL[00m
+1790463 lrwxrwxrwx  1 Student Student    3 Apr 23 21:03 [00;36mhw4SL[00m -> [00mhw4[00m
+1790474 drwxrwxr-x  2 Student Student 4096 Apr 23 20:31 [00;34mHWs[00m
+1790475 drwxrwxr-x  2 Student Student 4096 Apr 23 20:31 [00;34mProjects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -li backups
+[00mtotal 16
+1790455 -rw-rw-r--  1 Student Student 266 Apr 23 21:31 [00mhw4[00m
+1790452 -rw-rw-r--  1 Student Student 266 Apr 23 21:31 [00mhw4.bk[00m
+1790454 -rw-rw-r--  1 Student Student 266 Apr 23 21:31 [00mhw4HL[00m
+1790453 -rw-rw-r--  1 Student Student 266 Apr 23 21:31 [00mhw4SL[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ rm assignments/UNIX/hw4
+]0;Student@localhost:~[Student@localhost ~]$ ls -R ai[Ksi[Ksignments[K[K[K[K[K[K[K[K[K[K[Kassignments
+[00massignments:
+[00;34mUNIX[00m
+
+assignments/UNIX:
+[00mhw4.bk[00m  [00mhw4HL[00m  [01;05;37;41mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+assignments/UNIX/HWs:
+
+assignments/UNIX/Projects:
+[m]0;Student@localhost:~[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ more assignments/UNIX/hw4*
+::::::::::::::
+assignments/UNIX/hw4.bk
+::::::::::::::
+16.  A text file contains text, and a binary file contains binary numbers.
+19.  The directory that the user is currently in.  pwd will show you your curren
+t directory. 
+21.  The parent directory is the directory above the one you are in.
+24.  Absolute
+25.  relative
+[7m--More--(Next file: assignments/UNIX/hw4HL)[m::::::::::::::[K
+assignments/UNIX/hw4HL
+::::::::::::::
+16.  A text file contains text, and a binary file contains binary numbers.
+[7m--More--(28%)[m19.  The directory that the user is currently in.  pwd will show you your curren
+[7m--More--(58%)[mt directory. 
+[7m--More--(63%)[m21.  The parent directory is the directory above the one you are in.
+[7m--More--(89%)[m24.  Absolute
+[7m--More--(94%)[m25.  relative
+assignments/UNIX/hw4SL: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ rm backups/hw4
+]0;Student@localhost:~[Student@localhost ~]$ cp assignmenst[K[Kts/UNIZ[KX/hw4.bk assignments/UNIX/hw4
+]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m  [00;34mDesktop[00m  [00mmoeller2edit.txt[00m   [00mmoeller.2.II.txt[00m  [00;34mreports[00m
+[00;34mbackups[00m      [00;34mletters[00m  [00mmoeller.2.III.txt[00m  [00mmoeller.2.I.txt[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00;36mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+[00mhw4.bk[00m  [00mhw4HL[00m  [00mhw4SL[00m
+
+./Desktop:
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpersonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Sun 23 Apr 2006 10:15:06 PM EDT

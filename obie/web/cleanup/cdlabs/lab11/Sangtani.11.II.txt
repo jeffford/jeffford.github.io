@@ -1,0 +1,150 @@
+Script started on Mon 08 May 2006 08:54:47 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch11S2F1
+UNIX is as UNIX does.
+And DOS os a    is as DOE S does.
+But UNIX is not as DOS does.
+Nor is F DOS as I UNIX does.
+
+So, id   f UNIX was as DOS does,
+Would UNIX be DOS
+Or would DOE S be UNIX?
+OR   r to put the w question another way:
+Is an operating system by any other name
+As beautiful as a UNIX operay ting systeam  m?> 
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch11S2.sed
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Mon 08 May 2006 09:01:08 AM EDT
+Script started on Mon 08 May 2006 04:15:29 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$  [Kcat > Ch11S2.sed
+# Script NA ame: Ch11S2.sed
+# This script adds fuve     ive asterisks to the beginning and end of lines
+# that contain the word UNIX.
+s/^/*****/
+s/$/*****/
+]0;Student@localhost:~[Student@localhost ~]$ vi Ch11S2.sed
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11S2.sed" 5L, 146C[1;1H[34m# Script Name: Ch11S2.sed
+# This script adds five asterisks to the beginning and end of lines
+# that contain the word UNIX.[m
+[36ms[m[35m/^/[m*****[35m/[m
+[36ms[m[35m/$/[m*****[35m/[m
+[1m[34m~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;65H29[3;29H[?12l[?25h[?25l[24;63H4,1 [4;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;14H[K[24;63H3,1[11CAll[3;1H[?12l[?25h[?25l[24;65H30[3;30H[?12l[?25h[?25l[4;23r[4;1H[L[1;24r[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[35m/
+s/[m[1m[37m[41m^/*****/[m[24;65H2[4;2H[?12l[?25h[?25l[35mU[m[24;65H3[4;3H[?12l[?25h[?25l[35mN[m[24;65H4[4;4H[?12l[?25h[?25l[35mI[m[24;65H5[4;5H[?12l[?25h[?25l[35mX[m[24;65H6[4;6H[?12l[?25h[?25l[35m/[m
+[36ms[m[35m/^/[m*****[35m/[m[24;65H7[4;7H[?12l[?25h[?25l[36mp[m[24;65H8[4;8H[?12l[?25h[?25l[24;63H5[5;8H[?12l[?25h[?25l[24;63H6[6;8H[?12l[?25h[24;1H[K[6;7H[?25l[24;63H6,7[11CAll[6;7H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11S2.sed" 6L, 154C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ sed -f Ch11S2.sed Sangtani.11.II[K[K[K[K[K[K[K[K[K[K[K[K[K[KCh11S2F1[K1[Student@localhost ~]$ [13Pvi Ch11S2.sedsed -f Ch11S2.sed Ch11S2F1[Student@localhost ~]$ se[Student@localhost ~]$ sed[Student@localhost ~]$ sed [Student@localhost ~]$ sed -[4hn[4l[Student@localhost ~]$ sed -nf[Student@localhost ~]$ sed -nf [Student@localhost ~]$ sed -nf C[Student@localhost ~]$ sed -nf Ch[Student@localhost ~]$ sed -nf Ch1[Student@localhost ~]$ sed -nf Ch11[Student@localhost ~]$ sed -nf Ch11S[Student@localhost ~]$ sed -nf Ch11S2[Student@localhost ~]$ sed -nf Ch11S2.[Student@localhost ~]$ sed -nf Ch11S2.s[Student@localhost ~]$ sed -nf Ch11S2.se[Student@localhost ~]$ sed -nf Ch11S2.sed[Student@localhost ~]$ sed -nf Ch11S2.sed [Student@localhost ~]$ sed -nf Ch11S2.sed C[Student@localhost ~]$ sed -nf Ch11S2.sed Ch[Student@localhost ~]$ sed -nf Ch11S2.sed Ch1[Student@localhost ~]$ sed -nf Ch11S2.sed Ch11[Student@localhost ~]$ sed -nf Ch11S2.sed Ch11S[Student@localhost ~]$ sed -nf Ch11S2.sed Ch11S2[Student@localhost ~]$ sed -nf Ch11S2.sed Ch11S2F[Student@localhost ~]$ sed -nf Ch11S2.sed Ch11S2F1
+UNIX is as UNIX does.
+But UNIX is not as DOS does.
+Nor is DOS as UNIX does.
+So, if UNIX was as DOS does,
+Would UNIX be DOS
+Or would DOS be UNIX?
+As beautiful as a UNIX operating system?
+]0;Student@localhost:~[Student@localhost ~]$ sed -nf Ch11S2.sed Ch11S2F1[Student@localhost ~]$ [14Pvi Ch11S2.sed
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11S2.sed" 6L, 154C[1;1H[34m# Script Name: Ch11S2.sed
+# This script adds five asterisks to the beginning and end of lines
+# that contain the word UNIX.[m
+[35m/UNIX/[m[36mp
+s[m[35m/^/[m*****[35m/[m
+[36ms[m[35m/$/[m*****[35m/[m
+[1m[34m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H6,1[11CAll[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;65H2[6;2H[?12l[?25h[?25l[24;65H3[6;3H[?12l[?25h[?25l[24;65H4[6;4H[?12l[?25h[?25l[24;65H5[6;5H[?12l[?25h[?25l[24;65H6[6;6H[?12l[?25h[?25l[24;65H7[6;7H[?12l[?25h[?25l[24;65H8[6;8H[?12l[?25h[?25l[24;65H9[6;9H[?12l[?25h[?25l[24;65H10[6;10H[?12l[?25h[?25l[24;65H9 [6;9H[?12l[?25h[?25l[24;65H8[6;8H[?12l[?25h[?25l[24;65H7[6;7H[?12l[?25h[?25l[24;65H6[6;6H[?12l[?25h[?25l[24;65H5[6;5H[?12l[?25h[?25l[24;65H4[6;4H[?12l[?25h[?25l[24;65H3[6;3H[?12l[?25h[?25l[24;65H2[6;2H[?12l[?25h[?25l[24;65H1[6;1H[?12l[?25h[?25l[24;65H2[6;2H[?12l[?25h[?25l[24;65H3[6;3H[?12l[?25h[?25l[24;65H4[6;4H[?12l[?25h[?25l[24;65H5[6;5H[?12l[?25h[?25l[24;65H6[6;6H[?12l[?25h[?25l[24;65H7[6;7H[?12l[?25h[?25l[24;65H8[6;8H[?12l[?25h[?25l[24;63H5[5;8H[?12l[?25h[?25l[24;63H4,7[4;7H[?12l[?25h[?25l[24;65H6[4;6H[?12l[?25h[?25l[24;65H7[4;7H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;14H[K[24;63H4,7[11CAll[4;7H[?12l[?25h[?25l[4;7H[K[4;7H[?12l[?25h[?25l[24;63H5[5;7H[?12l[?25h[?25l[24;63H6[6;7H[?12l[?25h[?25l[24;65H8[6;8H[?12l[?25h[?25l[24;65H9[6;9H[?12l[?25h[?25l[24;65H10[6;10H[?12l[?25h[?25l[24;66H1[6;11H[?12l[?25h[?25l[7;1H[K[24;63H7,1 [7;1H[?12l[?25h[?25l[36mw[m[24;65H2[7;2H[?12l[?25h[?25l[24;65H3[7;3H[?12l[?25h[?25l[31mC[m[24;65H4[7;4H[?12l[?25h[?25l[31mh[m[24;65H5[7;5H[?12l[?25h[?25l[31m1[m[24;65H6[7;6H[?12l[?25h[?25l[31m1[m[24;65H7[7;7H[?12l[?25h[?25l[31mS[m[24;65H8[7;8H[?12l[?25h[?25l[31m2[m[24;65H9[7;9H[?12l[?25h[?25l[31mF[m[24;65H10[7;10H[?12l[?25h[?25l[31m2[m[24;66H1[7;11H[?12l[?25h[24;1H[K[7;10H[?25l[24;63H7,10[10CAll[7;10H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11S2.sed" 7L, 164C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Ch11S2.sedsed -nf Ch11S2.sed Ch11S2F1
+sed: file Ch11S2.sed line 5: unknown command: `
+'
+]0;Student@localhost:~[Student@localhost ~]$ sed -nf Ch11S2.sed Ch11S2F1[Student@localhost ~]$ [14Pvi Ch11S2.sed
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11S2.sed" 7L, 164C[1;1H[34m# Script Name: Ch11S2.sed
+# This script adds five asterisks to the beginning and end of lines
+# that contain the word UNIX.[m
+[35m/UNIX/[m
+[36ms[m[35m/^/[m*****[35m/[m
+[36ms[m[35m/$/[m*****[35m/[m
+[36mw[m [31mCh11S2F2[m
+[1m[34m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H7,1[11CAll[7;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;65H2[4;2H[?12l[?25h[?25l[24;65H3[4;3H[?12l[?25h[?25l[24;65H4[4;4H[?12l[?25h[?25l[24;65H5[4;5H[?12l[?25h[?25l[24;65H6[4;6H[?12l[?25h[?25l[24;65H5[4;5H[?12l[?25h[?25l[24;65H6[4;6H[?12l[?25h[?25l[24;63H5,1[5;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;65H6[4;6H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;14H[K[24;63H4,6[11CAll[4;6H[?12l[?25h[?25l[24;65H7[4;7H[?12l[?25h[?25l[35m![m[24;65H8[4;8H[?12l[?25h[?25l[36mn[m[24;65H9[4;9H[?12l[?25h[?25l[24;63H5[5;9H[?12l[?25h[?25l[24;63H6[6;9H[?12l[?25h[?25l[24;63H7[7;9H[?12l[?25h[?25l[24;65H10[7;10H[?12l[?25h[?25l[24;66H1[7;11H[?12l[?25h[?25l[24;63H6[6;11H[?12l[?25h[?25l[24;63H5[5;11H[?12l[?25h[?25l[24;63H4,9 [4;9H[?12l[?25h[?25l[24;65H8[4;8H[?12l[?25h[?25l[24;65H7[4;7H[?12l[?25h[?25l[24;65H8[4;8H[?12l[?25h[?25l[36mn[m[4;8H[K[24;65H7[4;7H[?12l[?25h[?25l[24;63H5[5;7H[?12l[?25h[?25l[24;65H8[5;8H[?12l[?25h[?25l[24;65H9[5;9H[?12l[?25h[?25l[24;65H10[5;10H[?12l[?25h[?25l[24;66H1[5;11H[?12l[?25h[?25l[24;63H6[6;11H[?12l[?25h[?25l[24;66H0[6;10H[?12l[?25h[?25l[24;65H9 [6;9H[?12l[?25h[24;1H[K[6;8H[?25l[24;63H6,8[11CAll[6;8H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11S2.sed" 7L, 165C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ $?
+bash: 0: command not found
+]0;Student@localhost:~[Student@localhost ~]$ echo $?
+127
+]0;Student@localhost:~[Student@localhost ~]$ echo $?$?[Kvi Ch11S2.sedsed -nf Ch11S2.sed Ch11S2F1[Student@localhost ~]$ [14Pvi Ch11S2.sedsed -nf Ch11S2.sed Ch11S2F1[Student@localhost ~]$ [14Pvi Ch11S2.sedsed -nf Ch11S2.sed Ch11S2F1[Student@localhost ~]$ [14Pvi Ch11S2.sedsed -nf Ch11S2.sed Ch11S2F1[Student@localhost ~]$ [14Pvi Ch11S2.sed[4hcat[4l >[Student@localhost ~]$ cat > Ch11S2.sed[3Pvi[Student@localhost ~]$ vi Ch11S2.sedsed -nf Ch11S2.sed Ch11S2F1[Student@localhost ~]$ [14Pvi Ch11S2.sedsed -nf Ch11S2.sed Ch11S2F1[Student@localhost ~]$ [14Pvi Ch11S2.sed$?[Kecho $?
+0
+]0;Student@localhost:~[Student@localhost ~]$ echo $?
+0
+]0;Student@localhost:~[Student@localhost ~]$ echo $?
+0
+]0;Student@localhost:~[Student@localhost ~]$ echo $?
+0
+]0;Student@localhost:~[Student@localhost ~]$ echo $?
+0
+]0;Student@localhost:~[Student@localhost ~]$ echo $?$?[Kvi Ch11S2.sed
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11S2.sed" 7L, 165C[1;1H[34m# Script Name: Ch11S2.sed
+# This script adds five asterisks to the beginning and end of lines
+# that contain the word UNIX.[m
+[35m/UNIX/[m[36mn
+s[m[35m/^/[m*****[35m/[m
+[36ms[m[35m/$/[m*****[35m/[m
+[36mw[m [31mCh11S2F2[m
+[1m[34m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H6,1[11CAll[6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;65H2[4;2H[?12l[?25h[?25l[24;65H3[4;3H[?12l[?25h[?25l[24;65H4[4;4H[?12l[?25h[?25l[24;65H5[4;5H[?12l[?25h[?25l[24;65H6[4;6H[?12l[?25h[?25l[24;65H7[4;7H[?12l[?25h[?25l[24;63H5[5;7H[?12l[?25h[?25l[24;63H6[6;7H[?12l[?25h[?25l[24;63H7[7;7H[?12l[?25h[?25l[24;65H6[7;6H[?12l[?25h[?25l[24;65H5[7;5H[?12l[?25h[?25l[24;65H4[7;4H[?12l[?25h[?25l[24;65H3[7;3H[?12l[?25h[?25l[24;65H2[7;2H[?12l[?25h[?25l[24;65H1[7;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;65H2[4;2H[?12l[?25h[?25l[24;65H3[4;3H[?12l[?25h[?25l[24;65H4[4;4H[?12l[?25h[?25l[24;65H5[4;5H[?12l[?25h[?25l[24;65H6[4;6H[?12l[?25h[?25l[24;65H7[4;7H[?12l[?25h[?25l[4;7H[K[24;65H6[4;6H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;14H[K[24;63H4,6[11CAll[4;6H[?12l[?25h[?25l[5;23r[5;1H[L[1;24r[4;6H[K[5;1H[35m/[m[24;63H[K[24;63H5,1[11CAll[5;1H[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[4;2H[35mUNIX/[m[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H4,6[11CAll[4;6H[?12l[?25h[?25l[24;65H7[4;7H[?12l[?25h[?25l[5;23r[5;1H[L[1;24r[24;63H[K[24;63H5,1[11CAll[5;1H[?12l[?25h[?25l[35m{[m[24;65H2[5;2H[?12l[?25h[?25l[24;63H6[6;2H[?12l[?25h[?25l[24;63H7[7;2H[?12l[?25h[?25l[24;63H8[8;2H[?12l[?25h[?25l[24;65H3[8;3H[?12l[?25h[?25l[24;65H4[8;4H[?12l[?25h[?25l[24;65H5[8;5H[?12l[?25h[?25l[24;65H6[8;6H[?12l[?25h[?25l[24;65H7[8;7H[?12l[?25h[?25l[24;65H8[8;8H[?12l[?25h[?25l[24;65H9[8;9H[?12l[?25h[?25l[24;65H10[8;10H[?12l[?25h[?25l[24;66H1[8;11H[?12l[?25h[?25l[9;1H[K[24;63H9,1 [9;1H[?12l[?25h[?25l[35m}[m[24;65H2[9;2H[?12l[?25h[?25l[24;63H8[8;2H[?12l[?25h[?25l[24;63H9[9;2H[?12l[?25h[24;1H[K[9;1H[?25l[24;63H9,1[11CAll[9;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11S2.sed" 9L, 168C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Ch11S2.sed[6Pecho $?$?[Kvi Ch11S2.sedsed -nf Ch11S2.sed Ch11S2F1
+sed: file Ch11S2.sed line 5: unknown command: `
+'
+]0;Student@localhost:~[Student@localhost ~]$ sed -nf Ch11S2.sed Ch11S2F1[Student@localhost ~]$ [14Pvi Ch11S2.sed[6Pecho $?$?[Kvi Ch11S2.sed
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11S2.sed" 9L, 168C[1;1H[34m# Script Name: Ch11S2.sed
+# This script adds five asterisks to the beginning and end of lines
+# that contain the word UNIX.[m
+[35m/UNIX/
+{[m
+[36ms[m[35m/^/[m*****[35m/[m
+[36ms[m[35m/$/[m*****[35m/[m
+[36mw[m [31mCh11S2F2[m
+[35m}[m
+[1m[34m~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H9,1[11CAll[9;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;63H7,10[7;10H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;14H[K[24;63H7,10[10CAll[7;10H[?12l[?25h[?25l[24;63H8[8;10H[?12l[?25h[?25l[24;63H7[7;10H[?12l[?25h[?25l[24;63H6[6;10H[?12l[?25h[?25l[24;63H5,2 [5;2H[?12l[?25h[?25l[24;63H4,7[4;7H[?12l[?25h[?25l[24;63H5,2[5;2H[?12l[?25h[?25l[24;63H6,10[6;10H[?12l[?25h[?25l[24;63H7[7;10H[?12l[?25h[?25l[24;63H8[8;10H[?12l[?25h[?25l[24;65H9 [8;9H[?12l[?25h[?25l[24;65H8[8;8H[?12l[?25h[?25l[24;65H7[8;7H[?12l[?25h[?25l[24;65H6[8;6H[?12l[?25h[?25l[24;65H5[8;5H[?12l[?25h[?25l[24;65H4[8;4H[?12l[?25h[?25l[24;65H3[8;3H[?12l[?25h[?25l[24;65H2[8;2H[?12l[?25h[?25l[24;65H1[8;1H[?12l[?25h[?25l[7;23r[23;1H
+[1;24r[7;1H[36ms[m[35m/$/[m*****[35m/[m[32mw[m [31mCh11S2F2[m[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H7,11[10CAll[7;11H[?12l[?25h[?25l[24;65H2[7;21H[?12l[?25h[?25l[24;63H8,2 [8;2H[?12l[?25h[24;1H[K[8;1H[?25l[24;63H8,1[11CAll[8;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25h[?25l[24;2H[K[24;2H[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11S2.sed" 8L, 167C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Ch11S2.sedsed -nf Ch11S2.sed Ch11S2F1
+sed: file Ch11S2.sed line 5: unknown command: `
+'
+]0;Student@localhost:~[Student@localhost ~]$ sed -nf Ch11S2.sed Ch11S2F1[Student@localhost ~]$ [14Pvi Ch11S2.sed
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11S2.sed" 8L, 167C[1;1H[34m# Script Name: Ch11S2.sed
+# This script adds five asterisks to the beginning and end of lines
+# that contain the word UNIX.[m
+[35m/UNIX/
+{[m
+[36ms[m[35m/^/[m*****[35m/[m
+[36ms[m[35m/$/[m*****[35m/[m[32mw[m [31mCh11S2F2[m
+[35m}[m
+[1m[34m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H8,1[11CAll[8;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;65H2[6;2H[?12l[?25h[?25l[24;65H3[6;3H[?12l[?25h[?25l[24;65H4[6;4H[?12l[?25h[?25l[24;65H5[6;5H[?12l[?25h[?25l[24;65H6[6;6H[?12l[?25h[?25l[24;65H7[6;7H[?12l[?25h[?25l[24;65H8[6;8H[?12l[?25h[?25l[24;65H9[6;9H[?12l[?25h[?25l[24;65H10[6;10H[?12l[?25h[?25l[24;63H7[7;10H[?12l[?25h[?25l[24;63H6[6;10H[?12l[?25h[?25l[24;63H5,1 [5;1H[?12l[?25h[?25l[24;63H4,6[4;6H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;14H[K[24;63H4,6[11CAll[4;6H[?12l[?25h[?25l[35m/[m[4;6H[K[24;65H5[4;5H[?12l[?25h[?25l[35m/[m[4;5H[K[24;65H4[4;4H[?12l[?25h[?25l[35m/[m[4;4H[K[24;65H3[4;3H[?12l[?25h[?25l[35m/[m[4;3H[K[24;65H2[4;2H[?12l[?25h[?25l[4;2H[K[6;1H[35ms/[m[1m[37m[41m^/*****/[m[24;65H1[4;1H[?12l[?25h[?25l[4;1H[K[6;1H[36ms[m[35m/^/[m*****[35m/[4;1H[?12l[?25h[?25l[m[24;63H5[5;1H[?12l[?25h[?25l[5;1H[K[5;1H[?12l[?25h[?25l[5;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H5,1[11CAll[5;1H[?12l[?25h[?25l[35m/^/[m[1m[37m[41m*****/[m[5;10H[K[5;1H[?12l[?25h[?25l[36ms[m[35m/^/[m*****[35m/[m[24;65H2[5;2H[?12l[?25h[?25l[24;63H4,1[4;1H[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[6;1H[K[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[35m/s/[m[1m[37m[41m^/*****/[m[24;65H2[4;2H[?12l[?25h[?25l[35mUs/[m[1m[37m[41m^/*****/[m[24;65H3[4;3H[?12l[?25h[?25l[35mNs/[m[1m[37m[41m^/*****/[m[24;65H4[4;4H[?12l[?25h[?25l[35mIs/[m[1m[37m[41m^/*****/[m[24;65H5[4;5H[?12l[?25h[?25l[35mXs/[m[1m[37m[41m^/*****/[m[24;65H6[4;6H[?12l[?25h[?25l[35m/[m[36ms[m[35m/^/[m*****[35m/[m[24;65H7[4;7H[?12l[?25h[?25l[24;63H5[5;7H[?12l[?25h[?25l[24;65H6[5;6H[?12l[?25h[?25l[24;65H5[5;5H[?12l[?25h[?25l[24;65H4[5;4H[?12l[?25h[?25l[24;65H3[5;3H[?12l[?25h[?25l[24;65H2[5;2H[?12l[?25h[?25l[24;65H1[5;1H[?12l[?25h[?25l[35m/s/$[m[1m[37m[41m/*****/[m[36mw[m [31mCh11S2F2[m[24;65H2[5;2H[?12l[?25h[?25l[35mUs/$[m[1m[37m[41m/*****/[m[36mw[m [31mCh11S2F2[m[24;65H3[5;3H[?12l[?25h[?25l[35mNs/$[m[1m[37m[41m/*****/[m[36mw[m [31mCh11S2F2[m[24;65H4[5;4H[?12l[?25h[?25l[35mIs/$[m[1m[37m[41m/*****/[m[36mw[m [31mCh11S2F2[m[24;65H5[5;5H[?12l[?25h[?25l[35mXs/$[m[1m[37m[41m/*****/[m[36mw[m [31mCh11S2F2[m[24;65H6[5;6H[?12l[?25h[?25l[35m/[m[36ms[m[35m/$/[m*****[35m/[m[32mw[m [31mCh11S2F2[m[24;65H7[5;7H[?12l[?25h[?25l[24;65H8[5;8H[?12l[?25h[?25l[24;65H9[5;9H[?12l[?25h[?25l[24;65H10[5;10H[?12l[?25h[?25l[24;66H1[5;11H[?12l[?25h[?25l[24;66H2[5;12H[?12l[?25h[?25l[24;66H3[5;13H[?12l[?25h[?25l[24;66H4[5;14H[?12l[?25h[?25l[24;66H5[5;15H[?12l[?25h[?25l[24;66H6[5;16H[?12l[?25h[?25l[24;66H7[5;17H[?12l[?25h[?25l[24;66H8[5;18H[?12l[?25h[?25l[24;63H4,17[4;17H[?12l[?25h[?25l[24;63H5,18[5;18H[?12l[?25h[?25l[24;63H6,1 [6;1H[?12l[?25h[?25l[24;63H5,18[5;18H[?12l[?25h[?25l[24;66H9[5;19H[?12l[?25h[?25l[24;66H8[5;18H[?12l[?25h[?25l[24;66H7[5;17H[?12l[?25h[?25l[6;23r[6;1H[L[1;24r[5;17H[K[6;1H[36mw[m [31mCh11S2F2[m[24;63H[K[24;63H6,1[11CAll[6;1H[?12l[?25h[?25l[24;66H1[6;11H[?12l[?25h[?25l
+[1m[34m~                                                                               [6;11H[?12l[?25h[m[24;1H[K[6;10H[?25l[24;63H6,10[10CAll[6;10H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11S2.sed" 6L, 169C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Ch11S2.sedsed -nf Ch11S2.sed Ch11S2F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S2F1
+UNIX is as UNIX does.
+And DOS is as DOS does.
+But UNIX is not as DOS does.
+Nor is DOS as UNIX does.
+
+So, if UNIX was as DOS does,
+Would UNIX be DOS
+Or would DOS be UNIX?
+Or to put the question another way:
+Is an operating system by any other name
+As beautiful as a UNIX operating system?
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S2F1[K2
+*****UNIX is as UNIX does.*****
+And DOS is as DOS does.
+*****But UNIX is not as DOS does.*****
+*****Nor is DOS as UNIX does.*****
+
+*****So, if UNIX was as DOS does,*****
+*****Would UNIX be DOS*****
+*****Or would DOS be UNIX?*****
+Or to put the question another way:
+Is an operating system by any other name
+*****As beautiful as a UNIX operating system?*****
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch[K[KCh11S2.sed
+# Script Name: Ch11S2.sed
+# This script adds five asterisks to the beginning and end of lines
+# that contain the word UNIX.
+/UNIX/s/^/*****/
+/UNIX/s/$/*****/
+w Ch11S2F2
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 08 May 2006 05:00:41 PM EDT

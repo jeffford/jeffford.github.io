@@ -1,0 +1,315 @@
+Script started on Fri 28 Apr 2006 08:33:04 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S3F1
+cat: Ch6S3F1: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S3F1
+THE ALPHABETICAL FACTS.
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN.
+THE LAST THREE LETTERS ARE XYZ.
+THE FIRST WOUR  RD IN MY DICTIONARY IS ZY  AAL.
+]0;Student@localhost:~[Student@localhost ~]$ CAT cH6s3f1
+bash: CAT: command not found
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6C[KS3F1
+THE ALPHABETICAL FACTS.
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN.
+THE LAST THREE LETTERS ARE XYZ.
+THE FIRST WORD IN MY DICTIONARY IS AAL.
+]0;Student@localhost:~[Student@localhost ~]$ tr 
+"asd[K[Kbcdefghijklmnopqrstuvwxyz" "
+[Student@localhost ~]$ tr 
+"abcdefghijklmnopqrstuvwxyz[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[4hA[4l[4hB[4l[4hC[4l[4hD[4l[4hE[4l[4hF[4l[4hG[4l[4hH[4l[4hI[4l[4hJ[4l[4hK[4l[4hL[4l[4hM[4l[4hN[4l[4hO[4l[4hP[4l[4hQ[4l[4hR[4l[4hS[4l[4hT[4l[4hU[4l[4hV[4l[4hW[4l[4hX[4l[4hY[4l[4hZ[4l
+[Student@localhost 
+~]$ tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+[Student@localhost ~]$ tr 
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ" 
+[Student@localhost ~]$ tr 
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABC 
+DE" >V[K 
+[K[K0> [K< [K[K[K< cH[K[KCh6SII[K[K3F1 > 
+Ch6S3F2[K1Encr
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S3F1Encr
+YMJ FQUMFGJYNHFQ KFHYX.
+YMJ KNWXY YMWJJ QJYYJWX FWJ FGH.
+YMJ RJINFS QJYYJWX FWJ RS.
+YMJ QFXY YMWJJ QJYYJWX FWJ CDE.
+YMJ KNWXY BTWI NS RD INHYNTSFWD NX FFQ.
+]0;Student@localhost:~[Student@localhost ~]$ cat 
+Ch6S3F1Encrtr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCD
+DE" 0< Ch6S3F1 > Ch6S3F1Encr[Acat 
+Ch6S3F1[K
+
+[K[A
+[Student@localhost ~]$ cat Ch6S3F1tr 
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABCD
+DE" 0< Ch6S3F1 > 
+Ch6S3F1Encr[Kr[Acat Ch6S3F1Encr[K
+
+[K[A
+[Student@localhost ~]$ cat Ch6S3F1Encrtr 
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABCD
+DE" 0< Ch6S3F1 > 
+Ch6S3F1Encr
+[A
+[Student@localhost ~]$ tr 
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABABCDEFGHIJKLMNOPQRSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE[1P[A
+[Student@localhost ~]$ tr 
+BCDEFGHIJKLMNOPQRSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE"[1P[A
+[Student@localhost ~]$ tr 
+CDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABCDE" 
+[1P[A
+[Student@localhost ~]$ tr DEFGHIJKLMNOPQRSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0[1P[A
+[Student@localhost ~]$ tr 
+EFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABCDE" 
+0<[1P[A
+[Student@localhost ~]$ tr FGHIJKLMNOPQRSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< [1P[A
+[Student@localhost ~]$ tr 
+GHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABCDE" 0< 
+C[1P[A
+[Student@localhost ~]$ tr HIJKLMNOPQRSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch[1P[A
+[Student@localhost ~]$ tr 
+IJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABCDE" 0< 
+Ch6[1P[A
+[Student@localhost ~]$ tr JKLMNOPQRSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S[1P[A
+[Student@localhost ~]$ tr 
+KLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABCDE" 0< 
+Ch6S3[1P[A
+[Student@localhost ~]$ tr LMNOPQRSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F[1P[A
+[Student@localhost ~]$ tr 
+MNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABCDE" 0< 
+Ch6S3F1[1P[A
+[Student@localhost ~]$ tr NOPQRSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 [1P[A
+[Student@localhost ~]$ tr 
+OPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 >[1P 
+Ch6S3F1Encr[A
+[Student@localhost ~]$ tr PQRSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 > 
+[1PCh6S3F1Encr[A
+[Student@localhost ~]$ tr QRSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 > 
+C[1Ph6S3F1Encr[A
+[Student@localhost ~]$ tr RSTUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 > 
+Ch[1P6S3F1Encr[A
+[Student@localhost ~]$ tr STUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 > 
+Ch6[1PS3F1Encr[A
+[Student@localhost ~]$ tr TUVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 > 
+Ch6S[1P3F1Encr[A
+[Student@localhost ~]$ tr UVWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 > 
+Ch6S3[1PF1Encr[A
+[Student@localhost ~]$ tr VWXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 > 
+Ch6S3F[1P1Encr[A
+[Student@localhost ~]$ tr WXYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 > 
+Ch6S3F1[1PEncr[A
+[Student@localhost ~]$ tr XYZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 > 
+Ch6S3F1E[1Pncr[A
+[Student@localhost ~]$ tr YZ" 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 > 
+Ch6S3F1En[1Pcr[A
+[Student@localhost ~]$ tr Z" "FGHIJKLMNOPQRSTUVWXYZABCDE" 
+0< Ch6S3F1 > Ch6S3F1Enc[1Pr[A
+[Student@localhost ~]$ tr " 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 0< Ch6S3F1 > 
+Ch6S3F1Encr[K[A
+[Student@localhost ~]$ tr  "FGHIJKLMNOPQRSTUVWXYZABCDE" 0< 
+Ch6S3F1 > Ch6S3F1Encr 
+[K[A
+[Student@localhost ~]$ tr [1P
+
+[K[A
+[Student@localhost ~]$ tr 
+[Student@localhost ~]$ tr 
+"
+[Student@localhost ~]$ tr "F
+[Student@localhost ~]$ tr 
+"FG
+[Student@localhost ~]$ tr "FGH
+[Student@localhost ~]$ tr 
+"FGHI
+[Student@localhost ~]$ tr "FGHIJ
+[Student@localhost ~]$ tr 
+"FGHIJK
+[Student@localhost ~]$ tr "FGHIJKL
+[Student@localhost ~]$ tr 
+"FGHIJKLM
+[Student@localhost ~]$ tr "FGHIJKLMN
+[Student@localhost ~]$ tr 
+"FGHIJKLMNO
+[Student@localhost ~]$ tr "FGHIJKLMNOP
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQ
+[Student@localhost ~]$ tr "FGHIJKLMNOPQR
+[Student@localhost 
+~]$ tr "FGHIJKLMNOPQRS
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRST
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTU
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUV
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVW
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWX
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXY
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZ
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZA
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZAB
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABC
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCD
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE"
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" 
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE"  0< Ch6S3F1 > Ch6S3F1Encr 
+[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" " 0< Ch6S3F1 > 
+Ch6S3F1Encr
+r[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" "A 
+0< Ch6S3F1 > Ch6S3F1Encr[A
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" "AB 0< Ch6S3F1 > 
+Ch6S3F1Encr[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" "ABC 
+0< Ch6S3F1 > Ch6S3F1Encr[A
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" "ABCD 0< Ch6S3F1 > 
+Ch6S3F1Encr[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" "ABCDE 
+0< Ch6S3F1 > Ch6S3F1Encr[A
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" "ABCDEF 0< Ch6S3F1 > 
+Ch6S3F1Encr[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" 
+"ABCDEFG 0< Ch6S3F1 > Ch6S3F1Encr[A
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" "ABCDEFGH 0< Ch6S3F1 > 
+Ch6S3F1Encr[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" 
+"ABCDEFGHI 0< Ch6S3F1 > Ch6S3F1Encr[A
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" "ABCDEFGHIJ 0< Ch6S3F1 > 
+Ch6S3F1Encr[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" 
+"ABCDEFGHIJK 0< Ch6S3F1 > Ch6S3F1Encr[A
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" "ABCDEFGHIJKL 0< Ch6S3F1 > 
+Ch6S3F1Encr[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" 
+"ABCDEFGHIJKLM 0< Ch6S3F1 > Ch6S3F1Encr[A
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" "ABCDEFGHIJKLMN 0< Ch6S3F1[4h 
+[4l[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" 
+"ABCDEFGHIJKLMNO 0< Ch6S3F[4h1[4l[A
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" "ABCDEFGHIJKLMNOP 0< 
+Ch6S3[4hF[4l[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" 
+"ABCDEFGHIJKLMNOPQ 0< Ch6S[4h3[4l[A
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" "ABCDEFGHIJKLMNOPQR 0< 
+Ch6[4hS[4l[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" 
+"ABCDEFGHIJKLMNOPQRS 0< Ch[4h6[4l[A
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" "ABCDEFGHIJKLMNOPQRST 0< 
+C[4hh[4l[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" 
+"ABCDEFGHIJKLMNOPQRSTU 0< [4hC[4l[A
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" "ABCDEFGHIJKLMNOPQRSTUV 0<[4h 
+[4l[A
+[Student@localhost ~]$ tr "FGHIJKLMNOPQRSTUVWXYZABCDE" 
+"ABCDEFGHIJKLMNOPQRSTUVW 0[4h<[4l[A
+[Student@localhost ~]$ tr 
+"FGHIJKLMNOPQRSTUVWXYZABCDE" "ABCDEFGHIJKLMNOPQRSTUVWX 
+[4h0[4l
+[4hY[4l[4hZ[4l[4h"[4l
+YZ" 
+YZ" 0
+YZ" 0<
+YZ" 0< 
+YZ" 0< C
+YZ" 
+0< Ch
+YZ" 0< Ch6
+YZ" 0< Ch6S
+YZ" 0< Ch6S3
+YZ" 0< Ch6S3F
+YZ" 0< Ch6S3F1
+YZ" 
+0< Ch6S3F1 
+YZ" 0< Ch6S3F1 >
+YZ" 0< Ch6S3F1 > 
+YZ" 0< Ch6S3F1 > C
+YZ" 0< 
+Ch6S3F1 > Ch
+YZ" 0< Ch6S3F1 > Ch6
+YZ" 0< Ch6S3F1 > Ch6S
+YZ" 0< Ch6S3F1 > 
+Ch6S3
+YZ" 0< Ch6S3F1 > Ch6S3F
+YZ" 0< Ch6S3F1 > Ch6S3F1
+YZ" 0< Ch6S3F1 > 
+Ch6S3F1E
+YZ" 0< Ch6S3F1 > Ch6S3F1En
+YZ" 0< Ch6S3F1 > Ch6S3F1Enc
+YZ" 0< 
+Ch6S3F1 > 
+Ch6S3F1Encr[4he[4l[4hN[4l[4hC[4l[4hR[4l[1P[1P[1P[1P[4hE[4l[4hn[4l[4hc[4l[4hr[4l
+YZ" 
+0< Ch6S3F1Encr 
+YZ" 0< Ch6S3F1Encr >
+YZ" 0< Ch6S3F1Encr > 
+YZ" 0< 
+Ch6S3F1Encr > C
+YZ" 0< Ch6S3F1Encr > Ch
+YZ" 0< Ch6S3F1Encr > Ch6
+YZ" 0< 
+Ch6S3F1Encr > Ch6S
+YZ" 0< Ch6S3F1Encr > Ch6S3
+YZ" 0< Ch6S3F1Encr > 
+Ch6S3F
+YZ" 0< Ch6S3F1Encr > Ch6S3F1
+YZ" 0< Ch6S3F1Encr > Ch6S3F1E
+YZ" 0< 
+Ch6S3F1Encr > Ch6S3F1En
+YZ" 0< Ch6S3F1Encr > Ch6S3F1Enc
+YZ" 0< Ch6S3F1Encr > 
+Ch6S3F1Encr[K[K[K[K
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S3F1
+THE ALPHABETICAL FACTS.
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN.
+THE LAST THREE LETTERS ARE XYZ.
+THE FIRST WORD IN MY DICTIONARY IS AAL.
+]0;Student@localhost:~[Student@localhost ~]$
+Script done on Fri 28 Apr 2006 08:46:09 AM EDT
+

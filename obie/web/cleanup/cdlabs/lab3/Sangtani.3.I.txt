@@ -1,0 +1,41 @@
+Script started on Mon 24 Apr 2006 08:12:05 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ mkdir la[Ketters
+]0;Student@localhost:~[Student@localhost ~]$ mkdir reports
+]0;Student@localhost:~[Student@localhost ~]$ mkdir assignments
+]0;Student@localhost:~[Student@localhost ~]$ cd letters
+]0;Student@localhost:~/letters[Student@localhost letters]$ mkdir friendly
+]0;Student@localhost:~/letters[Student@localhost letters]$ mkdir formal
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd ../reports
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir -p ~/assignments/UNIX
+]0;Student@localhost:~/reports[Student@localhost reports]$ mk[K[Kmkdir -p ~/assignments/UNIX[Student@localhost reports]$ mkdir -p ~/assignments/[Student@localhost reports]$ mkdir -p ~/assignments/U[Student@localhost reports]$ mkdir -p ~/assignments/UN[Student@localhost reports]$ mkdir -p ~/assignments/UNI[Student@localhost reports]$ mkdir -p ~/assignments/UNIX/HWs
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir -p ~/assignments/UNIX/HWs[K[K[KProjects
+]0;Student@localhost:~/reports[Student@localhost reports]$ cd ~
+]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m  [00mgtsybrgII.txt[00m  [00msangtani2edit.txt![00m  [00mSangtani.L1.txt.odt[00m
+[00mcalstuff[00m     [00;34mletters[00m        [00mSangtani2edit.txt[00m   [00msangtani.L2.txt[00m
+[00;34mDesktop[00m      [00;34mreports[00m        [00mSangtani.3.I.txt[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[m]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 24 Apr 2006 08:28:30 AM EDT

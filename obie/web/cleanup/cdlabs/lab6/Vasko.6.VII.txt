@@ -1,0 +1,667 @@
+Script started on Fri 28 Apr 2006 07:59:29 AM EDT
+]0;student@localhost:~[student@localhost ~]$ cp[K[Kcd/etc[K[K[K[K c[K/etc
+]0;student@localhost:/etc[student@localhost etc]$ cp passwd ~/passe[Kwd
+]0;student@localhost:/etc[student@localhost etc]$ cd
+]0;student@localhost:~[student@localhost ~]$ cat passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;student@localhost:~[student@localhost ~]$ mv passwd Ch5[K6S7F1
+]0;student@localhost:~[student@localhost ~]$ we -[K[K[Kc -l Ch6S7F1
+34 Ch6S7F1
+]0;student@localhost:~[student@localhost ~]$ echo \#3 JThere[K[K[K[K[K[KIf the numb[K[K[K[Ke[K[K[K[K[Keach line s [K[Kis a n[Kuser, which is my best b[Kguess,  then there are 34 users.
+#3 If each line is a user, which is my best guess, then there are 34 users.
+]0;student@localhost:~[student@localhost ~]$ cut -f1,3 -d"[K'a[K/[K[K"/" Ch6JS[K[K[K[K[K[K[student@localhost ~]$ c[4hc[4l[4ha[4l[4ht[4l[4h [4l[4hC[4l[4hh[4l[4h6[4l[4hS[4l[4h7[4l[4hF[4l[4h1[4l[4h [4l[4h|[4l[4h [4l[student@localhost ~]$ cat Ch6S7F1 | c[student@localhost ~]$ cat Ch6S7F1 | cu[student@localhost ~]$ cat Ch6S7F1 | cut[student@localhost ~]$ cat Ch6S7F1 | cut [student@localhost ~]$ cat Ch6S7F1 | cut -[student@localhost ~]$ cat Ch6S7F1 | cut -f[student@localhost ~]$ cat Ch6S7F1 | cut -f1[student@localhost ~]$ cat Ch6S7F1 | cut -f1,[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 [student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -d[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -d"[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -d"/[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -d"/" > Ch6S7S[KF1
+]0;student@localhost:~[student@localhost ~]$ a[Kcat Ch6S7F1[K1
+]0;student@localhost:~[student@localhost ~]$ cp [K[K[Kcd /etc
+]0;student@localhost:/etc[student@localhost etc]$ cp passwd ~/ChS[K6S7F1
+]0;student@localhost:/etc[student@localhost etc]$ cd
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S7F1
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S7F1d[Kp passwd ~/Ch6S7F1[12Pd /etcat Ch6S7F1 | cut -f1,3 -d"/" > Ch6S7F1[K2
+]0;student@localhost:~[student@localhost ~]$ Ch[K[Kcat Ch6S7F2
+root:x:0:0:root:/bin
+bin:x:1:1:bin:/sbin
+daemon:x:2:2:daemon:/sbin
+adm:x:3:4:adm:/adm:
+lp:x:4:7:lp:/spool
+sync:x:5:0:sync:/bin
+shutdown:x:6:0:shutdown:/sbin
+halt:x:7:0:halt:/sbin
+mail:x:8:12:mail:/spool
+news:x:9:13:news:/news:
+uucp:x:10:14:uucp:/spool
+operator:x:11:0:operator:/sbin
+games:x:12:100:games:/games:
+gopher:x:13:30:gopher:/gopher:
+ftp:x:14:50:FTP User:/ftp:
+nobody:x:99:99:Nobody:/sbin
+dbus:x:81:81:System message bus:/sbin
+vcsa:x:69:69:virtual console memory owner:/sbin
+rpm:x:37:37::/lib
+haldaemon:x:68:68:HAL daemon:/sbin
+pcap:x:77:77::/arpwatch:
+nscd:x:28:28:NSCD Daemon:/sbin
+named:x:25:25:Named:/named:
+netdump:x:34:34:Network Crash Dump user:/crash:
+sshd:x:74:74:Privilege-separated SSH:/empty
+rpc:x:32:32:Portmapper RPC user:/sbin
+mailnull:x:47:47::/spool
+smmsp:x:51:51::/spool
+rpcuser:x:29:29:RPC Service User:/lib
+nfsnobody:x:65534:65534:Anonymous NFS User:/lib
+xfs:x:43:43:X Font Server:/X11
+ntp:x:38:38::/ntp:
+gdm:x:42:42::/gdm:
+student:x:500:500:Computer Science Student:/Student:
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S7F21 | cut -f1,3 -d"/" > Ch6S7F2[1P[1P[1P[1P[1P[4h+[4l[4h0[4l[student@localhost ~]$ cat Ch6S7F1 | cut +0 [4h [4l[4h-[4l[4h1[4l[1P[1P[1P[1P[1P[1P[student@localhost ~]$ cat Ch6S7F1 | cut [4h [4l[4h-[4l[4hf[4l[4h1[4l[4h,[4l[4h3[4l
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S7F2
+root:x:0:0:root:/bin
+bin:x:1:1:bin:/sbin
+daemon:x:2:2:daemon:/sbin
+adm:x:3:4:adm:/adm:
+lp:x:4:7:lp:/spool
+sync:x:5:0:sync:/bin
+shutdown:x:6:0:shutdown:/sbin
+halt:x:7:0:halt:/sbin
+mail:x:8:12:mail:/spool
+news:x:9:13:news:/news:
+uucp:x:10:14:uucp:/spool
+operator:x:11:0:operator:/sbin
+games:x:12:100:games:/games:
+gopher:x:13:30:gopher:/gopher:
+ftp:x:14:50:FTP User:/ftp:
+nobody:x:99:99:Nobody:/sbin
+dbus:x:81:81:System message bus:/sbin
+vcsa:x:69:69:virtual console memory owner:/sbin
+rpm:x:37:37::/lib
+haldaemon:x:68:68:HAL daemon:/sbin
+pcap:x:77:77::/arpwatch:
+nscd:x:28:28:NSCD Daemon:/sbin
+named:x:25:25:Named:/named:
+netdump:x:34:34:Network Crash Dump user:/crash:
+sshd:x:74:74:Privilege-separated SSH:/empty
+rpc:x:32:32:Portmapper RPC user:/sbin
+mailnull:x:47:47::/spool
+smmsp:x:51:51::/spool
+rpcuser:x:29:29:RPC Service User:/lib
+nfsnobody:x:65534:65534:Anonymous NFS User:/lib
+xfs:x:43:43:X Font Server:/X11
+ntp:x:38:38::/ntp:
+gdm:x:42:42::/gdm:
+student:x:500:500:Computer Science Student:/Student:
+]0;student@localhost:~[student@localhost ~]$ sort[K[K[K[Kcat Ch6S7F21 | cut -f1,3 -d"/" > Ch6S7F2[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 [student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -d[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -d"[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -d"/[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -d"/"[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -d"/" [student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -d"/" >[student@localhost ~]$ cat Ch6S7F1 | cut -f1,3 -d"/" > [1Ph6S7F2[1P6S7F2[1PS7F2[1P7F2[1PF2[1P2[Ktable1[1P[1P[student@localhost ~]$ cat Ch6S7F1 | cut -f1 [student@localhost ~]$ cat Ch6S7F1 | cut -f1 -[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/"[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" [student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" >[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > [student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > t[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > ta[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > tab[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > tabl[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > table[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > table1 | cut -f1 -d"/" > ta ble2
+]0;student@localhost:~[student@localhost ~]$ cat table1
+root:x:0:0:root:
+bin:x:1:1:bin:
+daemon:x:2:2:daemon:
+adm:x:3:4:adm:
+lp:x:4:7:lp:
+sync:x:5:0:sync:
+shutdown:x:6:0:shutdown:
+halt:x:7:0:halt:
+mail:x:8:12:mail:
+news:x:9:13:news:
+uucp:x:10:14:uucp:
+operator:x:11:0:operator:
+games:x:12:100:games:
+gopher:x:13:30:gopher:
+ftp:x:14:50:FTP User:
+nobody:x:99:99:Nobody:
+dbus:x:81:81:System message bus:
+vcsa:x:69:69:virtual console memory owner:
+rpm:x:37:37::
+haldaemon:x:68:68:HAL daemon:
+pcap:x:77:77::
+nscd:x:28:28:NSCD Daemon:
+named:x:25:25:Named:
+netdump:x:34:34:Network Crash Dump user:
+sshd:x:74:74:Privilege-separated SSH:
+rpc:x:32:32:Portmapper RPC user:
+mailnull:x:47:47::
+smmsp:x:51:51::
+rpcuser:x:29:29:RPC Service User:
+nfsnobody:x:65534:65534:Anonymous NFS User:
+xfs:x:43:43:X Font Server:
+ntp:x:38:38::
+gdm:x:42:42::
+student:x:500:500:Computer Science Student:
+]0;student@localhost:~[student@localhost ~]$ cat [K[K[K[Kpaste table [K1 table2 > Ch6S7F2
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S7F2
+root:x:0:0:root:	
+bin:x:1:1:bin:	
+daemon:x:2:2:daemon:	
+adm:x:3:4:adm:	
+lp:x:4:7:lp:	
+sync:x:5:0:sync:	
+shutdown:x:6:0:shutdown:	
+halt:x:7:0:halt:	
+mail:x:8:12:mail:	
+news:x:9:13:news:	
+uucp:x:10:14:uucp:	
+operator:x:11:0:operator:	
+games:x:12:100:games:	
+gopher:x:13:30:gopher:	
+ftp:x:14:50:FTP User:	
+nobody:x:99:99:Nobody:	
+dbus:x:81:81:System message bus:	
+vcsa:x:69:69:virtual console memory owner:	
+rpm:x:37:37::	
+haldaemon:x:68:68:HAL daemon:	
+pcap:x:77:77::	
+nscd:x:28:28:NSCD Daemon:	
+named:x:25:25:Named:	
+netdump:x:34:34:Network Crash Dump user:	
+sshd:x:74:74:Privilege-separated SSH:	
+rpc:x:32:32:Portmapper RPC user:	
+mailnull:x:47:47::	
+smmsp:x:51:51::	
+rpcuser:x:29:29:RPC Service User:	
+nfsnobody:x:65534:65534:Anonymous NFS User:	
+xfs:x:43:43:X Font Server:	
+ntp:x:38:38::	
+gdm:x:42:42::	
+student:x:500:500:Computer Science Student:	
+]0;student@localhost:~[student@localhost ~]$ cat[K[K[Kcat[K[K[Kcat Ch6S7F2[Kcat Ch6S7F2[4hpaste table1 table[4l2 >[student@localhost ~]$ paste table1 table2 > Ch6S7F2[student@localhost ~]$ paste [4h [4l[student@localhost ~]$ paste [student@localhost ~]$ paste  [student@localhost ~]$ paste  t[1P[student@localhost ~]$ paste [student@localhost ~]$ paste t[student@localhost ~]$ paste ta[student@localhost ~]$ paste tab[student@localhost ~]$ paste tabl[student@localhost ~]$ paste table[student@localhost ~]$ paste table1[student@localhost ~]$ paste table1 [student@localhost ~]$ paste table1 t[student@localhost ~]$ paste table1 ta[student@localhost ~]$ paste table1 tab[student@localhost ~]$ paste table1 tabl[student@localhost ~]$ paste table1 table[student@localhost ~]$ paste table1 table2[student@localhost ~]$ paste table1 table2 [student@localhost ~]$ paste table1 table2 >[student@localhost ~]$ paste table1 table2 > [student@localhost ~]$ paste table1 table2 > [student@localhost ~]$ paste table1 table2 > [student@localhost ~]$ paste table1 table2 > [student@localhost ~]$ paste table1 table2[student@localhost ~]$ paste table1 table2 [student@localhost ~]$ paste table1 table2 [1P Ch6S7F2[1PCh6S7F2[1Ph6S7F2[1P6S7F2[1PS7F2[1P7F2[1PF2[1P2[K[K
+root:x:0:0:root:	
+bin:x:1:1:bin:	
+daemon:x:2:2:daemon:	
+adm:x:3:4:adm:	
+lp:x:4:7:lp:	
+sync:x:5:0:sync:	
+shutdown:x:6:0:shutdown:	
+halt:x:7:0:halt:	
+mail:x:8:12:mail:	
+news:x:9:13:news:	
+uucp:x:10:14:uucp:	
+operator:x:11:0:operator:	
+games:x:12:100:games:	
+gopher:x:13:30:gopher:	
+ftp:x:14:50:FTP User:	
+nobody:x:99:99:Nobody:	
+dbus:x:81:81:System message bus:	
+vcsa:x:69:69:virtual console memory owner:	
+rpm:x:37:37::	
+haldaemon:x:68:68:HAL daemon:	
+pcap:x:77:77::	
+nscd:x:28:28:NSCD Daemon:	
+named:x:25:25:Named:	
+netdump:x:34:34:Network Crash Dump user:	
+sshd:x:74:74:Privilege-separated SSH:	
+rpc:x:32:32:Portmapper RPC user:	
+mailnull:x:47:47::	
+smmsp:x:51:51::	
+rpcuser:x:29:29:RPC Service User:	
+nfsnobody:x:65534:65534:Anonymous NFS User:	
+xfs:x:43:43:X Font Server:	
+ntp:x:38:38::	
+gdm:x:42:42::	
+student:x:500:500:Computer Science Student:	
+]0;student@localhost:~[student@localhost ~]$ cat table 1[K[K1 an[K[Ktable2
+root:x:0:0:root:
+bin:x:1:1:bin:
+daemon:x:2:2:daemon:
+adm:x:3:4:adm:
+lp:x:4:7:lp:
+sync:x:5:0:sync:
+shutdown:x:6:0:shutdown:
+halt:x:7:0:halt:
+mail:x:8:12:mail:
+news:x:9:13:news:
+uucp:x:10:14:uucp:
+operator:x:11:0:operator:
+games:x:12:100:games:
+gopher:x:13:30:gopher:
+ftp:x:14:50:FTP User:
+nobody:x:99:99:Nobody:
+dbus:x:81:81:System message bus:
+vcsa:x:69:69:virtual console memory owner:
+rpm:x:37:37::
+haldaemon:x:68:68:HAL daemon:
+pcap:x:77:77::
+nscd:x:28:28:NSCD Daemon:
+named:x:25:25:Named:
+netdump:x:34:34:Network Crash Dump user:
+sshd:x:74:74:Privilege-separated SSH:
+rpc:x:32:32:Portmapper RPC user:
+mailnull:x:47:47::
+smmsp:x:51:51::
+rpcuser:x:29:29:RPC Service User:
+nfsnobody:x:65534:65534:Anonymous NFS User:
+xfs:x:43:43:X Font Server:
+ntp:x:38:38::
+gdm:x:42:42::
+student:x:500:500:Computer Science Student:
+]0;student@localhost:~[student@localhost ~]$ paste table [K1 table[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat table2
+]0;student@localhost:~[student@localhost ~]$ cat table21 table2[4hpa[4lste[student@localhost ~]$ paste table1 table2[8Pcat Ch6S7F2[4hpaste table1 table[4l2 >[student@localhost ~]$ paste table1 table2 > Ch6S7F2[student@localhost ~]$ [19Pcat table1Ch6S7F1 | cut -f1 -d"/" > table1 | cut -f1 -d"/" > tabble2[A[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > table1 | cut -f1 -d"/" > t[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > table1 | cut -f -d"/" > tabl[1Pe2[A[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > table1 | cut -f2 -d"/" > table2[A[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > table1 | cut -f2 -d"/" > tabl[1Pe2[A[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > table1 | cut -f3 -d"/" > table2[A[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > table1 | cut -f3
+
+]0;student@localhost:~[student@localhost ~]$ t[Kcat table1
+root:x:0:0:root:
+bin:x:1:1:bin:
+daemon:x:2:2:daemon:
+adm:x:3:4:adm:
+lp:x:4:7:lp:
+sync:x:5:0:sync:
+shutdown:x:6:0:shutdown:
+halt:x:7:0:halt:
+mail:x:8:12:mail:
+news:x:9:13:news:
+uucp:x:10:14:uucp:
+operator:x:11:0:operator:
+games:x:12:100:games:
+gopher:x:13:30:gopher:
+ftp:x:14:50:FTP User:
+nobody:x:99:99:Nobody:
+dbus:x:81:81:System message bus:
+vcsa:x:69:69:virtual console memory owner:
+rpm:x:37:37::
+haldaemon:x:68:68:HAL daemon:
+pcap:x:77:77::
+nscd:x:28:28:NSCD Daemon:
+named:x:25:25:Named:
+netdump:x:34:34:Network Crash Dump user:
+sshd:x:74:74:Privilege-separated SSH:
+rpc:x:32:32:Portmapper RPC user:
+mailnull:x:47:47::
+smmsp:x:51:51::
+rpcuser:x:29:29:RPC Service User:
+nfsnobody:x:65534:65534:Anonymous NFS User:
+xfs:x:43:43:X Font Server:
+ntp:x:38:38::
+gdm:x:42:42::
+student:x:500:500:Computer Science Student:
+]0;student@localhost:~[student@localhost ~]$ cat table2
+]0;student@localhost:~[student@localhost ~]$ cat table21Ch6S7F1 | cut -f1 -d"/" > table1 | cut -f3 -d"/" > tabble2[K[K[K[K[A[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > table1 | cut -f3 -d"/" > t[K
+[K[A[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > table1 | cut -f3 -d"/" > t[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S7F1 | cut -f1 -d"/" > table1[K[4h3[4l[1P[student@localhost ~]$ cat Ch6S7F1 | cut -f3 [student@localhost ~]$ cat Ch6S7F1 | cut -f3 -[student@localhost ~]$ cat Ch6S7F1 | cut -f3 -d[student@localhost ~]$ cat Ch6S7F1 | cut -f3 -d"[student@localhost ~]$ cat Ch6S7F1 | cut -f3 -d"/[student@localhost ~]$ cat Ch6S7F1 | cut -f3 -d"/"[student@localhost ~]$ cat Ch6S7F1 | cut -f3 -d"/" [student@localhost ~]$ cat Ch6S7F1 | cut -f3 -d"/" >[student@localhost ~]$ cat Ch6S7F1 | cut -f3 -d"/" > [student@localhost ~]$ cat Ch6S7F1 | cut -f3 -d"/" > t[student@localhost ~]$ cat Ch6S7F1 | cut -f3 -d"/" > ta[student@localhost ~]$ cat Ch6S7F1 | cut -f3 -d"/" > tab[student@localhost ~]$ cat Ch6S7F1 | cut -f3 -d"/" > tabl[student@localhost ~]$ cat Ch6S7F1 | cut -f3 -d"/" > table2
+]0;student@localhost:~[student@localhost ~]$ cat table2
+bin
+sbin
+sbin
+adm:
+spool
+bin
+sbin
+sbin
+spool
+news:
+spool
+sbin
+games:
+gopher:
+ftp:
+sbin
+sbin
+sbin
+lib
+sbin
+arpwatch:
+sbin
+named:
+crash:
+empty
+sbin
+spool
+spool
+lib
+lib
+X11
+ntp:
+gdm:
+Student:
+]0;student@localhost:~[student@localhost ~]$ paste table1 tables[K2
+root:x:0:0:root:	bin
+bin:x:1:1:bin:	sbin
+daemon:x:2:2:daemon:	sbin
+adm:x:3:4:adm:	adm:
+lp:x:4:7:lp:	spool
+sync:x:5:0:sync:	bin
+shutdown:x:6:0:shutdown:	sbin
+halt:x:7:0:halt:	sbin
+mail:x:8:12:mail:	spool
+news:x:9:13:news:	news:
+uucp:x:10:14:uucp:	spool
+operator:x:11:0:operator:	sbin
+games:x:12:100:games:	games:
+gopher:x:13:30:gopher:	gopher:
+ftp:x:14:50:FTP User:	ftp:
+nobody:x:99:99:Nobody:	sbin
+dbus:x:81:81:System message bus:	sbin
+vcsa:x:69:69:virtual console memory owner:	sbin
+rpm:x:37:37::	lib
+haldaemon:x:68:68:HAL daemon:	sbin
+pcap:x:77:77::	arpwatch:
+nscd:x:28:28:NSCD Daemon:	sbin
+named:x:25:25:Named:	named:
+netdump:x:34:34:Network Crash Dump user:	crash:
+sshd:x:74:74:Privilege-separated SSH:	empty
+rpc:x:32:32:Portmapper RPC user:	sbin
+mailnull:x:47:47::	spool
+smmsp:x:51:51::	spool
+rpcuser:x:29:29:RPC Service User:	lib
+nfsnobody:x:65534:65534:Anonymous NFS User:	lib
+xfs:x:43:43:X Font Server:	X11
+ntp:x:38:38::	ntp:
+gdm:x:42:42::	gdm:
+student:x:500:500:Computer Science Student:	Student:
+]0;student@localhost:~[student@localhost ~]$ pat[Kste table2 table1
+bin	root:x:0:0:root:
+sbin	bin:x:1:1:bin:
+sbin	daemon:x:2:2:daemon:
+adm:	adm:x:3:4:adm:
+spool	lp:x:4:7:lp:
+bin	sync:x:5:0:sync:
+sbin	shutdown:x:6:0:shutdown:
+sbin	halt:x:7:0:halt:
+spool	mail:x:8:12:mail:
+news:	news:x:9:13:news:
+spool	uucp:x:10:14:uucp:
+sbin	operator:x:11:0:operator:
+games:	games:x:12:100:games:
+gopher:	gopher:x:13:30:gopher:
+ftp:	ftp:x:14:50:FTP User:
+sbin	nobody:x:99:99:Nobody:
+sbin	dbus:x:81:81:System message bus:
+sbin	vcsa:x:69:69:virtual console memory owner:
+lib	rpm:x:37:37::
+sbin	haldaemon:x:68:68:HAL daemon:
+arpwatch:	pcap:x:77:77::
+sbin	nscd:x:28:28:NSCD Daemon:
+named:	named:x:25:25:Named:
+crash:	netdump:x:34:34:Network Crash Dump user:
+empty	sshd:x:74:74:Privilege-separated SSH:
+sbin	rpc:x:32:32:Portmapper RPC user:
+spool	mailnull:x:47:47::
+spool	smmsp:x:51:51::
+lib	rpcuser:x:29:29:RPC Service User:
+lib	nfsnobody:x:65534:65534:Anonymous NFS User:
+X11	xfs:x:43:43:X Font Server:
+ntp:	ntp:x:38:38::
+gdm:	gdm:x:42:42::
+Student:	student:x:500:500:Computer Science Student:
+]0;student@localhost:~[student@localhost ~]$ paste table2 table1 > Ch6S7F2
+]0;student@localhost:~[student@localhost ~]$ sort -f2[K[K[Kf2[K[K-f2 Ch6S7F2
+sort: invalid option -- 2
+Try `sort --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ sort -f2 Ch6S7F2 | cat > Ch6S7F3
+sort: invalid option -- 2
+Try `sort --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ sort -f2 Ch6S7F2 | cat > Ch6S7F3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K> Cg6[K[Kh^S[K[KgS7F2[K3
+sort: invalid option -- 2
+Try `sort --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ sort -f2 Ch6S7F2 > ChgS7F3[K[K[K[K[K[K[K[K[K[K
+sort: invalid option -- 2
+Try `sort --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S7F2
+bin	root:x:0:0:root:
+sbin	bin:x:1:1:bin:
+sbin	daemon:x:2:2:daemon:
+adm:	adm:x:3:4:adm:
+spool	lp:x:4:7:lp:
+bin	sync:x:5:0:sync:
+sbin	shutdown:x:6:0:shutdown:
+sbin	halt:x:7:0:halt:
+spool	mail:x:8:12:mail:
+news:	news:x:9:13:news:
+spool	uucp:x:10:14:uucp:
+sbin	operator:x:11:0:operator:
+games:	games:x:12:100:games:
+gopher:	gopher:x:13:30:gopher:
+ftp:	ftp:x:14:50:FTP User:
+sbin	nobody:x:99:99:Nobody:
+sbin	dbus:x:81:81:System message bus:
+sbin	vcsa:x:69:69:virtual console memory owner:
+lib	rpm:x:37:37::
+sbin	haldaemon:x:68:68:HAL daemon:
+arpwatch:	pcap:x:77:77::
+sbin	nscd:x:28:28:NSCD Daemon:
+named:	named:x:25:25:Named:
+crash:	netdump:x:34:34:Network Crash Dump user:
+empty	sshd:x:74:74:Privilege-separated SSH:
+sbin	rpc:x:32:32:Portmapper RPC user:
+spool	mailnull:x:47:47::
+spool	smmsp:x:51:51::
+lib	rpcuser:x:29:29:RPC Service User:
+lib	nfsnobody:x:65534:65534:Anonymous NFS User:
+X11	xfs:x:43:43:X Font Server:
+ntp:	ntp:x:38:38::
+gdm:	gdm:x:42:42::
+Student:	student:x:500:500:Computer Science Student:
+]0;student@localhost:~[student@localhost ~]$ sort /[K-f2 Ch6S7F2 > Ch6S7F3
+sort: invalid option -- 2
+Try `sort --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ cat [K[K[K[Ksort -f2 Ch6S7F2 > Ch6S7F3[student@localhost ~]$ [15Pcat Ch6S7F2 | sort -f2 > Ch6S7F3
+sort: invalid option -- 2
+Try `sort --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ sort[K[K[K[Kcat Ch6S7F2 | sort -f2 > Ch6S7F3[student@localhost ~]$ [6Psort -f2 Ch6S7F[student@localhost ~]$ sort -f2 Ch6S7F2 > Ch6S7F3[student@localhost ~]$ [15Pcat Ch6S7F2[4hsort [4l-f2[student@localhost ~]$ sort -f2 Ch6S7F2 > ChgS7F3| cat > Ch6S7F3[K[4hpaste table2 [4ltable1 >[student@localhost ~]$ paste table2 table1 > Ch6S7F2[4h1[4l[student@localhost ~]$ paste table12[1P[student@localhost ~]$ paste table1 [student@localhost ~]$ paste table1 t[student@localhost ~]$ paste table1 ta[student@localhost ~]$ paste table1 tab[student@localhost ~]$ paste table1 tabl[student@localhost ~]$ paste table1 table[1P[4h2[4l[student@localhost ~]$ paste table1 table2 [student@localhost ~]$ paste table1 table2 >[student@localhost ~]$ paste table1 table2 > [student@localhost ~]$ paste table1 table2 > C[student@localhost ~]$ paste table1 table2 > Ch[student@localhost ~]$ paste table1 table2 > Ch6[student@localhost ~]$ paste table1 table2 > Ch6S[student@localhost ~]$ paste table1 table2 > Ch6S7[student@localhost ~]$ paste table1 table2 > Ch6S7F[student@localhost ~]$ paste table1 table2 > Ch6S7F2
+]0;student@localhost:~[student@localhost ~]$ sort Ch6Sfi[K[KF[K7F2 > Ch6S7F3
+]0;student@localhost:~[student@localhost ~]$ cat ch[K[KCh6Sf[K7F3
+adm:x:3:4:adm:	adm:
+bin:x:1:1:bin:	sbin
+daemon:x:2:2:daemon:	sbin
+dbus:x:81:81:System message bus:	sbin
+ftp:x:14:50:FTP User:	ftp:
+games:x:12:100:games:	games:
+gdm:x:42:42::	gdm:
+gopher:x:13:30:gopher:	gopher:
+haldaemon:x:68:68:HAL daemon:	sbin
+halt:x:7:0:halt:	sbin
+lp:x:4:7:lp:	spool
+mailnull:x:47:47::	spool
+mail:x:8:12:mail:	spool
+named:x:25:25:Named:	named:
+netdump:x:34:34:Network Crash Dump user:	crash:
+news:x:9:13:news:	news:
+nfsnobody:x:65534:65534:Anonymous NFS User:	lib
+nobody:x:99:99:Nobody:	sbin
+nscd:x:28:28:NSCD Daemon:	sbin
+ntp:x:38:38::	ntp:
+operator:x:11:0:operator:	sbin
+pcap:x:77:77::	arpwatch:
+root:x:0:0:root:	bin
+rpcuser:x:29:29:RPC Service User:	lib
+rpc:x:32:32:Portmapper RPC user:	sbin
+rpm:x:37:37::	lib
+shutdown:x:6:0:shutdown:	sbin
+smmsp:x:51:51::	spool
+sshd:x:74:74:Privilege-separated SSH:	empty
+student:x:500:500:Computer Science Student:	Student:
+sync:x:5:0:sync:	bin
+uucp:x:10:14:uucp:	spool
+vcsa:x:69:69:virtual console memory owner:	sbin
+xfs:x:43:43:X Font Server:	X11
+]0;student@localhost:~[student@localhost ~]$ wc -l Ch6S7F3
+34 Ch6S7F3
+]0;student@localhost:~[student@localhost ~]$ head 11[K2[K[K-12 Ch6S7F3 > com[Kl1
+]0;student@localhost:~[student@localhost ~]$ head -12 Ch6S7F3 > col1[1P[1P[4h1[4l[4h2[4l[student@localhost ~]$ head -12 [student@localhost ~]$ head -12 C[student@localhost ~]$ head -12 Ch[student@localhost ~]$ head -12 Ch6[student@localhost ~]$ head -12 Ch6S[student@localhost ~]$ head -12 Ch6S7[student@localhost ~]$ head -12 Ch6S7F[student@localhost ~]$ head -12 Ch6S7F3[student@localhost ~]$ head -12 Ch6S7F3 [student@localhost ~]$ head -12 Ch6S7F3 [4h [4l[4h|[4l[student@localhost ~]$ head -12 Ch6S7F3 | [4h [4l[4ht[4l[4ha[4l[4hi[4l[4hl[4l[student@localhost ~]$ head -12 Ch6S7F3 | tail [4h [4l[4h3[4l[4h3[4l[student@localhost ~]$ head -12 Ch6S7F3 | tail 33 [4h [4l[student@localhost ~]$ head -12 Ch6S7F3 | tail 33  [student@localhost ~]$ head -12 Ch6S7F3 | tail 33  >[student@localhost ~]$ head -12 Ch6S7F3 | tail 33  > [student@localhost ~]$ head -12 Ch6S7F3 | tail 33  > c[student@localhost ~]$ head -12 Ch6S7F3 | tail 33  > co[student@localhost ~]$ head -12 Ch6S7F3 | tail 33  > col[student@localhost ~]$ head -12 Ch6S7F3 | tail 33  > col1[K2
+tail: cannot open `33' for reading: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ head -12 Ch6S7F3 | tail 33  > col2[student@localhost ~]$ head -12 Ch6S7F3 | tail [4h [4l[4h-[4l[1P
+]0;student@localhost:~[student@localhost ~]$ cat col2
+adm:x:3:4:adm:	adm:
+bin:x:1:1:bin:	sbin
+daemon:x:2:2:daemon:	sbin
+dbus:x:81:81:System message bus:	sbin
+ftp:x:14:50:FTP User:	ftp:
+games:x:12:100:games:	games:
+gdm:x:42:42::	gdm:
+gopher:x:13:30:gopher:	gopher:
+haldaemon:x:68:68:HAL daemon:	sbin
+halt:x:7:0:halt:	sbin
+lp:x:4:7:lp:	spool
+mailnull:x:47:47::	spool
+]0;student@localhost:~[student@localhost ~]$ cat col1
+adm:x:3:4:adm:	adm:
+bin:x:1:1:bin:	sbin
+daemon:x:2:2:daemon:	sbin
+dbus:x:81:81:System message bus:	sbin
+ftp:x:14:50:FTP User:	ftp:
+games:x:12:100:games:	games:
+gdm:x:42:42::	gdm:
+gopher:x:13:30:gopher:	gopher:
+haldaemon:x:68:68:HAL daemon:	sbin
+halt:x:7:0:halt:	sbin
+lp:x:4:7:lp:	spool
+mailnull:x:47:47::	spool
+]0;student@localhost:~[student@localhost ~]$ cat col12[4hhead -12 Ch6S7F3 | tail -33[4l  >[student@localhost ~]$ head -12 Ch6S7F3 | tail -33  > col2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K12 [K[K[K[K[K[K[K[K[Ktail -22 Ch6S7F3
+mail:x:8:12:mail:	spool
+named:x:25:25:Named:	named:
+netdump:x:34:34:Network Crash Dump user:	crash:
+news:x:9:13:news:	news:
+nfsnobody:x:65534:65534:Anonymous NFS User:	lib
+nobody:x:99:99:Nobody:	sbin
+nscd:x:28:28:NSCD Daemon:	sbin
+ntp:x:38:38::	ntp:
+operator:x:11:0:operator:	sbin
+pcap:x:77:77::	arpwatch:
+root:x:0:0:root:	bin
+rpcuser:x:29:29:RPC Service User:	lib
+rpc:x:32:32:Portmapper RPC user:	sbin
+rpm:x:37:37::	lib
+shutdown:x:6:0:shutdown:	sbin
+smmsp:x:51:51::	spool
+sshd:x:74:74:Privilege-separated SSH:	empty
+student:x:500:500:Computer Science Student:	Student:
+sync:x:5:0:sync:	bin
+uucp:x:10:14:uucp:	spool
+vcsa:x:69:69:virtual console memory owner:	sbin
+xfs:x:43:43:X Font Server:	X11
+]0;student@localhost:~[student@localhost ~]$ tail -22 Ch6S7F3 > colextra
+]0;student@localhost:~[student@localhost ~]$ tail -22 Ch6S7F3 > colextra[K[8Pcat col12[4hhead -12 Ch6S7F3 | tail -33[4l  >[student@localhost ~]$ head -12 Ch6S7F3 | tail -33  > col2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[1P Ch6S7F31 Ch6S7F3[student@localhost ~]$ head -11 [student@localhost ~]$ head -11 C[student@localhost ~]$ head -11 Ch[student@localhost ~]$ head -11 Ch6[student@localhost ~]$ head -11 Ch6S[student@localhost ~]$ head -11 Ch6S7[student@localhost ~]$ head -11 Ch6S7F[student@localhost ~]$ head -11 Ch6S7F3 > col2
+]0;student@localhost:~[student@localhost ~]$ cat col2
+adm:x:3:4:adm:	adm:
+bin:x:1:1:bin:	sbin
+daemon:x:2:2:daemon:	sbin
+dbus:x:81:81:System message bus:	sbin
+ftp:x:14:50:FTP User:	ftp:
+games:x:12:100:games:	games:
+gdm:x:42:42::	gdm:
+gopher:x:13:30:gopher:	gopher:
+haldaemon:x:68:68:HAL daemon:	sbin
+halt:x:7:0:halt:	sbin
+lp:x:4:7:lp:	spool
+]0;student@localhost:~[student@localhost ~]$ col1
+bash: col1: command not found
+]0;student@localhost:~[student@localhost ~]$ cat col1
+adm:x:3:4:adm:	adm:
+bin:x:1:1:bin:	sbin
+daemon:x:2:2:daemon:	sbin
+dbus:x:81:81:System message bus:	sbin
+ftp:x:14:50:FTP User:	ftp:
+games:x:12:100:games:	games:
+gdm:x:42:42::	gdm:
+gopher:x:13:30:gopher:	gopher:
+haldaemon:x:68:68:HAL daemon:	sbin
+halt:x:7:0:halt:	sbin
+lp:x:4:7:lp:	spool
+mailnull:x:47:47::	spool
+]0;student@localhost:~[student@localhost ~]$ cat col1[4Pol1at col2[4hhead -11 Ch6S7F[4l3 >[student@localhost ~]$ head -11 Ch6S7F3 > col2tail -22 Ch6S7F3 > colextra[K > colextra[student@localhost ~]$ [4Phead -11 Ch6S7F3 > col2[15Pcat[student@localhost ~]$ cat col2[4Pol1at col1[Kcat col1[4Pol1at col2[4hhead -11 Ch6S7F[4l3 >[student@localhost ~]$ head -11 Ch6S7F3 > col2[1P[1P[1P[1P[1P[1P[1P[4hc[4l[4ho[4l[4hl[4l[4he[4l[4hx[4l[4ht[4l[4hr[4l[4ha[4l
+]0;student@localhost:~[student@localhost ~]$ head -11 colextra > col2[16Pcat col1[4Pol1[K[K[K[Ktail -11 c[KCh6[K6S7F[K[K[K[K[K[K[K Ch6S[Ks[KS7F3 > col3
+]0;student@localhost:~[student@localhost ~]$ cat col2
+mail:x:8:12:mail:	spool
+named:x:25:25:Named:	named:
+netdump:x:34:34:Network Crash Dump user:	crash:
+news:x:9:13:news:	news:
+nfsnobody:x:65534:65534:Anonymous NFS User:	lib
+nobody:x:99:99:Nobody:	sbin
+nscd:x:28:28:NSCD Daemon:	sbin
+ntp:x:38:38::	ntp:
+operator:x:11:0:operator:	sbin
+pcap:x:77:77::	arpwatch:
+root:x:0:0:root:	bin
+]0;student@localhost:~[student@localhost ~]$ col3
+bash: col3: command not found
+]0;student@localhost:~[student@localhost ~]$ cat col3
+rpcuser:x:29:29:RPC Service User:	lib
+rpc:x:32:32:Portmapper RPC user:	sbin
+rpm:x:37:37::	lib
+shutdown:x:6:0:shutdown:	sbin
+smmsp:x:51:51::	spool
+sshd:x:74:74:Privilege-separated SSH:	empty
+student:x:500:500:Computer Science Student:	Student:
+sync:x:5:0:sync:	bin
+uucp:x:10:14:uucp:	spool
+vcsa:x:69:69:virtual console memory owner:	sbin
+xfs:x:43:43:X Font Server:	X11
+]0;student@localhost:~[student@localhost ~]$ paste col1 col2 col3 > Ch6S7F3
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S7F3
+adm:x:3:4:adm:	adm:	mail:x:8:12:mail:	spool	rpcuser:x:29:29:RPC Service User:	lib
+bin:x:1:1:bin:	sbin	named:x:25:25:Named:	named:	rpc:x:32:32:Portmapper RPC user:	sbin
+daemon:x:2:2:daemon:	sbin	netdump:x:34:34:Network Crash Dump user:	crash:	rpm:x:37:37::	lib
+dbus:x:81:81:System message bus:	sbin	news:x:9:13:news:	news:	shutdown:x:6:0:shutdown:	sbin
+ftp:x:14:50:FTP User:	ftp:	nfsnobody:x:65534:65534:Anonymous NFS User:	lib	smmsp:x:51:51::	spool
+games:x:12:100:games:	games:	nobody:x:99:99:Nobody:	sbin	sshd:x:74:74:Privilege-separated SSH:	empty
+gdm:x:42:42::	gdm:	nscd:x:28:28:NSCD Daemon:	sbin	student:x:500:500:Computer Science Student:	Student:
+gopher:x:13:30:gopher:	gopher:	ntp:x:38:38::	ntp:	sync:x:5:0:sync:	bin
+haldaemon:x:68:68:HAL daemon:	sbin	operator:x:11:0:operator:	sbin	uucp:x:10:14:uucp:	spool
+halt:x:7:0:halt:	sbin	pcap:x:77:77::	arpwatch:	vcsa:x:69:69:virtual console memory owner:	sbin
+lp:x:4:7:lp:	spool	root:x:0:0:root:	bin	xfs:x:43:43:X Font Server:	X11
+mailnull:x:47:47::	spool		
+]0;student@localhost:~[student@localhost ~]$ [K[student@localhost ~]$ \[Kecho \#6 It is not very organized but it is in six colums[Kns. I will not paste them vertically insten[Kan[Kd[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+#6 It is not very organized but it is in six columns.
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Fri 28 Apr 2006 08:29:17 AM EDT

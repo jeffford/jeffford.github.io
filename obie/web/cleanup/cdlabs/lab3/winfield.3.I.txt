@@ -1,0 +1,107 @@
+Script started on Fri 21 Apr 2006 08:28:46 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ mkdir letters
+]0;Student@localhost:~[Student@localhost ~]$ mkdir reports
+]0;Student@localhost:~[Student@localhost ~]$ mkdir assignments
+]0;Student@localhost:~[Student@localhost ~]$ cd la[Ketters
+]0;Student@localhost:~/letters[Student@localhost letters]$ mkdir friendly
+]0;Student@localhost:~/letters[Student@localhost letters]$ mkdir formal
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd reports
+bash: cd: reports: No such file or directory
+]0;Student@localhost:~/letters[Student@localhost letters]$ ../reports
+bash: ../reports: is a directory
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd ../reports
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir personal 
+business school
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir 
+[K[K[K[K[K[Kmkdir 
+UNIX[K[K[K[K[K[K[K[K[K[K../[K[K[Kmkdir 
+../assignments[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K,,/ 
+[K[K[K[K../assignments mkdir Un[KNIX
+bash: ../assignments: is a directory
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir UNIX
+]0;Student@localhost:~/reports[Student@localhost reports]$ mv 
+~/reports/UNIX ~/assignma[Kents
+]0;Student@localhost:~/reports[Student@localhost reports]$ mk [Kdir HWs 
+Projects
+]0;Student@localhost:~/reports[Student@localhost reports]$ mv 
+HWs[K[K[K~/reports/HWs ~/assignments/Unix
+]0;Student@localhost:~/reports[Student@localhost reports]$ mv 
+~/reports/Projects ~/assignments/UNIX
+]0;Student@localhost:~/reports[Student@localhost reports]$ mv 
+~/r[Kassignments/Unix ~/assignments/UNIX
+mv: cannot stat `/home/Student/assignments/Unix': No such file or directory
+]0;Student@localhost:~/reports[Student@localhost reports]$ mv ~/ 
+assignments/Unix[1Passignments/Unix
+[Student@localhost 
+reports]$ mv ~/a
+[Student@localhost reports]$ mv ~/as
+[Student@localhost 
+reports]$ mv ~/ass
+[Student@localhost reports]$ mv ~/assi
+[Student@localhost 
+reports]$ mv ~/assig
+[Student@localhost reports]$ mv 
+~/assign
+[Student@localhost reports]$ mv ~/assignm
+[Student@localhost 
+reports]$ mv ~/assignme
+[Student@localhost reports]$ mv 
+~/assignmen
+[Student@localhost reports]$ mv ~/assignment
+[Student@localhost 
+reports]$ mv ~/assignments
+[Student@localhost reports]$ mv 
+~/assignments/
+[Student@localhost reports]$ mv 
+~/assignments/U
+[Student@localhost reports]$ mv 
+~/assignments/Un
+[Student@localhost reports]$ mv 
+~/assignments/Uni
+[Student@localhost reports]$ mv ~/assignments/Unix ~/ 
+assignments/UNIX
+mv: when moving multiple files, last argument must be a directory
+Try `mv --help' for more information.
+]0;Student@localhost:~/reports[Student@localhost reports]$ 
+~?[K/[K/assignments/Unix/HWs ~/assignments/UNIX
+bash: /home/Student/assignments/Unix/HWs: is a directory
+]0;Student@localhost:~/reports[Student@localhost reports]$ mk[K[Kmv 
+~/assignments/Unix/HWs ~/assignments/UNIX
+]0;Student@localhost:~/reports[Student@localhost reports]$ cd`[K ~
+]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m  [00;34mDesktop[00m  [00;34mletters[00m  
+[00;34mreports[00m  [00mwinfield2edit.txt[00m  
+[00mwinfield.2.I.txt[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpersonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Fri 21 Apr 2006 08:46:43 AM EDT
+

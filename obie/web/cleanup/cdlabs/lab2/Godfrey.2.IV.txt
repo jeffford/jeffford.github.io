@@ -1,0 +1,75 @@
+Script started on Tue 25 Apr 2006 04:15:47 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ more formal.1
+formal.1: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ more formal.2
+formal.2: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ dir
+assignments  busletters  Godfrey.L.3.txt   letters  typescript
+backups      Desktop	 grady.ch3.II.txt  reports
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m  [00;34mbusletters[00m  [00mGodfrey.L.3.txt[00m   [00;34mletters[00m  [00mtypescript[00m
+[00;34mbackups[00m      [00;34mDesktop[00m     [00mgrady.ch3.II.txt[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cd formal
+bash: cd: formal: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cd friendly
+bash: cd: friendly: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ l[Kcd letters
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd formal
+]0;Student@localhost:~/letters/formal[Student@localhost formal]$ more formal.1
+To whom it may concern, 
+This is in reguards to my classes. 
+I wish to be signed up for my classes than I have now. 
+Please let me know how to go about the above request. 
+Thank you, 
+Dominique Godfret
+]0;Student@localhost:~/letters/formal[Student@localhost formal]$ formal.2
+bash: formal.2: command not found
+]0;Student@localhost:~/letters/formal[Student@localhost formal]$ more formal.2
+To whom it may concern, 
+This is in reguards to my classes. 
+I wish to be signed up for my classes than I have now. 
+Please let me know how to go about the above request. 
+Thank you, 
+Dominique Godfret
+]0;Student@localhost:~/letters/formal[Student@localhost formal]$ mv formal busletters
+mv: cannot stat `formal': No such file or directory
+]0;Student@localhost:~/letters/formal[Student@localhost formal]$ cd letters
+bash: cd: letters: No such file or directory
+]0;Student@localhost:~/letters/formal[Student@localhost formal]$ ~[Kcd ~
+]0;Student@localhost:~[Student@localhost ~]$ cd letter 
+bash: cd: letter: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cd letters
+]0;Student@localhost:~/letters[Student@localhost letters]$ mv letters/formal busult[Ketters
+mv: cannot stat `letters/formal': No such file or directory
+]0;Student@localhost:~/letters[Student@localhost letters]$ mv formal busletters
+]0;Student@localhost:~/letters[Student@localhost letters]$ ls -=^?[K[KR
+[00m.:
+[00;34mbusletters[00m  [00;34mfriendly[00m
+
+./busletters:
+[00mformal.1[00m  [00mformal.2[00m  [00mrandom[00m
+
+./friendly:
+[00mfriend.1[00m
+[m]0;Student@localhost:~/letters[Student@localhost letters]$ ls
+[00m[00;34mbusletters[00m  [00;34mfriendly[00m
+[m]0;Student@localhost:~/letters[Student@localhost letters]$ cd ~
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m  [00;34mbusletters[00m  [00mGodfrey.L.3.txt[00m   [00;34mletters[00m  [00mtypescript[00m
+[00;34mbackups[00m      [00;34mDesktop[00m     [00mgrady.ch3.II.txt[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cd friendly
+bash: cd: friendly: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cd letters
+]0;Student@localhost:~/letters[Student@localhost letters]$ ls
+[00m[00;34mbusletters[00m  [00;34mfriendly[00m
+[m]0;Student@localhost:~/letters[Student@localhost letters]$ cd friendly
+]0;Student@localhost:~/letters/friendly[Student@localhost friendly]$ ls
+[00m[00mfriend.1[00m
+[m]0;Student@localhost:~/letters/friendly[Student@localhost friendly]$ cd formal
+bash: cd: formal: No such file or directory
+]0;Student@localhost:~/letters/friendly[Student@localhost friendly]$ cd busletters
+bash: cd: busletters: No such file or directory
+]0;Student@localhost:~/letters/friendly[Student@localhost friendly]$ ~ [K[Kexit 
+exit
+
+Script done on Tue 25 Apr 2006 04:28:24 PM EDT

@@ -1,0 +1,119 @@
+Script started on Mon 08 May 2006 03:03:41 PM EDT
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat jmbak[Kckup
+#! /bin/bash
+# Script: jmbackup
+# Purpose: create backup copies of files that are listed in one file.
+#
+
+if [[ $# != 2 ]]
+then 
+	echo "Wrong number of arguments"
+exit 
+fi
+
+if [[ ! -f $1 ]]
+then
+	echo "First argument must be a file"
+exit
+fi
+
+if [[ ! -d backups ]]
+then 
+	mkdir backups
+fi
+
+if [[ ! -d $2 ]]
+then 
+	echo "Second argument must be a directory"
+exit
+fi
+
+	
+cat $1 | while read line
+do	
+	if [[ -f $line ]]
+	then 
+		cp $line $2/$line.bak
+		echo "$line is backed up in $2"
+	fi
+done
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmbackup
+Wrong number of arguments
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmbackup filelist
+Wrong number of arguments
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmbackup filelist file[K[K[K[Ktest months
+Wrong number of arguments
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmbackup RemoteWork Ba[K[Kbackups
+First argument must be a file
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmbackup filei[Klist test
+Second argument must be a directory
+]0;moellerja@cs:~[moellerja@cs moellerja]$ jmbackup filelist backups
+months is backed up in backups
+Pracfile is backed up in backups
+pracs2 is backed up in backups
+test is backed up in backups
+moeller.10.II.txt is backed up in backups
+exfile1 is backed up in backups
+sess3pract is backed up in backups
+moeller.10.V.txt is backed up in backups
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat filelist
+months
+Pracfile
+pracs2
+test
+moeller.10.II.txt
+exfile1
+sess3pract
+moeller.10.V.txt
+]0;moellerja@cs:~[moellerja@cs moellerja]$ li[Ks -l backups
+[00mtotal 40
+-rw-rw-r--    1 moellerja moellerja       27 May  8 15:05 [00mexfile1.bak[00m
+-rw-rw-r--    1 moellerja moellerja       28 May  8 12:15 [00mfilelist.bak[00m
+-rw-rw-r--    1 moellerja moellerja     4445 May  8 15:05 [00mmoeller.10.II.txt.bak[00m
+-rw-rw-r--    1 moellerja moellerja     3759 May  8 15:05 [00mmoeller.10.V.txt.bak[00m
+-rw-rw-r--    1 moellerja moellerja       39 May  8 15:05 [00mmonths.bak[00m
+-rw-rw-r--    1 moellerja moellerja       19 May  8 15:05 [00mPracfile.bak[00m
+-rw-rw-r--    1 moellerja moellerja       71 May  8 15:05 [00mpracs2.bak[00m
+-rw-rw-r--    1 moellerja moellerja       32 May  8 15:05 [00msess3pract.bak[00m
+-rw-rw-r--    1 moellerja moellerja       54 May  8 15:05 [00mtest.bak[00m
+[m]0;moellerja@cs:~[moellerja@cs moellerja]$ cat jmbak[Kckup
+#! /bin/bash
+# Script: jmbackup
+# Purpose: create backup copies of files that are listed in one file.
+#
+
+if [[ $# != 2 ]]
+then 
+	echo "Wrong number of arguments"
+exit 
+fi
+
+if [[ ! -f $1 ]]
+then
+	echo "First argument must be a file"
+exit
+fi
+
+if [[ ! -d backups ]]
+then 
+	mkdir backups
+fi
+
+if [[ ! -d $2 ]]
+then 
+	echo "Second argument must be a directory"
+exit
+fi
+
+	
+cat $1 | while read line
+do	
+	if [[ -f $line ]]
+	then 
+		cp $line $2/$line.bak
+		echo "$line is backed up in $2"
+	fi
+done
+]0;moellerja@cs:~[moellerja@cs moellerja]$ exit
+
+Script done on Mon 08 May 2006 03:07:11 PM EDT

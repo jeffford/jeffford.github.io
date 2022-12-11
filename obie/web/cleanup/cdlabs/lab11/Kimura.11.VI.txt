@@ -1,0 +1,49 @@
+Script started on Mon 08 May 2006 09:41:55 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S6F1>Ch11S6F1[Student@localhost ~]$ cat >Ch11S6F1
+/* This program reads two integer numbers from the
+	key board         	   keyboard and prints their product.
+	Written by:
+	Date:
+*/
+
+/*	Statements */
+scanf        scanf ("%d", &numbers 1);
+ scanf ("%d", &number2);
+ result = number1 * number2;
+	 printf ("%d", result);
+ return 0;
+} /* main */
+]0;Student@localhost:~[Student@localhost ~]$ cat >tr[K[KCh11S6.ser[Ke[Kd
+/\(\/\*.*\*\/\)/s///
+/\/\*/,/\*\//{
+	/\/\*/{
+		h
+		d
+		
+] 		}
+	/\*\//!{
+		H
+		d
+		}
+
+	/\*\//{
+		x
+		G
+		}
+	s/\(\/\*^[[3~*\    *     *.*\*\/\)//
+	}
+]0;Student@localhost:~[Student@localhost ~]$ sed -f Ch11S6.sed Ch11S6F1 >Ch11S6F2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S6F2
+
+
+
+ scanf ("%d", &number1);
+ scanf ("%d", &number2);
+ result = number1 * number2;
+ printf ("%d", result);
+ return 0;
+} 
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 08 May 2006 10:02:16 PM EDT

@@ -1,0 +1,18 @@
+#! /bin/bash
+#awbackup
+# this will read a file and save the files named
+# to a backup directory that will be named as well
+case $# in
+	0) echo "Must have [file] then [directory]" ; exit;;
+	1) echo "Must have [file] then [directory]" ; exit;;
+	2) file=$1 dir=$2;;
+	*) echo "Must have [file] then [directory] name" ; exit ;;
+esac
+cat $1 | while read line
+do
+	if [[ -f $file ]]
+	then
+		cp $line $dir/$line.bak
+		echo "$line is backed up in $dir"
+	fi
+done

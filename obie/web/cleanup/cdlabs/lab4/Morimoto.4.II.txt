@@ -1,0 +1,32 @@
+2. groups
+	=> Stundent
+
+3. umask 
+	=> (0)002 * in parenthsis is extra 0 that is not shown in text book
+
+4. mkdir garbage
+
+5. ls -dl  garbage
+	=>  drwxrwxr-x  2 Student Student 4096 Apr 24 17:02 garbage
+
+6. umask 113
+	=> agfter commnad excute, the permission is rw- rw- r--
+
+7. ls -dl garbage
+	=> drwxrwxr-x  2 Student Student 4096 Apr 24 17:02 garbage
+	Permission was not changed becuase umask command change dafault permission but this directory have already  exsisted
+
+8. rmdir garbage
+
+9. mkdir chapter_4/session_II
+
+10. ls -dl chapter_4/session_II
+	=> drw-rw-r--  2 Student Student 4096 Apr 24 17:12 chapter_4/session_II
+
+11. chmod u-x chapter_4/session_II
+
+12. mv ~/chapter_4/session_II chapter_4/session_I 
+	=> there is no problem
+    ls -dl chapter_4/sessiom_I/session_II
+	=> drw-rw-r--  2 Student Student 4096 Apr 24 17:12 chapter_4/session_I/session_II
+	=>  It does not have excute permission, so move sould have problem, but not. That is strange

@@ -1,0 +1,48 @@
+Script started on Fri 28 Apr 2006 12:27:50 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > c[KCH [K[Kh6S6F1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+UNG	11	1 2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	25	2	   35	2	41
+PE	17	2	25
+CIS	54	2	678 
+]0;Student@localhost:~[Student@localhost ~]$ vi Ch6S6F1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch6S6F1" 9L, 107C[1;1HCIS     15      1[7C45
+CIS     54      1[7C20
+BUS     34      2[7C20
+UNG     11      2[7C89
+CIS     45      1[7C38
+MTH     35      1[7C56
+MTH     35      2[7C41
+PE      17      2[7C25
+CIS     54      2[7C67
+[1m[34m~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l[24;63H2[2;3H[?12l[?25h[?25l[24;63H3[3;3H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H3,3[11CAll[3;3H[?12l[?25h[?25l[24;63H4[4;3H[?12l[?25h[?25l[24;65H2[4;2H[?12l[?25h[?25lNG [24;65H1[4;1H[?12l[?25h[?25leNG[24;65H2[4;2H[?12l[?25h[?25lNG [24;65H1[4;1H[?12l[?25h[?25lENG[24;65H2[4;2H[?12l[?25h[24;1H[K[4;1H[?25l[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch6S6F1" 9L, 107C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ sort -n -f1,2,3 Ch6S6F1
+sort: invalid option -- 1
+Try `sort --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ sort -n -f1,2,3 Ch6S6F1[Student@localhost ~]$ sort -n -f1,2,[Student@localhost ~]$ sort -n -f1,2,3[1P Ch6S6F1[1P Ch6S6F1[1P Ch6S6F1[1P Ch6S6F1[1P Ch6S6F1[1P Ch6S6F1[1P Ch6S6F1
+BUS	34	2	20
+CIS	15	1	45
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+ENG	11	2	89
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ sort -n  Ch6S6F1+Ch6S6F10Ch6S6F1 Ch6S6F1-Ch6S6F11Ch6S6F1 Ch6S6F1[Student@localhost ~]$ sort -n  +0 -1 +Ch6S6F11Ch6S6F1 Ch6S6F1-Ch6S6F12Ch6S6F1 Ch6S6F1+Ch6S6F12Ch6S6F1 Ch6S6F1-Ch6S6F13Ch6S6F1 Ch6S6F1[Student@localhost ~]$ sort -n  +0 -1 +1 -2 +2 -3 C[Student@localhost ~]$ sort -n  +0 -1 +1 -2 +2 -3 Ch[Student@localhost ~]$ sort -n  +0 -1 +1 -2 +2 -3 Ch6[Student@localhost ~]$ sort -n  +0 -1 +1 -2 +2 -3 Ch6S[Student@localhost ~]$ sort -n  +0 -1 +1 -2 +2 -3 Ch6S6[Student@localhost ~]$ sort -n  +0 -1 +1 -2 +2 -3 Ch6S6F[Student@localhost ~]$ sort -n  +0 -1 +1 -2 +2 -3 Ch6S6F1
+ENG	11	2	89
+CIS	15	1	45
+PE	17	2	25
+BUS	34	2	20
+MTH	35	1	56
+MTH	35	2	41
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ sort -n  +0 -1 +1 -2 +2 -3 Ch6S6F1 [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+
+Script done on Fri 28 Apr 2006 12:35:19 PM EDT

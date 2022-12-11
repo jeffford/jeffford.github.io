@@ -1,0 +1,62 @@
+Script started on Thu 04 May 2006 05:06:49 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 1 ---
+--- 1 ---
+]0;Student@localhost:~[Student@localhost ~]$ vi Ch10S4F1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch10S4F1" 7L, 430C[1;1HThis is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+For example, the following line has duplicated words for.
+The duplicated words are hard to find, but grep can find them for you.
+However, you need to write the regular expression very carefully.
+[1m[34m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H5,1[11CAll[5;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[24;3H[K[24;3H[?12l[?25h[?25l[24;2H[K[24;2H[?12l[?25h [?25l[61C5,1[11CAll[5;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;65H2[5;2H[?12l[?25h[?25l[24;65H3[5;3H[?12l[?25h[?25l[24;65H4[5;4H[?12l[?25h[?25l[24;65H5[5;5H[?12l[?25h[?25l[24;65H6[5;6H[?12l[?25h[?25l[24;65H7[5;7H[?12l[?25h[?25l[24;65H8[5;8H[?12l[?25h[?25l[24;65H9[5;9H[?12l[?25h[?25l[24;65H10[5;10H[?12l[?25h[?25l[24;66H1[5;11H[?12l[?25h[?25l[24;66H2[5;12H[?12l[?25h[?25l[24;66H3[5;13H[?12l[?25h[?25l[24;66H4[5;14H[?12l[?25h[?25l[24;66H5[5;15H[?12l[?25h[?25l[24;66H6[5;16H[?12l[?25h[?25l[24;66H7[5;17H[?12l[?25h[?25l[24;66H8[5;18H[?12l[?25h[?25l[24;66H9[5;19H[?12l[?25h[?25l[24;65H20[5;20H[?12l[?25h[?25l[24;66H1[5;21H[?12l[?25h[?25l[24;66H2[5;22H[?12l[?25h[?25l[24;66H3[5;23H[?12l[?25h[?25l[24;66H4[5;24H[?12l[?25h[?25l[24;66H5[5;25H[?12l[?25h[?25l[24;66H6[5;26H[?12l[?25h[?25l[24;66H7[5;27H[?12l[?25h[?25l[24;66H8[5;28H[?12l[?25h[?25l[24;66H9[5;29H[?12l[?25h[?25l[24;65H30[5;30H[?12l[?25h[?25l[24;66H1[5;31H[?12l[?25h[?25l[24;66H2[5;32H[?12l[?25h[?25l[24;66H3[5;33H[?12l[?25h[?25l[24;66H4[5;34H[?12l[?25h[?25l[24;66H5[5;35H[?12l[?25h[?25l[24;66H6[5;36H[?12l[?25h[?25l[24;66H7[5;37H[?12l[?25h[?25l[24;66H8[5;38H[?12l[?25h[?25l[24;66H9[5;39H[?12l[?25h[?25l[24;65H40[5;40H[?12l[?25h[?25l[24;66H1[5;41H[?12l[?25h[?25l[24;66H2[5;42H[?12l[?25h[?25l[24;66H3[5;43H[?12l[?25h[?25l[24;66H4[5;44H[?12l[?25h[?25l[24;66H5[5;45H[?12l[?25h[?25l[24;66H6[5;46H[?12l[?25h[?25l[24;66H7[5;47H[?12l[?25h[?25l[24;66H8[5;48H[?12l[?25h[?25l[24;66H9[5;49H[?12l[?25h[?25l[24;65H50[5;50H[?12l[?25h[?25l[24;66H1[5;51H[?12l[?25h[?25l[24;66H2[5;52H[?12l[?25h[?25l[24;66H3[5;53H[?12l[?25h[?25l[24;66H4[5;54H[?12l[?25h[?25l[24;66H5[5;55H[?12l[?25h[?25l[24;66H4[5;54H[?12l[?25h[?25l[24;66H3[5;53H[?12l[?25h[?25lfor.[5;57H[K[5;53H[?12l[?25h[?25lor.[5;56H[K[5;53H[?12l[?25h[?25lr.[5;55H[K[5;53H[?12l[?25h[?25l.[5;54H[K[5;53H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch10S4F1" 7L, 426C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ echo --- 2 ---
+--- 2 ---
+]0;Student@localhost:~[Student@localhost ~]$ grep -i -v "\(\,[K<[a-z][a-z]*a[K[a-z]\>\).*\<\1\>" Ch10S4F1 >  Ch10S4F2
+]0;Student@localhost:~[Student@localhost ~]$ grep -i -v "\9[K(\<[a-z][a-z]*[a-z]\>\).*\,\[K[K<\1\>.*[1P"\(\<[a-z][a-z]*[a-z]\>\).*\<\1\>.*[Student@localhost ~]$ grep -i -v[1P"\(\<[a-z][a-z]*[a-z]\>\).*\<\1\>.*[Student@localhost ~]$ grep -i -[1P"\(\<[a-z][a-z]*[a-z]\>\).*\<\1\>.*[Student@localhost ~]$ grep -i [1P"\(\<[a-z][a-z]*[a-z]\>\).*\<\1\>.*[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\).*\<\1\>.*[Student@localhost ~]$ grep -i [Student@localhost ~]$ grep -i "[Student@localhost ~]$ grep -i "\[Student@localhost ~]$ grep -i "\([Student@localhost ~]$ grep -i "\(\[Student@localhost ~]$ grep -i "\(\<[Student@localhost ~]$ grep -i "\(\<[[Student@localhost ~]$ grep -i "\(\<[a[Student@localhost ~]$ grep -i "\(\<[a-[Student@localhost ~]$ grep -i "\(\<[a-z[Student@localhost ~]$ grep -i "\(\<[a-z][Student@localhost ~]$ grep -i "\(\<[a-z][[Student@localhost ~]$ grep -i "\(\<[a-z][a[Student@localhost ~]$ grep -i "\(\<[a-z][a-[Student@localhost ~]$ grep -i "\(\<[a-z][a-z[Student@localhost ~]$ grep -i "\(\<[a-z][a-z][Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z][Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\)[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\).[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\).*[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\).*\[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\).*\<[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\).*\<\[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\).*\<\1[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\).*\<\1\[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\).*\<\1\>[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\).*\<\1\>.[Student@localhost ~]$ grep -i "\(\<[a-z][a-z]*[a-z]\>\).*\<\1\>.*\<\1\?[K>" Ch10S4 F1 )[K> Ch10S4F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10[K[K[K[K[K[K[K[Kecho --- 3 ---
+--- 3 ---
+]0;Student@localhost:~[Student@localhost ~]$ Ch10[K[K[K[Kcat Ch10S4F1
+This is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+For example, the following line has duplicated words.
+The duplicated words are hard to find, but grep can find them for you.
+However, you need to write the regular expression very carefully.
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S4F1[K2
+This is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+For example, the following line has duplicated words.
+However, you need to write the regular expression very carefully.
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S4F2[K3
+If it is repeated thrice, it is triplicated (thrice is three).
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 04 May 2006 05:11:00 PM EDT
+Script started on Fri 05 May 2006 08:17:34 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo -- a[K[K- add ca co[K[K[Kt commnad to d[Kdisplay files ---
+--- add cat commnad to display files ---
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat Xh10[K[K[K[KCh10S4f1[K[KF1
+This is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+For example, the following line has duplicated words.
+The duplicated words are hard to find, but grep can find them for you.
+However, you need to write the regular expression very carefully.
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S4F1[K2
+This is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+For example, the following line has duplicated words.
+However, you need to write the regular expression very carefully.
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S4F2[K3
+If it is repeated thrice, it is triplicated (thrice is three).
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Fri 05 May 2006 08:18:31 AM EDT

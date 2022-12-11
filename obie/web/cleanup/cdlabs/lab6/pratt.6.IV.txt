@@ -1,0 +1,48 @@
+Script started on Sun 30 Apr 2006 01:18:47 AM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat > Ch6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	 7, , .00	14
+]0;prattjk@cs:~[prattjk@cs prattjk]$ vi Ch6S4F1
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"Ch6S4F1" 7L, 98C[1;1H1420    12.56   45
+3456    14.56   22
+2341    45.12   34
+1122    23.56   28
+1443    23.23   19
+2351    67.90   56
+8001     7.00   14
+[1m[34m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25h[?25l[24;1H[K[24;1H:[?25hq[?25l[?25h[?25l[24;1H[K[24;1H[?1l>[?25h[?1047l[?1048l]0;prattjk@cs:~[prattjk@cs prattjk]$ wc -1b Ch6S4F1[1@l[1P[1P Ch6S4F1
+      7 Ch6S4F1
+]0;prattjk@cs:~[prattjk@cs prattjk]$ sort +0 -1 Ch6S4f[KF1[K[K[K[K[K[K[K[K[K[K[Kn Ch6S4F1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;prattjk@cs:~[prattjk@cs prattjk]$ sort +1n Ch6S4F1 | tail -1
+2351	67.90	56
+]0;prattjk@cs:~[prattjk@cs prattjk]$ sort +2n Ch6S4F1 | tail -1 cu[K[K| cut -f1
+2351
+]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+
+Script done on Sun 30 Apr 2006 01:28:14 AM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ caScript started, file is typescript
+Script done, file is typescript
+Script started on Sun 30 Apr 2006 01:53:58 AM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	 7.00	14
+]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+
+Script done on Sun 30 Apr 2006 01:54:25 AM EDT

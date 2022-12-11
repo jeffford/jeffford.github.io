@@ -1,0 +1,173 @@
+Script started on Tue 09 May 2006 04:30:56 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ echo --- make script ---
+--- make script ---
+]0;Student@localhost:~[Student@localhost ~]$ vi HMkls[K[K[Kls
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"HMls" 78L, 1008C[1;17H[33mthen[m[2;17H[36magu[m=[35m$agu$six[m[33m"[m[31m [m[33m"[4;17Helif[m [35m(([m i [33m==[m [31m7[m [35m))[m[5;17H[33mthen[m[6;17H[36magu[m=[35m$agu$seven[m[33m"[m[31m [m[33m"[8;17Helif[m [35m(([m i [33m==[m [31m8[m [35m))[m[9;17H[33mthen[m[10;17H[36magu[m=[35m$agu$eight[m[33m"[m[31m [m[33m"[12;17Helif[m [35m(([m i [33m==[m [31m9[m [35m))[m[13;17H[33mthen[m[14;17H[36magu[m=[35m$agu$nine[m[33m"[m[31m [m[33m"[17;17Hfi[19;9Hdone[21;9Hecho[m[31m [m[35m$agu[m[31m [m[33m|[m tr [33m"[m[31m [m[33m"[m [33m"[m[35m\t[m[33m"
+
+done[m[24;63H78,1[10CBot[23;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"HMls" 78L, 1008C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo --- set up for excusion[Kn ---[4he[4l[Student@localhost ~]$ echo --- set up for exec[Student@localhost ~]$ echo --- set up for execu[Student@localhost ~]$ echo --- set up for execus[Student@localhost ~]$ echo --- set up for execusi[Student@localhost ~]$ echo --- set up for execusio[Student@localhost ~]$ echo --- set up for execusion[Student@localhost ~]$ echo --- set up for execusion [Student@localhost ~]$ echo --- set up for execusion -[Student@localhost ~]$ echo --- set up for execusion --[Student@localhost ~]$ echo --- set up for execusion ---
+--- set up for execusion ---
+]0;Student@localhost:~[Student@localhost ~]$ PATH=$PATH:.
+]0;Student@localhost:~[Student@localhost ~]$ chmod u+x HMls
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 2[K1 ---
+--- 1 ---
+]0;Student@localhost:~[Student@localhost ~]$ HMls
+Need three arguments
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 2 ---
+--- 2 ---
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 2 ---HMls[K 3
+Need three arguments
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 3 ---
+--- 3 ---
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 3 ---[8PHMls 3 7
+Need three arguments
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 4 ---
+--- 4 ---
+]0;Student@localhost:~[Student@localhost ~]$ echo 3 s 1
+3 s 1
+]0;Student@localhost:~[Student@localhost ~]$ echo 3 s 1[Student@localhost ~]$ ech[Student@localhost ~]$ echo[1P[1P[1P[1P[4hH[4l[4hM[4l[4hl[4l[4hs[4l
+argument should be number
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 5 ---
+--- 5 ---
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 5 ---[4PHMls 3 s 1[Kr
+argument should be number
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 6 ---
+--- 6 ---
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 6 ---[4PHMls 3 s r[K[K[K12 4
+argument should be in renge 1 - 9
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 7 ---
+--- 7 ---
+]0;Student@localhost:~[Student@localhost ~]$ HMls 1 4 5
+total
+drwxrwxr-x	Student	4096
+drwxr-xr-x	Student	4096
+-rwxrw-r--	Student	386
+-rwxrw-r--	Student	412
+-rwxrw-r--	Student	319
+-rwxrw-r--	Student	1008
+drwxrwxr-x	Student	4096
+drwxrwxr-x	Student	4096
+drwxrwxr-x	Student	4096
+-rw-rw-r--	Student	4517
+-rw-rw-r--	Student	5061
+-rwxrwxrwx	Student	6240
+-rw-rw-r--	Student	6025
+-rw-rw-r--	Student	0
+-rw-rw-r--	Student	29
+-rwxrw-r--	Student	412
+drwxrwxr-x	Student	4096
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 8 ---
+--- 8 ---
+]0;Student@localhost:~[Student@localhost ~]$ echo --- 8 ---[4PHMls 1 4 5[K[K[K[K[K3 7 1
+total
+Student	9	drwxrwxr-x
+Student	8	drwxr-xr-x
+Student	8	-rwxrw-r--
+Student	9	-rwxrw-r--
+Student	8	-rwxrw-r--
+Student	9	-rwxrw-r--
+Student	5	drwxrwxr-x
+Student	8	drwxrwxr-x
+Student	2	drwxrwxr-x
+Student	5	-rw-rw-r--
+Student	5	-rw-rw-r--
+Student	5	-rwxrwxrwx
+Student	9	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rwxrw-r--
+Student	5	drwxrwxr-x
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat [K[K[K[Kecho --- cat command ---
+--- cat command ---
+]0;Student@localhost:~[Student@localhost ~]$ cat HMls
+#! /bin/bash
+# script name: HMls
+# extract three column from ls -l in user's specified order 
+
+if (( $# != 3))
+then
+	echo "Need three arguments"
+	exit
+fi
+
+let x=$1+1 2> /dev/null
+let y=$2+1 2> /dev/null
+let z=$3+1 2> /dev/null
+
+if [[ $x == 1 || $y == 1 || $z == 1 ]]
+then
+	echo "argument should be number"
+	exit
+fi
+
+column=9
+if (( $1 > $column || $2 > $column || $3 > $column ))
+then
+	echo "argument should be in renge 1 - $column"
+	exit
+fi
+
+ls -l | while read one two three four five six seven eight nine
+do
+	agu=""
+	
+	for i in $1 $2 $3
+	do
+		if (( i == 1 ))
+		then
+		agu=$agu$one" "
+
+		elif (( i == 2 ))
+		then
+		agu=$agu$two" "
+
+		elif (( i == 3 ))
+		then
+		agu=$agu$three" "
+
+		elif (( i == 4 ))
+		then
+		agu=$agu$four" "
+
+		elif (( i == 5))
+		then
+		agu=$agu$five" "
+
+
+		elif (( i == 6 ))
+		then
+		agu=$agu$six" "
+
+		elif (( i == 7 ))
+		then
+		agu=$agu$seven" "
+
+		elif (( i == 8 ))
+		then
+		agu=$agu$eight" "
+
+		elif (( i == 9 ))
+		then
+		agu=$agu$nine" "
+
+
+		fi
+
+	done
+
+	echo $agu | tr " " "\t"
+
+done
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Tue 09 May 2006 04:34:18 PM EDT

@@ -1,0 +1,22 @@
+Script started on Wed 26 Apr 2006 10:16:25 PM EDT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ first=PARENT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ bash
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ lpr [K[K[K[Kecho [K[K[K[K[Kexit
+exit
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo $first
+PARENT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ bash
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ exitcho "This is the fact \" $facts \" in our life."rebecca@rebecca:~$ exit[K[Kexitcho "This is the fact \" $facts \" in our life."rebecca@rebecca:~$ exit[K[K[K[K[Kecho $first
+
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ second=SUBSHELL
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ s[Ksecond=SUBSHELL[4Pecho $firstrebecca@rebecca:~$ echo $first[K[K[K[K[Ksecond
+SUBSHELL
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ exit
+exit
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo $second[K[K[K[K[K[Kfirst
+PARENT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ echo $first[K[K[K[K[Ksecond
+
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ exit
+
+Script done on Wed 26 Apr 2006 10:18:28 PM EDT

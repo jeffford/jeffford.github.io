@@ -1,0 +1,111 @@
+Script started on Mon 01 May 2006 08:27:00 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ssh calapand cs.hiram.edu
+ssh: calapand: Name or service not known
+]0;Student@localhost:~[Student@localhost ~]$ ssh calapand cs.hiram.edu[4h-[4l[4hl[4l[4h [4l
+calapand@cs.hiram.edu's password: 
+]0;calapand@cs:~[calapand@cs calapand]$ script calapaL7III.L7III[calapand@cs calapand]$ script calapa.L[calapand@cs calapand]$ script calapa.L7[calapand@cs calapand]$ script calapa.L7I[calapand@cs calapand]$ script calapa.L7II[calapand@cs calapand]$ script calapa.L7III
+Script started, file is calapa.L7III
+]0;calapand@cs:~[calapand@cs calapand]$ ls
+[00m[00mcalapa.L7I[00m  [00mcalapa.L7III[00m  [00;34mRemoteWork[00m
+[m]0;calapand@cs:~[calapand@cs calapand]$ ci[K[Kvi RemoteWork/calp[Kapan[K.L7III.txt
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"RemoteWork/calapa.L7III.txt" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25ls[24;63H1,2[1;2H[?25h[?25l[24;65H3[1;3H[?25h[?25li[24;65H4[1;4H[?25h[?25ls[24;65H5[1;5H[?25h[?25l[24;65H6[1;6H[?25h[?25lt[24;65H7[1;7H[?25h[?25lh[24;65H8[1;8H[?25h[?25le[24;65H9[1;9H[?25h[?25l[24;65H10[1;10H[?25h[?25lf[24;66H1[1;11H[?25h[?25li[24;66H2[1;12H[?25h[?25ll[24;66H3[1;13H[?25h[?25le[24;66H4[1;14H[?25h[?25l[24;66H5[1;15H[?25h[?25ls[24;66H6[1;16H[?25h[?25lo[24;66H7[1;17H[?25h[?25l[1;16H[K[24;66H6[1;16H[?25h[?25l[1;15H[K[24;66H5[1;15H[?25h[?25lf[24;66H6[1;16H[?25h[?25lo[24;66H7[1;17H[?25h[?25lr[24;66H8[1;18H[?25h[?25l[24;66H9[1;19H[?25h[?25ls[24;65H20[1;20H[?25h[?25le[24;66H1[1;21H[?25h[?25ls[24;66H2[1;22H[?25h[?25ls[24;66H3[1;23H[?25h[?25li[24;66H4[1;24H[?25h[?25lo[24;66H5[1;25H[?25h[?25ln[24;66H6[1;26H[?25h[?25ls[24;66H7[1;27H[?25h[?25l[1;26H[K[24;66H6[1;26H[?25h[?25l[1;25H[K[24;66H5[1;25H[?25h[?25l[1;24H[K[24;66H4[1;24H[?25h[?25l[1;23H[K[24;66H3[1;23H[?25h[?25l[1;22H[K[24;66H2[1;22H[?25h[?25l[1;21H[K[24;66H1[1;21H[?25h[?25l[1;20H[K[24;66H0[1;20H[?25h[?25l[1;19H[K[24;65H19[1;19H[?25h[?25l[24;66H8[1;18H[?25h[?25l[1;17H[K[24;66H7[1;17H[?25h[?25l[1;16H[K[24;66H6[1;16H[?25h[?25l[1;15H[K[24;66H5[1;15H[?25h[?25l[24;66H4[1;14H[?25h[?25l[1;13H[K[24;66H3[1;13H[?25h[?25l[1;12H[K[24;66H2[1;12H[?25h[?25l[1;11H[K[24;66H1[1;11H[?25h[?25l[1;10H[K[24;66H0[1;10H[?25h[?25l[24;65H9 [1;9H[?25h[?25l[1;8H[K[24;65H8[1;8H[?25h[?25l[1;7H[K[24;65H7[1;7H[?25h[?25l[1;6H[K[24;65H6[1;6H[?25h[?25l[24;65H5[1;5H[?25h[?25l[1;4H[K[24;65H4[1;4H[?25h[?25l[1;3H[K[24;65H3[1;3H[?25h[?25l[24;65H2[1;2H[?25h[?25l[1;1H[K[24;65H1[1;1H[?25h[?25lt[24;65H2[1;2H[?25h[?25lh[24;65H3[1;3H[?25h[?25li[24;65H4[1;4H[?25h[?25ls[24;65H5[1;5H[?25h[?25l[24;65H6[1;6H[?25h[?25li[24;65H7[1;7H[?25h[?25ls[24;65H8[1;8H[?25h[?25lt[24;65H9[1;9H[?25h[?25lh[24;65H10[1;10H[?25h[?25l[1;9H[K[24;65H9 [1;9H[?25h[?25l[1;8H[K[24;65H8[1;8H[?25h[?25l[24;65H9[1;9H[?25h[?25lt[24;65H10[1;10H[?25h[?25lh[24;66H1[1;11H[?25h[?25le[24;66H2[1;12H[?25h[?25l[24;66H3[1;13H[?25h[?25lf[24;66H4[1;14H[?25h[?25li[24;66H5[1;15H[?25h[?25ll[24;66H6[1;16H[?25h[?25le[24;66H7[1;17H[?25h[?25l[24;66H8[1;18H[?25h[?25lf[24;66H9[1;19H[?25h[?25lo[24;65H20[1;20H[?25h[?25l[1;19H[K[24;65H19[1;19H[?25h[?25l[1;18H[K[24;66H8[1;18H[?25h[?25lf[24;66H9[1;19H[?25h[?25lo[24;65H20[1;20H[?25h[?25lr[24;66H1[1;21H[?25h[?25l[24;66H2[1;22H[?25h[?25ls[24;66H3[1;23H[?25h[?25le[24;66H4[1;24H[?25h[?25ls[24;66H5[1;25H[?25h[?25ls[24;66H6[1;26H[?25h[?25li[24;66H7[1;27H[?25h[?25lo[24;66H8[1;28H[?25h[?25ln[24;66H9[1;29H[?25h[?25l[24;65H30[1;30H[?25h[?25l3[24;66H1[1;31H[?25h[24;1H[K[1;30H[?25l[24;63H1,30[10CAll[1;30H[?25h[?25l[24;63H[K[24;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"RemoteWork/calapa.L7III.txt" [New] 1L, 31C written
+[?1l>[?25h[?1047l[?1048l]0;calapand@cs:~[calapand@cs calapand]$ ls -a
+[00m[00;34m.[00m              [00m.bash_logout[00m   [00mcalapa.L7I[00m    [00m.gtkrc[00m     [00;34mRemoteWork[00m  [00m.zshrc[00m
+[00;34m..[00m             [00m.bash_profile[00m  [00mcalapa.L7III[00m  [00;34m.kde[00m       [00m.viminfo[00m
+[00m.bash_history[00m  [00m.bashrc[00m        [00m.emacs[00m        [00m.mpd.conf[00m  [00;34m.xemacs[00m
+[m]0;calapand@cs:~[calapand@cs calapand]$ exit
+exit
+Script done, file is calapa.L7III
+]0;calapand@cs:~[calapand@cs calapand]$ exit
+logout
+[H[2JConnection to cs.hiram.edu closed.
+]0;Student@localhost:~[Student@localhost ~]$ vi calapa.L7III[K[K[KIV.txt
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"calapa.L7IV.txt" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25ll[24;63H1,2[1;2H[?12l[?25h[?25la[24;65H3[1;3H[?12l[?25h[?25ll[24;65H4[1;4H[?12l[?25h[?25la[24;65H5[1;5H[?12l[?25h[?25ll[24;65H6[1;6H[?12l[?25h[?25la[24;65H7[1;7H[?12l[?25h[?25ll[24;65H8[1;8H[?12l[?25h[?25la[24;65H9[1;9H[?12l[?25h[?25ll[24;65H10[1;10H[?12l[?25h[?25la[24;66H1[1;11H[?12l[?25h[?25l:[24;66H2[1;12H[?12l[?25h[?25l[1;11H[K[24;66H1[1;11H[?12l[?25h[24;1H[K[1;10H[?25l[24;63H1,10[10CAll[1;10H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"calapa.L7IV.txt" [New] 1L, 11C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ ftp cs.hiram.edu
+Connected to cs.hiram.edu.
+220 (vsFTPd 1.2.1)
+530 Please login with USER and PASS.
+530 Please login with USER and PASS.
+KERBEROS_V4 rejected as an authentication type
+Name (cs.hiram.edu:Student): calapand
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> mput calapa.LIV.txt^[[D^[[D^[[D^[[D^[[D^[[D                              7IV.txt RemoteWork
+mput calapa.L7IV.txt? y
+No control connection for command: No such file or directory
+Passive mode refused.  Turning off passive mode.
+No control connection for command: No such file or directory
+mput RemoteWork? n
+ftp> ^[[A^[[B        mput calapa.L7IV.txt ~/  ~/Remote  Work
+Not connected.
+ftp> hello
+?Invalid command
+ftp> cd RemoteWork
+Not connected.
+ftp> bye
+]0;Student@localhost:~[Student@localhost ~]$ ftp[K[K[Kftp cs.hiram.eduvi calapa.L7IV.txt[2Pftp cs.hiram.edu
+Connected to cs.hiram.edu.
+220 (vsFTPd 1.2.1)
+530 Please login with USER and PASS.
+530 Please login with USER and PASS.
+KERBEROS_V4 rejected as an authentication type
+Name (cs.hiram.edu:Student): calapand
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> cd RemoteWork
+250 Directory successfully changed.
+ftp> mout   put calapa.L7IV.txt ^[[D^[[D^[[D^[[D^[[D^[[D                         
+mput calapa.L7IV.txt? y
+227 Entering Passive Mode (198,30,199,89,98,138)
+150 Ok to send data.
+226 File receive OK.
+11 bytes sent in 8.9e-05 seconds (1.2e+02 Kbytes/s)
+ftp> mget      ls
+227 Entering Passive Mode (198,30,199,89,207,156)
+150 Here comes the directory listing.
+-rw-rw-r--    1 577      580            28 May 01 15:47 calapa.L7I.txt
+-rw-rw-r--    1 577      580            31 May 01 16:17 calapa.L7III.txt
+-rw-r--r--    1 577      580            11 May 01 16:30 calapa.L7IV.txt
+-rw-rw-r--    1 577      580         24064 May 01 16:05 calapand.L7II.doc
+226 Directory send OK.
+ftp> dir
+227 Entering Passive Mode (198,30,199,89,25,196)
+150 Here comes the directory listing.
+-rw-rw-r--    1 577      580            28 May 01 15:47 calapa.L7I.txt
+-rw-rw-r--    1 577      580            31 May 01 16:17 calapa.L7III.txt
+-rw-r--r--    1 577      580            11 May 01 16:30 calapa.L7IV.txt
+-rw-rw-r--    1 577      580         24064 May 01 16:05 calapand.L7II.doc
+226 Directory send OK.
+ftp> mget calapa*
+mget calapa.L7I.txt? y
+227 Entering Passive Mode (198,30,199,89,115,64)
+150 Opening BINARY mode data connection for calapa.L7I.txt (28 bytes).
+226 File send OK.
+28 bytes received in 5.1e-05 seconds (5.4e+02 Kbytes/s)
+mget calapa.L7III.txt? y
+227 Entering Passive Mode (198,30,199,89,61,88)
+150 Opening BINARY mode data connection for calapa.L7III.txt (31 bytes).
+226 File send OK.
+31 bytes received in 0.00011 seconds (2.8e+02 Kbytes/s)
+mget calapa.L7IV.txt? y
+227 Entering Passive Mode (198,30,199,89,25,57)
+150 Opening BINARY mode data connection for calapa.L7IV.txt (11 bytes).
+226 File send OK.
+11 bytes received in 5.3e-05 seconds (2e+02 Kbytes/s)
+mget calapand.L7II.doc? y
+227 Entering Passive Mode (198,30,199,89,177,72)
+150 Opening BINARY mode data connection for calapand.L7II.doc (24064 bytes).
+226 File send OK.
+24064 bytes received in 0.015 seconds (1.6e+03 Kbytes/s)
+ftp> bye
+421 Timeout.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 01 May 2006 08:52:14 AM EDT

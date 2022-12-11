@@ -1,0 +1,77 @@
+Script started on Wed 03 May 2006 03:59:47 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S5f1[K[KF1
+* This is a line with only one asterisk.
+* This is a line that starts with an asterisk, *but* has more.*
+*** This is a line with three asterisks in a row.
+This line has no asterisk.
+* This is another line with only one asterisk.
+This line has two asterisk * separated by other characters. *
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+*** The start has three, but the end has four asterisks. ****
+*The start and end have one asterisk.*
+]0;Student@localhost:~[Student@localhost ~]$ egrep 
+'[\8[K*][^\*]'^[\*][^\*]'
+[Student@localhost ~]$ egrep 
+'^[
+[Student@localhost ~]$ egrep '^[\
+[Student@localhost ~]$ egrep 
+'^[\*
+[Student@localhost ~]$ egrep '^[\*]
+[Student@localhost ~]$ egrep 
+'^[\*][
+[Student@localhost ~]$ egrep '^[\*][^
+[Student@localhost ~]$ egrep 
+'^[\*][^\
+[Student@localhost ~]$ egrep '^[\*][^\*
+[Student@localhost ~]$ 
+egrep '^[\*][^\*]
+[Student@localhost ~]$ egrep '^[\*][^\*]' Ch10S5F1
+* This is a line with only one asterisk.
+* This is a line that starts with an asterisk, *but* has more.*
+* This is another line with only one asterisk.
+*The start and end have one asterisk.*
+]0;Student@localhost:~[Student@localhost ~]$ egrep 
+'[\[K[K[\8[K*][.][K[KA-Za-z][\*]' Ch10S5F1
+This line has two asterisks with *a* character between them.
+]0;Student@localhost:~[Student@localhost ~]$ egerp [K[K[K[Krep 
+'\8[K*\{.^[K6[K[K,6\}' Ch10S5F1
+]0;Student@localhost:~[Student@localhost ~]$ echo |[K" [Kim not shure 
+why [K[K[K[Khow to do #5 any [K[K[K[Kwh[Kith any other 
+command i  
+[A
+[Student@localhost ~]$ echo "im not shure how to do #5 with 
+any other command i[K
+
+[K[A
+[Student@localhost ~]$ echo "im not shure how to do #5 with any 
+other command i[Kan 
+ 
+[Kd i [K[K[K
+[K[A
+[Student@localhost ~]$ 
+echo "im not shure how to do #5 with any other command a[K
+
+[K[A
+[Student@localhost ~]$ echo "im not shure how to do #5 with any 
+other command a[K[K
+>and i dont know why this doesnt work [K. [K[K, because according to 
+>the  [Kbook
+>\{, n\} matches the previous atom nt[K times or less
+>i understood this a [Ks finds the att[Kom looks for more and if it 
+>finds
+>it les [K[Kss that 7 
+>time[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kn or 
+>less then it should print out"
+im not shure how to do #5 with any other command
+and i dont know why this doesnt work, because according to the book
+\{, n\} matches the previous atom n times or less
+i understood this as finds the atom looks for more and if it finds
+it n or less then it should print out
+]0;Student@localhost:~[Student@localhost ~]$ echo "im [K not shure how 
+to do [K #6 at all"
+im not shure how to do #6 at all
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Wed 03 May 2006 04:24:32 PM EDT
+

@@ -1,0 +1,38 @@
+Script started on Thu 04 May 2006 03:22:07 PM EDT
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat > Ch10S5F1
+* This is a line with only on  e asterisk.
+* This is a line that starts with an asterisk, *but* has more.  *
+*** This is a line with three asterisks in a row.
+This line has no asterisk.
+* This is another  l  line with only one asterisk.
+This line has two asterisks * separated by other characters. *
+*** The start and end have three e asterisks. ***
+This line has two asterisks with *a* character between them.
+*** The start has three, but the end has four asterisks. ****
+*The start and end have one ase terisk.*
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep '^\*[^\*]' Ch10S5F1 [K
+* This is a line with only one asterisk.
+* This is a line that starts with an asterisk, *but* has more.*
+* This is another line with only one asterisk.
+*The start and end have one asterisk.*
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep '\*[^\*][^\*[K[K[K[K\*' Ch10S5F1
+This line has two asterisks with *a* character between them.
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep '(\*[K[K[\*].*)\{6, }[K\}[moellerja@cs moellerja]$ egrep '([\*].*)\{6[1P[1@ [moellerja@cs moellerja]$ egrep '([\*].*)\{ ,[moellerja@cs moellerja]$ egrep '([\*].*)\{ , 6\}[1P6\}[moellerja@cs moellerja]$ egrep '([\*].*)\{ ,6[moellerja@cs moellerja]$ egrep '([\*].*)\{ ,6\[moellerja@cs moellerja]$ egrep '([\*].*)\{ ,6\}' Ch10S5G[KF1
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep '([\*].*)\{ ,6\}' Ch10S5F1[1@^[moellerja@cs moellerja]$ egrep '^([1@.[1@*[moellerja@cs moellerja]$ egrep '^(.*[[moellerja@cs moellerja]$ egrep '^(.*[\[moellerja@cs moellerja]$ egrep '^(.*[\*[moellerja@cs moellerja]$ egrep '^(.*[\*][moellerja@cs moellerja]$ egrep '^(.*[\*].[moellerja@cs moellerja]$ egrep '^(.*[\*].*[moellerja@cs moellerja]$ egrep '^(.*[\*].*)[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ [moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6\[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6\}[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6\}'[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6\}' [moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6\}' C[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6\}' Ch[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6\}' Ch1[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6\}' Ch10[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6\}' Ch10S[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6\}' Ch10S5[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6\}' Ch10S5F[moellerja@cs moellerja]$ egrep '^(.*[\*].*)\{ ,6\}' Ch10S5F1
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep -v '\*.*\*.*\*.*\*.*\*.*\*.*\*' Ch10S5F1
+* This is a line with only one asterisk.
+* This is a line that starts with an asterisk, *but* has more.*
+*** This is a line with three asterisks in a row.
+This line has no asterisk.
+* This is another line with only one asterisk.
+This line has two asterisks * separated by other characters. *
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+*The start and end have one asterisk.*
+]0;moellerja@cs:~[moellerja@cs moellerja]$ grep '^\({[K[K([\*][\*]*\).*[^\*][^\8[K*]*\1$' Ch10S5F1
+* This is a line that starts with an asterisk, *but* has more.*
+*** The start and end have three asterisks. ***
+*The start and end have one asterisk.*
+]0;moellerja@cs:~[moellerja@cs moellerja]$ exit
+
+Script done on Thu 04 May 2006 03:33:50 PM EDT

@@ -1,0 +1,85 @@
+Script started on Mon 24 Apr 2006 11:49:49 PM EDT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ mkdir backuo[Kps
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/[Krebecca@rebecca:~$ find assignments/UNIX/hw* ; cp assignments/UNIX/hw* backups
+assignments/UNIX/hw4
+assignments/UNIX/hw4.bak.
+assignments/UNIX/hw4HL
+assignments/UNIX/hw4SL
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ ls -l assignments/UNO[KIX/hw*
+[00m-rw-r--r--  1 rebecca rebecca 72 2006-04-24 22:09 [00massignments/UNIX/hw4[00m
+-rw-r--r--  1 rebecca rebecca 72 2006-04-24 22:20 [00massignments/UNIX/hw4.bak.[00m
+-rw-r--r--  1 rebecca rebecca 72 2006-04-24 22:09 [00massignments/UNIX/hw4HL[00m
+lrwxrwxrwx  1 rebecca rebecca  3 2006-04-24 23:29 [01;36massignments/UNIX/hw4SL[00m -> [00mhw4[00m
+[m]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ ls -i a[Kl assignments/UNIX/hw*[1@irebecca@rebecca:~$ ls -il[1P assignments/UNIX/hw*
+[00m507778 [00massignments/UNIX/hw4[00m       507776 [00massignments/UNIX/hw4HL[00m
+507777 [00massignments/UNIX/hw4.bak.[00m  507510 [01;36massignments/UNIX/hw4SL[00m
+[m]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ rm assignments/UNIX/hw4
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ find assignment/UNIX/hw*
+find: assignment/UNIX/hw*: No such file or directory
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ find assignments/UNIX/hw*
+assignments/UNIX/hw4.bak.
+assignments/UNIX/hw4HL
+assignments/UNIX/hw4SL
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ more assignments/UNIX/hw*
+::::::::::::::
+assignments/UNIX/hw4.bak.
+::::::::::::::
+I like many things. I also have many skills,but that is another matter.
+[7m--More--(Next file: assignments/UNIX/hw4HL)[27m::::::::::::::[K
+assignments/UNIX/hw4HL
+::::::::::::::
+I like many things. I also have many skills,but that is another matter.
+assignments/UNIX/hw4SL: No such file or directory
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ 
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cp assignments/UNIX/hw4.bak assignments/UNIX/hw4
+cp: cannot stat `assignments/UNIX/hw4.bak': No such file or directory
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cp assignments/UNIX/hw4.bak assignments/UNIX/hw4rebecca@rebecca:~$ cp assignments/UNIX/hw4.bak. assignments/UNIX/hw4
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ ln -s h[Kassignments/UNIX/hw4 assignments/UNIX/hw4SL
+ln: `assignments/UNIX/hw4SL': File exists
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ rm assignments/UNIX/hw4SL
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ rm assignments/UNIX/hw4SLrebecca@rebecca:~$ [24@ln -s assignments/UNIX/hw4rebecca@rebecca:~$ ln -s assignments/UNIX/hw4 assignments/UNIX/hw4SL
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ ls -R
+[00m.:
+[01;34massignments[00m  [01;34mbusLetters[00m  [00mfischer.3.III.txt[00m  [00mfischer.L2.txt[00m   [00mHWch2.doc[00m  [00mHWch3.doc[00m  [01;34mletters[00m    [01;34mreports[00m
+[01;34mbackups[00m      [01;34mDesktop[00m     [00mfischer.4.VI.txt[00m   [00mfischer.L2.txt~[00m  [00mHWch2.txt[00m  [00mHWch3.txt[00m  [00mmeeep.txt[00m
+
+./assignments:
+[01;34mUNIX[00m
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bak.[00m  [00mhw4HL[00m  [40;31;01mhw4SL[00m  [01;34mHWs[00m  [01;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+[00mhw4[00m  [00mhw4.bak.[00m  [00mhw4HL[00m  [00mhw4SL[00m
+
+./busLetters:
+[01;34mformal[00m
+
+./busLetters/formal:
+[00mformal.1[00m  [00mformal.2[00m
+
+./Desktop:
+[00mfischer2edit.txt[00m  [00mfischer.L1.txt[00m   [00mhw4[00m     [00mhw4HL[00m  [01;32minstallnewfirefox.sh[00m
+[00mfischer.3.I.txt[00m   [00mFischer.L1.txt~[00m  [00mhw4.bk[00m  [01;36mhw4SL[00m  [01;32mZager & Evans - In The Year 2525.mp3[00m
+
+./letters:
+[01;34mfriendly[00m
+
+./letters/friendly:
+[00mfriend.1[00m
+
+./reports:
+[01;34mbusiness[00m  [01;34mpersonal[00m  [01;34mschool[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ exit
+
+Script done on Tue 25 Apr 2006 12:05:56 AM EDT

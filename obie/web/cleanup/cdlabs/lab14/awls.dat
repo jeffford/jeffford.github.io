@@ -1,0 +1,24 @@
+#!/bin/bash
+#awls
+#this script makes the ls command
+case $# in 
+	0) echo "must have [columnumber] [columnumber] [columnumber]" ; ;;
+	1) echo "must have [columnumber] [columnumber] [columnumber]" ; ;;
+	2) echo "must have [columnumber] [columnumber] [columnumber]" ; ;;
+	3) col1=$1 col2=$2 col3=$3;;
+	*) echo "must have [columnumber] [columnumber] [columnumber]" ; ;;
+esac
+if [[ $1 != [0-9] ]]
+then
+	echo "must use numbers"
+elif [[ $2 != [0-9] ]]
+then
+	echo "must be numbers"
+elif [[ $3 != [0-9] ]]
+then
+	echo "must be numbers"
+fi
+
+ls -l | sed 's/  / /g' | sed 's/  / /g' | sed 's/  / /g' | cut -d' ' -f$1,$2,$3
+
+	

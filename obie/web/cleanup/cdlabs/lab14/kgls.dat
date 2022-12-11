@@ -1,0 +1,16 @@
+#! /bin/bash
+# script: kgls
+#this program will do an ls -l list of the home dir useing only 3 columns.
+case $# in 
+	0) echo "Usage: [column number] [column number] [column number]" ; ;;
+	1) echo "Usage: [column number] [column number] [column number]" ; ;;
+	2) echo "Usage: [column number] [column number] [column number]" ; ;;
+	3) column=$1 column=$2 column=$3;;
+	*) echo "Usage: [column number] [column number] [column number]" ; ;;
+esac
+if [[ $1 != [0-9] || $2 != [0-9] || $3 != [0-9] ]]
+then
+	echo "you must enter 3 arguments as numbers in the line."
+fi
+	ls -l | sed 's/  / /g' |sed 's/  / /g' | sed 's/  / /g' | cut -d" " -f$1,$2,$3
+

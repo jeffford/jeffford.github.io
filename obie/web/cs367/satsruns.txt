@@ -1,0 +1,89 @@
+-bash-2.05b$ cd MPI                        //directory I created for doing runs
+-bash-2.05b$ dir
+examples  mpi.h  sats2.c  sats.c
+-bash-2.05b$ mpd &			   //you must run mpd in the background
+[1] 20431
+-bash-2.05b$ mpicc -o sats sats.c	   //this is the compiler and linker
+-bash-2.05b$ mpiexec -n 5 ~obie/MPI/sats   //number after -n is number of processes to use
+0) 1110111110011001
+0) 1010111111011001
+Process 0 is done
+1) 0110111111011001
+Process 1 is done
+2) 1110111111011001
+2) 1010111110111001
+3) 1010111110011001
+3) 0110111110111001
+Process 2 is done
+Process 3 is done
+4) 0110111110011001
+4) 1110111110111001
+Process 4 is done
+-bash-2.05b$ mpiexec -n 20 ~obie/MPI/sats >sats.out  //captures output 
+-bash-2.05b$ cat sats.out
+Process 0 is done
+Process 1 is done
+Process 2 is done
+Process 3 is done
+Process 4 is done
+5) 1010111111011001
+Process 5 is done
+6) 0110111111011001
+Process 6 is done
+7) 1110111111011001
+Process 7 is done
+Process 8 is done
+Process 9 is done
+Process 10 is done
+Process 11 is done
+Process 12 is done
+13) 1010111110011001
+Process 13 is done
+14) 0110111110011001
+Process 14 is done
+15) 1110111110011001
+Process 15 is done
+Process 16 is done
+17) 1010111110111001
+Process 17 is done
+18) 0110111110111001
+Process 18 is done
+19) 1110111110111001
+Process 19 is done
+-bash-2.05b$ mpicc -o sats2 sats2.c
+-bash-2.05b$ mpiexec -n 10 ~obie/MPI/sats2 >sats2.out
+-bash-2.05b$ cat sats2.out
+3) 1010111110011001
+4) 0110111110011001
+5) 1110111110011001
+5) 1010111111011001
+6) 0110111111011001
+7) 1110111111011001
+7) 1010111110111001
+8) 0110111110111001
+9) 1110111110111001
+Process 1 is done
+Process 5 is done
+Process 7 is done
+Process 9 is done
+Process 6 is done
+Process 4 is done
+Process 8 is done
+Process 3 is done
+Process 0 is done
+Process 2 is done
+There are 9 different solutions
+-bash-2.05b$ mpdallexit                 //be sure to do this!!!
+-bash-2.05b$ ps
+  PID TTY          TIME CMD
+19308 pts/2    00:00:00 bash
+20839 pts/2    00:00:00 ps
+[1]+  Done                    mpd
+-bash-2.05b$
+
+//assignment: Create both versions of the satisfiability problem and run them twice on
+//number of processes other than what I used. Output your runs to files sats1.out, sats2.out, 
+//satsv21.out, and satsv22.out. Zip your code and 4 output files and send to 
+//csgrader@hiram.edu.
+
+

@@ -1,0 +1,25 @@
+Script started on Tue 25 Apr 2006 09:01:27 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ first="PARENT"
+]0;Student@localhost:~[Student@localhost ~]$ echo $first
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ bash
+]0;Student@localhost:~[Student@localhost ~]$ echo $first
+
+]0;Student@localhost:~[Student@localhost ~]$ "[Kecho "since we are in a new shell, the variables do not c arry over their values."
+since we are in a new shell, the variables do not carry over their values.
+]0;Student@localhost:~[Student@localhost ~]$ second="SUBSHELL"
+]0;Student@localhost:~[Student@localhost ~]$ echo $second
+SUBSHELL
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+]0;Student@localhost:~[Student@localhost ~]$ echo $first
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ ec[K[Kecho "This was[K[K[Kworked becuas[K[K[Kaw[Kuse we [K[K[Ksince we ar [K[K[K[K[K[Kthis shell was still [K[K[K[K[K[K[K[K[K[Khas [Kb[K been open  and was never recreated, the a[Kvariabls[Ke still hl[Keld its value."
+This worked because since this shell has been open and was never recreated, the variable still held its value.
+]0;Student@localhost:~[Student@localhost ~]$ echo $second
+
+]0;Student@localhost:~[Student@localhost ~]$ "[Kecho "nothing was printed because since we exited the she ll in which this variable wh[Kas created in, the vr[Kariable log[Kcation no longer stores  anything."
+nothing was printed because since we exited the shell in which this variable was created in, the variable location no longer stores anything.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 25 Apr 2006 09:06:50 PM EDT

@@ -1,0 +1,62 @@
+2. mkdir backups
+
+3. find -name hw* -exec cp {} backups \;
+
+4. ls -i -l ./backups
+   ls -i -l ./assignments/UNIX
+	There is no link and all inode numbers are diffrent
+	The all node in UNIX and backups dirrectories are diffrent
+
+5. rm ~/assignments/UNIX/hw4
+
+6. find -name hw*
+
+7. find -name hw* -exec more {} \;
+
+8. ./assignments/UNIX/hw4.bk. ~/assignments/UNIX/hw4
+
+9. rm ./assignments/UNIX/hw4SL
+
+10. ln -s ~/assignments/UNIX/hw4 ~/assignments/UNIX/hw4SL 
+
+11. ls -R
+
+12.  reports         Morimoto.2.II  morimoto2edit  gtysbrg    Desktop  assignments
+Morimoto.2.II~  Morimoto.2.I   letters        gtsybrgII  backups
+[Student@localhost ~]$ ls -R
+.:
+assignments  Desktop    gtysbrg  morimoto2edit  Morimoto.2.II   reports
+backups      gtsybrgII  letters  Morimoto.2.I   Morimoto.2.II~
+
+./assignments:
+UNIX
+
+./assignments/UNIX:
+hw4  hw4.bk.  hw4HL  hw4SL  HWs  Projects
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+hw4  hw4.bk.  hw4HL  hw4SL
+
+./Desktop:
+
+./letters:
+formal  friendly
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+business  personal  school
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+
+

@@ -1,0 +1,66 @@
+Script started on Mon 24 Apr 2006 05:08:39 PM EDT
+]0;student@localhost:~[student@localhost ~]$ groups
+student
+]0;student@localhost:~[student@localhost ~]$ umask 077
+]0;student@localhost:~[student@localhost ~]$ mkdir chapter_4
+mkdir: cannot create directory `chapter_4': File exists
+]0;student@localhost:~[student@localhost ~]$ ls-[K -l
+[00mtotal 196
+drwxrwxr-x  3 student student  4096 Apr 24 06:10 [00;34massignments[00m
+drwxrwxr-x  2 student student  4096 Apr 24 06:26 [00;34mbackups[00m
+drwxrwxr-x  3 student student  4096 Apr 24 06:12 [00;34mbusLetters[00m
+drwxrwxrwx  4 student student  4096 Apr 24 17:02 [00;34mchapter_4[00m
+drwxr-xr-x  2 student student  4096 Apr 24 16:05 [00;34mDesktop[00m
+-rw-rw-r--  1 student student   847 Apr 24 06:23 [00mgtsybrgII.txt[00m
+-rw-rw-r--  1 student student   475 Apr 24 06:23 [00mgtsybrg.txt[00m
+-rw-rw-r--  1 student student  1529 Apr 24 06:23 [00mgtysbrg.txt[00m
+-rw-rw-r--  1 student student   274 Apr 24 06:23 [00mhw4[00m
+-rw-rw-r--  1 student student   274 Apr 24 06:23 [00mhw4.bk[00m
+drwxrwxr-x  3 student student  4096 Apr 24 06:11 [00;34mletters[00m
+drwxrwxr-x  5 student student  4096 Apr 24 06:12 [00;34mreports[00m
+-rw-rw-r--  1 student student  1529 Apr 24 06:23 [00mvasko2edit.txt[00m
+-rw-rw-r--  1 student student   803 Apr 24 06:23 [00mVasko.2.IIcont.txt[00m
+-rw-rw-r--  1 student student  5352 Apr 24 06:24 [00mVasko.3.III.txt[00m
+-rw-rw-r--  1 student student 23994 Apr 24 06:24 [00mvasko.3.II.txt[00m
+-rw-rw-r--  1 student student  1728 Apr 24 06:24 [00mvasko.3.I.txt[00m
+-rw-rw-r--  1 student student 24748 Apr 24 06:24 [00mVasko.3.IV.txt[00m
+-rw-rw-r--  1 student student     0 Apr 24 17:08 [00mVasko.4.I.txt[00m
+[m]0;student@localhost:~[student@localhost ~]$ ls -lmkdir chapter_4[10Pls -l[Kecho \5[K#5 Yes the defalu[K[Kult permisio[K[Ksion of this directory is  now 700.
+#5 Yes the default permission of this directory is now 700.
+]0;student@localhost:~[student@localhost ~]$ mkdir chapter_4/session_i[KI
+mkdir: cannot create directory `chapter_4/session_I': File exists
+]0;student@localhost:~[student@localhost ~]$ ls -l
+[00mtotal 196
+drwxrwxr-x  3 student student  4096 Apr 24 06:10 [00;34massignments[00m
+drwxrwxr-x  2 student student  4096 Apr 24 06:26 [00;34mbackups[00m
+drwxrwxr-x  3 student student  4096 Apr 24 06:12 [00;34mbusLetters[00m
+drwxrwxrwx  4 student student  4096 Apr 24 17:02 [00;34mchapter_4[00m
+drwxr-xr-x  2 student student  4096 Apr 24 16:05 [00;34mDesktop[00m
+-rw-rw-r--  1 student student   847 Apr 24 06:23 [00mgtsybrgII.txt[00m
+-rw-rw-r--  1 student student   475 Apr 24 06:23 [00mgtsybrg.txt[00m
+-rw-rw-r--  1 student student  1529 Apr 24 06:23 [00mgtysbrg.txt[00m
+-rw-rw-r--  1 student student   274 Apr 24 06:23 [00mhw4[00m
+-rw-rw-r--  1 student student   274 Apr 24 06:23 [00mhw4.bk[00m
+drwxrwxr-x  3 student student  4096 Apr 24 06:11 [00;34mletters[00m
+drwxrwxr-x  5 student student  4096 Apr 24 06:12 [00;34mreports[00m
+-rw-rw-r--  1 student student  1529 Apr 24 06:23 [00mvasko2edit.txt[00m
+-rw-rw-r--  1 student student   803 Apr 24 06:23 [00mVasko.2.IIcont.txt[00m
+-rw-rw-r--  1 student student  5352 Apr 24 06:24 [00mVasko.3.III.txt[00m
+-rw-rw-r--  1 student student 23994 Apr 24 06:24 [00mvasko.3.II.txt[00m
+-rw-rw-r--  1 student student  1728 Apr 24 06:24 [00mvasko.3.I.txt[00m
+-rw-rw-r--  1 student student 24748 Apr 24 06:24 [00mVasko.3.IV.txt[00m
+-rw-rw-r--  1 student student     0 Apr 24 17:08 [00mVasko.4.I.txt[00m
+[m]0;student@localhost:~[student@localhost ~]$ eco[Kho \#7 Yes the permission of session_I is 700
+#7 Yes the permission of session_I is 700
+]0;student@localhost:~[student@localhost ~]$ cd chapter_4/session_i[KI
+]0;student@localhost:~/chapter_4/session_I[student@localhost session_I]$ vi hw_4_i
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"hw_4_i" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25lT[24;63H1,2[1;2H[?12l[?25h[?25lh[24;65H3[1;3H[?12l[?25h[?25li[24;65H4[1;4H[?12l[?25h[?25ls[24;65H5[1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25ls[24;65H7[1;7H[?12l[?25h[?25lu[24;65H8[1;8H[?12l[?25h[?25lm[24;65H9[1;9H[?12l[?25h[?25lm[24;65H10[1;10H[?12l[?25h[?25le[24;66H1[1;11H[?12l[?25h[?25lr[24;66H2[1;12H[?12l[?25h[?25l[24;66H3[1;13H[?12l[?25h[?25lI[24;66H4[1;14H[?12l[?25h[?25l[24;66H5[1;15H[?12l[?25h[?25lp[24;66H6[1;16H[?12l[?25h[?25la[24;66H7[1;17H[?12l[?25h[?25l[1;16H[K[24;66H6[1;16H[?12l[?25h[?25ll[24;66H7[1;17H[?12l[?25h[?25la[24;66H8[1;18H[?12l[?25h[?25ln[24;66H9[1;19H[?12l[?25h[?25l[24;65H20[1;20H[?12l[?25h[?25lt[24;66H1[1;21H[?12l[?25h[?25lo[24;66H2[1;22H[?12l[?25h[?25l[24;66H3[1;23H[?12l[?25h[?25lw[24;66H4[1;24H[?12l[?25h[?25lo[24;66H5[1;25H[?12l[?25h[?25lr[24;66H6[1;26H[?12l[?25h[?25lk[24;66H7[1;27H[?12l[?25h[?25l,[24;66H8[1;28H[?12l[?25h[?25l[24;66H9[1;29H[?12l[?25h[?25lr[24;65H30[1;30H[?12l[?25h[?25lu[24;66H1[1;31H[?12l[?25h[?25ln[24;66H2[1;32H[?12l[?25h[?25l,[24;66H3[1;33H[?12l[?25h[?25la[24;66H4[1;34H[?12l[?25h[?25l[1;33H[K[24;66H3[1;33H[?12l[?25h[?25l[24;66H4[1;34H[?12l[?25h[?25la[24;66H5[1;35H[?12l[?25h[?25ln[24;66H6[1;36H[?12l[?25h[?25ld[24;66H7[1;37H[?12l[?25h[?25l[24;66H8[1;38H[?12l[?25h[?25lp[24;66H9[1;39H[?12l[?25h[?25la[24;65H40[1;40H[?12l[?25h[?25ll[24;66H1[1;41H[?12l[?25h[?25l[1;40H[K[24;66H0[1;40H[?12l[?25h[?25l[1;39H[K[24;65H39[1;39H[?12l[?25h[?25ll[24;65H40[1;40H[?12l[?25h[?25la[24;66H1[1;41H[?12l[?25h[?25ly[24;66H2[1;42H[?12l[?25h[?25l[24;66H3[1;43H[?12l[?25h[?25ls[24;66H4[1;44H[?12l[?25h[?25lo[24;66H5[1;45H[?12l[?25h[?25lc[24;66H6[1;46H[?12l[?25h[?25lc[24;66H7[1;47H[?12l[?25h[?25le[24;66H8[1;48H[?12l[?25h[?25lr[24;66H9[1;49H[?12l[?25h[?25l.[24;65H50[1;50H[?12l[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;63H1,50[1;50H[?12l[?25h[24;1H[K[1;49H[?25l[24;63H1,49[10CAll[1;49H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"hw_4_i" [New] 1L, 50C written
+[?1l>[?12l[?25h[?1049l]0;student@localhost:~/chapter_4/session_I[student@localhost session_I]$ ls -l
+[00mtotal 16
+-rw-------  1 student student 81 Apr 24 17:04 [00mhw_4_1[00m
+-rw-------  1 student student 50 Apr 24 17:12 [00mhw_4_i[00m
+[m]0;student@localhost:~/chapter_4/session_I[student@localhost session_I]$ echo \#11 The permission is 600 because files sta rt out as 666.
+#11 The permission is 600 because files start out as 666.
+]0;student@localhost:~/chapter_4/session_I[student@localhost session_I]$ exit
+
+Script done on Mon 24 Apr 2006 05:13:39 PM EDT

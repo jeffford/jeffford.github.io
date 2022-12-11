@@ -1,0 +1,62 @@
+Script started on Mon 01 May 2006 06:50:46 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ tail > Ch6S2F1
+PASSES ALL DATE FROM INPUT TO OUTPUT
+PASSES ONLY SPECIFIED COLUMNS
+PASSES NUMBER OF SPECIFIED LINES AT BEGINNING
+COMBINES COLUMNS
+ARRANGES DATE IN SEQUENCE
+PASSES NUMBER OF SPECIFIED LINES AT THE END OF DATA
+TRANSLATES ONE OR MORE CHARACTERS
+DELETES DUPLICATE LINES
+COUNTS CHARACTERS, WORDS OR LINES
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+]0;Student@localhost:~[Student@localhost ~]$ tail > Ch6S2F1[1P Ch6S2F1[1PCh6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1c Ch6S2F1a Ch6S2F1t Ch6S2F1
+PASSES ALL DATE FROM INPUT TO OUTPUT
+PASSES ONLY SPECIFIED COLUMNS
+PASSES NUMBER OF SPECIFIED LINES AT BEGINNING
+COMBINES COLUMNS
+ARRANGES DATE IN SEQUENCE
+PASSES NUMBER OF SPECIFIED LINES AT THE END OF DATA
+TRANSLATES ONE OR MORE CHARACTERS
+DELETES DUPLICATE LINES
+COUNTS CHARACTERS, WORDS OR LINES
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1v Ch6S2F1i Ch6S2F1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch6S2F1" 10L, 327C[1;1HPASSES ALL DATE FROM INPUT TO OUTPUT
+PASSES ONLY SPECIFIED COLUMNS
+PASSES NUMBER OF SPECIFIED LINES AT BEGINNING
+COMBINES COLUMNS
+ARRANGES DATE IN SEQUENCE
+PASSES NUMBER OF SPECIFIED LINES AT THE END OF DATA
+TRANSLATES ONE OR MORE CHARACTERS
+DELETES DUPLICATE LINES
+COUNTS CHARACTERS, WORDS OR LINES
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+[1m[34m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H8,1[11CAll[8;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch6S2F1" 10L, 327C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Ch6S2F1[Kvi Ch6S2F1[Student@localhost ~]$ vi[1P Ch6S2F1[1P Ch6S2F1r Ch6S2F1e Ch6S2F1v Ch6S2F1[Student@localhost ~]$ rev [Student@localhost ~]$ rev C[Student@localhost ~]$ rev Ch[Student@localhost ~]$ rev Ch6[Student@localhost ~]$ rev Ch6S[Student@localhost ~]$ rev Ch6S2[Student@localhost ~]$ rev Ch6S2F[Student@localhost ~]$ rev Ch6S2F1 > Ch6S2F21Encr[1P1Encr
+]0;Student@localhost:~[Student@localhost ~]$ rev Ch6S2F1 > Ch6S2F1Encr[1P Ch6S2F1Encr[1PCh6S2F1Encr[1P Ch6S2F1Encr[1P Ch6S2F1Encr[1P Ch6S2F1Encr[1P Ch6S2F1Encr[1P Ch6S2F1Encr[1P Ch6S2F1Encr[1P Ch6S2F1Encr[1PCh6S2F1Encr[1P Ch6S2F1Encr[1P Ch6S2F1Encr[1P Ch6S2F1Encrc Ch6S2F1Encra Ch6S2F1Encrt Ch6S2F1Encr
+TUPTUO OT TUPNI MORF ETAD LLA SESSAP
+SNMULOC DEIFICEPS YLNO SESSAP
+GNINNIGEB TA SENIL DEIFICEPS FO REBMUN SESSAP
+SNMULOC SENIBMOC
+ECNEUQES NI ETAD SEGNARRA
+ATAD FO DNE EHT TA SENIL DEIFICEPS FO REBMUN SESSAP
+SRETCARAHC EROM RO ENO SETALSNART
+SENIL ETACILPUD SETELED
+SENIL RO SDROW ,SRETCARAHC STNUOC
+ZYXWVUTSRQPONMLKJIHGFEDCBA
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S2F1Encr[4hrev Ch6S2F[4l1 >[Student@localhost ~]$ rev Ch6S2F1 > Ch6S2F1Encr[K[K[K[K[Student@localhost ~]$ rev Ch6S2F1[4hE[4l[4hn[4l[4hc[4l[4hr[4l
+]0;Student@localhost:~[Student@localhost ~]$ rev Ch6S2F1Encr > Ch6S2F1[1P Ch6S2F1[1PCh6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1[1PCh6S2F1[1P Ch6S2F1[1P Ch6S2F1[1P Ch6S2F1c Ch6S2F1a Ch6S2F1t Ch6S2F1
+PASSES ALL DATE FROM INPUT TO OUTPUT
+PASSES ONLY SPECIFIED COLUMNS
+PASSES NUMBER OF SPECIFIED LINES AT BEGINNING
+COMBINES COLUMNS
+ARRANGES DATE IN SEQUENCE
+PASSES NUMBER OF SPECIFIED LINES AT THE END OF DATA
+TRANSLATES ONE OR MORE CHARACTERS
+DELETES DUPLICATE LINES
+COUNTS CHARACTERS, WORDS OR LINES
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+]0;Student@localhost:~[Student@localhost ~]$ D[Kexit
+
+Script done on Mon 01 May 2006 06:54:29 AM EDT

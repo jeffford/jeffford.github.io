@@ -1,0 +1,248 @@
+Script started on Mon 24 Apr 2006 08:30:19 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ls ~/reports/assignments/UNIX/HWs/*
+[00mls: /home/Student/reports/assignments/UNIX/HWs/*: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -R\[K|more
+.:
+assignments
+backups
+chap1exercises
+chap1oddexer
+chap3
+chap3evenexer
+chap3lab2
+chap3labII
+Desktop
+gtsybrgII.txt
+gtysbrg.txt
+hw4.bk
+lab3
+letters
+pratt.3.III.txt
+pratt.3.II.txt
+pratt3.IV.txt
+report
+reports
+
+./assignments:
+
+[7m--More--[m./backups:
+hw4
+hw4.bk
+hw4HL
+
+./Desktop:
+
+./letters:
+formal
+friendly
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+assignments
+business
+personal
+school
+
+./reports/assignments:
+UNIX
+[7m--More--[m[K
+./reports/assignments/UNIX:
+hw4
+hw4.bk
+hw4HL
+hw4SL
+HWs
+Projects
+
+./reports/assignments/UNIX/HWs:
+
+./reports/assignments/UNIX/Projects:
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+]0;Student@localhost:~[Student@localhost ~]$ ls ~/reports/assin[Kgnments/UNIC[KX/HWs/*
+[00mls: /home/Student/reports/assignments/UNIX/HWs/*: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ mv ~/reports/assignments/UNIX/hw4.bk hw4.bak
+]0;Student@localhost:~[Student@localhost ~]$ ls ~/repr[Korts/assignments/UNIX/
+[00m[00mhw4[00m  [00mhw4HL[00m  [00;36mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m     [00mchap3[00m          [00;34mDesktop[00m        [00mhw4.bk[00m           [00mpratt.3.II.txt[00m
+[00;34mbackups[00m         [00mchap3evenexer[00m  [00mgtsybrgII.txt[00m  [00mlab3[00m             [00mpratt3.IV.txt[00m
+[00mchap1exercises[00m  [00mchap3lab2[00m      [00mgtysbrg.txt[00m    [00;34mletters[00m          [00;36mreport[00m
+[00mchap1oddexer[00m    [00mchap3labII[00m     [00mhw4.bak[00m        [00mpratt.3.III.txt[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ mv hw4.bak ~/reports/assignments/UNIX/hw4.bak
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m     [00mchap3[00m          [00;34mDesktop[00m        [00mlab3[00m             [00mpratt3.IV.txt[00m
+[00;34mbackups[00m         [00mchap3evenexer[00m  [00mgtsybrgII.txt[00m  [00;34mletters[00m          [00;36mreport[00m
+[00mchap1exercises[00m  [00mchap3lab2[00m      [00mgtysbrg.txt[00m    [00mpratt.3.III.txt[00m  [00;34mreports[00m
+[00mchap1oddexer[00m    [00mchap3labII[00m     [00mhw4.bk[00m         [00mpratt.3.II.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls ~/reports/assignments/UNIX
+[00m[00mhw4[00m  [00mhw4.bak[00m  [00mhw4HL[00m  [00;36mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -r|more
+reports
+report
+pratt3.IV.txt
+pratt.3.II.txt
+pratt.3.III.txt
+letters
+lab3
+hw4.bk
+gtysbrg.txt
+gtsybrgII.txt
+Desktop
+chap3labII
+chap3lab2
+chap3evenexer
+chap3
+chap1oddexer
+chap1exercises
+backups
+assignments
+]0;Student@localhost:~[Student@localhost ~]$ ls _[K-R|more[K[K[K[K[K[K[K[K[K[Kvi friend.1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"friend.1" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25lT[24;63H1,2[1;2H[?12l[?25h[?25lh[24;65H3[1;3H[?12l[?25h[?25li[24;65H4[1;4H[?12l[?25h[?25ls[24;65H5[1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25li[24;65H7[1;7H[?12l[?25h[?25ls[24;65H8[1;8H[?12l[?25h[?25l[24;65H9[1;9H[?12l[?25h[?25la[24;65H10[1;10H[?12l[?25h[?25l[24;66H1[1;11H[?12l[?25h[?25lf[24;66H2[1;12H[?12l[?25h[?25li[24;66H3[1;13H[?12l[?25h[?25l[1;12H[K[24;66H2[1;12H[?12l[?25h[?25lr[24;66H3[1;13H[?12l[?25h[?25li[24;66H4[1;14H[?12l[?25h[?25le[24;66H5[1;15H[?12l[?25h[?25ln[24;66H6[1;16H[?12l[?25h[?25ld[24;66H7[1;17H[?12l[?25h[?25ll[24;66H8[1;18H[?12l[?25h[?25ly[24;66H9[1;19H[?12l[?25h[?25l[24;65H20[1;20H[?12l[?25h[?25ll[24;66H1[1;21H[?12l[?25h[?25le[24;66H2[1;22H[?12l[?25h[?25lt[24;66H3[1;23H[?12l[?25h[?25lt[24;66H4[1;24H[?12l[?25h[?25le[24;66H5[1;25H[?12l[?25h[?25lr[24;66H6[1;26H[?12l[?25h[?25l.[24;66H7[1;27H[?12l[?25h[?25l[24;66H8[1;28H[?12l[?25h[?25lI[24;66H9[1;29H[?12l[?25h[?25l[24;65H30[1;30H[?12l[?25h[?25ln[24;66H1[1;31H[?12l[?25h[?25le[24;66H2[1;32H[?12l[?25h[?25le[24;66H3[1;33H[?12l[?25h[?25ld[24;66H4[1;34H[?12l[?25h[?25l[24;66H5[1;35H[?12l[?25h[?25lt[24;66H6[1;36H[?12l[?25h[?25lo[24;66H7[1;37H[?12l[?25h[?25l[24;66H8[1;38H[?12l[?25h[?25lt[24;66H9[1;39H[?12l[?25h[?25ly[24;65H40[1;40H[?12l[?25h[?25lp[24;66H1[1;41H[?12l[?25h[?25le[24;66H2[1;42H[?12l[?25h[?25l[24;66H3[1;43H[?12l[?25h[?25lo[24;66H4[1;44H[?12l[?25h[?25ln[24;66H5[1;45H[?12l[?25h[?25le[24;66H6[1;46H[?12l[?25h[?25l[24;66H7[1;47H[?12l[?25h[?25ll[24;66H8[1;48H[?12l[?25h[?25li[24;66H9[1;49H[?12l[?25h[?25ln[24;65H50[1;50H[?12l[?25h[?25le[24;66H1[1;51H[?12l[?25h[?25l[24;66H2[1;52H[?12l[?25h[?25lo[24;66H3[1;53H[?12l[?25h[?25lf[24;66H4[1;54H[?12l[?25h[?25l[24;66H5[1;55H[?12l[?25h[?25ld[24;66H6[1;56H[?12l[?25h[?25ld[24;66H7[1;57H[?12l[?25h[?25l[1;56H[K[24;66H6[1;56H[?12l[?25h[?25la[24;66H7[1;57H[?12l[?25h[?25lt[24;66H8[1;58H[?12l[?25h[?25la[24;66H9[1;59H[?12l[?25h[?25l.[24;65H60[1;60H[?12l[?25h[24;1H[K[1;59H[?25l[24;63H1,59[10CAll[1;59H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"friend.1" [New] 1L, 60C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ mv friend.1 ~/letters/fi[Kriendly
+]0;Student@localhost:~[Student@localhost ~]$ ls ~/letters/friendly
+[00m[00mfriend.1[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ vi formal.1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"formal.1" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25l[24;63H1,2-9[1;9H[?12l[?25h[?25l[24;65H3-17[1;17H[?12l[?25h[?25l[24;65H4-25[1;25H[?12l[?25h[?25lF[24;65H5-26[1;26H[?12l[?25h[?25lo[24;65H6-27[1;27H[?12l[?25h[?25lr[24;65H7-28[1;28H[?12l[?25h[?25lm[24;65H8-29[1;29H[?12l[?25h[?25la[24;65H9-30[1;30H[?12l[?25h[?25ll[24;65H10-31[1;31H[?12l[?25h[?25l.[24;66H1-32[1;32H[?12l[?25h[?25l1[24;66H2-33[1;33H[?12l[?25h[?25l[24;66H3-34[1;34H[?12l[?25h[?25lL[24;66H4-35[1;35H[?12l[?25h[?25le[24;66H5-36[1;36H[?12l[?25h[?25lt[24;66H6-37[1;37H[?12l[?25h[?25lt[24;66H7-38[1;38H[?12l[?25h[?25le[24;66H8-39[1;39H[?12l[?25h[?25lr[24;66H9-40[1;40H[?12l[?25h[?25l[2;1H[K[24;63H2,1    [2;1H[?12l[?25h[?25lT[24;65H2[2;2H[?12l[?25h[?25lh[24;65H3[2;3H[?12l[?25h[?25li[24;65H4[2;4H[?12l[?25h[?25ls[24;65H5[2;5H[?12l[?25h[?25l[24;65H6[2;6H[?12l[?25h[?25li[24;65H7[2;7H[?12l[?25h[?25ls[24;65H8[2;8H[?12l[?25h[?25l[24;65H9[2;9H[?12l[?25h[?25la[24;65H10[2;10H[?12l[?25h[?25l[24;66H1[2;11H[?12l[?25h[?25ls[24;66H2[2;12H[?12l[?25h[?25lh[24;66H3[2;13H[?12l[?25h[?25lo[24;66H4[2;14H[?12l[?25h[?25lr[24;66H5[2;15H[?12l[?25h[?25lt[24;66H6[2;16H[?12l[?25h[?25l[24;66H7[2;17H[?12l[?25h[?25lf[24;66H8[2;18H[?12l[?25h[?25lo[24;66H9[2;19H[?12l[?25h[?25lr[24;65H20[2;20H[?12l[?25h[?25l[2;19H[K[24;65H19[2;19H[?12l[?25h[?25l[2;18H[K[24;66H8[2;18H[?12l[?25h[?25l[2;17H[K[24;66H7[2;17H[?12l[?25h[?25l[24;66H6[2;16H[?12l[?25h[?25l[24;66H7[2;17H[?12l[?25h[?25lf[24;66H8[2;18H[?12l[?25h[?25lo[24;66H9[2;19H[?12l[?25h[?25lr[24;65H20[2;20H[?12l[?25h[?25lm[24;66H1[2;21H[?12l[?25h[?25la[24;66H2[2;22H[?12l[?25h[?25ll[24;66H3[2;23H[?12l[?25h[?25l[24;66H4[2;24H[?12l[?25h[?25ll[24;66H5[2;25H[?12l[?25h[?25le[24;66H6[2;26H[?12l[?25h[?25lt[24;66H7[2;27H[?12l[?25h[?25lt[24;66H8[2;28H[?12l[?25h[?25le[24;66H9[2;29H[?12l[?25h[?25lr[24;65H30[2;30H[?12l[?25h[?25l[24;66H1[2;31H[?12l[?25h[?25lf[24;66H2[2;32H[?12l[?25h[?25lo[24;66H3[2;33H[?12l[?25h[?25lr[24;66H4[2;34H[?12l[?25h[?25l[24;66H5[2;35H[?12l[?25h[?25ll[24;66H6[2;36H[?12l[?25h[?25la[24;66H7[2;37H[?12l[?25h[?25lb[24;66H8[2;38H[?12l[?25h[?25l[24;66H9[2;39H[?12l[?25h[?25lt[24;65H40[2;40H[?12l[?25h[?25lh[24;66H1[2;41H[?12l[?25h[?25lr[24;66H2[2;42H[?12l[?25h[?25le[24;66H3[2;43H[?12l[?25h[?25le[24;66H4[2;44H[?12l[?25h[?25l[24;66H5[2;45H[?12l[?25h[?25ls[24;66H6[2;46H[?12l[?25h[?25le[24;66H7[2;47H[?12l[?25h[?25ls[24;66H8[2;48H[?12l[?25h[?25ls[24;66H9[2;49H[?12l[?25h[?25li[24;65H50[2;50H[?12l[?25h[?25lo[24;66H1[2;51H[?12l[?25h[?25ln[24;66H2[2;52H[?12l[?25h[?25l[24;66H3[2;53H[?12l[?25h[?25lf[24;66H4[2;54H[?12l[?25h[?25lo[24;66H5[2;55H[?12l[?25h[?25lu[24;66H6[2;56H[?12l[?25h[?25lr[24;66H7[2;57H[?12l[?25h[?25l.[24;66H8[2;58H[?12l[?25h[24;1H[K[2;57H[?25l[24;63H2,57[10CAll[2;57H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"formal.1" [New] 2L, 77C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ mv formal.1 ~/letters/formal
+]0;Student@localhost:~[Student@localhost ~]$ ls ~/letters/formal
+[00m[00mformal.1[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cp ~/letters/formal/formal.1 ~/letters/formal/formal.2
+]0;Student@localhost:~[Student@localhost ~]$ ls ~/letters/formal/formal[K[K[K[K[K[K
+[00m[00mformal.1[00m  [00mformal.2[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ vi ~/letters/formal/formal.2
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"~/letters/formal/formal.2" 2L, 77C[1;25HFormal.1 Letter
+This is a short formal letter for lab three session four.
+[1m[34m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,4-25[8CAll[1;25H[?12l[?25h[?25l[24;65H5-26[1;26H[?12l[?25h[?25l[24;65H6-27[1;27H[?12l[?25h[?25l[24;65H7-28[1;28H[?12l[?25h[?25l[24;65H8-29[1;29H[?12l[?25h[?25l[24;65H9-30[1;30H[?12l[?25h[?25l[24;65H10-31[1;31H[?12l[?25h[?25l[24;66H1-32[1;32H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,11-32[7CAll[1;32H[?12l[?25h[?25l21 Letter[24;66H2-33[1;33H[?12l[?25h[?25l Letter[1;40H[K[1;33H[?12l[?25h[?25l: Letter[24;66H3-34[1;34H[?12l[?25h[?25lw Letter[24;66H4-35[1;35H[?12l[?25h[?25lq Letter[24;66H5-36[1;36H[?12l[?25h[?25l Letter[1;42H[K[24;66H4-35[1;35H[?12l[?25h[?25l Letter[1;41H[K[24;66H3-34[1;34H[?12l[?25h[?25l Letter[1;40H[K[24;66H2-33[1;33H[?12l[?25h[24;1H[K[1;32H[?25l22[24;63H1,12-33[7CAll[1;33H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[24;3H[K[24;3H[?12l[?25h[?25l[24;2H[K[24;2H[?12l[?25h [?25l[61C1,12-33[7CAll[1;33H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H1,12-33[7CAll[1;33H[?12l[?25h[?25lLetter[1;39H[K[1;33H[?12l[?25h[?25l Letter[24;66H3-34[1;34H[?12l[?25h[24;1H[K[1;33H[?25l[24;63H1,12-33[7CAll[1;33H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"letters/formal/formal.2" 2L, 77C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ ls[K[Kmore ~/letters/formal/formal*
+::::::::::::::
+/home/Student/letters/formal/formal.1
+::::::::::::::
+			Formal.1 Letter
+This is a short formal letter for lab three session four.
+[7m--More--(Next file: /home/Student/letters/formal/formal.2)[m::::::::::::::[K
+/home/Student/letters/formal/formal.2
+::::::::::::::
+			Formal.2 Letter
+This is a short formal letter for lab three session four.
+]0;Student@localhost:~[Student@localhost ~]$ mkdir busLetters[K[K[K[K[K[K[K[K[K[K-p ~/busLetters
+]0;Student@localhost:~[Student@localhost ~]$ mv ~/letters/formal/* ~/busLetters/*[K
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34massignments[00m     [00mchap1oddexer[00m   [00mchap3labII[00m     [00mhw4.bk[00m           [00mpratt.3.II.txt[00m
+[00;34mbackups[00m         [00mchap3[00m          [00;34mDesktop[00m        [00mlab3[00m             [00mpratt3.IV.txt[00m
+[00;34mbusLetters[00m      [00mchap3evenexer[00m  [00mgtsybrgII.txt[00m  [00;34mletters[00m          [00;36mreport[00m
+[00mchap1exercises[00m  [00mchap3lab2[00m      [00mgtysbrg.txt[00m    [00mpratt.3.III.txt[00m  [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls ~/busLetters
+[00m[00mformal.1[00m  [00mformal.2[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ rm ~/busLetters/formal*[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls ~/letters/formal
+[00m[m]0;Student@localhost:~[Student@localhost ~]$ mv ~/busLetters/formal* ~/letters/formal/[4h/[4l[Student@localhost ~]$ mv ~/busLetters/formal/*[Student@localhost ~]$ mv ~/busLetters/formal/* [Student@localhost ~]$ mv ~/busLetters/formal/* ~[Student@localhost ~]$ mv ~/busLetters/formal/* ~/[Student@localhost ~]$ mv ~/busLetters/formal/* ~/l[Student@localhost ~]$ mv ~/busLetters/formal/* ~/le[Student@localhost ~]$ mv ~/busLetters/formal/* ~/let[Student@localhost ~]$ mv ~/busLetters/formal/* ~/lett[Student@localhost ~]$ mv ~/busLetters/formal/* ~/lette[Student@localhost ~]$ mv ~/busLetters/formal/* ~/letter[Student@localhost ~]$ mv ~/busLetters/formal/* ~/letters[Student@localhost ~]$ mv ~/busLetters/formal/* ~/letters/[Student@localhost ~]$ mv ~/busLetters/formal/* ~/letters/f[Student@localhost ~]$ mv ~/busLetters/formal/* ~/letters/fo[Student@localhost ~]$ mv ~/busLetters/formal/* ~/letters/for[Student@localhost ~]$ mv ~/busLetters/formal/* ~/letters/form[Student@localhost ~]$ mv ~/busLetters/formal/* ~/letters/forma[Student@localhost ~]$ mv ~/busLetters/formal/* ~/letters/formal[Student@localhost ~]$ mv ~/busLetters/formal/* ~/letters/formal/
+mv: cannot stat `/home/Student/busLetters/formal/*': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ mv ~/busletters/formal/* ~/letters/formal/*
+mv: cannot stat `/home/Student/busletters/formal/*': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ mv ![K~/busLetters/formal* ~/letters/formal/
+]0;Student@localhost:~[Student@localhost ~]$ ls ~/busLetters
+[00m[m]0;Student@localhost:~[Student@localhost ~]$ ls ~/letters/formal/
+[00m[00mformal.1[00m  [00mformal.2[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ mv ~/letters/formal/ ~/busLetters
+]0;Student@localhost:~[Student@localhost ~]$ sl[K[Kls ~/letters/formal/
+[00mls: /home/Student/letters/formal/: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls ~/busLetters
+[00m[00;34mformal[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls ~/busLetters/formal/
+[00m[00mformal.1[00m  [00mformal.2[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -lR|more
+.:
+total 372
+drwxrwxr-x  2 Student Student  4096 Apr 21 08:21 assignments
+drwxrwxr-x  2 Student Student 16384 Apr 24 08:16 backups
+drwxrwxr-x  3 Student Student  4096 Apr 24 08:49 busLetters
+-rw-rw-r--  1 Student Student   504 Apr 23 16:11 chap1exercises
+-rw-rw-r--  1 Student Student 10725 Apr 23 16:18 chap1oddexer
+-rw-rw-r--  1 Student Student 87182 Apr 23 18:15 chap3
+-rw-rw-r--  1 Student Student  5559 Apr 23 16:33 chap3evenexer
+-rw-rw-r--  1 Student Student 61991 Apr 23 17:15 chap3lab2
+-rw-rw-r--  1 Student Student  1497 Apr 23 16:35 chap3labII
+drwxr-xr-x  2 Student Student  4096 Jul 27  2005 Desktop
+-rw-rw-r--  1 Student Student  1557 Apr 21 08:12 gtsybrgII.txt
+-rw-rw-r--  1 Student Student   476 Apr 21 07:52 gtysbrg.txt
+-rw-rw-r--  1 Student Student   929 Apr 23 17:03 hw4.bk
+-rw-rw-r--  1 Student Student  4615 Apr 21 08:48 lab3
+drwxrwxr-x  3 Student Student  4096 Apr 24 08:49 letters
+-rw-rw-r--  1 Student Student 13534 Apr 24 08:27 pratt.3.III.txt
+-rw-rw-r--  1 Student Student  9635 Apr 24 07:59 pratt.3.II.txt
+-rw-rw-r--  1 Student Student 20480 Apr 24 08:49 pratt3.IV.txt
+lrwxrwxrwx  1 Student Student     1 Apr 23 16:30 report -> /
+drwxrwxr-x  6 Student Student  4096 Apr 21 08:35 reports
+
+[7m--More--[m./assignments:
+total 0
+
+./backups:
+total 24
+-rw-rw-r--  1 Student Student 929 Apr 24 08:16 hw4
+-rw-rw-r--  1 Student Student 929 Apr 24 08:16 hw4.bk
+-rw-rw-r--  1 Student Student 929 Apr 24 08:16 hw4HL
+
+./busLetters:
+total 8
+drwxrwxr-x  2 Student Student 4096 Apr 24 08:49 formal
+
+./busLetters/formal:
+total 16
+-rw-rw-r--  1 Student Student 77 Apr 24 08:41 formal.1
+-rw-rw-r--  1 Student Student 77 Apr 24 08:43 formal.2
+
+./Desktop:
+total 0
+
+./letters:
+total 8
+[7m--More--[mdrwxrwxr-x  2 Student Student 4096 Apr 24 08:39 friendly
+
+./letters/friendly:
+total 8
+-rw-rw-r--  1 Student Student 60 Apr 24 08:39 friend.1
+
+./reports:
+total 32
+drwxrwxr-x  3 Student Student 4096 Apr 21 08:35 assignments
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:33 business
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:33 personal
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:33 school
+
+./reports/assignments:
+total 8
+drwxrwxr-x  4 Student Student 4096 Apr 24 08:38 UNIX
+
+./reports/assignments/UNIX:
+total 44
+-rw-rw-r--  1 Student Student  929 Apr 24 08:24 hw4
+-rw-rw-r--  1 Student Student  929 Apr 24 07:51 hw4.bak
+-rw-rw-r--  1 Student Student  929 Apr 23 17:00 hw4HL
+lrwxrwxrwx  1 Student Student    3 Apr 24 08:26 hw4SL -> hw4
+[7m--More--[mdrwxrwxr-x  2 Student Student 4096 Apr 21 08:37 HWs
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:38 Projects
+
+./reports/assignments/UNIX/HWs:
+total 0
+
+./reports/assignments/UNIX/Projects:
+total 0
+
+./reports/business:
+total 0
+
+./reports/personal:
+total 0
+
+./reports/school:
+total 0
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Mon 24 Apr 2006 08:50:51 AM EDT

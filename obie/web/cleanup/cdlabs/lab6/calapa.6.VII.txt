@@ -1,0 +1,462 @@
+Script started on Sun 30 Apr 2006 04:18:18 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cp /etc/passwd > Ch6s7f1
+cp: missing destination file
+Try `cp --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cp /etc pa[K[K[K[K[K[K[K[K[K[Kcp /etc/passwd > Ch6s7f1man cut[Kvi Ch6s7f2[4hso[4lrt[Student@localhost ~]$ sort Ch6s7f2[4hcut -f1,3 -d"/" Ch6s7[4lf1 >[Student@localhost ~]$ cut -f1,3 -d"/" Ch6s7f1 > Ch6s7f2[8P2 -d"/"[Student@localhost ~]$ cut -f1,2 -d"/" > Ch6s7f2[Student@localhost ~]$ [8Pwc -l /etc/passwdcp /etc/passwd Ch6s7f1script calapa.6.VII.txt[7Pmore /etc/passwddir[Krm lab4~[4hfi[4lnd[Student@localhost ~]$ find lab4~[2Prm[Student@localhost ~]$ rm lab4~[5Pdirmore /etc/passwdscript calapa.6.VII.txt[7Pmore /etc/passwdscript calapa.6.VII.txt[1Pcp /etc/passwd Ch6s7f1
+]0;Student@localhost:~[Student@localhost ~]$ cp /etc/passwd Ch6s7f1> Ch6s7f1man cut[Kvi Ch6s7f2[4hso[4lrt[Student@localhost ~]$ sort Ch6s7f2[4hcut -f1,3 -d"/" Ch6s7[4lf1 >[Student@localhost ~]$ cut -f1,3 -d"/" Ch6s7f1 > Ch6s7f2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,3 -d"/" Ch6s7f1 > Ch6s7f2[Student@localhost ~]$ c[11Pp /etc/passwd Ch6s7f1> Ch6s7f1man cut[Kvi Ch6s7f2[4hso[4lrt[Student@localhost ~]$ sort Ch6s7f2[4hcut -f1,3 -d"/" Ch6s7[4lf1 >[Student@localhost ~]$ cut -f1,3 -d"/" Ch6s7f1 > Ch6s7f2[Student@localhost ~]$ [21Psort[Student@localhost ~]$ sort Ch6s7f2
+adm:x:3:4:adm:/adm:
+bin:x:1:1:bin:/sbin
+daemon:x:2:2:daemon:/sbin
+dbus:x:81:81:System message bus:/sbin
+ftp:x:14:50:FTP User:/ftp:
+games:x:12:100:games:/games:
+gdm:x:42:42::/gdm:
+gopher:x:13:30:gopher:/gopher:
+haldaemon:x:68:68:HAL daemon:/sbin
+halt:x:7:0:halt:/sbin
+lp:x:4:7:lp:/spool
+mailnull:x:47:47::/spool
+mail:x:8:12:mail:/spool
+named:x:25:25:Named:/named:
+netdump:x:34:34:Network Crash Dump user:/crash:
+news:x:9:13:news:/news:
+nfsnobody:x:65534:65534:Anonymous NFS User:/lib
+nobody:x:99:99:Nobody:/sbin
+nscd:x:28:28:NSCD Daemon:/sbin
+ntp:x:38:38::/ntp:
+operator:x:11:0:operator:/sbin
+pcap:x:77:77::/arpwatch:
+root:x:0:0:root:/bin
+rpcuser:x:29:29:RPC Service User:/lib
+rpc:x:32:32:Portmapper RPC user:/sbin
+rpm:x:37:37::/lib
+shutdown:x:6:0:shutdown:/sbin
+smmsp:x:51:51::/spool
+sshd:x:74:74:Privilege-separated SSH:/empty
+Student:x:500:500:Computer Science Student:/Student:
+sync:x:5:0:sync:/bin
+uucp:x:10:14:uucp:/spool
+vcsa:x:69:69:virtual console memory owner:/sbin
+xfs:x:43:43:X Font Server:/X11
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6s7f2[4hcut -f1,3 -d"/" Ch6s7[4lf1 >[Student@localhost ~]$ cut -f1,3 -d"/" Ch6s7f1 > Ch6s7f2[Student@localhost ~]$ c[11Pp /etc/passwd Ch6s7f1> Ch6s7f1man cut[Kvi Ch6s7f2[4hso[4lrt[Student@localhost ~]$ sort Ch6s7f2[2Pvi[Student@localhost ~]$ vi Ch6s7f2
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch6s7f2" 34L, 1006C[1;1Hroot:x:0:0:root:/bin
+bin:x:1:1:bin:/sbin
+daemon:x:2:2:daemon:/sbin
+adm:x:3:4:adm:/adm:
+lp:x:4:7:lp:/spool
+sync:x:5:0:sync:/bin
+shutdown:x:6:0:shutdown:/sbin
+halt:x:7:0:halt:/sbin
+mail:x:8:12:mail:/spool
+news:x:9:13:news:/news:
+uucp:x:10:14:uucp:/spool
+operator:x:11:0:operator:/sbin
+games:x:12:100:games:/games:
+gopher:x:13:30:gopher:/gopher:
+ftp:x:14:50:FTP User:/ftp:
+nobody:x:99:99:Nobody:/sbin
+dbus:x:81:81:System message bus:/sbin
+vcsa:x:69:69:virtual console memory owner:/sbin
+rpm:x:37:37::/lib
+haldaemon:x:68:68:HAL daemon:/sbin
+pcap:x:77:77::/arpwatch:
+nscd:x:28:28:NSCD Daemon:/sbin
+named:x:25:25:Named:/named:[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch6s7f2" 34L, 1006C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Chs7f2All
+]0;Student@localhost:~[Student@localhost ~]$ head -11 Ch6s7f2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi Chs7f2All
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Chs7f2All" 34L, 1006C[1;1Hroot x 0 0 root /bin
+bin x 1 1 bin /sbin
+daemon x 2 2 daemon /sbin
+adm x 3 4 adm /adm
+lp x 4 7 lp /spool
+sync x 5 0 sync /bin
+shutdown x 6 0 shutdown /sbin
+halt x 7 0 halt /sbin
+mail x 8 12 mail /spool
+news x 9 13 news /news
+uucp x 10 14 uucp /spool
+operator x 11 0 operator /sbin
+games x 12 100 games /games
+gopher x 13 30 gopher /gopher
+ftp x 14 50 FTP User /ftp
+nobody x 99 99 Nobody /sbin
+dbus x 81 81 System message bus /sbin
+vcsa x 69 69 virtual console memory owner /sbin
+rpm x 37 37  /lib
+haldaemon x 68 68 HAL daemon /sbin
+pcap x 77 77  /arpwatch
+nscd x 28 28 NSCD Daemon /sbin
+named x 25 25 Named /named[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25hw[?25l[?12l[?25h[?25l [?12l[?25hC[?25l[?12l[?25hh[?25l[?12l[?25h6[?25l[?12l[?25hs[?25l[?12l[?25h7[?25l[?12l[?25hf[?25l[?12l[?25h2[?25l[?12l[?25hA[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25h[?25l"Ch6s7f2All" [New] 34L, 1006C written[25C1,1[11CTop[24;63H[K[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;1HEntering Ex mode.  Type "visual" to go to Normal mode.[24;63H[K[?12l[?25h[24;1H
+:q
+[24;1H[K[24;1H[?1l>[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Chs7f2All[4htr ":" " " < Ch6s7f2[4l >[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Chs7[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Chs7f[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Chs7f2[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Chs7f2A[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Chs7f2Al[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [20Pvi[Student@localhost ~]$ vi Chs7f2All[Kvi Chs7f2All[Student@localhost ~]$ vi Ch6s7f2All
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch6s7f2All" 34L, 1006C[1;1Hroot x 0 0 root /bin
+bin x 1 1 bin /sbin
+daemon x 2 2 daemon /sbin
+adm x 3 4 adm /adm
+lp x 4 7 lp /spool
+sync x 5 0 sync /bin
+shutdown x 6 0 shutdown /sbin
+halt x 7 0 halt /sbin
+mail x 8 12 mail /spool
+news x 9 13 news /news
+uucp x 10 14 uucp /spool
+operator x 11 0 operator /sbin
+games x 12 100 games /games
+gopher x 13 30 gopher /gopher
+ftp x 14 50 FTP User /ftp
+nobody x 99 99 Nobody /sbin
+dbus x 81 81 System message bus /sbin
+vcsa x 69 69 virtual console memory owner /sbin
+rpm x 37 37  /lib
+haldaemon x 68 68 HAL daemon /sbin
+pcap x 77 77  /arpwatch
+nscd x 28 28 NSCD Daemon /sbin
+named x 25 25 Named /named[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Ch6s7f2All[1Ps7f2All[4htr ":" " " < Ch6s7f2[4l >[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [20Pvi[Student@localhost ~]$ vi Chs7f2All6s7f2All[Khead -11 Ch6s7f2All > ch6s7f1[K[K[K[K_![K1
+]0;Student@localhost:~[Student@localhost ~]$ head -22 [K[K[K[K[K[K[K[K[Kmore Ch6_1
+Ch6_1: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ more ch6_1
+root x 0 0 root /bin
+bin x 1 1 bin /sbin
+daemon x 2 2 daemon /sbin
+adm x 3 4 adm /adm 
+lp x 4 7 lp /spool
+sync x 5 0 sync /bin
+shutdown x 6 0 shutdown /sbin
+halt x 7 0 halt /sbin
+mail x 8 12 mail /spool
+news x 9 13 news /news 
+uucp x 10 14 uucp /spool
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6s7f2All
+root x 0 0 root /bin
+bin x 1 1 bin /sbin
+daemon x 2 2 daemon /sbin
+adm x 3 4 adm /adm 
+lp x 4 7 lp /spool
+sync x 5 0 sync /bin
+shutdown x 6 0 shutdown /sbin
+halt x 7 0 halt /sbin
+mail x 8 12 mail /spool
+news x 9 13 news /news 
+uucp x 10 14 uucp /spool
+operator x 11 0 operator /sbin
+games x 12 100 games /games 
+gopher x 13 30 gopher /gopher 
+ftp x 14 50 FTP User /ftp 
+nobody x 99 99 Nobody /sbin
+dbus x 81 81 System message bus /sbin
+vcsa x 69 69 virtual console memory owner /sbin
+rpm x 37 37  /lib
+haldaemon x 68 68 HAL daemon /sbin
+pcap x 77 77  /arpwatch 
+nscd x 28 28 NSCD Daemon /sbin
+named x 25 25 Named /named 
+[7m--More--(61%)[mnetdump x 34 34 Network Crash Dump user /crash 
+[7m--More--(66%)[msshd x 74 74 Privilege-separated SSH /empty
+[7m--More--(70%)[mrpc x 32 32 Portmapper RPC user /sbin
+[7m--More--(74%)[mmailnull x 47 47  /spool
+[7m--More--(77%)[msmmsp x 51 51  /spool
+[7m--More--(79%)[mrpcuser x 29 29 RPC Service User /lib
+[7m--More--(83%)[mnfsnobody x 65534 65534 Anonymous NFS User /lib
+[7m--More--(87%)[mxfs x 43 43 X Font Server /X11
+[7m--More--(90%)[mntp x 38 38  /ntp 
+[7m--More--(92%)[mgdm x 42 42  /gdm 
+[7m--More--(94%)[mStudent x 500 500 Computer Science Student /Student 
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6s7f2
+root:x:0:0:root:/bin
+bin:x:1:1:bin:/sbin
+daemon:x:2:2:daemon:/sbin
+adm:x:3:4:adm:/adm:
+lp:x:4:7:lp:/spool
+sync:x:5:0:sync:/bin
+shutdown:x:6:0:shutdown:/sbin
+halt:x:7:0:halt:/sbin
+mail:x:8:12:mail:/spool
+news:x:9:13:news:/news:
+uucp:x:10:14:uucp:/spool
+operator:x:11:0:operator:/sbin
+games:x:12:100:games:/games:
+gopher:x:13:30:gopher:/gopher:
+ftp:x:14:50:FTP User:/ftp:
+nobody:x:99:99:Nobody:/sbin
+dbus:x:81:81:System message bus:/sbin
+vcsa:x:69:69:virtual console memory owner:/sbin
+rpm:x:37:37::/lib
+haldaemon:x:68:68:HAL daemon:/sbin
+pcap:x:77:77::/arpwatch:
+nscd:x:28:28:NSCD Daemon:/sbin
+named:x:25:25:Named:/named:
+[7m--More--(61%)[mnetdump:x:34:34:Network Crash Dump user:/crash:
+[7m--More--(66%)[msshd:x:74:74:Privilege-separated SSH:/empty
+[7m--More--(70%)[mrpc:x:32:32:Portmapper RPC user:/sbin
+[7m--More--(74%)[mmailnull:x:47:47::/spool
+[7m--More--(77%)[msmmsp:x:51:51::/spool
+[7m--More--(79%)[mrpcuser:x:29:29:RPC Service User:/lib
+[7m--More--(83%)[mnfsnobody:x:65534:65534:Anonymous NFS User:/lib
+[7m--More--(87%)[mxfs:x:43:43:X Font Server:/X11
+[7m--More--(90%)[mntp:x:38:38::/ntp:
+[7m--More--(92%)[mgdm:x:42:42::/gdm:
+[7m--More--(94%)[mStudent:x:500:500:Computer Science Student:/Student:
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2All
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2All[Student@localhost ~]$ [16Pmore Ch6s7f2All
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6s7f2All[4hsort Ch6s7f2A[4lll >[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2All[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s7f2All[Kmore Ch6s7f2All[4hsort Ch6s7f2A[4lll >[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2All[Student@localhost ~]$ [16Pmore Ch6s7f2
+root:x:0:0:root:/bin
+bin:x:1:1:bin:/sbin
+daemon:x:2:2:daemon:/sbin
+adm:x:3:4:adm:/adm:
+lp:x:4:7:lp:/spool
+sync:x:5:0:sync:/bin
+shutdown:x:6:0:shutdown:/sbin
+halt:x:7:0:halt:/sbin
+mail:x:8:12:mail:/spool
+news:x:9:13:news:/news:
+uucp:x:10:14:uucp:/spool
+operator:x:11:0:operator:/sbin
+games:x:12:100:games:/games:
+gopher:x:13:30:gopher:/gopher:
+ftp:x:14:50:FTP User:/ftp:
+nobody:x:99:99:Nobody:/sbin
+dbus:x:81:81:System message bus:/sbin
+vcsa:x:69:69:virtual console memory owner:/sbin
+rpm:x:37:37::/lib
+haldaemon:x:68:68:HAL daemon:/sbin
+pcap:x:77:77::/arpwatch:
+nscd:x:28:28:NSCD Daemon:/sbin
+named:x:25:25:Named:/named:
+[7m--More--(61%)[mnetdump:x:34:34:Network Crash Dump user:/crash:
+[7m--More--(66%)[msshd:x:74:74:Privilege-separated SSH:/empty
+[7m--More--(70%)[mrpc:x:32:32:Portmapper RPC user:/sbin
+[7m--More--(74%)[mmailnull:x:47:47::/spool
+[7m--More--(77%)[msmmsp:x:51:51::/spool
+[7m--More--(79%)[mrpcuser:x:29:29:RPC Service User:/lib
+[7m--More--(83%)[mnfsnobody:x:65534:65534:Anonymous NFS User:/lib
+[7m--More--(87%)[mxfs:x:43:43:X Font Server:/X11
+[7m--More--(90%)[mntp:x:38:38::/ntp:
+[7m--More--(92%)[mgdm:x:42:42::/gdm:
+[7m--More--(94%)[mStudent:x:500:500:Computer Science Student:/Student:
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6s7f2All
+]0;Student@localhost:~[Student@localhost ~]$ sort [K[K[K[K[Kmore Ch6s7f2All[KAll[4hsort Ch6s7f2A[4lll >[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2All[Student@localhost ~]$ sort Ch6s7f2All > [Student@localhost ~]$ sort Ch6s7f2All > C[Student@localhost ~]$ sort Ch6s7f2All > Ch[Student@localhost ~]$ sort Ch6s7f2All > Ch6[Student@localhost ~]$ sort Ch6s7f2All > Ch6s[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2A[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2Al[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2All[K[K[Ksort; cp Ch6s7f2sort > [K[Kch6s7f2All
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort ch6s7f2All[Student@localhost ~]$ more Ch6s7f2All[K
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6s7f2All
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6s7f2Allmore[Student@localhost ~]$ more Ch6s7f2All[K[K[K
+root:x:0:0:root:/bin
+bin:x:1:1:bin:/sbin
+daemon:x:2:2:daemon:/sbin
+adm:x:3:4:adm:/adm:
+lp:x:4:7:lp:/spool
+sync:x:5:0:sync:/bin
+shutdown:x:6:0:shutdown:/sbin
+halt:x:7:0:halt:/sbin
+mail:x:8:12:mail:/spool
+news:x:9:13:news:/news:
+uucp:x:10:14:uucp:/spool
+operator:x:11:0:operator:/sbin
+games:x:12:100:games:/games:
+gopher:x:13:30:gopher:/gopher:
+ftp:x:14:50:FTP User:/ftp:
+nobody:x:99:99:Nobody:/sbin
+dbus:x:81:81:System message bus:/sbin
+vcsa:x:69:69:virtual console memory owner:/sbin
+rpm:x:37:37::/lib
+haldaemon:x:68:68:HAL daemon:/sbin
+pcap:x:77:77::/arpwatch:
+nscd:x:28:28:NSCD Daemon:/sbin
+named:x:25:25:Named:/named:
+[7m--More--(61%)[mnetdump:x:34:34:Network Crash Dump user:/crash:
+[7m--More--(66%)[msshd:x:74:74:Privilege-separated SSH:/empty
+[7m--More--(70%)[mrpc:x:32:32:Portmapper RPC user:/sbin
+[7m--More--(74%)[mmailnull:x:47:47::/spool
+[7m--More--(77%)[msmmsp:x:51:51::/spool
+[7m--More--(79%)[mrpcuser:x:29:29:RPC Service User:/lib
+[7m--More--(83%)[mnfsnobody:x:65534:65534:Anonymous NFS User:/lib
+[7m--More--(87%)[mxfs:x:43:43:X Font Server:/X11
+[7m--More--(90%)[mntp:x:38:38::/ntp:
+[7m--More--(92%)[mgdm:x:42:42::/gdm:
+[7m--More--(94%)[mStudent:x:500:500:Computer Science Student:/Student:
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6s7f2sort Ch6s7f2Allmore[Student@localhost ~]$ more Ch6s7f2Allsort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort ch6s7f2All[Student@localhost ~]$ more Ch6s7f2All[K[KAll[4hsort Ch6s7f2A[4lll >[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2All[Student@localhost ~]$ [16Pmore Ch6s7f2All[5Pch6_1Ch6_1head -11 Ch6s7f2All > ch6_1[Student@localhost ~]$ [14Pvi Ch6s7f2All[1Ps7f2All[4htr ":" " " < Ch6s7f2[4l >[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ vi Ch6s7f2[Ktr ":" " " < Ch6s7f2 > Chs7f2All
+]0;Student@localhost:~[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [20Pmore Ch6s7f2sort Ch6s7f2Allmore[Student@localhost ~]$ more Ch6s7f2All
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6s7f2Alltr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [20Pmore Ch6s7f2sort Ch6s7f2Allmore[Student@localhost ~]$ more Ch6s7f2Allsort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort ch6s7f2All[Student@localhost ~]$ more Ch6s7f2All[Ksort[Student@localhost ~]$ sort Ch6s7f2All[3Pmore Ch6s7f2tr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [17Pmore Ch6s7f2All[Kmore Ch6s7f2Alltr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [20Pmore Ch6s7f2sort Ch6s7f2Allmore[Student@localhost ~]$ more Ch6s7f2Allsort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort ch6s7f2All[Student@localhost ~]$ more Ch6s7f2All[K[KAll[4hsort Ch6s7f2A[4lll >[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2All[Student@localhost ~]$ [16Pmore Ch6s7f2All[5Pch6_1Ch6_1head -11 Ch6s7f2All > ch6_1[Student@localhost ~]$ [14Pvi Ch6s7f2All[1Ps7f2All[4htr ":" " " < Ch6s7f2[4l >[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ vi Ch6s7f2[K[4hso[4lrt[Student@localhost ~]$ sort Ch6s7f2[4hcut -f1,3 -d"/" Ch6s7[4lf1 >[Student@localhost ~]$ cut -f1,3 -d"/" Ch6s7f1 > Ch6s7f2[Student@localhost ~]$ c[11Pp /etc/passwd Ch6s7f1ut -f1,3 -d"/" Ch6s7f1 > Ch6s7f2[Student@localhost ~]$ [21Psort[Student@localhost ~]$ sort Ch6s7f2[2Pvi[Student@localhost ~]$ vi Ch6s7f2tr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [20Pvi[Student@localhost ~]$ vi Chs7f2All6s7f2Allhead -11 Ch6s7f2All > ch6_1[Student@localhost ~]$ [17Pmore Ch6_1ch6_1Ch6s7f2All[Ksort Ch6s7f2All > Ch6s7f2All[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s7f2All[4hsort Ch6s7f2A[4lll >[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2All[Student@localhost ~]$ [16Pmore Ch6s7f2sort Ch6s7f2All > Ch6s7f2All[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s7f2All[KAllsort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort ch6s7f2All[Student@localhost ~]$ more Ch6s7f2All[Ksort[Student@localhost ~]$ sort Ch6s7f2All[3Pmore Ch6s7f2tr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [17Pmore Ch6s7f2All[Kmore Ch6s7f2Alltr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [20Pmore Ch6s7f2sort Ch6s7f2All[3Pmore Ch6s7f2tr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [20Pmore Ch6s7f2sort Ch6s7f2Allmore[Student@localhost ~]$ more Ch6s7f2Allsort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort ch6s7f2All[Student@localhost ~]$ more Ch6s7f2All[Ksort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort ch6s7f2All[Student@localhost ~]$ more Ch6s7f2All[Ksort[Student@localhost ~]$ sort Ch6s7f2All[3Pmore Ch6s7f2tr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [17Pmore Ch6s7f2All[Kmore Ch6s7f2Alltr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [20Pmore Ch6s7f2sort Ch6s7f2Allmore[Student@localhost ~]$ more Ch6s7f2Allsort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort ch6s7f2All[Student@localhost ~]$ more Ch6s7f2All[K[KAll[4hsort Ch6s7f2A[4lll >[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2All[Student@localhost ~]$ [16Pmore Ch6s7f2All[Ksort Ch6s7f2All > Ch6s7f2All[Student@localhost ~]$ [13Pmore[Student@localhost ~]$ more Ch6s7f2All[KAllsort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort ch6s7f2All[Student@localhost ~]$ more Ch6s7f2All[Ksort[Student@localhost ~]$ sort Ch6s7f2All[3Pmore Ch6s7f2tr ":" " " < Ch6s7f2 > Chs7f2All6s7f2All
+]0;Student@localhost:~[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Ch6s7f2All[Student@localhost ~]$ [18Pmore[Student@localhost ~]$ more Ch6s7f2Alltr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [20Pmore Ch6s7f2sort Ch6s7f2Allmore[Student@localhost ~]$ more Ch6s7f2Allsort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort ch6s7f2All[Student@localhost ~]$ more Ch6s7f2All[K[KAll[4hsort Ch6s7f2A[4lll >[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2All[Student@localhost ~]$ [16Pmore Ch6s7f2All[5Pch6_1Ch6s7f2All[KAll
+root x 0 0 root /bin
+bin x 1 1 bin /sbin
+daemon x 2 2 daemon /sbin
+adm x 3 4 adm /adm 
+lp x 4 7 lp /spool
+sync x 5 0 sync /bin
+shutdown x 6 0 shutdown /sbin
+halt x 7 0 halt /sbin
+mail x 8 12 mail /spool
+news x 9 13 news /news 
+uucp x 10 14 uucp /spool
+operator x 11 0 operator /sbin
+games x 12 100 games /games 
+gopher x 13 30 gopher /gopher 
+ftp x 14 50 FTP User /ftp 
+nobody x 99 99 Nobody /sbin
+dbus x 81 81 System message bus /sbin
+vcsa x 69 69 virtual console memory owner /sbin
+rpm x 37 37  /lib
+haldaemon x 68 68 HAL daemon /sbin
+pcap x 77 77  /arpwatch 
+nscd x 28 28 NSCD Daemon /sbin
+named x 25 25 Named /named 
+[7m--More--(61%)[mnetdump x 34 34 Network Crash Dump user /crash 
+[7m--More--(66%)[msshd x 74 74 Privilege-separated SSH /empty
+[7m--More--(70%)[mrpc x 32 32 Portmapper RPC user /sbin
+[7m--More--(74%)[mmailnull x 47 47  /spool
+[7m--More--(77%)[msmmsp x 51 51  /spool
+[7m--More--(79%)[mrpcuser x 29 29 RPC Service User /lib
+[7m--More--(83%)[mnfsnobody x 65534 65534 Anonymous NFS User /lib
+[7m--More--(87%)[mxfs x 43 43 X Font Server /X11
+[7m--More--(90%)[mntp x 38 38  /ntp 
+[7m--More--(92%)[mgdm x 42 42  /gdm 
+[7m--More--(94%)[mStudent x 500 500 Computer Science Student /Student 
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6s7f2All[4htr ":" " " < Ch6s7[4lf2 >[Student@localhost ~]$ tr ":" " " < Ch6s7f2 > Ch6s7f2All[Student@localhost ~]$ [18Pmore[Student@localhost ~]$ more Ch6s7f2Alltr ":" " " < Ch6s7f2 > Chs7f2All[Student@localhost ~]$ [20Pmore Ch6s7f2sort Ch6s7f2Allmore[Student@localhost ~]$ more Ch6s7f2Allsort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort ch6s7f2All
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort ch6s7f2All[1Ph6s7f2AllCh6s7f2All
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6s7f2All > Ch6s7f2sort; cp Ch6s7f2sort Ch6s7f2Allch6s7f2All[Student@localhost ~]$ more Ch6s7f2All[K
+adm x 3 4 adm /adm 
+bin x 1 1 bin /sbin
+daemon x 2 2 daemon /sbin
+dbus x 81 81 System message bus /sbin
+ftp x 14 50 FTP User /ftp 
+games x 12 100 games /games 
+gdm x 42 42  /gdm 
+gopher x 13 30 gopher /gopher 
+haldaemon x 68 68 HAL daemon /sbin
+halt x 7 0 halt /sbin
+lp x 4 7 lp /spool
+mailnull x 47 47  /spool
+mail x 8 12 mail /spool
+named x 25 25 Named /named 
+netdump x 34 34 Network Crash Dump user /crash 
+news x 9 13 news /news 
+nfsnobody x 65534 65534 Anonymous NFS User /lib
+nobody x 99 99 Nobody /sbin
+nscd x 28 28 NSCD Daemon /sbin
+ntp x 38 38  /ntp 
+operator x 11 0 operator /sbin
+pcap x 77 77  /arpwatch 
+root x 0 0 root /bin
+[7m--More--(63%)[mrpcuser x 29 29 RPC Service User /lib
+[7m--More--(67%)[mrpc x 32 32 Portmapper RPC user /sbin
+[7m--More--(70%)[mrpm x 37 37  /lib
+[7m--More--(72%)[mshutdown x 6 0 shutdown /sbin
+[7m--More--(75%)[msmmsp x 51 51  /spool
+[7m--More--(77%)[msshd x 74 74 Privilege-separated SSH /empty
+[7m--More--(82%)[mStudent x 500 500 Computer Science Student /Student 
+[7m--More--(87%)[msync x 5 0 sync /bin
+[7m--More--(89%)[muucp x 10 14 uucp /spool
+[7m--More--(92%)[mvcsa x 69 69 virtual console memory owner /sbin
+[7m--More--(96%)[mxfs x 43 43 X Font Server /X11
+]0;Student@localhost:~[Student@localhost ~]$ head -11 > c66_1[K[K[K[Kh6_1
+
+]0;Student@localhost:~[Student@localhost ~]$ head -11 > ch6_1[Student@localhost ~]$ head -11 [4hC[4l[4hh[4l[4h6[4l[4hs[4l[4h7[4l[4hf[4l[4h2[4l[4hA[4l[4hl[4l[4hl[4l[4h [4l
+]0;Student@localhost:~[Student@localhost ~]$ more ch6_1
+adm x 3 4 adm /adm 
+bin x 1 1 bin /sbin
+daemon x 2 2 daemon /sbin
+dbus x 81 81 System message bus /sbin
+ftp x 14 50 FTP User /ftp 
+games x 12 100 games /games 
+gdm x 42 42  /gdm 
+gopher x 13 30 gopher /gopher 
+haldaemon x 68 68 HAL daemon /sbin
+halt x 7 0 halt /sbin
+lp x 4 7 lp /spool
+]0;Student@localhost:~[Student@localhost ~]$ head -22 ch6s7f2All > [K[K| cut [K[K[K[Ktail _11[K[K[K-11 > [Student@localhost ~]$ head -22 [1P[4hC[4l[Student@localhost ~]$ head -22 Ch[Student@localhost ~]$ head -22 Ch6[Student@localhost ~]$ head -22 Ch6s[Student@localhost ~]$ head -22 Ch6s7[Student@localhost ~]$ head -22 Ch6s7f[Student@localhost ~]$ head -22 Ch6s7f2[Student@localhost ~]$ head -22 Ch6s7f2A[Student@localhost ~]$ head -22 Ch6s7f2Al[Student@localhost ~]$ head -22 Ch6s7f2All[Student@localhost ~]$ head -22 Ch6s7f2All [Student@localhost ~]$ head -22 Ch6s7f2All |[Student@localhost ~]$ head -22 Ch6s7f2All | [Student@localhost ~]$ head -22 Ch6s7f2All | t[Student@localhost ~]$ head -22 Ch6s7f2All | ta[Student@localhost ~]$ head -22 Ch6s7f2All | tai[Student@localhost ~]$ head -22 Ch6s7f2All | tail[Student@localhost ~]$ head -22 Ch6s7f2All | tail [Student@localhost ~]$ head -22 Ch6s7f2All | tail -[Student@localhost ~]$ head -22 Ch6s7f2All | tail -1[Student@localhost ~]$ head -22 Ch6s7f2All | tail -11[Student@localhost ~]$ head -22 Ch6s7f2All | tail -11 [Student@localhost ~]$ head -22 Ch6s7f2All | tail -11 >[Student@localhost ~]$ head -22 Ch6s7f2All | tail -11 > [4hC[4l[4hh[4l[4h6[4l[4hs[4l[4h7[4l[4hf[4l[4h2[4l[4hA[4l[4hl[4l[4hl[4l[4h [4l[Student@localhost ~]$ head -22 Ch6s7f2All | tail -11 Ch6s7f2All >[Student@localhost ~]$ head -22 Ch6s7f2All | tail -11 Ch6s7f2All > ch_2
+]0;Student@localhost:~[Student@localhost ~]$ more ch_2
+rpcuser x 29 29 RPC Service User /lib
+rpc x 32 32 Portmapper RPC user /sbin
+rpm x 37 37  /lib
+shutdown x 6 0 shutdown /sbin
+smmsp x 51 51  /spool
+sshd x 74 74 Privilege-separated SSH /empty
+Student x 500 500 Computer Science Student /Student 
+sync x 5 0 sync /bin
+uucp x 10 14 uucp /spool
+vcsa x 69 69 virtual console memory owner /sbin
+xfs x 43 43 X Font Server /X11
+]0;Student@localhost:~[Student@localhost ~]$ tail -12 Ch6s7f2All > ch_3\
+> 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ tail -12 Ch6s7f2All > ch_3\[K
+]0;Student@localhost:~[Student@localhost ~]$ more ch_3
+root x 0 0 root /bin
+rpcuser x 29 29 RPC Service User /lib
+rpc x 32 32 Portmapper RPC user /sbin
+rpm x 37 37  /lib
+shutdown x 6 0 shutdown /sbin
+smmsp x 51 51  /spool
+sshd x 74 74 Privilege-separated SSH /empty
+Student x 500 500 Computer Science Student /Student 
+sync x 5 0 sync /bin
+uucp x 10 14 uucp /spool
+vcsa x 69 69 virtual console memory owner /sbin
+xfs x 43 43 X Font Server /X11
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch-1[K[K[K[Kch5_[K[K6_1 ch6_2 ch6_3 > ch6s7f3
+paste: ch6_2: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ paste ch6_1 ch6_2 ch6_3 > ch6s7f3[1P
+paste: ch6_3: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ paste ch6_1 ch_2 ch6_3 > ch6s7f3[1P
+]0;Student@localhost:~[Student@localhost ~]$ moe ch[K[Kch6s7f3
+bash: moe: command not found
+]0;Student@localhost:~[Student@localhost ~]$ moree ch6s7f3[4hr[4l
+adm x 3 4 adm /adm 	rpcuser x 29 29 RPC Service User /lib	root x 0 0 root 
+/bin
+bin x 1 1 bin /sbin	rpc x 32 32 Portmapper RPC user /sbin	rpcuser x 29 29 
+RPC Service User /lib
+daemon x 2 2 daemon /sbin	rpm x 37 37  /lib	rpc x 32 32 Portmapper R
+PC user /sbin
+dbus x 81 81 System message bus /sbin	shutdown x 6 0 shutdown /sbin	rpm x 37
+ 37  /lib
+ftp x 14 50 FTP User /ftp 	smmsp x 51 51  /spool	shutdown x 6 0 shutdown 
+/sbin
+games x 12 100 games /games 	sshd x 74 74 Privilege-separated SSH /empty	
+smmsp x 51 51  /spool
+gdm x 42 42  /gdm 	Student x 500 500 Computer Science Student /Student 	
+sshd x 74 74 Privilege-separated SSH /empty
+gopher x 13 30 gopher /gopher 	sync x 5 0 sync /bin	Student x 500 500 Comput
+er Science Student /Student 
+haldaemon x 68 68 HAL daemon /sbin	uucp x 10 14 uucp /spool	sync x 5
+ 0 sync /bin
+halt x 7 0 halt /sbin	vcsa x 69 69 virtual console memory owner /sbin	uucp x 1
+0 14 uucp /spool
+lp x 4 7 lp /spool	xfs x 43 43 X Font Server /X11	vcsa x 69 69 virtual con
+sole memory owner /sbin
+		xfs x 43 43 X Font Server /X11
+]0;Student@localhost:~[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ exit
+exit
+
+Script done on Sun 30 Apr 2006 04:50:22 PM EDT
+User /lib	root x 0 0 root 
+/bin
+bin x 1 1 bin /sbin	rpc x 32 32 Portmapper RPC user /sbin	rpcuser x 29 29 
+RPC Service User /lib
+daemon x 2 2 daemon /sbin	rpm x 37 37  /lib	rpc x 32 32 Portmapper R
+PC user /sbin
+dbus x 81 81 System message bus /sbin	shutdown x 6 0 shutdown /sbin	rpm x 37
+ 37  /lib
+ftp x 14 50 FTP User /ftp 	smmsp x 51 51  /spool	shutdown x 6 0 shutdown 
+/sbin
+games x 12 100 games /games 	sshd x 74 74 Privilege-separated SSH /empty	
+smmsp x 51 51  /spool
+gdm x 42 42  /gdm 	Student x 500 500 Computer Science Student /Student 	
+sshd x 74 74 Privilege-separated SSH /empty
+gopher x 13 30 gopher /gopher 	sync x 5 0 sync /bin	Student x 500 500 Comput
+er Science Student /Student 
+haldaemon x 68 68 HAL daemon /sbin	uucp x 10 14 uucp /spool	sync x 5
+ 0 sync /bin
+halt x 7 0 halt /sbin	vcsa x 69 69 virtual console memory owner /sbin	uucp x 1
+0 14 uucp /spool
+lp x 4 7 lp /spool	xfs x 43 43 X Font Server /X11	vcsa x 69 69 virtual con
+sole memory owner /sbin
+		xfs x 43 43 X Font Server /X11
+]0;Student@localhost:~[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ exit
+exit
+Script done, file is calapa.6.VII.txt
+]0;Student@localhost:~[Student@localhost ~]$ exit[K[K[K[Klogout
+bash: logout: not login shell: use `exit'
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Sun 30 Apr 2006 04:50:28 PM EDT

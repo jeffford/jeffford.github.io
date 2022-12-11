@@ -1,0 +1,61 @@
+Script started on Sat 29 Apr 2006 05:46:38 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34	
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56	
+8001	7  7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ wc -l Ch6S4F1
+7 Ch6S4F1
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -1 Ch[K[K[K[K[K[K[K[K-f1 Ch6S4F1
+sort: invalid option -- 1
+Try `sort --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ sort -f1 Ch6S4F1[Student@localhost ~]$ sort -f1 [1PCh6S4F1[1PCh6S4F1[1PCh6S4F1[1PCh6S4F1[Student@localhost ~]$ sort Ch6S4F1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort C[K+[K+1 -2 Ch6S4F1 > head [K[K[K[K[K[K[K| head Ch6s[KS4F11Ch6S4F1 Ch6S4F1[Student@localhost ~]$ sort +1 -2 Ch6S4F1 | head 1 Ch6S4F1
+head: cannot open `1' for reading: No such file or directory
+==> Ch6S4F1 <==
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort +1 -2 Ch6S4F1 | head 1 Ch6S4F1[4h-[4l[Student@localhost ~]$ sort +1 -2 Ch6S4F1 | head -1 Ch6S4F1
+1420	12.56	45
+]0;Student@localhost:~[Student@localhost ~]$ sort +1 -2 Ch6S4F1 | head -1 Ch6S4F1[K[K[K[K[K[K[K[K
+1420	12.56	45
+]0;Student@localhost:~[Student@localhost ~]$ sort +1 -2 Ch6S4F1 | head -1[Student@localhost ~]$ sort +[Student@localhost ~]$ sort +1[Student@localhost ~]$ sort +1 [Student@localhost ~]$ sort +1 -[Student@localhost ~]$ sort +1 -2[Student@localhost ~]$ sort +1 -2 [Student@localhost ~]$ sort +1 -2 C[Student@localhost ~]$ sort +1 -2 Ch[Student@localhost ~]$ sort +1 -2 Ch6[Student@localhost ~]$ sort +1 -2 Ch6S[Student@localhost ~]$ sort +1 -2 Ch6S4[Student@localhost ~]$ sort +1 -2 Ch6S4F[Student@localhost ~]$ sort +1 -2 Ch6S4F1[Student@localhost ~]$ sort +1 -2 Ch6S4F1 [Student@localhost ~]$ sort +1 -2 Ch6S4F1 |[Student@localhost ~]$ sort +1 -2 Ch6S4F1 | [Student@localhost ~]$ sort +1 -2 Ch6S4F1 | h[Student@localhost ~]$ sort +1 -2 Ch6S4F1 | he[Student@localhost ~]$ sort +1 -2 Ch6S4F1 | hea[Student@localhost ~]$ sort +1 -2 Ch6S4F1 | head[1P -1[1P -1[1P -1[1P -1t -1a -1i -1l -1[Student@localhost ~]$ sort +1 -2 Ch6S4F1 | tail [Student@localhost ~]$ sort +1 -2 Ch6S4F1 | tail -[Student@localhost ~]$ sort +1 -2 Ch6S4F1 | tail -1
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort +1 -2 Ch6S4F1 | tail -1[K[K[K[K[K[K[K[K[K[K
+1420	12.56	45
+3456	14.56	22
+1443	23.23	19
+1122	23.56	28
+2341	45.12	34
+2351	67.90	56
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort +1 -2 Ch6S4F1[Student@localhost ~]$ sor[Student@localhost ~]$ sort[Student@localhost ~]$ sort [4h-[4l[4hn[4l[4h [4l[Student@localhost ~]$ sort -n +[Student@localhost ~]$ sort -n +1[Student@localhost ~]$ sort -n +1 [Student@localhost ~]$ sort -n +1 -[Student@localhost ~]$ sort -n +1 -2[Student@localhost ~]$ sort -n +1 -2 [Student@localhost ~]$ sort -n +1 -2 C[Student@localhost ~]$ sort -n +1 -2 Ch[Student@localhost ~]$ sort -n +1 -2 Ch6[Student@localhost ~]$ sort -n +1 -2 Ch6S[Student@localhost ~]$ sort -n +1 -2 Ch6S4[Student@localhost ~]$ sort -n +1 -2 Ch6S4F[Student@localhost ~]$ sort -n +1 -2 Ch6S4F1 | tail -1
+2351	67.90	56
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +1 -2 Ch6S4F1 | tail -1[1P[4h2[4l[Student@localhost ~]$ sort -n +2 [Student@localhost ~]$ sort -n +2 -[Student@localhost ~]$ sort -n +2 -2[1P[4h3[4l[Student@localhost ~]$ sort -n +2 -3 [Student@localhost ~]$ sort -n +2 -3 C[Student@localhost ~]$ sort -n +2 -3 Ch[Student@localhost ~]$ sort -n +2 -3 Ch6[Student@localhost ~]$ sort -n +2 -3 Ch6S[Student@localhost ~]$ sort -n +2 -3 Ch6S4[Student@localhost ~]$ sort -n +2 -3 Ch6S4F[Student@localhost ~]$ sort -n +2 -3 Ch6S4F1[Student@localhost ~]$ sort -n +2 -3 Ch6S4F1 [Student@localhost ~]$ sort -n +2 -3 Ch6S4F1 |[Student@localhost ~]$ sort -n +2 -3 Ch6S4F1 | [Student@localhost ~]$ sort -n +2 -3 Ch6S4F1 | t[Student@localhost ~]$ sort -n +2 -3 Ch6S4F1 | ta[Student@localhost ~]$ sort -n +2 -3 Ch6S4F1 | tai[Student@localhost ~]$ sort -n +2 -3 Ch6S4F1 | tail[Student@localhost ~]$ sort -n +2 -3 Ch6S4F1 | tail [Student@localhost ~]$ sort -n +2 -3 Ch6S4F1 | tail -[Student@localhost ~]$ sort -n +2 -3 Ch6S4F1 | tail -1 | cut -f1
+2351
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Sat 29 Apr 2006 06:02:30 PM EDT

@@ -1,0 +1,87 @@
+Script started on Fri 28 Apr 2006 08:00:20 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat >ch6[K[K[KCh6S1F1
+1425	Juan	14.25
+4321	George	21.11
+6781	Anna	16.77
+1451	Ben	21.77
+2277	Tuan	18.77
+
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6*
+1425	Juan	14.25
+4321	George	21.11
+6781	Anna	16.77
+1451	Ben	21.77
+2277	Tuan	18.77
+]0;Student@localhost:~[Student@localhost ~]$ vi ch[K[KCh6*
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch6S1F1" 5L, 81C[1;1H1425    Juan    14.25
+4321    George  21.11
+6781    Anna    16.77
+1451    Ben     21.77
+2277    Tuan    18.77
+[1m[34m~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[24;1H[24;1H[K[24;1H[?1l>[?1049l]0;Student@localhost:~[Student@localhost ~]$ cat[K[K[Ksort +0 -1 Ch6S[K*
+1425	Juan	14.25
+1451	Ben	21.77
+2277	Tuan	18.77
+4321	George	21.11
+6781	Anna	16.77
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -1 Ch6*[KS1F![K1 ch[K[KCh6[K[K[K>Ch6s1>Ch6s1[Student@localhost ~]$ sort +0 -1 Ch6S1F1 >>Ch6s1[K[KS1F1
+]0;Student@localhost:~[Student@localhost ~]$ echo "I used append command '>>' instead of '>' because I  wanted to see the first and the se[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kinis[Ktial and the final sorted [K[K[K[K[K[K[Kresulte[Ks.
+> 
+]0;Student@localhost:~[Student@localhost ~]$ echo "I used append command '>>' instead of '>' because I  wanted to see the initial and the final results."
+I used append command '>>' instead of '>' because I wanted to see the initial and the final results.
+]0;Student@localhost:~[Student@localhost ~]$ vi ch[K[KCh6*
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch6S1F1" 10L, 162C[1;1H1425    Juan    14.25
+4321    George  21.11
+6781    Anna    16.77
+1451    Ben     21.77
+2277    Tuan    18.77
+1425    Juan    14.25
+1451    Ben     21.77
+2277    Tuan    18.77
+4321    George  21.11
+6781    Anna    16.77
+[1m[34m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H6,1[11CAll[6;1H[?12l[?25h[?25l[7;23r[7;1H[L[1;24r[6;1H[K[7;1H1425    Juan    14.25[24;63H[K[24;63H7,1[11CAll[7;1H[?12l[?25h[24;1H[K[7;1H[?25l[24;63H7,1[11CAll[7;1H[?12l[?25h[?25l[24;1H"Ch6S1F1"[24;63H[K[24;11H11L, 163C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi[K[K
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ more ch[K[KCH[Kh6*
+1425	Juan	14.25
+4321	George	21.11
+6781	Anna	16.77
+1451	Ben	21.77
+2277	Tuan	18.77
+
+1425	Juan	14.25
+1451	Ben	21.77
+2277	Tuan	18.77
+4321	George	21.11
+6781	Anna	16.77
+]0;Student@localhost:~[Student@localhost ~]$ vi[K[Kvi more Ch6*[2Pvi[Student@localhost ~]$ vi Ch6*
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch6S1F1" 11L, 163C[1;1H1425    Juan    14.25
+4321    George  21.11
+6781    Anna    16.77
+1451    Ben     21.77
+2277    Tuan    18.77
+
+1425    Juan    14.25
+1451    Ben     21.77
+2277    Tuan    18.77
+4321    George  21.11
+6781    Anna    16.77
+[1m[34m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H7,1[11CAll[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;63H9[9;1H[?12l[?25h[?25l[24;63H10,1[10;1H[?12l[?25h[?25l[24;64H1[11;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H12,1[10CAll[12;1H[K[12;1H[?12l[?25h[?25l[13;1H[K[24;64H3[13;1H[?12l[?25h[24;1H[K[13;1H[?25l[24;63H13,0-1[8CAll[13;1H[?12l[?25h[?25l[24;1H"Ch6S1F1"[24;63H[K[24;11H13L, 165C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ cut -f1 file[K[K[K[Kc[KCh6S1F1 >file1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S1F1 >file1[1P[4h2[4l[Student@localhost ~]$ cut -f2 Ch6S1F1 >file1[K2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 Ch6S1F1 >file2[K3[1P[4h3[4l[Student@localhost ~]$ cut -f3 Ch6S1F1 >file3
+[Student@localhost ~]$ paste file1 file3 file2 >[1PCh6S1F1[Student@localhost ~]$ paste file1 file3 file2 >Ch6S1F1
+]0;Student@localhost:~[Student@localhost ~]$ more Ch*
+1425	14.25	Juan
+1451	21.77	Ben
+2277	18.77	Tuan
+4321	21.11	George
+6781	16.77	Anna
+		
+		
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Fri 28 Apr 2006 08:34:02 AM EDT

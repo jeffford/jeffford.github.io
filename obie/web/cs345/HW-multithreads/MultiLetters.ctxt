@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=class\ MultiLetters
+comment0.text=A\ program\ that\ tests\ the\ order\ of\ \ execution\ of\ differentthreads\n
+comment1.params=args
+comment1.target=void\ main(String[])
+comment1.text=Just\ make\ six\ threads\ and\ start\ them\ running\ \n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=Each\ thread\ is\ given\ a\ letter\ for\ its\ name\ ,\ and\ simply\ \ prints\ its\ name\ 10\ times\ .\n
+comment3.target=letters
+numComments=4

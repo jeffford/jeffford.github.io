@@ -1,0 +1,790 @@
+Script started on Tue 02 May 2006 04:31:40 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ 
+[0-9\-][K[K[K[K[K[K[Kcat Ch10S3F5[4hegrep 
+'[2-3][0-5]' Ch10S3F1 | cut -f[4l2 >
+[Student@localhost ~]$ egrep 
+'[2-3][0-5]' Ch10S3F1 | cut -f2 > 
+Ch10S3F5[2PCh10S3F5
+
+[Student@localhost ~]$ echo im not shure why 
+it sellected 54 and 34 it makes no s
+sence[A
+[Student@localhost ~]$ cat 
+Ch10S3F4[K
+
+[K[A
+[Student@localhost ~]$ cat Ch10S3F4[4hegrep 
+'[0-2][0-5]' Ch10S3F1 | cut -f[4l2 >
+[Student@localhost ~]$ egrep 
+'[0-2][0-5]' Ch10S3F1 | cut -f2 > 
+Ch10S3F4[9P
+[Student@localhost ~]$ egrep 
+'[0-2][0-5]' | cut -f2 > Ch10S3F4
+
+[Student@localhost ~]$ cat 
+Ch10S3F3[K[4hegrep '[CIS]' Ch10S3F1 | cut -f[4l2 
+ >
+[Student@localhost ~]$ egrep '[CIS]' Ch10S3F1 | cut -f2 > 
+Ch10S3F3
+
+[Student@localhost ~]$ cat Ch10S3F2[K[4hegrep 
+'[^0-9][1][^0-9]' Ch10S3F1 | cut -f[4l2 >
+[Student@localhost ~]$ egrep 
+'[^0-9][1][^0-9]' Ch10S3F1 | cut -f2 > Ch10S3F2
+
+[Student@localhost ~]$ 
+[9Pcut -f2,3 Ch10S3F1 | egrep '[^0-9][1][^0-9]'
+
+[Student@localhost ~]$ cat 
+Ch10S3F1[K[4hegrep '[^n][[4l1]'
+[Student@localhost ~]$ egrep 
+'[^n][1]' Ch10S3F1[4P
+[Student@localhost ~]$ egrep '[1]' 
+Ch10S3F1[4h0][[4l
+[Student@localhost ~]$ egrep '[0][1]' 
+Ch10S3F1[11Pcat Ch10S3F2[4hegrep 
+'[0][1]' Ch10S3F1 | cut -f[4l2 >
+[Student@localhost ~]$ egrep '[0][1]' 
+Ch10S3F1 | cut -f2 > 
+Ch10S3F2[9P
+[Student@localhost ~]$ egrep 
+'[0][1]' | cut -f2 > Ch10S3F2
+
+[Student@localhost ~]$ [23Pcat 
+Ch10S3F1script winfield.10.III.txt
+
+[Student@localhost ~]$ 
+[14Pcat Ch10S3F2[4hut -f3 Ch10S3F1 | egrep '[1]'[4l 
+ >
+[Student@localhost ~]$ cut -f3 Ch10S3F1 | egrep '[1]' > 
+Ch10S3F2
+
+[Student@localhost ~]$ cut -f3 [9P
+[Student@localhost ~]$ cut -f3 
+| egrep '[1]' > Ch10S3F2
+
+[Student@localhost ~]$ c[18Pat > 
+Ch10S3F1script winfield.10.II.txt
+
+[Student@localhost ~]$ echo 
+there is no line with equall number of spaces on both
+h 
+sides[A
+[Student@localhost ~]$ cat Ch10S2F5[K
+
+[K[A
+[Student@localhost ~]$ cat Ch10S2F5[4hegrep '^[^.]{ 
+\}$' Ch10S2F[4l3 >
+[Student@localhost ~]$ egrep '^[^.]{ \}$' Ch10S2F3 > 
+Ch10S2F5
+
+[Student@localhost ~]$ cat Ch10S2F4[K[4hegrep 
+'^[^.]+[.]' Ch10S2F[4l2 >
+[Student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 
+ > Ch10S2F4
+
+[Student@localhost ~]$ cat Ch10S2F3[K[4hegrep -v 
+'^[^.]*[.]' Ch10S2F[4l2 >
+[Student@localhost ~]$ egrep -v '^[^.]*[.]' 
+Ch10S2F2 > Ch10S2F3
+
+[Student@localhost ~]$ cat 
+Ch10S2F3[K[4hegrep '\{3, \}' Ch10S2F2 | ca[4lt 
+ >
+[Student@localhost ~]$ egrep '\{3, \}' Ch10S2F2 | cat > 
+Ch10S2F3
+
+[Student@localhost ~]$ cat Ch10S2F2[K[4hmv 
+Ch10S[4l2f2
+[Student@localhost ~]$ mv Ch10S2f2 
+Ch10S2F2egrep '[A-Za-z]' Ch10S2F1 | cat > 
+Ch10S2f2
+
+[Student@localhost ~]$ cat Ch10S2F1[K[4hmv 
+t[4lemp
+[Student@localhost ~]$ mv temp 
+Ch10S2F1[5Prm
+[Student@localhost ~]$ rm 
+Ch10S2F1vi[Krm Ch10S2F1[4hcat[4l 
+ >
+[Student@localhost ~]$ cat > Ch10S2F1script 
+winfield.10.I.txtegrep '[0][0-9]' 
+Ch10S1F1[K2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | cut 
+-f1,3
+
+[Student@localhost ~]$ [2Pcut -f2,3 Ch10S1F1 | egrep '[2-9][0-9]' | 
+cut -f1
+
+[Student@localhost ~]$ cat Ch10S1F1[Kut -f2,3 Ch10S1F1 
+| egrep '[2-9] [0-9]' | cut -f1
+
+[Student@localhost ~]$ cut -f2 
+
+[Student@localhost ~]$ cut -f2 3 Ch10S1F1 | egrep '[2-9] [0-9]' | cut 
+-f1
+
+[Student@localhost ~]$ cut -f2 3 | egrep '[2-9] [0-9]' 
+Ch10S1F1
+[Student@localhost ~]$ cut -f2 3 | egrep '[2-9] [0-9]' Ch10S1F1 | 
+cut -f1
+
+[Student@localhost ~]$ [12Pegrep '[2-9] [0-9]' Ch10S1F1 | cut 
+-f2
+
+[Student@localhost ~]$ [8Pgrep '1451
+[Student@localhost ~]$ grep 
+'1451' Ch10S1F1 | cut -f2Anne' Ch10S1F1 | cut 
+-f4
+
+[Student@localhost ~]$ [16Pcat > Ch10S1F1script 
+winfield.10.I.txtgrep 'Anne' Ch19S1F1 | cut 
+-f4
+
+[Student@localhost ~]$ [16Pcat > CH19S1F1dir[Krmdir 
+A[2Pcd ..rm m*[2Pdircd A[1Pdirrmdir 
+C444[3P C444[2Pcd ..rmdir E5[3Pcd ..rm 
+m*[2Pdircd E5rmdir FF[3Pcd ..rm 
+o*[2Pdircd FF[4hrmd[4lir
+[Student@localhost ~]$ rmdir 
+FFG77[6Pdircd ..rmdir B2[3Pcd 
+..[2Pdircd B2rm
+[Student@localhost ~]$ rm B2cd 
+..rmdir D33[4Pcd ..rm my*[3Pdircd 
+D33[1PD33[2Pdircd B2[2Pdircd G77[3Pdircd 
+C444[4Pdirrm Th* my* out* C* Adir[Krm 
+St*[3Pdirrm win*[4Pdirftp 
+cscs.hiram.edu[6Pftp cs[4hssh -l 
+winfiel[4ldaj
+[Student@localhost ~]$ ssh -l winfieldaj 
+cs[4Pftp cs.hiram.educat > 
+winfield.L7IV.txt[1Pscript 
+winfield.L7IIIs[2Psh -l winfieldaj 
+cscript winfield.L7IIIs[6Psh 
+cs.hiram.edu[9Pmozillascript 
+Stevenson.Test.txt
+
+[Student@localhost ~]$ mozilla[K[2Pcd 
+,,[3Plscd firefoxls[Kcd .mozilla[6Pls 
+-aman more[1Plprcd[Kls -Rp[Krmdir F 
+F/operatingSystemsls F[K[4hcp -Rp 
+[4lFF
+[Student@localhost ~]$ cp -Rp FF Fecho "I'll be 
+reinserting, then immediately deleting, the 
+ directory of F, to show that I 
+comprehend how to properly do it now."[A
+
+[Student@localhost ~]$ ls[K
+
+[K[A
+[Student@localhost ~]$ lscd C444echo "7) ----- "/n redoing 
+this one since I did it the wro
+ong way before""[A
+[Student@localhost ~]$ 
+echo "7) ----- /nredoing this one since I did it the wrong[3P way 
+before"[A
+[Student@localhost ~]$ echo "7) ----- \n redoing this one since I 
+did it the wron[4hg[4l
+ng way before"[A
+[Student@localhost ~]$ man pwd[K
+
+[K[A
+[Student@localhost ~]$ man pwdrass[3Ppswrdman 
+umaskecho "23) -----"2
+[Student@localhost ~]$ echo "22) 
+-----"[4Pmore outfilecal 5 2007 > outfile ; cal 
+9 0
+
+[Student@localhost ~]$ [20Prm 
+outfile[4hmo[4lre
+[Student@localhost ~]$ more 
+outfile[4hcal 5 200[4l7 >>
+[Student@localhost ~]$ cal 5 2007 
+ >> outfile[5Pecho "21) -----"[7Pman 
+pipesore ThisMonth[4hcal 5 200[4l6 
+|<
+[Student@localhost ~]$ cal 5 2006 |< 
+ThisMonth[4h>[4l
+[Student@localhost ~]$ cal 5 2006 >|< 
+ThisMonth[10Pmore
+[Student@localhost ~]$ more 
+ThisMonth[4hcal 5 200[4l6 >|
+[Student@localhost ~]$ cal 5 
+2006 >| ThisMonth[9Pmore
+[Student@localhost ~]$ more 
+ThisMonth[4hcal 5 200[4l6 |>
+[Student@localhost ~]$ cal 5 
+2006 |> ThisMonth[7Pecho "20) 
+-----"[9Pman calecho "20) -----"cal 
+5 2006 |> ThisMonth[9Pmore
+[Student@localhost ~]$ 
+more ThisMonth[4hcal 5 200[4l6 >|
+[Student@localhost ~]$ cal 
+5 2006 >| ThisMonth[9Pmore
+[Student@localhost ~]$ 
+more ThisMonth[4hcal 5 2006[4l >|<
+[Student@localhost ~]$ 
+cal 5 2006 >|< ThisMonth[1P
+[Student@localhost ~]$ cal 5 2006 
+|< ThisMonth[9Pmore
+[Student@localhost ~]$ more 
+ThisMonth[5Pan pipesecho "21) 
+-----"cal 5 2007 >> 
+outfile[9Pmore
+[Student@localhost ~]$ more 
+outfile[2Prm
+[Student@localhost ~]$ rm outfilecal 5 
+2007 > outfile ; cal 9 0
+
+[Student@localhost ~]$ [18Pmore 
+outfileecho "22) -----"3
+[Student@localhost ~]$ echo 
+"23) -----"[7Pman umask[4Ppswrdman 
+pass[1Pwrdecho "7) ----- \n redoing this one since I did it the 
+wron
+ng way before"[A
+[Student@localhost ~]$ echo "7) ----- /nredoing this 
+one since I did it the wrong[1P
+g way before"[A
+[Student@localhost ~]$ 
+echo "7) ----- "/n redoing this one since I did it the wrong way 
+before""[A
+[Student@localhost ~]$ cd C444[K
+
+[K[A
+[Student@localhost ~]$ cd C444ls[Kecho "I'll be 
+reinserting, then immediately deleting, the 
+ directory of F, to show that I 
+comprehend how to properly do it now."[A
+
+[Student@localhost ~]$ cp -Rp FF 
+F[K
+
+[K[A
+[Student@localhost ~]$ cp -Rp FF 
+F[7Pls
+[Student@localhost ~]$ ls Frm 
+F/operatingSystemsdir F[Kls[K 
+-Rp[4Pcdman lprmore[3Pls -acd 
+.mozillals[Kcd firefoxls[Kcd 
+,,mozillascript Stevenson.Test.txt
+
+[Student@localhost ~]$ 
+mozilla[Kssh cs.hiram.educript 
+winfield.L7IIIs[2Psh -l winfieldaj 
+cscript winfield.L7IIIscat > 
+winfield.L7IV.txt[7Pftp 
+cs.hiram.edussh -l winfieldaj csftp 
+cs[Kcs.hiram.edu[6Pftp cs[3Pdirrm 
+win*[4Pdirrm St*[3Pdirrm Th* my* out* C* 
+Adir[Kcd C444[4Pdircd 
+G77[3Pdircd B2[2PdircdD33 D33[3Pdirrm 
+my*[1Pcd ..rmdir D33[4Pcd ..rm 
+B2cd
+[Student@localhost ~]$ cd B2[2Pdircd ..rmdir 
+B2[3Pcd ..[2Pdirrmdir 
+G77[1PFF[3Pcd
+[Student@localhost ~]$ cd FF[2Pdirrm 
+o*cd ..rmdir FF[3Pcd E5[2Pdirrm m*cd 
+..rmdir E5[3Pcd ..rm C444dir 
+C444dir[Kcd A[1Pdirrm m*cd ..rmdir 
+A[4Pdircat > CH19S1F1grep 'Anne' Ch19S1F1 | cut 
+-f4
+
+[Student@localhost ~]$ [6Pscript 
+winfield.10.I.txt[10Pcat > 
+Ch10S1F1grep 'Anne' Ch10S1F1 | cut 
+-f41451' Ch10S1F1 | cut -f2
+
+[Student@localhost ~]$ 
+[4hegrep '[[4l2-9] [0-9]
+[Student@localhost ~]$ egrep '[2-9] [0-9]' 
+Ch10S1F1 | cut -f2
+
+[Student@localhost ~]$ cut -f2 3 | egrep '[2-9] [0-9]' 
+Ch10S1F1 | cut -f1
+
+[Student@localhost ~]$ cut -f2 3 Ch10S1F1 | egrep '[2-9] 
+[0-9]'
+[Student@localhost ~]$ cut -f2 3 Ch10S1F1 | egrep '[2-9] [0-9]' | cut 
+-f1
+
+[Student@localhost ~]$ cut -f2,
+[Student@localhost ~]$ cut -f2,3 
+Ch10S1F1 | egrep '[2-9] [0-9]' | cut -f1
+
+[Student@localhost ~]$ cat 
+Ch10S1F1[Kut -f2,3 Ch10S1F1 | egrep '[2-9][0-9]' | cut 
+-f1
+
+[Student@localhost ~]$ egrep '[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | cut 
+-f1,3
+
+[Student@localhost ~]$ egrep '[0][0-9]'[K 
+Ch10S1F1
+
+[Student@localhost ~]$ [1Pscript 
+winfield.10.I.txt[10Pcat > 
+Ch10S2F1[3Prm
+[Student@localhost ~]$ rm 
+Ch10S2F1vi[Krm Ch10S2F1[4hmv 
+te[4lmp
+[Student@localhost ~]$ mv temp 
+Ch10S2F1[4Pcat
+[Student@localhost ~]$ cat 
+Ch10S2F1egrep '[A-Za-z]' Ch10S2F1 | cat > 
+Ch10S2f2
+
+[Student@localhost ~]$ [22Pmv Ch10S2f2 
+Ch10S2F2[8Pcat
+[Student@localhost ~]$ cat 
+Ch10S2F2egrep '\{3, \}' Ch10S2F2 | cat > 
+Ch10S2F3
+
+[Student@localhost ~]$ cat Ch10S2F3[K[4hegrep -v 
+'^[^.]*[.]' Ch10S2F[4l2 >
+[Student@localhost ~]$ egrep -v '^[^.]*[.]' 
+Ch10S2F2 > Ch10S2F3
+
+[Student@localhost ~]$ cat Ch10S2F3[Kegrep 
+'^[^.]+[.]' Ch10S2F2 > Ch10S2F4
+
+[Student@localhost ~]$ cat 
+Ch10S2F4[Kegrep '^[^.]{ \}$' Ch10S2F3 > 
+Ch10S2F5
+
+[Student@localhost ~]$ cat Ch10S2F5[Kecho there is no 
+line with equall number of spaces on both
+h sides[A
+[Student@localhost ~]$ 
+[32Pscript winfield.10.II.txt
+
+[K[A
+[Student@localhost ~]$ script winfield.10.II.txt
+
+[Student@localhost 
+~]$ [11Pcat > Ch10S3F1ut -f3 | egrep '[1]' > 
+Ch10S3F2[4hCh10S3F1 [4l
+[Student@localhost ~]$ cut 
+-f3 Ch10S3F1 | egrep '[1]' > Ch10S3F2
+
+[Student@localhost ~]$ cat 
+Ch10S3F2[Kscript winfield.10.III.txt
+
+[Student@localhost ~]$ 
+[14Pcat Ch10S3F1egrep '[0][1]' | cut -f2 > 
+Ch10S3F2[4hCh10S3F1 [4l
+[Student@localhost ~]$ egrep 
+'[0][1]' Ch10S3F1 | cut -f2 > Ch10S3F2
+
+[Student@localhost ~]$ cat 
+Ch10S3F2[Kegrep '[0][1]' 
+Ch10S3F1[3P
+[Student@localhost ~]$ egrep '[1]' 
+Ch10S3F1[4h^n][[4l
+[Student@localhost ~]$ egrep '[^n][1]' 
+Ch10S3F1[12Pcat
+[Student@localhost ~]$ cat 
+Ch10S3F1ut -f2,3 Ch10S3F1 | egrep 
+'[^0-9][1][^0-9]'
+
+[Student@localhost ~]$ egrep '[^0-9][1][^0-9]' Ch10S3F1 | 
+cut -f2 > Ch10S3F2
+
+[Student@localhost ~]$ cat Ch10S3F2[Kegrep 
+'[CIS]' Ch10S3F1 | cut -f2 > Ch10S3F3
+
+[Student@localhost ~]$ cat 
+Ch10S3F3[Kegrep '[0-2][0-5]' | cut -f2 > 
+Ch10S3F4[4hCh10S3F1 [4l
+[Student@localhost ~]$ egrep 
+'[0-2][0-5]' Ch10S3F1 | cut -f2 > Ch10S3F4
+
+[Student@localhost ~]$ cat 
+Ch10S3F4[Kecho im not shure why it sellected 54 and 34 it makes 
+no s
+sence[A
+[Student@localhost ~]$ e[11Pgrep '[2-3][0-5]' Ch10S3F1 | cut 
+-f2 Ch10S3F5
+
+[K[A
+[Student@localhost ~]$ egrep '[2-3][0-5]' Ch10S3F1 | cut -f2 
+Ch10S3F5> Ch10S3F5
+
+[Student@localhost ~]$ cat 
+Ch10S3F5[K[Kcat 
+Ch10S3F5[4hegrep '[2-3][0-5]' Ch10S3F1 | cut -f[4l2 
+ >
+[Student@localhost ~]$ egrep '[2-3][0-5]' Ch10S3F1 | cut -f2 > 
+Ch10S3F5[2PCh10S3F5
+
+[Student@localhost ~]$ echo im not shure why 
+it sellected 54 and 34 it makes no s
+sence[A
+[Student@localhost ~]$ cat 
+Ch10S3F4[K
+
+[K[A
+[Student@localhost ~]$ cat Ch10S3F4[4hegrep 
+'[0-2][0-5]' Ch10S3F1 | cut -f[4l2 >
+[Student@localhost ~]$ egrep 
+'[0-2][0-5]' Ch10S3F1 | cut -f2 > 
+Ch10S3F4[9P
+[Student@localhost ~]$ egrep 
+'[0-2][0-5]' | cut -f2 > Ch10S3F4
+
+[Student@localhost ~]$ cat 
+Ch10S3F3[K[4hegrep '[CIS]' Ch10S3F1 | cut -f[4l2 
+ >
+[Student@localhost ~]$ egrep '[CIS]' Ch10S3F1 | cut -f2 > 
+Ch10S3F3
+
+[Student@localhost ~]$ cat Ch10S3F2[K[4hegrep 
+'[^0-9][1][^0-9]' Ch10S3F1 | cut -f[4l2 >
+[Student@localhost ~]$ egrep 
+'[^0-9][1][^0-9]' Ch10S3F1 | cut -f2 > Ch10S3F2
+
+[Student@localhost ~]$ 
+[9Pcut -f2,3 Ch10S3F1 | egrep '[^0-9][1][^0-9]'
+
+[Student@localhost ~]$ cat 
+Ch10S3F1[K[4hegrep '[^n][[4l1]'
+[Student@localhost ~]$ egrep 
+'[^n][1]' Ch10S3F1[4P
+[Student@localhost ~]$ egrep '[1]' 
+Ch10S3F1[4h0][[4l
+[Student@localhost ~]$ egrep '[0][1]' 
+Ch10S3F1[11Pcat Ch10S3F2[4hegrep 
+'[0][1]' Ch10S3F1 | cut -f[4l2 >
+[Student@localhost ~]$ egrep '[0][1]' 
+Ch10S3F1 | cut -f2 > 
+Ch10S3F2[9P
+[Student@localhost ~]$ egrep 
+'[0][1]' | cut -f2 > Ch10S3F2
+
+[Student@localhost ~]$ [23Pcat 
+Ch10S3F1script winfield.10.III.txt
+
+[Student@localhost ~]$ 
+[14Pcat Ch10S3F2[4hut -f3 Ch10S3F1 | egrep '[1]'[4l 
+ >
+[Student@localhost ~]$ cut -f3 Ch10S3F1 | egrep '[1]' > 
+Ch10S3F2
+
+[Student@localhost ~]$ cut -f3 [9P
+[Student@localhost ~]$ cut -f3 
+| egrep '[1]' > Ch10S3F2
+
+[Student@localhost ~]$ c[18Pat > 
+Ch10S3F1script winfield.10.II.txt
+
+[Student@localhost ~]$ echo 
+there is no line with equall number of spaces on both
+h 
+sides[A
+[Student@localhost ~]$ cat Ch10S2F5[K
+
+[K[A
+[Student@localhost ~]$ cat Ch10S2F5[4hegrep '^[^.]{ 
+\}$' Ch10S2F[4l3 >
+[Student@localhost ~]$ egrep '^[^.]{ \}$' Ch10S2F3 > 
+Ch10S2F5
+
+[Student@localhost ~]$ cat Ch10S2F4[K[4hegrep 
+'^[^.]+[.]' Ch10S2F[4l2 >
+[Student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 
+ > Ch10S2F4
+
+[Student@localhost ~]$ cat Ch10S2F3[K[4hegrep -v 
+'^[^.]*[.]' Ch10S2F[4l2 >
+[Student@localhost ~]$ egrep -v '^[^.]*[.]' 
+Ch10S2F2 > Ch10S2F3
+
+[Student@localhost ~]$ cat 
+Ch10S2F3[K[4hegrep '\{3, \}' Ch10S2F2 | ca[4lt 
+ >
+[Student@localhost ~]$ egrep '\{3, \}' Ch10S2F2 | cat > 
+Ch10S2F3
+
+[Student@localhost ~]$ cat Ch10S2F2[K[4hmv 
+Ch10S[4l2f2
+[Student@localhost ~]$ mv Ch10S2f2 
+Ch10S2F2egrep '[A-Za-z]' Ch10S2F1 | cat > 
+Ch10S2f2
+
+[Student@localhost ~]$ cat Ch10S2F1[K[4hmv 
+t[4lemp
+[Student@localhost ~]$ mv temp 
+Ch10S2F1[4Pcat
+[Student@localhost ~]$ cat 
+Ch10S2F1[4hmv t[4lemp
+[Student@localhost ~]$ mv temp 
+Ch10S2F1[4Pcat
+[Student@localhost ~]$ cat 
+Ch10S2F1egrep '[A-Za-z]' Ch10S2F1 | cat > 
+Ch10S2f2
+
+[Student@localhost ~]$ [22Pmv Ch10S2f2 
+Ch10S2F2[8Pcat
+[Student@localhost ~]$ cat 
+Ch10S2F2[K[K[K[K[K[K[K[KCH10[K[K[Kh10S3F1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PhE	17	2	25
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ egrep 
+'[6[K^.][K[K0-9][1][^0-9]' | 
+[4hC[4l[4hh[4l[4h1[4l[4h0[4l[4hS[4l[4h3[4l[4hF[4l[4h1[4l[4h 
+[4l
+[Student@localhost ~]$ egrep '[^0-9][1][^0-9]' Ch10S3F1 
+|
+[Student@localhost ~]$ egrep '[^0-9][1][^0-9]' Ch10S3F1 | cut -f2- 
+[K[K > Ch10S3F2
+]0;Student@localhost:~[Student@localhost ~]$ ege[Krep 
+egrep[K[K[K[K[K'[CIS]' Ch10S3F1 | cut -f2 > Ch10S3F2[K3
+]0;Student@localhost:~[Student@localhost ~]$ egrer[K[Krp[K[Kep 
+'[^3-9]([^3-9]
+[Student@localhost ~]$ egrep 
+'([
+[Student@localhost ~]$ egrep '([^
+[Student@localhost ~]$ egrep 
+'([^3
+[Student@localhost ~]$ egrep '([^3-
+[Student@localhost ~]$ egrep 
+'([^3-9
+[Student@localhost ~]$ egrep 
+'([^3-9][^[K[K[K[K[K[K[K0-2[K[K[K2][6-9]|^2][6-9]|
+[Student@localhost 
+~]$ egrep '([^2
+[Student@localhost ~]$ egrep '([^2]
+[Student@localhost ~]$ 
+egrep '([^2][^6-9]|
+[Student@localhost ~]$ egrep 
+'([^2][^6
+[Student@localhost ~]$ egrep '([^2][^6-
+[Student@localhost ~]$ 
+egrep '([^2][^6-9
+[Student@localhost ~]$ egrep 
+'([^2][^6-9]
+[Student@localhost ~]$ egrep '([^2][^6-9]|
+[Student@localhost 
+~]$ egrep 
+'([^2][^6-9]|[0-2][0-9][1P][0-9]1][0-9]
+[Student@localhost 
+~]$ egrep '([^2][^6-9]|[0-1]
+[Student@localhost ~]$ egrep 
+'([^2][^6-9]|[0-1][
+[Student@localhost ~]$ egrep 
+'([^2][^6-9]|[0-1][0
+[Student@localhost ~]$ egrep 
+'([^2][^6-9]|[0-1][0-
+[Student@localhost ~]$ egrep 
+'([^2][^6-9]|[0-1][0-9
+[Student@localhost ~]$ egrep 
+'([^2][^6-9]|[0-1][0-9]\[K|[[K[K[K[K[K[K[K[K[K2][0-9])'-][^6-9]|[0-2][0-9])'9][^6-9]|[0-2][0-9])'
+[Student@localhost 
+~]$ egrep '([^2-9]
+[Student@localhost ~]$ egrep '([^2-9][
+[Student@localhost 
+~]$ egrep '([^2-9][^
+[Student@localhost ~]$ egrep 
+'([^2-9][^6
+[Student@localhost ~]$ egrep '([^2-9][^6-
+[Student@localhost ~]$ 
+egrep '([^2-9][^6-9
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2]
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9]
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])' CH1[K[Kh10S3F1 | 
+[4h$[4l
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$'
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$' 
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$' C
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$' Ch
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$' Ch1
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$' Ch10
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$' Ch10S
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$' Ch10S3
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$' Ch10S3F
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$' Ch10S3F1
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$' Ch10S3F1 
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$' Ch10S3F1 |
+[Student@localhost ~]$ egrep 
+'([^2-9][^6-9]|[0-2][0-9])$' Ch10S3F1 | cut >[K-f4[K2 >Ch 
+10S3F4
+]0;Student@localhost:~[Student@localhost ~]$ eprep 
+'([2-3][5-0[K9]|[^[K[K[K[K[K[K[K[K[K[K[K[K^2][K[K[K3[K2-3][[K[K[K[K][5-9]|3[[K[K[3][0])' 
+| cut -f2 > Ch10S3F5
+bash: eprep: command not found
+]0;Student@localhost:~[Student@localhost ~]$ eprep '([2][5-9]|[3][0])' | 
+cut -f2 > 
+Ch10S3F5
+[Student@localhost ~]$ 
+ep[1P[4hg[4l
+[Student@localhost ~]$ egr
+[Student@localhost ~]$ 
+egre
+[Student@localhost ~]$ egrep
+[Student@localhost ~]$ egrep 
+
+[Student@localhost ~]$ egrep '
+[Student@localhost ~]$ egrep 
+'(
+[Student@localhost ~]$ egrep '([
+[Student@localhost ~]$ egrep 
+'([2
+[Student@localhost ~]$ egrep '([2]
+[Student@localhost ~]$ egrep 
+'([2][
+[Student@localhost ~]$ egrep '([2][5
+[Student@localhost ~]$ egrep 
+'([2][5-
+[Student@localhost ~]$ egrep '([2][5-9
+[Student@localhost ~]$ egrep 
+'([2][5-9]
+[Student@localhost ~]$ egrep '([2][5-9]|
+[Student@localhost ~]$ 
+egrep '([2][5-9]|[
+[Student@localhost ~]$ egrep 
+'([2][5-9]|[3
+[Student@localhost ~]$ egrep '([2][5-9]|[3]
+[Student@localhost 
+~]$ egrep '([2][5-9]|[3][
+[Student@localhost ~]$ egrep 
+'([2][5-9]|[3][0
+[Student@localhost ~]$ egrep 
+'([2][5-9]|[3][0]
+[Student@localhost ~]$ egrep 
+'([2][5-9]|[3][0])
+[Student@localhost ~]$ egrep 
+'([2][5-9]|[3][0])'
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' 
+
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' |
+[Student@localhost ~]$ 
+egrep '([2][5-9]|[3][0])' | 
+[Student@localhost ~]$ egrep 
+'([2][5-9]|[3][0])' | c
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | 
+cu
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut
+[Student@localhost 
+~]$ egrep '([2][5-9]|[3][0])' | cut 
+[Student@localhost ~]$ egrep 
+'([2][5-9]|[3][0])' | cut -
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' 
+| cut -f
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut 
+-f2
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut -f2 
+
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut -f2 
+ >
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut -f2 > 
+
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut -f2 > 
+C
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut -f2 > 
+Ch
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut -f2 > 
+Ch1
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut -f2 > 
+Ch10
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut -f2 > 
+Ch10S
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut -f2 > 
+Ch10S3
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut -f2 > 
+Ch10S3F
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | cut -f2 > 
+Ch10S3F5
+]0;Student@localhost:~[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' | 
+cut -f2 > Ch10S3F5
+[Student@localhost ~]$ egrep 
+'([2][5-9]|[3][0])' 
+[4hC[4l[4hh[4l[4h1[4l[4h0[4l[4hS[4l[4h3[4l[4hF[4l[4h1[4l[4h 
+[4l
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 
+|
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | 
+
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | 
+c
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | 
+cu
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | 
+cut
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut 
+
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut 
+-
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut 
+-f
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut 
+-f2
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut -f2 
+
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut -f2 
+ >
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut -f2 > 
+
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut -f2 > 
+C
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut -f2 > 
+Ch
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut -f2 > 
+Ch1
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut -f2 > 
+Ch10
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut -f2 > 
+Ch10S
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut -f2 > 
+Ch10S3
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut -f2 > 
+Ch10S3F
+[Student@localhost ~]$ egrep '([2][5-9]|[3][0])' Ch10S3F1 | cut -f2 
+ > Ch10S3F5
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 02 May 2006 04:49:21 PM EDT
+

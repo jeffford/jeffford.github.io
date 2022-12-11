@@ -1,0 +1,33 @@
+Script started on Tue 02 May 2006 08:22:11 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ssh - [Kl jacksonsr cs
+jacksonsr@cs's password: 
+]0;jacksonsr@cs:~[jacksonsr@cs jacksonsr]$ pwd
+/home/jacksonsr
+]0;jacksonsr@cs:~[jacksonsr@cs jacksonsr]$ cd [K[K[KR[Kcd RemoteWork
+]0;jacksonsr@cs:~/RemoteWork[jacksonsr@cs RemoteWork]$ vi editor
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"editor" 1L, 1C[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,0-1[9CAll[1;1H[?25h[?25l[24;1H[K[24;1H:[?25hw[?25l[?25h[?25l [?25hj[?25l[?25ha[?25l[?25hc[?25l[?25hk[?25l[?25hs[?25l[?25ho[?25l[?25hn[?25l[?25h.[?25l[?25h[?25l[24;11H[K[24;11H[?25h.[?25l[?25hL[?25l[?25h7[?25l[?25hi[?25l[?25hi[?25l[?25hi[?25l[?25h.[?25l[?25ht[?25l[?25hx[?25l[?25ht[?25l[?25h[?25l[24;20H[K[24;20H[?25h[?25l[24;19H[K[24;19H[?25h[?25l[24;18H[K[24;18H[?25h[?25l[24;17H[K[24;17H[?25h[?25l[24;16H[K[24;16H[?25h[?25l[24;15H[K[24;15H[?25h[?25l[24;14H[K[24;14H[?25hI[?25l[?25hI[?25l[?25hI[?25l[?25h.[?25l[?25ht[?25l[?25hx[?25l[?25ht[?25l[?25h[?25l"jackson.L7III.txt" [New] 1L, 1C written[22C1,0-1[9CAll[24;63H[K[24;63H1,0-1[9CAll[1;1H[?25h[?25l[24;1H[K[24;1H:[?25he[?25l[?25hx[?25l[?25hi[?25l[?25ht[?25l[?25h[?25l[24;1H[K[24;1H[?1l>[?25h[?1047l[?1048l]0;jacksonsr@cs:~/RemoteWork[jacksonsr@cs RemoteWork]$ cd home
+-bash: cd: home: No such file or directory
+]0;jacksonsr@cs:~/RemoteWork[jacksonsr@cs RemoteWork]$ c h[K[Kd jacksonsr
+-bash: cd: jacksonsr: No such file or directory
+]0;jacksonsr@cs:~/RemoteWork[jacksonsr@cs RemoteWork]$ ch[Kd _[K~
+]0;jacksonsr@cs:~[jacksonsr@cs jacksonsr]$ pwd
+/home/jacksonsr
+]0;jacksonsr@cs:~[jacksonsr@cs jacksonsr]$ ls- [K[K -a
+[00m[00;34m.[00m              [00m.bash_profile[00m  [00m.gtkrc[00m           [00mjackson.L7Is[00m          [00m.viminfo[00m
+[00;34m..[00m             [00m.bashrc[00m        [00mindex.html[00m       [00;34m.kde[00m                  [00;36mweb[00m
+[00m.bash_history[00m  [00m.emacs[00m         [00mjacksonL7II.doc[00m  [00mMe and My Peeps.html[00m  [00;34m.xemacs[00m
+[00m.bash_logout[00m   [00mFriends.html[00m   [00mjackson.L7III[00m    [00;34mRemoteWork[00m            [00m.zshrc[00m
+[m]0;jacksonsr@cs:~[jacksonsr@cs jacksonsr]$ close
+-bash: close: command not found
+]0;jacksonsr@cs:~[jacksonsr@cs jacksonsr]$ sx[K[Kquit
+-bash: quit: command not found
+]0;jacksonsr@cs:~[jacksonsr@cs jacksonsr]$ binary
+-bash: binary: command not found
+]0;jacksonsr@cs:~[jacksonsr@cs jacksonsr]$ goodbye
+-bash: goodbye: command not found
+]0;jacksonsr@cs:~[jacksonsr@cs jacksonsr]$ clo[K[K[Klogout
+[H[2JConnection to cs closed.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Tue 02 May 2006 08:25:52 AM EDT

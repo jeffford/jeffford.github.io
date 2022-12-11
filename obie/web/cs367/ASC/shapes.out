@@ -1,0 +1,27 @@
+-- Pass 2 (020505) e option  --
+INPUT VALUES FOR SHAPES_DB:
+A blank line terminates input
+SHAPETYPE,BASEPOINT_X,BASEPOINT_Y,RADIUS,LENGTH,WIDTH,BASE,HEIGHT,
+DUMP OF ASSOCIATION SHAPES_DB FOLLOWS:
+ SHAPETYPE,
+   0  
+   0  
+   0  
+   1  
+   1  
+   1  
+   2  
+   2  
+   2  
+DUMP OF ASSOCIATION SHAPES_DB FOLLOWS:
+ AREA,AREA,
+   3.141590 
+  12.566360 
+  28.274311 
+   1.000000 
+   4.000000 
+   9.000000 
+   0.500000 
+   2.000000 
+   4.500000 
+STOP quadruple detected. 

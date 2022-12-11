@@ -1,0 +1,151 @@
+Script started on Thu 27 Apr 2006 08:23:42 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ head etc/passwd
+head: cannot open `etc/passwd' for reading: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ head etc/passwd[Student@localhost ~]$ hea[Student@localhost ~]$ head[Student@localhost ~]$ head /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+]0;Student@localhost:~[Student@localhost ~]$ tal[Kil head /etc/passwd[1P /etc/passwd[1P /etc/passwd[1P /etc/passwd[1P /etc/passwdt /etc/passwda /etc/passwdi /etc/passwdl /etc/passwd
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6SIIFI[K1 
+Juan? /jj@yahoo.com/330.569.5211
+Grea oge/george@hoit  tmain l.com/.3  330.274.1999
+Anna/sister@aol.com/330.274. -     -274-5615
+Ben/davisbj@hiram.com   edu/512-345-5678
+tuan    Tuan/ttl 1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ bvi[K[K[Kvi Ch6SIIF1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch6SIIF1" 5L, 171C[1;1HJuan/jj@yahoo.com/330.569.5211
+Greoge/george@hotmail.com/330.274.1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+[1m[34m~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l[24;65H4[1;4H[?12l[?25h[?25l[24;65H5[1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l[24;65H7[1;7H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25l[24;65H9[1;9H[?12l[?25h[?25l[24;65H10[1;10H[?12l[?25h[?25l[24;66H1[1;11H[?12l[?25h[?25l[24;66H2[1;12H[?12l[?25h[?25l[24;66H3[1;13H[?12l[?25h[?25l[24;66H4[1;14H[?12l[?25h[?25l[24;66H5[1;15H[?12l[?25h[?25l[24;66H6[1;16H[?12l[?25h[?25l[24;66H7[1;17H[?12l[?25h[?25l[24;66H8[1;18H[?12l[?25h[?25l[24;66H9[1;19H[?12l[?25h[?25l[24;65H20[1;20H[?12l[?25h[?25l[24;66H1[1;21H[?12l[?25h[?25l[24;66H2[1;22H[?12l[?25h[?25l[24;66H3[1;23H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,23[10CAll[1;23H[?12l[?25h[?25l569.521[1;30H[K[24;66H2[1;22H[?12l[?25h[?25l-569.5211[24;66H3[1;23H[?12l[?25h[?25l[24;66H4[1;24H[?12l[?25h[?25l[24;66H5[1;25H[?12l[?25h[?25l[24;66H6[1;26H[?12l[?25h[?25l[24;66H7[1;27H[?12l[?25h[?25l521[1;30H[K[24;66H6[1;26H[?12l[?25h[?25l-5211[24;66H7[1;27H[?12l[?25h[?25l[24;63H2[2;27H[?12l[?25h[?25l[24;66H6[2;26H[?12l[?25h[?25l[24;66H7[2;27H[?12l[?25h[?25l[24;66H8[2;28H[?12l[?25h[?25l[24;66H9[2;29H[?12l[?25h[?25l[24;65H30[2;30H[?12l[?25h[?25l[24;66H1[2;31H[?12l[?25h[?25l274.19[2;38H[K[24;66H0[2;30H[?12l[?25h[?25l-274.1999[24;66H1[2;31H[?12l[?25h[?25l[24;63H3[3;31H[?12l[?25h[?25l[24;63H4[4;31H[?12l[?25h[?25l[24;66H2[4;32H[?12l[?25h[?25l[24;63H3[3;32H[?12l[?25h[?25l[24;63H2[2;32H[?12l[?25h[?25l[24;66H3[2;33H[?12l[?25h[?25l[24;66H4[2;34H[?12l[?25h[?25l[24;66H5[2;35H[?12l[?25h[?25l19[2;38H[K[24;66H4[2;34H[?12l[?25h[?25l-1999[24;66H5[2;35H[?12l[?25h[24;1H[K[2;34H[?25l[24;63H2,34[10CAll[2;34H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch6SIIF1" 5L, 171C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ paste -f1 ch[K[KCh6SIIF1
+paste: invalid option -- f
+Try `paste --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cat c[KCh6SIIF1
+Juan/jj@yahoo.com/330-569-5211
+Greoge/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ paste -f1 
+paste: invalid option -- f
+Try `paste --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ paste -f1 Ch6Sii[K[KIIF1
+paste: invalid option -- f
+Try `paste --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 | pat[Kste -f1
+paste: invalid option -- f
+Try `paste --help' for more information.
+^[[A^[[B        
+
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 | paste -f1[K[K[K[K[K[K[K[K[K[K[K-d""/"[Student@localhost ~]$ cut -f1 -d"/" talb[K[K[K[K> talbe[K[K[Kble1
+^[[A    
+
+
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d"/" > table1[4hC[4l[4hh[4l[4ha[4l[1P[4h6[4l[4hS[4l[4hI[4l[4hI[4l[4hF[4l[4h1[4l[4h [4l[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 >[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 > [Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 > t[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 > ta[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 > tab[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 > tabl[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 > table[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 > table1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 > table1[Student@localhost ~]$ cut -f1[1P[4h2[4l[Student@localhost ~]$ cut -f2 [Student@localhost ~]$ cut -f2 -[Student@localhost ~]$ cut -f2 -d[Student@localhost ~]$ cut -f2 -d"[Student@localhost ~]$ cut -f2 -d"/[Student@localhost ~]$ cut -f2 -d"/"[Student@localhost ~]$ cut -f2 -d"/" [Student@localhost ~]$ cut -f2 -d"/" C[Student@localhost ~]$ cut -f2 -d"/" Ch[Student@localhost ~]$ cut -f2 -d"/" Ch6[Student@localhost ~]$ cut -f2 -d"/" Ch6S[Student@localhost ~]$ cut -f2 -d"/" Ch6SI[Student@localhost ~]$ cut -f2 -d"/" Ch6SII[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 [Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 >[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > [Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > t[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > ta[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > tab[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > tabl[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > table[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > table1[K2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > table2[1P[4h3[4l[Student@localhost ~]$ cut -f3 [Student@localhost ~]$ cut -f3 -[Student@localhost ~]$ cut -f3 -d[Student@localhost ~]$ cut -f3 -d"[Student@localhost ~]$ cut -f3 -d"/[Student@localhost ~]$ cut -f3 -d"/"[Student@localhost ~]$ cut -f3 -d"/" [Student@localhost ~]$ cut -f3 -d"/" C[Student@localhost ~]$ cut -f3 -d"/" Ch[Student@localhost ~]$ cut -f3 -d"/" Ch6[Student@localhost ~]$ cut -f3 -d"/" Ch6S[Student@localhost ~]$ cut -f3 -d"/" Ch6SI[Student@localhost ~]$ cut -f3 -d"/" Ch6SII[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 [Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 >[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > [Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > t[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > ta[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > tab[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > tabl[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > table[Student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > table2[K3
+]0;Student@localhost:~[Student@localhost ~]$ paste talbe[K[K[Kble1 table2 table3
+Juan	jj@yahoo.com	330-569-5211
+Greoge	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5615
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ paste table1 table2 table3
+assignments/            .gconf/                 gtsbrgII.txt
+backups/                .gconfd/                gtsybrgII.txt
+.bash_history           .gnome2/                gtysbrg.txt
+.bash_logout            .gnome2_private/        .ICEauthority
+.bash_profile           grady.L3.IIItxt         .kde/
+.bashrc                 grady.L3.III.txt        letters/
+busLetters/             grady.L3.II.txt         .metacity/
+Ch6S1F1                 grady.L3.IV.txt         .mozilla/
+Ch6SIIF1                grady.L4.II.txt         .nautilus/
+chapter_4/              grady.L4.I.txt          .openoffice.org2.0/
+Desktop/                grady.L5.II.txt         .recently-used
+.dmrc                   grady.L5.I.txt          reports/
+.eggcups/               grady.L5.IV.txt         .rhn-applet.cache
+.esd_auth               grady.L5.VI.txt         .rhn-applet.conf
+.evolution/             grady.L5.V.txt          table1
+file1                   grady.L6.II.txt         table2
+file2                   grady.L6.I.txt          table3
+file3                   grady.lab2.session.txt  .Trash/
+file3.bak               .gstreamer-0.8/         .viminfo
+file4                   .gtkrc                  .Xauthority
+file5                   .gtkrc-1.2-gnome2       .zshrc
+[Student@localhost ~]$ paste table1 table2 table3[Student@localhost ~]$ paste table1 t[Student@localhost ~]$ paste table1 ta[Student@localhost ~]$ paste table1 tab[Student@localhost ~]$ paste table1 tabl[Student@localhost ~]$ paste table1 table[Student@localhost ~]$ paste table1 table2[Student@localhost ~]$ paste table1 table2 [Student@localhost ~]$ paste table1 table2 t[Student@localhost ~]$ paste table1 table2 ta[Student@localhost ~]$ paste table1 table2 tab[Student@localhost ~]$ paste table1 table2 tabl[Student@localhost ~]$ paste table1 table2 table[Student@localhost ~]$ paste table1 table2 table3
+Juan	jj@yahoo.com	330-569-5211
+Greoge	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5615
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ paste table1 table2 table3 table3 table3 table3 table3 table3[Student@localhost ~]$ paste table1 table2      t[Student@localhost ~]$ paste table1 table2      ta[Student@localhost ~]$ paste table1 table2      tab[Student@localhost ~]$ paste table1 table2      tabl[Student@localhost ~]$ paste table1 table2      table[Student@localhost ~]$ paste table1 table2      table3
+Juan	jj@yahoo.com	330-569-5211
+Greoge	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5615
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ paste table1 table2      table3[5Ptable3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcut -f4 c[KCh6SIIF![K1 [4h-[4l[4hd[4l[4h"[4l[4h"[4l[4h/[4l[Student@localhost ~]$ cut -f4 -d"/"[4h [4l[Student@localhost ~]$ cut -f4 -d"/" C[Student@localhost ~]$ cut -f4 -d"/" Ch[Student@localhost ~]$ cut -f4 -d"/" Ch6[Student@localhost ~]$ cut -f4 -d"/" Ch6S[Student@localhost ~]$ cut -f4 -d"/" Ch6SI[Student@localhost ~]$ cut -f4 -d"/" Ch6SII[Student@localhost ~]$ cut -f4 -d"/" Ch6SIIF[Student@localhost ~]$ cut -f4 -d"/" Ch6SIIF1[Student@localhost ~]$ cut -f4 -d"/" Ch6SIIF1 > tabke[K[Kle4
+]0;Student@localhost:~[Student@localhost ~]$ cut -f4 -d"/" Ch6SIIF1 > table4[Student@localhost ~]$ paste table1 table2      table3[1Ptable3[1Ptable3[1Ptable3[1Ptable3[1Ptable3[Student@localhost ~]$ paste table1 table2 ttable3atable3btable3ktable3etable3[1Ptable3[1Ptable3ltable3etable34table3 table3[Student@localhost ~]$ paste table1 table2 table4 t[Student@localhost ~]$ paste table1 table2 table4 ta[Student@localhost ~]$ paste table1 table2 table4 tab[Student@localhost ~]$ paste table1 table2 table4 tabl[Student@localhost ~]$ paste table1 table2 table4 table[Student@localhost ~]$ paste table1 table2 table4 table3
+Juan	jj@yahoo.com		330-569-5211
+Greoge	george@hotmail.com		330-274-1999
+Anna	sister@aol.com		330-274-5615
+Ben	davisbj@hiram.edu		512-345-5678
+Tuan	tt1234@aol.com		404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ paste table1 table2 table4 table3 > Ch6SIIF2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF2
+Juan	jj@yahoo.com		330-569-5211
+Greoge	george@hotmail.com		330-274-1999
+Anna	sister@aol.com		330-274-5615
+Ben	davisbj@hiram.edu		512-345-5678
+Tuan	tt1234@aol.com		404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cut Ch^[K6SIIF1 Ch6SIIF2 | paste c[K> [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpste[K[K[Kaste Ch6SIIF1 [Student@localhost ~]$ paste Ch6SIIF1[Student@localhost ~]$ paste Ch6SIIF1 c[KCH[KhSIIF2
+paste: ChSIIF2: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6SIIF1 ChSIIF26SIIF2[Student@localhost ~]$ paste Ch6SIIF1 Ch6S[Student@localhost ~]$ paste Ch6SIIF1 Ch6SI[Student@localhost ~]$ paste Ch6SIIF1 Ch6SII[Student@localhost ~]$ paste Ch6SIIF1 Ch6SIIF[Student@localhost ~]$ paste Ch6SIIF1 Ch6SIIF2
+Juan/jj@yahoo.com/330-569-5211	Juan	jj@yahoo.com		330-569-5211
+Greoge/george@hotmail.com/330-274-1999	Greoge	george@hotmail.com		330-274-1999
+Anna/sister@aol.com/330-274-5615	Anna	sister@aol.com		330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678	Ben	davisbj@hiram.edu		512-345-5678
+Tuan/tt1234@aol.com/404-213-1434	Tuan	tt1234@aol.com		404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6SIIF1 Ch6SIIF2>[K > Ch6Sii[K[KIIF3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF3
+Juan/jj@yahoo.com/330-569-5211	Juan	jj@yahoo.com		330-569-5211
+Greoge/george@hotmail.com/330-274-1999	Greoge	george@hotmail.com		330-274-1999
+Anna/sister@aol.com/330-274-5615	Anna	sister@aol.com		330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678	Ben	davisbj@hiram.edu		512-345-5678
+Tuan/tt1234@aol.com/404-213-1434	Tuan	tt1234@aol.com		404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6[K[Student@localhost ~]$ cat Ch6[K[K[K[K[K[K[Kcat Ch6SIIF3
+Juan/jj@yahoo.com/330-569-5211	Juan	jj@yahoo.com			330-569-5211
+Greoge/george@hotmail.com/330-274-1999	Greoge	george@hotmail.com		330-274-1999
+Anna/sister@aol.com/330-274-5615	Anna	sister@aol.com			330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678	Ben	davisbj@hiram.edu		512-345-5678
+Tuan/tt1234@aol.com/404-213-1434	Tuan	tt1234@aol.com			404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF3
+Juan/jj@yahoo.com/330-569-5211		Juan	jj@yahoo.com			330-569-5211
+Greoge/george@hotmail.com/330-274-1999	Greoge	george@hotmail.com		330-274-1999
+Anna/sister@aol.com/330-274-5615	Anna	sister@aol.com			330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678	Ben	davisbj@hiram.edu		512-345-5678
+Tuan/tt1234@aol.com/404-213-1434	Tuan	tt1234@aol.com			404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ ehc[K[Kcho no duplicate[K[K[K[K[K[K[K[K[K[K[K[K[K no duplicate[Ked column[4ht[4l[4hh[4l[4he[4l[4hr[4l[4he[4l[4h [4l[4ha[4l[4hr[4l[4he[4l[4h [4l[Student@localhost ~]$ echo there are n[Student@localhost ~]$ echo there are no[Student@localhost ~]$ echo there are no [Student@localhost ~]$ echo there are no d[Student@localhost ~]$ echo there are no du[Student@localhost ~]$ echo there are no dup[Student@localhost ~]$ echo there are no dupl[Student@localhost ~]$ echo there are no dupli[Student@localhost ~]$ echo there are no duplic[Student@localhost ~]$ echo there are no duplica[Student@localhost ~]$ echo there are no duplicat[Student@localhost ~]$ echo there are no duplicate[Student@localhost ~]$ echo there are no duplicated[Student@localhost ~]$ echo there are no duplicated [Student@localhost ~]$ echo there are no duplicated c[Student@localhost ~]$ echo there are no duplicated co[Student@localhost ~]$ echo there are no duplicated col[Student@localhost ~]$ echo there are no duplicated colu[Student@localhost ~]$ echo there are no duplicated colum[Student@localhost ~]$ echo there are no duplicated columns.
+there are no duplicated columns.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 08:56:25 AM EDT

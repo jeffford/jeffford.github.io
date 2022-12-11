@@ -1,0 +1,57 @@
+Script started on Wed 26 Apr 2006 01:26:30 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ who >file1
+]0;Student@localhost:~[Student@localhost ~]$ more file1
+Student  :0           Apr 26 11:31
+Student  pts/1        Apr 26 12:54 (:0.0)
+Student  pts/2        Apr 26 13:26 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ date; who >file2
+Wed Apr 26 13:26:49 EDT 2006
+]0;Student@localhost:~[Student@localhost ~]$ more file2
+Student  :0           Apr 26 11:31
+Student  pts/1        Apr 26 12:54 (:0.0)
+Student  pts/2        Apr 26 13:26 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file2date; who >file2[4h([4l[Student@localhost ~]$ (d[Student@localhost ~]$ (da[Student@localhost ~]$ (dat[Student@localhost ~]$ (date[Student@localhost ~]$ (date;[Student@localhost ~]$ (date; [Student@localhost ~]$ (date; w[Student@localhost ~]$ (date; wh[Student@localhost ~]$ (date; who) >file2[Student@localhost ~]$ (date; who) [Student@localhost ~]$ (date; who) >[Student@localhost ~]$ (date; who) >file2[Student@localhost ~]$ (date; who) >>file2[Student@localhost ~]$ (date; who) >>f[1Pfile2[Student@localhost ~]$ (date; who) >file2[K3
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Wed Apr 26 13:28:03 EDT 2006
+Student  :0           Apr 26 11:31
+Student  pts/1        Apr 26 12:54 (:0.0)
+Student  pts/2        Apr 26 13:26 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3(date; who) >file3[1P[Student@localhost ~]$ d[Student@localhost ~]$ da[Student@localhost ~]$ dat[Student@localhost ~]$ date[4h [4l[4h>[4l[4hf[4l[4hi[4l[4hl[4l[4he[4l[4h4[4l[Student@localhost ~]$ date >file4;[Student@localhost ~]$ date >file4; [Student@localhost ~]$ date >file4; w[Student@localhost ~]$ date >file4; wh[Student@localhost ~]$ date >file4; who[1P >file3[1P>file3[1Pfile3[1Pile3[1Ple3[1Pe3[1P3[K
+Student  :0           Apr 26 11:31
+Student  pts/1        Apr 26 12:54 (:0.0)
+Student  pts/2        Apr 26 13:26 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file4
+Wed Apr 26 13:29:10 EDT 2006
+]0;Student@localhost:~[Student@localhost ~]$ cp file3 file3.bak
+]0;Student@localhost:~[Student@localhost ~]$ cp file3 file3.bak[8Pmore file4date >file4; who[6Pmore file3(date; who) >file3[4hb[4l[1P[Student@localhost ~]$ (ba[Student@localhost ~]$ (bat[Student@localhost ~]$ (bate[Student@localhost ~]$ (bate;[Student@localhost ~]$ (bate; [Student@localhost ~]$ (bate; w[Student@localhost ~]$ (bate; wh[Student@localhost ~]$ (bate; who[Student@localhost ~]$ (bate; who)[Student@localhost ~]$ (bate; who) [Student@localhost ~]$ (bate; who) >file3
+bash: bate: command not found
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Student  :0           Apr 26 11:31
+Student  pts/1        Apr 26 12:54 (:0.0)
+Student  pts/2        Apr 26 13:26 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3.bak
+Wed Apr 26 13:28:03 EDT 2006
+Student  :0           Apr 26 11:31
+Student  pts/1        Apr 26 12:54 (:0.0)
+Student  pts/2        Apr 26 13:26 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3.bak[K(bate; who) >file3[Student@localhost ~]$ (bate; who) 1>file3[Student@localhost ~]$ (bate; who) 1>>file3[Student@localhost ~]$ (bate; who) 1>>file3 2>& 1
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Student  :0           Apr 26 11:31
+Student  pts/1        Apr 26 12:54 (:0.0)
+Student  pts/2        Apr 26 13:26 (:0.0)
+bash: bate: command not found
+Student  :0           Apr 26 11:31
+Student  pts/1        Apr 26 12:54 (:0.0)
+Student  pts/2        Apr 26 13:26 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3(bate; who) 1>>file3 2>& 1[1P 1[1P1[Kfile5[Student@localhost ~]$ (bate; who) 1>>fil[Student@localhost ~]$ (bate; who) 1>>file[1P 2>file54 2>file5
+]0;Student@localhost:~[Student@localhost ~]$ more file4
+Wed Apr 26 13:29:10 EDT 2006
+Student  :0           Apr 26 11:31
+Student  pts/1        Apr 26 12:54 (:0.0)
+Student  pts/2        Apr 26 13:26 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file5
+bash: bate: command not found
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Wed 26 Apr 2006 01:32:39 PM EDT

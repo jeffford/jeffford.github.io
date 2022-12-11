@@ -1,0 +1,26 @@
+2. first="PARENT"
+
+3.  echo $first
+	=> PARENT
+
+4. bash
+
+5. echo $first
+	=>  nothing printed
+	=> because shell is diffent
+
+6. second="SUBSHELL"
+
+7. echo $second
+	=> SUBSHELL
+
+8. exit
+
+9. echo $first
+	=> It is not starange because now we locate in login shell and this has 
+session's history
+
+10.  echo $second
+	=>  nothing printed
+	=> because when user exit form the session, the session's histroy is gone
+

@@ -1,0 +1,41 @@
+Script started on Mon 01 May 2006 02:48:30 PM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ ssh -l prattjk cs
+The authenticity of host 'cs (198.30.199.89)' can't be established.
+RSA key fingerprint is 9f:39:73:fd:0b:27:4d:68:e6:4f:43:1f:29:1d:8d:82.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'cs,198.30.199.89' (RSA) to the list of known hosts.
+prattjk@cs's password: 
+]0;prattjk@cs:~[prattjk@cs prattjk]$ script pratt.L7III
+Script started, file is pratt.L7III
+]0;prattjk@cs:~[prattjk@cs prattjk]$ pwd
+/home/prattjk
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cd RemoteWork
+]0;prattjk@cs:~/RemoteWork[prattjk@cs RemoteWork]$ v[Kvi pratt.L7III.txt
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"pratt.L7III.txt" 2L, 62C[1;1HThis is a short test file
+to see if I can do lab 7 session 3.
+[1m[34m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25h[?25l[24;1H[K[24;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"pratt.L7III.txt" 2L, 62C written
+[?1l>[?25h[?1047l[?1048l]0;prattjk@cs:~/RemoteWork[prattjk@cs RemoteWork]$ cd ..
+]0;prattjk@cs:~[prattjk@cs prattjk]$ ls -lR
+[00m.:
+total 32
+-rw-r--r--    1 prattjk  prattjk     24064 May  1 12:24 [00mprattL7II.doc[00m
+-rw-rw-r--    1 prattjk  prattjk         0 May  1 14:49 [00mpratt.L7III[00m
+-rw-rw-r--    1 prattjk  prattjk         0 May  1 14:48 [00mpratt.L7IIIs[00m
+-rw-rw-r--    1 prattjk  prattjk      1131 May  1 12:21 [00mpratt.L7Is[00m
+drwxrwxr-x    2 prattjk  prattjk      4096 May  1 14:50 [00;34mRemoteWork[00m
+
+./RemoteWork:
+total 32
+-rw-r--r--    1 prattjk  prattjk     24064 May  1 12:25 [00mprattL7II.doc[00m
+-rw-rw-r--    1 prattjk  prattjk        62 May  1 14:50 [00mpratt.L7III.txt[00m
+-rw-rw-r--    1 prattjk  prattjk        75 May  1 12:21 [00mpratt.L7I.txt[00m
+[m]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+Script done, file is pratt.L7III
+]0;prattjk@cs:~[prattjk@cs prattjk]$ logout
+[H[2JConnection to cs closed.
+]0;prattjk@cs:~[prattjk@cs prattjk]$ logout
+bash: logout: not login shell: use `exit'
+]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+exit
+
+Script done on Mon 01 May 2006 02:53:29 PM EDT

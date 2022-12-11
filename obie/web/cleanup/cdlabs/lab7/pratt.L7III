@@ -1,0 +1,26 @@
+Script started on Mon 01 May 2006 08:11:17 PM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ pwd
+/home/prattjk
+]0;prattjk@cs:~[prattjk@cs prattjk]$ vi /RemoteWork/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd[K[Kvi /RemoteWork/[1PRemoteWork/[prattjk@cs prattjk]$ vi R[prattjk@cs prattjk]$ vi Re[prattjk@cs prattjk]$ vi Rem[prattjk@cs prattjk]$ vi Remo[prattjk@cs prattjk]$ vi Remot[prattjk@cs prattjk]$ vi Remote[prattjk@cs prattjk]$ vi RemoteW[prattjk@cs prattjk]$ vi RemoteWo[prattjk@cs prattjk]$ vi RemoteWor[prattjk@cs prattjk]$ vi RemoteWork[prattjk@cs prattjk]$ vi RemoteWork/pratt.L7III.txt
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"RemoteWork/pratt.L7III.txt" 2L, 62C[1;1HThis is a short test file
+to see if I can do lab 7 session 3.
+[1m[34m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25h[?25l[24;1H[K[24;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"RemoteWork/pratt.L7III.txt" 2L, 62C written
+[?1l>[?25h[?1047l[?1048l]0;prattjk@cs:~[prattjk@cs prattjk]$ ls -lR
+[00m.:
+total 40
+-rw-r--r--    1 prattjk  prattjk     24064 May  1 12:24 [00mprattL7II.doc[00m
+-rw-rw-r--    1 prattjk  prattjk         0 May  1 20:11 [00mpratt.L7III[00m
+-rw-rw-r--    1 prattjk  prattjk      4005 May  1 14:53 [00mpratt.L7IIIs[00m
+-rw-rw-r--    1 prattjk  prattjk      1131 May  1 12:21 [00mpratt.L7Is[00m
+-rw-rw-r--    1 prattjk  prattjk        93 May  1 20:00 [00mpratt.L7IV.txt[00m
+drwxrwxr-x    2 prattjk  prattjk      4096 May  1 20:12 [00;34mRemoteWork[00m
+
+./RemoteWork:
+total 36
+-rw-r--r--    1 prattjk  prattjk     24064 May  1 12:25 [00mprattL7II.doc[00m
+-rw-rw-r--    1 prattjk  prattjk        62 May  1 20:12 [00mpratt.L7III.txt[00m
+-rw-rw-r--    1 prattjk  prattjk        75 May  1 12:21 [00mpratt.L7I.txt[00m
+-rw-r--r--    1 prattjk  prattjk        93 May  1 20:00 [00mpratt.L7IV.txt[00m
+[m]0;prattjk@cs:~[prattjk@cs prattjk]$ C[Kexit
+
+Script done on Mon 01 May 2006 08:13:39 PM EDT

@@ -1,0 +1,134 @@
+Script started on Tue 25 Apr 2006 07:49:41 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ mkdir backups
+]0;Student@localhost:~[Student@localhost ~]$ find hw4.txt
+find: hw4.txt: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ find UNIX -name hw4.txt -print
+find: UNIX: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ fins[Kd ad[Ks[K[K[K assingments -type[K[K[K[Kname hw4 -print
+find: assingments: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ find assingments -name hw4 -print[1P[Student@localhost ~]$ find assig[Student@localhost ~]$ find assig[4hn[4l[Student@localhost ~]$ find assignments -name hw4 -print
+]0;Student@localhost:~[Student@localhost ~]$ find assignments -name hw4 -print[Student@localhost ~]$ [Kfind assignments -name hw4 -print. -printt -printx -printt -print[Student@localhost ~]$ find assignments -name hw4.txt -print
+assignments/UNIX/hw4.txt
+]0;Student@localhost:~[Student@localhost ~]$ find assignments -name hw4.txt -print[1P[1P -print[1P -print[1P-print[1P-printH-printL-print -print
+assignments/UNIX/hw4HL
+]0;Student@localhost:~[Student@localhost ~]$ find assignments -name hw4HL -print[Student@localhost ~]$ find assignments -name hw4HL[1P -print[1P -printS -printL -print
+assignments/UNIX/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ find assignments -name hw4SL -print[1P -print[1P -print. -printb -printk -print
+assignments/UNIX/hw4.bk
+]0;Student@localhost:~[Student@localhost ~]$ find assignments -name hw4.bk -print[Student@localhost ~]$ find assignments -name hw4.bk[Student@localhost ~]$ find assignments -name hw4.bk  -printh -print[1P -print[1P-print[1P -print[1P -print[1P -print[1P -print4 -print. -printt -printx -printt -print[Student@localhost ~]$ find assignments -name hw4.txt  -printh -printw -print4 -print. -printb -printk -print[Student@localhost ~]$ find assignments -name hw4.txt hw4.bk  -printh -printo -print[1P -printw -print4 -printH -printL -print[Student@localhost ~]$ find assignments -name hw4.txt hw4.bk hw4HL  -printh -printw -print4 -printS -printL -print
+find: paths must precede expression
+Usage: find [-H] [-L] [-P] [path...] [expression]
+]0;Student@localhost:~[Student@localhost ~]$ find assignments -name hw4.txt hw4.bk hw4HL hw4SL -print] -print [A[Student@localhost ~]$ find assignments -name hw4.txt hw4.bk hw4HL hw4SL][Student@localhost ~]$ find assignments -n[Student@localhost ~]$ find assignments -na[Student@localhost ~]$ find assignments -nam[Student@localhost ~]$ find assignments -name[Student@localhost ~]$ find assignments -name [hw4.txt hw4.bk hw4HL hw4SL] -printt[A[Student@localhost ~]$ find assignments -name [
+
+find: paths must precede expression
+Usage: find [-H] [-L] [-P] [path...] [expression]
+]0;Student@localhost:~[Student@localhost ~]$ find assignments -name [hw4.txt hw4.bk hw4HL hw4SL] -printt[A[Student@localhost ~]$ find assignments -name [hw4.txt hw4.bk hw4HL hw4SL] -pri[Student@localhost ~]$ find assignments -name [hw4.txt hw4.bk hw4HL hw4SL[Student@localhost ~]$ find assignments -name [hw4.txt hw4.bk hw4HL hw4SL] -print [K[A[Student@localhost ~]$ find assignments -name [hw4.txt hw4.bk hw4HL hw4SL[1P
+[K[A[Student@localhost ~]$ find assignments -name [Student@localhost ~]$ find assignments -name h[Student@localhost ~]$ find assignments -name hw[Student@localhost ~]$ find assignments -name hw4[Student@localhost ~]$ find assignments -name hw4.[Student@localhost ~]$ find assignments -name hw4.t[Student@localhost ~]$ find assignments -name hw4.tx[Student@localhost ~]$ find assignments -name hw4.txt[Student@localhost ~]$ find assignments -name hw4.txt [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P -print[1P -print[1P -print[1P -print* -print
+assignments/UNIX/hw4.bk
+assignments/UNIX/hw4.txt
+]0;Student@localhost:~[Student@localhost ~]$ find assignments -name hw4.* -print[1P
+assignments/UNIX/hw4.bk
+assignments/UNIX/hw4HL
+assignments/UNIX/hw4SL
+assignments/UNIX/hw4.txt
+]0;Student@localhost:~[Student@localhost ~]$ find assignments -name hw4* -print[Student@localhost ~]$ find assignments -name hw4* -p[Student@localhost ~]$ find assignments -name hw4* -pr[1Print[1Pint[1Pnt[1Pt[K[K-exec cp {} ba[K[K`/BAC[K[K[Kbac[K[K[K[K[K~bac[K[K[K/backups/[K\ \;\[1P\[Student@localhost ~]$ find assignments -name hw4* -exec cp {} ~/backups \;
+]0;Student@localhost:~[Student@localhost ~]$ ls -li ~/backups
+[00mtotal 32
+1005514 -rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4.bk[00m
+1005577 -rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4HL[00m
+1005578 -rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4SL[00m
+1005579 -rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -li ~/backups[1P ~/backups[Student@localhost ~]$ ls -l ~/backups[1P ~/backupsd ~/backups[Student@localhost ~]$ ls -d ~/backups
+[00m[00;34m/home/Student/backups[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -d ~/backups[1P ~/backupsp ~/backups
+[00m[00mhw4.bk[00m  [00mhw4HL[00m  [00mhw4SL[00m  [00mhw4.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -p ~/backups[1P ~/backupsi ~/backups
+[00m1005514 [00mhw4.bk[00m  1005577 [00mhw4HL[00m  1005578 [00mhw4SL[00m  1005579 [00mhw4.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -Rl bac[K[K[K~/bac[K[K[Kassignments/un[K[KUNIS[KX
+[00m/home/Student/assignments/UNIX:
+total 44
+-rw-rw-r--  1 Student Student  110 Apr 24 08:42 [00mhw4.bk[00m
+-rw-rw-r--  2 Student Student  110 Apr 24 08:32 [00mhw4HL[00m
+lrwxrwxrwx  1 Student Student    7 Apr 24 08:50 [00;36mhw4SL[00m -> [00mhw4.txt[00m
+-rw-rw-r--  2 Student Student  110 Apr 24 08:32 [00mhw4.txt[00m
+drwxrwxr-x  2 Student Student 4096 Apr 24 08:25 [00;34mHWs[00m
+drwxrwxr-x  2 Student Student 4096 Apr 24 08:25 [00;34mprojects[00m
+
+/home/Student/assignments/UNIX/HWs:
+total 0
+
+/home/Student/assignments/UNIX/projects:
+total 0
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -Rl ~/assignments/UNIX[KX/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm -r[Kf ~?[K/A[Kassignments/UNIX/hw4.txt
+]0;Student@localhost:~[Student@localhost ~]$ rm -f ~/assignments/UNIX/hw4.txt[Student@localhost ~]$ [7Pls -Rl ~/assignments/UNIX[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kbackups
+[00m/home/Student/backups:
+total 32
+-rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4.bk[00m
+-rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4HL[00m
+-rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4SL[00m
+-rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -Rl ~/backups[1P[Student@localhost ~]$ ls -li ~/backups[Student@localhost ~]$ ls -li ~/backups
+[00mtotal 32
+1005514 -rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4.bk[00m
+1005577 -rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4HL[00m
+1005578 -rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4SL[00m
+1005579 -rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -li ~/backupsRl[Student@localhost ~]$ ls -Rl ~/backupsrm -f ~/assignments/UNIX/hw4.txt[Student@localhost ~]$ [7Pls -Rl ~/assignments/UNIX[10Pi ~/backupsRl ~/assignments/UNIX[Student@localhost ~]$ ls -R[1P[Student@localhost ~]$ ls -li ~/assignments/UNIX
+[00mtotal 36
+1005419 -rw-rw-r--  1 Student Student  110 Apr 24 08:42 [00mhw4.bk[00m
+1005570 -rw-rw-r--  1 Student Student  110 Apr 24 08:32 [00mhw4HL[00m
+1005569 lrwxrwxrwx  1 Student Student    7 Apr 24 08:50 [01;05;37;41mhw4SL[00m -> [01;05;37;41mhw4.txt[00m
+1005565 drwxrwxr-x  2 Student Student 4096 Apr 24 08:25 [00;34mHWs[00m
+1005566 drwxrwxr-x  2 Student Student 4096 Apr 24 08:25 [00;34mprojects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -li ~/assignments/UNIX[9PbackupsRl[Student@localhost ~]$ ls -Rl ~/backupsli[Student@localhost ~]$ ls -li ~/backupsRl[Student@localhost ~]$ ls -Rl ~/backups
+[00m/home/Student/backups:
+total 32
+-rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4.bk[00m
+-rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4HL[00m
+-rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4SL[00m
+-rw-rw-r--  1 Student Student 110 Apr 25 08:00 [00mhw4.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -Rl ~/backupsabackupssbackupssbackupsibackupsgbackupsnbackupsmbackupsebackupsnbackupstbackupssbackups/backups[1Packups[1Pckups[1Pkups[1Pups[1Pps[1Ps[KUNIX
+[00m/home/Student/assignments/UNIX:
+total 36
+-rw-rw-r--  1 Student Student  110 Apr 24 08:42 [00mhw4.bk[00m
+-rw-rw-r--  1 Student Student  110 Apr 24 08:32 [00mhw4HL[00m
+lrwxrwxrwx  1 Student Student    7 Apr 24 08:50 [01;05;37;41mhw4SL[00m -> [01;05;37;41mhw4.txt[00m
+drwxrwxr-x  2 Student Student 4096 Apr 24 08:25 [00;34mHWs[00m
+drwxrwxr-x  2 Student Student 4096 Apr 24 08:25 [00;34mprojects[00m
+
+/home/Student/assignments/UNIX/HWs:
+total 0
+
+/home/Student/assignments/UNIX/projects:
+total 0
+[m]0;Student@localhost:~[Student@localhost ~]$ copy[K[K[Kp -p [K[K[K~?[K/assui[K[Kignments/UNIX [K/hw4.bk ~.[K/assignments/UNIX/hw4.txt
+]0;Student@localhost:~[Student@localhost ~]$ cp ~/assignments/UNIX/hw4.bk ~/assignments/UNIX/hw4.txt[Student@localhost ~]$ [30Pls -Rl ~/assignments/UNIX[9Pbackupsli ~/assignments/UNIX[9PbackupsRl[Student@localhost ~]$ ls -Rl ~/backupsrm -f ~/assignments/UNIX/hw4.txt[K[K[K[KSL
+]0;Student@localhost:~[Student@localhost ~]$ ln[K[Kln -s ~assignments.UN[K[K[K[Ks/UNIX/hw4.txt ~/A[Kassignments/UNIX/hw4SL
+]0;Student@localhost:~[Student@localhost ~]$ ln -s ~assignments/UNIX/hw4.txt ~/assignments/UNIX/hw4SL[1P[4h.[4l
+]0;Student@localhost:~[Student@localhost ~]$ ln -s ~assignments/UNIX/hw4.txt ~/assignments/UNIX/hw4SL[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+]0;Student@localhost:~[Student@localhost ~]$ ls -R ~
+[00m/home/Student:
+[00;34massignments[00m  [00;34mDesktop[00m        [00mgtysbrg.txt[00m        [00mharrold.2.II.txt[00m  [00;34mletters[00m
+[00;34mbackups[00m      [00mgtsybrgII.txt[00m  [00mharrold.2.III.txt[00m  [00mharrold.2.I.txt[00m   [00;34mreports[00m
+
+/home/Student/assignments:
+[00;34mUNIX[00m
+
+/home/Student/assignments/UNIX:
+[00mhw4.bk[00m  [00mhw4HL[00m  [00;36mhw4SL[00m  [00mhw4.txt[00m  [00;34mHWs[00m  [00;34mprojects[00m
+
+/home/Student/assignments/UNIX/HWs:
+
+/home/Student/assignments/UNIX/projects:
+
+/home/Student/backups:
+[00mhw4.bk[00m  [00mhw4HL[00m  [00mhw4SL[00m  [00mhw4.txt[00m
+
+/home/Student/Desktop:
+[00;34muntitled folder[00m
+
+/home/Student/Desktop/untitled folder:
+[00mAzmi[00m
+
+/home/Student/letters:
+[00;34mform

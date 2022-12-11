@@ -1,0 +1,9 @@
+10,15 w Ch11S3F2
+20,30 w Ch11S3F3
+31,37 w Ch11S3F4
+1,9 w Ch11S3F5
+16,19 w Ch11S3F5
+38,50 w Ch11S3F5
+
+# end of the script
+

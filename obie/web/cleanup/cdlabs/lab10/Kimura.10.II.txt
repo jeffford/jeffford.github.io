@@ -1,0 +1,42 @@
+Script started on Sat 06 May 2006 04:12:08 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat >C[2Pexitcat >Ch10S2F1
+			The Wisdom of Aesop
+It is one thing to say that something should be done.
+	It is quite a dir fferent matter to do it.
+		' "Belling the Cat"
+
+Liars are not believed even when they tell the truth.
+		"The Shepherd Boy and the Wolf"
+
+Flattery is not a proof of true admiration.
+		"The Owl and the Grasshopper"
+Those who work the hardest do not always get the profil t.
+		"The Lion, The bear        the Bear, and the Fox"
+]0;Student@localhost:~[Student@localhost ~]$ grep '.' CH[Kh10S2F1 >Ch10S2F2
+]0;Student@localhost:~[Student@localhost ~]$ echo 'to [K[K[KTo mat[K[K[K[K[K[KStoring the lines that are in[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrep '^[^A-Za-z0-9]'Ch10S2F2 >Ch10S2F3
+]0;Student@localhost:~[Student@localhost ~]$ grep '^[^A-Za-z0-9]'Ch10S2F2 >Ch10S2F3
+
+[1]+  Stopped                 grep '^[^A-Za-z0-9]'Ch10S2F2 >Ch10S2F3
+]0;Student@localhost:~[Student@localhost ~]$ [Agrep '^[^A-Za-z0-9]'Ch10S2F2 >Ch10S2F3[4h [4l[Student@localhost ~]$ grep '^[^A-Za-z0-9]' Ch10S2F2 >Ch10S2F3
+]0;Student@localhost:~[Student@localhost ~]$ grep '^[^A-Za-z0-9]' Ch10S2F2 >Ch10S2F3[K4[Student@localhost ~]$ grep [4h-[4l[4hv[4l[4h [4l[Student@localhost ~]$ grep -v '^[^A-Za-z0-9]' Ch10S2F2 >Ch10S2F4
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F3
+			The Wisdom of Aesop
+	It is quite a different matter to do it.
+		"Belling the Cat"
+		"The Shepherd Boy and the Wolf"
+		"The Owl and the Grasshopper"
+		"The Lion, the Bear, and the Fox"
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F3[K4
+It is one thing to say that something should be done.
+Liars are not believed even when they tell the truth.
+Flattery is not a proof of true admiration.
+Those who work the hardest do not always get the profit.
+]0;Student@localhost:~[Student@localhost ~]$ echo th[K[K'T[K[K[K[K[K[K[Kexit[K[K[K[Kecho 'There was [K[K[K[K[K[K[K[K[K[K[K[K 'Did not create any line wi[K[Kthat [K[K[K[K[Kwith cern[K[Kntered format"[K'
+Did not create any line with centered format
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+There are stopped jobs.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Sat 06 May 2006 05:57:28 PM EDT

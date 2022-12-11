@@ -1,0 +1,427 @@
+Script started on Mon 01 May 2006 06:23:27 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ec[K[Kls -a /e[K[K~/etc/[K[K[K[K[K[K../etc/profile
+[00mls: ../etc/profile: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -a ../etc/profile[1P/etc/profile[1P/etc/profile[1Petc/profile[Student@localhost ~]$ ls -a etc/profile
+[00mls: etc/profile: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -a etc/profile[Student@localhost ~]$ ls -a  etc/profile~ etc/profile[1Petc/profile/etc/profile[Student@localhost ~]$ ls -a ~/etc/profile
+[00mls: /home/Student/etc/profile: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -a /etc/profile
+[00m[00m/etc/profile[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls /etc/profile
+[00m[00m/etc/profile[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ more /etc/profile
+# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc
+
+pathmunge () {
+	if ! echo $PATH | /bin/egrep -q "(^|:)$1($|:)" ; then
+	   if [ "$2" = "after" ] ; then
+	      PATH=$PATH:$1
+	   else
+	      PATH=$1:$PATH
+	   fi
+	fi
+}
+
+# Path manipulation
+if [ $EUID = 0 ]; then
+	pathmunge /sbin
+	pathmunge /usr/sbin
+	pathmunge /usr/local/sbin
+fi
+
+pathmunge /usr/X11R6/bin after
+[7m--More--(51%)[m[K
+[7m--More--(51%)[m[K
+[7m--More--(51%)[m# No core files by default
+[7m--More--(55%)[mulimit -S -c 0 > /dev/null 2>&1
+[7m--More--(58%)[m[K
+[7m--More--(59%)[mUSER="`id -un`"
+[7m--More--(60%)[mLOGNAME=$USER
+[7m--More--(62%)[mMAIL="/var/spool/mail/$USER"
+[7m--More--(66%)[m[K
+[7m--More--(66%)[mHOSTNAME=`/bin/hostname`
+[7m--More--(69%)[mHISTSIZE=1000
+[7m--More--(70%)[m[K
+[7m--More--(70%)[mif [ -z "$INPUTRC" -a ! -f "$HOME/.inputrc" ]; then
+[7m--More--(77%)[m    INPUTRC=/etc/inputrc
+[7m--More--(80%)[mfi[K
+[7m--More--(80%)[m[K
+[7m--More--(80%)[mexport PATH USER LOGNAME MAIL HOSTNAME HISTSIZE INPUTRC
+[7m--More--(87%)[m[K
+[7m--More--(87%)[mfor i in /etc/profile.d/*.sh ; do
+[7m--More--(91%)[m    if [ -r "$i" ]; then
+[7m--More--(94%)[m[K    	. $i
+[7m--More--(95%)[m    fi[K
+[7m--More--(96%)[mdone[K
+[7m--More--(97%)[m[K
+[7m--More--(97%)[munset i[K
+[7m--More--(98%)[munset pathmunge
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ alias[K[K[K[K[Kamn alias
+bash: amn: command not found
+]0;Student@localhost:~[Student@localhost ~]$ amn alias[1P[4hm[4l
+[?1049h[?1h=[24;1H[KBASH_BUILTINS(1)                                              BASH_BUILTINS(1)
+
+[1mNAME[0m
+       bash,  :,  ., [, alias, bg, bind, break, builtin, cd, command, compgen,
+       complete, continue, declare, dirs, disown, echo,  enable,  eval,  exec,
+       exit,  export,  fc,  fg, getopts, hash, help, history, jobs, kill, let,
+       local, logout, popd, printf, pushd, pwd, read, readonly,  return,  set,
+       shift,  shopt,  source,  suspend,  test,  times,  trap,  type, typeset,
+       ulimit, umask, unalias, unset,  wait  -  bash  built-in  commands,  see
+       [1mbash[0m(1)
+
+[1mBASH[0m [1mBUILTIN[0m [1mCOMMANDS[0m
+       Unless otherwise noted, each builtin command documented in this section
+       as accepting options preceded by [1m-[0m accepts [1m--[0m to signify the end of the
+       options.
+       [1m:[0m [[4marguments[24m]
+              No  effect;  the command does nothing beyond expanding [4marguments[24m
+              and performing any specified redirections.  A zero exit code  is
+              returned.
+
+        [1m.[0m  [4mfilename[24m [[4marguments[24m]
+       [1msource[0m [4mfilename[24m [[4marguments[24m]
+              Read  and  execute  commands  from [4mfilename[24m in the current shell
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              environment and return the exit status of the last command  exe-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              cuted from [4mfilename[24m.  If [4mfilename[24m does not contain a slash, file
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              names in [1mPATH[0m are used to find the  directory  containing  [4mfile-[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [4mname[24m.   The  file  searched  for in [1mPATH[0m need not be executable.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              When [1mbash[0m is  not  in  [4mposix[24m  [4mmode[24m,  the  current  directory  is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              searched  if no file is found in [1mPATH[0m.  If the [1msourcepath[0m option
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              to the [1mshopt[0m builtin command is turned  off,  the  [1mPATH[0m  is  not
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              searched.   If any [4marguments[24m are supplied, they become the posi-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              tional parameters when  [4mfilename[24m  is  executed.   Otherwise  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              positional  parameters  are unchanged.  The return status is the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              status of the last command exited within the  script  (0  if  no
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              commands  are  executed),  and false if [4mfilename[24m is not found or
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mBASH[0m [1mBUILTIN[0m [1mCOMMANDS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1mbash[0m(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       ulimit, umask, unalias, unset,  wait  -  bash  built-in  commands,  see
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       shift,  shopt,  source,  suspend,  test,  times,  trap,  type, typeset,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       local, logout, popd, printf, pushd, pwd, read, readonly,  return,  set,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       exit,  export,  fc,  fg, getopts, hash, help, history, jobs, kill, let,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       complete, continue, declare, dirs, disown, echo,  enable,  eval,  exec,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       bash,  :,  ., [, alias, bg, bind, break, builtin, cd, command, compgen,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mNAME[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HMBASH_BUILTINS(1)                                              BASH_BUILTINS(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              environment and return the exit status of the last command  exe-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              cuted from [4mfilename[24m.  If [4mfilename[24m does not contain a slash, file
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              names in [1mPATH[0m are used to find the  directory  containing  [4mfile-[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [4mname[24m.   The  file  searched  for in [1mPATH[0m need not be executable.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              When [1mbash[0m is  not  in  [4mposix[24m  [4mmode[24m,  the  current  directory  is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              searched  if no file is found in [1mPATH[0m.  If the [1msourcepath[0m option
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              to the [1mshopt[0m builtin command is turned  off,  the  [1mPATH[0m  is  not
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              searched.   If any [4marguments[24m are supplied, they become the posi-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              tional parameters when  [4mfilename[24m  is  executed.   Otherwise  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              positional  parameters  are unchanged.  The return status is the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              status of the last command exited within the  script  (0  if  no
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              commands  are  executed),  and false if [4mfilename[24m is not found or
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              cannot be read.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1malias[0m [[1m-p[0m] [[4mname[24m[=[4mvalue[24m] ...]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1mAlias[0m with no arguments or with the [1m-p[0m option prints the list of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              aliases  in  the form [1malias[0m [4mname[24m=[4mvalue[24m on standard output.  When
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              arguments are supplied, an alias is defined for each [4mname[24m  whose
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [4mvalue[24m is given.  A trailing space in  [4mvalue[24m causes the next word
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              to be checked for alias substitution when the alias is expanded.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              For  each  [4mname[24m  in the argument list for which no [4mvalue[24m is sup-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              plied, the name and  value  of  the  alias  is  printed.   [1mAlias[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              returns  true unless a [4mname[24m is given for which no alias has been
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              defined.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1mbg[0m [[4mjobspec[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Resume the suspended job [4mjobspec[24m in the background, as if it had
+[24;1H[K:[24;1H[K [KESCESC[KOO[KCC[H[K[4mix[24m  [4mmode[24m,  the  current  directory  is
+[Kund in [1mPATH[0m.  If the [1msourcepath[0m option
+[Knd is turned  off,  the  [1mPATH[0m  is  not
+[K[4mts[24m are supplied, they become the posi-
+[K[4mlename[24m  is  executed.   Otherwise  the
+[Ke unchanged.  The return status is the
+[K exited within the  script  (0  if  no
+[K and false if [4mfilename[24m is not found or
+[K
+[K
+[K
+[K with the [1m-p[0m option prints the list of
+[K[1ms[0m [4mname[24m=[4mvalue[24m on standard output.  When
+[K alias is defined for each [4mname[24m  whose
+[Kg space in  [4mvalue[24m causes the next word
+[Kbstitution when the alias is expanded.
+[Kgument list for which no [4mvalue[24m is sup-
+[K  of  the  alias  is  printed.   [1mAlias[0m
+[K[4me[24m is given for which no alias has been
+[K
+[K
+[K
+[K[4mobspec[24m in the background, as if it had
+[24;1H[K:[24;1H[K [KESCESC[KOO[KDD[H[K              When [1mbash[0m is  not  in  [4mposix[24m  [4mmode[24m,  the  current  directory  is
+[K              searched  if no file is found in [1mPATH[0m.  If the [1msourcepath[0m option
+[K              to the [1mshopt[0m builtin command is turned  off,  the  [1mPATH[0m  is  not
+[K              searched.   If any [4marguments[24m are supplied, they become the posi-
+[K              tional parameters when  [4mfilename[24m  is  executed.   Otherwise  the
+[K              positional  parameters  are unchanged.  The return status is the
+[K              status of the last command exited within the  script  (0  if  no
+[K              commands  are  executed),  and false if [4mfilename[24m is not found or
+[K              cannot be read.
+[K
+[K       [1malias[0m [[1m-p[0m] [[4mname[24m[=[4mvalue[24m] ...]
+[K              [1mAlias[0m with no arguments or with the [1m-p[0m option prints the list of
+[K              aliases  in  the form [1malias[0m [4mname[24m=[4mvalue[24m on standard output.  When
+[K              arguments are supplied, an alias is defined for each [4mname[24m  whose
+[K              [4mvalue[24m is given.  A trailing space in  [4mvalue[24m causes the next word
+[K              to be checked for alias substitution when the alias is expanded.
+[K              For  each  [4mname[24m  in the argument list for which no [4mvalue[24m is sup-
+[K              plied, the name and  value  of  the  alias  is  printed.   [1mAlias[0m
+[K              returns  true unless a [4mname[24m is given for which no alias has been
+[K              defined.
+[K
+[K       [1mbg[0m [[4mjobspec[24m]
+[K              Resume the suspended job [4mjobspec[24m in the background, as if it had
+[24;1H[K:[24;1H[K [KESCESC[KOO[KCC[H[K[4mix[24m  [4mmode[24m,  the  current  directory  is
+[Kund in [1mPATH[0m.  If the [1msourcepath[0m option
+[Knd is turned  off,  the  [1mPATH[0m  is  not
+[K[4mts[24m are supplied, they become the posi-
+[K[4mlename[24m  is  executed.   Otherwise  the
+[Ke unchanged.  The return status is the
+[K exited within the  script  (0  if  no
+[K and false if [4mfilename[24m is not found or
+[K
+[K
+[K
+[K with the [1m-p[0m option prints the list of
+[K[1ms[0m [4mname[24m=[4mvalue[24m on standard output.  When
+[K alias is defined for each [4mname[24m  whose
+[Kg space in  [4mvalue[24m causes the next word
+[Kbstitution when the alias is expanded.
+[Kgument list for which no [4mvalue[24m is sup-
+[K  of  the  alias  is  printed.   [1mAlias[0m
+[K[4me[24m is given for which no alias has been
+[K
+[K
+[K
+[K[4mobspec[24m in the background, as if it had
+[24;1H[K:[24;1H[K [KESCESC[KOO[KDD[H[K              When [1mbash[0m is  not  in  [4mposix[24m  [4mmode[24m,  the  current  directory  is
+[K              searched  if no file is found in [1mPATH[0m.  If the [1msourcepath[0m option
+[K              to the [1mshopt[0m builtin command is turned  off,  the  [1mPATH[0m  is  not
+[K              searched.   If any [4marguments[24m are supplied, they become the posi-
+[K              tional parameters when  [4mfilename[24m  is  executed.   Otherwise  the
+[K              positional  parameters  are unchanged.  The return status is the
+[K              status of the last command exited within the  script  (0  if  no
+[K              commands  are  executed),  and false if [4mfilename[24m is not found or
+[K              cannot be read.
+[K
+[K       [1malias[0m [[1m-p[0m] [[4mname[24m[=[4mvalue[24m] ...]
+[K              [1mAlias[0m with no arguments or with the [1m-p[0m option prints the list of
+[K              aliases  in  the form [1malias[0m [4mname[24m=[4mvalue[24m on standard output.  When
+[K              arguments are supplied, an alias is defined for each [4mname[24m  whose
+[K              [4mvalue[24m is given.  A trailing space in  [4mvalue[24m causes the next word
+[K              to be checked for alias substitution when the alias is expanded.
+[K              For  each  [4mname[24m  in the argument list for which no [4mvalue[24m is sup-
+[K              plied, the name and  value  of  the  alias  is  printed.   [1mAlias[0m
+[K              returns  true unless a [4mname[24m is given for which no alias has been
+[K              defined.
+[K
+[K       [1mbg[0m [[4mjobspec[24m]
+[K              Resume the suspended job [4mjobspec[24m in the background, as if it had
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;Student@localhost:~[Student@localhost ~]$ alias
+alias l.='ls -d .* --color=tty'
+alias ll='ls -l --color=tty'
+alias ls='ls --color=tty'
+alias vi='vim'
+alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
+]0;Student@localhost:~[Student@localhost ~]$ more /etc/profile.bash[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K*.bashrc
+*.bashrc: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ more *.bashrc[1P.bashrc[1Pbashrcebashrctbashrc.bashrc[1Pbashrccbashrc/bashrcpbashrcrbashrcobashrcfbashrcibashrclbashrcebashrc/bashrc*bashrc.bashrc
+etc/profile/*.bashrc: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ more etc/profile/*.bashrc[1P.bashrc[1Pbashrc[1Pbashrc.bashrc[Student@localhost ~]$ more etc/profile.bashrc
+etc/profile.bashrc: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ more etc/profile.bashrc/*.bashrc[1P.bashrc[1Pbashrc
+etc/profile/bashrc: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ more etc/profile/bashrc[1P/bashrc[1P/bashrc[1P/bashrc[1P/bashrc[1P/bashrc[1P/bashrc[1P/bashrc[1Pbashrc[1P/bashrc[1P/bashrc[1P/bashrc[1Pbashrc.bashrc*.bashrc
+*.bashrc: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ more *.bashrc[1P.bashrc[1Pbashrc
+bashrc: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ source.bashrc
+bash: source.bashrc: command not found
+]0;Student@localhost:~[Student@localhost ~]$ more .bashrc
+# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+]0;Student@localhost:~[Student@localhost ~]$ mv bash[K[K[K[K/[K.bashrc .bar[Kshrc.BAK
+]0;Student@localhost:~[Student@localhost ~]$ more .bashrc.BAL[KK
+# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34mA[00m     [00mcheck[00m    [00mfile1[00m  [00mfischer.test1[00m     [00mharrold.5.VI.txt[00m  [00;32mmylisting[00m  [00mThisMonth[00m
+[00;34mC444[00m  [00;34mDesktop[00m  [00mfile2[00m  [00mharrold.5.IV.txt[00m  [00mharrold.5.V.txt[00m   [00moutfile[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -s[Ka
+[00m[00;34m.[00m              [00;34m.evolution[00m          [00mharrold.5.IV.txt[00m    [00m.rhn-applet.conf[00m
+[00;34m..[00m             [00mfile1[00m               [00mharrold.5.VI.txt[00m    [00m.sh_history[00m
+[00;34mA[00m              [00mfile2[00m               [00mharrold.5.V.txt[00m     [00;34m.ssh[00m
+[00m.afile.swp[00m     [00mfischer.test1[00m       [00m.ICEauthority[00m       [00m.swn[00m
+[00m.bash_history[00m  [00;34m.gconf[00m              [00;34m.kde[00m                [00m.swo[00m
+[00m.bash_logout[00m   [00;34m.gconfd[00m             [00;34m.metacity[00m           [00m.swp[00m
+[00m.bash_profile[00m  [00;34m.gnome[00m              [00;34m.mozilla[00m            [00mThisMonth[00m
+[00m.bashrc.BAK[00m    [00;34m.gnome2[00m             [00m.myfile.swp[00m         [00;34m.thumbnails[00m
+[00;34mC444[00m           [00;34m.gnome2_private[00m     [00;32mmylisting[00m           [00;34m.Trash[00m
+[00mcheck[00m          [00;34m.gstreamer-0.8[00m      [00;34m.nautilus[00m           [00m.viminfo[00m
+[00;34mDesktop[00m        [00m.gtk-bookmarks[00m      [00;34m.openoffice.org2.0[00m  [00m.Xauthority[00m
+[00m.dmrc[00m          [00m.gtkrc[00m              [00moutfile[00m             [00m.zshrc[00m
+[00;34m.eggcups[00m       [00m.gtkrc-1.2-gnome2[00m   [00m.recently-used[00m
+[00m.esd_auth[00m      [00m.gtsybrgII.txt.swp[00m  [00m.rhn-applet.cache[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -a[Kmore .bashrc.BAK[4hv .bas[4lhrc[Student@localhost ~]$ mv .bashrc .bashrc.BAK[Student@localhost ~]$ mv .bashrc .bashrc.BAK[K[K[K[K. .bashrcB .bashrcA .bashrcK .bashrc
+]0;Student@localhost:~[Student@localhost ~]$ mv .bashrc.BAK .bashrcls -a[K
+[00m[00;34m.[00m              [00;34m.evolution[00m          [00mharrold.5.IV.txt[00m    [00m.rhn-applet.conf[00m
+[00;34m..[00m             [00mfile1[00m               [00mharrold.5.VI.txt[00m    [00m.sh_history[00m
+[00;34mA[00m              [00mfile2[00m               [00mharrold.5.V.txt[00m     [00;34m.ssh[00m
+[00m.afile.swp[00m     [00mfischer.test1[00m       [00m.ICEauthority[00m       [00m.swn[00m
+[00m.bash_history[00m  [00;34m.gconf[00m              [00;34m.kde[00m                [00m.swo[00m
+[00m.bash_logout[00m   [00;34m.gconfd[00m             [00;34m.metacity[00m           [00m.swp[00m
+[00m.bash_profile[00m  [00;34m.gnome[00m              [00;34m.mozilla[00m            [00mThisMonth[00m
+[00m.bashrc[00m        [00;34m.gnome2[00m             [00m.myfile.swp[00m         [00;34m.thumbnails[00m
+[00;34mC444[00m           [00;34m.gnome2_private[00m     [00;32mmylisting[00m           [00;34m.Trash[00m
+[00mcheck[00m          [00;34m.gstreamer-0.8[00m      [00;34m.nautilus[00m           [00m.viminfo[00m
+[00;34mDesktop[00m        [00m.gtk-bookmarks[00m      [00;34m.openoffice.org2.0[00m  [00m.Xauthority[00m
+[00m.dmrc[00m          [00m.gtkrc[00m              [00moutfile[00m             [00m.zshrc[00m
+[00;34m.eggcups[00m       [00m.gtkrc-1.2-gnome2[00m   [00m.recently-used[00m
+[00m.esd_auth[00m      [00m.gtsybrgII.txt.swp[00m  [00m.rhn-applet.cache[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cp bashr[K[K[K[K[K.bashrc .bashrc.BAK
+]0;Student@localhost:~[Student@localhost ~]$ cp .bashrc .bashrc.BAKls -a[K
+[00m[00;34m.[00m              [00m.esd_auth[00m          [00m.gtsybrgII.txt.swp[00m  [00m.rhn-applet.cache[00m
+[00;34m..[00m             [00;34m.evolution[00m         [00mharrold.5.IV.txt[00m    [00m.rhn-applet.conf[00m
+[00;34mA[00m              [00mfile1[00m              [00mharrold.5.VI.txt[00m    [00m.sh_history[00m
+[00m.afile.swp[00m     [00mfile2[00m              [00mharrold.5.V.txt[00m     [00;34m.ssh[00m
+[00m.bash_history[00m  [00mfischer.test1[00m      [00m.ICEauthority[00m       [00m.swn[00m
+[00m.bash_logout[00m   [00;34m.gconf[00m             [00;34m.kde[00m                [00m.swo[00m
+[00m.bash_profile[00m  [00;34m.gconfd[00m            [00;34m.metacity[00m           [00m.swp[00m
+[00m.bashrc[00m        [00;34m.gnome[00m             [00;34m.mozilla[00m            [00mThisMonth[00m
+[00m.bashrc.BAK[00m    [00;34m.gnome2[00m            [00m.myfile.swp[00m         [00;34m.thumbnails[00m
+[00;34mC444[00m           [00;34m.gnome2_private[00m    [00;32mmylisting[00m           [00;34m.Trash[00m
+[00mcheck[00m          [00;34m.gstreamer-0.8[00m     [00;34m.nautilus[00m           [00m.viminfo[00m
+[00;34mDesktop[00m        [00m.gtk-bookmarks[00m     [00;34m.openoffice.org2.0[00m  [00m.Xauthority[00m
+[00m.dmrc[00m          [00m.gtkrc[00m             [00moutfile[00m             [00m.zshrc[00m
+[00;34m.eggcups[00m       [00m.gtkrc-1.2-gnome2[00m  [00m.recently-used[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ alias lip[K[K[Klip='mkdir'
+]0;Student@localhost:~[Student@localhost ~]$ lip P[Kpatfolder
+]0;Student@localhost:~[Student@localhost ~]$ ls
+[00m[00;34mA[00m     [00mcheck[00m    [00mfile1[00m  [00mfischer.test1[00m     [00mharrold.5.VI.txt[00m  [00;32mmylisting[00m  [00;34mpatfolder[00m
+[00;34mC444[00m  [00;34mDesktop[00m  [00mfile2[00m  [00mharrold.5.IV.txt[00m  [00mharrold.5.V.txt[00m   [00moutfile[00m    [00mThisMonth[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls[Kls[K[Kalis[Kas bigbalss[K[Kl;[Ks[K[K[K[K[K[K[K[K[K bigbi[Kuild='ls -a'
+]0;Student@localhost:~[Student@localhost ~]$ alias bigbuild='ls -a'ls[Kalias bigbuild='ls -a'[Kbigbuild
+[00m[00;34m.[00m              [00m.esd_auth[00m          [00m.gtsybrgII.txt.swp[00m  [00m.recently-used[00m
+[00;34m..[00m             [00;34m.evolution[00m         [00mharrold.5.IV.txt[00m    [00m.rhn-applet.cache[00m
+[00;34mA[00m              [00mfile1[00m              [00mharrold.5.VI.txt[00m    [00m.rhn-applet.conf[00m
+[00m.afile.swp[00m     [00mfile2[00m              [00mharrold.5.V.txt[00m     [00m.sh_history[00m
+[00m.bash_history[00m  [00mfischer.test1[00m      [00m.ICEauthority[00m       [00;34m.ssh[00m
+[00m.bash_logout[00m   [00;34m.gconf[00m             [00;34m.kde[00m                [00m.swn[00m
+[00m.bash_profile[00m  [00;34m.gconfd[00m            [00;34m.metacity[00m           [00m.swo[00m
+[00m.bashrc[00m        [00;34m.gnome[00m             [00;34m.mozilla[00m            [00m.swp[00m
+[00m.bashrc.BAK[00m    [00;34m.gnome2[00m            [00m.myfile.swp[00m         [00mThisMonth[00m
+[00;34mC444[00m           [00;34m.gnome2_private[00m    [00;32mmylisting[00m           [00;34m.thumbnails[00m
+[00mcheck[00m          [00;34m.gstreamer-0.8[00m     [00;34m.nautilus[00m           [00;34m.Trash[00m
+[00;34mDesktop[00m        [00m.gtk-bookmarks[00m     [00;34m.openoffice.org2.0[00m  [00m.viminfo[00m
+[00m.dmrc[00m          [00m.gtkrc[00m             [00moutfile[00m             [00m.Xauthority[00m
+[00;34m.eggcups[00m       [00m.gtkrc-1.2-gnome2[00m  [00;34mpatfolder[00m           [00m.zshrc[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ source.bashrc
+bash: source.bashrc: command not found
+]0;Student@localhost:~[Student@localhost ~]$ source.bashrc .bashrc
+]0;Student@localhost:~[Student@localhost ~]$ source .bashrc[1P.bashrc[5Pbigbuildalias bigbuild='ls -a'[14Pbigbuild
+[00m[00;34m.[00m              [00m.esd_auth[00m          [00m.gtsybrgII.txt.swp[00m  [00m.recently-used[00m
+[00;34m..[00m             [00;34m.evolution[00m         [00mharrold.5.IV.txt[00m    [00m.rhn-applet.cache[00m
+[00;34mA[00m              [00mfile1[00m              [00mharrold.5.VI.txt[00m    [00m.rhn-applet.conf[00m
+[00m.afile.swp[00m     [00mfile2[00m              [00mharrold.5.V.txt[00m     [00m.sh_history[00m
+[00m.bash_history[00m  [00mfischer.test1[00m      [00m.ICEauthority[00m       [00;34m.ssh[00m
+[00m.bash_logout[00m   [00;34m.gconf[00m             [00;34m.kde[00m                [00m.swn[00m
+[00m.bash_profile[00m  [00;34m.gconfd[00m            [00;34m.metacity[00m           [00m.swo[00m
+[00m.bashrc[00m        [00;34m.gnome[00m             [00;34m.mozilla[00m            [00m.swp[00m
+[00m.bashrc.BAK[00m    [00;34m.gnome2[00m            [00m.myfile.swp[00m         [00mThisMonth[00m
+[00;34mC444[00m           [00;34m.gnome2_private[00m    [00;32mmylisting[00m           [00;34m.thumbnails[00m
+[00mcheck[00m          [00;34m.gstreamer-0.8[00m     [00;34m.nautilus[00m           [00;34m.Trash[00m
+[00;34mDesktop[00m        [00m.gtk-bookmarks[00m     [00;34m.openoffice.org2.0[00m  [00m.viminfo[00m
+[00m.dmrc[00m          [00m.gtkrc[00m             [00moutfile[00m             [00m.Xauthority[00m
+[00;34m.eggcups[00m       [00m.gtkrc-1.2-gnome2[00m  [00;34mpatfolder[00m           [00m.zshrc[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ bigbuildsource .bashrc[1P.bashrc[5Pbigbuildalias bigbuild='ls -a'ls[Kip patfolder2[K1
+]0;Student@localhost:~[Student@localhost ~]$ lip patfolder1[6Pbigbuildsource .bashrc[1P.bashrc[5Pbigbuildalias bigbuild='ls -a'ls[Kip patfolders[Kalias bigbuild='ls -a'[14Pbigbuild
+[00m[00;34m.[00m              [00;34m.evolution[00m          [00mharrold.5.VI.txt[00m    [00m.rhn-applet.conf[00m
+[00;34m..[00m             [00mfile1[00m               [00mharrold.5.V.txt[00m     [00m.sh_history[00m
+[00;34mA[00m              [00mfile2[00m               [00m.ICEauthority[00m       [00;34m.ssh[00m
+[00m.afile.swp[00m     [00mfischer.test1[00m       [00;34m.kde[00m                [00m.swn[00m
+[00m.bash_history[00m  [00;34m.gconf[00m              [00;34m.metacity[00m           [00m.swo[00m
+[00m.bash_logout[00m   [00;34m.gconfd[00m             [00;34m.mozilla[00m            [00m.swp[00m
+[00m.bash_profile[00m  [00;34m.gnome[00m              [00m.myfile.swp[00m         [00mThisMonth[00m
+[00m.bashrc[00m        [00;34m.gnome2[00m             [00;32mmylisting[00m           [00;34m.thumbnails[00m
+[00m.bashrc.BAK[00m    [00;34m.gnome2_private[00m     [00;34m.nautilus[00m           [00;34m.Trash[00m
+[00;34mC444[00m           [00;34m.gstreamer-0.8[00m      [00;34m.openoffice.org2.0[00m  [00m.viminfo[00m
+[00mcheck[00m          [00m.gtk-bookmarks[00m      [00moutfile[00m             [00m.Xauthority[00m
+[00;34mDesktop[00m        [00m.gtkrc[00m              [00;34mpatfolder[00m           [00m.zshrc[00m
+[00m.dmrc[00m          [00m.gtkrc-1.2-gnome2[00m   [00;34mpatfolder1[00m
+[00;34m.eggcups[00m       [00m.gtsybrgII.txt.swp[00m  [00m.recently-used[00m
+[00m.esd_auth[00m      [00mharrold.5.IV.txt[00m    [00m.rhn-applet.cache[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ rkm[K~[K[Km patfolder
+rm: cannot remove `patfolder': Is a directory
+]0;Student@localhost:~[Student@localhost ~]$ rm patfolder[K[K[K[K[K[K[K[K[K[K[K[Kunalias bigbuild
+]0;Student@localhost:~[Student@localhost ~]$ unalias bigbuild[K[K[K[K[K[K[K[Klip
+]0;Student@localhost:~[Student@localhost ~]$ alias
+alias l.='ls -d .* --color=tty'
+alias ll='ls -l --color=tty'
+alias ls='ls --color=tty'
+alias vi='vim'
+alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
+]0;Student@localhost:~[Student@localhost ~]$ rm[K[Kcp bask[Khrc.BAK [4h.[4l[Student@localhost ~]$ cp .bashrc.BAK .basrc[K[Khrc
+]0;Student@localhost:~[Student@localhost ~]$ ls -a
+[00m[00;34m.[00m              [00;34m.evolution[00m          [00mharrold.5.VI.txt[00m    [00m.rhn-applet.conf[00m
+[00;34m..[00m             [00mfile1[00m               [00mharrold.5.V.txt[00m     [00m.sh_history[00m
+[00;34mA[00m              [00mfile2[00m               [00m.ICEauthority[00m       [00;34m.ssh[00m
+[00m.afile.swp[00m     [00mfischer.test1[00m       [00;34m.kde[00m                [00m.swn[00m
+[00m.bash_history[00m  [00;34m.gconf[00m              [00;34m.metacity[00m           [00m.swo[00m
+[00m.bash_logout[00m   [00;34m.gconfd[00m             [00;34m.mozilla[00m            [00m.swp[00m
+[00m.bash_profile[00m  [00;34m.gnome[00m              [00m.myfile.swp[00m         [00mThisMonth[00m
+[00m.bashrc[00m        [00;34m.gnome2[00m             [00;32mmylisting[00m           [00;34m.thumbnails[00m
+[00m.bashrc.BAK[00m    [00;34m.gnome2_private[00m     [00;34m.nautilus[00m           [00;34m.Trash[00m
+[00;34mC444[00m           [00;34m.gstreamer-0.8[00m      [00;34m.openoffice.org2.0[00m  [00m.viminfo[00m
+[00mcheck[00m          [00m.gtk-bookmarks[00m      [00moutfile[00m             [00m.Xauthority[00m
+[00;34mDesktop[00m        [00m.gtkrc[00m              [00;34mpatfolder[00m           [00m.zshrc[00m
+[00m.dmrc[00m          [00m.gtkrc-1.2-gnome2[00m   [00;34mpatfolder1[00m
+[00;34m.eggcups[00m       [00m.gtsybrgII.txt.swp[00m  [00m.recently-used[00m
+[00m.esd_auth[00m      [00mharrold.5.IV.txt[00m    [00m.rhn-applet.cache[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -acp .bashrc.BAK .bashrc[1P[1P[4hm[4l[4hv[4l
+]0;Student@localhost:~[Student@localhost ~]$ mv .bashrc.BAK .bashrcls -a[K
+[00m[00;34m.[00m              [00;34m.evolution[00m          [00mharrold.5.IV.txt[00m    [00m.recently-used[00m
+[00;34m..[00m             [00mfile1[00m               [00mharrold.5.VI.txt[00m    [00m.rhn-applet.cache[00m
+[00;34mA[00m              [00mfile2[00m               [00mharrold.5.V.txt[00m     [00m.rhn-applet.conf[00m
+[00m.afile.swp[00m     [00mfischer.test1[00m       [00m.ICEauthority[00m       [00m.sh_history[00m
+[00m.bash_history[00m  [00;34m.gconf[00m              [00;34m.kde[00m                [00;34m.ssh[00m
+[00m.bash_logout[00m   [00;34m.gconfd[00m             [00;34m.metacity[00m           [00m.swn[00m
+[00m.bash_profile[00m  [00;34m.gnome[00m              [00;34m.mozilla[00m            [00m.swo[00m
+[00m.bashrc[00m        [00;34m.gnome2[00m             [00m.myfile.swp[00m         [00m.swp[00m
+[00;34mC444[00m           [00;34m.gnome2_private[00m     [00;32mmylisting[00m           [00mThisMonth[00m
+[00mcheck[00m          [00;34m.gstreamer-0.8[00m      [00;34m.nautilus[00m           [00;34m.thumbnails[00m
+[00;34mDesktop[00m        [00m.gtk-bookmarks[00m      [00;34m.openoffice.org2.0[00m  [00;34m.Trash[00m
+[00m.dmrc[00m          [00m.gtkrc[00m              [00moutfile[00m             [00m.viminfo[00m
+[00;34m.eggcups[00m       [00m.gtkrc-1.2-gnome2[00m   [00;34mpatfolder[00m           [00m.Xauthority[00m
+[00m.esd_auth[00m      [00m.gtsybrgII.txt.swp[00m  [00;34mpatfolder1[00m          [00m.zshrc[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -a .[K[K[K[K[K[K[Kmore .bash_logout
+# ~/.bash_logout
+
+clear
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 01 May 2006 06:37:31 AM EDT

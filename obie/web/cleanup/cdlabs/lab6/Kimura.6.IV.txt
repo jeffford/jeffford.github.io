@@ -1,0 +1,58 @@
+Script started on Sun 30 Apr 2006 05:06:49 PM EDT
+[Student@localhost ~]$ cat >Ch6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56	
+8001	07.00	14
+
+]0;Student@localhost:~[Student@localhost ~]$ cat >Ch6S4F1[1PCh6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	07.00	14
+]0;Student@localhost:~[Student@localhost ~]$ echo"[K " p[K[KPrint the number of workds[K[Krs[K[Kers."
+Print the number of workers.
+]0;Student@localhost:~[Student@localhost ~]$ wc -l Ch6S4F1
+7 Ch6S4F1
+]0;Student@localhost:~[Student@localhost ~]$ echo "sort accorti[K[Kding to id."
+sort according to id.
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -1 Ch6S4F1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	07.00	14
+]0;Student@localhost:~[Student@localhost ~]$ echo "show[K[K[K[KShow the line with highest houl[Krly pay."
+Show the line with highest hourly pay.
+]0;Student@localhost:~[Student@localhost ~]$ c[Ksort -1[K[K+1 -2 Ch6S4F1 >file1 | tail -1 file1
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ sort +1 -2 Ch6S4F1 >file1 | tail -1 file1[Student@localhost ~]$ echo "Show the line with highest hourly pay."[Student@localhost ~]$ [4Psort +1 -2 Ch6S4F1 >file1 | tail -1 file1[Student@localhost ~]$ [Ksort +1 -2 Ch6S4F1 >file1 | tail -1 file1
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ sort +1 -2 Ch6S4F1 >file1 | tail -1 file1[Student@localhost ~]$ [Ksort +1 -2 Ch6S4F1 >file1 | tail -1 file1
+]0;Student@localhost:~[Student@localhost ~]$ cas[Kt[K[K[Kmore file1
+8001	07.00	14
+1420	12.56	45
+3456	14.56	22
+1443	23.23	19
+1122	23.56	28
+2341	45.12	34
+2351	67.90	56
+]0;Student@localhost:~[Student@localhost ~]$ more file1[4hsort +1 -2 Ch6S4F1 >file1 | tai[4ll -1[Student@localhost ~]$ sort +1 -2 Ch6S4F1 >file1 | tail -1 file1
+]0;Student@localhost:~[Student@localhost ~]$ sort +1 -2 Ch6S4F1 >file1 | tail -1 file1
+2351	67.90	56
+]0;Student@localhost:~[Student@localhost ~]$ \[Kecho "prin[K[K[K[KPrint the ID of most wo[K[Khours wok[Krked worker"
+Print the ID of most hours worked worker
+]0;Student@localhost:~[Student@localhost ~]$ sort +2 -3 Ch6S4F1 >file2 | cut -f1 file2 >file3 | tail[K[Student@localhost ~]$ sort +2 -3 Ch6S4F1 >file2 | cut -f1 file2 >file3 | tail -1 file3
+2351
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Sun 30 Apr 2006 05:33:35 PM EDT

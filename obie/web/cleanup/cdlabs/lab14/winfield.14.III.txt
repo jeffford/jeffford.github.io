@@ -1,0 +1,110 @@
+Script started on Mon 08 May 2006 05:25:13 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ awls
+must have [columnumber] [columnumber] [columnumber]
+must use numbers
+cut: missing list of fields
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ awls 1
+must have [columnumber] [columnumber] [columnumber]
+must be numbers
+total
+drwxrwxr-x
+-rwxrwxrwx
+-rwxrwxrwx
+-rw-rw-r--
+drwxrwxr-x
+drwxrwxr-x
+drwxr-xr-x
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+]0;Student@localhost:~[Student@localhost ~]$ awls 1 2
+must have [columnumber] [columnumber] [columnumber]
+must be numbers
+total 212
+drwxrwxr-x 2
+-rwxrwxrwx 1
+-rwxrwxrwx 1
+-rw-rw-r-- 1
+drwxrwxr-x 2
+drwxrwxr-x 2
+drwxr-xr-x 2
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+]0;Student@localhost:~[Student@localhost ~]$ awls 1 2 2[K3[Ks
+must be numbers
+cut: invalid byte, character or field list
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ awls 1 2 s[K[K[Ks s
+must be numbers
+cut: invalid byte, character or field list
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ awls 1 s s[K[K[K2 1000
+must be numbers
+total 212
+drwxrwxr-x 2
+-rwxrwxrwx 1
+-rwxrwxrwx 1
+-rw-rw-r-- 1
+drwxrwxr-x 2
+drwxrwxr-x 2
+drwxr-xr-x 2
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+]0;Student@localhost:~[Student@localhost ~]$ awls 1 2 
+1000[K[K[K[K[K[K[K[K1 4 5
+total
+drwxrwxr-x Student 4096
+-rwxrwxrwx Student 452
+-rwxrwxrwx Student 613
+-rw-rw-r-- Student 57
+drwxrwxr-x Student 4096
+drwxrwxr-x Student 4096
+drwxr-xr-x Student 4096
+-rw-rw-r-- Student 1451
+-rw-rw-r-- Student 12323
+-rw-rw-r-- Student 11749
+-rw-rw-r-- Student 644
+-rw-rw-r-- Student 56015
+-rw-rw-r-- Student 23858
+-rw-rw-r-- Student 0
+-rw-rw-r-- Student 3168
+]0;Student@localhost:~[Student@localhost ~]$ awls 1 4 
+5[K[K[K[K[K3[K7[K3 7 12[K1[K
+total
+drwxrwxr-x Student 8
+-rwxrwxrwx Student 8
+-rwxrwxrwx Student 8
+-rw-rw-r-- Student 8
+drwxrwxr-x Student 8
+drwxrwxr-x Student 8
+drwxr-xr-x Student 8
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 4
+-rw-rw-r-- Student 8
+-rw-rw-r-- Student 5
+-rw-rw-r-- Student 8
+-rw-rw-r-- Student 8
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 08 May 2006 05:27:51 PM EDT
+

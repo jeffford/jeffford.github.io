@@ -1,0 +1,531 @@
+<HEAD>
+<TITLE>Using the UTSA Starving Philosophers Simulator</TITLE>
+</HEAD>
+<BODY>
+<H1> Using the Starving Philosophers Simulator</H1>
+
+This document was last modified on January 29, 2001 to reflect changes made
+to version 0.30.
+<p>
+
+<hr>
+<H1>Table of Contents</H1>
+
+<a href="#Overview">Overview</a><br>
+<a href="#Requirements">System and User Requirements</a><br>
+<a HREF="#Starting">Starting the Simulator</a><br>
+<a HREF="#Basic Operation">Basic Operation</a><br>
+<a HREF="#Configuration">Configuration</a><br>
+<a HREF="#Algorithms">Algorithms, Monitor Classification and Queueing Disciplines</a><br>
+<a HREF="#Animation">Animation</a><br>
+<a HREF="#Logging">Logging</a><br>
+<a HREF="#Detailed Information">Detailed Information</a><br>
+<a HREF="#Parallel Execution">Parallel Execution</a><br>
+<p>
+<hr>
+
+<p>
+<a name="Overview"></a>
+<h3>Overview</h3>
+<p>
+The Starving Philosophers simulation is based on the 
+classical Dining Philosophers problem.
+Each philosopher is in one of the states: Thinking, Hungry,
+or Eating.
+In this simulation probability distributions are specified for 
+each philosopher giving the eating times and thinking times.
+<p>
+We start with all philosophers thinking and each determines a 
+length of time from its thinking distribution.  After that time
+the philosopher enters the hungry state and the algorithm determines
+when it can enter its eating state.
+<p>
+When a philosopher enters its eating state, it
+chooses an eating time from its eating time distribution and 
+stays eating for this time.  When the time is up it goes into
+the thinking state, possibly allowing others to eat.
+<p>
+Simulator times are integers on an arbitrary time scale.
+The simulator is event driven.  As time progresses, the 
+philosopher threads move among various queues as they attempt
+to gain the monitor lock.
+<p>
+A unique color is used for each philosopher thread.  The philosophers
+appear as boxes of a given color distributed around a black circle which
+represents the monitor.  Inside each philosopher box is a letter (T, H, or E)
+representing the state of the philosopher.  A philosopher thread attempting to
+enter the monitor is shown as a solid rectangle of the philosopher color.
+The simulator can animate the movement of this thread among the monitor queues
+using this rectangle.
+<p>
+Inside the monitor circle are the monitor lock at the center and two monitor
+queues, the <b>entry queue</b> containing threads which are attempting to 
+execute a monitor routine and waiting for the monitor lock, and the
+<b>waiting queue</b> consisting of those threads which have executed a 
+condition variable wait and have been awakened.
+<p>
+In the Dining Philosophers algorithms used hear, there is one condition
+variable per philosopher and only the corresponding philosopher can issue a 
+wait for this condition variable.  The queues for these condition variables
+and therefore have at most one waiting process.  These queues are shown
+as small squares having the color of the corresponding philosopher.
+When the queue is empty, the box has a white interior.  Otherwise, the 
+box is filled with the color of the philosopher.
+<p>
+The philosophers are numbered starting at 0 with the one at 12 o'clock and
+the numbers increase as you move clockwise around.  Figure 1 shows a diagram
+of 5 philosophers.  Philosopher 0 (green) is thinking.  Philosophers
+1 (red) and 3 (magenta) are hungry and are waiting on their condition
+variables.  Philosophers 2 (blue) and 4 (cyan) are eating.
+<p>
+<center>
+<img src=files/starving1.gif>
+<br>
+Figure 1: 5 Philosophers
+</center>
+<p>
+The simulator can run one of two dining philosophers algorithms and 
+simulate monitors with 3 queue priorities and 3 queue disciplines.
+Results of the simulation can be logged, graphed, and compared.
+<p>
+One area of interest is how long a philosopher remains in the hungry state.
+The classical definition of starvation refers to a thread that is postponed
+indefinitely from a desired activity, in this case changing from hungry
+to eating.  We look at a more practical aspect of starvation, and assign
+to each philosopher a maximum hungry time.  If a philosopher remains in the
+hungry state longer than this time, we consider the philosopher starved,
+and therefore no longer active.  The simulator can be run either with this
+type of starvation on or off.  The default is off.
+<p>
+The simulator is written using the Jeli library.  Information about using the
+widgets of this library can be found <a href=../Jeli/widgets.html>here</a>.
+<p>
+
+
+<hr>
+<p>
+<a name="Requirements"></a>
+</p><h3>System and User Requirements</h3>
+<p>
+System requirements:
+</p><ul><li>
+    Computer with a Java runtime environment, version 1.1 or later.<br>
+    Java 1.4.2 or later is recommended.
+    </li><li>You need the following files to run the simulator:
+            <ul><li><tt>SP.jar</tt>
+            <li><tt>Jeli.jar</tt>
+            <li><tt>spconfig</tt>
+            <li><tt>runsp.bat </tt>(for Windows) or <tt>runsp</tt>
+                 for UNIX or Mac OSX
+        </ul>
+</ul>    
+<p>
+User requirements:
+</p><ul><li>Familiarity with running a program in a command line environment
+    <li>Some knowledge of the Dining Philosophers Problem.
+</ul>
+ 
+<p>
+If you are only interested in this simulator, you can download a zip file
+<a href="http://vip.cs.utsa.edu/downloads/sp.zip">sp.zip</a>
+that contains all of the files that you need.
+<p>
+<b>Running in a non-Windows environment:</b><br>
+If you installed the simulator by copying the files from a CD, the
+scripts may not have the correct permissions to run.  The <tt>convert</tt>
+and <tt>runsp</tt> files should be executable.<br>
+The ASCII files distributed with this distribution are in the Windows format
+in which lines end in a carriage return followed by a line feed.
+It may be more convenient to have the carriage returns removed.
+If you are running under UNIX, Linux, or Mac OSX, it
+may be more convenient to have the carriage returns removed.
+You can remove all of the carriage returns from these files by executing the
+<tt>convert</tt> script.
+<p>
+
+ 
+<hr>
+<a name="Starting"></a>
+<h3>Starting the Simulator</h3>
+If you are running from an image of the simulator CD, start in the
+<tt>sp</tt> subdirectory of the <tt>run</tt> directory.  If you unzipped
+the <b>SP.zip</b> file in a single directory, start in that directory.
+In either case, you can start the simulator from a command window by
+executing typing <tt>runsp</tt>.  In a Windows environment you can
+also just click on the file <tt>runsp.bat</tt>.
+<p>
+If you do a custom installation, you can put the jar files anywhere you
+want.  Modify the <tt>runsp.bat</tt> (Windows) or <tt>runsp</tt>
+(Unix, Linux, Mac OSX) file so that the <tt>JARDIR1</tt> or <tt>JARDIR2</tt>
+variables points to the location of the jar files.
+<p>
+If the simulator does not start, make sure you have the Java runtime
+executables in your path.  In a command window, execute:<br>
+<tt>java -version</tt><br>
+and make sure this displays a version later than 1.0.
+<p>
+ 
+<p>
+<hr>
+<a name="Basic Operation"></a>
+<h3>Basic Operation</h3>
+
+The basic steps in doing a simulation are
+<UL>
+<LI> Create a configuration file describing the basic properties of the 
+     simulator.
+<LI> Start the simulator.
+<LI> Use the simulator buttons to further modify the properties of the
+     simulator.
+<LI> Open the log file.
+<LI> Run the simulator for a while.
+<LI> Log the results.
+<LI> Close the log file.
+<LI> Exit the simulator.
+<LI> Examine the log file using a browser.
+</UL>
+
+<p>
+Start with the provided spconfig file.
+The first line starts with the word <b>user</b>.
+Modify this line so that your name appears after this word.
+Start the simulator by executing <b>runsp</b> as described above.
+You should see a window similar to the one shown in Figure 2.
+The display consists of two parts, a diagram of the philosophers and the
+monitor as in Figure 1, and a collection of buttons to control the simulation
+below.
+<p>
+<center>
+<img src=files/starving2.gif>
+<br>
+Figure 2: The Main Starving Philosophers Window
+</center>
+<p>
+
+<p>
+The buttons that control the animation have a light red background.
+The simulator uses animation and a virtual time that is controlled by the
+buttons and sliders above the <b>Pause</b> button.  Pushing the 
+<b>Animation On</b> button changes it to an <b>Animation Off</b> button
+and turns off the animation, allowing the simulation to run more quickly.
+When on, the speed of animation is controlled by the speed slider.  The
+detailed operation of this Jeli slider is described 
+<a href=../Jeli/widgets.html>here</a>.
+When animation is running, the <b>Pause</b> pauses the animation and
+changes to a <b>Resume</b> button.
+<p>
+The simulation is run by pushing one of the 4 green buttons in the button area.
+<b>Step Time</b> will run one time step.
+<b>Step Event</b> will run the next time step in which something happens.
+<b>Run: 10</b> will run 10 time steps.  It will count down the number of
+remaining time steps as the simulation progresses.  The button below this,
+<b>Run Count: 10</b> can be used to change the number of time steps that
+the <b>Run</b> button executes.  Its operation is described
+<a href=../Jeli/widgets.html>here</a>.
+The last button, <b>Run Until Starvation</b> will run until a philosopher
+starves (if starvation is on) or forever otherwise.  However, running can
+always be stopped by pushing the <b>abort</b> button.  Abort will stop
+the simulation after the current time step.
+<p>
+The buttons related to logging have a light blue background.
+The <b>Open Log</b> button will open a log file containing information
+about the simulation.  You can display a Gantt chart showing the states 
+of the philosophers with the <b>Gantt Chart</b> button.  If the log is open,
+the <b>Log</b> button on the Gantt chart will be active, allowing a copy of the
+Gantt chart to be put in the log file.
+<p>
+When done with the simulation, close the log using the <b>Close Log</b> button
+(which the <b>Open Log</b> button turned into) and exit the simulator using
+the <b>Quit</b> button which is in the upper right corner of the 
+philosophers diagram.
+<p>
+The rest of the buttons control the details of the algorithms used in the
+simulation and the logging facility.  Both are described in detail below.
+<p>
+<hr>
+<p>
+<a name="Configuration"></a>
+<h3>Configuration</h3>
+Configuration is done using a configuration file.  The default name
+of this file is <tt>spconfig</tt> but a different file can be used by
+entering it on the command line when the program is started:<br>
+<tt> java StarvingMain configfilemame</tt><p>
+The configuration file consists of lines containing a keyword followed
+by an optional parameter.  The parameter may represent a number, a probability distribution, or a string.
+The order of the lines in the configuration file is not important except
+for conflicting options.  In this case the later one has precedence.
+<p>
+The probability distributions support are constant, uniform, and exponential.
+The probability distributions represent am integral time and cannot be negative.
+The probability distributions have one of the following forms:<br>
+&nbsp&nbsp <b>constant n</b> where n is a positive integer<br>
+&nbsp&nbsp <b>uniform n m</b> meaning uniformly distributed between n and m inclusive.<br>
+&nbsp&nbsp <b>exponential x</b> where <b>x</b> and be a floating point 
+number representing the mean of the distribution.  Values from this distribution
+are rounded up to an integer.
+<p>
+
+The following keywords are supported.  For the parameter, <b>n</b> and <b>m</b>
+represent integers, <b>s</b> represents a string, and <b>d</b>
+represents a distribution as described above.<p>
+<tt><b>number n</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp the number of philosophers
+<p>
+
+<tt><b>seed n</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp a seed for the random number generator
+<p>
+
+<tt><b>eatingdist d</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp the default distribution used for eating times
+<p>
+
+<tt><b>thinkingdist d</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp the default distribution used for thinking times
+<p>
+
+<tt><b>starvingdist d</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp the default distribution used for starvation times
+<p>
+
+<tt><b>user s</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp the name that appears in the log file.
+<p>
+
+<tt><b>logfn s</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp the name the log file.
+<p>
+
+<tt><b>starving &lt;on,off&gt;</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp turn starving on or off.
+<p>
+
+<tt><b>algorithm &lt;polite,classical&gt;</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp use the algorithm indicated.
+<p>
+
+<tt><b>animate &lt;on,off&gt;</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp start with animation on or off.
+<p>
+
+<tt><b>classification &lt;Signal and Continue, Wait and Notify, Entry Priority&gt;</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp set the monitor classification giving queue priorities
+<p>
+
+<tt><b>queueing &lt;fifo, random&gt;</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp set the queueing discipline.
+<p>
+
+<tt><b>thinkingdist<i>n</i> d</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp set the thinking time distribution for
+philosopher <b><i>n</b></i>.
+<p>
+
+<tt><b>eatingdist<i>n</i> d</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp set the eating time distribution for
+philosopher <b><i>n</b></i>.
+<p>
+
+<tt><b>statvingdist<i>n</i> d</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp set the starvation time distribution for
+philosopher <b><i>n</b></i>.
+<p>
+
+<tt><b>thinkingdistvalue<i>n</i> m</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp force a value returned for the thinking time
+distribution for philosopher <b><i>n</b></i>.
+<p>
+
+<tt><b>eatingdistvalue<i>n</i> m</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp force a value returned for the eating time
+distribution for philosopher <b><i>n</b></i>.
+<p>
+
+<tt><b>starvingdistvalue<i>n</i> m</b></tt><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp force a value returned for the starvation time
+distribution for philosopher <b><i>n</b></i>.
+<p>
+
+<p>
+<hr>
+<p>
+<a name="Algorithms"></a>
+<h3>Algorithms, Monitor Classification and Queueing Disciplines</h3>
+
+The simulator supports two Dining Philosophers algorithms.
+<p>
+The classical algorithm is the one described in most textbooks.
+When a philosopher stops eating, it examines it neighbors and lets them
+eat if they are hungry and their other neighbor is not eating.
+The Polite Algorithm does not allow a philosopher to eat twice in a row if
+a neighbor has been hungry since it last started eating.
+The default is to use the classical algorithm.  This can be changed
+with a line in the configuration file or by pushing the <b>Algorithm</b>
+button.
+<p>
+Monitors are classified by the relative priority of their queues.
+The simulator assumes that the signaler queue has the highest priority.
+The classification describes the relative priorities of the entry 
+and waiting queues.  Monitors in which the waiting queue has the higher 
+priority than the entry queue are called <b>Signal and Continue</b>
+monitors and those in which the two queues have equal priority are called
+<b>Wait and Notify</b> monitors.  Monitors in which the entry queue has 
+higher priority than the waiting queue are generally thought to have
+unacceptable behavior and do not have a standard name.  They are called
+<b>Entry Priority</b> monitors here.
+<p>
+The classification of the monitor can be changed with a line in the 
+configuration file or by pushing the monitor classification button
+which is labeled by the name of the current classification.
+<p>
+The queueing discipline of a queue refers to the order in which items are
+removed from the queue relative to the order in which they entered.  Three
+queueing disciplines are supported by the simulator, FIFO, LIFO, and Random.
+These refer to both the entry queue and the waiting queue.  The queueing 
+discipline can be changed with a line in the configuration file or by
+pushing the <b>Queueing</b> button.
+
+<p>
+<hr>
+<p>
+<a name="Animation"></a>
+<h3>Animation</h3>
+Animation is controlled by the widgets with a light red background that are
+at the bottom of the starving philosophers frame.  Animation is enabled when 
+the <b>Animation On</b> button appears.  Pushing this buttons changes it to
+<b>Animation Off</b> and turns off the animation.  The simulation will run much
+faster with the animation off.
+<p>
+The speed of the animation can be controlled by a slider.  The relative speed 
+of the animation is shown on the <b>Speed</b> button to the right of the
+animation button.  Normal speed is 1.0.  It can be adjusted using the slider
+to the right.  The <b>Round</b> button can be used to round the speed value
+after it is adjusted with the slider.  The <b>Double</b> and <b>Round</b>
+buttons control the range of the slider.
+<p>
+Below these is the <b>Pause/Resume</b> button.  When it says <b>Pause</b>
+pushing this button will pause the animation which also pauses the
+simulation.  The button is changed to a <b>Resume</b> button which resumes
+the animation.  This button has no effect if animation if off.
+<p>
+<hr>
+<p>
+<a name="Logging"></a>
+<h3>Logging</h3>
+Logging is controlled by the buttons with a light blue background.
+Some of these buttons have different functions depending on whether
+the log file is open or not.
+<p>
+The <b>Open Log</b> button will open the log file.  This will change it to
+a <b>Close Log</b> button.  When the log is not open, the next two
+buttons affect what will happen when the log is opened next.  The
+<b>Change Log Filename</b> button can be used to prompt you for a new
+log filename.  The next button toggles between <b>Replace Old Log</b> and
+<b>Append To Old Log</b>.  In the first case, if a file already exists
+with the same name as the new log file, the old file is lost.  In the 
+second case new log information will be appended to the old log file.
+<p>
+When the log is open, the second button becomes a <b>Start/Stop Log</b>
+button.  This can be used to temporarily stop information from being
+logged without closing the log file.  The next button is a
+<b>Log Comment</b> button which can be used to add a comment to the log file.
+<p>
+The <b>Show Log</b> can bring up a browser window with containing the log file.
+This only works on some systems.  If this button does not work automatically,
+you may have to bring up the browser and open the appropriate URL.
+<p>
+The <b>Gantt Chart</b> button displays a Gantt chart showing the states of
+the philosophers over time.  When the log file is open, the Gantt chart
+has a <b>Log</b> button which can but am image of the Gantt chart 
+in the log file.  The <b>Log Data</b> button becomes active when the 
+log file is open.  This puts some tables into the log file containing
+statistics from the simulation.
+<p>
+The <b>Current State</b> button toggles between <b>Truncate</b> and
+<b>Ignore</b>.
+This affects how the statistics handle the current state of each philosopher.
+The ending time of the current state is no known.  In the <b>Ignore</b>
+mode the current state is not included in the statistics.  In the
+<b>Include</b> mode, the last state is included, assuming it ends at the 
+current time.
+<p>
+The <b>Color/Mono</b> toggles between color and monochrome mode for
+saving the Gantt chart.  In the <b>Mono</b> mode, gray scales are used
+which might be easier to distinguish when the charts are printed
+on a black and white printer.
+<p>
+<hr>
+<p>
+<a name="Detailed Information"></a>
+<h3>Detailed Information</h3>
+The <b>Show Details</b> button pops up a window containing information
+about the details of the running of the simulation.
+Each time a button to start or stop the simulation is pushed, a message
+appears in this window.  It shows when each time step starts and ends.
+It also show when a philosopher changes state,
+and when it finishes eating, it shows what tests were made to determine if
+another philosopher can change state.
+<p>
+This is a standard Jeli Frame which contains a
+<a href=../Jeli/widgets.html#JeliTextArea>JeliTextArea</a>
+with a button to log the contents of the text area.
+<p>
+The buttons at the bottom of the window include:<br>
+<b>Hide</b> which hides the window<br>
+<b>Show Events</b> which shows the pending events for the simulation<br>
+<b>Show Distributions</b> which shows the distributions for all of the philosophers. <br>
+<b>Show Entry Queue History</b> which shows the times of all items put in and taken out of the entry queue. <br>
+<b>Show Waiting Queue History</b> which shows the times of all items put in and taken out of the waiting queue. <br>
+<p>
+
+Each philosopher also has a detailed information window which tracks just 
+that philosopher.  You can open this window by clicking the mouse inside
+one of the large philosopher boxes.  There is a separate window for each
+philosopher and you can have as many of these open as you wish.
+<p>
+The buttons at the top of the window, including a <b>Log</b> button
+are the same as for any JeliTextArea.
+A colored bar at the bottom of the window matches the color of the 
+corresponding philosopher.
+Information is not automatically logged in these windows.  You must
+push one of the buttons at the bottom of the window.<p>
+<b>Show Distributions</b> lists the three distributions for the philosopher.<br>
+<b>Show Times</b> lists the three distributions for the philosopher and the
+times used so far from each of these distributions. <br>
+<b>Show History</b> shows all of the state changes of this philosopher and when they occurred. <br>
+<b>Hide</b> hides the window.<br>
+
+<p>
+<hr>
+<p>
+<a name="Parallel Execution"></a>
+<h3>Parallel Execution</h3>
+You can run two or more copies of the simulator simultaneously to 
+compare the results with different parameter settings, for example
+different algorithms or types of monitors.<p>
+Normally the simulator is started with<br>
+<tt>java StarvingMain</tt> or <br>
+<tt>java StarvingMain configfile</tt><br>
+If instead you use:<br>
+<tt>java StarvingMain 2</tt> or <br>
+<tt>java StarvingMain 2 configfile</tt><br>
+Two copies of the simulator screen will appear.<p>
+Only the first window will contain the buttons for opening and closing
+the log as the same log will be used for both simulations.
+An additional button appears which is initially labeled
+<b>Step Links Enabled</b>.  This means that pushing one of the 
+green buttons for one simulation will cause the corresponding
+button on the other simulation to be pushed.
+<p>
+The <b>Pause/Resume</b> button is now split into two parts,
+<b>Pause/Resume This</b> and <b>Pause/Resume All</b>, giving the
+option to simultaneously pause both simulations.
+
+
+
+
+
+<p>
+<hr>
+
+</BODY>

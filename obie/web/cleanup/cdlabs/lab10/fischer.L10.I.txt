@@ -1,0 +1,65 @@
+Script started on Tue 02 May 2006 07:48:52 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch10s1f1
+1425 Juan	18	14.25^[[D     5
+4321	Gearge    orge	22	21.11
+6781	Anne	44	16.77
+1451	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch10s1f1[Student@localhost ~]$ cat [Student@localhost ~]$ cat >[1P Ch10s1f1[1PCh10s1f1[1P Ch10s1f1[1P Ch10s1f1[1P Ch10s1f1v Ch10s1f1i Ch10s1f1[Student@localhost ~]$ vi  Ch10s1f1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch10s1f1" 5L, 96C[1;1H1425 Juan[7C18      14.25
+4321    George  22      21.11
+6781    Anne    44      16.77
+1451    Ben     36      21.77
+2277    Tuan    16      18.77
+[1m[34m~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l[24;65H4[1;4H[?12l[?25h[?25l[24;65H5[1;5H[?12l[?25h[?25l     Juan[24;65H6-9[1;9H[?12l[?25h[?25lJuan    [24;65H5  [1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25lJuan [24;65H5[1;5H[?12l[?25h[?25l    Juan[24;65H6-9[1;9H[?12l[?25h[24;1H[K[1;8H[?25l[24;63H1,5-8[9CAll[1;8H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch10s1f1" 5L, 96C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ egrep 'Anne' Ch10s1f1 | cut -f3
+44
+]0;Student@localhost:~[Student@localhost ~]$ egrep 'Anne' Ch10s1f1 | cut -f3[Student@localhost ~]$ egrep 'Anne' Ch10s1f1 | cut -f3[K4
+16.77
+]0;Student@localhost:~[Student@localhost ~]$ egrep 'Anne' Ch10s1f1 | cut -f4[1P[1P[1P[1P[4h1[4l[4h4[4l[4h5[4l[4h1[4l[Student@localhost ~]$ egrep '1451'[Student@localhost ~]$ egrep '1451' [Student@localhost ~]$ egrep '1451' C[Student@localhost ~]$ egrep '1451' Ch[Student@localhost ~]$ egrep '1451' Ch1[Student@localhost ~]$ egrep '1451' Ch10[Student@localhost ~]$ egrep '1451' Ch10s[Student@localhost ~]$ egrep '1451' Ch10s1[Student@localhost ~]$ egrep '1451' Ch10s1f[Student@localhost ~]$ egrep '1451' Ch10s1f1[Student@localhost ~]$ egrep '1451' Ch10s1f1 [Student@localhost ~]$ egrep '1451' Ch10s1f1 |[Student@localhost ~]$ egrep '1451' Ch10s1f1 | [Student@localhost ~]$ egrep '1451' Ch10s1f1 | c[Student@localhost ~]$ egrep '1451' Ch10s1f1 | cu[Student@localhost ~]$ egrep '1451' Ch10s1f1 | cut[Student@localhost ~]$ egrep '1451' Ch10s1f1 | cut [Student@localhost ~]$ egrep '1451' Ch10s1f1 | cut -[Student@localhost ~]$ egrep '1451' Ch10s1f1 | cut -f[Student@localhost ~]$ egrep '1451' Ch10s1f1 | cut -f4[K2
+Ben
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 [K-2[K[K[K2-3 Ch10s1f1
+Juan	18
+George	22
+Anne	44
+Ben	36
+Tuan	16
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2-3 Ch10s1f1 
+Juan	18
+George	22
+Anne	44
+Ben	36
+Tuan	16
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2-3 Ch10s1f1 | egrep '[K[2-9][0-9]
+George	22
+Anne	44
+Ben	36
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2-3 Ch10s1f1 | egrep [2-9][0-9] | cut -f1
+George
+Anne
+Ben
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2-3 Ch10s1f1 | egrep [2-9][0-9] | cut -f1[Student@localhost ~]$ cut -f2-3[1P[1P[Student@localhost ~]$ cut -f2 [4h [4l[4h-[4l[1P[1P[1P[4h1[4l[4h-[4l[1P[Student@localhost ~]$ cut -f1 [4h [4l[4h-[4l[4hf[4l[4h3[4l[Student@localhost ~]$ cut -f1 -f3 [4h [4l[4h-[4l[4hf[4l[4h4[4l[Student@localhost ~]$ cut -f1 -f3 -f4 [4h [4l
+cut: only one type of list may be specified
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -f3 -f4  Ch10s1f1 | egrep [2-9][0-9] | cut -f1[Student@localhost ~]$ cut -f1 -f3 -f4[1P[1P[1P[Student@localhost ~]$ cut -f1 -f3  [1P[1P[1P[1P[Student@localhost ~]$ cut -f1  [1P[1P[4h1[4l[4h,[4l[4h3[4l[4h,[4l[4h4[4l
+1425
+4321
+6781
+1451
+2277
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9] | cut -f1[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][4h.[4l[1P[4h[[4l[4h.[4l[4h][4l[4h[[4l[4h0[4l[4h-[4l9 | cut -f1 [A[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9] | cut -f11[A[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9][ | cut -f1[A[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9][0 | cut -f1[A[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9][0- | cut -f1[A[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9][0-9 | cut -f1[A[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9][0-9] | cut -f1[A[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9][0-9][Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9][0-9] [Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9][0-9] |[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9][0-9] | 
+uutut ut -ut -fut -f1,3
+4321	21.11
+1451	21.77
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9][0-9] | cuut -f1,3[A[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9][0-9] | [Student@localhost ~]$ cut -f1,3,4  Ch10s1f[Student@localhost ~]$ cut -f1,3,4  Ch10s1f1 | egrep [2-9][0-9][.][0-9][0-9] | cut[1P -f1,3[A[Student@localhost ~]$ cut -f1,3,4  Ch10s1f | egrep [2-9][0-9][.][0-9][0-9] | cut [1P-f1,3[A[Student@localhost ~]$ cut -f1,3,4  Ch10s1 | egrep [2-9][0-9][.][0-9][0-9] | cut -[1Pf1,3[A[Student@localhost ~]$ cut -f1,3,4  Ch10s | egrep [2-9][0-9][.][0-9][0-9] | cut -f[1P1,3[A[Student@localhost ~]$ cut -f1,3,4  Ch10 | egrep [2-9][0-9][.][0-9][0-9] | cut -f1[1P,3[A[Student@localhost ~]$ cut -f1,3,4  Ch1 | egrep [2-9][0-9][.][0-9][0-9] | cut -f1,[1P3[A[Student@localhost ~]$ cut -f1,3,4  Ch | egrep [2-9][0-9][.][0-9][0-9] | cut -f1,3[K[A[Student@localhost ~]$ cut -f1,3,4  C | egrep [2-9][0-9][.][0-9][0-9] | cut -f1,3 [K[A[Student@localhost ~]$ cut -f1,3,4  [1P
+[K[A[Student@localhost ~]$ cut -f1,3,4 [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[Student@localhost ~]$  [Student@localhost ~]$  |[1P[1P[Student@localhost ~]$  [1P[Student@localhost ~]$ e[Student@localhost ~]$ eg[Student@localhost ~]$ egr[Student@localhost ~]$ egre[Student@localhost ~]$ egrep[Student@localhost ~]$ egrep [Student@localhost ~]$ egrep [[Student@localhost ~]$ egrep [2[Student@localhost ~]$ egrep [2-[Student@localhost ~]$ egrep [2-9[Student@localhost ~]$ egrep [2-9[Student@localhost ~]$ egrep [2-9[1P[1P[1P[4h0[4l[4h-[4l[4h1[4l[1P[1P[1P[Student@localhost ~]$ egrep [][1P[1P[Student@localhost ~]$ egrep [[Student@localhost ~]$ egrep [0[Student@localhost ~]$ egrep [0-[Student@localhost ~]$ egrep [0-9[Student@localhost ~]$ egrep [0-9][Student@localhost ~]$ egrep [0-9][[Student@localhost ~]$ egrep [0-9][.[Student@localhost ~]$ egrep [0-9][.][Student@localhost ~]$ egrep [0-9][.][[Student@localhost ~]$ egrep [0-9][.][0[Student@localhost ~]$ egrep [0-9][.][0-[Student@localhost ~]$ egrep [0-9][.][0-9[Student@localhost ~]$ egrep [0-9][.][0-9][Student@localhost ~]$ egrep [0-9][.][0-9][[Student@localhost ~]$ egrep [0-9][.][0-9][0[Student@localhost ~]$ egrep [0-9][.][0-9][0-[Student@localhost ~]$ egrep [0-9][.][0-9][0-9[Student@localhost ~]$ egrep [0-9][.][0-9][0-9][Student@localhost ~]$ egrep [0-9][.][0-9][0-9] [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[Student@localhost ~]$ egrep [0-9 [Student@localhost ~]$ egrep [0-9 |[Student@localhost ~]$ egrep [0-9 | [4h][4l[Student@localhost ~]$ egrep [0-9] [Student@localhost ~]$ egrep [0-9] |[Student@localhost ~]$ egrep [0-9] | [Student@localhost ~]$ egrep [0-9] | c[Student@localhost ~]$ egrep [0-9] | cu[Student@localhost ~]$ egrep [0-9] | cut[Student@localhost ~]$ egrep [0-9] | cut [Student@localhost ~]$ egrep [0-9] | cut -[Student@localhost ~]$ egrep [0-9] | cut -f[Student@localhost ~]$ egrep [0-9] | cut -f1[Student@localhost ~]$ egrep [0-9] | cut -f1,[Student@localhost ~]$ egrep [0-9] | cut -f1,3[K2,4[Student@localhost ~]$ egrep [0-9] [4h [4l[4hC[4l[4hh[4l[4h1[4l[4h0[4l[4hs[4l[4h1[4l[4hf[4l[4h2[4l[1P[4h1[4l
+1425	Juan	14.25
+4321	George	21.11
+6781	Anne	16.77
+1451	Ben	21.77
+2277	Tuan	18.77
+]0;Student@localhost:~[Student@localhost ~]$ egrep [0-9] Ch10s1f1 | cut -f1,2,4[Student@localhost ~]$ egrep [Student@localhost ~]$ egrep [4h\[4l[4h<[4l[Student@localhost ~]$ egrep \<[[Student@localhost ~]$ egrep \<[0[Student@localhost ~]$ egrep \<[0-[Student@localhost ~]$ egrep \<[0-9[Student@localhost ~]$ egrep \<[0-9][4h\[4l[4h>[4l
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Tue 02 May 2006 08:14:51 AM EDT

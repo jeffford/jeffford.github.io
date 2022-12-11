@@ -1,0 +1,23 @@
+Script started on Thu 04 May 2006 05:33:27 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S4F1
+/bin/date
+/bin/programs/cal
+/usr/bin/date
+/usr/report/file1
+/user/report/letters/lett1
+/spool/mails
+]0;Student@localhost:~[Student@localhost ~]$ cat 
+Ch11S4F1[4hsed -f Ch11S4.[4lsed
+[Student@localhost ~]$ sed -f 
+Ch11S4.sed Ch11S4F1 > Ch11S4F2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S4F2
+/bin date
+/bin/programs cal
+/usr/bin date
+/usr/report file1
+/user/report/letters lett1
+/spool mails
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 04 May 2006 05:34:13 PM EDT
+

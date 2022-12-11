@@ -1,0 +1,109 @@
+Script started on Thu 04 May 2006 05:19:46 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ *th[K[KThis is a line that startes[K[Ks witha [K[K an asterisk, [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat > Ch10S5F1
+*Thi    This i  s a line with only one astr erisk, *but ha          j k.
+* This is a line with    that starts with one asterisk, but has more            *but* has more.*
+*** This is a line with three asterisks in a row.
+This line has no asterisks.  .
+* This line      is anotehr     her line with only one asterisk,.  .
+This si  line has two asterisks * separae ted by other characters  . *
+*** The start and end have the ree asterisks. ***
+This line has two asteriks  sks with *a* chare acter betweee n then m.
+*** The start has three, but the end has four asterisks. ****
+*The start and end has  ave one asterisk.*
+]0;Student@localhost:~[Student@localhost ~]$ egrep '/[K\*[K[K^\*[K*[[K.[K[\*[K[K^\*]' Ch10S5F1
+* This is a line with only one asterisk.
+* This is a line that starts with one asterisk, *but* has more.*
+* This is another line with only one asterisk.
+*The start and end have one asterisk.*
+]0;Student@localhost:~[Student@localhost ~]$ egrep '^\*[^\*]' Ch10S5F1[Student@localhost ~]$ egrep '^\*[[Student@localhost ~]$ egrep '^\*[^[Student@localhost ~]$ egrep '^\*[^\[Student@localhost ~]$ egrep '^\*[^\*[Student@localhost ~]$ egrep '^\*[^\*][Student@localhost ~]$ egrep '^\*[^\*][1P[Student@localhost ~]$ egrep '\[Student@localhost ~]$ egrep '\*[Student@localhost ~]$ egrep '\*[[Student@localhost ~]$ egrep '\*[^[Student@localhost ~]$ egrep '\*[^\[Student@localhost ~]$ egrep '\*[^\*[Student@localhost ~]$ egrep '\*[^\*][4h\[4l[4h*[4l[Student@localhost ~]$ egrep '\*[^\*]\*'[Student@localhost ~]$ egrep '\*[^\*]\*' [Student@localhost ~]$ egrep '\*[^\*]\*' C[Student@localhost ~]$ egrep '\*[^\*]\*' Ch[Student@localhost ~]$ egrep '\*[^\*]\*' Ch1[Student@localhost ~]$ egrep '\*[^\*]\*' Ch10[Student@localhost ~]$ egrep '\*[^\*]\*' Ch10S[Student@localhost ~]$ egrep '\*[^\*]\*' Ch10S5[Student@localhost ~]$ egrep '\*[^\*]\*' Ch10S5F[Student@localhost ~]$ egrep '\*[^\*]\*' Ch10S5F1
+This line has two asterisks with *a* character between them.
+]0;Student@localhost:~[Student@localhost ~]$ egrep '\*[^\*]\*' Ch10S5F1[1P[1P[1P[1P[1P[1P[1P[4h\[4l[4h{[4l[4h\[4l[4h6[4l[1P[1P[4h6[4l[4h\[4l[4h}[4l[1P[1P[1P[4h,[4l[4h6[4l[4h\[4l[4h}[4l[Student@localhost ~]$ egrep '\*\{,6\}'[Student@localhost ~]$ egrep '\*\{,6\}' [Student@localhost ~]$ egrep '\*\{,6\}' C[Student@localhost ~]$ egrep '\*\{,6\}' Ch[Student@localhost ~]$ egrep '\*\{,6\}' Ch1[Student@localhost ~]$ egrep '\*\{,6\}' Ch10[Student@localhost ~]$ egrep '\*\{,6\}' Ch10S[Student@localhost ~]$ egrep '\*\{,6\}' Ch10S5[Student@localhost ~]$ egrep '\*\{,6\}' Ch10S5F[Student@localhost ~]$ egrep '\*\{,6\}' Ch10S5F1[Student@localhost ~]$ egrep '\*\{,6\}' Ch10S5F1
+]0;Student@localhost:~[Student@localhost ~]$ egrep '\*\{,6\}' Ch10S5F1[4h [4l[Student@localhost ~]$ egrep '\*\{ ,6\}' Ch10S5F1
+]0;Student@localhost:~[Student@localhost ~]$ egrep '\*\{ ,6\}' Ch10S5F1[4h [4l[Student@localhost ~]$ egrep '\*\{ , 6\}' Ch10S5F1
+]0;Student@localhost:~[Student@localhost ~]$ egrep '\*\{ , 6\}' Ch10S5F1[4h [4l[Student@localhost ~]$ egrep '\*\{ , 6 \}' Ch10S5F1
+]0;Student@localhost:~[Student@localhost ~]$ egrep '\*\{ , 6 \}' Ch10S5F1[Student@localhost ~]$ e[1P[Student@localhost ~]$ grep '\*\{ , 6 \}' Ch10S5F1
+grep: Invalid content of \{\}
+]0;Student@localhost:~[Student@localhost ~]$ grep '\*\{ , 6 \}' Ch10S5F1[1P[Student@localhost ~]$ grep '\*\{,[Student@localhost ~]$ grep '\*\{, [1P[Student@localhost ~]$ grep '\*\{,6[Student@localhost ~]$ grep '\*\{,6 [1P[Student@localhost ~]$ grep '\*\{,6\}' Ch10S5F1
+grep: malformed repeat count
+]0;Student@localhost:~[Student@localhost ~]$ grep '\*\{,6\}' Ch10S5F1[4h [4l[Student@localhost ~]$ grep '\*\{ ,[Student@localhost ~]$ grep '\*\{ ,6[Student@localhost ~]$ grep '\*\{ ,6\[Student@localhost ~]$ grep '\*\{ ,6\}[Student@localhost ~]$ grep '\*\{ ,6\}'[Student@localhost ~]$ grep '\*\{ ,6\}' [Student@localhost ~]$ grep '\*\{ ,6\}' C[Student@localhost ~]$ grep '\*\{ ,6\}' Ch[Student@localhost ~]$ grep '\*\{ ,6\}' Ch1[Student@localhost ~]$ grep '\*\{ ,6\}' Ch10[Student@localhost ~]$ grep '\*\{ ,6\}' Ch10S[Student@localhost ~]$ grep '\*\{ ,6\}' Ch10S5[Student@localhost ~]$ grep '\*\{ ,6\}' Ch10S5F[Student@localhost ~]$ grep '\*\{ ,6\}' Ch10S5F1
+grep: Invalid content of \{\}
+]0;Student@localhost:~[Student@localhost ~]$ grep '\*\{ ,6\}' Ch10S5F1[1P[Student@localhost ~]$ grep '\*\{,[4h [4l[Student@localhost ~]$ grep '\*\{, 6\}' Ch10S5F1
+grep: Invalid content of \{\}
+]0;Student@localhost:~[Student@localhost ~]$ grep '\*\{, 6\}' Ch10S5F1[1P[Student@localhost ~]$ grep '\*\{,6[4h [4l[Student@localhost ~]$ grep '\*\{,6 \}' Ch10S5F1
+grep: Invalid content of \{\}
+]0;Student@localhost:~[Student@localhost ~]$ grep '\*\{,6 \}' Ch10S5F1[1P[4h)[4l[4h([4l[Student@localhost ~]$ grep '(\*)\{,6\}' Ch10S5F1
+grep: malformed repeat count
+]0;Student@localhost:~[Student@localhost ~]$ grep '(\*)\{,6\}' Ch10S5F1[1P[4h}[4l[1P[4h][4l[1P[4h[[4l[Student@localhost ~]$ grep '[\*]\{,6\}' Ch10S5F1
+grep: malformed repeat count
+]0;Student@localhost:~[Student@localhost ~]$ grep '[\*]\{,6\}' Ch10S5F1[1P[1P[Student@localhost ~]$ grep '\[Student@localhost ~]$ grep '\*[Student@localhost ~]$ grep '\*\[Student@localhost ~]$ grep '\*\{[Student@localhost ~]$ grep '\*\{,[Student@localhost ~]$ grep '\*\{,6[Student@localhost ~]$ grep '\*\{,6\[Student@localhost ~]$ grep '\*\{,6\}[Student@localhost ~]$ grep '\*\{,[Student@localhost ~]$ grep '\*\{,6[Student@localhost ~]$ grep '\*\{,6\[Student@localhost ~]$ grep '\*\{,6\}[Student@localhost ~]$ grep '\*\{,6\}'[Student@localhost ~]$ grep '\*\{,6\}' [Student@localhost ~]$ grep '\*\{,6\}' C[Student@localhost ~]$ grep '\*\{,6\}' Ch[Student@localhost ~]$ grep '\*\{,6\}' Ch1[Student@localhost ~]$ grep '\*\{,6\}' Ch10[Student@localhost ~]$ grep '\*\{,6\}' Ch10S[Student@localhost ~]$ grep '\*\{,6\}' Ch10S5[Student@localhost ~]$ grep '\*\{,6\}' Ch10S5F[Student@localhost ~]$ grep '\*\{,6\}' Ch10S5F1[4h(\[4l*)[Student@localhost ~]$ grep '(\*)\{,6\}' Ch10S5F1[2P\*[Student@localhost ~]$ grep '\*\{,6\}' Ch10S5F1[4h [4l[Student@localhost ~]$ grep '\* \{,6\}' Ch10S5F1
+grep: malformed repeat count
+]0;Student@localhost:~[Student@localhost ~]$ grep '\* \{,6\}' Ch10S5F1[1P[1P[Student@localhost ~]$ grep ' [1P[4hA[4l[Student@localhost ~]$ grep 'A\{,6\}' Ch10S5F1
+grep: malformed repeat count
+]0;Student@localhost:~[Student@localhost ~]$ grep 'A\{,6\}' Ch10S5F1[4h [4l[Student@localhost ~]$ grep 'A\{ ,[Student@localhost ~]$ grep 'A\{ ,6[Student@localhost ~]$ grep 'A\{ ,6\[Student@localhost ~]$ grep 'A\{ ,6\}[Student@localhost ~]$ grep 'A\{ ,6\}'[Student@localhost ~]$ grep 'A\{ ,6\}' [Student@localhost ~]$ grep 'A\{ ,6\}' C[Student@localhost ~]$ grep 'A\{ ,6\}' Ch[Student@localhost ~]$ grep 'A\{ ,6\}' Ch1[Student@localhost ~]$ grep 'A\{ ,6\}' Ch10[Student@localhost ~]$ grep 'A\{ ,6\}' Ch10S[Student@localhost ~]$ grep 'A\{ ,6\}' Ch10S5[Student@localhost ~]$ grep 'A\{ ,6\}' Ch10S5F[Student@localhost ~]$ grep 'A\{ ,6\}' Ch10S5F1
+grep: Invalid content of \{\}
+]0;Student@localhost:~[Student@localhost ~]$ grep 'A\{ ,6\}' Ch10S5F1[4he[4l[Student@localhost ~]$ egrep 'A\{ ,6\}' Ch10S5F1[1P[Student@localhost ~]$ egrep '\[4h\[4l[4h*[4l[Student@localhost ~]$ egrep '\*\{ ,6\}' Ch10S5F1
+]0;Student@localhost:~[Student@localhost ~]$ egrep '\*\{ ,6\}' Ch10S5F1[1P[Student@localhost ~]$ egrep '\*\{,6\}' Ch10S5F1
+]0;Student@localhost:~[Student@localhost ~]$ egrep '\*\{,6\}' Ch10S5F1[1P[4hf[4l[Student@localhost ~]$ fgrep '\*\{,6\}' Ch10S5F1
+]0;Student@localhost:~[Student@localhost ~]$ fgrep '\*\{,6\}' Ch10S5F1[4h [4l[Student@localhost ~]$ fgrep '\*\{ ,6\}' Ch10S5F1
+]0;Student@localhost:~[Student@localhost ~]$ fgrep '\*\{ ,6\}' Ch10S5F1[1P[Student@localhost ~]$ fgrep '\*\{,6\}' Ch10S5F1[Student@localhost ~]$ e[Student@localhost ~]$ egrep '\*\{,6\}' Ch10S5F1[Student@localhost ~]$ egrep [4h-[4l[4hv[4l[4h [4l[Student@localhost ~]$ egrep -v '[Student@localhost ~]$ egrep -v '\[Student@localhost ~]$ egrep -v '\*[4h.[4l[4h*[4l[Student@localhost ~]$ egrep -v '.*\[Student@localhost ~]$ egrep -v '.*\*[1P[1P[1P[1P[1P[1P[1P[1P[Student@localhost ~]$ egrep -v '\[Student@localhost ~]$ egrep -v '\*[4h\[4l[4h*[4l[4h\[4l[4h*[4l[4h\[4l[4h*[4l[4h\[4l[4h*[4l[4h\[4l[4h*[4l[4h\[4l[4h*[4l[Student@localhost ~]$ egrep -v '\*\*\*\*\*\*\*' Ch10S5F1
+* This is a line with only one asterisk.
+* This is a line that starts with one asterisk, *but* has more.*
+*** This is a line with three asterisks in a row.
+This line has no asterisk.
+* This is another line with only one asterisk.
+This line has two asterisks * separated by other characters. *
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+*** The start has three, but the end has four asterisks. ****
+*The start and end have one asterisk.*
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ egrep -v '\*\*\*\*\*\*\*' Ch10S5F1[4h.[4l[4h*[4l[Student@localhost ~]$ egrep -v '.*\[Student@localhost ~]$ egrep -v '.*\*[4h.[4l[4h*[4l[Student@localhost ~]$ egrep -v '.*\*.*\[Student@localhost ~]$ egrep -v '.*\*.*\*[4h.[4l[4h*[4l[Student@localhost ~]$ egrep -v '.*\*.*\*.*\[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*[4h.[4l[4h*[4l[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*[4h.[4l[4h*[4l[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\[4h.[4l[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\.*[4h*[4l[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\.**[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\.**\[4h.[4l[1P[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*[4h.[4l[Student@localhost ~]$ [Kegrep -v '.*\*.*\*.*\*.*\*.*\*.*\.*\*' Ch10S5F1[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\.[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\.[1P[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*[4h.[4l[4h*[4l[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*.*\[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*.*\*[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*.*\*'[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*.*\*' [Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*.*\*' C[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*.*\*' Ch[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*.*\*' Ch1[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*.*\*' Ch10[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*.*\*' Ch10S[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*.*\*' Ch10S5[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*.*\*' Ch10S5F[Student@localhost ~]$ egrep -v '.*\*.*\*.*\*.*\*.*\*.*\*.*\*' Ch10S5F1
+* This is a line with only one asterisk.
+* This is a line that starts with one asterisk, *but* has more.*
+*** This is a line with three asterisks in a row.
+This line has no asterisk.
+* This is another line with only one asterisk.
+This line has two asterisks * separated by other characters. *
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+*The start and end have one asterisk.*
+]0;Student@localhost:~[Student@localhost ~]$ egrep '*/1[K[K[K/(*[K/*/**)[K/).*\1
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+]0;Student@localhost:~[Student@localhost ~]$ egrep '/(/*/**/).*\1 Ch10S5F1
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+]0;Student@localhost:~[Student@localhost ~]$ egrep '/(/*/**/).*\1 Ch10S5F1[K Ch10S5F1[Student@localhost ~]$ [Kegrep '/(/*/**/).*\1 Ch10S5F1[K Ch10S5F1[K Ch10S5F1[Student@localhost ~]$ egrep '/(/*/**/).*\1' Ch10S5F1[Student@localhost ~]$ egrep '/(/*/**/).*\1' [Student@localhost ~]$ egrep '/(/*/**/).*\1' C[Student@localhost ~]$ egrep '/(/*/**/).*\1' Ch[Student@localhost ~]$ egrep '/(/*/**/).*\1' Ch1[Student@localhost ~]$ egrep '/(/*/**/).*\1' Ch10[Student@localhost ~]$ egrep '/(/*/**/).*\1' Ch10S[Student@localhost ~]$ egrep '/(/*/**/).*\1' Ch10S5[Student@localhost ~]$ egrep '/(/*/**/).*\1' Ch10S5F[Student@localhost ~]$ egrep '/(/*/**/).*\1' Ch10S5F1
+]0;Student@localhost:~[Student@localhost ~]$ egrep '/(/*/**/).*\1' Ch10S5F1[Student@localhost ~]$ [Kegrep '/(/*/**/).*\1' Ch10S5F1[Student@localhost ~]$ egrep '/[1P[4h\[4l[Student@localhost ~]$ egrep '\([Student@localhost ~]$ egrep '\(/[Student@localhost ~]$ egrep '\(/*[1P[4h\[4l[Student@localhost ~]$ egrep '\(\*[Student@localhost ~]$ egrep '\(\*/[1P[4h\[4l[Student@localhost ~]$ egrep '\(\*\*[Student@localhost ~]$ egrep '\(\*\**[Student@localhost ~]$ egrep '\(\*\**/[1P[4h\[4l[Student@localhost ~]$ egrep '\(\*\**\)[Student@localhost ~]$ egrep '\(\*\**\).[Student@localhost ~]$ egrep '\(\*\**\).*[Student@localhost ~]$ egrep '\(\*\**\).[Student@localhost ~]$ egrep '\(\*\**\).*[Student@localhost ~]$ egrep '\(\*\**\).*\[Student@localhost ~]$ egrep '\(\*\**\).*\1[Student@localhost ~]$ egrep '\(\*\**\).*\1'[Student@localhost ~]$ egrep '\(\*\**\).*\1' [Student@localhost ~]$ egrep '\(\*\**\).*\1' C[Student@localhost ~]$ egrep '\(\*\**\).*\1' Ch[Student@localhost ~]$ egrep '\(\*\**\).*\1' Ch1[Student@localhost ~]$ egrep '\(\*\**\).*\1' Ch10[Student@localhost ~]$ egrep '\(\*\**\).*\1' Ch10S[Student@localhost ~]$ egrep '\(\*\**\).*\1' Ch10S5[Student@localhost ~]$ egrep '\(\*\**\).*\1' Ch10S5F[Student@localhost ~]$ egrep '\(\*\**\).*\1' Ch10S5F1
+egrep: Invalid back reference
+]0;Student@localhost:~[Student@localhost ~]$ egrep '\(\*\**\).*\1' Ch10S5F1[1P[Student@localhost ~]$ g[Student@localhost ~]$ gr[Student@localhost ~]$ gre[Student@localhost ~]$ grep[Student@localhost ~]$ grep [Student@localhost ~]$ grep '[Student@localhost ~]$ grep '\[Student@localhost ~]$ grep '\([Student@localhost ~]$ grep '\(\[Student@localhost ~]$ grep '\(\*[Student@localhost ~]$ grep '\(\*\[Student@localhost ~]$ grep '\(\*\*[Student@localhost ~]$ grep '\(\*\**[Student@localhost ~]$ grep '\(\*\**\[Student@localhost ~]$ grep '\(\*\**\)[Student@localhost ~]$ grep '\(\*\**\).[Student@localhost ~]$ grep '\(\*\**\).*[Student@localhost ~]$ grep '\(\*\**\).*\[Student@localhost ~]$ grep '\(\*\**\).*\1[Student@localhost ~]$ grep '\(\*\**\).*\1'[Student@localhost ~]$ grep '\(\*\**\).*\1' [Student@localhost ~]$ grep '\(\*\**\).*\1' C[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch1[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10S[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10S5[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10S5F[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10S5F1
+* This is a line that starts with one asterisk, *but* has more.*
+*** This is a line with three asterisks in a row.
+This line has two asterisks * separated by other characters. *
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+*** The start has three, but the end has four asterisks. ****
+*The start and end have one asterisk.*
+]0;Student@localhost:~[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10S5F1[Student@localhost ~]$ grep '\(\*\**\).*\[Student@localhost ~]$ grep '\(\*\**\).*\1[Student@localhost ~]$ grep '\(\*\**\).*\1'[Student@localhost ~]$ grep '\(\*\**\[Student@localhost ~]$ grep '\(\*\**\)[Student@localhost ~]$ grep '\(\*\**\).[Student@localhost ~]$ grep '\(\*\**\).*[Student@localhost ~]$ grep '\(\*\**[Student@localhost ~]$ grep '\([Student@localhost ~]$ grep '\(\[Student@localhost ~]$ grep '\(\*[Student@localhost ~]$ grep '\(\*\[Student@localhost ~]$ grep '\(\*\*[Student@localhost ~]$ grep '\(\*\**[Student@localhost ~]$ grep '\(\*\**\[Student@localhost ~]$ grep '\(\*\**\)[Student@localhost ~]$ grep '\(\*\**\).[Student@localhost ~]$ grep '\(\*\**\).*[Student@localhost ~]$ grep '\(\*\**\).*\[Student@localhost ~]$ grep '\(\*\**\).*\1[Student@localhost ~]$ grep '\(\*\**\).*\1'[Student@localhost ~]$ grep '\(\*\**\).*\1' [Student@localhost ~]$ grep '\(\*\**\).*\1' C[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch1[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10S[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10S5[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10S5F[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10S5F1[Student@localhost ~]$ grep [Student@localhost ~]$ grep '[Student@localhost ~]$ grep '\[Student@localhost ~]$ grep '\([Student@localhost ~]$ grep '\(\[Student@localhost ~]$ grep '\(\*[Student@localhost ~]$ grep '\(\*\[Student@localhost ~]$ grep '\(\*\*[Student@localhost ~]$ grep '\(\*\**[Student@localhost ~]$ grep '\(\*\**\[Student@localhost ~]$ grep '\(\*\**\)[Student@localhost ~]$ grep '\(\*\**\).[Student@localhost ~]$ grep '\(\*\**\).*[1P[Student@localhost ~]$ grep '\(\*\**\)*[Student@localhost ~]$ grep '\(\*\**\)*\[Student@localhost ~]$ grep '\(\*\**\)*\1[Student@localhost ~]$ grep '\(\*\**\)*\1'[Student@localhost ~]$ grep '\(\*\**\)*\1' [Student@localhost ~]$ grep '\(\*\**\)*\1' C[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch1[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10S[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10S5[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10S5F[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10S5F1
+*** This is a line with three asterisks in a row.
+*** The start and end have three asterisks. ***
+*** The start has three, but the end has four asterisks. ****
+]0;Student@localhost:~[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10S5F1[4h.[4l[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10S5F1[Student@localhost ~]$ [4he[4l[Student@localhost ~]$ egrep '\(\*\**\).*\1' Ch10S5F1[Student@localhost ~]$ [1P[Student@localhost ~]$ grep '\(\*\**\).*\1' Ch10S5F1[1P[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10S5F1[Student@localhost ~]$ [Kgrep '\(\*\**\)*\1' Ch10S5F1[Student@localhost ~]$ grep '\(\*\**\[Student@localhost ~]$ grep '\(\*\**\)[Student@localhost ~]$ grep '\(\*\**\)*[Student@localhost ~]$ grep '\(\*\**\)*\[Student@localhost ~]$ grep '\(\*\**\)*\1[Student@localhost ~]$ grep '\(\*\**\)*\[Student@localhost ~]$ grep '\(\*\**\)*\1[Student@localhost ~]$ grep '\(\*\**\)*\1'[Student@localhost ~]$ grep '\(\*\**\)*\1' [Student@localhost ~]$ grep '\(\*\**\)*\1' C[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch1[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10S[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10S5[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10S5F[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10S5F1[Student@localhost ~]$ grep '\(\*\**\)*[Student@localhost ~]$ grep '\(\*\**\)*\1' Ch10S5F1
+*** This is a line with three asterisks in a row.
+*** The start and end have three asterisks. ***
+*** The start has three, but the end has four asterisks. ****
+]0;Student@localhost:~[Student@localhost ~]$ grep '^\([\*][\*]*\).*[^\*][^\*]*\1&[K$
+> 
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+]0;Student@localhost:~[Student@localhost ~]$ grep '^\([\*][\*]*\).*[^\*][^\*]*\1$
+
+[A
+[K[A[A[Student@localhost ~]$ grep '^\([\*][\*]*\).*[^\*][^\*]*\1$ Ch   ' Ch10S56 F1
+
+* This is a line that starts with one asterisk, *but* has more.*
+*** The start and end have three asterisks. ***
+*The start and end have one asterisk.*
+]0;Student@localhost:~]0;Student@localhost:~[Student@localhost ~]$ ----------[K[K[K[K[K[K[K[K[K[K---------[K[K[K[K[K[K[K[K[K--------------------[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+
+Script done on Thu 04 May 2006 06:24:30 PM EDT

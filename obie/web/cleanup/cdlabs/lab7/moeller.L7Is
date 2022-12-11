@@ -1,0 +1,11 @@
+Script started on Mon 01 May 2006 11:37:14 AM EDT
+]0;moellerja@cs:~[moellerja@cs moellerja]$ mkdir RemoteWork
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat > RemoteWork/moeller.L7I.txt
+This is a file in our RemoteWork directory.
+]0;moellerja@cs:~[moellerja@cs moellerja]$ ls -l
+[00mtotal 4
+-rw-rw-r--    1 moellerja moellerja        0 May  1 11:37 [00mmoeller.L7Is[00m
+drwxrwxr-x    2 moellerja moellerja     4096 May  1 11:38 [00;34mRemoteWork[00m
+[m]0;moellerja@cs:~[moellerja@cs moellerja]$ exit
+
+Script done on Mon 01 May 2006 11:38:52 AM EDT

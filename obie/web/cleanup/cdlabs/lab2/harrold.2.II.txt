@@ -1,0 +1,84 @@
+Script started on Mon 24 Apr 2006 08:27:49 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ls -R[1Pcd ~ls -R
+[00m.:
+[00;34massignments[00m  [00mgtsybrgII.txt[00m  [00mharrold.2.II.txt[00m  [00;34mletters[00m
+[00;34mDesktop[00m      [00mgtysbrg.txt[00m    [00mharrold.2.I.txt[00m   [00;34mreports[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00;34mHWs[00m  [00;34mprojects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/projects:
+
+./Desktop:
+[00;34muntitled folder[00m
+
+./Desktop/untitled folder:
+[00mAzmi[00m
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpersonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ cd ~/UNIX
+bash: cd: /home/Student/UNIX: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cd ~/UNIXAUNIXsUNIX[1PUNIX[1PUNIXaUNIXsUNIXsUNIXiUNIXgUNIXnUNIXmUNIXeUNIXnUNIXtUNIXsUNIX/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ powd[K[K[Kwd
+/home/Student/assignments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ vi hw4.txt
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"hw4.txt" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25lT[24;63H1,2[1;2H[?12l[?25h[?25lh[24;65H3[1;3H[?12l[?25h[?25li[24;65H4[1;4H[?12l[?25h[?25ls[24;65H5[1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l[24;65H5[1;5H[?12l[?25h[?25l[1;4H[K[24;65H4[1;4H[?12l[?25h[?25ls[24;65H5[1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25ls[24;65H7[1;7H[?12l[?25h[?25lh[24;65H8[1;8H[?12l[?25h[?25lo[24;65H9[1;9H[?12l[?25h[?25lr[24;65H10[1;10H[?12l[?25h[?25lt[24;66H1[1;11H[?12l[?25h[?25l[24;66H2[1;12H[?12l[?25h[?25ld[24;66H3[1;13H[?12l[?25h[?25le[24;66H4[1;14H[?12l[?25h[?25ls[24;66H5[1;15H[?12l[?25h[?25lc[24;66H6[1;16H[?12l[?25h[?25lr[24;66H7[1;17H[?12l[?25h[?25li[24;66H8[1;18H[?12l[?25h[?25lp[24;66H9[1;19H[?12l[?25h[?25lt[24;65H20[1;20H[?12l[?25h[?25li[24;66H1[1;21H[?12l[?25h[?25lo[24;66H2[1;22H[?12l[?25h[?25ln[24;66H3[1;23H[?12l[?25h[?25l[24;66H4[1;24H[?12l[?25h[?25ld[24;66H5[1;25H[?12l[?25h[?25le[24;66H6[1;26H[?12l[?25h[?25ls[24;66H7[1;27H[?12l[?25h[?25lr[24;66H8[1;28H[?12l[?25h[?25li[24;66H9[1;29H[?12l[?25h[?25lb[24;65H30[1;30H[?12l[?25h[?25lc[24;66H1[1;31H[?12l[?25h[?25le[24;66H2[1;32H[?12l[?25h[?25l[1;31H[K[24;66H1[1;31H[?12l[?25h[?25l[1;30H[K[24;66H0[1;30H[?12l[?25h[?25le[24;66H1[1;31H[?12l[?25h[?25l[24;66H2[1;32H[?12l[?25h[?25lb[24;66H3[1;33H[?12l[?25h[?25l[1;32H[K[24;66H2[1;32H[?12l[?25h[?25lm[24;66H3[1;33H[?12l[?25h[?25ly[24;66H4[1;34H[?12l[?25h[?25l[24;66H5[1;35H[?12l[?25h[?25lf[24;66H6[1;36H[?12l[?25h[?25la[24;66H7[1;37H[?12l[?25h[?25lv[24;66H8[1;38H[?12l[?25h[?25lo[24;66H9[1;39H[?12l[?25h[?25lr[24;65H40[1;40H[?12l[?25h[?25li[24;66H1[1;41H[?12l[?25h[?25lt[24;66H2[1;42H[?12l[?25h[?25le[24;66H3[1;43H[?12l[?25h[?25l[24;66H4[1;44H[?12l[?25h[?25la[24;66H5[1;45H[?12l[?25h[?25lc[24;66H6[1;46H[?12l[?25h[?25lt[24;66H7[1;47H[?12l[?25h[?25li[24;66H8[1;48H[?12l[?25h[?25lv[24;66H9[1;49H[?12l[?25h[?25li[24;65H50[1;50H[?12l[?25h[?25lt[24;66H1[1;51H[?12l[?25h[?25li[24;66H2[1;52H[?12l[?25h[?25le[24;66H3[1;53H[?12l[?25h[?25ls[24;66H4[1;54H[?12l[?25h[?25l:[24;66H5[1;55H[?12l[?25h[?25l[24;66H6[1;56H[?12l[?25h[?25l[24;66H7[1;57H[?12l[?25h[?25lS[24;66H8[1;58H[?12l[?25h[?25lo[24;66H9[1;59H[?12l[?25h[?25lc[24;65H60[1;60H[?12l[?25h[?25lc[24;66H1[1;61H[?12l[?25h[?25le[24;66H2[1;62H[?12l[?25h[?25lr[24;66H3[1;63H[?12l[?25h[?25l,[24;66H4[1;64H[?12l[?25h[?25l[24;66H5[1;65H[?12l[?25h[?25lS[24;66H6[1;66H[?12l[?25h[?25ln[24;66H7[1;67H[?12l[?25h[?25lo[24;66H8[1;68H[?12l[?25h[?25lw[24;66H9[1;69H[?12l[?25h[?25lb[24;65H70[1;70H[?12l[?25h[?25lo[24;66H1[1;71H[?12l[?25h[?25la[24;66H2[1;72H[?12l[?25h[?25lr[24;66H3[1;73H[?12l[?25h[?25ld[24;66H4[1;74H[?12l[?25h[?25li[24;66H5[1;75H[?12l[?25h[?25ln[24;66H6[1;76H[?12l[?25h[?25lg[24;66H7[1;77H[?12l[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;63H1,77[1;77H[?12l[?25h[?25l,[24;66H8[1;78H[?12l[?25h[?25l[24;66H9[1;79H[?12l[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?12l[?25h[?25lc[24;65H2[2;2H[?12l[?25h[?25lo[24;65H3[2;3H[?12l[?25h[?25lp[24;65H4[2;4H[?12l[?25h[?25lm[24;65H5[2;5H[?12l[?25h[?25lu[24;65H6[2;6H[?12l[?25h[?25lt[24;65H7[2;7H[?12l[?25h[?25le[24;65H8[2;8H[?12l[?25h[?25lr[24;65H9[2;9H[?12l[?25h[?25l[24;65H10[2;10H[?12l[?25h[?25ls[24;66H1[2;11H[?12l[?25h[?25lc[24;66H2[2;12H[?12l[?25h[?25li[24;66H3[2;13H[?12l[?25h[?25le[24;66H4[2;14H[?12l[?25h[?25ln[24;66H5[2;15H[?12l[?25h[?25lc[24;66H6[2;16H[?12l[?25h[?25le[24;66H7[2;17H[?12l[?25h[?25l[24;66H8[2;18H[?12l[?25h[?25l([24;66H9[2;19H[?12l[?25h[?25lr[24;65H20[2;20H[?12l[?25h[?25li[24;66H1[2;21H[?12l[?25h[?25lg[24;66H2[2;22H[?12l[?25h[?25lh[24;66H3[2;23H[?12l[?25h[?25lt[24;66H4[2;24H[?12l[?25h[?25l?[24;66H5[2;25H[?12l[?25h[?25l)[24;66H6[2;26H[?12l[?25h[?25l[24;66H7[2;27H[?12l[?25h[?25lh[24;66H8[2;28H[?12l[?25h[?25la[24;66H9[2;29H[?12l[?25h[?25lh[24;65H30[2;30H[?12l[?25h[?25la[24;66H1[2;31H[?12l[?25h[?25l`[24;66H2[2;32H[?12l[?25h[?25l[2;31H[K[24;66H1[2;31H[?12l[?25h[24;1H[K[2;30H[?25l[24;63H2,30[10CAll[2;30H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"hw4.txt" [New] 2L, 110C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ cde[K ~
+]0;Student@localhost:~[Student@localhost ~]$ ls ~/assingments.[K/UNIX
+[00mls: /home/Student/assingments/UNIX: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls ~/assingments/UNIX[Student@localhost ~]$ ls  ~/assingments/UNIX- ~/assingments/UNIXa ~/assingments/UNIX[Student@localhost ~]$ ls -a ~/assingments/UNIX
+[00mls: /home/Student/assingments/UNIX: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ la[Ks -a ~/assingments/UNIX[3P~/assingments/UNIX -
+[00mls: /home/Student/assingments/UNIX: No such file or directory
+ls: -: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls ~/assingments/UNIX -[K[K[Student@localhost ~]$ ls  ~/assingments/UNIX- ~/assingments/UNIX[Student@localhost ~]$ ls -  ~/assingments/UNIX[1P~/assingments/UNIX
+[00mls: -: No such file or directory
+ls: /home/Student/assingments/UNIX: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls - ~/assingments/UNIX~/assingments/UNIX -[K[K/hw4.txt
+[00mls: /home/Student/assingments/UNIX/hw4.txt: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls ~/assingments/UNIX/hw4.txt[Student@localhost ~]$ ls [Student@localhost ~]$ ls ~[Student@localhost ~]$ ls ~/[Student@localhost ~]$ ls ~/a[Student@localhost ~]$ ls ~/as[Student@localhost ~]$ ls ~/ass[Student@localhost ~]$ ls ~/assi[Student@localhost ~]$ ls ~/assin[1Pgments/UNIX/hw4.txt[Student@localhost ~]$ ls ~/assignments/UNIX/hw4.txt[Student@localhost ~]$ ls ~/assignments/UNIX/hw4.txt[K[K[K[K[K[K[K[K
+[00m[00mhw4.txt[00m  [00;34mHWs[00m  [00;34mprojects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls ~/assignments/UNIXh~/assignments/UNIXw~/assignments/UNIX4~/assignments/UNIX.~/assignments/UNIXt~/assignments/UNIXx~/assignments/UNIXt~/assignments/UNIX ~/assignments/UNIX[Student@localhost ~]$ ls hw4.txt ~/assignments/UNIX
+[00mls: hw4.txt: No such file or directory
+/home/Student/assignments/UNIX:
+[00mhw4.txt[00m  [00;34mHWs[00m  [00;34mprojects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls hw4.txt ~/assignments/UNIX[1P[1P ~/assignments/UNIX[1P[1P[1P[1P[1P[1P ~/assignments/UNIX[Student@localhost ~]$ ls ~/assignments/UNIX/hw4.txt
+[00m[00m/home/Student/assignments/UNIX/hw4.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cp ~/assignemts/UNIX/hw4.txt hw4.bk
+cp: cannot stat `/home/Student/assignemts/UNIX/hw4.txt': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cp ~/assignemts/UNIX/hw4.txt hw4.bk[1Phw4.bk[1Pw4.bk[1P4.bk[1P.bk[1Pbk[1Pk[K
+cp: missing destination file
+Try `cp --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cp ~/assignemts/UNIX/hw4.txt[K[K[K[K[K[K[Khw4.t[Ktxt ~/assignments/UNIX/hw4.bk
+cp: cannot stat `/home/Student/assignemts/UNIX/hw4.txt': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cp ~/assignemts/UNIX/hw4.txt ~/assignments/UNIX/hw4.bk[1P[1P[Student@localhost ~]$ cp a[Student@localhost ~]$ cp as[Student@localhost ~]$ cp ass[Student@localhost ~]$ cp assi[Student@localhost ~]$ cp assig[Student@localhost ~]$ cp assign[Student@localhost ~]$ cp assigne[Student@localhost ~]$ cp assignem[Student@localhost ~]$ cp assignemt[Student@localhost ~]$ cp assignemts[Student@localhost ~]$ cp assignemts/[Student@localhost ~]$ cp assignemts/U[Student@localhost ~]$ cp assignemts/UN[Student@localhost ~]$ cp assignemts/UNI[Student@localhost ~]$ cp assignemts/UNIX[Student@localhost ~]$ cp assignemts/UNIX/[Student@localhost ~]$ cp assignemts/UNIX/h[Student@localhost ~]$ cp assignemts/UNIX/hw[Student@localhost ~]$ cp assignemts/UNIX/hw4[Student@localhost ~]$ cp assignemts/UNIX/hw4.[Student@localhost ~]$ cp assignemts/UNIX/hw4.t[Student@localhost ~]$ cp assignemts/UNIX/hw4.tx[Student@localhost ~]$ cp assignemts/UNIX/hw4.txt[Student@localhost ~]$ cp assignemts/UNIX/hw4.txt [Student@localhost ~]$ cp assignemts/UNIX/hw4.txt ~[Student@localhost ~]$ cp assignemts/UNIX/hw4.txt ~/[1Passignments/UNIX/hw4.bk[1Passignments/UNIX/hw4.bk
+cp: cannot stat `assignemts/UNIX/hw4.txt': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cp assignemts/UNIX/hw4.txt assignments/UNIX/hw4.bk[Student@localhost ~]$ cp ass[Student@localhost ~]$ cp assi[Student@localhost ~]$ cp assig[Student@localhost ~]$ cp assign[Student@localhost ~]$ cp assigne[Student@localhost ~]$ cp assignem[Student@localhost ~]$ cp assignemt[Student@localhost ~]$ cp assignemts[Student@localhost ~]$ cp assignemts/[Student@localhost ~]$ cp assignemts/U[Student@localhost ~]$ cp assignemts/UN[Student@localhost ~]$ cp assignemts/UNI[Student@localhost ~]$ cp assignemts/UNIX[Student@localhost ~]$ cp assignemts/UNIX/[Student@localhost ~]$ cp assignemts/UNIX/h[Student@localhost ~]$ cp assignemts/UNIX/hw[Student@localhost ~]$ cp assignemts/UNIX/hw4[Student@localhost ~]$ cp assignemts/UNIX/hw4.[Student@localhost ~]$ cp assignemts/UNIX/hw4.t[Student@localhost ~]$ cp assignemts/UNIX/hw4.tx[Student@localhost ~]$ cp assignemts/UNIX/hw4.txt~/assignemts/UNIX/hw4.txt ~/assignments/UNIX/hw4.bk[K hw4.bk[Student@localhost ~]$ [6Pls ~/assignments/UNIX/hw4.txthw4.txt ~/assignments/UNIX[8P~/assignments/UNIX
+[00m[00mhw4.txt[00m  [00;34mHWs[00m  [00;34mprojects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls ~/assignments/UNIXcp assignemts/UNIX/hw4.txt assignments/UNIX/hw4.bk[Student@localhost ~]$ cp assignemts/UNIX/[Student@localhost ~]$ cp assignemts/UNIX/h[Student@localhost ~]$ cp assignemts/UNIX/hw[Student@localhost ~]$ cp assignemts/UNIX/hw4[Student@localhost ~]$ cp assignemts/UNIX/hw4.[Student@localhost ~]$ cp assignemts/UNIX/hw4.t[Student@localhost ~]$ cp assignemts/UNIX/hw4.tx[Student@localhost ~]$ cp assignemts/UNIX/hw4.txt[Student@localhost ~]$ cp assignemts/UNIX/hw4.txt [1Pssignments/UNIX/hw4.bk[Student@localhost ~]$ cp assignemts/UNIX/hw4.txt s[1Pignments/UNIX/hw4.bk[1Pignments/UNIX/hw4.bk[1Pgnments/UNIX/hw4.bk[1Pnments/UNIX/hw4.bk[1Pments/UNIX/hw4.bk[1Pents/UNIX/hw4.bk[1Pnts/UNIX/hw4.bk[1Pts/UNIX/hw4.bk[1Ps/UNIX/hw4.bk[1P/UNIX/hw4.bk[1PUNIX/hw4.bk[1PNIX/hw4.bk[1PIX/hw4.bk[1PX/hw4.bk[1P/hw4.bk[1Phw4.bk
+cp: cannot stat `assignemts/UNIX/hw4.txt': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cp assignemts/UNIX/hw4.txt hw4.bk[Student@localhost ~]$ [12Pls ~/assignments/UNIXcp assignemts/UNIX/hw4.txt assignments/UNIX/hw4.bk[1P[Student@localhost ~]$ cp assignm[4he[4l
+cp: cannot stat `assignmets/UNIX/hw4.txt': No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cp assignmets/UNIX/hw4.txt assignments/UNIX/hw4.bk[4hn[4l[4hm[4l[1P
+]0;Student@localhost:~[Student@localhost ~]$ ls assignments/UNIX
+[00m[00mhw4.bk[00m  [00mhw4.txt[00m  [00;34mHWs[00m  [00;34mprojects[00m
+[m]0;Student@localhost:~[Stu

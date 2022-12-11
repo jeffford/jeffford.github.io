@@ -1,0 +1,80 @@
+Script started on Wed 26 Apr 2006 12:22:15 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ groups
+Student
+]0;Student@localhost:~[Student@localhost ~]$ umask
+0002
+]0;Student@localhost:~[Student@localhost ~]$ mkdir garbage
+]0;Student@localhost:~[Student@localhost ~]$ ls -l
+[00mtotal 292
+drwxrwxr-x  3 Student Student  4096 Apr 25 07:46 [00;34massignments[00m
+drwxrwxr-x  2 Student Student  4096 Apr 25 08:30 [00;34mbackups[00m
+drwxrwxr-x  3 Student Student  4096 Apr 25 08:58 [00;34mbusLetters[00m
+drwx------  3 Student Student  4096 Apr 26 12:05 [00;34mchapter_4[00m
+drwxr-xr-x  2 Student Student  4096 Apr 25 09:03 [00;34mDesktop[00m
+-rw-rw-r--  1 Student Student     7 Apr 25 08:56 [00mformal.3[00m
+drwxrwxr-x  2 Student Student  4096 Apr 26 12:22 [00;34mgarbage[00m
+-rw-rw-r--  1 Student Student  1538 Apr 21 08:35 [00mgtysbrgII.txt[00m
+-rw-rw-r--  1 Student Student   490 Apr 21 08:25 [00mgtysbrg.txt[00m
+lrwxrwxrwx  1 Student Student     7 Apr 25 08:40 [01;05;37;41mhw4SL[00m -> [01;05;37;41mhw4.txt[00m
+-rw-rw-r--  1 Student Student  6413 Apr 25 08:46 [00mKimura.3.III.txt[00m
+-rw-rw-r--  1 Student Student  6413 Apr 25 08:46 [00mKimura.3.III.txt~[00m
+-rw-rw-r--  1 Student Student 11557 Apr 25 08:19 [00mKimura.3.II.txt[00m
+-rw-rw-r--  1 Student Student 13486 Apr 24 08:52 [00mKimura.3.II.txt~[00m
+-rw-rw-r--  1 Student Student  1653 Apr 25 07:51 [00mKimura.3.I.txt[00m
+-rw-rw-r--  1 Student Student  3496 Apr 25 07:49 [00mKimura.3.I.txt~[00m
+-rw-rw-r--  1 Student Student 14324 Apr 25 09:01 [00mKimura.3.IV.txt[00m
+-rw-rw-r--  1 Student Student 14487 Apr 25 08:58 [00mKimura.3.IV.txt~[00m
+-rw-rw-r--  1 Student Student     0 Apr 26 12:22 [00mKimura.4.II.txt[00m
+-rw-rw-r--  1 Student Student  9402 Apr 26 12:21 [00mKimura.4.I.txt[00m
+-rw-rw-r--  1 Student Student 12150 Apr 26 12:11 [00mKimura.4.I.txt~[00m
+-rw-rw-r--  1 Student Student 10917 Apr 23 18:52 [00mKimura.L1.txt.odt[00m
+-rw-rw-r--  1 Student Student  1599 Apr 23 19:16 [00mkimura.L2.txt[00m
+drwxrwxr-x  3 Student Student  4096 Apr 25 08:58 [00;34mletters[00m
+d---rwxrwx  2 Student Student  4096 Apr 26 11:56 [00;34mnothing[00m
+drwxrwxr-x  5 Student Student  4096 Apr 25 07:44 [00;34mreports[00m
+-rw-rw-r--  1 Student Student 12227 Apr 25 08:17 [00mtypescript~[00m
+]0;Student@localhost:~[Student@localhost ~]$ umask 113
+]0;Student@localhost:~[Student@localhost ~]$ ls -l
+[00mtotal 296
+drwxrwxr-x  3 Student Student  4096 Apr 25 07:46 [00;34massignments[00m
+drwxrwxr-x  2 Student Student  4096 Apr 25 08:30 [00;34mbackups[00m
+drwxrwxr-x  3 Student Student  4096 Apr 25 08:58 [00;34mbusLetters[00m
+drwx------  3 Student Student  4096 Apr 26 12:05 [00;34mchapter_4[00m
+drwxr-xr-x  2 Student Student  4096 Apr 25 09:03 [00;34mDesktop[00m
+-rw-rw-r--  1 Student Student     7 Apr 25 08:56 [00mformal.3[00m
+drwxrwxr-x  2 Student Student  4096 Apr 26 12:22 [00;34mgarbage[00m
+-rw-rw-r--  1 Student Student  1538 Apr 21 08:35 [00mgtysbrgII.txt[00m
+-rw-rw-r--  1 Student Student   490 Apr 21 08:25 [00mgtysbrg.txt[00m
+lrwxrwxrwx  1 Student Student     7 Apr 25 08:40 [01;05;37;41mhw4SL[00m -> [01;05;37;41mhw4.txt[00m
+-rw-rw-r--  1 Student Student  6413 Apr 25 08:46 [00mKimura.3.III.txt[00m
+-rw-rw-r--  1 Student Student  6413 Apr 25 08:46 [00mKimura.3.III.txt~[00m
+-rw-rw-r--  1 Student Student 11557 Apr 25 08:19 [00mKimura.3.II.txt[00m
+-rw-rw-r--  1 Student Student 13486 Apr 24 08:52 [00mKimura.3.II.txt~[00m
+-rw-rw-r--  1 Student Student  1653 Apr 25 07:51 [00mKimura.3.I.txt[00m
+-rw-rw-r--  1 Student Student  3496 Apr 25 07:49 [00mKimura.3.I.txt~[00m
+-rw-rw-r--  1 Student Student 14324 Apr 25 09:01 [00mKimura.3.IV.txt[00m
+-rw-rw-r--  1 Student Student 14487 Apr 25 08:58 [00mKimura.3.IV.txt~[00m
+-rw-rw-r--  1 Student Student  4096 Apr 26 12:24 [00mKimura.4.II.txt[00m
+-rw-rw-r--  1 Student Student  9402 Apr 26 12:21 [00mKimura.4.I.txt[00m
+-rw-rw-r--  1 Student Student 12150 Apr 26 12:11 [00mKimura.4.I.txt~[00m
+-rw-rw-r--  1 Student Student 10917 Apr 23 18:52 [00mKimura.L1.txt.odt[00m
+-rw-rw-r--  1 Student Student  1599 Apr 23 19:16 [00mkimura.L2.txt[00m
+drwxrwxr-x  3 Student Student  4096 Apr 25 08:58 [00;34mletters[00m
+d---rwxrwx  2 Student Student  4096 Apr 26 11:56 [00;34mnothing[00m
+drwxrwxr-x  5 Student Student  4096 Apr 25 07:44 [00;34mreports[00m
+-rw-rw-r--  1 Student Student 12227 Apr 25 08:17 [00mtypescript~[00m
+]0;Student@localhost:~[Student@localhost ~]$ rmdir garbage
+]0;Student@localhost:~[Student@localhost ~]$ mkdir chapter_4/session_II
+]0;Student@localhost:~[Student@localhost ~]$ ls chapter_4 -l
+[00mtotal 16
+drwx------  2 Student Student 4096 Apr 26 12:09 [00;34msession_I[00m
+drw-rw-r--  2 Student Student 4096 Apr 26 12:26 [00;34msession_II[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ u[Kch[K[Kls chapter_4 -lmkdir chapter_4/session_II[Student@localhost ~]$ [11Pls chapter_4 -l[Kchmod u-x chapter_4/session_II
+]0;Student@localhost:~[Student@localhost ~]$ cd chapter_4/session_II
+bash: cd: chapter_4/session_II: Permission denied
+]0;Student@localhost:~[Student@localhost ~]$ cd[Khmod U+[K[Ku+x chapter_4/session_II
+]0;Student@localhost:~[Student@localhost ~]$ chmod u+x chapter_4/session_II[Student@localhost ~]$ c[7Pd[Student@localhost ~]$ cd chapter_4/session_II[4hhmod u+[4lx[Student@localhost ~]$ chmod u+x chapter_4/session_II[Student@localhost ~]$ c[7Pd[Student@localhost ~]$ cd chapter_4/session_II[4hhmod u+[4lx[Student@localhost ~]$ chmod u+x chapter_4/session_II[Student@localhost ~]$ [Kchmod u+x chapter_4/session_II[Student@localhost ~]$ c[7Pd
+]0;Student@localhost:~[Student@localhost ~]$ cd chapter_4/session_II
+]0;Student@localhost:~/chapter_4/session_II[Student@localhost session_II]$ exit
+
+Script done on Wed 26 Apr 2006 12:33:10 PM EDT

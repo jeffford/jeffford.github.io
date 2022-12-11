@@ -1,0 +1,34 @@
+Script started on Fri 28 Apr 2006 08:44:32 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S3F1
+ALPHABETICAL FACTS.
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS AR  ARE MN.
+THE LAST THREE LETTERS ARE XYZ.
+THE FIREST   ST WORD IN THE DICTI         MY DICTIONARY IS AAL.
+]0;Student@localhost:~[Student@localhost ~]$ CAT c[K[K[K[K[Kcat Ch6S3F1
+ALPHABETICAL FACTS.
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN.
+THE LAST THREE LETTERS ARE XYZ.
+THE FIRST WORD IN MY DICTIONARY IS AAL.
+]0;Student@localhost:~[Student@localhost ~]$ tr [K[K[Kcat Ch6S3F1 | "ab[K[KABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQR STUVWXYZABCDE" > c[KCh6S3F1 [KEnr[Kcr
+bash: ABCDEFGHIJKLMNOPQRSTUVWXYZ: command not found
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S3F1 | tr "a[KABCDE[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat Ch6S3F1 | "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSSTUVWXYZABCDE" > Ch6S3F1Encr[A[Student@localhost ~]$ cat Ch6S3F1 | "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQ[Student@localhost ~]$ cat Ch6S3F1 |  "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQR[4hS[4l[A[Student@localhost ~]$ cat Ch6S3F1 | T "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQ[4hR[4l[A[Student@localhost ~]$ cat Ch6S3F1 | T "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQR[1P[A[Student@localhost ~]$ cat Ch6S3F1 | T "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQ[4hR[4l[A[Student@localhost ~]$ cat Ch6S3F1 | TR "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOP[4hQ[4l[A[Student@localhost ~]$ cat Ch6S3F1 | TR "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQ[1P[A[Student@localhost ~]$ cat Ch6S3F1 | T "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQR[1P[A[Student@localhost ~]$ cat Ch6S3F1 | t "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQ[4hR[4l[A[Student@localhost ~]$ cat Ch6S3F1 | tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOP[4hQ[4l[A[Student@localhost ~]$ cat Ch6S3F1 | tr[K
+[K[A[Student@localhost ~]$ cat Ch6S3F1 | tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPPQRSTUVWXYZABCDE" > Ch6S3F1Encr
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S3F1Encr
+FQUMFGJYNHFQ KFHYX.
+YMJ KNWXY YMWJJ QJYYJWX FWJ FGH.
+YMJ RJINFS QJYYJWX FWJ RS.
+YMJ QFXY YMWJJ QJYYJWX FWJ CDE.
+YMJ KNWXY BTWI NS RD INHYNTSFWD NX FFQ.
+]0;Student@localhost:~[Student@localhost ~]$ cat Cht[K6S3F1Encr | tr "AB[K[KFGHIJKLMNOPQRSTUVWXYZABCDF[KEFG[K[K[KE" "ABCDEF GHIJKLMNI[KOPQRSTUVWXYZ.[K" > cH6s[K[K[K[KCh6S3F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S3F1
+ALPHABETICAL FACTS.
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN.
+THE LAST THREE LETTERS ARE XYZ.
+THE FIRST WORD IN MY DICTIONARY IS AAL.
+]0;Student@localhost:~[Student@localhost ~]$ echo yes the contents of the file si[K[Kis the same as the orig inal
+yes the contents of the file is the same as the original
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Fri 28 Apr 2006 08:50:45 AM EDT

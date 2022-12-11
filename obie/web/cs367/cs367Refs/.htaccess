@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName cs367Students
+AuthUserFile /home/webusers/obie/cs367/cs367Refs/.htpasswd
+Order deny,allow
+require valid-user

@@ -1,0 +1,243 @@
+Script started on Fri 28 Apr 2006 12:00:33 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$  ca[Kat > ch[K[KCH[Kh6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	35 4
+	1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch^[K6S4F1 > Ch^S5[K[K[K6S5F1
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S5F2
+1420	12.56	45
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S5F2[Student@localhost ~]$ cat > [1PCh6S5F2[1PCh6S5F2
+1420	12.56	45
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ sort ch6[K[K[KCh6s4F1[K[K[K5[K[KS5F1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S5F1 > Ch6S5F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F1 Ch6S5F1[1PCh6S5F1>Ch6S5F1 Ch6S5F1[Student@localhost ~]$ cat > C[Student@localhost ~]$ cat > Ch[Student@localhost ~]$ cat > Ch6[Student@localhost ~]$ cat > Ch6S[Student@localhost ~]$ cat > Ch6S5[Student@localhost ~]$ cat > Ch6S5F[Student@localhost ~]$ cat > Ch6S5F1
+1122    23.56   28
+1420    12.56   45
+1443    23.23   19
+2341    45.12   34
+2351    67.90   56
+3456    14.56   22
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ sort ch[K[KCh^[K6[K6S5F1[K2
+1322	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S5F2-Ch6S5F2mCh6S5F2 Ch6S5F2[Student@localhost ~]$ sort -m C[Student@localhost ~]$ sort -m Ch[Student@localhost ~]$ sort -m Ch6[Student@localhost ~]$ sort -m Ch6S[Student@localhost ~]$ sort -m Ch6S5[Student@localhost ~]$ sort -m Ch6S5F[Student@localhost ~]$ sort -m Ch6S5F2 Ch[1P Ch1 Ch[Student@localhost ~]$ sort -m Ch6S5F1 [Student@localhost ~]$ sort -m Ch6S5F1 C[Student@localhost ~]$ sort -m Ch6S5F1 Ch6S5F2
+1122    23.56   28
+1420    12.56   45
+1420	12.56	45
+1443    23.23   19
+2341    45.12   34
+2351    67.90   56
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3456    14.56   22
+3467	56.90	14
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ sort -m Ch6S5F1 Ch6S5F2 > Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat [K Ch6S5F3
+1122    23.56   28
+1420    12.56   45
+1420	12.56	45
+1443    23.23   19
+2341    45.12   34
+2351    67.90   56
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3456    14.56   22
+3467	56.90	14
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ uniq ch[K[KCh6S5F3
+1122    23.56   28
+1420    12.56   45
+1420	12.56	45
+1443    23.23   19
+2341    45.12   34
+2351    67.90   56
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3456    14.56   22
+3467	56.90	14
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ uniq Ch6S5F3-Ch6S5F3 Ch6S5F3[1PCh6S5F3uCh6S5F3 Ch6S5F3
+1122    23.56   28
+1420    12.56   45
+1420	12.56	45
+1443    23.23   19
+2341    45.12   34
+2351    67.90   56
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3456    14.56   22
+3467	56.90	14
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ uniq -u Ch6S5F3
+1122    23.56   28
+1420    12.56   45
+1420	12.56	45
+1443    23.23   19
+2341    45.12   34
+2351    67.90   56
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3456    14.56   22
+3467	56.90	14
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ uniq -u Ch6S5F3[1P Ch6S5F3d Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ sort ch^[K6S5F3
+sort: open failed: ch6S5F3: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ sort ch6S5F3[1Ph6S5F3Ch6S5F3[Student@localhost ~]$ sort Ch[Student@localhost ~]$ sort Ch6[Student@localhost ~]$ sort Ch6S[Student@localhost ~]$ sort Ch6S5[Student@localhost ~]$ sort Ch6S5F[Student@localhost ~]$ sort Ch6S5F3
+1122    23.56   28
+1322	23.56	28
+1420    12.56   45
+1420	12.56	45
+1443    23.23   19
+1443	23.23	19
+2341    45.12   34
+2341	45.12	34
+2351    67.90   56
+2351	67.90	56
+2456	14.56	22
+3456    14.56   22
+3467	56.90	14
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S5F3 > Ch^+6=[K[K[K[K6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cayt[K[Kt > Ch6S5F3
+1122    23.56   28
+1322    23.56   28
+1420    12.56   45
+1420    12.56   45
+1443    23.23   19
+1443    23.23   19
+2341    45.12   34
+2341    45.12   34
+2351    67.90   56
+2351    67.90   56
+2456    14.56   22
+3456    14.56   22
+3467    56.90   14
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S5F3[2PCh6S5F3
+1122    23.56   28
+1322    23.56   28
+1420    12.56   45
+1420    12.56   45
+1443    23.23   19
+1443    23.23   19
+2341    45.12   34
+2341    45.12   34
+2351    67.90   56
+2351    67.90   56
+2456    14.56   22
+3456    14.56   22
+3467    56.90   14
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ uniq Ch^[K6S5F3
+1122    23.56   28
+1322    23.56   28
+1420    12.56   45
+1443    23.23   19
+2341    45.12   34
+2351    67.90   56
+2456    14.56   22
+3456    14.56   22
+3467    56.90   14
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ uniq Ch6S5F3[1Pcat[Student@localhost ~]$ cat Ch6S5F3
+1122    23.56   28
+1322    23.56   28
+1420    12.56   45
+1420    12.56   45
+1443    23.23   19
+1443    23.23   19
+2341    45.12   34
+2341    45.12   34
+2351    67.90   56
+2351    67.90   56
+2456    14.56   22
+3456    14.56   22
+3467    56.90   14
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F3[4hu[4lniq[Student@localhost ~]$ uniq Ch6S5F3 
+1122    23.56   28
+1322    23.56   28
+1420    12.56   45
+1443    23.23   19
+2341    45.12   34
+2351    67.90   56
+2456    14.56   22
+3456    14.56   22
+3467    56.90   14
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ uniq Ch6S5F3 > c[KCh6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ uniq Ch6S5F3 > Ch6S5F3[K[2Pcat Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F3>Ch6S5F3 Ch6S5F3[Student@localhost ~]$ cat > C[Student@localhost ~]$ cat > Ch[Student@localhost ~]$ cat > Ch6[Student@localhost ~]$ cat > Ch6S[Student@localhost ~]$ cat > Ch6S5[Student@localhost ~]$ cat > Ch6S5F[Student@localhost ~]$ cat > Ch6S5F3
+1122    23.56   28
+1322    23.56   28
+1420    12.56   45
+1443    23.23   19
+2341    45.12   34
+2351    67.90   56
+2456    14.56   22
+3456    14.56   22
+3467    56.90   14
+8001    7.00    14
+^[[3~     ]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S5F3
+1122    23.56   28
+1322    23.56   28
+1420    12.56   45
+1443    23.23   19
+2341    45.12   34
+2351    67.90   56
+2456    14.56   22
+3456    14.56   22
+3467    56.90   14
+8001    7.00    14
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Fri 28 Apr 2006 12:25:38 PM EDT

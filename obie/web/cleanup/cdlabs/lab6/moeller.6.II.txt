@@ -1,0 +1,70 @@
+Script started on Fri 28 Apr 2006 08:19:57 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ head /etc/passwd/[K
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+]0;Student@localhost:~[Student@localhost ~]$ tail /etc/passwd
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ C[Kcat C[K> Ch6SIIF1
+Juan  //jj   jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-56787 
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF1
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,2,3 D[K-d"/" Ch6SIIF1 > table1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 > table1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 -d"/" Ch5[K6SIIG[KG[Kf[KF1 ?[K> table2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f3 9[K-d"/" Ch6SIIF1 > table3
+]0;Student@localhost:~[Student@localhost ~]$ paste talb[K[Kble [K1 table [K2 table3 > Cht[K[K6[Kh6SIIF2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIf[KF2
+Juan	jj@yahoo.com	330-569-5211
+George	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5615
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ Pas[K[K[Kpaste Ch6S1F1 Ch6SIIF@[K2 > Ch6SIIF3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF3
+1425	14.25	Juan	Juan	jj@yahoo.com	330-569-5211
+1451	21.77	Ben	George	george@hotmail.com	330-274-1999
+2277	18.77	Tuan	Anna	sister@aol.com	330-274-5615
+4321	21.11	George	Ben	davisbj@hiram.edu	512-345-5678
+6781	16.77	Anna	Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,2,3,4,[K[K5,6 Ch6SIII[KF2 > Ch6SIIF4
+]0;Student@localhost:~[Student@localhost ~]$ a[Kcat Ch6SIIF4
+Juan	jj@yahoo.com	330-569-5211
+George	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5615
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cut -f [K1,2,3,5,6 Ch6SIIF#[K3 > Ch6IIF4
+]0;Student@localhost:~[Student@localhost ~]$ C[Kcat Ch6IIF4
+1425	14.25	Juan	jj@yahoo.com	330-569-5211
+1451	21.77	Ben	george@hotmail.com	330-274-1999
+2277	18.77	Tuan	sister@aol.com	330-274-5615
+4321	21.11	George	davisbj@hiram.edu	512-345-5678
+6781	16.77	Anna	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Fri 28 Apr 2006 08:28:10 AM EDT

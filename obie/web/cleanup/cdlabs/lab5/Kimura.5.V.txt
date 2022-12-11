@@ -1,0 +1,22 @@
+Script started on Wed 26 Apr 2006 01:51:55 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ first="PARENT:"[K[K"
+]0;Student@localhost:~[Student@localhost ~]$ echo $first
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ bash
+]0;Student@localhost:~[Student@localhost ~]$ echo $0\[K
+bash
+]0;Student@localhost:~[Student@localhost ~]$ echo $first
+
+]0;Student@localhost:~[Student@localhost ~]$ second="SUBSHELL"
+]0;Student@localhost:~[Student@localhost ~]$ echo $second
+SUBSHELL
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+]0;Student@localhost:~[Student@localhost ~]$ s[Kecho $first
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ echo $second
+
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Wed 26 Apr 2006 01:56:02 PM EDT

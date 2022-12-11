@@ -1,0 +1,1204 @@
+From: <Saved by Windows Internet Explorer 7>
+Subject: USENIX Guidelines for Authors
+Date: Wed, 13 Aug 2008 23:16:58 -0400
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_008F_01C8FD9A.AF342440"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3350
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.usenix.org/event/samples/submit/advice.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>USENIX Guidelines for Authors</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252"><!-- CHANGE -->
+<SCRIPT language=3DJavascript src=3D"http://www.usenix.org/page.js"><!-- =
+// PAGE 1.0=0A=
+iover() { ; } iout() { ; }=0A=
+// -->=0A=
+</SCRIPT>
+<!-- IE understands topmargin, leftmargin, rightmargin, NS understands =
+marginheight -->
+<META content=3D"MSHTML 6.00.6000.16705" name=3DGENERATOR></HEAD>
+<BODY text=3D#000000 vLink=3D#666666 aLink=3D#666666 link=3D#990000 =
+bgColor=3D#ffffff=20
+leftMargin=3D0 topMargin=3D0 rightMargin=3D0 MARGINHEIGHT=3D"0"><!-- =
+Banner -->
+<CENTER>
+<DIV>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D750 border=3D0><!-- space =
+at top -->
+  <TBODY>
+  <TR>
+    <TD colSpan=3D13><IMG height=3D5 alt=3D""=20
+      src=3D"http://www.usenix.org/graphics/dot_clear.gif" =
+width=3D1><BR><IMG=20
+      height=3D5 alt=3D"" =
+src=3D"http://www.usenix.org/graphics/dot_clear.gif"=20
+      width=3D1><BR></TD></TR>
+  <TR><!-- row 1 -->
+    <TD><!--begin banner-->
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D750 border=3D0>
+        <TBODY>
+        <TR>
+          <TD rowSpan=3D2><A href=3D"http://www.usenix.org/"><IMG =
+height=3D66 alt=3D""=20
+            src=3D"http://www.usenix.org/sub_images/home.gif" =
+width=3D175=20
+            border=3D0></A></TD>
+          <TD><A href=3D"http://www.usenix.org/events/"><IMG height=3D33 =
+alt=3D""=20
+            src=3D"http://www.usenix.org/sub_images/conf.gif" width=3D93 =
+
+            border=3D0></A></TD>
+          <TD><A href=3D"http://www.usenix.org/membership/"><IMG =
+height=3D33=20
+            alt=3D"" src=3D"http://www.usenix.org/sub_images/join.gif" =
+width=3D93=20
+            border=3D0></A></TD>
+          <TD><A href=3D"http://www.usenix.org/about/"><IMG height=3D33 =
+alt=3D""=20
+            src=3D"http://www.usenix.org/sub_images/who.gif" width=3D94=20
+          border=3D0></A></TD>
+          <TD><A href=3D"http://www.usenix.org/about/contacts.html"><IMG =
+
+            height=3D33 alt=3D"" =
+src=3D"http://www.usenix.org/sub_images/contact.gif"=20
+            width=3D95 border=3D0></A></TD>
+          <TD><A href=3D"http://www.usenix.org/publications/login/"><IMG =
+
+            height=3D33 alt=3D"" =
+src=3D"http://www.usenix.org/sub_images/login.gif"=20
+            width=3D94 border=3D0></A></TD>
+          <TD><A href=3D"http://www.usenix.org/site_map.html"><IMG =
+height=3D33=20
+            alt=3D"" =
+src=3D"http://www.usenix.org/sub_images/site_map.gif" width=3D94=20
+            border=3D0></A></TD>
+          <TD rowSpan=3D2><IMG height=3D66 alt=3D""=20
+            =
+src=3D"http://www.usenix.org/sub_images/usenix_sub_buttons_08.gif"=20
+            width=3D12></TD></TR>
+        <TR>
+          <TD colSpan=3D6><A href=3D"http://www.usenix.org/"><IMG =
+height=3D33 alt=3D""=20
+            src=3D"http://www.usenix.org/sub_images/lower.gif" =
+width=3D563=20
+            border=3D0></A></TD></TR></TBODY></TABLE><!--end =
+banner--></TD></TR></TBODY></TABLE><!-- End of Banner --><!--Main Table =
+2/135/2/472/2/135/2 -->
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D750 border=3D0>
+  <TBODY>
+  <TR><!--Left Border-->
+    <TD vAlign=3Dtop width=3D2 bgColor=3D#cccccc><IMG height=3D1 =
+alt=3D""=20
+      src=3D"http://www.usenix.org/graphics/dot_clear.gif" =
+width=3D2></TD><!--Links Column-->
+    <TD vAlign=3Dtop width=3D596 bgColor=3D#ffffff>
+      <TABLE cellSpacing=3D0 cellPadding=3D8 width=3D"100%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD><!-- START OF PAGE CONTENTS --><FONT=20
+            face=3D"verdana, arial, helvetica, sans-serif" =
+color=3D#990000=20
+            size=3D+1><B>Guidelines for Authors</B></FONT>=20
+            <P><FONT face=3D"verdana, arial, helvetica, sans-serif"=20
+            size=3D-1><I>[This article first appeared in ACM SIGOPS =
+Operating=20
+            Systems Review, Vol. 17, No. 3 (July, 1983), pages 35-40. =
+Every=20
+            effort has been made to keep the text in this document =
+identical to=20
+            that of the original article. The text in this file was =
+scanned=20
+            using OCR technology and has been carefully proofread, but =
+some=20
+            scanning errors may remain. This document is being made =
+available=20
+            with the permission of the authors.]</I> </P>
+            <H2 align=3Dleft>An Evaluation of the Ninth SOSP=20
+            Submissions<BR>-or-<BR>How (and How Not) to Write a Good =
+Systems=20
+            Paper</H2>
+            <H3 align=3Dleft>Roy Levin and David D. Redell,<BR>Ninth =
+SOSP Program=20
+            Committee Co-chairmen</H3>
+            <H3 align=3Dleft>Introduction</H3>
+            <P>On March 21, 1983, the program committee for the 9th =
+Symposium on=20
+            Operating System Principles, having read the eighty-three =
+papers=20
+            submitted, selected sixteen for presentation at the =
+symposium. This=20
+            acceptance ratio of about one in five approximates those of =
+past=20
+            SOSPs, although the number of submissions was somewhat lower =
+than in=20
+            recent years. Several members of the program committee found =
+it=20
+            surprisingly easy to separate the good papers from the bad =
+ones;=20
+            indeed, the ten committee members quickly agreed on the =
+disposition=20
+            of over 80% of the papers. As the acceptance ratio =
+indicates, most=20
+            of these were rejections. </P>
+            <P>After the committee had completed its selection process, =
+several=20
+            members expressed disappointment in the overall quality of =
+the=20
+            submissions. Many of the rejected papers exhibited similar=20
+            weaknesses, weaknesses that the committee felt should have =
+been=20
+            evident to the authors. In the hope of raising the quality =
+of future=20
+            SOSP submissions, and systems papers generally, the =
+committee=20
+            decided to describe the criteria used in evaluating the =
+papers it=20
+            received. This article combines the criteria used by all of =
+the=20
+            members of the committee, not just the authors. </P>
+            <P>To try to avoid sounding preachy or pedagogic, we have =
+cast this=20
+            presentation in the first and second person and adopted a =
+light,=20
+            occasionally humorous style. Nevertheless, the intent is =
+serious: to=20
+            point out the common problems that appear repeatedly in =
+technical=20
+            papers in a way that will make it easier for future authors =
+to avoid=20
+            them. As you read this article, then, suppose yourself to be =
+a=20
+            prospective author for the 10th SOSP or for TOCS. You've =
+done some=20
+            work you would like to publish, so you sit down to write a =
+paper.=20
+            What questions should you be asking yourself as you write? =
+These are=20
+            also the questions that we, the reviewers of your paper, =
+will be=20
+            asking to determine its suitability for publication. </P>
+            <H3 align=3Dleft>Classes of Papers</H3>
+            <P>Your paper will probably fall naturally into one of three =
+
+            categories: </P>
+            <UL type=3Ddisc>
+              <P>
+              <LI>It presents a real system, either by a global survey =
+of an=20
+              entire system or by a selective examination of specific =
+themes=20
+              embodied in the system.=20
+              <P></P>
+              <P></P>
+              <LI>It presents a system that is unimplemented but =
+utilizes ideas=20
+              or techniques that you feel the technical community should =
+know.=20
+              <P></P>
+              <P></P>
+              <LI>It addresses a topic in the theoretical areas, for =
+example,=20
+              performance modelling or security verification.=20
+              <P></P></LI></UL>
+            <P>Obviously, a single set of evaluation criteria cannot be =
+applied=20
+            uniformly across these categories; nevertheless, many =
+criteria apply=20
+            equally well to all three. As we describe each one below, we =
+will=20
+            try to emphasize the classes of papers to which it applies. =
+Often it=20
+            will be evident from context. </P>
+            <H3 align=3Dleft>Criteria for Evaluation of Submissions</H3>
+            <H4 align=3Dleft>Original Ideas</H4>
+            <P>Are the ideas in the paper new? There is no point in =
+submitting a=20
+            paper to a conference or journal concerned with original =
+work unless=20
+            the paper contains at least one new idea. </P>
+            <P>How do you know? You must be familiar with the state of =
+the art=20
+            and current research in the area covered by your paper in =
+order to=20
+            know that your work is original. Perhaps the most common =
+failing=20
+            among the submissions in the first category (real systems) =
+was an=20
+            absence of new ideas; the systems described were frequently=20
+            isomorphic to one of a small number of pioneering systems=20
+            well-documented in the literature. </P>
+            <P>Can you state the new idea concisely? If your paper is to =
+advance=20
+            the state of knowledge, your reader must be able to find the =
+new=20
+            ideas and understand them. Try writing each idea down in a =
+paragraph=20
+            that someone generally versed in the relevant area can =
+understand.=20
+            If you can't, consider the possibility that you don't really =
+
+            understand the idea yourself. When you have the paragraphs, =
+use them=20
+            in the abstract for the paper. </P>
+            <P>What exactly is the problem being solved? Your reader =
+cannot be=20
+            expected to guess the problem you faced given only a =
+description of=20
+            the solution. Be specific. Be sure to explain why your =
+problem=20
+            couldn't be solved just as well by previously published =
+techniques.=20
+            </P>
+            <P>Are the ideas significant enough to justify a paper? =
+Frequently,=20
+            papers describing real systems contain one or two small =
+enhancements=20
+            of established techniques. The new idea(s) can be described =
+in a few=20
+            paragraphs; a twenty-page paper is unnecessary and often =
+obscures=20
+            the actual innovation. Since construction of a real system =
+is a lot=20
+            of work, the author of the paper sometimes unconsciously =
+confuses=20
+            the total effort with the work that is actually new. ("My =
+team=20
+            worked on this system for two years and we're finally done. =
+Let's=20
+            tell the world how wonderful it is.") If the innovation is =
+small, a=20
+            small paper or technical note in a suitable journal is more=20
+            appropriate than an SOSP submission. </P>
+            <P>Is the work described significantly different from =
+existing=20
+            related work? An obvious extension to a previously published =
+
+            algorithm, technique, or system, does not generally warrant=20
+            publication. Of course, the label "obvious" must be applied=20
+            carefully. (Remember the story of Columbus demonstrating how =
+to make=20
+            an egg stand on end (by gently crushing it): "it's obvious =
+once I've=20
+            shown you how".) You must show that your work represents a=20
+            significant departure from the state of the art. If you =
+can't, you=20
+            should ask yourself why you are writing the paper and why =
+anyone=20
+            except your mother should want to read it. </P>
+            <P>Is all related work referenced, and have you actually =
+read the=20
+            cited material? You will have difficulty convincing the =
+skeptical=20
+            reader of the originality of your efforts unless you =
+specifically=20
+            distinguish it from previously published work. This requires =
+
+            citation. Furthermore, you will find it harder to convince =
+your=20
+            reader of the superiority of your approach if he has read =
+the cited=20
+            works and you haven't. </P>
+            <P>Are comparisons with previous work clear and explicit? =
+You cannot=20
+            simply say: "Our approach differs somewhat from that adopted =
+in the=20
+            BagOfBits system [3]." Be specific: "Our virtual memory =
+management=20
+            approach uses magnetic media rather than punched paper tape =
+as in=20
+            the BagOfBits system [3], with the expected improvements in =
+transfer=20
+            rate and janitorial costs." </P>
+            <P>Does the work comprise a significant extension, =
+validation, or=20
+            repudiation of earlier but unproven ideas? Implementation=20
+            experiences supporting or contradicting a previously =
+published paper=20
+            design are extremely valuable and worthy candidates for =
+publication.=20
+            Designs are cheap, but implementations (particularly those =
+based on=20
+            unsound designs) are expensive. </P>
+            <P>What is the oldest paper you referenced? The newest? Have =
+you=20
+            referenced similar work at another institution? Have you =
+referenced=20
+            technical reports, unpublished memoranda, personal =
+communications?=20
+            The answers to these questions help alert you to blind spots =
+in your=20
+            knowledge or understanding. Frequently, papers with only =
+venerable=20
+            references repeat recently published work of which the =
+author is=20
+            unaware. Papers with only recent references often =
+"rediscover"=20
+            (through ignorance) old ideas. Papers that cite only =
+unpublished or=20
+            unrefereed material tend to suffer from narrowness and =
+parochialism.=20
+            Remember that citations not only acknowledge a debt to =
+others, but=20
+            also serve as an abbreviation mechanism to spare your reader =
+a=20
+            complete development from first principles. If the reader =
+needs to=20
+            acquire some of that development, however, he must be able =
+to=20
+            convert your citations into source material he can read. =
+Personal=20
+            communications and internal memoranda fail this test. =
+Technical=20
+            reports are frequently published in limited quantities,=20
+            out-of-print, and difficult to obtain. Consequently, such =
+citations=20
+            as source material should be avoided wherever possible. </P>
+            <H4 align=3Dleft>Reality</H4>
+            <P>Does the paper describe something that has actually been=20
+            implemented? Quite a few of the SOSP submissions proceeded =
+for=20
+            fifteen pages in the present tense before revealing, in a =
+concluding=20
+            section (if at all), that the foregoing description was of a =
+
+            hypothetical system for which implementation was just =
+beginning or=20
+            being contemplated. This is unacceptable. Your reader has a =
+right to=20
+            know at the outset whether the system under discussion is =
+real or=20
+            not. </P>
+            <P>If the system has been implemented, how has it been used, =
+and=20
+            what has this usage shown about the practical importance of =
+the=20
+            ideas? Once again, a multiple man-year implementation effort =
+does=20
+            not of itself justify publication of a paper. If the =
+implemented=20
+            system contains new ideas, it is important to explain how =
+they=20
+            worked out in practice. A seemingly good idea that didn't =
+pan out is=20
+            at least as interesting as one that did. It is important to =
+be=20
+            specific and precise. "Our weather prediction system is up =
+and=20
+            running and no one has complained about its occasional =
+inaccurate=20
+            forecasts" is much less convincing than "everytime we fail =
+to=20
+            forecast rain, the users hang their wet shirts over the tape =
+drives=20
+            to dry". In the latter case, at least we know that people =
+are using=20
+            and depending on the system. </P>
+            <P>If the system hasn't been implemented, do the ideas =
+justify=20
+            publication now? This can be a difficult question for an =
+author to=20
+            answer dispassionately, yet any reviewer of the paper will =
+make this=20
+            judgment. It is always tempting to write a design paper =
+describing a=20
+            new system, then follow it up in a year or two with an =
+"experience"=20
+            paper. The successful papers of this genre nearly always =
+include=20
+            initial experience in the closing sections of the design =
+paper. The=20
+            subsequent experience paper then deals with the lessons =
+learned from=20
+            longer-term use of the system, frequently in unanticipated =
+ways.=20
+            Reviewers are very skeptical of design-only papers unless =
+there are=20
+            new ideas of obviously high quality. </P>
+            <H4 align=3Dleft>Lessons</H4>
+            <P>What have you learned from the work? If you didn't learn=20
+            anything, it is a reasonable bet that your readers won't =
+either, and=20
+            you've simply wasted their time and a few trees by =
+publishing your=20
+            paper. </P>
+            <P>What should the reader learn from the paper? Spell out =
+the=20
+            lessons clearly. Many people repeat the mistakes of history =
+because=20
+            they didn't understand the history book. </P>
+            <P>How generally applicable are these lessons? Be sure to =
+state=20
+            clearly the assumptions on which your conclusions rest. Be =
+careful=20
+            of generalizations based on lack of knowledge or experience. =
+A=20
+            particularly common problem in "real system" papers is=20
+            generalization from a single example, e.g., assuming that =
+all file=20
+            system directories are implemented by storing the directory =
+in a=20
+            single file and searching it linearly. When stating your=20
+            conclusions, it helps to state the assumptions again. The =
+reader may=20
+            not have seen them for fifteen pages and may have forgotten =
+them.=20
+            You may have also. </P>
+            <H4 align=3Dleft>Choices</H4>
+            <P>What were the alternatives considered at various points, =
+and why=20
+            were the choices made the way they were? A good paper =
+doesn't just=20
+            describe, it explains. Telling your readers what you did =
+doesn't=20
+            give them any idea how carefully considered your choices =
+were. You=20
+            want to save future researchers from following the same =
+blind=20
+            alleys. You also want to record potentially interesting =
+side-streets=20
+            you didn't happen to explore. Make sure to state clearly =
+which is=20
+            which. </P>
+            <P>Did the choices turn out to be right, and, if so, was it =
+for the=20
+            reasons that motivated them in the first place? If not, what =
+lessons=20
+            have you learned from the experience? How often have you =
+found=20
+            yourself saying "this works, but for the wrong reason"? Such =
+a=20
+            pronouncement represents wisdom (at least a small amount) =
+that may=20
+            benefit your reader. Many papers present a rational argument =
+from=20
+            initial assumptions all the way to the finished result when, =
+in=20
+            fact, the result was obtained by an entirely different path =
+and the=20
+            deductive argument fashioned later. This kind of =
+"revisionist=20
+            history" borders on dishonesty and prevents your readers =
+from=20
+            understanding how research really works. </P>
+            <H4 align=3Dleft>Context</H4>
+            <P>What are the assumptions on which the work is based? The=20
+            skeptical reader is unlikely to accept your arguments unless =
+their=20
+            premises are stated. Make sure you get them all; it's easy =
+to=20
+            overlook implicit assumptions. </P>
+            <P>Are they realistic? For "unimplemented systems" papers, =
+this=20
+            amounts to asking whether the assumptions of the design can =
+hope to=20
+            support a successful implementation. Many paper designs are =
+naive=20
+            about the real characteristics of components they treat =
+abstractly,=20
+            e.g., communication networks or humans typing on terminals. =
+For=20
+            theoretical studies, it must be clear how the assumptions =
+reflect=20
+            reality, e.g., failure modes in reliability modelling, =
+classes of=20
+            security threats in security verification, arrival =
+distributions in=20
+            queuing systems. </P>
+            <P>How sensitive is the work to perturbations of these =
+assumptions?=20
+            If your result is delicately poised on a tall tower of =
+fragile=20
+            assumptions, it will be less useful to a reader than one =
+that rests=20
+            on a broader and firmer foundation. </P>
+            <P>If a formal model is presented, does it give new =
+information and=20
+            insights? Simply defining a model for its own sake is not =
+very=20
+            useful. One deep theorem is worth a thousand definitions. =
+</P>
+            <H4 align=3Dleft>Focus</H4>
+            <P>Does the introductory material contain excess baggage not =
+needed=20
+            for your main development? "Real system" papers are =
+particularly=20
+            guilty of irrelevant description. If your subject is =
+distributed=20
+            file systems, the physical characteristics of the connection =
+between=20
+            computer and communication network are probably not germane. =
+Avoid=20
+            the temptation to describe all major characteristics of your =
+system=20
+            at the same level of depth. Concentrate instead on the novel =
+or=20
+            unusual ones that (presumably) will be the focus of the =
+original=20
+            technical content of the paper. </P>
+            <P>Do you include just enough material from previously =
+published=20
+            works to enable your reader to follow your thread of =
+argument? Do=20
+            not assume that the reader has read every referenced paper =
+within=20
+            the last week and has them at his fingertips for instant =
+reference.=20
+            If you want your reader to get past page three, avoid =
+introductory=20
+            sentences of the form "We adopt the definition of =
+transactions from=20
+            Brown [4], layering it onto files as described by Green [7, =
+18],=20
+            with the notions of record and database introduced by Black =
+[10] and=20
+            White [12] and later modified by Gray [6]". On the other =
+hand, don't=20
+            burden your reader unnecessarily with lengthy extracts or=20
+            paraphrases from cited works. </P>
+            <H4 align=3Dleft>Presentation</H4>
+            <P>Are the ideas organized and presented in a clear and =
+logical way?=20
+            </P>
+            <P>Are terms defined before they are used? </P>
+            <P>Are forward references kept to a minimum? Readers get =
+annoyed=20
+            when they repeatedly encounter statements like "Each file =
+consists=20
+            of a sequence of items, which will be described in detail in =
+a later=20
+            section". The reader has to remember the technical term =
+"item", but=20
+            the term has no semantics yet. It's all right to ask him to =
+do this=20
+            once or twice, but only when absolutely necessary. Even if =
+you can't=20
+            afford the digression to explain "item" at this point, give =
+the=20
+            reader enough information to attach some meaning to the =
+term: "Each=20
+            file consists of a sequence of items, variable-sized,=20
+            self-identifying bit sequences whose detailed interpretation =
+will be=20
+            discussed below under 'Multi-media Files'." Your reader may =
+not yet=20
+            understand your concept of files completely, but at least he =
+has=20
+            some glimpse of the direction in which you are leading him. =
+</P>
+            <P>Have alternate organizations been considered? Theoretical =
+papers,=20
+            particularly of a mathematical character, are generally =
+easier to=20
+            organize than papers describing systems. The expected =
+sequence of=20
+            definition, lemma, theorem, example, corollary works well =
+for=20
+            deductive argument, but poorly for description. In "real =
+system"=20
+            papers, much depends on the intent: global survey or =
+selective=20
+            treatment. Frequently, difficulties in organization result =
+from the=20
+            author's unwillingness to commit to either approach. Decide =
+whether=20
+            you are surveying your system or focusing on a specific =
+aspect and=20
+            structure the paper accordingly. </P>
+            <P>Was an abstract written first? Does it communicate the =
+important=20
+            ideas of the paper? Abstracts in papers describing systems =
+are=20
+            sorely abused. The abstract is more often a prose table of =
+contents=20
+            than a precis of the technical content of the paper. It =
+tends to=20
+            come out something like this: "A system based on Keysworth's =
+
+            conceptualization of user interaction [4] has been designed =
+and=20
+            implemented. Some preliminary results are presented and =
+directions=20
+            for future work considered." No reader skimming a journal is =
+likely=20
+            to keep reading after that. Avoid the passive voice (despite =
+
+            tradition) and include a simple statement of assumptions and =
+
+            results. "We designed and implemented a user interface =
+following the=20
+            ideas of Keysworth and discovered that converting the space =
+bar to a=20
+            toe pedal increases typing speed by 15%. However, accuracy =
+decreased=20
+            dramatically when we piped rock music instead of Muzak (tm) =
+into the=20
+            office." Leave discussion and argument for the paper. It =
+helps to=20
+            write the abstract before the paper (despite tradition) and =
+even the=20
+            outline, since it focusses your attention on the main ideas =
+you=20
+            wants to convey. </P>
+            <P>Is the paper finished? Reviewers can often help you to =
+improve=20
+            your paper, but they can't write it for you. Moreover, they =
+can't be=20
+            expected to interpolate in sections marked "to be included =
+in the=20
+            final draft". In a mathematical paper, a reviewer regards =
+the=20
+            statement of a theorem without proof with suspicion, and, if =
+the=20
+            theorem is intended to culminate prior development, with=20
+            intolerance. Similarly, in a paper describing a system, a =
+reviewer=20
+            cannot tolerate the omission of important explanation or=20
+            justification. Omitting sections with a promise to fill them =
+in=20
+            later is generally unacceptable. </P>
+            <H4 align=3Dleft>Writing Style</H4>
+            <P>Is the writing clear and concise? </P>
+            <P>Are words spelled and used correctly? </P>
+            <P>Are the sentences complete and grammatically correct? =
+</P>
+            <P>Are ambiguity, slang, and cuteness avoided? </P>
+            <P>If you don't have sufficient concern for your material to =
+correct=20
+            errors in grammar, spelling, and usage before submitting it =
+for=20
+            publication, why should you expect a reviewer to read the =
+paper=20
+            carefully? Some reviewers feel that this kind of =
+carelessness is=20
+            unlikely to be confined to the presentation, and will reject =
+the=20
+            paper at the first inkling of technical incoherence. =
+Remember that=20
+            you are asking a favor of your reviewers: "Please let me =
+convince=20
+            you that I have done interesting, publishable work." A =
+reviewer is=20
+            more favorably disposed toward you if he receives a clean, =
+clear,=20
+            carefully corrected manuscript than if it arrives on =
+odd-sized paper=20
+            after ten trips through a photocopier and looking like it =
+was=20
+            composed by a grade-school dropout. Even if you aren't =
+particularly=20
+            concerned with precise exposition, there is certain to be =
+someone in=20
+            your organization who is. Give your manuscript to this =
+conscientious=20
+            soul and heed the resulting suggestions. </P>
+            <H3 align=3Dleft>Summary</H3>
+            <P>These thirty-odd questions can help you write a better =
+technical=20
+            paper. Consult them often as you organize your presentation, =
+write=20
+            your first draft, and refine your manuscript into its final =
+form.=20
+            Some of these questions address specific problems in =
+"systems"=20
+            papers; others apply to technical papers in general. Writing =
+a good=20
+            paper is hard work, but you will be rewarded by a broader=20
+            distribution and greater understanding of your ideas within =
+the=20
+            community of journal and proceedings readers. =
+</P></FONT><!-- END OF PAGE CONTENTS =
+--></TD></TR></TBODY></TABLE></TD><!--Right Border-->
+    <TD vAlign=3Dtop width=3D2 bgColor=3D#cccccc><IMG height=3D1 =
+alt=3D""=20
+      src=3D"http://www.usenix.org/graphics/dot_clear.gif" =
+width=3D2></TD></TR>
+  <TR>
+    <TD width=3D750 bgColor=3D#cccccc colSpan=3D3 height=3D2><IMG =
+height=3D2 alt=3D""=20
+      src=3D"http://www.usenix.org/graphics/dot_clear.gif" =
+width=3D1></TD></TR>
+  <TR>
+    <TD width=3D750 colSpan=3D3 height=3D5><IMG height=3D5 alt=3D""=20
+      src=3D"http://www.usenix.org/graphics/dot_clear.gif"=20
+width=3D1></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D750 border=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop><FONT face=3D"arial, verdana, helvetica, =
+sans-serif"=20
+      size=3D-1><IMG height=3D16 alt=3D? hspace=3D2=20
+      src=3D"http://www.usenix.org/graphics/questmark.gif" width=3D12 =
+align=3Dleft><A=20
+      href=3D"http://www.usenix.org/about/contacts.html">Need =
+help?</A></FONT> <BR=20
+      clear=3Dleft><IMG height=3D5 alt=3D""=20
+      src=3D"http://www.usenix.org/graphics/dot_clear.gif" =
+width=3D1><BR><IMG=20
+      height=3D5 alt=3D"" =
+src=3D"http://www.usenix.org/graphics/dot_clear.gif"=20
+      width=3D1><BR>
+      <ADDRESS><!-- EDIT THE DATE AND YOUR LOGIN NAME BELOW --><FONT=20
+      face=3D"arial, verdana, helvetica, sans-serif" size=3D-1>Last =
+changed: 4 Oct.=20
+      2007 ch</FONT><BR><IMG height=3D5 alt=3D""=20
+      src=3D"http://www.usenix.org/graphics/dot_clear.gif"=20
+    width=3D1><BR></ADDRESS></TD>
+    <TD vAlign=3Dtop align=3Dright><!-- Upwards Navigation Table -->
+      <TABLE cellSpacing=3D0 cellPadding=3D2 border=3D0>
+        <TBODY>
+        <TR>
+          <TD><A href=3D"http://www.usenix.org/events/"><FONT=20
+            face=3D"arial, verdana, helvetica, sans-serif"=20
+            size=3D-1><!-- CHANGE -->USENIX =
+Conferences</FONT></A></TD></TR>
+        <TR>
+          <TD><A href=3D"http://www.usenix.org/index.html"><FONT=20
+            face=3D"arial, verdana, helvetica, sans-serif" =
+size=3D-1>USENIX=20
+            Index</FONT></A><BR></TD></TR></TBODY></TABLE><!-- End of =
+Upwards Navigation Table =
+--></TD></TR></TBODY></TABLE></CENTER></DIV></BODY></HTML>
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.usenix.org/graphics/dot_clear.gif
+
+R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.usenix.org/sub_images/home.gif
+
+R0lGODlhrwBCAPcAAPHZ2YOAgNSMjPv09OCrq9ypqfDV1awxMbA6OqETE62trfDt7czLzLW0s8Jz
+c/bo6Ml0dMzMy7W0tM2JibhISHNzc7dMTM3MzOa6uvXi4vrs7KUhIejAwPvy8urKyvn6+tqhoea9
+vO7S0d7e3rtkZOvHx50REerIyG5ubrVGRraztOLg4P77+9iwsJsPD/jr67A0NPbm5r5ZWZMAAN2g
+oPrw8P3396kkJNeTk8ZubsyDg9OWlrFCQpsAAPTd3dKUlJsKCvz4+L29vd6mpsp9fZIAANqenq49
+Pf36+uGwsOzJycl5eaQaGq4uLrxnZ9eenblNTaGhob1pabZJSZ4JCc1+frVCQv/+/vf3993Hx645
+OfHj4pkGBo2Njcx6etCJidGFhdmamvLq6r1UVO7Ozvru7sRmZtONjdq8vOXNzaosLOnExI4AANeU
+lJYLC6QeHqkoKMFlZZ8cHPfp6ejh4daYmKYdHbWzs+LV1fz19fLy8fnv78FgYJcDA+S1tdWsrLJE
+RJAAAPLx8rpXV6AVFcN5eZ0MDOGzs/fn579cXH5+fsSCgtGQkL9ubvLc3KMXF5wHB+nBwawqKuS5
+ub5SUrhRUJoDA9SKiq8/P7tjY6YqKaALC5gCAq03NpYEBJYAAJcAAHt7e9fX1/Ly8svLy+Hg4J2a
+mvjt7c3Ly7a0tOHg4eHh4PPy8pyamuHh4Z2am8zLy52bmp2bm5mZmZybmpyam/Tk48XFxZybm4SE
+hKWlpfrt7ebm5vnx8fjs7Oe/v/ns7JkBAezr6uvFxaYfH/bq6f35+aUbG7dHR5YBAcRra8dqatWT
+k5IDA/Hn6OjEw7U/P/Dk5PXz88J3eKAdHerDw5sEBPLz88p/f8iNjZ0gIObDxPz//+rJyerLy+zK
+yuLi4rVPT7ZaWZOTk9GLi9eiosFeXr5iYejo6Ozs7OzOzvXr68jIyP/9/bEsLOnHx9a2tvfr66Mw
+MKk5ObOzs6s+Pnd3d5wTFO7v750YGLxMTNy1tJgAAGZmZpkAAP///yH5BAAAAAAALAAAAACvAEIA
+AAj/AP+5UtSvoMGDCBMqXMiwocOHECNKnEixYr8PXSxq3Mixo8ePFiWAHEmypMmTBitoDMWypcuX
+MGPKnEmzps2bOHO6VIlyYahZuiTciiCqqNGjSJMqXcq0qdOnUKNKRRpBiIIoUbqE6lkwV5Rb+P6J
+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
+7vqu8CquAQEAOw==
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.usenix.org/sub_images/conf.gif
+
+R0lGODlhXQAhAOYAAM+IiLRERPX19ejo6Pju7uS7u6AREaciIvHd3dXV1aCfn46NjbKzs+fo6OvM
+zNfY2N2qqrOzstfX18bGxcbGxrOystjY2LKysp+fn42NjcXGxfX19rOys9jX2MbFxaCgn60zM6Cg
+oMbFxvb19fX29Y2NjtfY1+jn6MXFxejo542OjdjY16CfoI6Njp+gn42OjsXFxo6OjrKzstfX2I6O
+jZ+goMl3d7Ozs9aZmeXl5cJmZtjX15+foOfo58XGxuDg4LKys7tVVf7+/vb19ujn5+fn5/X29vb2
+9efn6OPj4/39/bq7u4iIiOTk5JSVlN/f387Pzvv7+6Khoa+vr93d3ebm5pkAAGZmZv///wAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAAAAAAALAAAAABdACEAAAf/gFeCg4SFhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goYNJTTk5
+Vaipqj+sqqmmrqg/sbK0trawtDlJT1QJiljBwsPExcbHyMnKy8NKUb+GzNLT1NXJQtCD1tvc3cjY
+2t7i49tC4eTo6d/Q6u3uwuzv8ujxyAQFBQjVCAAA+vPc6hkDYMCKwQDTCBg4AKIAwICCkOGwAoAA
+FggHhOEjdu9fASsWgzkoENLYyJJYOg4b+Q/LSWH3HCoTSAyEjmIODhg84AALwYJWIGAxaCUAgQBE
+hX7UUfRoUp8GgAp1arAiUoNCIRgAccDAzIjHghYLAoIAARBBoDoMgPBjMAAH//TpyPgxSAEHcOVm
+JLgWIV+XBfJimYslgI1gOL5eQWZF5jCxF634RDgZi9vCB9iCkHwZs2bJACiHLnxYWIDMATYPNqAD
+B0pjNIcdKP1YptvRlS+z7dfPsuRgu3lXrhwAwLDgvQmEjvqaWGxhBHumPIw2GNnhoy/bOBBSX+ft
+3bEjBB8MAXks+oSmbJzsebCzVkAg9QrBygGdQnFn/40g6mnOv6Hnn07iCWhAAAb4M6Bkpy3X3DDu
+CQNBPxB0188/CEiXYUqOEYBDPz3dM4yHIKKnoXTKAeBaSh8C0BM//TwIIVgP1VhNhDbmWAw0Aoww
+AglDCCDABiNsQIIARw7Zo/8RSBo5whE9KjlCkCQYQUKRQkIppJI9HnnkBkgOOUKYSm4Q5JZRgomm
+kGAmKeQIUAhCRA8DpDDAAA3YiSeeJwxQRJ8DANoAnXc20MAJJxBRhKEN3AlonSnY2WgPkgZqZxFI
+NEDECSlMemcPPTTaKKd13plpo3oieicFguywwgMdzGDBDBJIYIKtHdhK6woryLqDBSaY8IAFK3Sw
+wg4PPCBBB7cma8KszcJaLKyxSiCrBRIMWyusD+xgwgrLzmoBsTvMgKywtr46brEdLCGIBjCIoAG8
+HmjgAQU+eCDCBDD068EEFEygAQXw+gADvCjUGzAKAlPggQ8aiAADwyL4IML/vgz7gIK9E4jA8AQd
+U0ABCiiI7DHFInhwL8cl30sBDPWKMIUgF0RwgQwV2FwBBzjXvHMEHDAQAQMMBC0DEBfcwEEEQPAs
+QwQy1MxABVPfQHQFQMjAQQU3XLBz0lYzUDMQEVQgw9EXXEB00Wx7XXQEXd+Q89JTRyCFIBi4gIEC
+IbDQNwYfYMBDCBiwgAEGNSjgAt+LJ67AB4mHEIILPChQQ959862AAjzs3Tfllk/OguIs1PDBByyw
+wMPpj9cwuQKAQx64CyF8sDkLH3SOuBOCtPBCDCqUUMILGbQA/AIL0KDCCzRkMHwJC2QAfAsZKE+D
+7wsQ30IJvi9PwwIlXJ+8JgrR/56BChlE38ICMUAfA/Lmf79A8CrEQD373wu/fvolZMDEFYEAADs=
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.usenix.org/sub_images/join.gif
+
+R0lGODlhXQAhAOYAAPX19c+IiLREROjo6OS7u/Hd3evMzNXV1aciIqCfn46NjaAREbKzs+fo6NfY
+2Pju7tfX17OzssbGxcbGxrOystjY2I2NjZ+fn9aZmcXGxfX19rKysrOys8bFxsJmZqCgoNjX2MbF
+xa0zM6Cgn/b19fX29dfY142NjsXFxejn6Ojo56CfoNjY15+gn46Njo2OjsXFxo2OjbKzso6OjtfX
+2I6Ojcl3d5+goN2qqrtVVeXl5bOzs9jX15+foOfo5+Dg4LKys8XGxv7+/ujn5/b19ufn5+Pj4/b2
+9fX29ufn6P39/fv7+5SVlIiIiN/f387Pzt3d3aKhobq7u6+vr+Tk5Obm5pkAAGZmZv///wAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAAAAAAALAAAAABdACEAAAf/gFeCg4SFhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goYRGVDo6
+Vaipqj+sqqmmrqg/sbK0trawtDpGTlAHiljBwsPExcbHyMnKy8NKS7+GzNLT1NXJQtCD1tvc3cjY
+2t7i49tC4eTo6d/Q6u3uwuzv8ujx81gFAQX21fXIVv/+CCQLsAALgX9WEGDYl6zfMQIBrAgrQEBf
+MAIPJmIcJsKDQSsECNiwYkBYSGIUMwozsFGcw4cSsYz8ZyMYSCwCEPxbYLGAFRwfhd00oNMKT5xF
+jz4QgBDogoU2ENwjyeylsYNYDFhZiIHqTQEiCjxYECBY1IsgCeRYkDFHjgcP/zriDDu2bAAE+jxI
+zeFRpwEMBasKYoY1gAhhIsp+LYuTMYKaH3eWxGJFhICcAhoHE1AWM1iJdw0syGHDRg5pVosVzrxZ
+sUDOrbNSDap1IWUPAXIvhK35cu7cUz14wICA97LUxHBIVF5SK9DFsT0cRhusq0ARp4Pp4w07qkqL
+OnE8+Gfx+OBkC5h6xCLCCtPp0DWTNRkTi4cFBpQXT69Zc4EF6ekUzH3B5CAVaucho9swGARgm0EZ
+GWCRhMqV94BAJumDT276SBiMh1g80GAAkxVQ4mSCXTGPB6wxxE+CLsZo3hUAkEBCCUQAAIAGJGhQ
+AgA/7lgjEkD6SMIRNQpJQv+OJSBRQo86IqmjkDX++KMGQO5IQpZCapDjlEliCaaOWAapIwlPCDKE
+DwOoMMAADbgJJ5wpDFBEnQPg2QCbbzbQQAopDFGEnw28iWebKrhZqA+K5ulmEUk0MEQKKiz6pg8+
+FFoopW2+GWmhcgL65gSC8MCCAyDQUAENEEBggqsguMoqCyyoykMFJpjgQAUsgMACDw44AAEIrwZr
+wqrFotorqqlCoGoFEOzaKqoO8GACC8OuWgGvPNAArK6unrptryBIIUgGMHSQAbohZBDCBEGE0IEE
+MNQbggQTSJDBBOgGAQO6KLSbLwr6ThBCEBl0AAPBHQTRwbwEB4GCuxJ0QLD/BBVPMAEKKGhsMcMd
+hPAuxR2/OwEM7XYwhSAbRLCBDBS4TAEHMLc8cwQcMBABAwzkLAMQG+zAQQRA0CxDBDK0zAAFS+/A
+MwVAyMABBTtsMHPQTjPQMhARUCDDzxtswHPPZFvdcwRV7xDz0EtHEIUgF7RwQQIfrFD3BSNc0MMH
+F6xwwQU3JNAC3YMHnsAIgX/wQQs9JHBD3HXTnUACPcxdN+OOL76C4CvcMMIIK6zQw+eH37B4Angj
+nncLH4ww+QojVA44E4K48MIMMZxwwgsWuIC7AgrUEMMLNViw+wkKWIC7CxYIX4PtCvDuwgm2D1+D
+Aic8H3wMyd9uQQwWJO+CGgIzID8D8N5fr0DuMczAPPnX6z5++CdY0EQgADs=
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.usenix.org/sub_images/who.gif
+
+R0lGODlhXgAhAOYAAPX19eS7u8+IiOjo6OvMzPHd3aAREbRERPju7tXV1aciIqCfn46NjbKzs+fo
+6NfY2MJmZtfX17OzssbGxcbGxrOystjY2LKysp+fn42NjcXGxfX19vb19cbFxtaZmaCgoNjX2LOy
+s8bFxaCgn/X29Y2NjtfY17tVVejn6Ml3d60zM8XFxejo546Njp+gn6CfoI2Ojo2OjdjY18XFxo6O
+jdfX2LKzso6Ojp+goLOzs92qquXl5djX15+foOfo57Kys+Dg4MXGxv7+/vb19ujn5+fn5+fn6PX2
+9vb29ePj45SVlK+vr6Khobq7u4iIiM7Pzvv7+9/f3+Tk5P39/d3d3ebm5pkAAGZmZv///wAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAAAAAAALAAAAABeACEAAAf/gFeCg4SFhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goYtJUjs7
+VaipqkCsqqmmrqhAsbK0trawtDtJUVQJi1jBwsPExcbHyMnKy8NTUL+HzNLT1NXJQtCE1tvc3cjY
+2t7i49tC4eTo6d/Z6u3uwuzv8ujx1gIF8/lY9cQnJ8EerBAIZkAAFisBphEQGEzBPywCDDArYEUB
+vUHHIgaDYMXgwoEICSQUhiDAwGIFsVCUiMVfsAIB8BkToIDhMZEImPEbRnGgAhX/NB6saUUFQANW
+rBzIOQzCPw8qGKZMkdRKCmMqUmQNFsAKx6UHqupYtnOYgnsIJZ6AEMxrSYRY/wywJZBymAeJEAQc
+ELCwwMKEAWUK60mTq5UTJmnig2BRWVlhEA54OHCQroe2IxF2ZZqCMk+ECgIIOFE44oHTcIelMBAg
+4Niuwg4oOB2VLMZjAfNiOcBRZmrNVoTpLaaAI5YABtZCPCugueCGVb0eDx7sdPPmtgUhQ5A0YcTG
+BzMH4G4QgYKrxKh6tmLgsg6bCJgG63t0urAUCpg+P/ZYWO3pbGEmIFUqGGDAfli8Z9BuVsgU1QFR
+jRSMViRZoQNsLxkoG3XJ9DffSccJNh5XTIkmgHzDlKSfhAk2N9YwBDwXY0kpetAciMh4qM+OHd7G
+4486DQIABxyQMAQAAGzAwf8GJADQZJJDHuEkkxwgMSSUHBxJwhEkLImklUhCOWSTTW7gZJIcnAnl
+BkeGeaWZbiJp5pNIcvDEIET4MAALAwzgAJ9++onCAEUMOoChDujZpwMOoIACEUUw6kCfhu7JAp+T
++oDpoXwWYYQDRKDAQqZ9+uDDpJOKumefn04KqKN9UjAIDzI8AEINFtQQQQQm8AoCr7rKIAOuPFhg
+ggkPWCADCDLw8MADEYDQ67Mm5DqtrcvaemsEuFoQQbK72voADybIEG2uFijLQw3OIstrrekuC0IT
+g2gwQwca2CuCBiJQEIQIHUwww8AiTEDBBBpQYG8QM9i7wr4Hr4AwBSIEoUH/BzNI3EEQHQQscRAr
+8DtBBxJPMDIFFKywAsoka9yBCP2KvHK/FMywbwdLDHKBBBfYUAHPFYTg885BSxBCAxI00MDRNvxw
+QQ4hSPCD0DZIYMPODVSQdQ5KV/CDDSFUkMMFQT/NdQM7/yBBBTY0fcEFSi8tN9lLSzB2Dj9HnbUE
+TAyCgQsYLPDBC4NjMAIGPXyAwQsYYIDDAi4IHvnjC4zw+AcfuNDDAjj8PbjgCyzQQ+CDa8555i9A
+/gIOI4zwwgs9tF45DpkvYLjlh7vwwQihvzDC6I4rMUgLMNwQQwklwJBBC8YzwAANMcBAQwbJl8BA
+Bsa3kAH0NBDPgPItlEB8LfQ0MFBC98/HcH3xGcSQwfUtMHCD9Tc4z375DBwfww3ay18+8vF7Xwky
+4IRAAAA7
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.usenix.org/sub_images/contact.gif
+
+R0lGODlhXwAhAOYAAPX19c+IiOS7u+jo6LRERNXV1fju7o6NjaCfn92qqufo6LKzs9fY2KciIrOz
+suvMzNfX18bGxcbGxvHd3bOysp+fn42NjdjY2PX19sXGxbKysrOys9jX2KCgn60zM8bFxqCgoKAR
+EcbFxfX29fb19Y2NjsXFxdfY1+jn6Ojo59jY146Njo2OjZ+gn42OjsXFxqCfoNfX2I6OjrKzsp+g
+oI6Ojcl3d+Xl5bOzs7tVVefo55+foNjX19aZmbKys8XGxuDg4P7+/vb19ufn5+jn5/X29uPj4/b2
+9efn6MJmZoiIiPv7++Tk5N/f36+vr7q7u87Pzt3d3aKhof39/ZSVlObm5pkAAGZmZv///wAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAAAAAAALAAAAABfACEAAAf/gFeCg4SFhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goZFGTDc3
+VaipqkCsqqmmrqhAsbK0trawtDdGTVEFjFjBwsPExcbHyMnKy8NTS7+IzNLT1NXJQdCF1tvc3cjY
+2t7i49tB4eTo6d/ZV+ru78Ls8PPp8tMGAgIT9PzxhNMBQlgZSGDag4LTbPQwZkWAsIbc7C3rYSWA
+ASwJGgjLRwzfPiwCrAx7IODBMHwOsRAIwDAlFohYJpScJlGZhyTFHjQY2MBkQIFWErwcKDIAUQ/B
+egANYXQgy2EwXzo0SiBEDmk1kwUtlsODAQMergZ0SKBgSGET9oV0GCLJ14Ur/1s+dLjVgFBmWZFF
+fXg3QVGEAcyKDPYgx86GIS8Ki1ssKsQGDWzcxfuPWeTGKc8GDrb5bLAGHgKs9bz4KTHHDifYIGAF
+4bK8xwKaxGLABpawwbpi2bxbsOKtExoaqBhsHwHbxRpc3W1lX9/BrysvA2vFA+sQGK1A3sp7s4EQ
+kFWGYA3RRnUPRVubDuYXtBXk6hu4VgYbWYIAARIonoD/44TZ/wUjAH609SeAYgMGYJIB+M02En6T
+PYDfQlhJ18+F1NSH4YbGsAMACSSMIAQAAGBAAgYjAJBiiR8WoSKKJBzxIYskjDhCESOcSKKMJLL4
+YYopYqBiiSQMySIGI/Y4o/+QSpIo5IokkgAFIUToMEAKAwygAJZaaonCAEN8OYCYCliZpQIKoIAC
+EUOgqUCWYl6ZApZv6kDnmFgOgYQCRKCQQp1Z6qDDm2/6eWWWe77JpZpZSkAIDyowwEEMF8QAAQQn
+YMoBppaqoAKlPFxwwgkMXKACByrwwAADEHCQ6aonVPqqpKdKOikElF4AQamXSsoADyeo0GqlF5jK
+QwyqkopppMWeysEThGTwwgcZSCtCBiJI8IMIH0TwwrciRCBBBBlIIO0PL0hrwrXjmkCuBCL8kMEH
+L7j7wQ8fdOvuDyZgG8EH7kbwrwQSmGACwQDb+4EI2fp7cLYSvHDtB04QooH/AxrMQAHGFGyg8cUd
+O7DBAg4ssMDIM/igAQ4bOOCDxzM4MMPFC1BQMw4mU+DDDBtQgIMGHa+M8wIX++AABTOkrIEGJp/s
+NNAnO/AzDhu3XLMDUhBSQQsVIAACDF9X0EEFO4BQAQwVVEADAi143fbaCHSwNgggtLADAjRs/bXX
+CCCwQ9df24133TCwDQMNHXQAAww7JB43DXUjILbcY7cAQgd9w9DB32pTQcgKLsjAQgkluGDBCqIf
+cEANLLhQgwWll3CABaKvYAHrNYB+gOkrlAB66zUcUELuq7Mwe+gWsGDB7CscIIPsMqiOfPAHjM6C
+DLY7HzzpzS9fggVKXBEIADs=
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.usenix.org/sub_images/login.gif
+
+R0lGODlhXgAhAOYAAPX19ejo6M+IiPHd3aAREdXV1Y6NjaCfn7Kzs+S7u+vMzOfo6NfY2NfX17Oz
+ssbGxcbGxp+fn42NjdjY2LOyssXGxfju7vX19rKysrOys9jX2KCgoMbFxsbFxaCgn/b19fX29Y2N
+jq0zM9fY1+jo59aZmcXFxejn6KciIsXFxo2OjrtVVZ+gn9jY142OjY6NjqCfoN2qqo6OjdfX2I6O
+jp+goLKzsrOzs+Xl5Z+foOfo58JmZtjX1+Dg4LRERMXGxrKys/7+/sl3d/b19ufn5+jn5/X29uPj
+4/b29efn6OTk5JSVlPv7+87Pzv39/d/f36+vr6Khod3d3YiIiLq7u+bm5pkAAGZmZv///wAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAAAAAAALAAAAABeACEAAAf/gFeCg4SFhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goYpHSjg4
+Vaipqj2sqqmmrqg9sbK0trawtDhHT1IFi1jBwsPExcbHyMnKy8NOTL+HzNLT1NXJQdCE1tvc3cjY
+2t7i49tB4eTo6d/Z6u3uwuzv8ujx7UJC1AMJFvPE9eoEVlBbYWVAv2H/vCVIEEyBFQHBYggQYDCY
+hYklEhjUiEVfgon8gi1Ml5CbBSsoggmwogDLDisiCBAwqECmDytWSjiESBCmlR0WUZIcRG6AgBLB
+VhDAshLpTiwoRPBbaZQlFgJSr/oIZhQpPaLtUAgUIULYwxhWYiRNuWPpgIfB/6zge1dS3FuIcLGg
+lWhFGAGgYrGUsJogrby61j4yHNzSikALMS+mlVzirsulTK2EnKgOcTUUBPi1DSYEpkyGAwjgxKmA
+MVSBWHyU7QizM1hvg9ViUdAyWImJFQfoiyEipT6RFXlbTND7q6BxKLYyI+hDZvODxTxLM1pxmYKJ
+FLEjywbgwwcQQwAAuPDhAggA79eXNwLf/Qck5eV/SA/CCIj26uGnnnzlvffeBfCt90GC8l2Q3oD5
+IQihegjGp94HTQxShA4BkBBAAAt4CCKIJwRARIkBoLgAhx8usMAJJxRBhIsLfIhihyR4WKMOOqbo
+IRFJLFDECSTs+KEOOtRYI/+RHX4YZI0iwvghBIPw0AIDGswwwQwNNDCClxp4yWULLWjJwwQjjMDA
+BC1o0AIPDDDQgAZfxjnClnVi2SaWWTag5QQNrNkllgzwMEILc245AZs8zACnml5euWibGlAxSAUp
+cFABph1U0AEEP3TAwQMplNrBAxA8UAEEmP6QAqYmdJqqCapC0MEPFXCQAq0c/MDBqLT+YIKnD3BA
+6wPFQgCBCSYoayyvHHTwKbHNfgpBCp1yAMUgGDiAgQ0UeEtBBuB2O64DGSDgAAIIpGsDEBjckIED
+QJBrgwM2dIsABfvewC4FQNiQAQU3YDBuvP4i0C0QDlBgw7sYYMBuuxQb3K63AwXfEO68+zoQxSAR
+sBDBARvAUHIEHkSQwwYRwBBBBDUcwALJM8d8gAcxb7ABCzkcUEPIJZN8wAE5jFwyzz7vDIPMMNTg
+gQcwwJDD0zfXsPMBKOOcMgsbeDA0DB4UDfMSg7ygAg0uhBCCChK8gLYBBsjgggoySLB2CAZIgPYL
+Esgtg9kGsP1CCGbPLYMBIfwdtwt5ny2BCxLk/YIBNOBNA9yOH25A2i7QwDflh6s9eeQhSDDFFYEA
+ADs=
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.usenix.org/sub_images/site_map.gif
+
+R0lGODlhXgAhAOYAAOS7u/X19ejo6M+IiLRERPju7tXV1Y6NjaCfn+fo6LKzs/Hd3dfY2NfX17Oz
+ssbGxcbGxp+fn42NjdjY2LOyssXGxfX19rKysrOys9jX2KCgn/b19aCgoPX29cbFxsbFxY2NjqAR
+EcXFxejo59fY1+jn6I2Ojo2OjdjY16ciIp+gn46NjsXFxqCfoI6Ojp+goI6OjdfX2LKzsuvMzLOz
+s+Xl5cJmZtjX1+fo55+foNaZmcl3d7Kys8XGxuDg4K0zM/7+/t2qqrtVVejn5+fn5/b19vb29fX2
+9ufn6OPj46Khobq7u9/f3/v7+/39/YiIiN3d3ZSVlOTk5K+vr87Pzubm5pkAAGZmZv///wAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAAAAAAALAAAAABeACEAAAf/gFeCg4SFhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goYpJUjU1
+Vaipqj6sqqmmrqg+sbK0trawtDVJTFAGi1jBwsPExcbHyMnKy8NOTb+HzNLT1NXJQNCE1tvc3cjY
+2t7i49tA4eTo6d/Z6u3uwuzv8ujx3AUAAAXz7/XWA1YArdjAAsBKMAIzmBUkIMyGFQD7+lGbYWUA
+lgJBLN4L9nDYjHzFCnZcABAiQQALiC0AyU3itIIphxXEQiBgvpoAgxAraIOhDYcQcVrZcTAFwBAx
+rbmUViBECCEDEhI0iKUjlgEpUtpIsfOhFR1WSEKcoe/fQQILCqQgum0p0wEE/0IMncrRJIEUBAj8
+oCpsZk0hVSEGiQvwoMWrDNsOImd2ZuCzAyIf7muwIMSHJIXoMEvzMNyWi7fNGKDvagi6VXVi2ZGi
+dNJgjoU9LKgPrOGLa0EL4iZS71fUcX+gdHqXL2zjgZum2Eu15l2kuq90WyBZ6kYs1Elf3ByV2PW+
++rKvPGgj8utqbvd5IzC5W3r13HSY9JYtwIYNHYoECGBhg4UOAQDIn31HBPjfBkbYN+AG+nVwRAf+
+7ZfgfgPaByCAFgTI3wYaDmiBfhQqmGGI+2Uo4H4bUDHIEDgIMIIAAiTwYowxliAAETYKkGMCLcKY
+QAIllDAEET8mAGOOLo7wov+ROCyp44tEIJHAECWMwCSMOOBgpJFVugijlEbOGCSMEAxyAwoMZBDD
+BDE00AAJb2bwZpsooLDmDROQQAIDE6CQAQo3MMBAAxnAKSgJbBqapp9pqtnAmhM0wKebaTJwAwko
+EMrmBH3eEEOge76JJqd+ZrDEIBWw4EEFqX5QwQcQ9PCBBw+wYOsHD0DwQAUQpNoDC6mK4KquIuwK
+wQc9VOABC8V60IMHtBbbgwivPuBBsQ9YCwEEIoiw7bXNevABrNV6CysELLjqwRSDXODABTJQ8C4F
+GMTrLr0OYKCAAwoooK8MPFxAAwYO8FCvDA7I4K4CFDBMQ78U8CADBhTQcAHMvQI/rIC7PDhAgQwA
+X3BBv/6WfLG/DlhMg7wEM+yAEoNEoEIECHDQgs0RaBBBDhxE0EIEEbyAgAo1Ey00AhoIzQEHKuSA
+wAsy21wzAgjkQLPNTT/NdAtDt/CCBhq00EIOYCP9AtMI5Jy0zipwoAHVLWhgddBRDLKCCS6cAAII
+JkiwQt4HHADDCSbAIAHfIBwgQd4rSDA4DHcf0PcKINxNOAwHgAC54CcojrcEJ0ig+AoHuJC4C4F/
+jvkBep/gQuOlY7436aKDIMETVwQCADs=
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.usenix.org/sub_images/usenix_sub_buttons_08.gif
+
+R0lGODlhDABCANUAAIOAgOHh4PLy8nx8fJ2amtfX2J2bmrW0tMzMzLWztKGhoPf3+HNzc+Hh4c3L
+zMzLzM3Ly62trZyamra0tOHg4GdnZ83My6mpqZmZmbaztOHg4X19fc3MzLGxsczLy5ybm42Nje/v
+77azs7W0s/Py8oeHh9HR0Zyam+fn552am/f397a0s5ybmr29vf///2ZmZgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAMAEIAAAaxwJdw
++KpsVC4XcRlJLpco5XN4kU5fjNB1aNoKO95XKVwJm8/otHrNbrvf8Lh8zmYwvIU8IgIaLJOALgst
+fkKBgQsYhoeACwovjIEDA5GACgqVSS0tmS6bnZ+ZoZWjkaWMp4epgauArZqcorGks6a1qLequay7
+rr2woC0CAiTDArwBARoNAQ0UAc/MHg8OCBYQ1dcPHCIjCRMJBwcTKxkHCSkGEiwnBBIGBPAfAPT1
+9vRBADs=
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.usenix.org/sub_images/lower.gif
+
+R0lGODlhMwIhAOYAAPLy8s+IiLREROS7u52amnl5eba0tOHg4LW0tHp5ec3Ly+Hh4PPy8uHg4aAR
+Efju7uvMzJyams3My83LzJ2am+Hh4aciIvHd3daZma0zM8zLy7tVVXp5ep2bmra0s3p6ecl3d83M
+zLaztLWztHl5eszLzN2qqsJmZszMy7W0s5ybmpyam8zMzHx8fPLx8nl6eeLg4PLy8Z2bm7Wzs5yb
+m+Lh4Lazs+Lg4eLh4fPx8tfX1/Py8Xp6emZmZnl6en19ffLx8ebm5vf395mZmfPx8dfX2IOAgJkA
+AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAAAAAAALAAAAAAzAiEAAAf/gEMFHB8FJIMkHAkJg4UJH48FBS8fHAWPCYcJlouYPpKGi5OHki+Z
+izyDi6QkL6qujJKFl5YFkJstPy27PbuNhoiKjISXkLOUnJCanIuQn5Ikoi+kk6cJqcKsroqwoLOb
+soscubstvS2/hxyJosSYx5XFmbSXzQnPoYzToKbR16rzDG1L0E2WJHC2xJHj5YuYOnbDHBkrFQ/T
+snqeQPkbxc8atlXQBha0dbDWrXG6GKJzGKydxEiTKiqj18mZRmnU+qECqO3VJW8lw+FKaa5hoYfC
+fr2jmGweuJr3burL6ZFnSJ+xSNJLOLRcDyFBdIgdS7aI2bNo06pdy7at27dw/+PKnUu3rt27ePPq
+3cu3r9+/gAMLHkx4L5LDiBMrXsy4sePHkCNLnky5suXLmDNr3sy5s+fPoEOLHk26tOnTqFOrXs26
+tevXsGPLnk27tu3buHPr3s27t+/fwIMLH068uPHjyJMrX868ufPn0KNLn069uvXr2LNr3869u/fv
+4MOLH08bgoDz6NEfBnEe9AP0Dx5jOA8B+HwB9R0P2HDkiIMT+flmngAYkPbACRb0l0EA0Z1w3gCz
+DVggZuwJQJ5zA/Sn4YaHCdAfaBhoyKBjAfQH4W8lHnEiYylu6ECAtvVn4WEZHjFiaA8kuOERJ3Dm
+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
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.usenix.org/graphics/questmark.gif
+
+R0lGODlhDAAQAKIAAP/////MzMzMzMyZmcxmZpkzM5kAAP4BAiH5BAUUAAcALAAAAAAMABAAAAMx
+CBrTEyoSYwo1IwILxRWRFVKEplmYORbqUrVKwcJW1k4G2F4Q7CsEWU/1gRVbgqQpAQA7
+
+------=_NextPart_000_008F_01C8FD9A.AF342440
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.usenix.org/page.js
+
+//	Javascript for USENIX pages=0A=
+var hasImage=3Dfalse;=0A=
+// Check on Browser type=0A=
+bName =3D navigator.appName;=0A=
+bVer =3D parseInt(navigator.appVersion);=0A=
+if ((bName =3D=3D "Netscape" && bVer >=3D 3) ||=0A=
+    (bName =3D=3D "Mozilla" && bVer >=3D 5) ||=0A=
+    (bName =3D=3D "Microsoft Internet Explorer" && bVer >=3D 4)) {=0A=
+    hasImage =3D true;=0A=
+    // Create an associative array of buttons=0A=
+    Buttons =3D new Array();=0A=
+    // create buttons=0A=
+    crButton('home');=0A=
+    crButton('about');=0A=
+    crButton('events');=0A=
+    crButton('membership');=0A=
+    crButton('publications');=0A=
+    crButton('students');	=0A=
+}=0A=
+// Create a button object=0A=
+function Button(file) {=0A=
+    this.main =3D new Image();=0A=
+    this.main.src =3D "/graphics/small" + file + ".gif";=0A=
+    this.over =3D new Image();=0A=
+    this.over.src =3D "/graphics/over/small" + file + ".gif";=0A=
+}=0A=
+function crButton(name) {=0A=
+    Buttons[name] =3D new Button(name);=0A=
+}=0A=
+function iover(name)=0A=
+{=0A=
+    if (hasImage =3D=3D true) {=0A=
+	document[name].src =3D Buttons[name].over.src;=0A=
+    }=0A=
+}=0A=
+function iout(name)=0A=
+{=0A=
+    if (hasImage =3D=3D true) {=0A=
+	document[name].src =3D Buttons[name].main.src;=0A=
+    }=0A=
+}=0A=
+
+------=_NextPart_000_008F_01C8FD9A.AF342440--

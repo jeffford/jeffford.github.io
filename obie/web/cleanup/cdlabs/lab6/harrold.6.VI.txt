@@ -1,0 +1,74 @@
+Script started on Tue 02 May 2006 06:26:06 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ca [Kt > Ch6S6F1
+CIS	^[[4~^[[E         15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ car[Kt Ch6S5F1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F1[1PF16F1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ sort-[Km[K -n [K[K[K[K[K[K[K[Kcp Ch6S6F1 a
+]0;Student@localhost:~[Student@localhost ~]$ moe[Kre a
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ more a[4hcp Ch6[4lS6F1[Student@localhost ~]$ cp Ch6S6F1 a[1Pat Ch6S6F15F1> Ch6S6F1script harrold.6.V.txtIV.txtII.txt[K.txtexit[Kmore Ch6S5F3v a[Student@localhost ~]$ mv a Ch6S5F3[6Pore a[4huniq -u Ch6S5[4lF3 >[Student@localhost ~]$ uniq -u Ch6S5F3 > asort -n +0 a > Ch6S5F3more a[Ksort -n +0 a > Ch6S5F3[Student@localhost ~]$ sort -n +0[Student@localhost ~]$ sort -n +0 [Student@localhost ~]$ sort -n +0 a[Student@localhost ~]$ sort -n +0 a [Student@localhost ~]$ sort -n +0 a >[Student@localhost ~]$ sort -n +0 a > [Student@localhost ~]$ sort -n +0 a > C[1Ph6S5F3[1P6S5F3[1PS5F3[1P5F3[1PF3[1P3[K[K[K[K[KCh6S6F1 | sort -n +0 | a[Kspe[K[Koe[Krt [1P[4h1[4l[Student@localhost ~]$ sort -n +0 Ch6S6F1 | sort -n +1 | sort -n _[K+2[Student@localhost ~]$ sort -n +[Student@localhost ~]$ sort -n +0[Student@localhost ~]$ sort -n +0 [1P[4hd[4l[Student@localhost ~]$ sort -d +0 Ch6S6F1 | sort -n +1 | sort -n +2
+CIS	15	1	45
+CIS	45	1	38
+CIS	54	1	20
+MTH	35	1	56
+BUS	34	2	20
+CIS	54	2	67
+ENG	11	2	89
+MTH	35	2	41
+PE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ sort -d +0 Ch6S6F1 | sort -n +1 | sort -n +2[Student@localhost ~]$ sort -d +0 Ch6S6F1 | sort -n +1 | sort -n +2[Student@localhost ~]$ sort -d +0 Ch6S6F1 | sort -n +1 |[4h|[4l[Student@localhost ~]$ sort -d +0 Ch6S6F1 |[4h|[4l[Student@localhost ~]$ sort -d +0 Ch6S6F1 || sort -n +1 || sort -n +2
+BUS	34	2	20
+CIS	15	1	45
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+ENG	11	2	89
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ sort -d +0 Ch6S6F1 || sort -n +1 || sort -n +2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K=[K+0 -1 Ch6S6F1
+BUS	34	2	20
+CIS	15	1	45
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+ENG	11	2	89
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Tue 02 May 2006 06:35:27 AM EDT

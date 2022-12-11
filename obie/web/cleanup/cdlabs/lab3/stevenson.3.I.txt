@@ -1,0 +1,55 @@
+Script started on Fri 21 Apr 2006 08:27:20 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ mkr[Kdir letters
+]0;Student@localhost:~[Student@localhost ~]$ mkdir reports
+]0;Student@localhost:~[Student@localhost ~]$ mkdir assignments
+]0;Student@localhost:~[Student@localhost ~]$ cd letters
+]0;Student@localhost:~/letters[Student@localhost letters]$ mkdir friendly
+]0;Student@localhost:~/letters[Student@localhost letters]$ mkdir formal
+]0;Student@localhost:~/letters[Student@localhost letters]$ ~[Kcd [K[K[Kcd reports
+bash: cd: reports: No such file or directory
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd ![K~reports
+bash: cd: ~reports: No such file or directory
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd letters[K[K[K[K[K[K[K[K ~/reports
+]0;Student@localhost:~/reports[Student@localhost reports]$ /mk[K[K[Kmkdir personal
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir business
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir schol[Kol
+]0;Student@localhost:~/reports[Student@localhost reports]$ /~[K[K~/[K[Kmkdir ~/assignments/UNIX
+]0;Student@localhost:~/reports[Student@localhost reports]$ /[Kmkdir ~/assim[Kgnments/UNIX/HW's[K[Ks
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ~/asi[Ksignments/UNIX/Profj[K[Kjext[K[Kcts
+]0;Student@localhost:~/reports[Student@localhost reports]$ cd
+]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m  [00mgtysburgII.txt[00m   [00mgtysburg.txt[00m  [00;34mletters[00m  [00mstevenson.2.I.txt[00m
+[00;34mDesktop[00m      [00mgtysburgII.txt~[00m  [00mLab 2[00m         [00;34mreports[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpersonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Fri 21 Apr 2006 08:42:44 AM EDT

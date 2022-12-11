@@ -1,0 +1,21 @@
+Script started on Thu 04 May 2006 05:34:19 PM EDT
+]0;student@localhost:~[student@localhost ~]$ \[Kecho \#3 Sorry, I forgot to save it to the sedon[K[K[Kcond file.
+#3 Sorry, I forgot to save it to the second file.
+]0;student@localhost:~[student@localhost ~]$ sed[K[K[Kecho \#3 Sorry, I forgot to save it to the second file.[student@localhost ~]$ vi Ch11S4.sed[Ksed -f Ch11S4.sed Ch11S4F1 > Ch11S4F2
+]0;student@localhost:~[student@localhost ~]$ d[Kcat Ca[Kha[K11S4F2
+/bin date
+
+/bin/programs cal
+
+/usr/bin date
+
+/usr/report file1
+
+/urs/report/letters lett1
+
+/spool mails
+]0;student@localhost:~[student@localhost ~]$ #[Kecho \# [K[K [K[KF[K"Fantastci[K[Kic [K"
+Fantastic
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Thu 04 May 2006 05:35:09 PM EDT

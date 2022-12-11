@@ -1,0 +1,152 @@
+Script started on Mon 01 May 2006 07:28:21 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ head /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+]0;Student@localhost:~[Student@localhost ~]$ tail /etc/passwd
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SII[K[KIIF1
+cat: Ch6SIIF1: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ Juan[K[K[K[Kcat Ch6SIIF1>Ch6SIIF1 Ch6SIIF1[Student@localhost ~]$ cat > Ch6SIIF1
+Juan/jj@yahoo.com/330-560 9-5211
+George/george@hora  tmail.com/330274   -274-1999
+Anna/sister@aol.com/330-274-5675
+Ben/davisbj@hiram.edu/512-345-5678
+TUAN   uan/tt1234@aol.com/4074  4-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6SIIF1[2PCh6SIIF1
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5675
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF1
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5675
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ past [Ke -d"[K[K[K[K[K[K[K[K[Ksort -t'\t' +[K+0 -2[K3
+sort: multi-character tab `\t'
+]0;Student@localhost:~[Student@localhost ~]$ sort -t'\t' +0 -3 Ch6SII[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcpo[K Ch6SIIF1 Ch6SIIF1.txt
+]0;Student@localhost:~[Student@localhost ~]$ cp Ch6SIIF1 Ch6SIIF1.txt[7Psort -t'\t' +0 -3 ch[K[KCh6SIIF1
+sort: multi-character tab `\t'
+]0;Student@localhost:~[Student@localhost ~]$ sort -t'\t' +0 -3 Ch6SIIF1[1P[4h"[4l[Student@localhost ~]$ sort -t"\[Student@localhost ~]$ sort -t"\t[Student@localhost ~]$ sort -t"\t'[1P[4h"[4l[Student@localhost ~]$ sort -t"\t" +0 -3 Ch6SIIF1
+sort: multi-character tab `\t'
+]0;Student@localhost:~[Student@localhost ~]$ sort -t"\t" +0 -3 Ch6SIIF1[1P[1P[1P[1P[1P[4h'[4l[4h/[4l[4ht[4l[1P[1P[4h\[4l[4ht[4l[4h'[4l[4h [4l[Student@localhost ~]$ sort -t '\t'+0 -3 Ch6SIIF1[4h [4l
+sort: multi-character tab `\t'
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1-7[K[K,2,3,[K[K[K[K[K[K[Kd [K'\t' Ch6SIIF1
+cut: the delimiter must be a single character
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cut -d'\t' Ch6SIIF1[1P[Student@localhost ~]$ cut -d't' Ch6SIIF1
+cut: you must specify a list of bytes, characters, or fields
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cut -d't' Ch6SIIF1[1P[4h"[4l[1P[1P Ch6SIIF1" Ch6SIIF1[4h\[4l[4ht[4l
+cut: the delimiter must be a single character
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cut -d"\t" Ch6SIIF1[Student@localhost ~]$ cut -d"\t[Student@localhost ~]$ cut -d"\t"[1P Ch6SIIF1[1P Ch6SIIF1[1P Ch6SIIF1[1P Ch6SIIF1[Student@localhost ~]$ cut -d  Ch6SIIF1[1PCh6SIIF1' Ch6SIIF1t Ch6SIIF1' Ch6SIIF1[1P Ch6SIIF1[1P Ch6SIIF1[1P Ch6SIIF1' Ch6SIIF1< Ch6SIIF1t Ch6SIIF1a Ch6SIIF1b Ch6SIIF1> Ch6SIIF1' Ch6SIIF1
+cut: the delimiter must be a single character
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cut -d'<tab>' Ch6SIIF1[K[Kcut -d'<tab>' Ch6SIIF1[1P[1P[1P[1P[1P[1P Ch6SIIF1[1P[1P[1P Ch6SIIF1[1PCh6SIIF1[1Ph6SIIF1[1P6SIIF1[1PSIIF1[1PIIF1[Student@localhost ~]$ cut I[1PF1[1PF1[1P1[K[K[K[K[Kcut -d"\t" Ch6SIIF1[1P[4h/[4l
+cut: the delimiter must be a single character
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cut -d"/t" Ch6SIIF1[Kcut -d"\t" Ch6SIIF1[1P Ch6SIIF1' Ch6SIIF1[1P[4h'[4l
+cut: the delimiter must be a single character
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cut -d'\t' Ch6SIIF1[K,m[K[Kman cut
+[?1049h[?1h=[24;1H[KCUT(1)                           User Commands                          CUT(1)
+
+[1mNAME[0m
+       cut - remove sections from each line of files
+
+[1mSYNOPSIS[0m
+       [1mcut[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       Print selected parts of lines from each FILE to standard output.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       [1m-b[0m, [1m--bytes[0m=[4mLIST[24m
+              output only these bytes
+
+       [1m-c[0m, [1m--characters[0m=[4mLIST[24m
+              output only these characters
+
+       [1m-d[0m, [1m--delimiter[0m=[4mDELIM[24m
+              use DELIM instead of TAB for field delimiter
+
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;Student@localhost:~[Student@localhost ~]$ tr s[K"/" "/t" Ch6SIIF1
+tr: too many arguments
+Try `tr --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ tr "/" "/t" Ch6SIIF1[K[K[K[K[K[K[K[K[K >[K[K <a[K a >[K[K[KCh6SIIF1 > b[Ka1
+]0;Student@localhost:~[Student@localhost ~]$ more a1
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5675
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ tr "[K'?'[K[K/' "tr[K[K\t"[4Pmore a1[4htr "/" "/t" < Ch6SII[4lF1 >[Student@localhost ~]$ tr "/" "/t" < Ch6SIIF1 > a1[1P[4h\[4l[Student@localhost ~]$ tr "/" "\t" < Ch6SIIF1 > a1
+]0;Student@localhost:~[Student@localhost ~]$ more a1
+Juan	jj@yahoo.com	330-569-5211
+George	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5675
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ more a1[4htr "/" "\t" < Ch6SII[4lF1 >[Student@localhost ~]$ tr "/" "\t" < Ch6SIIF1 > a1[4h [4l[4h\[4l[4ht[4l[Student@localhost ~]$ tr "/" "\t \t" < Ch6SIIF1 > a1
+]0;Student@localhost:~[Student@localhost ~]$ more a1
+Juan	jj@yahoo.com	330-569-5211
+George	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5675
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ more a1[4htr "/" "\t \t" < Ch6SII[4lF1 >[Student@localhost ~]$ tr "/" "\t \t" < Ch6SIIF1 > a1[1P[1P[1P[Student@localhost ~]$ tr "/" "\t"[Student@localhost ~]$ tr "/" "\t" [Student@localhost ~]$ tr "/" "\t" <[Student@localhost ~]$ tr "/" "\t" < [Student@localhost ~]$ tr "/" "\t" < C[Student@localhost ~]$ tr "/" "\t" < Ch[Student@localhost ~]$ tr "/" "\t" < Ch6[Student@localhost ~]$ tr "/" "\t" < Ch6S[Student@localhost ~]$ tr "/" "\t" < Ch6SI[Student@localhost ~]$ tr "/" "\t" < Ch6SII[Student@localhost ~]$ tr "/" "\t" < Ch6SIIF[Student@localhost ~]$ tr "/" "\t" < Ch6SIIF1[Student@localhost ~]$ tr "/" "\t" < Ch6SIIF1 [Student@localhost ~]$ tr "/" "\t" < Ch6SIIF1 >[Student@localhost ~]$ tr "/" "\t" < Ch6SIIF1 > [1P1[KCh6SIIF2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF2
+Juan	jj@yahoo.com	330-569-5211
+George	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5675
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6S1F1 Ch6SIIF2 > Ch6SIIF3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF3
+1425	14.25	Juan	Juan	jj@yahoo.com	330-569-5211
+4321	21.11	George	George	george@hotmail.com	330-274-1999
+6781	16.77	Anna	Anna	sister@aol.com	330-274-5675
+1451	21.77	Ben	Ben	davisbj@hiram.edu	512-345-5678
+2277	18.77	Tuan	Tuan	tt1234@aol.com	404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 01 May 2006 07:51:12 AM EDT

@@ -1,0 +1,282 @@
+Script started on Sun 30 Apr 2006 05:42:42 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cp /etc/pass3e[K[Kwd Ch6S7F1
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6S7F1
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+[7m--More--(61%)[mnetdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ wc -l Ch6S76F1[1PF1
+34 Ch6S7F1
+]0;Student@localhost:~[Student@localhost ~]$ echo 34 lines
+34 lines
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d":" Ch6S7F1 | paste -d"\t" 1> tst1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d":" Ch6S7F1 | paste -d"\t" 1> tst121[K[4h3[4l[1P
+]0;Student@localhost:~[Student@localhost ~]$ paste -d"\t" tst1 tst2 1> Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -1 0< Ch6S7F2 1> Ch6S7F3
+]0;Student@localhost:~[Student@localhost ~]$ sort -c +0 -1 Ch6S7F3
+]0;Student@localhost:~[Student@localhost ~]$ head 2[K-23 0< Ch6S7F3 1> tst
+]0;Student@localhost:~[Student@localhost ~]$ head -12 0< tst 1> one
+]0;Student@localhost:~[Student@localhost ~]$ tail -11 0< tst 1> two
+]0;Student@localhost:~[Student@localhost ~]$ tail -11 0< Ch6S7F3 1> three
+]0;Student@localhost:~[Student@localhost ~]$ paste -d"\t" one two three 1> Ch6S7F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F1
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ cat tst1
+root
+bin
+daemon
+adm
+lp
+sync
+shutdown
+halt
+mail
+news
+uucp
+operator
+games
+gopher
+ftp
+nobody
+dbus
+vcsa
+rpm
+haldaemon
+pcap
+nscd
+named
+netdump
+sshd
+rpc
+mailnull
+smmsp
+rpcuser
+nfsnobody
+xfs
+ntp
+gdm
+Student
+]0;Student@localhost:~[Student@localhost ~]$ cat tst2
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+99
+81
+69
+37
+68
+77
+28
+25
+34
+74
+32
+47
+51
+29
+65534
+43
+38
+42
+500
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7f2
+cat: Ch6S7f2: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7f2Ff2[1P2
+root	0
+bin	1
+daemon	2
+adm	3
+lp	4
+sync	5
+shutdown	6
+halt	7
+mail	8
+news	9
+uucp	10
+operator	11
+games	12
+gopher	13
+ftp	14
+nobody	99
+dbus	81
+vcsa	69
+rpm	37
+haldaemon	68
+pcap	77
+nscd	28
+named	25
+netdump	34
+sshd	74
+rpc	32
+mailnull	47
+smmsp	51
+rpcuser	29
+nfsnobody	65534
+xfs	43
+ntp	38
+gdm	42
+Student	500
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F3
+adm	3	mailnull	47	rpc	32
+bin	1	named	25	rpcuser	29
+daemon	2	netdump	34	rpm	37
+dbus	81	news	9	shutdown	6
+ftp	14	nfsnobody	65534	smmsp	51
+games	12	nobody	99	sshd	74
+gdm	42	nscd	28	Student	500
+gopher	13	ntp	38	sync	5
+haldaemon	68	operator	11	uucp	10
+halt	7	pcap	77	vcsa	69
+lp	4	root	0	xfs	43
+mail	8		
+]0;Student@localhost:~[Student@localhost ~]$ cat tst
+adm	3
+bin	1
+daemon	2
+dbus	81
+ftp	14
+games	12
+gdm	42
+gopher	13
+haldaemon	68
+halt	7
+lp	4
+mail	8
+mailnull	47
+named	25
+netdump	34
+news	9
+nfsnobody	65534
+nobody	99
+nscd	28
+ntp	38
+operator	11
+pcap	77
+root	0
+]0;Student@localhost:~[Student@localhost ~]$ cat one
+adm	3
+bin	1
+daemon	2
+dbus	81
+ftp	14
+games	12
+gdm	42
+gopher	13
+haldaemon	68
+halt	7
+lp	4
+mail	8
+]0;Student@localhost:~[Student@localhost ~]$ cat two
+mailnull	47
+named	25
+netdump	34
+news	9
+nfsnobody	65534
+nobody	99
+nscd	28
+ntp	38
+operator	11
+pcap	77
+root	0
+]0;Student@localhost:~[Student@localhost ~]$ cat three
+rpc	32
+rpcuser	29
+rpm	37
+shutdown	6
+smmsp	51
+sshd	74
+Student	500
+sync	5
+uucp	10
+vcsa	69
+xfs	43
+]0;Student@localhost:~[Student@localhost ~]$ C[Kcat Ch6S7F3
+adm	3	mailnull	47	rpc	32
+bin	1	named	25	rpcuser	29
+daemon	2	netdump	34	rpm	37
+dbus	81	news	9	shutdown	6
+ftp	14	nfsnobody	65534	smmsp	51
+games	12	nobody	99	sshd	74
+gdm	42	nscd	28	Student	500
+gopher	13	ntp	38	sync	5
+haldaemon	68	operator	11	uucp	10
+halt	7	pcap	77	vcsa	69
+lp	4	root	0	xfs	43
+mail	8		
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Sun 30 Apr 2006 05:49:45 PM EDT

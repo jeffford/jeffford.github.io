@@ -1,0 +1,297 @@
+From: <Saved by Windows Internet Explorer 7>
+Subject: Oral Presentation Advice
+Date: Fri, 15 Aug 2008 01:23:49 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pages.cs.wisc.edu/~markhill/conference-talk.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3350
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Oral Presentation Advice</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META content=3D"MSHTML 6.00.6000.16705" name=3DGENERATOR></HEAD>
+<BODY vLink=3D#0060f0 link=3D#ff3300 bgColor=3D#ffffff><FONT size=3D6>
+<CENTER><B>Oral Presentation Advice</B>
+<P></FONT><FONT size=3D4><A =
+href=3D"http://www.cs.wisc.edu/~markhill/">Mark D.=20
+Hill</A>
+<P>Computer Sciences Department<BR>University of Wisconsin-Madison
+<P>April 1992; Revised January 1997 </FONT></CENTER>
+<UL>
+  <LI><A=20
+  =
+href=3D"http://pages.cs.wisc.edu/~markhill/conference-talk.html#think">Th=
+ings to=20
+  Think About</A>=20
+  <LI><A=20
+  =
+href=3D"http://pages.cs.wisc.edu/~markhill/conference-talk.html#outline">=
+A=20
+  Generic Conference Talk Outline</A>=20
+  <LI><A=20
+  =
+href=3D"http://pages.cs.wisc.edu/~markhill/conference-talk.html#interview=
+">Academic=20
+  Interview Talks</A>=20
+  <LI><A=20
+  =
+href=3D"http://pages.cs.wisc.edu/~markhill/conference-talk.html#other">Ot=
+her=20
+  Talks</A>=20
+  <LI><A=20
+  =
+href=3D"http://pages.cs.wisc.edu/~markhill/conference-talk.html#badtalk">=
+How to=20
+  Give a Bad Talk by David Patterson</A> </LI></UL>
+<P>
+<HR SIZE=3D5>
+
+<P>
+<P>
+<H3><A name=3Dthink>Things to Think About</A></H3>
+<P>
+<P>
+<OL type=3D1>
+  <LI><B>Oral Communication is different from written communication</B>
+  <P>Listeners have one chance to hear your talk and can't "re-read" =
+when they=20
+  get confused. In many situations, they have or will hear several talks =
+on the=20
+  same day. Being clear is particularly important if the audience can't =
+ask=20
+  questions during the talk. There are two well-know ways to communicate =
+your=20
+  points effectively. The first is to K.I.S.S. (keep it simple stupid). =
+Focus on=20
+  getting one to three key points across. Think about how much you =
+remember from=20
+  a talk last week. Second, repeat key insights: tell them what you're =
+going to=20
+  tell them (Forecast), tell them, and tell them what you told them =
+(Summary).
+  <P></P>
+  <LI><B>Think about your audience</B>
+  <P>Most audiences should be addressed in layers: some are experts in =
+your=20
+  sub-area, some are experts in the general area, and others know little =
+or=20
+  nothing. Who is most important to you? Can you still leave others with =
+
+  something? For example, pitch the body to experts, but make the =
+forecast and=20
+  summary accessible to all.
+  <P></P>
+  <LI><B>Think about your rhetorical goals</B>
+  <P>For conference talks, for example, I recommend two rhetorical =
+goals: leave=20
+  your audience with a clear picture of the gist of your contribution, =
+and make=20
+  them want to read your paper. Your presentation should not replace =
+your paper,=20
+  but rather whet the audience appetite for it. Thus, it is commonly =
+useful to=20
+  allude to information in the paper that can't be covered adequately in =
+the=20
+  presentation. Below I consider goals for <A=20
+  =
+href=3D"http://pages.cs.wisc.edu/~markhill/conference-talk.html#interview=
+">academic=20
+  interview talks</A> and <A=20
+  =
+href=3D"http://pages.cs.wisc.edu/~markhill/conference-talk.html#other">cl=
+ass=20
+  presentations.</A>
+  <P></P>
+  <LI><B>Practice in public</B>
+  <P>It is hard distilling work down to 20 or 30 minutes.
+  <P></P>
+  <LI><B>Prepare</B>
+  <P>See David Patterson's <A=20
+  =
+href=3D"http://pages.cs.wisc.edu/~markhill/conference-talk.html#badtalk">=
+How to=20
+  Give a Bad Talk</A>=20
+  <P></P></LI></OL>
+<P>
+<HR SIZE=3D5>
+
+<P>
+<H3><A name=3Doutline>A Generic Conference Talk Outline</A></H3>
+<P>This conference talk outline is a starting point, not a rigid =
+template. Most=20
+good speakers average two minutes per slide (not counting title and =
+outline=20
+slides), and thus use about a dozen slides for a twenty minute =
+presentation.=20
+<UL>
+  <LI><B>Title/author/affiliation</B> (1 slide)=20
+  <LI><B>Forecast</B> (1 slide)<BR>Give gist of problem attacked and =
+insight=20
+  found (What is the one idea you want people to leave with? This is the =
+
+  "abstract" of an oral presentation.)=20
+  <LI><B>Outline</B> (1 slide)<BR>Give talk structure. Some speakers =
+prefer to=20
+  put this at the bottom of their title slide. (Audiences like =
+predictability.)=20
+  <LI><B>Background</B>=20
+  <UL>
+    <LI><B>Motivation and Problem Statement</B> (1-2 slides)<BR>(Why =
+should=20
+    anyone care? Most researchers overestimate how much the audience =
+knows about=20
+    the problem they are attacking.)=20
+    <LI><B>Related Work</B> (0-1 slides)<BR>Cover superficially or omit; =
+refer=20
+    people to your paper.=20
+    <LI><B>Methods</B> (1 slide)<BR>Cover quickly in short talks; refer =
+people=20
+    to your paper. </LI></UL>
+  <LI><B>Results</B> (4-6 slides)<BR>Present key results and key =
+insights. This=20
+  is main body of the talk. Its internal structure varies greatly as a =
+function=20
+  of the researcher's contribution. (Do not superficially cover all =
+results;=20
+  cover key result well. Do not just present numbers; interpret them to =
+give=20
+  insights. Do not put up large tables of numbers.)=20
+  <LI><B>Summary</B> (1 slide)=20
+  <LI><B>Future Work</B> (0-1 slides)<BR>Optionally give problems this =
+research=20
+  opens up.=20
+  <LI><B>Backup Slides</B> (0-3 slides)<BR>Optionally have a few slides =
+ready=20
+  (not counted in your talk total) to answer expected questions. (Likely =
+
+  question areas: ideas glossed over, shortcomings of methods or =
+results, and=20
+  future work.) </LI></UL>
+<H3><A name=3Dinterview>Academic Interview Talks</A></H3>
+<P>The rhetorical goal for any interview talk is very different than a=20
+conference talk. The goal of a conference talk is to get people =
+interested in=20
+your paper and your work. The goal of an interview talk is to get a job, =
+for=20
+which interest in your work is one part.=20
+<P>There are two key audiences for an academic interview talk, and you =
+have to=20
+reach both. One is the people in your sub-area, who you must impress =
+with the=20
+depth of your contribution. The other is the rest of the department, who =
+you=20
+must get to understand your problem, why it is important, and a =
+hand-wave at=20
+what you did. Both audiences will evaluate how well you speak as an=20
+approximation of how well you can teach.=20
+<P>An algorithm:=20
+<UL>
+  <LI>Take a 20-minute conference talk.=20
+  <LI>Expand the 5 minute introduction to 20 minutes to drive home the =
+problem,=20
+  why it's important, and the gist of what you've done.=20
+  <LI>Do the rest of the conference talk, minus the summary and future =
+work.=20
+  <LI>Add 10 minutes of deeper stuff from your thesis (to show your =
+depth). It=20
+  is okay lose people outside of your sub-area (as long as you get them =
+back in=20
+  the next bullet).=20
+  <LI>Do the summary and future work from the conference talk in a =
+manner=20
+  accessible to all.=20
+  <LI>Add 10 ten minutes to survey all the other stuff you have done (to =
+show=20
+  your breadth).=20
+  <LI>Save 5 minutes for questions (to show that you are organized). =
+</LI></UL>
+<H3><A name=3Dother>Other Talks</A></H3>Other talks should be prepared =
+using the=20
+same principles of considering audience and rhetorical purpose. A =
+presentation=20
+on a project in a graduate class, for example, seeks to reach the =
+professor=20
+first and fellow students second. Its purpose is to get a good grade by=20
+impressing people that a quality project was done. Thus, methods should =
+be=20
+described in must more detail than for a conference talk.=20
+<H3>Acknowledgments</H3>Thanks to Jim Goodman, Jim Larus, and David =
+Patterson=20
+for their useful comments. The current on-line version of this document =
+appears=20
+at URL =
+"<KBD>http://www.cs.wisc.edu/~markhill/conference-talk.html</KBD>".=20
+<P>
+<HR SIZE=3D5>
+
+<P><FONT size=3D6>
+<CENTER><B><A name=3Dbadtalk>How to Give a Bad Talk</A></B>
+<P></FONT><FONT size=3D4>David A. Patterson
+<P>Computer Science Division<BR>University of California-Berkeley
+<P>Circa 1983 </FONT></CENTER>
+<P>
+<P>Ten commandments (with annotations gleaned from Patterson's talk by =
+Mark D.=20
+Hill):=20
+<OL type=3DI>
+  <LI><B>Thou shalt not be neat</B>
+  <P>Why waste research time preparing slides? Ignore spelling, grammar =
+and=20
+  legibility. Who cares what 50 people think?
+  <P></P>
+  <LI><B>Thou shalt not waste space</B>
+  <P>Transparencies are expensive. If you can save five slides in each =
+of four=20
+  talks per year, you save $7.00/year!
+  <P></P>
+  <LI><B>Thou shalt not covet brevity</B>
+  <P>Do you want to continue the stereotype that engineers can't write? =
+Always=20
+  use complete sentences, never just key words. If possible, use whole=20
+  paragraphs and read every word.
+  <P></P>
+  <LI><B>Thou shalt cover thy naked slides</B>
+  <P>You need the suspense! Overlays are too flashy.
+  <P></P>
+  <LI><B>Thou shalt not write large</B>
+  <P>Be humble -- use a small font. Important people sit in front. Who =
+cares=20
+  about the riff-raff?
+  <P></P>
+  <LI><B>Thou shalt not use color</B>
+  <P>Flagrant use of color indicates uncareful research. It's also =
+unfair to=20
+  emphasize some words over others.
+  <P></P>
+  <LI><B>Thou shalt not illustrate</B>
+  <P>Confucius says ``<I>A picture =3D 10K words</I>,'' but Dijkstra =
+says=20
+  ``<I>Pictures are for weak minds.</I>'' Who are you going to believe? =
+Wisdom=20
+  from the ages or the person who first counted goto's?
+  <P></P>
+  <LI><B>Thou shalt not make eye contact</B>
+  <P>You should avert eyes to show respect. Blocking screen can also add =
+
+mystery.
+  <P></P>
+  <LI><B>Thou shalt not skip slides in a long talk</B>
+  <P>You prepared the slides; people came for your whole talk; so just =
+talk=20
+  faster. Skip your summary and conclusions if necessary.
+  <P></P>
+  <LI><B>Thou shalt not practice</B>
+  <P>Why waste research time practicing a talk? It could take several =
+hours out=20
+  of your two years of research. How can you appear spontaneous if you =
+practice?=20
+  If you do practice, argue with any suggestions you get and make sure =
+your talk=20
+  is longer than the time you have to present it.
+  <P></P></LI></OL>
+<P>Commandment X is most important. <I>Even if you break the other nine, =
+this=20
+one can save you.</I> </P></BODY></HTML>

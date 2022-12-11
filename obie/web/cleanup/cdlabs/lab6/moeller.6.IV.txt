@@ -1,0 +1,48 @@
+Script started on Sun 30 Apr 2006 08:15:39 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S4F1
+1420	12.6 56	45
+3456	14.56	5 22 2
+2341	45.12	34
+1122	23.56	28
+1443	23.3 23	19
+2351	67.90	56
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F`
+> 
+]0;Student@localhost:~[Student@localhost ~]$ cat S[KCh6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ wc -l Ch6S4F1
+7 Ch6S4F1
+]0;Student@localhost:~[Student@localhost ~]$ sort -n Ch6S4F1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort -n Ch6S4F1 > Ch6S4F1.temp
+]0;Student@localhost:~[Student@localhost ~]$ mv Ch6S4F1.temp Ch5S[K[K[Kh^[K6S4F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort +1n Ch6SF1 | tail -1 > Ch6S[K[K[K[K[K[K[K
+sort: open failed: Ch6SF1: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ sort +1n c[KCh6S4F1 | tail -1
+2351	67.90	56
+]0;Student@localhost:~[Student@localhost ~]$ sort +2n Ch6S4F1 | tail -1 | cut -f1
+2351
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Sun 30 Apr 2006 08:20:28 PM EDT

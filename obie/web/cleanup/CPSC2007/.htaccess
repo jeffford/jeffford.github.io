@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName CPSC2007
+AuthUserFile /home/webusers/obie/CPSC2007/.htpasswd
+Order deny,allow
+require valid-user
+

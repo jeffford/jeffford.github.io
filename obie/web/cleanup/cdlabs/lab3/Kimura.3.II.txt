@@ -1,0 +1,63 @@
+Script started on Tue 25 Apr 2006 07:53:12 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ls-r[KR[K[K -R
+[00m.:
+[00;34massignments[00m    [00mgtysbrg.txt[00m      [00mKimura.3.I.txt~[00m    [00;34mletters[00m
+[00;34mDesktop[00m        [00mKimura.3.II.txt[00m  [00mKimura.L1.txt.odt[00m  [00;34mreports[00m
+[00mgtysbrgII.txt[00m  [00mKimura.3.I.txt[00m   [00mkimura.L2.txt[00m      [00mtypescript[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+[00;31mparted-1.7.0rc4.tar.gz[00m
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpersonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+
+]0;Student@localhost:~[Student@localhost ~]$ cd /assignments/UNIX[1P/UNIX[1Passignment/UNIXs/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ pwd
+/home/Student/assignments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ vi hw4.txt
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"hw4.txt" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25l[24;63H1,2[1;2H[?12l[?25h[?25ll[24;65H3[1;3H[?12l[?25h[?25lo[24;65H4[1;4H[?12l[?25h[?25lv[24;65H5[1;5H[?12l[?25h[?25le[24;65H6[1;6H[?12l[?25h[?25l[24;65H7[1;7H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l[1;5H[K[24;65H5[1;5H[?12l[?25h[?25l[1;4H[K[24;65H4[1;4H[?12l[?25h[?25l[1;3H[K[24;65H3[1;3H[?12l[?25h[?25l[1;2H[K[24;65H2[1;2H[?12l[?25h[?25l[24;65H1[1;1H[?12l[?25h[?25lI[24;65H2[1;2H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25ll[24;65H4[1;4H[?12l[?25h[?25lo[24;65H5[1;5H[?12l[?25h[?25lv[24;65H6[1;6H[?12l[?25h[?25le[24;65H7[1;7H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25lt[24;65H9[1;9H[?12l[?25h[?25lo[24;65H10[1;10H[?12l[?25h[?25l[24;66H1[1;11H[?12l[?25h[?25ls[24;66H2[1;12H[?12l[?25h[?25ln[24;66H3[1;13H[?12l[?25h[?25lo[24;66H4[1;14H[?12l[?25h[?25lw[24;66H5[1;15H[?12l[?25h[?25lb[24;66H6[1;16H[?12l[?25h[?25lo[24;66H7[1;17H[?12l[?25h[?25la[24;66H8[1;18H[?12l[?25h[?25lr[24;66H9[1;19H[?12l[?25h[?25ld[24;65H20[1;20H[?12l[?25h[?25l[24;66H1[1;21H[?12l[?25h[?25li[24;66H2[1;22H[?12l[?25h[?25ln[24;66H3[1;23H[?12l[?25h[?25l[24;66H4[1;24H[?12l[?25h[?25lt[24;66H5[1;25H[?12l[?25h[?25lh[24;66H6[1;26H[?12l[?25h[?25le[24;66H7[1;27H[?12l[?25h[?25l[24;66H8[1;28H[?12l[?25h[?25lw[24;66H9[1;29H[?12l[?25h[?25li[24;65H30[1;30H[?12l[?25h[?25ln[24;66H1[1;31H[?12l[?25h[?25lt[24;66H2[1;32H[?12l[?25h[?25le[24;66H3[1;33H[?12l[?25h[?25lr[24;66H4[1;34H[?12l[?25h[?25l,[24;66H5[1;35H[?12l[?25h[?25l[24;66H6[1;36H[?12l[?25h[?25la[24;66H7[1;37H[?12l[?25h[?25ln[24;66H8[1;38H[?12l[?25h[?25ld[24;66H9[1;39H[?12l[?25h[?25l[24;65H40[1;40H[?12l[?25h[?25lt[24;66H1[1;41H[?12l[?25h[?25lh[24;66H2[1;42H[?12l[?25h[?25le[24;66H3[1;43H[?12l[?25h[?25l[24;66H4[1;44H[?12l[?25h[?25lr[24;66H5[1;45H[?12l[?25h[?25le[24;66H6[1;46H[?12l[?25h[?25ls[24;66H7[1;47H[?12l[?25h[?25lt[24;66H8[1;48H[?12l[?25h[?25l[24;66H9[1;49H[?12l[?25h[?25lo[24;65H50[1;50H[?12l[?25h[?25lf[24;66H1[1;51H[?12l[?25h[?25l[24;66H2[1;52H[?12l[?25h[?25lt[24;66H3[1;53H[?12l[?25h[?25lh[24;66H4[1;54H[?12l[?25h[?25le[24;66H5[1;55H[?12l[?25h[?25l[24;66H6[1;56H[?12l[?25h[?25ls[24;66H7[1;57H[?12l[?25h[?25le[24;66H8[1;58H[?12l[?25h[?25la[24;66H9[1;59H[?12l[?25h[?25ls[24;65H60[1;60H[?12l[?25h[?25lo[24;66H1[1;61H[?12l[?25h[?25ln[24;66H2[1;62H[?12l[?25h[?25ls[24;66H3[1;63H[?12l[?25h[?25l,[24;66H4[1;64H[?12l[?25h[?25l[24;66H5[1;65H[?12l[?25h[?25lI[24;66H6[1;66H[?12l[?25h[?25l[24;66H7[1;67H[?12l[?25h[?25lh[24;66H8[1;68H[?12l[?25h[?25lo[24;66H9[1;69H[?12l[?25h[?25lp[24;65H70[1;70H[?12l[?25h[?25le[24;66H1[1;71H[?12l[?25h[?25l[24;66H2[1;72H[?12l[?25h[?25lf[24;66H3[1;73H[?12l[?25h[?25lo[24;66H4[1;74H[?12l[?25h[?25lr[24;66H5[1;75H[?12l[?25h[?25l[24;66H6[1;76H[?12l[?25h[?25ls[24;66H7[1;77H[?12l[?25h[?25lu[24;66H8[1;78H[?12l[?25h[?25ln[24;66H9[1;79H[?12l[?25h[?25ls[24;65H80[1;80H[?12l[?25h[?25lh[24;66H1[2;1H[?12l[?25h[?25li[2;2H[K[24;66H2[2;2H[?12l[?25h[?25ln[24;66H3[2;3H[?12l[?25h[?25l[2;2H[K[24;66H2[2;2H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;66H1[2;1H[?12l[?25h[?25l[1;80H[K[24;66H0[1;80H[?12l[?25h[?25l[1;79H[K[24;65H79[1;79H[?12l[?25h[?25l[24;65H80[1;80H[?12l[?25h[?25ls[24;66H1[2;1H[?12l[?25h[?25lh[2;2H[K[24;66H2[2;2H[?12l[?25h[?25li[24;66H3[2;3H[?12l[?25h[?25ln[24;66H4[2;4H[?12l[?25h[?25le[24;66H5[2;5H[?12l[?25h[?25l[2;4H[K[24;66H4[2;4H[?12l[?25h[?25l[2;3H[K[24;66H3[2;3H[?12l[?25h[?25l[2;2H[K[24;66H2[2;2H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;66H1[2;1H[?12l[?25h[?25l[1;80H[K[24;66H0[1;80H[?12l[?25h[?25l[24;65H79[1;79H[?12l[?25h[?25l[1;78H[K[24;66H8[1;78H[?12l[?25h[?25l[1;77H[K[24;66H7[1;77H[?12l[?25h[?25l[1;76H[K[24;66H6[1;76H[?12l[?25h[?25l[24;66H5[1;75H[?12l[?25h[?25l[1;74H[K[24;66H4[1;74H[?12l[?25h[?25l[1;73H[K[24;66H3[1;73H[?12l[?25h[?25l[1;72H[K[24;66H2[1;72H[?12l[?25h[?25l[24;66H1[1;71H[?12l[?25h[?25l[1;70H[K[24;66H0[1;70H[?12l[?25h[?25l[1;69H[K[24;65H69[1;69H[?12l[?25h[?25l[1;68H[K[24;66H8[1;68H[?12l[?25h[?25l[1;67H[K[24;66H7[1;67H[?12l[?25h[?25l[24;66H6[1;66H[?12l[?25h[?25l[1;65H[K[24;66H5[1;65H[?12l[?25h[?25l[24;66H4[1;64H[?12l[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?12l[?25h[?25lI[24;65H2[2;2H[?12l[?25h[?25l[24;65H3[2;3H[?12l[?25h[?25lh[24;65H4[2;4H[?12l[?25h[?25lo[24;65H5[2;5H[?12l[?25h[?25lp[24;65H6[2;6H[?12l[?25h[?25le[24;65H7[2;7H[?12l[?25h[?25l[24;65H8[2;8H[?12l[?25h[?25lf[24;65H9[2;9H[?12l[?25h[?25lo[24;65H10[2;10H[?12l[?25h[?25lr[24;66H1[2;11H[?12l[?25h[?25l[24;66H2[2;12H[?12l[?25h[?25ls[24;66H3[2;13H[?12l[?25h[?25lu[24;66H4[2;14H[?12l[?25h[?25ln[24;66H5[2;15H[?12l[?25h[?25ls[24;66H6[2;16H[?12l[?25h[?25lh[24;66H7[2;17H[?12l[?25h[?25li[24;66H8[2;18H[?12l[?25h[?25ln[24;66H9[2;19H[?12l[?25h[?25le[24;65H20[2;20H[?12l[?25h[?25l[24;65H19[2;19H[?12l[?25h[?25l[24;66H8[2;18H[?12l[?25h[?25l[24;66H7[2;17H[?12l[?25h[?25l[24;66H6[2;16H[?12l[?25h[?25l[24;66H5[2;15H[?12l[?25h[?25l shine[24;66H6[2;16H[?12l[?25h[?25l[24;65H21[2;21H[?12l[?25h[?25ls[24;66H2[2;22H[?12l[?25h[?25l.[24;66H3[2;23H[?12l[?25h[?25lZ[24;66H4[2;24H[?12l[?25h[?25lZ[24;66H5[2;25H[?12l[?25h[?25l[2;24H[K[24;66H4[2;24H[?12l[?25h[?25l[2;23H[K[24;66H3[2;23H[?12l[?25h[24;1H[K[2;22H[?25l[24;63H2,22[10CAll[2;22H[?12l[?25h[?25l[24;1H"hw4.txt"[24;63H[K[24;11H[New] 2L, 87C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ cd
+]0;Student@localhost:~[Student@localhost ~]$ ls [K[K[Kls ~/assignments/UNIX
+[00m[00mhw4.txt[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ more assignments/UNIX/hw4.4[Ktxt
+I love to snowboard in the winter, and the rest of the seasons,
+I hope for sun shines.
+]0;Student@localhost:~[Student@localhost ~]$ cp assignments/UNIX/hw4.4[Ktxt assignments/UNIX/hw4.bk
+]0;Student@localhost:~[Student@localhost ~]$ cd ass[K[K[Kassignments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ pwd
+/home/Student/assignments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ln hw4.txt hw4HL/hw4HL[11Pmkdir hw4HL[4hln hw[4l4.txt[Student@localhost UNIX]$ ln hw4.txt hw4HL[4h-[4l[4hs[4l[4h [4l[Student@localhost UNIX]$ ln -s h[Student@localhost UNIX]$ ln -s hw[Student@localhost UNIX]$ ln -s hw4[Student@localhost UNIX]$ ln -s hw4.[Student@localhost UNIX]$ ln -s hw4.t[Student@localhost UNIX]$ ln -s hw4.txt hw4HL[1PLSL[Student@localhost UNIX]$ ln -s hw4.txt hw4SL
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ln -s hw4.txt hw4SL[Kls -i hw4 h[K[K[K4.txt hw4.bk hw4/HL[K[K[KHL/hw4HL hw4SL
+[00m2334413 [00mhw4.bk[00m  2334458 [00mhw4HL/hw4HL[00m  2334470 [00;36mhw4SL[00m  2334458 [00mhw4.txt[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls -[K-i hw4.txt hw4.bk hw4HL/hw4HL hw4SL[1P[4hl[4l[Student@localhost UNIX]$ ls -l hw4.txt hw4.bk hw4HL/hw4HL hw4SL
+[00m-rw-rw-r--  1 Student Student 87 Apr 25 07:59 [00mhw4.bk[00m
+-rw-rw-r--  3 Student Student 87 Apr 25 07:56 [00mhw4HL/hw4HL[00m
+lrwxrwxrwx  1 Student Student  7 Apr 25 08:08 [00;36mhw4SL[00m -> [00mhw4.txt[00m
+-rw-rw-r--  3 Student Student 87 Apr 25 07:56 [00mhw4.txt[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ exit
+exit
+
+Script done on Tue 25 Apr 2006 08:13:01 AM EDT

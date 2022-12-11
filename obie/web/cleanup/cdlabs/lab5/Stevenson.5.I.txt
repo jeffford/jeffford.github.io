@@ -1,0 +1,59 @@
+Script started on Wed 26 Apr 2006 05:03:58 PM EDT
+]0;student@localhost:~[student@localhost ~]$ /t[Ketc/profile
+bash: /etc/profile: Permission denied
+]0;student@localhost:~[student@localhost ~]$ ~/.profile
+bash: /home/Student/.profile: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ echo$shell[K[K[K[K[KShell $Shell[student@localhost ~]$ echo $[student@localhost ~]$ echo $S[student@localhost ~]$ echo $Sh[student@localhost ~]$ echo $She[student@localhost ~]$ echo $Shel[K[1Pl[1Pl[KHELL
+/bin/bash
+]0;student@localhost:~[student@localhost ~]$ /etc/passwd
+bash: /etc/passwd: Permission denied
+]0;student@localhost:~[student@localhost ~]$ vi /etc/passwd
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/passwd" [readonly] 34L, 1553C[1;1Hroot:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ echo $0
+bash
+]0;student@localhost:~[student@localhost ~]$ c[Kcsh[K[K[Kbash
+]0;student@localhost:~[student@localhost ~]$ echo $0
+bash
+]0;student@localhost:~[student@localhost ~]$ csh
+[student@localhost ~]$ echo $0
+csh
+[student@localhost ~]$ exit
+exit
+]0;student@localhost:~[student@localhost ~]$ e[Kcshecho $0
+bash
+]0;student@localhost:~[student@localhost ~]$ /bin/bash
+]0;student@localhost:~[student@localhost ~]$ script Stevenson.4.II.txt[1P.txt[11Pcd session_II[4hhmod 76[4l4[student@localhost ~]$ chmod 764 session_IIls -l[Kchmod 764 session_II[7Pd[student@localhost ~]$ cd session_IIscript Stevenson.4.I.txtI.txt[student@localhost ~]$ [Kecho $0
+/bin/bash
+]0;student@localhost:~[student@localhost ~]$ exit
+exit
+]0;student@localhost:~[student@localhost ~]$ /bin/bash[2Pecho $0
+bash
+]0;student@localhost:~[student@localhost ~]$ echo $SHELL
+/bin/bash
+]0;student@localhost:~[student@localhost ~]$ exit
+]0;student@localhost:~[student@localhost ~]$ bashecho $0
+bash
+]0;student@localhost:~[student@localhost ~]$ D[Kexit
+
+Script done on Wed 26 Apr 2006 05:13:08 PM EDT

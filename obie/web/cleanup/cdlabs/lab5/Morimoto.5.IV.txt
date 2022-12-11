@@ -1,0 +1,32 @@
+2.  echo try to make short file 1> file1
+
+3. more file1
+	=> try to make short file
+
+4. echo "try to make two line file
+> with echo command" > file2
+	=> If we use the opening quote and then push the Return key withour colseing quote, the program ask user to finish (type colseing quote) using > prompt
+	   Thus, we can make two-line statements
+
+5. more file2
+	=>
+		try to make two line file
+		with echo command
+
+6. facts="UNIX vs. Others"
+
+7. echo "This is a fact $facts in our life"
+	=> This is a fact UNIX vs. Others in our life
+  	=> because $facts interapt as variable
+
+8. echo "This is a fact '$facts' in our life"
+	=> This is a fact 'UNIX vs. Others' in our life
+ 	=> because in the double quotes, the single quotes interapt as literal character
+
+9. echo "This is a fact \$facts in our life"
+	=> This is a fact $facts in our life
+ 	=> because the \ change the meaning of character; in this case variable to literal character
+
+10. echo "This is a fact \"$facts\" in our life"
+	=> This is a fact "UNIX vs. Others" in our life
+

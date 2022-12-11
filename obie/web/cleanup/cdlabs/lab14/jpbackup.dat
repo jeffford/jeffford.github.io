@@ -1,0 +1,37 @@
+#! /bin/bash
+#Script: jpbackup
+#Written by: prattjk
+#Date: 05/08/06
+#Purpose: If a subdirectory named backups doesn't exist, create it.
+#Then copy the latest version of all files in the current directory
+#   to ./backups
+dir=bkupflesDir    #subdirectory will be called backups
+if [[ ! -d bkupflesDir ]]
+then
+   mkdir bkupflesDir
+fi
+if [[ $# != 2 ]]
+then
+   echo "Requires two arguments: file name listing files to be backed up"
+   echo "and directory name where file resides"
+   exit
+fi
+if [[ ! -f $1 ]]
+then
+   echo "File $1 does not exist"
+   exit
+fi
+if [[ ! -d $2 ]]
+then
+   echo "Directory $2 does not exist"
+   exit
+fi
+#for file in $($1)   #for all files shown with ls command
+    cat $1 | while read line
+do	
+    if [[ -f $line ]]    #handle files only
+    then
+          cp $line $dir/$line.bak    #copy and add .bak to name
+          echo "$line is backed up in $dir"    #say what was done
+    fi
+done

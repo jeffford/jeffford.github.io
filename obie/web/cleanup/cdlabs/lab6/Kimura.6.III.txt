@@ -1,0 +1,31 @@
+Script started on Sun 30 Apr 2006 04:23:41 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat[K[K[Kcat >CH6S3F1
+ALPHABETICAL FACTS.
+tHE FIRS        THE FIRST THE REE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN.
+THE LAST THREE LETTERS ARE XYZ.  
+THE FIRST WORD IN MY DITIONAL RY         CTIONARY IS AAL.
+
+]0;Student@localhost:~[Student@localhost ~]$ CAT [K[K[K[Kcat ch[K[KCH6S3Fi[K`[K1
+ALPHABETICAL FACTS.
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN.
+THE LAST THREE LETTERS ARE XYZ.
+THE FIRST WORD IN MY DICTIONARY IS AAL.
+]0;Student@localhost:~[Student@localhost ~]$ re[K[Ktr "a[KA-Z" "F-X[KZQA[K[KA-E" <CH6S3F1 >Ch6S3F1Encr
+]0;Student@localhost:~[Student@localhost ~]$ tr "A-Z" "F-ZA-E" <CH6S3F1 >Ch6S3F1Encr[1P[1P[1P[1P[1P[1P[Student@localhost ~]$ tr [Student@localhost ~]$ tr "[Student@localhost ~]$ tr "F[Student@localhost ~]$ tr "F-[Student@localhost ~]$ tr "F-Z[Student@localhost ~]$ tr "F-ZA[Student@localhost ~]$ tr "F-ZA-[Student@localhost ~]$ tr "F-ZA-E[Student@localhost ~]$ tr "F-ZA-E"[Student@localhost ~]$ tr "F-ZA-E" [4h [4l[4h"[4l[4hA[4l[4h-[4l[4hZ[4l[4h"[4l[Student@localhost ~]$ tr "F-ZA-E" "A-Z" [Student@localhost ~]$ tr "F-ZA-E" "A-Z" <[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <C[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3F[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3F1E >Ch6S3F1Encrn >Ch6S3F1Encrc >Ch6S3F1Encrr >Ch6S3F1Encr[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3F1Encr [Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3F1Encr >[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3F1Encr >C[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3F1Encr >Ch[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3F1Encr >Ch6[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3F1Encr >Ch6S[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3F1Encr >Ch6S3[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3F1Encr >Ch6S3F[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3F1Encr >Ch6S3F1[1Pncr[1Pcr[1Pr[K
+bash: CH6S3F1Encr: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <CH6S3F1Encr >Ch6S3F1Hh6S3F1[1P6S3F1[1P[4hH[4l[1P[4hh[4l[Student@localhost ~]$ tr "F-ZA-E" "A-Z" <Ch6S3F1Encr >CH6S3F1
+]0;Student@localhost:~[Student@localhost ~]$ cat[K[K[Ktr "F-ZA-E" "A-Z" <Ch6S3F1Encr >CH6S3F1H6S3F1Encr >Ch6S3F1[Student@localhost ~]$ tr "A-Z" "F-ZA-E" <CH6S3F1 >Ch6S3F1Encr[Student@localhost ~]$ cat CH6S3F1[K>CH6S3F1[1PCH6S3F1
+ALPHABETICAL FACTS.
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN.
+THE LAST THREE LETTERS ARE XYZ.
+THE FIRST WORD IN MY DICTIONARY IS AAL.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Sun 30 Apr 2006 04:36:07 PM EDT

@@ -1,0 +1,177 @@
+Script started on Thu 04 May 2006 04:43:46 PM EDT
+]0;student@localhost:~[student@localhost ~]$ cat Ch11S1F1
+John  Adams   55
+George Bull 77
+Anne Blue   99
+Janet  Blue 67
+Ben Benjamin    78
+Ted White 32
+]0;student@localhost:~[student@localhost ~]$ cat Ch11S1F1[1PF13F1
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+eleven
+twelve
+thirteen
+fourteen
+fifteen
+sixteen
+seventeen
+eightteen
+nineteen
+twenty
+twenty1
+twenty2
+twenty3
+twenty4
+twenty5
+twenty6
+twenty7
+twenty8
+twenty9
+thirty
+thirty1
+thirty2
+thirty3
+thirty4
+thirty5
+thirty6
+thirty7
+thirty8
+thirty9
+forty
+forty1
+forty2
+forty3
+forty4
+forty5
+forty6
+forty7
+forty8
+forty9
+fifty
+]0;student@localhost:~[student@localhost ~]$ cat -n Ch11S3F1 > Ch11S3F1a
+]0;student@localhost:~[student@localhost ~]$ cat Ch11S3.sed
+#Ch11S3.sed
+#This script will separate certain lines into separate files.
+10,15 w Ch11S3F2
+20,30 w Ch11S3F3
+31,37 w Ch11S3F4
+1,9 w Ch11S3F5
+16,19 w Ch11S3F5
+38,$ w Ch11S3F5
+]0;student@localhost:~[student@localhost ~]$ sed -f Ch11[K[K11S3.sed Ch11s[KS3F1a
+     1	one
+     2	two
+     3	three
+     4	four
+     5	five
+     6	six
+     7	seven
+     8	eight
+     9	nine
+    10	ten
+    11	eleven
+    12	twelve
+    13	thirteen
+    14	fourteen
+    15	fifteen
+    16	sixteen
+    17	seventeen
+    18	eightteen
+    19	nineteen
+    20	twenty
+    21	twenty1
+    22	twenty2
+    23	twenty3
+    24	twenty4
+    25	twenty5
+    26	twenty6
+    27	twenty7
+    28	twenty8
+    29	twenty9
+    30	thirty
+    31	thirty1
+    32	thirty2
+    33	thirty3
+    34	thirty4
+    35	thirty5
+    36	thirty6
+    37	thirty7
+    38	thirty8
+    39	thirty9
+    40	forty
+    41	forty1
+    42	forty2
+    43	forty3
+    44	forty4
+    45	forty5
+    46	forty6
+    47	forty7
+    48	forty8
+    49	forty9
+    50	fifty
+]0;student@localhost:~[student@localhost ~]$ cat Ch11F[KS3F2
+    10	ten
+    11	eleven
+    12	twelve
+    13	thirteen
+    14	fourteen
+    15	fifteen
+]0;student@localhost:~[student@localhost ~]$ cat [K[K[K[Kcat Ch11S3F2[K3
+    20	twenty
+    21	twenty1
+    22	twenty2
+    23	twenty3
+    24	twenty4
+    25	twenty5
+    26	twenty6
+    27	twenty7
+    28	twenty8
+    29	twenty9
+    30	thirty
+]0;student@localhost:~[student@localhost ~]$ cat Ch11S3F3[K4
+    31	thirty1
+    32	thirty2
+    33	thirty3
+    34	thirty4
+    35	thirty5
+    36	thirty6
+    37	thirty7
+]0;student@localhost:~[student@localhost ~]$ cat Ch11S3F4[K5
+     1	one
+     2	two
+     3	three
+     4	four
+     5	five
+     6	six
+     7	seven
+     8	eight
+     9	nine
+    16	sixteen
+    17	seventeen
+    18	eightteen
+    19	nineteen
+    38	thirty8
+    39	thirty9
+    40	forty
+    41	forty1
+    42	forty2
+    43	forty3
+    44	forty4
+    45	forty5
+    46	forty6
+    47	forty7
+    48	forty8
+    49	forty9
+    50	fifty
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Thu 04 May 2006 04:45:10 PM EDT

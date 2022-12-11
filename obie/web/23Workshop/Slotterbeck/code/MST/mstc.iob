@@ -1,0 +1,292 @@
+        include 1a00 
+         shape_ a100 4096,1,1 1,0,0 
+           main 1800 MST 
+          ident 6500 
+          temp_ 6b11 STMP$ 48 0 0 16 CS$ 
+         entry_ 6f00 STMP$ 
+          temp_ 6b21 SFTMP$ 61 0 8 24 CS$ 
+         entry_ 6f00 SFTMP$ 
+          decl_ 6111 OUTBF$ 7200 0 0 16 CS$ 
+         entry_ 6f00 OUTBF$ 
+          decl_ 6112 STACK$ 32 0 0 32 CS$ 
+         entry_ 6f00 STACK$ 
+          decl_ 6111 host_stack$ 1 0 0 16 CS$ 
+         entry_ 6f00 host_stack$ 
+          temp_ 6b12 IPTMP$ 16 16 0 16 CS$ 
+          temp_ 6b22 RPTMP$ 15 32 8 24 CS$ 
+          temp_ 6b32 LPTMP$ 17 1 0 1 CS$ 
+          temp_ 6b42 LITMP$ 5 32 0 32 CS$ 
+          decl_ 6132 TRUE$ 1 1 0 1 CS$ 
+          decl_ 6132 FALSE$ 1 1 0 1 CS$ 
+          decl_ 6132 IOMASK 1 1 0 1 CS$ 
+          decl_ 6115 C10D$ 1 10 0 16 
+         entry_ 6f00 C10D$ 
+          decl_ 6115 C8D$ 1 8 0 16 
+         entry_ 6f00 C8D$ 
+          decl_ 6115 C2D$ 1 2 0 16 
+         entry_ 6f00 C2D$ 
+          decl_ 6115 C1D$ 1 1 0 16 
+         entry_ 6f00 C1D$ 
+          decl_ 6115 C0D$ 1 0 0 16 
+         entry_ 6f00 C0D$ 
+          decl_ 6115 C16D$ 1 16 0 16 
+         entry_ 6f00 C16D$ 
+          decl_ 6115 C48D$ 1 48 0 16 
+         entry_ 6f00 C48D$ 
+          decl_ 6115 C45D$ 1 45 0 16 
+         entry_ 6f00 C45D$ 
+          decl_ 6115 C32D$ 1 32 0 16 
+         entry_ 6f00 C32D$ 
+          decl_ 6132 THEM 1 1 0 1 CS$ 
+          decl_ 6112 LEX$ 1 96 0 96 CS$ 
+          decl_ 6112 LEX_VAL$ 1 96 0 96 CS$ 
+          decl_ 6132 LEX_BI$ 1 1 0 1 CS$ 
+          decl_ 6132 GLOBAL_BI$ 1 1 0 1 CS$ 
+          decl_ 6132 THEIR 1 1 0 1 CS$ 
+          decl_ 6132 ITS 1 1 0 1 CS$ 
+          decl_ 6132 THE 1 1 0 1 CS$ 
+          decl_ 6132 AN 1 1 0 1 CS$ 
+          decl_ 6132 A 1 1 0 1 CS$ 
+          decl_ 6132 @ 1 1 0 1 CS$ 
+          decl_ 6111 PERFORM 1 1 0 1 CS$ 
+          decl_ 6111 PA_PERFORM 1 1 0 1 CS$ 
+          decl_ 6111 SC_PERFORM 1 1 0 1 CS$ 
+          decl_ 6111 HANDLE$ 2 0 0 16 CS$ 
+          decl_ 6135 TRUE 1 1 0 1 
+          decl_ 6135 FALSE 1 0 0 1 
+          decl_ 6162 TAIL 1 8 0 8 CS$ 
+          decl_ 6162 HEAD 1 8 0 8 CS$ 
+          decl_ 6112 WEIGHT 1 16 0 16 CS$ 
+          decl_ 6112 STATE 1 16 0 16 CS$ 
+          decl_ 6161 NODEHEAD 1 0 0 8 CS$ 
+         entry_ 6f00 NODEHEAD 
+          decl_ 6161 NODETAIL 1 0 0 8 CS$ 
+         entry_ 6f00 NODETAIL 
+          decl_ 6132 XX 1 1 0 1 CS$ 
+          decl_ 6132 NXTNOD 1 1 0 1 CS$ 
+          decl_ 6132 GRAPH 1 1 0 1 CS$ 
+          decl_ 6132 RESULT 1 1 0 1 CS$ 
+      clr_array 6600 
+         alloc_ 3a0c THE 
+     init_stack 6700 
+   beg_of_stmt  1c00 18 0 
+       beg_read 5a00 SYSOT GRAPH TAIL,HEAD,WEIGHT, 
+          mvsc_ 4711 C0D$ STMP$+0 
+          mvsc_ 4711 C0D$ STMP$+1 
+          loop_ 3200 PT$S1 
+        read_ln 5b00 SYSIN STMP$+1 PT$R1 
+         until_ 3601 STMP$+1 PT$E1 
+          read_ 5c62 OUTBF$,C0D$ STMP$+0 8 PT$R1 
+          decl_ 6115 C2400D$ 1 2400 0 16 
+         entry_ 6f00 C2400D$ 
+          read_ 5c62 OUTBF$,C2400D$ STMP$+0 8 PT$R1 
+          decl_ 6115 C4800D$ 1 4800 0 16 
+         entry_ 6f00 C4800D$ 
+          read_ 5c12 OUTBF$,C4800D$ STMP$+0 16 PT$R1 
+            add 111 STMP$+0 C1D$ STMP$+0 
+        endloop 2900 PT$E1 PT$S1 
+             gt 911 STMP$+0 C2400D$ STMP$+1 
+            if_ 3001 STMP$+1 PT$N1 
+            msg 1e00 SYSOT ERROR - I/O BUFFER OVERFLOW ON READ - SOME DATA OVERWRITTEN. 
+          else_ 2c01 PT$F1 PT$N1 
+         endif_ 2701 PT$F1 
+       ioalloc2 5d5c GRAPH STMP$+0 
+         expand 5e62 OUTBF$,C0D$ TAIL C8D$ 
+         input_ 5f62 TAIL C8D$ 
+         expand 5e62 OUTBF$,C2400D$ HEAD C8D$ 
+         input_ 5f62 HEAD C8D$ 
+         expand 5e12 OUTBF$,C4800D$ WEIGHT C16D$ 
+         input_ 5f12 WEIGHT C16D$ 
+       endread_ 6000 
+   beg_of_stmt  1c00 19 0 
+          msg_  1e00 SYSOT Input data is:  
+       print_nl 5800 SYSOT 
+   beg_of_stmt  1c00 20 0 
+        fstout_ 6a00 GRAPH 
+         outpt_ 5462 TAIL C8D$ 
+        colapse 5562 OUTBF$,C0D$ STMP$+0 TAIL C8D$ 
+         outpt_ 5462 HEAD C8D$ 
+        colapse 5562 OUTBF$,C2400D$ STMP$+0 HEAD C8D$ 
+         outpt_ 5412 WEIGHT C16D$ 
+        colapse 5512 OUTBF$,C4800D$ STMP$+0 WEIGHT C16D$ 
+      beg_print 5600 SYSOT GRAPH TAIL,HEAD,WEIGHT, 
+             gt 911 STMP$+0 C2400D$ STMP$+1 
+            if_ 3001 STMP$+1 PT$N2 
+            msg 1e00 SYSOT ERROR - I/O BUFFER OVERFLOW ON PRINT - SOME DATA LOST. 
+          else_ 2c01 PT$F2 PT$N2 
+         endif_ 2701 PT$F2 
+          mvsc_ 4711 C0D$ STMP$+1 
+          loop_ 3200 PT$S2 
+             ge a11 STMP$+1 STMP$+0 STMP$+2 
+         until_ 3601 STMP$+2 PT$E2 
+        sprint_ 5762 SYSOT OUTBF$,C0D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+        sprint_ 5762 SYSOT OUTBF$,C2400D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+        sprint_ 5712 SYSOT OUTBF$,C4800D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+       print_nl 5800 SYSOT 
+            add 111 STMP$+1 C1D$ STMP$+1 
+        endloop 2900 PT$E2 PT$S2 
+       endprint 5900 
+   beg_of_stmt  1c00 23 0 
+          mvpa_ 4832 GRAPH THEM 
+    stack_scope 7100 GRAPH 
+   beg_of_stmt  1c00 24 0 
+         mindex 7612 WEIGHT LPTMP$+0 
+          mvpa_ 4867 TAIL STMP$+0 LPTMP$+0 C8D$ 
+          mvsc_ 4736 THE STMP$+0 TAIL 
+          mvsc_ 4761 STMP$+0 NODETAIL 
+   beg_of_stmt  1c00 25 0 
+         mindex 7612 WEIGHT LPTMP$+0 
+          mvpa_ 4867 HEAD STMP$+0 LPTMP$+0 C8D$ 
+          mvsc_ 4736 THE STMP$+0 HEAD 
+          mvsc_ 4761 STMP$+0 NODEHEAD 
+   beg_of_stmt  1c00 26 0 
+      pop_scope 7200 
+   beg_of_stmt  1c00 28 0 
+          msg_  1e00 SYSOT nodetail and nodehead  
+          dump_ 8761 SYSOT NODETAIL CS$ 
+      print_del 8a00 SYSOT 
+          dump_ 8761 SYSOT NODEHEAD CS$ 
+       print_nl 5800 SYSOT 
+   beg_of_stmt  1c00 31 0 
+          begif 2000 IF$S1 
+            eq_ 763 NODETAIL TAIL LPTMP$+0 
+          mvpa_ 4832 LPTMP$+0 THEM 
+            if_ 3002 LPTMP$+0 ELS$1 
+   beg_of_stmt  1c00 31 0 
+          mvsc_ 4712 C2D$ STATE C16D$ 
+   beg_of_stmt  1c00 31 0 
+          label 6800 ELS$1 
+          else_ 2c02 IF$E1 
+   beg_of_stmt  1c00 31 0 
+          decl_ 6115 C3D$ 1 3 0 16 
+         entry_ 6f00 C3D$ 
+          mvsc_ 4712 C3D$ STATE C16D$ 
+   beg_of_stmt  1c00 31 0 
+         endif_ 2702 IF$E1 
+   beg_of_stmt  1c00 34 0 
+          resf_ 1d02 NXTNOD LPTMP$+0 
+          mvsc_ 4716 LPTMP$+0 C1D$ STATE 
+   beg_of_stmt  1c00 37 0 
+          begif 2000 IF$S2 
+            eq_ 764 HEAD NODETAIL LPTMP$+0 
+            eq_ 764 TAIL NODEHEAD LPTMP$+1 
+           and_ c32 LPTMP$+0 LPTMP$+1 LPTMP$+2 
+          mvpa_ 4832 LPTMP$+2 THEM 
+            if_ 3002 LPTMP$+2 ELS$2 
+   beg_of_stmt  1c00 37 0 
+          mvsc_ 4712 C0D$ STATE C16D$ 
+   beg_of_stmt  1c00 37 0 
+          label 6800 ELS$2 
+         endif_ 2702 IF$E2 
+   beg_of_stmt  1c00 39 0 
+       setscope 6900 WI$S1 
+       begwhile 3900 WI$R1 
+            eq_ 714 STATE C2D$ LPTMP$+0 
+          mvpa_ 4832 LPTMP$+0 THEM 
+          while 3700 LPTMP$+0 XX WI$E1 
+          mvpa_ 4832 XX ITS 
+   beg_of_stmt  1c00 43 0 
+          begif 2000 IF$S3 
+            eq_ 714 STATE C2D$ LPTMP$+0 
+          mvpa_ 4832 LPTMP$+0 THEM 
+            if_ 3002 LPTMP$+0 ELS$3 
+   beg_of_stmt  1c00 43 0 
+         mindex 7612 WEIGHT LPTMP$+0 
+          mvpa_ 4832 LPTMP$+0 THEM 
+          mvpa_ 4832 LPTMP$+0 NXTNOD 
+   beg_of_stmt  1c00 43 0 
+          label 6800 ELS$3 
+         endif_ 2702 IF$E3 
+   beg_of_stmt  1c00 46 0 
+          mvpa_ 4867 HEAD STMP$+0 NXTNOD C8D$ 
+          mvsc_ 4736 THE STMP$+0 HEAD 
+          mvsc_ 4761 STMP$+0 NODEHEAD 
+   beg_of_stmt  1c00 49 0 
+          resf_ 1d02 NXTNOD LPTMP$+0 
+          mvsc_ 4716 LPTMP$+0 C1D$ STATE 
+   beg_of_stmt  1c00 52 0 
+          begif 2000 IF$S4 
+            eq_ 764 HEAD NODETAIL LPTMP$+0 
+            eq_ 764 TAIL NODEHEAD LPTMP$+1 
+           and_ c32 LPTMP$+0 LPTMP$+1 LPTMP$+2 
+          mvpa_ 4832 LPTMP$+2 THEM 
+            if_ 3002 LPTMP$+2 ELS$4 
+   beg_of_stmt  1c00 52 0 
+          mvsc_ 4712 C0D$ STATE C16D$ 
+   beg_of_stmt  1c00 52 0 
+          label 6800 ELS$4 
+         endif_ 2702 IF$E4 
+   beg_of_stmt  1c00 55 0 
+          begif 2000 IF$S5 
+            eq_ 764 HEAD NODEHEAD LPTMP$+0 
+            ne_ 814 STATE C1D$ LPTMP$+1 
+           and_ c32 LPTMP$+0 LPTMP$+1 LPTMP$+2 
+          mvpa_ 4832 LPTMP$+2 THEM 
+            if_ 3002 LPTMP$+2 ELS$5 
+   beg_of_stmt  1c00 56 0 
+          mvsc_ 4712 C0D$ STATE C16D$ 
+   beg_of_stmt  1c00 56 0 
+          label 6800 ELS$5 
+         endif_ 2702 IF$E5 
+   beg_of_stmt  1c00 59 0 
+          begif 2000 IF$S6 
+            eq_ 714 STATE C3D$ LPTMP$+0 
+            eq_ 763 NODEHEAD TAIL LPTMP$+1 
+           and_ c32 LPTMP$+0 LPTMP$+1 LPTMP$+2 
+          mvpa_ 4832 LPTMP$+2 THEM 
+            if_ 3002 LPTMP$+2 ELS$6 
+   beg_of_stmt  1c00 59 0 
+          mvsc_ 4712 C2D$ STATE C16D$ 
+   beg_of_stmt  1c00 59 0 
+          label 6800 ELS$6 
+         endif_ 2702 IF$E6 
+   beg_of_stmt  1c00 61 0 
+          mvsc_ 4732 FALSE NXTNOD C1D$ 
+   beg_of_stmt  1c00 62 0 
+       endwhile 2b00 WI$E1 WI$R1 
+   beg_of_stmt  1c00 65 0 
+          begif 2000 IF$S7 
+            eq_ 714 STATE C1D$ LPTMP$+0 
+          mvpa_ 4832 LPTMP$+0 THEM 
+            if_ 3002 LPTMP$+0 ELS$7 
+   beg_of_stmt  1c00 65 0 
+          mvsc_ 4732 TRUE RESULT C1D$ 
+   beg_of_stmt  1c00 65 0 
+          label 6800 ELS$7 
+         endif_ 2702 IF$E7 
+   beg_of_stmt  1c00 66 0 
+        fstout_ 6a00 RESULT 
+         outpt_ 5462 TAIL C8D$ 
+        colapse 5562 OUTBF$,C0D$ STMP$+0 TAIL C8D$ 
+         outpt_ 5462 HEAD C8D$ 
+        colapse 5562 OUTBF$,C2400D$ STMP$+0 HEAD C8D$ 
+         outpt_ 5412 WEIGHT C16D$ 
+        colapse 5512 OUTBF$,C4800D$ STMP$+0 WEIGHT C16D$ 
+      beg_print 5600 SYSOT RESULT TAIL,HEAD,WEIGHT, 
+             gt 911 STMP$+0 C2400D$ STMP$+1 
+            if_ 3001 STMP$+1 PT$N3 
+            msg 1e00 SYSOT ERROR - I/O BUFFER OVERFLOW ON PRINT - SOME DATA LOST. 
+          else_ 2c01 PT$F3 PT$N3 
+         endif_ 2701 PT$F3 
+          mvsc_ 4711 C0D$ STMP$+1 
+          loop_ 3200 PT$S3 
+             ge a11 STMP$+1 STMP$+0 STMP$+2 
+         until_ 3601 STMP$+2 PT$E3 
+        sprint_ 5762 SYSOT OUTBF$,C0D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+        sprint_ 5762 SYSOT OUTBF$,C2400D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+        sprint_ 5712 SYSOT OUTBF$,C4800D$ STMP$+1 CS$ 
+      print_del 8a00 SYSOT 
+       print_nl 5800 SYSOT 
+            add 111 STMP$+1 C1D$ STMP$+1 
+        endloop 2900 PT$E3 PT$S3 
+       endprint 5900 
+   beg_of_stmt  1c00 68 0 
+         label_ 6800 $EXIT$ 
+          stop_ 6c00 
+        endmain 7400 MST 
+

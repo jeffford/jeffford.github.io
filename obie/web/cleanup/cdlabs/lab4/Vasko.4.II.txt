@@ -1,0 +1,81 @@
+Script started on Mon 24 Apr 2006 05:13:54 PM EDT
+]0;student@localhost:~[student@localhost ~]$ groups
+student
+]0;student@localhost:~[student@localhost ~]$ umask
+0002
+]0;student@localhost:~[student@localhost ~]$ mkdir garbage
+]0;student@localhost:~[student@localhost ~]$ ls -l
+[00mtotal 220
+drwxrwxr-x  3 student student  4096 Apr 24 06:10 [00;34massignments[00m
+drwxrwxr-x  2 student student  4096 Apr 24 06:26 [00;34mbackups[00m
+drwxrwxr-x  3 student student  4096 Apr 24 06:12 [00;34mbusLetters[00m
+drwxrwxrwx  4 student student  4096 Apr 24 17:02 [00;34mchapter_4[00m
+drwxr-xr-x  2 student student  4096 Apr 24 16:05 [00;34mDesktop[00m
+drwxrwxr-x  2 student student  4096 Apr 24 17:14 [00;34mgarbage[00m
+-rw-rw-r--  1 student student   847 Apr 24 06:23 [00mgtsybrgII.txt[00m
+-rw-rw-r--  1 student student   475 Apr 24 06:23 [00mgtsybrg.txt[00m
+-rw-rw-r--  1 student student  1529 Apr 24 06:23 [00mgtysbrg.txt[00m
+-rw-rw-r--  1 student student   274 Apr 24 06:23 [00mhw4[00m
+-rw-rw-r--  1 student student   274 Apr 24 06:23 [00mhw4.bk[00m
+drwxrwxr-x  3 student student  4096 Apr 24 06:11 [00;34mletters[00m
+drwxrwxr-x  5 student student  4096 Apr 24 06:12 [00;34mreports[00m
+-rw-rw-r--  1 student student  1529 Apr 24 06:23 [00mvasko2edit.txt[00m
+-rw-rw-r--  1 student student   803 Apr 24 06:23 [00mVasko.2.IIcont.txt[00m
+-rw-rw-r--  1 student student  5352 Apr 24 06:24 [00mVasko.3.III.txt[00m
+-rw-rw-r--  1 student student 23994 Apr 24 06:24 [00mvasko.3.II.txt[00m
+-rw-rw-r--  1 student student  1728 Apr 24 06:24 [00mvasko.3.I.txt[00m
+-rw-rw-r--  1 student student 24748 Apr 24 06:24 [00mVasko.3.IV.txt[00m
+-rw-rw-r--  1 student student     0 Apr 24 17:13 [00mVasko.4.II.txt[00m
+-rw-rw-r--  1 student student  9009 Apr 24 17:13 [00mVasko.4.I.txt[00m
+[m]0;student@localhost:~[student@localhost ~]$ cd garbage
+]0;student@localhost:~/garbage[student@localhost garbage]$ umask
+0002
+]0;student@localhost:~/garbage[student@localhost garbage]$ cd
+]0;student@localhost:~[student@localhost ~]$ echo \#5 The persi[K[K[K[K[Kpermission of this fo[K[K[K[K[K[K[Kgarbage is two[K[K[K0002
+#5 The permission of garbage is 0002
+]0;student@localhost:~[student@localhost ~]$ umask 113
+]0;student@localhost:~[student@localhost ~]$ ls -l
+[00mtotal 220
+drwxrwxr-x  3 student student  4096 Apr 24 06:10 [00;34massignments[00m
+drwxrwxr-x  2 student student  4096 Apr 24 06:26 [00;34mbackups[00m
+drwxrwxr-x  3 student student  4096 Apr 24 06:12 [00;34mbusLetters[00m
+drwxrwxrwx  4 student student  4096 Apr 24 17:02 [00;34mchapter_4[00m
+drwxr-xr-x  2 student student  4096 Apr 24 16:05 [00;34mDesktop[00m
+drwxrwxr-x  2 student student  4096 Apr 24 17:14 [00;34mgarbage[00m
+-rw-rw-r--  1 student student   847 Apr 24 06:23 [00mgtsybrgII.txt[00m
+-rw-rw-r--  1 student student   475 Apr 24 06:23 [00mgtsybrg.txt[00m
+-rw-rw-r--  1 student student  1529 Apr 24 06:23 [00mgtysbrg.txt[00m
+-rw-rw-r--  1 student student   274 Apr 24 06:23 [00mhw4[00m
+-rw-rw-r--  1 student student   274 Apr 24 06:23 [00mhw4.bk[00m
+drwxrwxr-x  3 student student  4096 Apr 24 06:11 [00;34mletters[00m
+drwxrwxr-x  5 student student  4096 Apr 24 06:12 [00;34mreports[00m
+-rw-rw-r--  1 student student  1529 Apr 24 06:23 [00mvasko2edit.txt[00m
+-rw-rw-r--  1 student student   803 Apr 24 06:23 [00mVasko.2.IIcont.txt[00m
+-rw-rw-r--  1 student student  5352 Apr 24 06:24 [00mVasko.3.III.txt[00m
+-rw-rw-r--  1 student student 23994 Apr 24 06:24 [00mvasko.3.II.txt[00m
+-rw-rw-r--  1 student student  1728 Apr 24 06:24 [00mvasko.3.I.txt[00m
+-rw-rw-r--  1 student student 24748 Apr 24 06:24 [00mVasko.3.IV.txt[00m
+-rw-rw-r--  1 student student     0 Apr 24 17:13 [00mVasko.4.II.txt[00m
+-rw-rw-r--  1 student student  9009 Apr 24 17:13 [00mVasko.4.I.txt[00m
+[m]0;student@localhost:~[student@localhost ~]$ echo #[K\#6 The permissions [K[K for these directories is 113[K[K[K664
+#6 The permission for these directories is 664
+]0;student@localhost:~[student@localhost ~]$ echo [K[K[K[K[Kcd garbage
+]0;student@localhost:~/garbage[student@localhost garbage]$ ls -l
+[00mtotal 0
+[m]0;student@localhost:~/garbage[student@localhost garbage]$ echo \#7 Yes the persi[Kmission [K[K[K[K[K[K[K[K[Kmission of garbage is now 664
+#7 Yes the permission of garbage is now 664
+]0;student@localhost:~/garbage[student@localhost garbage]$ rmdir garbab[Kge
+rmdir: `garbage': No such file or directory
+]0;student@localhost:~/garbage[student@localhost garbage]$ cd
+]0;student@localhost:~[student@localhost ~]$ rmdir garbage
+]0;student@localhost:~[student@localhost ~]$ mkdir chapter_4/a[Ksession.II[K[K[K_II
+mkdir: cannot create directory `chapter_4/session_II': File exists
+]0;student@localhost:~[student@localhost ~]$ chmod u-x ~/chapter4[K_4/session?[K_II
+]0;student@localhost:~[student@localhost ~]$ mkdri[K[Kir chapter_4/session_II
+]0;student@localhost:~[student@localhost ~]$ c[Kcd d[Kchapter_4/session_II
+bash: cd: chapter_4/session_II: Permission denied
+]0;student@localhost:~[student@localhost ~]$ echo \#12 Permissio i[K[Kn is denied to view thi[K[K[K[K[K[K[K[Kmove to this fil[K[K[Kdirectory  because we took away the execute m[Kpermission for[K[Krom the user.
+#12 Permission is denied to move to this directory because we took away the execute permission from the user.
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Mon 24 Apr 2006 05:23:29 PM EDT

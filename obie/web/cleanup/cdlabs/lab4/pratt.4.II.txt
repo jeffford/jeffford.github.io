@@ -1,0 +1,183 @@
+Script started on Mon 24 Apr 2006 04:33:51 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ groups
+Student
+]0;Student@localhost:~[Student@localhost ~]$ cd `[K~
+]0;Student@localhost:~[Student@localhost ~]$ groups
+Student
+]0;Student@localhost:~[Student@localhost ~]$ umask
+0002
+]0;Student@localhost:~[Student@localhost ~]$ mkdir garbage
+]0;Student@localhost:~[Student@localhost ~]$ ls -il
+[00mtotal 432
+1267047 drwxrwxr-x  2 Student Student  4096 Apr 21 08:21 [00;34massignments[00m
+1267032 drwxrwxr-x  2 Student Student 16384 Apr 24 08:16 [00;34mbackups[00m
+1267086 drwxrwxr-x  3 Student Student  4096 Apr 24 08:49 [00;34mbusLetters[00m
+1209703 -rw-rw-r--  1 Student Student   504 Apr 23 16:11 [00mchap1exercises[00m
+1209704 -rw-rw-r--  1 Student Student 10725 Apr 23 16:18 [00mchap1oddexer[00m
+1209711 -rw-rw-r--  1 Student Student 87182 Apr 23 18:15 [00mchap3[00m
+1209706 -rw-rw-r--  1 Student Student  5559 Apr 23 16:33 [00mchap3evenexer[00m
+1209709 -rw-rw-r--  1 Student Student 61991 Apr 23 17:15 [00mchap3lab2[00m
+1209708 -rw-rw-r--  1 Student Student  1497 Apr 23 16:35 [00mchap3labII[00m
+1267098 drwx------  3 Student Student  4096 Apr 24 16:17 [00;34mchapter_4[00m
+1266751 drwxr-xr-x  2 Student Student  4096 Jul 27  2005 [00;34mDesktop[00m
+1266694 drwxrwxr-x  2 Student Student  4096 Apr 24 16:34 [00;34mgarbage[00m
+1209701 -rw-rw-r--  1 Student Student  1557 Apr 21 08:12 [00mgtsybrgII.txt[00m
+1209702 -rw-rw-r--  1 Student Student   476 Apr 21 07:52 [00mgtysbrg.txt[00m
+1209705 -rw-rw-r--  1 Student Student   929 Apr 23 17:03 [00mhw4.bk[00m
+1209700 -rw-rw-r--  1 Student Student  4615 Apr 21 08:48 [00mlab3[00m
+1267045 drwxrwxr-x  3 Student Student  4096 Apr 24 08:49 [00;34mletters[00m
+1209710 -rw-rw-r--  1 Student Student 13534 Apr 24 08:27 [00mpratt.3.III.txt[00m
+1209712 -rw-rw-r--  1 Student Student  9635 Apr 24 07:59 [00mpratt.3.II.txt[00m
+1209714 -rw-rw-r--  1 Student Student 24049 Apr 24 08:50 [00mpratt3.IV.txt[00m
+1209713 -rw-rw-r--  1 Student Student     0 Apr 24 16:33 [00mpratt.4.II.txt[00m
+1209717 -rw-rw-r--  1 Student Student 23404 Apr 24 16:25 [00mpratt.4.I.txt[00m
+1209707 lrwxrwxrwx  1 Student Student     1 Apr 23 16:30 [00;36mreport[00m -> [00;34m/[00m
+1267046 drwxrwxr-x  6 Student Student  4096 Apr 21 08:35 [00;34mreports[00m
+1267101 drwx------  2 Student Student  4096 Apr 24 16:17 [00;34msession_I[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ echo permission for this directory is[4h"[4l[Student@localhost ~]$ echo "p[Student@localhost ~]$ echo "pe[Student@localhost ~]$ echo "per[Student@localhost ~]$ echo "perm[Student@localhost ~]$ echo "permi[Student@localhost ~]$ echo "permis[Student@localhost ~]$ echo "permiss[Student@localhost ~]$ echo "permissi[Student@localhost ~]$ echo "permissio[Student@localhost ~]$ echo "permission[Student@localhost ~]$ echo "permission [Student@localhost ~]$ echo "permission f[Student@localhost ~]$ echo "permission fo[Student@localhost ~]$ echo "permission for[Student@localhost ~]$ echo "permission for [Student@localhost ~]$ echo "permission for t[Student@localhost ~]$ echo "permission for th[Student@localhost ~]$ echo "permission for thi[Student@localhost ~]$ echo "permission for this[Student@localhost ~]$ echo "permission for this [Student@localhost ~]$ echo "permission for this d[Student@localhost ~]$ echo "permission for this di[Student@localhost ~]$ echo "permission for this dir[Student@localhost ~]$ echo "permission for this dire[Student@localhost ~]$ echo "permission for this direc[Student@localhost ~]$ echo "permission for this direct[Student@localhost ~]$ echo "permission for this directo[Student@localhost ~]$ echo "permission for this director[Student@localhost ~]$ echo "permission for this directory[Student@localhost ~]$ echo "permission for this directory [Student@localhost ~]$ echo "permission for this directory i[Student@localhost ~]$ echo "permission for this directory is 775"
+permission for this directory is 775
+]0;Student@localhost:~[Student@localhost ~]$ umask 113
+]0;Student@localhost:~[Student@localhost ~]$ umask
+0113
+]0;Student@localhost:~[Student@localhost ~]$ ls -li /[K~/garbage/
+[00mtotal 0
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -li ~/b[Kgarbage
+[00mtotal 0
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -il garga[K[Kbage
+[00mtotal 0
+[m]0;Student@localhost:~[Student@localhost ~]$ ls garbage
+[00m[m]0;Student@localhost:~[Student@localhost ~]$ ls 0[K-o[Kli gart[Kbag&[K*
+[00mtotal 0
+[m]0;Student@localhost:~[Student@localhost ~]$ man page[K[K[K[K[K ls
+[?1049h[?1h=[24;1H[KLS(1)                            User Commands                           LS(1)
+
+[1mNAME[0m
+       ls - list directory contents
+
+[1mSYNOPSIS[0m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       List  information  about  the FILEs (the current directory by default).
+       Sort entries alphabetically if none of [1m-cftuSUX[0m nor [1m--sort[0m.
+
+       Mandatory arguments to long options are  mandatory  for  short  options
+       too.
+
+       [1m-a[0m, [1m--all[0m
+              do not hide entries starting with .
+
+       [1m-A[0m, [1m--almost-all[0m
+              do not list implied . and ..
+
+       [1m--author[0m
+              print the author of each file
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KDD[H[K
+[K[1mNAME[0m
+[K       ls - list directory contents
+[K
+[K[1mSYNOPSIS[0m
+[K       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+[K
+[K[1mDESCRIPTION[0m
+[K       List  information  about  the FILEs (the current directory by default).
+[K       Sort entries alphabetically if none of [1m-cftuSUX[0m nor [1m--sort[0m.
+[K
+[K       Mandatory arguments to long options are  mandatory  for  short  options
+[K       too.
+[K
+[K       [1m-a[0m, [1m--all[0m
+[K              do not hide entries starting with .
+[K
+[K       [1m-A[0m, [1m--almost-all[0m
+[K              do not list implied . and ..
+[K
+[K       [1m--author[0m
+[K              print the author of each file
+[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KDD[H[K
+[K[1mNAME[0m
+[K       ls - list directory contents
+[K
+[K[1mSYNOPSIS[0m
+[K       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+[K
+[K[1mDESCRIPTION[0m
+[K       List  information  about  the FILEs (the current directory by default).
+[K       Sort entries alphabetically if none of [1m-cftuSUX[0m nor [1m--sort[0m.
+[K
+[K       Mandatory arguments to long options are  mandatory  for  short  options
+[K       too.
+[K
+[K       [1m-a[0m, [1m--all[0m
+[K              do not hide entries starting with .
+[K
+[K       [1m-A[0m, [1m--almost-all[0m
+[K              do not list implied . and ..
+[K
+[K       [1m--author[0m
+[K              print the author of each file
+[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-b[0m, [1m--escape[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              print octal escapes for nongraphic characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--block-size[0m=[4mSIZE[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              use SIZE-byte blocks
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-B[0m, [1m--ignore-backups[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              do not list implied entries ending with ~
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-c[0m     with [1m-lt[0m: sort by, and show, ctime (time of last modification of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              file status information) with [1m-l[0m: show ctime and  sort  by  name
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              otherwise: sort by ctime
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-C[0m     list entries by columns
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--color[0m[=[4mWHEN[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              control  whether  color is used to distinguish file types.  WHEN
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              may be ‘never’, ‘always’, or ‘auto’
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-d[0m, [1m--directory[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              list directory entries instead of contents, and do not  derefer-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              ence symbolic links
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-D[0m, [1m--dired[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              generate output designed for Emacs’ dired mode
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;Student@localhost:~[Student@localhost ~]$ ls 0lk[K[K[K-lid garbag4e[K[Ke
+[00m1266694 drwxrwxr-x  2 Student Student 4096 Apr 24 16:34 [00;34mgarbage[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ echo "permission did not change; i[K[K[K\; it is still 775"
+permission did not change\; it is still 775
+]0;Student@localhost:~[Student@localhost ~]$ ch[K[Kecho "It did not change because the umask was set after t he directory was already created. The umask is applied only to cirectories[K[K[K[K[K[K[K[K[K[K[Kdirectories creat ed after the umask was se[K[K[K[K[K[Kis set"
+It did not change because the umask was set after the directory was already created. The umask is applied only to directories created after the umask is set
+]0;Student@localhost:~[Student@localhost ~]$ rmdir ~/[K[K[K garg[Kbage
+]0;Student@localhost:~[Student@localhost ~]$ ls -lid garbage
+[00mls: garbage: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ mkdir -p /[K/chapter_4
+mkdir: cannot create directory `/chapter_4': Permission denied
+]0;Student@localhost:~[Student@localhost ~]$ echo "permission was denied because[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir -p student/chapter_4/session_II
+]0;Student@localhost:~[Student@localhost ~]$ ls -ild garbage
+[00mls: garbage: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -ild ~/chapter_4/session_II
+[00mls: /home/Student/chapter_4/session_II: No such file or directory
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -ild ~/chapter_4/session_IIschapter_4/session_IItchapter_4/session_IIuchapter_4/session_IIdchapter_4/session_IIechapter_4/session_IInchapter_4/session_IItchapter_4/session_II/chapter_4/session_II
+[00m1267121 drw-rw-r--  2 Student Student 4096 Apr 24 16:56 [00;34m/home/Student/student/chapter_4/session_II[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ echo permission is 664"[4h"[4l
+permission is 664
+]0;Student@localhost:~[Student@localhost ~]$ echo " there is no x permission for the user level"
+ there is no x permission for the user level
+]0;Student@localhost:~[Student@localhost ~]$ cd `[K~/student/chapter_4/session_II
+bash: cd: /home/Student/student/chapter_4/session_II: Permission denied
+]0;Student@localhost:~[Student@localhost ~]$ echo "permission is denied to d[Kthis directory"
+permission is denied to this directory
+]0;Student@localhost:~[Student@localhost ~]$ chmod u+x
+chmod: too few arguments
+Try `chmod --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ chmod u+x ~/student/chapter_4/session_II
+]0;Student@localhost:~[Student@localhost ~]$ ld -ild ~/student/chapter_4/session_II
+ld: bad -rpath option
+]0;Student@localhost:~[Student@localhost ~]$ ld -ild ~/student/chapter_4/session_II[4hs[4l[1P
+[00m1267121 drwxrw-r--  2 Student Student 4096 Apr 24 16:56 [00;34m/home/Student/student/chapter_4/session_II[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 24 Apr 2006 05:08:04 PM EDT

@@ -1,0 +1,100 @@
+Script started on Mon 08 May 2006 05:31:19 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S2F1>Ch11S2F1[Student@localhost ~]$ cat >Ch11S2F1
+UNIZ X is as UNIX does/ .
+
+A d   a And Do OS is as DOS does.
+
+But Uni  NIX is not as DOS does.
+
+Nor is DOS as UNIX does.
+
+
+
+SO o, if UNIX was as DOS does,
+
+Would UNIX be DOS
+
+Or would DOS be UNIX?
+]0;Student@localhost:~[Student@localhost ~]$ cat >>Ch11S2F1
+
+Or s   to put the question another way:
+
+Is an operating system by any t other m name
+
+As beauri  tiful as a Un NIX operating syt stem?
+]0;Student@localhost:~[Student@localhost ~]$ cat >>Ch11S2F1[Student@localhost ~]$ cat >[1PCh11S2F1[1PCh11S2F1[Student@localhost ~]$ cat Ch11S2F1\
+> cat Ch11S2F1\[K[K[K[K[K[K[K[K[K[K[K[K[K> 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S2F1\[K
+UNIX is as UNIX does.
+
+And DOS is as DOS does.
+
+But UNIX is not as DOS does.
+
+Nor is DOS as UNIX does.
+
+
+
+So, if UNIX was as DOS does,
+
+Would UNIX be DOS
+
+Or would DOS be UNIX?
+
+Or to put the question another way:
+
+Is an operating system by any other name
+
+As beautiful as a UNIX operating system?
+]0;Student@localhost:~[Student@localhost ~]$ Ch112[KS2.sed[KdcCh11S2.sedaCh11S2.sedtCh11S2.sed Ch11S2.sed>Ch11S2.sed
+UNIX/s/^/*****/
+UNIX/s/$/*****/
+]0;Student@localhost:~[Student@localhost ~]$ f[Ksed -f file.sed Ch11s[KS2F1
+*****UNIX is as UNIX does.*****
+
+And DOS is as DOS does.
+
+*****But UNIX is not as DOS does.*****
+
+*****Nor is DOS as UNIX does.*****
+
+
+
+*****So, if UNIX was as DOS does,*****
+
+*****Would UNIX be DOS*****
+
+*****Or would DOS be UNIX?*****
+
+Or to put the question another way:
+
+Is an operating system by any other name
+
+*****As beautiful as a UNIX operating system?*****
+]0;Student@localhost:~[Student@localhost ~]$ cat > C[K[K[K[K[K[K[Ksed -f file.sed Ch11S2F1 >Ch11S2F2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S2F2
+*****UNIX is as UNIX does.*****
+
+And DOS is as DOS does.
+
+*****But UNIX is not as DOS does.*****
+
+*****Nor is DOS as UNIX does.*****
+
+
+
+*****So, if UNIX was as DOS does,*****
+
+*****Would UNIX be DOS*****
+
+*****Or would DOS be UNIX?*****
+
+Or to put the question another way:
+
+Is an operating system by any other name
+
+*****As beautiful as a UNIX operating system?*****
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 08 May 2006 06:21:47 PM EDT

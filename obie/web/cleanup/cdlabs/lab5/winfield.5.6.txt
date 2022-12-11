@@ -1,0 +1,1120 @@
+Script started on Tue 25 Apr 2006 04:23:35 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ more [K[K[K[K[Kcd 
+/etc
+]0;Student@localhost:/etc[Student@localhost etc]$ more profile
+# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc
+
+pathmunge () {
+	if ! echo $PATH | /bin/egrep -q "(^|:)$1($|:)" ; then
+	   if [ "$2" = "after" ] ; then
+	      PATH=$PATH:$1
+	   else
+	      PATH=$1:$PATH
+	   fi
+	fi
+}
+
+# Path manipulation
+if [ $EUID = 0 ]; then
+	pathmunge /sbin
+	pathmunge /usr/sbin
+	pathmunge /usr/local/sbin
+fi
+
+pathmunge /usr/X11R6/bin after
+[7m--More--(51%)[m
+
+[K
+[7m--More--(51%)[m
+
+[K
+[7m--More--(51%)[m
+# No core files by default
+[7m--More--(55%)[m
+ulimit -S -c 0 > /dev/null 2>&1
+[7m--More--(58%)[m
+
+[K
+[7m--More--(59%)[m
+USER="`id -un`"
+[7m--More--(60%)[m
+LOGNAME=$USER
+[7m--More--(62%)[m
+MAIL="/var/spool/mail/$USER"
+[7m--More--(66%)[m
+
+[K
+[7m--More--(66%)[m
+HOSTNAME=`/bin/hostname`
+[7m--More--(69%)[m
+HISTSIZE=1000
+[7m--More--(70%)[m
+
+[K
+[7m--More--(70%)[m
+if [ -z "$INPUTRC" -a ! -f "$HOME/.inputrc" ]; then
+[7m--More--(77%)[m
+    INPUTRC=/etc/inputrc
+[7m--More--(80%)[m
+fi[K
+[7m--More--(80%)[m
+
+[K
+[7m--More--(80%)[m
+export PATH USER LOGNAME MAIL HOSTNAME HISTSIZE INPUTRC
+[7m--More--(87%)[m
+
+[K
+[7m--More--(87%)[m
+for i in /etc/profile.d/*.sh ; do
+[7m--More--(91%)[m
+    if [ -r "$i" ]; then
+[7m--More--(94%)[m
+[K    	. $i
+[7m--More--(95%)[m
+    fi[K
+[7m--More--(96%)[m
+done[K
+[7m--More--(97%)[m
+
+[K
+[7m--More--(97%)[m
+unset i[K
+[7m--More--(98%)[m
+unset pathmunge
+]0;Student@localhost:/etc[Student@localhost etc]$
+]0;Student@localhost:/etc[Student@localhost etc]$
+]0;Student@localhost:/etc[Student@localhost etc]$ echo i see a program
+i see a program
+]0;Student@localhost:/etc[Student@localhost etc]$ v i[K[Ki profile 
+[K[K[Kle
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"profile" 
+[readonly] 49L, 840C[1;1H[34m# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc[m
+
+pathmunge () [35m{[m[7;9H[33mif[m [33m![m [33mecho[m[31m 
+[m[35m$PATH[m[31m [m[33m|[m /bin/egrep [33m-q[m 
+[33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m 
+[33mthen[8;12Hif[m [33m[[m [33m"[m[35m$2[m[33m"[m [33m=[m 
+[33m"[m[31mafter[m[33m"[m [33m][m [33m;[m 
+[33mthen[m[9;15H[36mPATH[m=[35m$PATH[m:[35m$1[m[10;12H[33melse[m[11;15H[36mPATH[m=[35m$1[m:[35m$PATH[m[12;12H[33mfi[13;9Hfi[m
+[35m}[m
+
+[34m# Path manipulation[m
+[33mif[m [33m[[m [35m$EUID[m [33m=[m [31m0[m [33m];[m 
+[33mthen[m[18;9Hpathmunge /sbin[19;9Hpathmunge /usr/sbin[20;9Hpathmunge 
+/usr/local/sbin
+[33mfi[m
+
+pathmunge /usr/X11R6/bin 
+after[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1 
+  
+[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5,0-1[5;1H[?12l[?25h[?25l[24;63H6,1 
+  
+[6;1H[?12l[?25h[?25l[24;63H7,1-8[7;8H[?12l[?25h[?25l[24;63H8[8;8H[?12l[?25h[?25l[24;65H2-9[8;9H[?12l[?25h[?25l[24;65H3-10[8;10H[?12l[?25h[?25l[24;65H4-11[8;11H[?12l[?25h[?25l[24;65H5-12[8;12H[?12l[?25h[?25l[24;65H6-13[8;13H[?12l[?25h[?25l[24;65H7-14[8;14H[?12l[?25h[?25l[24;65H8-15[8;15H[?12l[?25h[?25l[24;65H9-16[8;16H[?12l[?25h[?25l[24;65H10-17[8;17H[?12l[?25h[?25l[24;66H1-18[8;18H[?12l[?25h[?25l[24;66H2-19[8;19H[?12l[?25h[?25l[24;66H3-20[8;20H[?12l[?25h[?25l[24;66H4-21[8;21H[?12l[?25h[?25l[24;66H5-22[8;22H[?12l[?25h[?25l[24;63H7[7;22H[?12l[?25h[?25l[24;66H6-23[7;23H[?12l[?25h[?25l[24;66H7-24[7;24H[?12l[?25h[?25l[24;1H[1m-- 
+INSERT --[m[24;13H[K[24;63H7,17-24[7CTop[24;14H[31mW10: Warning: 
+Changing a readonly file[m[24;63H[K[7;24H[?12l[?25h[?25l[31m 
+[m[33m|[m /bin/egrep [33m-q[m 
+[33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m 
+[33mthen[m[7;61H[K[24;63H7,16-23[7CTop[7;23H[?12l[?25h[?25l[31m 
+[m[33m|[m /bin/egrep [33m-q[m 
+[33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m 
+[33mthen[m[7;60H[K[24;66H5-22[7;22H[?12l[?25h[?25l[31m 
+[m[33m|[m /bin/egrep [33m-q[m 
+[33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m 
+[33mthen[m[7;59H[K[24;66H4-21[7;21H[?12l[?25h[?25l[31m$ 
+[m[33m|[m /bin/egrep [33m-q[m 
+[33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m 
+[33mthen[m[7;58H[K[24;66H3-20[7;20H[?12l[?25h[?25l[35m$c[m[31m 
+[m[33m|[m /bin/egrep [33m-q[m 
+[33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m 
+[33mthen[m[24;66H4-21[7;21H[?12l[?25h[?25l[35mo[m[31m [m[33m|[m 
+/bin/egrep [33m-q[m [33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m 
+[33m;[m [33mthen[m[24;66H5-22[7;22H[?12l[?25h[?25l[35mw[m[31m 
+[m[33m|[m /bin/egrep [33m-q[m 
+[33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m 
+[33mthen[m[24;66H6-23[7;23H[?12l[?25h[24;1H[K[7;22H[?25l[24;63H7,15-22[7CTop[7;22H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h
+[?25l[1m[37m[41mE45: 
+'readonly' option is set (add ! to 
+override)[m[13C7,15-22[7CTop[7;22H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h
+[?25l[1m[37m[41mE37: 
+No write since last change (add ! to 
+override)[m[11C7,15-22[7CTop[7;22H[?12l[?25h[?25l[24;63H8,5-12 
+[8;12H[?12l[?25h[?25l[24;63H9,8-15[9;15H[?12l[?25h[?25l[24;63H10,5-12[10;12H[?12l[?25h[?25l[24;64H1,8-15[11;15H[?12l[?25h[?25l[24;64H2,5-12[12;12H[?12l[?25h[?25l[24;64H1[11;12H[?12l[?25h[?25l[24;64H0[10;12H[?12l[?25h[?25l[24;63H9,5-12 
+[9;12H[?12l[?25h[?25l[24;63H8[8;12H[?12l[?25h[?25l[24;65H6-13[8;13H[?12l[?25h[?25l[24;65H7-14[8;14H[?12l[?25h[?25l[24;65H8-15[8;15H[?12l[?25h[?25l[24;65H9-16[8;16H[?12l[?25h[?25l[24;63H7[7;16H[?12l[?25h[?25l[24;63H6,14 
+  
+[6;14H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h
+[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:/etc[Student@localhost 
+etc]$ you [K[K[K[Kecho you can not change anything because it is a 
+write  
+only file
+you can not change anything because it is a write only file
+]0;Student@localhost:/etc[Student@localhost etc]$ alias
+alias l.='ls -d .* --color=tty'
+alias ll='ls -l --color=tty'
+alias ls='ls --color=tty'
+alias vi='vim'
+alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot 
+--show-tilde'
+]0;Student@localhost:/etc[Student@localhost etc]$ more .bashrc
+.bashrc: No such file or directory
+]0;Student@localhost:/etc[Student@localhost etc]$ more bash [Krc
+# /etc/bashrc
+
+# System wide functions and aliases
+# Environment stuff goes in /etc/profile
+
+# by default, we want this to get set.
+# Even for non-interactive, non-login shells.
+if [ $UID -gt 99 ] && [ "`id -gn`" = "`id -un`" ]; then
+	umask 002
+else
+	umask 022
+fi
+
+# are we an interactive shell?
+if [ "$PS1" ]; then
+    case $TERM in
+	xterm*)
+		if [ -e /etc/sysconfig/bash-prompt-xterm ]; then
+			PROMPT_COMMAND=/etc/sysconfig/bash-prompt-xterm
+		else
+	    	PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#
+$HOME/~}\007"'
+		fi
+[7m--More--(46%)[m
+[K		;;
+[7m--More--(46%)[m
+[K	screen)
+[7m--More--(47%)[m
+[K		if [ -e /etc/sysconfig/bash-prompt-screen ]; then
+[7m--More--(51%)[m
+[K			PROMPT_COMMAND=/etc/sysconfig/bash-prompt-screen
+[7m--More--(56%)[m
+[K		else
+[7m--More--(56%)[m
+[K		PROMPT_COMMAND='echo -ne 
+"\033_${USER}@${HOSTNAME%%.*}:${PWD/#$H
+[7m--More--(62%)[m
+OME/~}\033\\"'
+[7m--More--(63%)[m
+[K		fi
+[7m--More--(64%)[m
+[K		;;
+[7m--More--(64%)[m
+[K	*)
+[7m--More--(65%)[m
+[K		[ -e /etc/sysconfig/bash-prompt-default ] && 
+PROMPT_COMMAND=/etc
+[7m--More--(70%)[m
+/sysconfig/bash-prompt-default
+[7m--More--(73%)[m
+[K	    ;;
+[7m--More--(74%)[m
+    esac[K
+[7m--More--(74%)[m
+    # Turn on checkwinsize
+[7m--More--(77%)[m
+    shopt -s checkwinsize
+[7m--More--(79%)[m
+    [ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u@\h \W]\\$ "
+[7m--More--(84%)[m
+fi[K
+[7m--More--(84%)[m
+
+[K
+[7m--More--(84%)[m
+if ! shopt -q login_shell ; then # We're not a login 
+shell
+[7m--More--(89%)[m
+        for i in /etc/profile.d/*.sh; do
+[7m--More--(92%)[m
+[K	    if [ -r "$i" ]; then
+[7m--More--(95%)[m
+[K	        . $i
+[7m--More--(96%)[m
+[K	    fi
+[7m--More--(97%)[m
+[K	done
+[7m--More--(97%)[m
+[K	unset i
+[7m--More--(98%)[m
+fi[K
+[7m--More--(98%)[m
+# vim:ts=4:sw=4
+]0;Student@localhost:/etc[Student@localhost etc]$ cp bashrc 
+baskrc.bak[1Prc.bakhrc.bak
+[Student@localhost etc]$ cp 
+bashrc bashr
+[Student@localhost etc]$ cp bashrc bashrc
+[Student@localhost 
+etc]$ cp bashrc bashrc.
+[Student@localhost etc]$ cp bashrc 
+bashrc.b
+[Student@localhost etc]$ cp bashrc bashrc.ba
+[Student@localhost 
+etc]$ cp bashrc bashrc.bak
+cp: cannot create regular file `bashrc.bak': Permission denied
+]0;Student@localhost:/etc[Student@localhost etc]$ cd ..[K[K/~
+bash: cd: /~: No such file or directory
+]0;Student@localhost:/etc[Student@localhost etc]$ cd..[K[K ..
+]0;Student@localhost:/[Student@localhost /]$ cd ~
+]0;Student@localhost:~[Student@localhost ~]$ cp 
+bash[K[K[K[K.bashrc bashrc.bak
+]0;Student@localhost:~[Student@localhost ~]$ vi bash.bak
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"bash.bak" 
+[New File][2;1H[1m[34m~                                                   
+                             [3;1H~                                         
+                                       [4;1H~                               
+                                                 [5;1H~                     
+                                                           [6;1H~           
+                                                                     [7;1H~ 
+                                                                             
+   [8;1H~                                                                   
+             [9;1H~                                                         
+                       [10;1H~                                              
+                                  [11;1H~                                   
+                                             [12;1H~                        
+                                                        [13;1H~             
+                                                                   [14;1H~  
+                                                                             
+  [15;1H~                                                                   
+             [16;1H~                                                        
+                        [17;1H~                                             
+                                   [18;1H~                                  
+                                              [19;1H~                       
+                                                         [20;1H~            
+                                                                    [21;1H~ 
+                                                                             
+   [22;1H~                                                                  
+              [23;1H~                                                       
+                         
+[m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h
+[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost 
+~]$ l[Kvi bash.bak
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"bash.bak" 
+[New File][2;1H[1m[34m~                                                   
+                             [3;1H~                                         
+                                       [4;1H~                               
+                                                 [5;1H~                     
+                                                           [6;1H~           
+                                                                     [7;1H~ 
+                                                                             
+   [8;1H~                                                                   
+             [9;1H~                                                         
+                       [10;1H~                                              
+                                  [11;1H~                                   
+                                             [12;1H~                        
+                                                        [13;1H~             
+                                                                   [14;1H~  
+                                                                             
+  [15;1H~                                                                   
+             [16;1H~                                                        
+                        [17;1H~                                             
+                                   [18;1H~                                  
+                                              [19;1H~                       
+                                                         [20;1H~            
+                                                                    [21;1H~ 
+                                                                             
+   [22;1H~                                                                  
+              [23;1H~                                                       
+                         
+[m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h
+[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost 
+~]$ bi [K[K[Kvi bashrc.bak
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"bashrc.bak" 
+8L, 124C[1;1H[34m# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions[m
+[33mif[m [33m[[m [33m-f[m /etc/bashrc [33m];[m [33mthen
+        . [m/etc/bashrc
+[33mfi[m
+[1m[34m~                                                                   
+             [10;1H~                                                        
+                        [11;1H~                                             
+                                   [12;1H~                                  
+                                              [13;1H~                       
+                                                         [14;1H~            
+                                                                    [15;1H~ 
+                                                                             
+   [16;1H~                                                                  
+              [17;1H~                                                       
+                         [18;1H~                                            
+                                    [19;1H~                                 
+                                               [20;1H~                      
+                                                          [21;1H~           
+                                                                     
+[22;1H~                                                                     
+           [23;1H~                                                          
+                      
+[m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1 
+  [3;1H[?12l[?25h[?25l[24;63H4,0-1[4;1H[?12l[?25h[?25l[24;63H3,1  
+[3;1H[?12l[?25h[?25l[24;63H4,0-1[4;1H[?12l[?25h[?25l[24;1H[1m-- 
+INSERT 
+--[m[24;14H[K[24;63H5,1[11CAll[5;23r[5;1H[L[1;24r[24;63H[K[24;63H5,1[11CAll[5;1H[?12l[?25h[24;1H[K[5;1H[?25l[24;63H5,0-1[9CAll[5;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;1H[1m-- 
+INSERT 
+--[m[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l$[24;65H2[4;2H[?12l[?25h[?25l[24;65H3[4;3H[?12l[?25h[?25l[24;65H2[4;2H[?12l[?25h[?25l[24;65H3[4;3H[?12l[?25h[?25la[24;65H4[4;4H[?12l[?25h[?25ll[24;65H5[4;5H[?12l[?25h[?25li[24;65H6[4;6H[?12l[?25h[?25la[24;65H7[4;7H[?12l[?25h[?25l
+$ 
+[33malias[m[24;65H8[4;8H[?12l[?25h[?25l[24;65H9[4;9H[?12l[?25h[?25l[24;65H8[4;8H[?12l[?25h[?25l
+$ 
+alia[4;7H[K[24;65H7[4;7H[?12l[?25h[?25l[4;6H[K[24;65H6[4;6H[?12l[?25h[?25l[4;5H[K[24;65H5[4;5H[?12l[?25h[?25l[4;4H[K[24;65H4[4;4H[?12l[?25h[?25l[4;3H[K[24;65H3[4;3H[?12l[?25h[?25l[24;65H2[4;2H[?12l[?25h[?25l[4;1H[K[24;65H1[4;1H[?12l[?25h[?25l[3;23r[23;1H
+[1;24r[3;1H[34m# User specific aliases and functions[m[23;1H[1m[34m~  
+                                                                             
+  
+[m[24;63H[K[24;63H3,38[10CAll[3;38H[?12l[?25h[?25l[3;37H[K[24;66H7[3;37H[?12l[?25h[?25l[3;36H[K[24;66H6[3;36H[?12l[?25h[?25l[3;35H[K[24;66H5[3;35H[?12l[?25h[?25l[3;34H[K[24;66H4[3;34H[?12l[?25h[?25l[3;33H[K[24;66H3[3;33H[?12l[?25h[?25l[3;32H[K[24;66H2[3;32H[?12l[?25h[?25l[3;31H[K[24;66H1[3;31H[?12l[?25h[?25l[3;30H[K[24;66H0[3;30H[?12l[?25h[?25l[3;29H[K[24;65H29[3;29H[?12l[?25h[?25l[3;28H[K[24;66H8[3;28H[?12l[?25h[?25l[3;27H[K[24;66H7[3;27H[?12l[?25h[?25l[3;26H[K[24;66H6[3;26H[?12l[?25h[24;1H[K[3;25H[?25l[24;63H3,25[10CAll[3;25H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h
+[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost 
+~]$ alias bob
+bash: alias: bob: not found
+]0;Student@localhost:~[Student@localhost ~]$ man alias
+[?1049h[?1h=[24;1H[KBASH_BUILTINS(1)                                    
+           BASH_BUILTINS(1)
+
+[1mNAME[0m
+       bash,  :,  ., [, alias, bg, bind, break, builtin, cd, command, 
+compgen,
+       complete, continue, declare, dirs, disown, echo,  enable,  eval,  
+exec,
+       exit,  export,  fc,  fg, getopts, hash, help, history, jobs, kill, 
+let,
+       local, logout, popd, printf, pushd, pwd, read, readonly,  return,  
+set,
+       shift,  shopt,  source,  suspend,  test,  times,  trap,  type, 
+typeset,
+       ulimit, umask, unalias, unset,  wait  -  bash  built-in  commands,  
+see
+       [1mbash[0m(1)
+
+[1mBASH[0m [1mBUILTIN[0m [1mCOMMANDS[0m
+       Unless otherwise noted, each builtin command documented in this 
+section
+       as accepting options preceded by [1m-[0m accepts [1m--[0m to 
+signify the end of the
+       options.
+       [1m:[0m [[4marguments[24m]
+              No  effect;  the command does nothing beyond expanding 
+[4marguments[24m
+              and performing any specified redirections.  A zero exit code  
+is
+              returned.
+
+        [1m.[0m  [4mfilename[24m [[4marguments[24m]
+       [1msource[0m [4mfilename[24m [[4marguments[24m]
+              Read  and  execute  commands  from [4mfilename[24m in the 
+current shell
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+environment and return the exit status of the last command  exe-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+cuted from [4mfilename[24m.  If [4mfilename[24m does not contain a 
+slash, file
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+names in [1mPATH[0m are used to find the  directory  containing  
+[4mfile-[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[4mname[24m.   The  file  searched  for in [1mPATH[0m need not be 
+executable.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+When [1mbash[0m is  not  in  [4mposix[24m  [4mmode[24m,  the  current  
+directory  is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+searched  if no file is found in [1mPATH[0m.  If the [1msourcepath[0m 
+option
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+to the [1mshopt[0m builtin command is turned  off,  the  [1mPATH[0m  is  
+not
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+searched.   If any [4marguments[24m are supplied, they become the posi-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+tional parameters when  [4mfilename[24m  is  executed.   Otherwise  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+positional  parameters  are unchanged.  The return status is the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+status of the last command exited within the  script  (0  if  no
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+commands  are  executed),  and false if [4mfilename[24m is not found or
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+cannot be read.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1malias[0m [[1m-p[0m] [[4mname[24m[=[4mvalue[24m] ...]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1mAlias[0m with no arguments or with the [1m-p[0m option prints the 
+list of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+aliases  in  the form [1malias[0m [4mname[24m=[4mvalue[24m on standard 
+output.  When
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+arguments are supplied, an alias is defined for each [4mname[24m  whose
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[4mvalue[24m is given.  A trailing space in  [4mvalue[24m causes the 
+next word
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+to be checked for alias substitution when the alias is expanded.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+For  each  [4mname[24m  in the argument list for which no [4mvalue[24m 
+is sup-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+plied, the name and  value  of  the  alias  is  printed.   [1mAlias[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       
+[1msource[0m [4mfilename[24m [[4marguments[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM        [1m.[0m  
+[4mfilename[24m [[4marguments[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+returned.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[4mvalue[24m is given.  A trailing space in  [4mvalue[24m causes the 
+next word
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+to be checked for alias substitution when the alias is expanded.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+For  each  [4mname[24m  in the argument list for which no [4mvalue[24m 
+is sup-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+plied, the name and  value  of  the  alias  is  printed.   [1mAlias[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+returns  true unless a [4mname[24m is given for which no alias has been
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+defined.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mbg[0m [[4mjobspec[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+Resume the suspended job [4mjobspec[24m in the background, as if it had
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+been  started  with  [1m&[0m.   If [4mjobspec[24m is not present, the 
+shell’s
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+notion of the [4mcurrent[24m [4mjob[24m is used.  [1mbg[0m 
+[4mjobspec[24m returns 0  unless
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+run  when  job control is disabled or, when run with job control
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+enabled, if [4mjobspec[24m was not found or started  without  job  con-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+trol.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mbind[0m [[1m-m[0m [4mkeymap[24m] [[1m-lpsvPSV[0m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mbind[0m [[1m-m[0m [4mkeymap[24m] [[1m-q[0m [4mfunction[24m] 
+[[1m-u[0m [4mfunction[24m] [[1m-r[0m [4mkeyseq[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mbind[0m [[1m-m[0m [4mkeymap[24m] [1m-f[0m [4mfilename[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mbind[0m [[1m-m[0m [4mkeymap[24m] [1m-x[0m 
+[4mkeyseq[24m:[4mshell-command[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mbind[0m [[1m-m[0m [4mkeymap[24m] 
+[4mkeyseq[24m:[4mfunction-name[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mbind[0m [4mreadline-command[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+Display  current  [1mreadline[0m key and function bindings, bind a key
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+sequence to a [1mreadline[0m function or  macro,  or  set  a  
+[1mreadline[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+variable.   Each  non-option  argument  is a command as it would
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+appear in [4m.inputrc[24m, but each binding or command must  be  passed
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+as  a  separate argument; e.g., ’"\C-x\C-r": re-read-init-file’.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+Options, if supplied, have the following meanings:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-m[0m [4mkeymap[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        Use [4mkeymap[24m as the keymap to be affected by the subsequent
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        bindings.  Acceptable [4mkeymap[24m names are [4memacs,[24m 
+[4memacs-stan-[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        [4mdard,[24m [4memacs-meta,[24m [4memacs-ctlx,[24m  
+[4mvi,[24m  [4mvi-move,[24m  [4mvi-command[24m,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        and  [4mvi-insert[24m.  [4mvi[24m is equivalent to 
+[4mvi-command[24m; [4memacs[24m is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        equivalent to [4memacs-standard[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-l[0m     List the names of all [1mreadline[0m functions.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-p[0m     Display [1mreadline[0m function names and bindings  in  
+such  a
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        way that they can be re-read.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-P[0m     List current [1mreadline[0m function names and bindings.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-v[0m     Display  [1mreadline[0m variable names and values in such a 
+way
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        that they can be re-read.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-V[0m     List current [1mreadline[0m variable names and values.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-s[0m     Display [1mreadline[0m key sequences bound to  macros  and  
+the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        strings  they  output  in such a way that they can be re-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        read.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-S[0m     Display [1mreadline[0m key sequences bound to  macros  and  
+the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        strings they output.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-f[0m [4mfilename[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        Read key bindings from [4mfilename[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-q[0m [4mfunction[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        Query about which keys invoke the named [4mfunction[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-u[0m [4mfunction[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        Unbind all keys bound to the named [4mfunction[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-r[0m [4mkeyseq[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        Remove any current binding for [4mkeyseq[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-x[0m [4mkeyseq[24m[1m:[0m[4mshell-command[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        Cause  [4mshell-command[24m  to  be  executed whenever 
+[4mkeyseq[24m is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+        entered.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+The return value is 0 unless an unrecognized option is given  or
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+an error occurred.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mbreak[0m [[4mn[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+Exit  from  within a [1mfor[0m, [1mwhile[0m, [1muntil[0m, or 
+[1mselect[0m loop.  If [4mn[24m is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+specified, break [4mn[24m levels.  [4mn[24m must be ≥ 1.  If 
+[4mn[24m is greater than
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+the  number  of enclosing loops, all enclosing loops are exited.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+The return value is 0 unless the shell is not executing  a  loop
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+when [1mbreak[0m is executed.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mbuiltin[0m [4mshell-builtin[24m [[4marguments[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+Execute  the  specified shell builtin, passing it [4marguments[24m, and
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+return its exit status.  This is useful when defining a function
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+whose  name  is the same as a shell builtin, retaining the func-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+tionality of the builtin within the function.  The [1mcd[0m builtin is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+commonly  redefined  this  way.   The  return status is false if
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[4mshell-builtin[24m is not a shell builtin command.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mcd[0m [[1m-L|-P[0m] [[4mdir[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+Change the current directory to [4mdir[24m.  The variable [1mHOME[0m  is 
+  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+default  [4mdir[24m.   The  variable [1mCDPATH[0m defines the search 
+path for
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+the directory containing [4mdir[24m.  Alternative  directory  names  in
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1mCDPATH[0m  are  separated by a colon (:).  A null directory name in
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1mCDPATH[0m is the same as the current directory,  i.e.,  
+‘‘[1m.[0m’’.   If
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[4mdir[24m  begins  with  a  slash (/), then [1mCDPATH[0m is not used. 
+The [1m-P[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+option says to use the physical directory structure  instead  of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+following  symbolic  links  (see  also  the [1m-P[0m option to the 
+[1mset[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+builtin command); the [1m-L[0m option forces symbolic links to be fol-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+lowed.   An  argument  of [1m-[0m is equivalent to [1m$OLDPWD[0m.  If a 
+non-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+empty directory name from [1mCDPATH[0m is used, or if [1m-[0m is  the  
+first
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+argument,  and  the directory change is successful, the absolute
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+pathname of the new working directory is written to the standard
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+output.   The return value is true if the directory was success-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+fully changed; false otherwise.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mcaller[0m [[4mexpr[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+Returns the context of any active subroutine call (a shell func-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+tion  or a script executed with the [1m.[0m or [1msource[0m builtins.  
+With-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+out [4mexpr[24m, [1mcaller[0m displays the line number and source 
+filename of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+the  current subroutine call.  If a non-negative integer is sup-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+plied as [4mexpr[24m, [1mcaller[0m displays the line number, subroutine 
+name,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+and  source  file  corresponding to that position in the current
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+execution call stack.  This extra information may be  used,  for
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+example,  to print a stack trace.  The current frame is frame 0.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+The return value is 0 unless the shell is not executing  a  sub-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+routine  call or [4mexpr[24m does not correspond to a valid position in
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+the call stack.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mcommand[0m [[1m-pVv[0m] [4mcommand[24m [[4marg[24m ...]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+Run [4mcommand[24m with [4margs[24m  suppressing  the  normal  shell  
+function
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+lookup.  Only builtin commands or commands found in the [1mPATH[0m are
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+executed.  If the [1m-p[0m option is given, the search for 
+[4mcommand[24m  is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+performed  using  a default value for [1mPATH[0m that is guaranteed to
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+find all of the standard utilities.  If  either  the  [1m-V[0m  or  
+[1m-v[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+option is supplied, a description of [4mcommand[24m is printed.  The 
+[1m-v[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+option causes a single word indicating the command or file  name
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+used to invoke [4mcommand[24m to be displayed; the [1m-V[0m option 
+produces a
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+more verbose description.  If the [1m-V[0m or [1m-v[0m option  is  
+supplied,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+the  exit  status  is  0 if [4mcommand[24m was found, and 1 if not.  If
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+neither option is supplied and an error occurred or [4mcommand[24m can-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+not  be found, the exit status is 127.  Otherwise, the exit sta-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+tus of the [1mcommand[0m builtin is the exit status of [4mcommand[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mcompgen[0m [[4moption[24m] [[4mword[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+Generate possible completion matches for [4mword[24m according  to  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[4moption[24ms,  which  may  be  any  option  accepted  by the 
+[1mcomplete[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+builtin with the exception of [1m-p[0m and [1m-r[0m, and write  the  
+matches
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+to  the  standard  output.  When using the [1m-F[0m or [1m-C[0m options, 
+the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+various shell  variables  set  by  the  programmable  completion
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+facilities, while available, will not have useful values.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+The  matches  will  be  generated in the same way as if the pro-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+grammable completion code had generated  them  directly  from  a
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+completion specification with the same flags.  If [4mword[24m is speci-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+fied, only those completions matching [4mword[24m will be displayed.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+The return value is true unless an invalid option  is  supplied,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+or no matches were generated.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mcomplete[0m  [[1m-abcdefgjksuv[0m] [[1m-o[0m [4mcomp-option[24m] 
+[[1m-A[0m [4maction[24m] [[1m-G[0m [4mglobpat[24m] [[1m-W[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[4mwordlist[24m] [[1m-P[0m [4mprefix[24m] [[1m-S[0m [4msuffix[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[[1m-X[0m [4mfilterpat[24m] [[1m-F[0m [4mfunction[24m] [[1m-C[0m 
+[4mcommand[24m] [4mname[24m [[4mname[24m [4m...[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       
+[1mcomplete[0m [1m-pr[0m [[4mname[24m ...]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+Specify  how arguments to each [4mname[24m should be completed.  If the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-p[0m option is supplied, or if no options are  supplied,  existing
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+completion  specifications are printed in a way that allows them
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+to be reused as input.  The [1m-r[0m option removes a completion spec-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+ification  for each [4mname[24m, or, if no [4mname[24ms are supplied, 
+all com-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+pletion specifications.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+The process of applying  these  completion  specifications  when
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+word  completion  is  attempted  is  described  above under [1mPro-[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1mgrammable[0m [1mCompletion[0m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+Other options, if specified, have the following  meanings.   The
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+arguments  to the [1m-G[0m, [1m-W[0m, and [1m-X[0m options (and, if 
+necessary, the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-P[0m and [1m-S[0m options) should be quoted to protect them from  
+expan-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+sion before the [1mcomplete[0m builtin is invoked.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-o[0m [4mcomp-option[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         The  [4mcomp-option[24m  controls  several aspects of the comp-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         spec’s behavior beyond the simple generation of  comple-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         tions.  [4mcomp-option[24m may be one of:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1mbashdefault[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 Perform the rest of the default [1mbash[0m completions
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 if the compspec generates no matches.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1mdefault[0m Use readline’s default  filename  completion  if
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 the compspec generates no matches.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1mdirnames[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 Perform  directory  name completion if the comp-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 spec generates no matches.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1mfilenames[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 Tell readline that the compspec generates  file-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 names,  so  it can perform any filename-specific
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 processing (like adding  a  slash  to  directory
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 names or suppressing trailing spaces).  Intended
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 to be used with shell functions.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1mnospace[0m Tell  readline  not  to  append  a  space   (the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 default)  to  words  completed at the end of the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 line.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+[1m-A[0m [4maction[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         The [4maction[24m may be one of the  following  to  generate  a
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         list of possible completions:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1malias[0m   Alias names.  May also be specified as [1m-a[0m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1marrayvar[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 Array variable names.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1mbinding[0m [1mReadline[0m key binding names.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1mbuiltin[0m Names  of  shell  builtin commands.  May also be
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 specified as [1m-b[0m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1mcommand[0m Command names.  May also be specified as 
+[1m-c[0m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1mdirectory[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 Directory names.  May also be specified as [1m-d[0m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1mdisabled[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+                 Names of disabled shell builtins.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              
+         [1menabled[0m Names of enabled shell builtins.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM                   
+    [1mfilenames[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM                   
+            spec generates no matches.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM                   
+            Perform  directory  name completion if the comp-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM                   
+    [1mdirnames[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM                   
+            the compspec generates no matches.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM                   
+    [1mdefault[0m Use readline’s default  filename  completion  if
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM                   
+            if the compspec generates no matches.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM                   
+            Perform the rest of the default [1mbash[0m completions
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM                   
+    [1mbashdefault[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM                   
+    tions.  [4mcomp-option[24m may be one of:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM                   
+    spec’s behavior beyond the simple generation of  comple-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM                   
+    The  [4mcomp-option[24m  controls  several aspects of the comp-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+[1m-o[0m [4mcomp-option[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              sion 
+before the [1mcomplete[0m builtin is invoked.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+[1m-P[0m and [1m-S[0m options) should be quoted to protect them from  
+expan-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+arguments  to the [1m-G[0m, [1m-W[0m, and [1m-X[0m options (and, if 
+necessary, the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+Other options, if specified, have the following  meanings.   The
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+[1mgrammable[0m [1mCompletion[0m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              word 
+  completion  is  attempted  is  described  above under [1mPro-[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              The 
+process of applying  these  completion  specifications  when
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+pletion specifications.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+ification  for each [4mname[24m, or, if no [4mname[24ms are supplied, 
+all com-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              to 
+be reused as input.  The [1m-r[0m option removes a completion spec-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+completion  specifications are printed in a way that allows them
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+[1m-p[0m option is supplied, or if no options are  supplied,  existing
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+Specify  how arguments to each [4mname[24m should be completed.  If the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       
+[1mcomplete[0m [1m-pr[0m [[4mname[24m ...]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+[[1m-X[0m [4mfilterpat[24m] [[1m-F[0m [4mfunction[24m] [[1m-C[0m 
+[4mcommand[24m] [4mname[24m [[4mname[24m [4m...[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       
+[4mwordlist[24m] [[1m-P[0m [4mprefix[24m] [[1m-S[0m [4msuffix[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       
+[1mcomplete[0m  [[1m-abcdefgjksuv[0m] [[1m-o[0m [4mcomp-option[24m] 
+[[1m-A[0m [4maction[24m] [[1m-G[0m [4mglobpat[24m] [[1m-W[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              or 
+no matches were generated.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              The 
+return value is true unless an invalid option  is  supplied,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+fied, only those completions matching [4mword[24m will be displayed.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+completion specification with the same flags.  If [4mword[24m is speci-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+grammable completion code had generated  them  directly  from  a
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              The  
+matches  will  be  generated in the same way as if the pro-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+facilities, while available, will not have useful values.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+various shell  variables  set  by  the  programmable  completion
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              to  
+the  standard  output.  When using the [1m-F[0m or [1m-C[0m options, the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+builtin with the exception of [1m-p[0m and [1m-r[0m, and write  the  
+matches
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+[4moption[24ms,  which  may  be  any  option  accepted  by the 
+[1mcomplete[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+Generate possible completion matches for [4mword[24m according  to  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       
+[1mcompgen[0m [[4moption[24m] [[4mword[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              tus 
+of the [1mcommand[0m builtin is the exit status of [4mcommand[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              not  
+be found, the exit status is 127.  Otherwise, the exit sta-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+neither option is supplied and an error occurred or [4mcommand[24m can-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              the  
+exit  status  is  0 if [4mcommand[24m was found, and 1 if not.  If
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              more 
+verbose description.  If the [1m-V[0m or [1m-v[0m option  is  supplied,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              used 
+to invoke [4mcommand[24m to be displayed; the [1m-V[0m option produces a
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+option causes a single word indicating the command or file  name
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+option is supplied, a description of [4mcommand[24m is printed.  The 
+[1m-v[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              find 
+all of the standard utilities.  If  either  the  [1m-V[0m  or  [1m-v[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+performed  using  a default value for [1mPATH[0m that is guaranteed to
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+executed.  If the [1m-p[0m option is given, the search for 
+[4mcommand[24m  is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+lookup.  Only builtin commands or commands found in the [1mPATH[0m are
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              Run 
+[4mcommand[24m with [4margs[24m  suppressing  the  normal  shell  
+function
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       
+[1mcommand[0m [[1m-pVv[0m] [4mcommand[24m [[4marg[24m ...]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              the 
+call stack.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+routine  call or [4mexpr[24m does not correspond to a valid position in
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              The 
+return value is 0 unless the shell is not executing  a  sub-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+example,  to print a stack trace.  The current frame is frame 0.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+execution call stack.  This extra information may be  used,  for
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              and  
+source  file  corresponding to that position in the current
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+plied as [4mexpr[24m, [1mcaller[0m displays the line number, subroutine 
+name,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              the  
+current subroutine call.  If a non-negative integer is sup-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              out 
+[4mexpr[24m, [1mcaller[0m displays the line number and source filename 
+of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              tion 
+  or a script executed with the [1m.[0m or [1msource[0m builtins.  With-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+Returns the context of any active subroutine call (a shell func-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       
+[1mcaller[0m [[4mexpr[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+fully changed; false otherwise.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+output.   The return value is true if the directory was success-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+pathname of the new working directory is written to the standard
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+argument,  and  the directory change is successful, the absolute
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+empty directory name from [1mCDPATH[0m is used, or if [1m-[0m is  the  
+first
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+lowed.   An  argument  of [1m-[0m is equivalent to [1m$OLDPWD[0m.  If a 
+non-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+builtin command); the [1m-L[0m option forces symbolic links to be fol-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+following  symbolic  links  (see  also  the [1m-P[0m option to the 
+[1mset[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+option says to use the physical directory structure  instead  of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+[4mdir[24m  begins  with  a  slash (/), then [1mCDPATH[0m is not used. 
+The [1m-P[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+[1mCDPATH[0m is the same as the current directory,  i.e.,  
+‘‘[1m.[0m’’.   If
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+[1mCDPATH[0m  are  separated by a colon (:).  A null directory name in
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              the 
+directory containing [4mdir[24m.  Alternative  directory  names  in
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+default  [4mdir[24m.   The  variable [1mCDPATH[0m defines the search 
+path for
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              
+Change the current directory to [4mdir[24m.  The variable [1mHOME[0m  is 
+  the
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;Student@localhost:~[Student@localhost 
+~]$ alias bob [K=ls
+]0;Student@localhost:~[Student@localhost ~]$ alias asdf=date
+]0;Student@localhost:~[Student@localhost ~]$ bob >> bashrc.bak
+]0;Student@localhost:~[Student@localhost ~]$ asdf >> bashrc.bak
+]0;Student@localhost:~[Student@localhost ~]$ bob
+[00m[00m3.2.15[00m       [00mfacts[00m      [00mgtsybrgII.txt[00m     
+  [00mwinfield.3.3.txt[00m  [00mwinfield.5.4.txt[00m
+[00;34massignments[00m  [00mfile1[00m      [00mgtysbrg.txt[00m        
+[00mwinfield.3.4.txt[00m  [00mwinfield.5.5.txt[00m
+[00;34mbackups[00m      [00mfile2[00m      [00mharrold2edit.txt[00m   
+[00mwinfield.3.I.txt[00m  [00mwinfield.5.6.txt[00m
+[00mbashrc.bak[00m   [00mfile3[00m      [00;34mletters[00m            
+[00mwinfield.4.1.txt[00m  [00mwinfield.L1.txt[00m
+[00;34mbusLetters[00m   [00mfile3.bak[00m  [00;34mreports[00m          
+   [00mwinfield.4.2.txt[00m
+[00;34mchapter_4[00m    [00mfile4[00m      [00mwinfield2edit.txt[00m  
+[00mwinfield.5.1.txt[00m
+[00;34mDesktop[00m      [00mfile5[00m      [00mwinfield.3.2.txt[00m   
+[00mwinfield.5.2.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ asdf
+Tue Apr 25 16:50:56 EDT 2006
+]0;Student@localhost:~[Student@localhost ~]$ source .bash[Khrc
+]0;Student@localhost:~[Student@localhost ~]$ bob
+[00m[00m3.2.15[00m       [00mfacts[00m      [00mgtsybrgII.txt[00m     
+  [00mwinfield.3.3.txt[00m  [00mwinfield.5.4.txt[00m
+[00;34massignments[00m  [00mfile1[00m      [00mgtysbrg.txt[00m        
+[00mwinfield.3.4.txt[00m  [00mwinfield.5.5.txt[00m
+[00;34mbackups[00m      [00mfile2[00m      [00mharrold2edit.txt[00m   
+[00mwinfield.3.I.txt[00m  [00mwinfield.5.6.txt[00m
+[00mbashrc.bak[00m   [00mfile3[00m      [00;34mletters[00m            
+[00mwinfield.4.1.txt[00m  [00mwinfield.L1.txt[00m
+[00;34mbusLetters[00m   [00mfile3.bak[00m  [00;34mreports[00m          
+   [00mwinfield.4.2.txt[00m
+[00;34mchapter_4[00m    [00mfile4[00m      [00mwinfield2edit.txt[00m  
+[00mwinfield.5.1.txt[00m
+[00;34mDesktop[00m      [00mfile5[00m      [00mwinfield.3.2.txt[00m   
+[00mwinfield.5.2.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ unalias -a
+]0;Student@localhost:~[Student@localhost ~]$ bob
+bash: bob: command not found
+]0;Student@localhost:~[Student@localhost ~]$
+Script done on Tue 25 Apr 2006 04:51:49 PM EDT
+

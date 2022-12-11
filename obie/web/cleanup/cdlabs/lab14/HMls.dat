@@ -1,0 +1,78 @@
+#! /bin/bash
+# script name: HMls
+# extract three column from ls -l in user's specified order 
+
+if (( $# != 3))
+then
+	echo "Need three arguments"
+	exit
+fi
+
+let x=$1+1 2> /dev/null
+let y=$2+1 2> /dev/null
+let z=$3+1 2> /dev/null
+
+if [[ $x == 1 || $y == 1 || $z == 1 ]]
+then
+	echo "argument should be number"
+	exit
+fi
+
+column=9
+if (( $1 > $column || $2 > $column || $3 > $column ))
+then
+	echo "argument should be in renge 1 - $column"
+	exit
+fi
+
+ls -l | while read one two three four five six seven eight nine
+do
+	agu=""
+	
+	for i in $1 $2 $3
+	do
+		if (( i == 1 ))
+		then
+		agu=$agu$one" "
+
+		elif (( i == 2 ))
+		then
+		agu=$agu$two" "
+
+		elif (( i == 3 ))
+		then
+		agu=$agu$three" "
+
+		elif (( i == 4 ))
+		then
+		agu=$agu$four" "
+
+		elif (( i == 5))
+		then
+		agu=$agu$five" "
+
+
+		elif (( i == 6 ))
+		then
+		agu=$agu$six" "
+
+		elif (( i == 7 ))
+		then
+		agu=$agu$seven" "
+
+		elif (( i == 8 ))
+		then
+		agu=$agu$eight" "
+
+		elif (( i == 9 ))
+		then
+		agu=$agu$nine" "
+
+
+		fi
+
+	done
+
+	echo $agu | tr " " "\t"
+
+done

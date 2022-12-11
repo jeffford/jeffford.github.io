@@ -1,0 +1,183 @@
+Script started on Mon 24 Apr 2006 07:49:35 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ls -Rp
+[00m.:
+[00;34massignments[00m/    [00mchap3[00m          [00;34mDesktop[00m/       [00mlab3[00m            [00;34mreports[00m/
+[00;34mbackups[00m/        [00mchap3evenexer[00m  [00mgtsybrgII.txt[00m  [00;34mletters[00m/
+[00mchap1exercises[00m  [00mchap3lab2[00m      [00mgtysbrg.txt[00m    [00mpratt.3.II.txt[00m
+[00mchap1oddexer[00m    [00mchap3labII[00m     [00mhw4.bk[00m         [00;36mreport[00m@
+
+./assignments:
+
+./backups:
+[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00mhw4SL[00m
+
+./Desktop:
+
+./letters:
+[00;34mformal[00m/  [00;34mfriendly[00m/
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34massignments[00m/  [00;34mbusiness[00m/  [00;34mpersonal[00m/  [00;34mschool[00m/
+
+./reports/assignments:
+[00;34mUNIX[00m/
+
+./reports/assignments/UNIX:
+[00mhw4[00m  [00mhw4HL[00m  [01;05;37;41mhw4SL[00m@  [00;34mHWs[00m/  [00;34mProjects[00m/
+
+./reports/assignments/UNIX/HWs:
+
+./reports/assignments/UNIX/Projects:
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ cd ~/reports/assignments/UNIX
+]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ pwd
+/home/Student/reports/assignments/UNIX
+]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ vi hw4
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"hw4" 17L, 929C[1;1H2. Define a wildcard. Why do we use wildcards? When do we use wildcards?
+A wildcard is a token that specifies that one or more different characters can bb[3;1He used to satisfy a specific request. We use wildcards to group files together ss[4;1Ho that they can be easily worked with (copied, listed, etc.). Wildcards are usedd[5;1H to replace or denote one or more characters in a search.
+
+3. Name 3 wildcards used in UNIX to name files.
+? [...] *
+
+4. What is a single-character wildcard?
+A single-character wildcard is matches only one character in the filename. You mm[12;1Hay use more than one single-character wildcard, but each one matches only one chh[13;1Haracter in the match.
+
+6. What is the zero-or-more-character wildcard?
+*
+
+9. What is a directory file? Give an example.
+A directory file is a file that contains the names and locations of all files stt[20;1Hored on a physical device. An example of a directory file is "bin", which storess[21;1H binary files.[24;63H15,0-1[8CTop[22;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ cd~
+bash: cd~: command not found
+]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ ls ~
+[00m[00;34massignments[00m     [00mchap3[00m          [00;34mDesktop[00m        [00mlab3[00m            [00;34mreports[00m
+[00;34mbackups[00m         [00mchap3evenexer[00m  [00mgtsybrgII.txt[00m  [00;34mletters[00m
+[00mchap1exercises[00m  [00mchap3lab2[00m      [00mgtysbrg.txt[00m    [00mpratt.3.II.txt[00m
+[00mchap1oddexer[00m    [00mchap3labII[00m     [00mhw4.bk[00m         [00;36mreport[00m
+[m]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ cp hw4 hw4.bk
+]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ cd~
+bash: cd~: command not found
+]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ cd ~
+]0;Student@localhost:~[Student@localhost ~]$ ls -[K-lR |more
+.:
+total 308
+drwxrwxr-x  2 Student Student  4096 Apr 21 08:21 assignments
+drwxrwxr-x  2 Student Student 16384 Apr 23 17:58 backups
+-rw-rw-r--  1 Student Student   504 Apr 23 16:11 chap1exercises
+-rw-rw-r--  1 Student Student 10725 Apr 23 16:18 chap1oddexer
+-rw-rw-r--  1 Student Student 87182 Apr 23 18:15 chap3
+-rw-rw-r--  1 Student Student  5559 Apr 23 16:33 chap3evenexer
+-rw-rw-r--  1 Student Student 61991 Apr 23 17:15 chap3lab2
+-rw-rw-r--  1 Student Student  1497 Apr 23 16:35 chap3labII
+drwxr-xr-x  2 Student Student  4096 Jul 27  2005 Desktop
+-rw-rw-r--  1 Student Student  1557 Apr 21 08:12 gtsybrgII.txt
+-rw-rw-r--  1 Student Student   476 Apr 21 07:52 gtysbrg.txt
+-rw-rw-r--  1 Student Student   929 Apr 23 17:03 hw4.bk
+-rw-rw-r--  1 Student Student  4615 Apr 21 08:48 lab3
+drwxrwxr-x  4 Student Student  4096 Apr 21 08:22 letters
+-rw-rw-r--  1 Student Student     0 Apr 24 07:49 pratt.3.II.txt
+lrwxrwxrwx  1 Student Student     1 Apr 23 16:30 report -> /
+drwxrwxr-x  6 Student Student  4096 Apr 21 08:35 reports
+
+./assignments:
+total 0
+
+[7m--More--[m./backups:
+[7m--More--[mtotal 32
+[7m--More--[m-rw-rw-r--  1 Student Student 929 Apr 23 17:58 hw4
+[7m--More--[m-rw-rw-r--  1 Student Student 929 Apr 23 17:58 hw4.bk
+[7m--More--[m-rw-rw-r--  1 Student Student 929 Apr 23 17:58 hw4HL
+[7m--More--[m-rw-rw-r--  1 Student Student 929 Apr 23 17:58 hw4SL
+[7m--More--[m[K
+[7m--More--[m./Desktop:
+[7m--More--[mtotal 0[K
+[7m--More--[m[K
+[7m--More--[m./letters:
+[7m--More--[mtotal 16
+[7m--More--[mdrwxrwxr-x  2 Student Student 4096 Apr 21 08:22 formal
+[7m--More--[mdrwxrwxr-x  2 Student Student 4096 Apr 21 08:22 friendly
+[7m--More--[m[K
+[7m--More--[m./letters/formal:
+[7m--More--[mtotal 0[K
+[7m--More--[m[K
+[7m--More--[m./letters/friendly:
+[7m--More--[mtotal 0[K
+[7m--More--[m[K
+[7m--More--[m./reports:
+[7m--More--[mtotal 32
+[7m--More--[mdrwxrwxr-x  3 Student Student 4096 Apr 21 08:35 assignments
+[7m--More--[mdrwxrwxr-x  2 Student Student 4096 Apr 21 08:33 business
+[7m--More--[mdrwxrwxr-x  2 Student Student 4096 Apr 21 08:33 personal
+[7m--More--[mdrwxrwxr-x  2 Student Student 4096 Apr 21 08:33 school
+[7m--More--[m[K
+./reports/assignments:
+total 8
+drwxrwxr-x  4 Student Student 4096 Apr 24 07:51 UNIX
+
+./reports/assignments/UNIX:
+total 44
+-rw-rw-r--  1 Student Student  929 Apr 23 18:13 hw4
+-rw-rw-r--  1 Student Student  929 Apr 24 07:51 hw4.bk
+-rw-rw-r--  1 Student Student  929 Apr 23 17:00 hw4HL
+lrwxrwxrwx  1 Student Student   17 Apr 23 17:08 hw4SL -> /home/Student/hw4
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:37 HWs
+drwxrwxr-x  2 Student Student 4096 Apr 21 08:38 Projects
+
+./reports/assignments/UNIX/HWs:
+total 0
+
+./reports/assignments/UNIX/Projects:
+total 0
+
+./reports/business:
+total 0
+
+[7m--More--[m./reports/personal:
+total 0
+
+./reports/school:
+total 0
+]0;Student@localhost:~[Student@localhost ~]$  [Kcd reports/assignments/UNIX
+]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ pwd
+/home/Student/reports/assignments/UNIX
+]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ ln ~/hw4 hw4HL
+ln: accessing `/home/Student/hw4': No such file or directory
+]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ ln ~/reports/assignments/UNIX/h[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls ~
+[00m[00;34massignments[00m     [00mchap3[00m          [00;34mDesktop[00m        [00mlab3[00m            [00;34mreports[00m
+[00;34mbackups[00m         [00mchap3evenexer[00m  [00mgtsybrgII.txt[00m  [00;34mletters[00m
+[00mchap1exercises[00m  [00mchap3lab2[00m      [00mgtysbrg.txt[00m    [00mpratt.3.II.txt[00m
+[00mchap1oddexer[00m    [00mchap3labII[00m     [00mhw4.bk[00m         [00;36mreport[00m
+[m]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ ls
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [01;05;37;41mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ ln ~[Khw4 hw4HL
+ln: `hw4HL': File exists
+]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ ls
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [01;05;37;41mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ ln hw4 hw4SL
+ln: `hw4SL': File exists
+]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ ls
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [01;05;37;41mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ ls -il
+[00mtotal 44
+1267093 -rw-rw-r--  1 Student Student  929 Apr 23 18:13 [00mhw4[00m
+1266824 -rw-rw-r--  1 Student Student  929 Apr 24 07:51 [00mhw4.bk[00m
+1267087 -rw-rw-r--  1 Student Student  929 Apr 23 17:00 [00mhw4HL[00m
+1267086 lrwxrwxrwx  1 Student Student   17 Apr 23 17:08 [01;05;37;41mhw4SL[00m -> [01;05;37;41m/home/Student/hw4[00m
+1267082 drwxrwxr-x  2 Student Student 4096 Apr 21 08:37 [00;34mHWs[00m
+1267083 drwxrwxr-x  2 Student Student 4096 Apr 21 08:38 [00;34mProjects[00m
+[m]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ ls -l hw*
+[00m-rw-rw-r--  1 Student Student 929 Apr 23 18:13 [00mhw4[00m
+-rw-rw-r--  1 Student Student 929 Apr 24 07:51 [00mhw4.bk[00m
+-rw-rw-r--  1 Student Student 929 Apr 23 17:00 [00mhw4HL[00m
+lrwxrwxrwx  1 Student Student  17 Apr 23 17:08 [01;05;37;41mhw4SL[00m -> [01;05;37;41m/home/Student/hw4[00m
+[m]0;Student@localhost:~/reports/assignments/UNIX[Student@localhost UNIX]$ exit
+
+Script done on Mon 24 Apr 2006 07:59:05 AM EDT

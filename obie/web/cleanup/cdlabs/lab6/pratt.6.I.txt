@@ -1,0 +1,56 @@
+Script started on Thu 27 Apr 2006 04:16:47 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S1F1
+1425	Juan	14.25
+4321	George	3 21.11
+6781	a Anna	16.77
+1451	Ben   Den	21.77
+2277	Tuan	18.77
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch5[K^[K6S1F1
+1425	Juan	14.25
+4321	George	21.11
+6781	Anna	16.77
+1451	Den	21.77
+2277	Tuan	18.77
+]0;Student@localhost:~[Student@localhost ~]$ vi Ch6S1F1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch6S1F1" 5L, 81C[1;1H1425    Juan    14.25
+4321    George  21.11
+6781    Anna    16.77
+1451    Den     21.77
+2277    Tuan    18.77
+[1m[34m~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H2,1[11CAll[2;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H2,1[11CAll[2;1H[?12l[?25h[?25l[3;23r[3;1H[L[1;24r[2;1H[K[3;1H4321    George  21.11[24;63H[K[24;63H3,1[11CAll[3;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[2;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H2,1[11CAll[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;65H2[4;2H[?12l[?25h[?25l[24;65H3[4;3H[?12l[?25h[?25l[24;65H4[4;4H[?12l[?25h[?25l[24;65H5[4;5H[?12l[?25h[?25l[24;65H6-9[4;9H[?12l[?25h[?25l[24;65H7-10[4;10H[?12l[?25h[?25l[24;65H6-9 [4;9H[?12l[?25h[?25lBDen[24;65H7-10[4;10H[?12l[?25h[?25len [?12l[?25h[24;1H[K[4;9H[?25l[24;63H4,6-9[9CAll[4;9H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;2H[K[24;2H[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch6S1F1" 5L, 81C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ sort -n +0 -1 Ch6S1F1 > Ch6S1F1.new
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S1F1.new
+1425	Juan	14.25
+1451	Ben	21.77
+2277	Tuan	18.77
+4321	George	21.11
+6781	Anna	16.77
+]0;Student@localhost:~[Student@localhost ~]$ mv Ch6S1F1.new Ch6S1F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S1F1
+1425	Juan	14.25
+1451	Ben	21.77
+2277	Tuan	18.77
+4321	George	21.11
+6781	Anna	16.77
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6S1F1 Ch6S1F1 | ut[K[Kcut -f1,3,5 > Ch6S1F1.cut
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S1F1.cut
+1425	14.25	Juan
+1451	21.77	Ben
+2277	18.77	Tuan
+4321	21.11	George
+6781	16.77	Anna
+]0;Student@localhost:~[Student@localhost ~]$ mv Ch6S1F1.cut Ch5[K6S1F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S1F1
+1425	14.25	Juan
+1451	21.77	Ben
+2277	18.77	Tuan
+4321	21.11	George
+6781	16.77	Anna
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S1F1.ew[K[Knew
+cat: Ch6S1F1.new: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S1F1.cut
+cat: Ch6S1F1.cut: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 04:23:40 PM EDT

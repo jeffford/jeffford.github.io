@@ -1,0 +1,153 @@
+Script started on Tue 25 Apr 2006 09:09:24 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ more /etc/profile
+# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc
+
+pathmunge () {
+	if ! echo $PATH | /bin/egrep -q "(^|:)$1($|:)" ; then
+	   if [ "$2" = "after" ] ; then
+	      PATH=$PATH:$1
+	   else
+	      PATH=$1:$PATH
+	   fi
+	fi
+}
+
+# Path manipulation
+if [ $EUID = 0 ]; then
+	pathmunge /sbin
+	pathmunge /usr/sbin
+	pathmunge /usr/local/sbin
+fi
+
+pathmunge /usr/X11R6/bin after
+[7m--More--(51%)[m[K
+[7m--More--(51%)[m[K
+[7m--More--(51%)[m# No core files by default
+[7m--More--(55%)[mulimit -S -c 0 > /dev/null 2>&1
+[7m--More--(58%)[m[K
+[7m--More--(59%)[mUSER="`id -un`"
+[7m--More--(60%)[mLOGNAME=$USER
+[7m--More--(62%)[mMAIL="/var/spool/mail/$USER"
+[7m--More--(66%)[m[K
+[7m--More--(66%)[mHOSTNAME=`/bin/hostname`
+[7m--More--(69%)[mHISTSIZE=1000
+[7m--More--(70%)[m[K
+[7m--More--(70%)[mif [ -z "$INPUTRC" -a ! -f "$HOME/.inputrc" ]; then
+[7m--More--(77%)[m    INPUTRC=/etc/inputrc
+[7m--More--(80%)[mfi[K
+[7m--More--(80%)[m[K
+[7m--More--(80%)[mexport PATH USER LOGNAME MAIL HOSTNAME HISTSIZE INPUTRC
+[7m--More--(87%)[m[K
+[7m--More--(87%)[mfor i in /etc/profile.d/*.sh ; do
+[7m--More--(91%)[m    if [ -r "$i" ]; then
+[7m--More--(94%)[m[K    	. $i
+[7m--More--(95%)[m    fi[K
+[7m--More--(96%)[mdone[K
+[7m--More--(97%)[m[K
+[7m--More--(97%)[munset i[K
+[7m--More--(98%)[munset pathmunge
+]0;Student@localhost:~[Student@localhost ~]$ vi /etc/profile
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/profile" [readonly] 49L, 840C[1;1H[34m# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc[m
+
+pathmunge () [35m{[m[7;9H[33mif[m [33m![m [33mecho[m[31m [m[35m$PATH[m[31m [m[33m|[m /bin/egrep [33m-q[m [33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m [33mthen[8;12Hif[m [33m[[m [33m"[m[35m$2[m[33m"[m [33m=[m [33m"[m[31mafter[m[33m"[m [33m][m [33m;[m [33mthen[m[9;15H[36mPATH[m=[35m$PATH[m:[35m$1[m[10;12H[33melse[m[11;15H[36mPATH[m=[35m$1[m:[35m$PATH[m[12;12H[33mfi[13;9Hfi[m
+[35m}[m
+
+[34m# Path manipulation[m
+[33mif[m [33m[[m [35m$EUID[m [33m=[m [31m0[m [33m];[m [33mthen[m[18;9Hpathmunge /sbin[19;9Hpathmunge /usr/sbin[20;9Hpathmunge /usr/local/sbin
+[33mfi[m
+
+pathmunge /usr/X11R6/bin after[24;63H14,1[10CTop[14;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H14,1[10CTop[24;14H[31mW10: Warning: Changing a readonly file[m[24;63H[K[24;63H11,1[10CTop[11;1H[?12l[?25h[?25l[24;64H0[10;1H[?12l[?25h[?25l[24;63H9,1 [9;1H[?12l[?25h[?25l[24;65H2-9[9;9H[?12l[?25h[?25l[24;65H3-10[9;10H[?12l[?25h[?25l[24;65H4-11[9;11H[?12l[?25h[?25l[24;65H5-12[9;12H[?12l[?25h[?25l[24;65H6-13[9;13H[?12l[?25h[?25l[24;65H7-14[9;14H[?12l[?25h[?25l[24;65H8-15[9;15H[?12l[?25h[?25l[24;65H9-16[9;16H[?12l[?25h[?25l[24;65H10-17[9;17H[?12l[?25h[?25l[24;66H1-18[9;18H[?12l[?25h[?25l[24;66H2-19[9;19H[?12l[?25h[?25l[24;66H3-20[9;20H[?12l[?25h[?25l[24;66H4-21[9;21H[?12l[?25h[?25l[24;66H5-22[9;22H[?12l[?25h[?25l[24;66H6-23[9;23H[?12l[?25h[?25l[24;66H7-24[9;24H[?12l[?25h[?25l[24;66H8-25[9;25H[?12l[?25h[?25l[24;66H9-26[9;26H[?12l[?25h[?25l[24;65H20-27[9;27H[?12l[?25h[?25l[24;66H1-28[9;28H[?12l[?25h[?25l$[9;27H[K[24;66H0-27[9;27H[?12l[?25h[?25l[9;26H[K[24;65H19-26[9;26H[?12l[?25h[24;1H[K[9;25H[?25l[24;63H9,18-25[7CTop[9;25H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[1m[37m[41mE45: 'readonly' option is set (add ! to override)[m[13C9,18-25[7CTop[9;25H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ E[Kecho "file cannot be chaned[K[Kged, it is read [K-only!"
+echo "file cannot be changed, it is read-only"calendar"
+> bash: unexpected EOF while looking for matching `"'
+bash: syntax error: unexpected end of file
+]0;Student@localhost:~[Student@localhost ~]$ alias
+alias l.='ls -d .* --color=tty'
+alias ll='ls -l --color=tty'
+alias ls='ls --color=tty'
+alias vi='vim'
+alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
+]0;Student@localhost:~[Student@localhost ~]$ more .bashrc
+# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+]0;Student@localhost:~[Student@localhost ~]$ cp .bashrc .bashrc.[Kbak[K[K[K.bk
+]0;Student@localhost:~[Student@localhost ~]$ ls -l
+[00mtotal 120
+drwxr-xr-x  2 Student Student  4096 Apr 25 12:51 [00;34mDesktop[00m
+-rw-rw-r--  1 Student Student    24 Apr 25 12:22 [00mfile1[00m
+-rw-rw-r--  1 Student Student    93 Apr 25 12:39 [00mfile2[00m
+-rw-rw-r--  1 Student Student   833 Apr 25 12:12 [00mlpr[00m
+-rw-rw-r--  1 Student Student  1555 Apr 21 12:10 [00mmoeller2edit.txt[00m
+-rw-rw-r--  1 Student Student  4638 Apr 23 22:15 [00mmoeller.2.III.txt[00m
+-rw-rw-r--  1 Student Student 19671 Apr 23 21:07 [00mmoeller.2.II.txt[00m
+-rw-rw-r--  1 Student Student  1656 Apr 23 20:35 [00mmoeller.2.I.txt[00m
+-rw-rw-r--  1 Student Student 12217 Apr 24 12:11 [00mmoeller.2.IV.txt[00m
+-rw-rw-r--  1 Student Student  6728 Apr 24 16:47 [00mmoeller.4.II.txt[00m
+-rw-rw-r--  1 Student Student  8897 Apr 24 12:49 [00mmoeller.4.I.txt[00m
+-rw-rw-r--  1 Student Student 10115 Apr 24 17:50 [00mmoeller.5.II.txt[00m
+-rw-rw-r--  1 Student Student  2746 Apr 24 17:24 [00mmoeller.5.I.txt[00m
+-rw-rw-r--  1 Student Student  5766 Apr 25 12:47 [00mmoeller.5.IV.txt[00m
+-rw-rw-r--  1 Student Student  4096 Apr 25 21:10 [00mmoeller.5.VI.txt[00m
+-rw-rw-r--  1 Student Student  1746 Apr 25 21:06 [00mmoeller.5.V.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -l .bas#[K*
+[00m-rw-------  1 Student Student 10985 Apr 25 21:09 [00m.bash_history[00m
+-rw-r--r--  1 Student Student    24 Jul 27  2005 [00m.bash_logout[00m
+-rw-r--r--  1 Student Student   191 Jul 27  2005 [00m.bash_profile[00m
+-rw-r--r--  1 Student Student   124 Jul 27  2005 [00m.bashrc[00m
+-rw-r--r--  1 Student Student   159 Apr 25 20:53 [00m.bashrc.bak[00m
+-rw-r--r--  1 Student Student   124 Apr 25 21:22 [00m.bashrc.bk[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ vi .bashrc
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".bashrc" 8L, 124C[1;1H[34m# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions[m
+[33mif[m [33m[[m [33m-f[m /etc/bashrc [33m];[m [33mthen
+        . [m/etc/bashrc
+[33mfi[m
+[1m[34m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;65H2[8;2H[?12l[?25h[?25l[24;65H3[8;3H[?12l[?25h[?25l[9;1H[K[24;63H9,1[9;1H[?12l[?25h[?25l[10;1H[K[24;63H10,1[10;1H[?12l[?25h[?25la[24;66H2[10;2H[?12l[?25h[?25ll[24;66H3[10;3H[?12l[?25h[?25li[24;66H4[10;4H[?12l[?25h[?25la[24;66H5[10;5H[?12l[?25h[?25l[33malias[m[24;66H6[10;6H[?12l[?25h[?25l[24;66H7[10;7H[?12l[?25h[?25l[33m [m[36mm[m[24;66H8[10;8H[?12l[?25h[?25l[36mo[m[24;66H9[10;9H[?12l[?25h[?25l[36mr[m[24;66H10[10;10H[?12l[?25h[?25l[36me[m[24;67H1[10;11H[?12l[?25h[?25l[36mi[m[24;67H2[10;12H[?12l[?25h[?25l[36mn[m[24;67H3[10;13H[?12l[?25h[?25l[36mf[m[24;67H4[10;14H[?12l[?25h[?25l[36mo[m[24;67H5[10;15H[?12l[?25h[?25l[36mr[m[24;67H6[10;16H[?12l[?25h[?25l[10;15H[K[24;67H5[10;15H[?12l[?25h[?25l[10;14H[K[24;67H4[10;14H[?12l[?25h[?25l[10;13H[K[24;67H3[10;13H[?12l[?25h[?25l[10;12H[K[24;67H2[10;12H[?12l[?25h[?25l[10;11H[K[24;67H1[10;11H[?12l[?25h[?25l[10;10H[K[24;67H0[10;10H[?12l[?25h[?25l[10;9H[K[24;66H9 [10;9H[?12l[?25h[?25l[10;8H[K[24;66H8[10;8H[?12l[?25h[?25l [10;7H[K[24;66H7[10;7H[?12l[?25h[?25l[33m [m[36md[m[24;66H8[10;8H[?12l[?25h[?25l [10;7H[K[24;66H7[10;7H[?12l[?25h[?25l[24;66H8[10;8H[?12l[?25h[?25l[24;66H7[10;7H[?12l[?25h[?25l[33m [m[36mk[m[24;66H8[10;8H[?12l[?25h[?25l [10;7H[K[24;66H7[10;7H[?12l[?25h[?25l[33m [m[36me[m[24;66H8[10;8H[?12l[?25h[?25l [10;7H[K[24;66H7[10;7H[?12l[?25h[?25l[33m [m[36md[m[24;66H8[10;8H[?12l[?25h[?25l[36mi[m[24;66H9[10;9H[?12l[?25h[?25l[36mr[m[24;66H10[10;10H[?12l[?25h[?25l[36mm[m[24;67H1[10;11H[?12l[?25h[?25l[36mo[m[24;67H2[10;12H[?12l[?25h[?25l[36mr[m[24;67H3[10;13H[?12l[?25h[?25l[36me[m[24;67H4[10;14H[?12l[?25h[?25l[33m=[m[24;67H5[10;15H[?12l[?25h[?25lm[24;67H6[10;16H[?12l[?25h[?25lo[24;67H7[10;17H[?12l[?25h[?25l[10;16H[K[24;67H6[10;16H[?12l[?25h[?25l[10;15H[K[24;67H5[10;15H[?12l[?25h[?25l[33m"[m[24;67H6[10;16H[?12l[?25h[?25l[10;15H[K[24;67H5[10;15H[?12l[?25h[?25l[33m'[m[24;67H6[10;16H[?12l[?25h[?25l[31mm[m[24;67H7[10;17H[?12l[?25h[?25l[31mo[m[24;67H8[10;18H[?12l[?25h[?25l[31mr[m[24;67H9[10;19H[?12l[?25h[?25l[31me[m[24;66H20[10;20H[?12l[?25h[?25l[33m'[m[24;67H1[10;21H[?12l[?25h[?25l[11;1H[K[24;64H1,1 [11;1H[?12l[?25h[?25la[24;66H2[11;2H[?12l[?25h[?25ll[24;66H3[11;3H[?12l[?25h[?25li[24;66H4[11;4H[?12l[?25h[?25la[24;66H5[11;5H[?12l[?25h[?25l[33malias[m[24;66H6[11;6H[?12l[?25h[?25l[24;66H7[11;7H[?12l[?25h[?25l[33m [m[36ml[m[24;66H8[11;8H[?12l[?25h[?25l[36mi[m[24;66H9[11;9H[?12l[?25h[?25l[36me[m[24;66H10[11;10H[?12l[?25h[?25l[36ms[m[24;67H1[11;11H[?12l[?25h[?25l[36mt[m[24;67H2[11;12H[?12l[?25h[?25l[11;11H[K[24;67H1[11;11H[?12l[?25h[?25l[11;10H[K[24;67H0[11;10H[?12l[?25h[?25l[11;9H[K[24;66H9 [11;9H[?12l[?25h[?25l[36ms[m[24;66H10[11;10H[?12l[?25h[?25l[36mt[m[24;67H1[11;11H[?12l[?25h[?25l[24;67H2[11;12H[?12l[?25h[?25l[33m=[m[24;67H3[11;13H[?12l[?25h[?25l[24;67H4[11;14H[?12l[?25h[?25l[33m'[m[24;67H5[11;15H[?12l[?25h[?25l[11;14H[K[24;67H4[11;14H[?12l[?25h[?25l[24;67H3[11;13H[?12l[?25h[?25l[33m'[m[24;67H4[11;14H[?12l[?25h[?25l[31ml[m[24;67H5[11;15H[?12l[?25h[?25l[31ms[m[24;67H6[11;16H[?12l[?25h[?25l[33m'[m[24;67H7[11;17H[?12l[?25h[?25l[12;1H[K[24;64H2,1 [12;1H[?12l[?25h[24;1H[K[12;1H[?25l[24;63H12,0-1[8CAll[12;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".bashrc" 12L, 164C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ dirmore .bashrc
+bash: dirmore: command not found
+]0;Student@localhost:~[Student@localhost ~]$ source .bashrc
+bash: alias: list: not found
+bash: alias: =ls: not found
+]0;Student@localhost:~[Student@localhost ~]$ vi .bashrc
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".bashrc" 12L, 164C[1;1H[34m# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions[m
+[33mif[m [33m[[m [33m-f[m /etc/bashrc [33m];[m [33mthen
+        . [m/etc/bashrc
+[33mfi
+
+alias [m[36mdirmore[m[33m='[m[31mmore[m[33m'
+alias [m[36mlist[m [33m='[m[31mls[m[33m'[m
+
+[1m[34m~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H12,0-1[8CAll[12;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H12,1[10CAll[12;1H[?12l[?25h[?25l[24;64H1[11;1H[?12l[?25h[?25l[24;66H2[11;2H[?12l[?25h[?25l[24;66H3[11;3H[?12l[?25h[?25l[24;66H4[11;4H[?12l[?25h[?25l[24;66H5[11;5H[?12l[?25h[?25l[24;66H6[11;6H[?12l[?25h[?25l[24;66H7[11;7H[?12l[?25h[?25l[24;66H8[11;8H[?12l[?25h[?25l[24;66H9[11;9H[?12l[?25h[?25l[24;66H10[11;10H[?12l[?25h[?25l[24;67H1[11;11H[?12l[?25h[?25l[24;67H2[11;12H[?12l[?25h[?25l[33m='[m[31mls[m[33m'[m[11;16H[K[24;67H1[11;11H[?12l[?25h[?25l[24;67H0[11;10H[?12l[?25h[?25l[24;66H9 [11;9H[?12l[?25h[?25l[24;66H8[11;8H[?12l[?25h[?25l[24;66H7[11;7H[?12l[?25h[?25l[24;66H6[11;6H[?12l[?25h[?25l[24;64H0[10;6H[?12l[?25h[?25l[24;63H9,1 [9;1H[?12l[?25h[?25l[8;23r[23;1H
+[1;24r[8;1H[33mfi[m[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H8,3[11CAll[8;3H[?12l[?25h[?25l[24;63H9[9;3H[?12l[?25h[?25l[24;63H10,3[10;3H[?12l[?25h[?25l[24;64H1,1[11;1H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;64H0,16[10;16H[?12l[?25h[24;1H[K[10;15H[?25l[24;63H10,15[9CAll[10;15H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".bashrc" 10L, 161C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ source .basch[K[Khrc
+]0;Student@localhost:~[Student@localhost ~]$ list 
+[00m[00;34mDesktop[00m  [00mmoeller2edit.txt[00m   [00mmoeller.2.IV.txt[00m  [00mmoeller.5.I.txt[00m
+[00mfile1[00m    [00mmoeller.2.III.txt[00m  [00mmoeller.4.II.txt[00m  [00mmoeller.5.IV.txt[00m
+[00mfile2[00m    [00mmoeller.2.II.txt[00m   [00mmoeller.4.I.txt[00m   [00mmoeller.5.VI.txt[00m
+[00mlpr[00m      [00mmoeller.2.I.txt[00m    [00mmoeller.5.II.txt[00m  [00mmoeller.5.V.txt[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ mv .bashrc.bk .bashrc
+]0;Student@localhost:~[Student@localhost ~]$ more .bash_logu[Kout
+# ~/.bash_logout
+
+clear
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 25 Apr 2006 09:35:49 PM EDT

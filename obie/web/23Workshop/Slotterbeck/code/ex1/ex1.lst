@@ -1,0 +1,225 @@
+   1 main ex1
+	include    	
+   2 
+   3 int parallel aa[$], bb[$], cc[$];
+	shape_    	4096,1,1 1,0,0
+	main    	EX1
+	ident    	
+	temp_fxsc    	STMP$, 48, 0, 0, 16, CS$
+	entry_    	STMP$
+	temp_flsc    	SFTMP$, 61, 0, 8, 24, CS$
+	entry_    	SFTMP$
+	decl_fxsc    	OUTBF$, 7200, 0, 0, 16, CS$
+	entry_    	OUTBF$
+	decl_fxpa    	STACK$, 32, 0, 0, 32, CS$
+	entry_    	STACK$
+	decl_fxsc    	host_stack$, 1, 0, 0, 16, CS$
+	entry_    	host_stack$
+	temp_fxpa    	IPTMP$, 16, 16, 0, 16, CS$
+	temp_flpa    	RPTMP$, 15, 32, 8, 24, CS$
+	temp_lgpa    	LPTMP$, 17, 1, 0, 1, CS$
+	temp_lipa    	LITMP$, 5, 32, 0, 32, CS$
+	decl_lgpa    	TRUE$, 1, 1, 0, 1, CS$
+	decl_lgpa    	FALSE$, 1, 1, 0, 1, CS$
+	decl_lgpa    	IOMASK, 1, 1, 0, 1, CS$
+	decl_fxcn    	C10D$, 1, 10, 0, 16
+	entry_    	C10D$
+	decl_fxcn    	C8D$, 1, 8, 0, 16
+	entry_    	C8D$
+	decl_fxcn    	C2D$, 1, 2, 0, 16
+	entry_    	C2D$
+	decl_fxcn    	C1D$, 1, 1, 0, 16
+	entry_    	C1D$
+	decl_fxcn    	C0D$, 1, 0, 0, 16
+	entry_    	C0D$
+	decl_fxcn    	C16D$, 1, 16, 0, 16
+	entry_    	C16D$
+	decl_fxcn    	C48D$, 1, 48, 0, 16
+	entry_    	C48D$
+	decl_fxcn    	C45D$, 1, 45, 0, 16
+	entry_    	C45D$
+	decl_fxcn    	C32D$, 1, 32, 0, 16
+	entry_    	C32D$
+	decl_lgpa    	THEM, 1, 1, 0, 1, CS$
+	decl_fxpa    	LEX$, 1, 96, 0, 96, CS$
+	decl_fxpa    	LEX_VAL$, 1, 96, 0, 96, CS$
+	decl_lgpa    	LEX_BI$, 1, 1, 0, 1, CS$
+	decl_lgpa    	GLOBAL_BI$, 1, 1, 0, 1, CS$
+	decl_lgpa    	THEIR, 1, 1, 0, 1, CS$
+	decl_lgpa    	ITS, 1, 1, 0, 1, CS$
+	decl_lgpa    	THE, 1, 1, 0, 1, CS$
+	decl_lgpa    	AN, 1, 1, 0, 1, CS$
+	decl_lgpa    	A, 1, 1, 0, 1, CS$
+	decl_lgpa    	@, 1, 1, 0, 1, CS$
+	decl_fxsc    	PERFORM, 1, 1, 0, 1, CS$
+	decl_fxsc    	PA_PERFORM, 1, 1, 0, 1, CS$
+	decl_fxsc    	SC_PERFORM, 1, 1, 0, 1, CS$
+	decl_fxsc    	HANDLE$, 2, 0, 0, 16, CS$
+	decl_fxpa    	AA, 1, 16, 0, 16, CS$
+	decl_fxpa    	BB, 1, 16, 0, 16, CS$
+	decl_fxpa    	CC, 1, 16, 0, 16, CS$
+   4 index parallel xx[$], bi[$];
+	decl_lgpa    	XX, 1, 1, 0, 1, CS$
+	decl_lgpa    	BI, 1, 1, 0, 1, CS$
+   5 real parallel dd[$];
+	decl_flpa    	DD, 1, 32, 8, 24, CS$
+   6 int scalar summ;
+	decl_fxsc    	SUMM, 1, 0, 0, 16, CS$
+	entry_    	SUMM
+   7 
+   8 /* note how cc is input */
+   9 read aa[$], bb[$], cc[$] in bi[$];
+	clr_array    	
+	alloc_    	THE
+	init_stack    	
+	beg_of_stmt     	9, 0
+  10 msg "Dump iput: ";
+	beg_read    	SYSOT, BI, AA,BB,CC,
+	mvsc_fxsc    	C0D$, STMP$+0
+	mvsc_fxsc    	C0D$, STMP$+1
+	loop_    	PT$S1
+	read_ln    	SYSIN, STMP$+1, PT$R1
+	until_sc    	STMP$+1, PT$E1
+	read_fxpa    	OUTBF$,C0D$, STMP$+0, 16, PT$R1
+	decl_fxcn    	C2400D$, 1, 2400, 0, 16
+	entry_    	C2400D$
+	read_fxpa    	OUTBF$,C2400D$, STMP$+0, 16, PT$R1
+	decl_fxcn    	C4800D$, 1, 4800, 0, 16
+	entry_    	C4800D$
+	read_fxpa    	OUTBF$,C4800D$, STMP$+0, 16, PT$R1
+	addfxsc    	STMP$+0, C1D$, STMP$+0
+	endloop    	PT$E1, PT$S1
+	gtfxsc    	STMP$+0, C2400D$, STMP$+1
+	if_sc    	STMP$+1, PT$N1
+	msg    	SYSOT, ERROR - I/O BUFFER OVERFLOW ON READ - SOME DATA OVERWRITTEN.
+	else_sc    	PT$F1, PT$N1
+	endif_sc    	PT$F1
+	ioalloc2    	BI, STMP$+0
+	expandfxpa    	OUTBF$,C0D$, AA, C16D$
+	input_fxpa    	AA, C16D$
+	expandfxpa    	OUTBF$,C2400D$, BB, C16D$
+	input_fxpa    	BB, C16D$
+	expandfxpa    	OUTBF$,C4800D$, CC, C16D$
+	input_fxpa    	CC, C16D$
+	endread_    	
+	beg_of_stmt     	10, 0
+	msg_     	SYSOT, Dump iput: 
+  11 print aa[$], bb[$], cc[$] in bi[$];
+	print_nl    	SYSOT
+	beg_of_stmt     	11, 0
+  12 summ = 0;
+	fstout_    	BI
+	outpt_fxpa    	AA, C16D$
+	colapsefxpa    	OUTBF$,C0D$, STMP$+0, AA, C16D$
+	outpt_fxpa    	BB, C16D$
+	colapsefxpa    	OUTBF$,C2400D$, STMP$+0, BB, C16D$
+	outpt_fxpa    	CC, C16D$
+	colapsefxpa    	OUTBF$,C4800D$, STMP$+0, CC, C16D$
+	beg_print    	SYSOT, BI, AA,BB,CC,
+	gtfxsc    	STMP$+0, C2400D$, STMP$+1
+	if_sc    	STMP$+1, PT$N2
+	msg    	SYSOT, ERROR - I/O BUFFER OVERFLOW ON PRINT - SOME DATA LOST.
+	else_sc    	PT$F2, PT$N2
+	endif_sc    	PT$F2
+	mvsc_fxsc    	C0D$, STMP$+1
+	loop_    	PT$S2
+	gefxsc    	STMP$+1, STMP$+0, STMP$+2
+	until_sc    	STMP$+2, PT$E2
+	sprint_fxpa    	SYSOT, OUTBF$,C0D$, STMP$+1, CS$
+	print_del    	SYSOT
+	sprint_fxpa    	SYSOT, OUTBF$,C2400D$, STMP$+1, CS$
+	print_del    	SYSOT
+	sprint_fxpa    	SYSOT, OUTBF$,C4800D$, STMP$+1, CS$
+	print_del    	SYSOT
+	print_nl    	SYSOT
+	addfxsc    	STMP$+1, C1D$, STMP$+1
+	endloop    	PT$E2, PT$S2
+	endprint    	
+	beg_of_stmt     	12, 0
+	mvsc_fxsc    	C0D$, SUMM
+  13 while xx in aa[$] .eq. 2
+	beg_of_stmt     	13, 0
+	setscope    	WI$S1
+	begwhile    	WI$R1
+  14   summ = summ + bb[xx];
+	eq_fxcr    	AA, C2D$, LPTMP$+0
+	mvpa_lgpa    	LPTMP$+0, THEM
+	while    	LPTMP$+0, XX, WI$E1
+	mvpa_lgpa    	XX, ITS
+	beg_of_stmt     	14, 0
+	mvpa_fx    	BB, STMP$+0, XX, C16D$
+	mvsc_lgmm    	THE, STMP$+0, BB
+	add_1fx    	SUMM, STMP$+0, STMP$+1
+	mvsc_fxsc    	STMP$+1, SUMM
+  15     if cc[xx] .eq. 1 .and. aa[$] .eq. 2 then
+	beg_of_stmt     	15, 0
+	begif    	IF$S1
+	mvpa_fx    	CC, STMP$+0, XX, C16D$
+	mvsc_lgmm    	THE, STMP$+0, CC
+	eq_fx    	STMP$+0, C1D$, STMP$+1
+	eq_fxcr    	AA, C2D$, LPTMP$+0
+	and_lg    	STMP$+1, LPTMP$+0, LPTMP$+1
+	mvpa_lgpa    	LPTMP$+1, THEM
+  16        aa[$] = 5;
+	if_pa    	LPTMP$+1, ELS$1
+	beg_of_stmt     	16, 0
+	decl_fxcn    	C5D$, 1, 5, 0, 16
+	entry_    	C5D$
+	mvsc_fxpa    	C5D$, AA, C16D$
+  17     else
+	beg_of_stmt     	17, 0
+	label    	ELS$1
+	else_pa    	IF$E1
+  18        aa[xx] = summ;
+	beg_of_stmt     	18, 0
+	resf_pa    	XX, LPTMP$+0
+	mvsc_fxmm    	LPTMP$+0, SUMM, AA
+  19     endif;
+	beg_of_stmt     	19, 0
+	endif_pa    	IF$E1
+  20 endwhile xx;
+	beg_of_stmt     	20, 0
+	endwhile    	WI$E1, WI$R1
+  21 msg "summ=" summ;
+	beg_of_stmt     	21, 0
+	msg_     	SYSOT, summ=
+	dump_fxsc    	SYSOT, SUMM, CS$
+  22 print aa[$], bb[$], cc[$] in bi[$];
+	print_nl    	SYSOT
+	beg_of_stmt     	22, 0
+  23 
+  24 end;
+	fstout_    	BI
+	outpt_fxpa    	AA, C16D$
+	colapsefxpa    	OUTBF$,C0D$, STMP$+0, AA, C16D$
+	outpt_fxpa    	BB, C16D$
+	colapsefxpa    	OUTBF$,C2400D$, STMP$+0, BB, C16D$
+	outpt_fxpa    	CC, C16D$
+	colapsefxpa    	OUTBF$,C4800D$, STMP$+0, CC, C16D$
+	beg_print    	SYSOT, BI, AA,BB,CC,
+	gtfxsc    	STMP$+0, C2400D$, STMP$+1
+	if_sc    	STMP$+1, PT$N3
+	msg    	SYSOT, ERROR - I/O BUFFER OVERFLOW ON PRINT - SOME DATA LOST.
+	else_sc    	PT$F3, PT$N3
+	endif_sc    	PT$F3
+	mvsc_fxsc    	C0D$, STMP$+1
+	loop_    	PT$S3
+	gefxsc    	STMP$+1, STMP$+0, STMP$+2
+	until_sc    	STMP$+2, PT$E3
+	sprint_fxpa    	SYSOT, OUTBF$,C0D$, STMP$+1, CS$
+	print_del    	SYSOT
+	sprint_fxpa    	SYSOT, OUTBF$,C2400D$, STMP$+1, CS$
+	print_del    	SYSOT
+	sprint_fxpa    	SYSOT, OUTBF$,C4800D$, STMP$+1, CS$
+	print_del    	SYSOT
+	print_nl    	SYSOT
+	addfxsc    	STMP$+1, C1D$, STMP$+1
+	endloop    	PT$E3, PT$S3
+	endprint    	
+	beg_of_stmt     	24, 0
+	label_    	$EXIT$
+	stop_    	
+	endmain    	EX1
+  25 
+  26 
+  27 ÿ

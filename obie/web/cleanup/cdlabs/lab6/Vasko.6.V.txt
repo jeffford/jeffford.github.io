@@ -1,0 +1,125 @@
+Script started on Thu 27 Apr 2006 05:20:11 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch[K[K<Ch6S4S[KF1 > S[KCh6S5F1
+]0;Student@localhost:~[Student@localhost ~]$ cat < [K[K> Ch6[K6S5F2
+1420	12.56	45
+2456	14.56
+^[[A^[[D        ]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S5F2
+1420	12.56	45
+25 456	14.56	22
+2341	45.12. 	24  34
+12 322	23.56	28
+1443	23.23	29  19
+2351	67.90	56
+23  3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ cat[K[K[Kcat > Ch6S5F2[1P Ch6S5F2
+1420	12.56	45
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3467	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ sort '[K-n file[K[K[K[K_[K+0 -1 Ch6S5f[KF1 | sort -n +0 -1 Ch6s[KSf[K5F1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 | sort -n +0 -1 Ch6S5F1[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 [4h [4l[4h>[4l[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > [4h [4l[4hb[4l[4hl[4l[4ha[4l[4hh[4l[4h1[4l[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 [Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 |[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | [Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | s[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | so[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sor[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort [Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n [Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +0[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +0 [Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +0 -[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +0 -1[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +0 -1 [Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +0 -1 C[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +0 -1 Ch[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +0 -1 Ch6[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +0 -1 Ch6S[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +0 -1 Ch6S5[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +0 -1 Ch6S5F[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > blah1 | sort -n +0 -1 Ch6S5F1 > b lah2
+]0;Student@localhost:~[Student@localhost ~]$ cat blah1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat blah2
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat blah1 > Ch6S5F3 | cat Bla[K[K[Kblah2 >>[K> Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F3
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat [K blah1 blah2 > Ch6S5S[KF3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S5F3
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ pas[K[K[Kpaste blah1 >[K-f1 Ch[K[Kch[K[KCh6S[KS5F3 bla[K[K[K[K[K[K[K[K[K[K[Kblah2 -f2 > C[KCh6s[KS5F3
+paste: invalid option -- f
+Try `paste --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ pate [K[K[K[Kaste blah1 blah2 > Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch[K[K[K[K[K[Kpaste blah1 blah2 > Ch6S5F3[4h-f1 blah[4l2 -f[Student@localhost ~]$ paste blah1 -f1 blah2 -f2 > Ch6S5F3[Student@localhost ~]$ cat Ch6S5F3[K
+1122	23.56	28	1122	23.56	28
+1420	12.56	45	1420	12.56	45
+1443	23.23	19	1443	23.23	19
+2341	45.12	34	2341	45.12	34
+2351	67.90	56	2351	67.90	56
+3456	14.56	22	3456	14.56	22
+8001	 7.00	14	8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cut[K[K[Kcat Ch6S5F3[4hpaste blah1 blah[4l2 >[Student@localhost ~]$ paste blah1 blah2 > Ch6S5F3[4h-f1 blah[4l2 -f[Student@localhost ~]$ paste blah1 -f1 blah2 -f2 > Ch6S5F3[Student@localhost ~]$ cat Ch6S5F3[Kblah1 blah2 > Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat blah1 blah2 > Ch6S5F3[14PCh6S5F3
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +0 -2[K1 Ch6SF5F3[K[K[K[KF[K%[K5F3 | uniz[Kq Ch[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kuniz[Kq Ch[K[K[K[K[K[K[Kcat Ch6S5F3[1P[1P[1P Ch6S5F3u Ch6S5F3n Ch6S5F3i Ch6S5F3z Ch6S5F3[1P Ch6S5F3q Ch6S5F3
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ uniq Ch6S5F3[1Pcat[Student@localhost ~]$ cat Ch6S5F3blah1 blah2 > Ch6S5F3[14PCh6S5F3blah1 blah2 > Ch6S5F3[14PCh6S5F3[4hu[4lniq[Student@localhost ~]$ uniq Ch6S5F3[Ksort -n +0 =[K=[K-2[K1 Ch6S5F3 | uniq
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 05:39:16 PM EDT

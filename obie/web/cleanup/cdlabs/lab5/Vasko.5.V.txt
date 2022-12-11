@@ -1,0 +1,57 @@
+Script started on Tue 25 Apr 2006 08:10:13 AM EDT
+]0;student@localhost:~[student@localhost ~]$ first="PART[KENT"
+]0;student@localhost:~[student@localhost ~]$ echo $fist[K[Krst
+PARENT
+]0;student@localhost:~[student@localhost ~]$ bash
+]0;student@localhost:~[student@localhost ~]$ echo $fist[K[Krst
+
+]0;student@localhost:~[student@localhost ~]$ ls -l
+[00mtotal 304
+drwxrwxr-x  3 student student  4096 Apr 24 06:10 [00;34massignments[00m
+drwxrwxr-x  2 student student  4096 Apr 24 06:26 [00;34mbackups[00m
+drwxrwxr-x  3 student student  4096 Apr 24 06:12 [00;34mbusLetters[00m
+drwxrwxrwx  5 student student  4096 Apr 24 17:22 [00;34mchapter_4[00m
+drwxr-xr-x  2 student student  4096 Apr 24 16:05 [00;34mDesktop[00m
+-rw-rw-r--  1 student student    28 Apr 25 07:57 [00mfile1[00m
+-rw-rw-r--  1 student student   156 Apr 25 07:58 [00mfile2[00m
+-rw-rw-r--  1 student student   184 Apr 25 07:43 [00mfile3[00m
+-rw-rw-r--  1 student student    77 Apr 25 07:30 [00mfile3.bak[00m
+-rw-rw-r--  1 student student   106 Apr 25 07:47 [00mfile4[00m
+-rw-rw-r--  1 student student    30 Apr 25 07:47 [00mfile5[00m
+-rw-rw-r--  1 student student   847 Apr 24 06:23 [00mgtsybrgII.txt[00m
+-rw-rw-r--  1 student student   475 Apr 24 06:23 [00mgtsybrg.txt[00m
+-rw-rw-r--  1 student student  1529 Apr 24 06:23 [00mgtysbrg.txt[00m
+-rw-rw-r--  1 student student   274 Apr 24 06:23 [00mhw4[00m
+-rw-rw-r--  1 student student   274 Apr 24 06:23 [00mhw4.bk[00m
+drwxrwxr-x  3 student student  4096 Apr 24 06:11 [00;34mletters[00m
+drwxrwxr-x  5 student student  4096 Apr 24 06:12 [00;34mreports[00m
+-rw-rw-r--  1 student student  1529 Apr 24 06:23 [00mvasko2edit.txt[00m
+-rw-rw-r--  1 student student   803 Apr 24 06:23 [00mVasko.2.IIcont.txt[00m
+-rw-rw-r--  1 student student  5352 Apr 24 06:24 [00mVasko.3.III.txt[00m
+-rw-rw-r--  1 student student 23994 Apr 24 06:24 [00mvasko.3.II.txt[00m
+-rw-rw-r--  1 student student  1728 Apr 24 06:24 [00mvasko.3.I.txt[00m
+-rw-rw-r--  1 student student 24748 Apr 24 06:24 [00mVasko.3.IV.txt[00m
+-rw-rw-r--  1 student student  5638 Apr 24 17:23 [00mVasko.4.II.txt[00m
+-rw-rw-r--  1 student student  9009 Apr 24 17:13 [00mVasko.4.I.txt[00m
+-rw-rw-r--  1 student student 11774 Apr 25 07:47 [00mVasko.5.II.txt[00m
+-rw-rw-r--  1 student student  3445 Apr 24 17:37 [00mVasko.5.I.txt[00m
+-rw-rw-r--  1 student student  3595 Apr 25 08:09 [00mVasko.5.IV.txt[00m
+-rw-rw-r--  1 student student     0 Apr 25 08:10 [00mVasko.5.V.txt[00m
+[m]0;student@localhost:~[student@localhost ~]$ c[Kecho \#5 The [K[K[K[K"Parent [K[Kt" w[KWas not[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/[K\"Part[Kent\" was not printed because the [K[K[K[Konly the dire ctory[Kies and files were exported to the new shell, not the [K[K[K[Kany b[Kvariables.
+#5 "Parent" was not printed because only the directories and files were exported to the new shell, not any variables.
+]0;student@localhost:~[student@localhost ~]$ second="Su[KUBSHELL"
+]0;student@localhost:~[student@localhost ~]$ echo $second
+SUBSHELL
+]0;student@localhost:~[student@localhost ~]$ exit
+exit
+]0;student@localhost:~[student@localhost ~]$ echo $first
+PARENT
+]0;student@localhost:~[student@localhost ~]$ echo \#9 \"PARENT\" was printe [Kd becaus e[K[Ke the f[Kvariable firs t is avali[K[Kilable here[K[K[K[Kin this shell.
+#9 "PARENT" was printed because the variable first is available in this shell.
+]0;student@localhost:~[student@localhost ~]$ echo $second
+
+]0;student@localhost:~[student@localhost ~]$ ecoh[K[Kho \#10 \#S[K[K[K#[K\"SUBSHELL|[K\#[K" [K was not printed because the varib[Kab le was not carried [K[K[K[K[K[K[K[Kcarried to the [K[K[K[Kour login shell weh[K[Khen we exited the subshell that we create d.
+#10 "SUBSHELL" was not printed because the variable was not carried to our login shell when we exited the subshell that we created.
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Tue 25 Apr 2006 08:23:51 AM EDT

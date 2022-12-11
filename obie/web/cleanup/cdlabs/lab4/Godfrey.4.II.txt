@@ -1,0 +1,95 @@
+Script started on Thu 27 Apr 2006 07:56:08 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ umask 113
+]0;Student@localhost:~[Student@localhost ~]$ ls -l
+[00mtotal 88
+drwxrwxr-x  3 Student Student 4096 Apr 24 07:02 [00;34massignments[00m
+drwxrwxr-x  2 Student Student 4096 Apr 25 07:29 [00;34mbackups[00m
+drwxrwxr-x  2 Student Student 4096 Apr 25 08:56 [00;34mbusletters[00m
+drwx------  3 Student Student 4096 Apr 25 17:08 [00;34mchapter_4[00m
+drwxr-xr-x  2 Student Student 4096 Apr 24 08:08 [00;34mDesktop[00m
+drwxrwxr-x  2 Student Student 4096 Apr 25 17:30 [00;34mgarbage[00m
+-rw-rw-r--  1 Student Student 4073 Apr 25 16:28 [00mGodfrey.2.IV.txt[00m
+-rw-rw-r--  1 Student Student    0 Apr 27 07:56 [00mGodfrey.4.I.txt[00m
+-rw-rw-r--  1 Student Student    0 Apr 23 16:41 [00mgrady.ch3.II.txt[00m
+drwxrwxr-x  4 Student Student 4096 Apr 25 16:23 [00;34mletters[00m
+drwxrwxr-x  5 Student Student 4096 Apr 24 06:54 [00;34mreports[00m
+-rw-rw-r--  1 Student Student  389 Apr 24 06:49 [00mtypescript[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ rmdir garbage
+]0;Student@localhost:~[Student@localhost ~]$ cd [K[K[Krm[K[Kmkdir ch[K[K[K[K[K[K[K[Kmkdir chapter_4/session [K_II
+]0;Student@localhost:~[Student@localhost ~]$ ls-[K -l 
+[00mtotal 80
+drwxrwxr-x  3 Student Student 4096 Apr 24 07:02 [00;34massignments[00m
+drwxrwxr-x  2 Student Student 4096 Apr 25 07:29 [00;34mbackups[00m
+drwxrwxr-x  2 Student Student 4096 Apr 25 08:56 [00;34mbusletters[00m
+drwx------  4 Student Student 4096 Apr 27 08:02 [00;34mchapter_4[00m
+drwxr-xr-x  2 Student Student 4096 Apr 24 08:08 [00;34mDesktop[00m
+-rw-rw-r--  1 Student Student 4073 Apr 25 16:28 [00mGodfrey.2.IV.txt[00m
+-rw-rw-r--  1 Student Student    0 Apr 27 07:56 [00mGodfrey.4.I.txt[00m
+-rw-rw-r--  1 Student Student    0 Apr 23 16:41 [00mgrady.ch3.II.txt[00m
+drwxrwxr-x  4 Student Student 4096 Apr 25 16:23 [00;34mletters[00m
+drwxrwxr-x  5 Student Student 4096 Apr 24 06:54 [00;34mreports[00m
+-rw-rw-r--  1 Student Student  389 Apr 24 06:49 [00mtypescript[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cd chapter_4
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ ls -l
+[00mtotal 16
+drwx------  2 Student Student 4096 Apr 25 17:12 [00;34msession_I[00m
+drw-rw-r--  2 Student Student 4096 Apr 27 08:02 [00;34msession_II[00m
+[m]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ chmod u=w
+chmod: too few arguments
+Try `chmod --help' for more information.
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ chmod u-x chapter_4
+chmod: cannot access `chapter_4': No such file or directory
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ cd ~
+]0;Student@localhost:~[Student@localhost ~]$ chmod u-x chapter_4
+]0;Student@localhost:~[Student@localhost ~]$ cd chapter [K/session.II
+bash: cd: chapter/session.II: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cd chapter_4/session.II
+bash: cd: chapter_4/session.II: Permission denied
+]0;Student@localhost:~[Student@localhost ~]$ cd chapter_4
+bash: cd: chapter_4: Permission denied
+]0;Student@localhost:~[Student@localhost ~]$ chom[K[Kmod u=[K+x chapter_4
+]0;Student@localhost:~[Student@localhost ~]$ cd chapter_4
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ cd session.II[K[K[K_ii[K[KII
+bash: cd: session_II: Permission denied
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ ls -l 
+[00mtotal 16
+drwx------  2 Student Student 4096 Apr 25 17:12 [00;34msession_I[00m
+drw-rw-r--  2 Student Student 4096 Apr 27 08:02 [00;34msession_II[00m
+[m]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ cd ~
+]0;Student@localhost:~[Student@localhost ~]$ ls l[K-l
+[00mtotal 80
+drwxrwxr-x  3 Student Student 4096 Apr 24 07:02 [00;34massignments[00m
+drwxrwxr-x  2 Student Student 4096 Apr 25 07:29 [00;34mbackups[00m
+drwxrwxr-x  2 Student Student 4096 Apr 25 08:56 [00;34mbusletters[00m
+drwx------  4 Student Student 4096 Apr 27 08:02 [00;34mchapter_4[00m
+drwxr-xr-x  2 Student Student 4096 Apr 24 08:08 [00;34mDesktop[00m
+-rw-rw-r--  1 Student Student 4073 Apr 25 16:28 [00mGodfrey.2.IV.txt[00m
+-rw-rw-r--  1 Student Student    0 Apr 27 07:56 [00mGodfrey.4.I.txt[00m
+-rw-rw-r--  1 Student Student    0 Apr 23 16:41 [00mgrady.ch3.II.txt[00m
+drwxrwxr-x  4 Student Student 4096 Apr 25 16:23 [00;34mletters[00m
+drwxrwxr-x  5 Student Student 4096 Apr 24 06:54 [00;34mreports[00m
+-rw-rw-r--  1 Student Student  389 Apr 24 06:49 [00mtypescript[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cd chapter_4
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ cd si[Kession_II
+bash: cd: session_II: Permission denied
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ cho[Kmod u+x session_II
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ cd session_II
+]0;Student@localhost:~/chapter_4/session_II[Student@localhost session_II]$ mkdir [K[K[K[K[K[Kcd ~
+]0;Student@localhost:~[Student@localhost ~]$ ls -l
+[00mtotal 84
+drwxrwxr-x  3 Student Student 4096 Apr 24 07:02 [00;34massignments[00m
+drwxrwxr-x  2 Student Student 4096 Apr 25 07:29 [00;34mbackups[00m
+drwxrwxr-x  2 Student Student 4096 Apr 25 08:56 [00;34mbusletters[00m
+drwx------  4 Student Student 4096 Apr 27 08:02 [00;34mchapter_4[00m
+drwxr-xr-x  2 Student Student 4096 Apr 24 08:08 [00;34mDesktop[00m
+-rw-rw-r--  1 Student Student 4073 Apr 25 16:28 [00mGodfrey.2.IV.txt[00m
+-rw-rw-r--  1 Student Student 4096 Apr 27 08:12 [00mGodfrey.4.I.txt[00m
+-rw-rw-r--  1 Student Student    0 Apr 23 16:41 [00mgrady.ch3.II.txt[00m
+drwxrwxr-x  4 Student Student 4096 Apr 25 16:23 [00;34mletters[00m
+drwxrwxr-x  5 Student Student 4096 Apr 24 06:54 [00;34mreports[00m
+-rw-rw-r--  1 Student Student  389 Apr 24 06:49 [00mtypescript[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ more 
+usage: more [-dflpcsu] [+linenum | +/pattern] name1 name2 ...
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 08:15:43 AM EDT

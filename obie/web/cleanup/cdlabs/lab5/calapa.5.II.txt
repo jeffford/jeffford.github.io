@@ -1,0 +1,86 @@
+Script started on Wed 26 Apr 2006 04:21:46 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ who > file1
+]0;Student@localhost:~[Student@localhost ~]$ more file1
+Student  :0           Apr 26 16:20
+Student  pts/1        Apr 26 16:21 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ date who[K[K[K[K[K[K[K[Kwho > file2 date
+]0;Student@localhost:~[Student@localhost ~]$ who > file2 date[K[K[K[K[4hd[4l[4ha[4l[4ht[4l[4he[4l[4h [4l
+date: invalid date `who'
+]0;Student@localhost:~[Student@localhost ~]$ ([K(who > file2) date
+bash: syntax error near unexpected token `date'
+]0;Student@localhost:~[Student@localhost ~]$ date && who > file2
+Wed Apr 26 16:27:30 EDT 2006
+]0;Student@localhost:~[Student@localhost ~]$ more file2
+Student  :0           Apr 26 16:20
+Student  pts/1        Apr 26 16:21 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ who > date > file3
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Student  :0           Apr 26 16:20
+Student  pts/1        Apr 26 16:21 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ date > who > file3
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Wed Apr 26 16:28:58 EDT 2006
+]0;Student@localhost:~[Student@localhost ~]$ who > file3 &> who[K[K[K[K[K[Kdate > file3
+]0;Student@localhost:~[Student@localhost ~]$ rm file3
+]0;Student@localhost:~[Student@localhost ~]$ who > file3 date &> file3
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+]0;Student@localhost:~[Student@localhost ~]$ more file3[4hwho > file3 dat[4le &>[Student@localhost ~]$ who > file3 date &> file3[1P[Student@localhost ~]$ who > file3 date >> file3[4h;[4l
+]0;Student@localhost:~[Student@localhost ~]$ \[Kmore file3
+Student  :0           Apr 26 16:20
+Student  pts/1        Apr 26 16:21 (:0.0)
+Wed Apr 26 16:32:17 EDT 2006
+]0;Student@localhost:~[Student@localhost ~]$ more file3[4hwho > file3; dat[4le >>[Student@localhost ~]$ who > file3; date >> file3[K[Ke3[Student@localhost ~]$ who > file3; dat[1P[1P[1P[1P[4hw[4l[4hh[4l[4ho[4l[Student@localhost ~]$ who[1P[1P[1P[4hd[4l[4ha[4l[4ht[4l[4he[4l
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Wed Apr 26 16:33:06 EDT 2006
+Student  :0           Apr 26 16:20
+Student  pts/1        Apr 26 16:21 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ who (date > file4)
+bash: syntax error near unexpected token `date'
+]0;Student@localhost:~[Student@localhost ~]$ who; date > file4
+Student  :0           Apr 26 16:20
+Student  pts/1        Apr 26 16:21 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file4
+Wed Apr 26 16:37:08 EDT 2006
+]0;Student@localhost:~[Student@localhost ~]$ cp file3 file3.bak
+]0;Student@localhost:~[Student@localhost ~]$ cp file3 file3.bak[8Pmore file4[4hwho; da[4lte >[Student@localhost ~]$ who; date > file4 (date > file4)[8Pmore file3[4hdate > file3; wh[4lo >>[Student@localhost ~]$ date > file3; who >> file3[1P[4hb[4l
+bash: bate: command not found
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Student  :0           Apr 26 16:20
+Student  pts/1        Apr 26 16:21 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3.bak
+Wed Apr 26 16:33:06 EDT 2006
+Student  :0           Apr 26 16:20
+Student  pts/1        Apr 26 16:21 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3.bak[K[4hbate > file3; wh[4lo >>[Student@localhost ~]$ bate > file3; who >> file3[1P[1P[1P[4hb[4l[4ha[4l[4ht[4l[4he[4l[1P[1P[1P[1P[4hw[4l[4hh[4l[4ho[4l
+bash: bate: command not found
+]0;Student@localhost:~[Student@localhost ~]$ who > file3; bate >> file3[Student@localhost ~]$ [12Pmore file3.bak[K[4hbate > file3; wh[4lo >>[Student@localhost ~]$ bate > file3; who >> file3[4h"[4l[4h"[4l
+bash: bate: command not found
+]0;Student@localhost:~[Student@localhost ~]$ "bate" > file3; who >> file3[Student@localhost ~]$ [2Pwho > file3; bate[Student@localhost ~]$ who > file3; bate >> file3[Student@localhost ~]$ [4h"b[4late" > file3; who[Student@localhost ~]$ "bate" > file3; who >> file3[Student@localhost ~]$ [2Pwho > file3; bate[Student@localhost ~]$ who > file3; bate >> file3[Student@localhost ~]$ [12Pmore file3.bak[K[4hbate > file3; wh[4lo >>[Student@localhost ~]$ bate > file3; who >> file3[Student@localhost ~]$ [8Pcp file3 file3.bakbate > file3; who >> file3[Student@localhost ~]$ [16Pmore[Student@localhost ~]$ more file3.bakwho > file3; bate >> file3[Student@localhost ~]$ [4h"b[4late" > file3; who[Student@localhost ~]$ "bate" > file3; who >> file3[Student@localhost ~]$ [K"bate" > file3; who >> file3[Student@localhost ~]$ [K"bate" > file3; who >> file3[Student@localhost ~]$ [2Pwho > file3; bate[Student@localhost ~]$ who > file3; bate >> file3[Student@localhost ~]$ [12Pmore file3.bak[K[4hbate > file3; wh[4lo >>[Student@localhost ~]$ bate > file3; who >> file3[Student@localhost ~]$ [8Pcp file3 file3.bak[8Pmore file4[4hwho; da[4lte >[Student@localhost ~]$ who; date > file4 (date > file4)[1P; date > file4[7Pmore[Student@localhost ~]$ more file4cp file3 file3.bakbate > file3; who >> file3[Student@localhost ~]$ [16Pmore[Student@localhost ~]$ more file3.bakwho > file3; bate >> file3[Student@localhost ~]$ [4h"b[4late" > file3; who[Student@localhost ~]$ "bate" > file3; who >> file3[Student@localhost ~]$ [K(bate; who) >> file3 &.[K[K2&>1
+bash: syntax error near unexpected token `2'
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) >> file3 2&>1[Student@localhost ~]$ (bate; who) >> file3 [1P&>11&>1[Student@localhost ~]$ (bate; who) >> file3 1&[Student@localhost ~]$ (bate; who) >> file3 1&>[Student@localhost ~]$ (bate; who) >> file3 1&>1[K2
+bash: syntax error near unexpected token `1'
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) >> file3 1&>2[Student@localhost ~]$ (bate; who) >> file3 1&[Student@localhost ~]$ (bate; who) >> file3 1&>[Student@localhost ~]$ (bate; who) >> file3 1&>2[K[K[K[K2>& 1
+]0;Student@localhost:~[Student@localhost ~]$ mop[Kre file3
+Student  :0           Apr 26 16:20
+Student  pts/1        Apr 26 16:21 (:0.0)
+bash: bate: command not found
+Student  :0           Apr 26 16:20
+Student  pts/1        Apr 26 16:21 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3(bate; who) >> file3 2>& 1[Student@localhost ~]$ [16Pmore file3[Kmore file3(bate; who) >> file3 2>& 1[1P[4h4[4l[Student@localhost ~]$ (bate; who) >> file4 [Student@localhost ~]$ (bate; who) >> file4 2[Student@localhost ~]$ (bate; who) >> file4 2>[Student@localhost ~]$ (bate; who) >> file4 2>&[Student@localhost ~]$ (bate; who) >> file4 2>& [Student@localhost ~]$ (bate; who) >> file4 2>& 1[Kfile5
+bash: file5: ambiguous redirect
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) >> file4 2>& file5[1P[4hf[4l[4hi[4l[4hl[4l[4he[4l[4h5[4l[Student@localhost ~]$ (bate; who) >> file4 file5>[Student@localhost ~]$ (bate; who) >> file4 file5>&[Student@localhost ~]$ (bate; who) >> file4 file5>& [1Pile5[1Ple5[1Pe5[1P5[K1
+bash: syntax error near unexpected token `file5'
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) >> file4 file5>& 1[Student@localhost ~]$ (bate; who) >> file4 file5>[Student@localhost ~]$ (bate; who) >> file4 file5>&[1P 1[Student@localhost ~]$ (bate; who) >> file4 file5[1P[1P[1P[1P[1P[4h1[4l[4h [4l[Student@localhost ~]$ (bate; who) >> file4 1 >[Student@localhost ~]$ (bate; who) >> file4 1 > [Student@localhost ~]$ (bate; who) >> file4 1 > 1[Kfile5[1P[4h2[4l
+bash: syntax error near unexpected token `2'
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) >> file4 2 > file5[Student@localhost ~]$ (bate; who) >> file4 2 >> file5
+bash: syntax error near unexpected token `2'
+]0;Student@localhost:~[Student@localhost ~]$ (bate; who) >> file4 2 >> file5[Student@localhost ~]$ (bate; who) >> file4[K(bate; who) >> file4 2 >> file5[4h1[4l[4h [4l[Student@localhost ~]$ (bate; who) 1 >[Student@localhost ~]$ (bate; who) 1 >>[Student@localhost ~]$ (bate; who) 1 >> [Student@localhost ~]$ (bate; who) 1 >> f[Student@localhost ~]$ (bate; who) 1 >> fi[1P[Student@localhost ~]$ (bate; who) 1 > [Student@localhost ~]$ (bate; who) 1 > f[Student@localhost ~]$ (bate; who) 1 > fi[Student@localhost ~]$ (bate; who) 1 > fil[Student@localhost ~]$ (bate; who) 1 > file[Student@localhost ~]$ (bate; who) 1 > file4[Student@localhost ~]$ (bate; who) 1 > file4 [Student@localhost ~]$ (bate; who) 1 > file4 2[Student@localhost ~]$ (bate; who) 1 > file4 2 [Student@localhost ~]$ (bate; who) 1 > file4 2 >[1P file5[1P[1P[Student@localhost ~]$ (bate; who) 1>[1P[Student@localhost ~]$ (bate; who) 1 [Student@localhost ~]$ (bate; who) 1 f[4h>[4l[1P[Student@localhost ~]$ (bate; who) 1[Student@localhost ~]$ (bate; who) 1 [Student@localhost ~]$ (bate; who) 1 f[Student@localhost ~]$ (bate; who) 1 fi[Student@localhost ~]$ (bate; who) 1 fil[Student@localhost ~]$ (bate; who) 1 file[Student@localhost ~]$ (bate; who) 1 file4[4h>[4l[4h [4l[1P
+]0;Student@localhost:~[Student@localhost ~]$ more file4
+Student  :0           Apr 26 16:20
+Student  pts/1        Apr 26 16:21 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3[K4[K5
+bash: bate: command not found
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Wed 26 Apr 2006 05:05:38 PM EDT

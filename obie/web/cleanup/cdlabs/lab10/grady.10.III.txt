@@ -1,0 +1,232 @@
+Script started on Wed 03 May 2006 04:10:53 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > CH10S3F2
+^[[5~     CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIA S	45	1	38
+MTH	35	1	56
+MTH	25	2	41. 
+	phE	   PhE	17	2	5 25
+CIS	544 	2	67
+]0;Student@localhost:~[Student@localhost ~]$ CAT [K[K[K[Kcat -f[K[K[K[K[K[Kegrep []1][Student@localhost ~]$ egrep [1] Ch10S3F1
+egrep: Ch10S3F1: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ egrep [1] Ch10S3F1[Student@localhost ~]$ egrep [1] C[Student@localhost ~]$ egrep [1] Ch[1P10S3F1h10S3F1[1P10S3F1H10S3F1
+egrep: CH10S3F1: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ egrep [1] CH10S3F1[K2
+CIS	15	1	45
+CIS	54	1	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	25	2	41
+PhE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ vi CH10S3[K[K[K[K[K[K[K[K[Kcat CH10S3F2
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	25	2	41
+PhE	17	2	25
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ cat > c[KCH[Kh10S3F1
+CIS     15      1       45
+CIS     54      1       20
+BUS     34      2       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+CIS     54      2       67
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch10S3F1[2PCH10S3F2[4hegrep [4l[1][Student@localhost ~]$ egrep [1] CH10S3F2[K1[1P10S3F1h10S3F1[Student@localhost ~]$ egrep [1] Ch1[Student@localhost ~]$ egrep [1] Ch10[Student@localhost ~]$ egrep [1] Ch10S[Student@localhost ~]$ egrep [1] Ch10S3[Student@localhost ~]$ egrep [1] Ch10S3F[Student@localhost ~]$ egrep [1] Ch10S3F1
+CIS     15      1       45
+CIS     54      1       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep [1] Ch10S3F1[Student@localhost ~]$ egrep [1]$ Ch10S3F1
+MTH     25      2       41
+]0;Student@localhost:~[Student@localhost ~]$ egrep [1]$ Ch10S3F1[1P Ch10S3F1[ Ch10S3F1] Ch10S3F1[4h^[4l[4h\[4l[1P[1P[Student@localhost ~]$ egrep [1][][1P Ch10S3F1[1P Ch10S3F1
+CIS     15      1       45
+CIS     54      1       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep [1] Ch10S3F1[4h/[4l[1P[4h\[4l[4h>[4l
+]0;Student@localhost:~[Student@localhost ~]$ egrep \>[1] Ch10S3F1[1P[1P[4h\[4l[4h<[4l
+]0;Student@localhost:~[Student@localhost ~]$ egrep \<[1] Ch10S3F1>[Student@localhost ~]$ egrep \>[1] Ch10S3F1[2P[Student@localhost ~]$ egrep [1] Ch10S3F1
+CIS     15      1       45
+CIS     54      1       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep [1] Ch10S3F1[4h\[4l[4h>[4l
+CIS     15      1       45
+CIS     54      1       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep [\>1] Ch10S3F1[1P[4h<[4l
+CIS     15      1       45
+CIS     54      1       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep [\<1] Ch10S3F1>[Student@localhost ~]$ egrep [\>1] Ch10S3F1[2P[Student@localhost ~]$ egrep [1] Ch10S3F1[Student@localhost ~]$ egre[Student@localhost ~]$ egrep[Student@localhost ~]$ egrep [4h*[4l[4h"[4l[1P[1P[4h [4l[4h'[4l[Student@localhost ~]$ egrep '*[Student@localhost ~]$ egrep '*[[Student@localhost ~]$ egrep '*[1[Student@localhost ~]$ egrep '*[1][4h'[4l[1P[Student@localhost ~]$ egrep '*[1]' Ch10S3F1[4h [4l[Student@localhost ~]$ egrep '* [[Student@localhost ~]$ egrep '* [[Student@localhost ~]$ egrep '* [1[Student@localhost ~]$ egrep '* [1][4h*[4l[4h [4l
+CIS     15      1       45
+CIS     54      1       20
+BUS     34      2       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+CIS     54      2       67
+]0;Student@localhost:~[Student@localhost ~]$ egrep '* [1]* ' Ch10S3F1[1P[4h{[4l[4h6[4l[1P[4h^[4l[4h\[4l[4h^[4l[1P[4h*[4l[Student@localhost ~]$ egrep '*{[1P[4h[[4l[Student@localhost ~]$ egrep '*[^[Student@localhost ~]$ egrep '*[^\[Student@localhost ~]$ egrep '*[^\^[4h][4l[Student@localhost ~]$ egrep '*[^\^][[Student@localhost ~]$ egrep '*[^\^][1[Student@localhost ~]$ egrep '*[^\^][1][Student@localhost ~]$ egrep '*[^\^][1]*[Student@localhost ~]$ egrep '*[^\^][1]* [1P[4h[[4l[4h][4l[4h^[4l[4h\[4l[4h^[4l[Student@localhost ~]$ egrep '*[^\^][1]*[^\^][Student@localhost ~]$ egrep '*[^\^][1]*[^\^]'
+CIS     15      1       45
+CIS     54      1       20
+BUS     34      2       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+CIS     54      2       67
+]0;Student@localhost:~[Student@localhost ~]$ egrep '*[^\^][1]*[^\^]' Ch10S3F1[1P[4h.[4l[1P[1P[4h.[4l[Student@localhost ~]$ egrep '*[^.][Student@localhost ~]$ egrep '*[^.][[Student@localhost ~]$ egrep '*[^.][1[Student@localhost ~]$ egrep '*[^.][1][Student@localhost ~]$ egrep '*[^.][1]*[Student@localhost ~]$ egrep '*[^.][1]*[[Student@localhost ~]$ egrep '*[^.][1]*[^[Student@localhost ~]$ egrep '*[^.][1]*[^\[Student@localhost ~]$ egrep '*[^.][1]*[^\^[Student@localhost ~]$ egrep '*[^.][1]*[^\^][Student@localhost ~]$ egrep '*[^.][1]*[^\^]'[1P[1P[4h.[4l[Student@localhost ~]$ egrep '*[^.][1]*[^.][Student@localhost ~]$ egrep '*[^.][1]*[^.]'
+CIS     15      1       45
+CIS     54      1       20
+BUS     34      2       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+CIS     54      2       67
+]0;Student@localhost:~[Student@localhost ~]$ egrep '*[^.][1]*[^.]' Ch10S3F1[1P[Student@localhost ~]$ egrep '[[Student@localhost ~]$ egrep '[^[Student@localhost ~]$ egrep '[^.[Student@localhost ~]$ egrep '[^.][Student@localhost ~]$ egrep '[^.][[Student@localhost ~]$ egrep '[^.][1[Student@localhost ~]$ egrep '[^.][1][Student@localhost ~]$ egrep '[^.][1]*[1P
+CIS     15      1       45
+CIS     54      1       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[^.][1][^.]' Ch10S3F1[1P[4h0[4l[4h-[4l[4h9[4l[Student@localhost ~]$ egrep '[^0-9][Student@localhost ~]$ egrep '[^0-9][[Student@localhost ~]$ egrep '[^0-9][1[Student@localhost ~]$ egrep '[^0-9][1][Student@localhost ~]$ egrep '[^0-9][1][[Student@localhost ~]$ egrep '[^0-9][1][^[Student@localhost ~]$ egrep '[^0-9][1][^.[1P[4h0[4l[4h-[4l[4h9[4l
+CIS     15      1       45
+CIS     54      1       20
+CIS     45      1       38
+MTH     35      1       56
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[^0-9][1][^0-9]' Ch10S3F1 > Ch10S3F2
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[^0-9][1][^0-9]' Ch10S3F1 > Ch10S3F2[K[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[Student@localhost ~]$ egrep ''[1P Ch10S3F1[1P Ch10S3F1[ Ch10S3F1] Ch10S3F1[4hC[4l[4hI[4l[4hS[4l[Student@localhost ~]$ egrep [CIS]
+CIS     15      1       45
+CIS     54      1       20
+BUS     34      2       20
+CIS     45      1       38
+CIS     54      2       67
+]0;Student@localhost:~[Student@localhost ~]$ egrep [CIS] Ch10S3F1[Student@localhost ~]$ egrep [CIS]? Ch10S3F1
+CIS     15      1       45
+CIS     54      1       20
+BUS     34      2       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+CIS     54      2       67
+]0;Student@localhost:~[Student@localhost ~]$ egrep [CIS]? Ch10S3F1[1P Ch10S3F1[1P Ch10S3F1[1P
+CIS     15      1       45
+CIS     54      1       20
+CIS     45      1       38
+CIS     54      2       67
+]0;Student@localhost:~[Student@localhost ~]$ egrep CIS Ch10S3F1 > Ch10S3F3
+]0;Student@localhost:~[Student@localhost ~]$ egrep CIS Ch10S3F1 > Ch10S3F3[K[1P Ch10S3F1[1P Ch10S3F1[1P Ch10S3F1[CIS]? Ch10S3F1[1P Ch10S3F1'[^0-9][1][^0-9]' Ch10S3F1 > Ch10S3F2[Student@localhost ~]$ egrep '[^0-9][1][^0[Student@localhost ~]$ egrep '[^0-9][1][^0-[Student@localhost ~]$ egrep '[^0-9][1][^0-9[Student@localhost ~]$ egrep '[^0-9][1][^0-9][1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[Student@localhost ~]$ egrep '['[Student@localhost ~]$ egrep '[' [Student@localhost ~]$ egrep '[' C[Student@localhost ~]$ egrep '[' Ch[Student@localhost ~]$ egrep '[' Ch1[Student@localhost ~]$ egrep '[' Ch10[Student@localhost ~]$ egrep '[' Ch10S[Student@localhost ~]$ egrep '[' Ch10S3[Student@localhost ~]$ egrep '[' Ch10S3F[Student@localhost ~]$ egrep '[' Ch10S3F1[Student@localhost ~]$ egrep '[' Ch10S3F1 [Student@localhost ~]$ egrep '[' Ch10S3F1 >[Student@localhost ~]$ egrep '[' Ch10S3F1 > [Student@localhost ~]$ egrep '[' Ch10S3F1 > C[Student@localhost ~]$ egrep '[' Ch10S3F1 > Ch[Student@localhost ~]$ egrep '[' Ch10S3F1 > Ch1[Student@localhost ~]$ egrep '[' Ch10S3F1 > Ch10[Student@localhost ~]$ egrep '[' Ch10S3F1 > Ch10S[Student@localhost ~]$ egrep '[' Ch10S3F1 > Ch10S3[Student@localhost ~]$ egrep '[' Ch10S3F1 > Ch10S3F[Student@localhost ~]$ egrep '[' Ch10S3F1 > Ch10S3F2[K[K[K[K[K[K[K[K[K[K[K[Student@localhost ~]$ egrep '[[1P[4h[[4l[4h][4l[Student@localhost ~]$ egrep '[[4h^[4l[4h2[4l[4h-[4l[4h9[4l[Student@localhost ~]$ egrep '[^2-9[Student@localhost ~]$ egrep '[^2-9][4h[[4l[4h][4l[1P[1P[4h[[4l[Student@localhost ~]$ egrep '[^[2[Student@localhost ~]$ egrep '[^[2-[Student@localhost ~]$ egrep '[^[2-9[Student@localhost ~]$ egrep '[^[2-9][4h][4l[4h[[4l[Student@localhost ~]$ egrep '[^[2-9][][4h][4l[Student@localhost ~]$ egrep '[^[2-9][][1P[1P[1P[1P[Student@localhost ~]$ egrep '[^2[Student@localhost ~]$ egrep '[^2-[Student@localhost ~]$ egrep '[^2-9[Student@localhost ~]$ egrep '[^2-9][1P[1P[4h([4l[4h)[4l[1P[Student@localhost ~]$ egrep '(^[Student@localhost ~]$ egrep '(^2[Student@localhost ~]$ egrep '(^2-[Student@localhost ~]$ egrep '(^2-9[4h)[4l[4h[[4l[Student@localhost ~]$ egrep '([^[Student@localhost ~]$ egrep '([^2[Student@localhost ~]$ egrep '([^2-[Student@localhost ~]$ egrep '([^2-9[4h][4l[4h[[4l[4h][4l[4h^[4l[4h0[4l[4h-[4l[4h9[4l[Student@localhost ~]$ egrep '([^2-[Student@localhost ~]$ egrep '([^2-9[Student@localhost ~]$ egrep '([^2-9][Student@localhost ~]$ egrep '([^2-9][[Student@localhost ~]$ egrep '([^2-9][^[Student@localhost ~]$ egrep '([^2-9][^0[1P[4h5[4l[Student@localhost ~]$ egrep '([^2-9][^5-[Student@localhost ~]$ egrep '([^2-9][^5-9[Student@localhost ~]$ egrep '([^2-9][^5-9]
+CIS     15      1       45
+CIS     54      1       20
+BUS     34      2       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+CIS     54      2       67
+]0;Student@localhost:~[Student@localhost ~]$ egrep '([^2-9][^5-9])' Ch10S3F1[1P[Student@localhost ~]$ egrep '([1P
+CIS     15      1       45
+CIS     54      1       20
+BUS     34      2       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+CIS     54      2       67
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[^2-9][^5-9]' Ch10S3F1[Student@localhost ~]$ egrep '[^2-9][Student@localhost ~]$ egrep '[^2-9][[Student@localhost ~]$ egrep '[^2-9][[Student@localhost ~]$ egrep '[^2-9][^[Student@localhost ~]$ egrep '[^2-9][^5[Student@localhost ~]$ egrep '[^2-9][^5-[Student@localhost ~]$ egrep '[^2-9][^5-9[Student@localhost ~]$ egrep '[^2-9][^5-9][Student@localhost ~]$ egrep '[^2-9][^5-9]'[1P Ch10S3F1[1P
+CIS     15      1       45
+CIS     54      1       20
+BUS     34      2       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+CIS     54      2       67
+]0;Student@localhost:~[Student@localhost ~]$ egrep [^2-9][^5-9] Ch10S3F1" Ch10S3F1[1P Ch10S3F1' Ch10S3F1[Student@localhost ~]$ egrep [4h'[4l[Student@localhost ~]$ egrep '[[Student@localhost ~]$ egrep '[^[Student@localhost ~]$ egrep '[^2[Student@localhost ~]$ egrep '[^2-[Student@localhost ~]$ egrep '[^2-9[Student@localhost ~]$ egrep '[^2-9][Student@localhost ~]$ egrep '[^2-9][[Student@localhost ~]$ egrep '[^2-9][^[Student@localhost ~]$ egrep '[^2-9][^5[Student@localhost ~]$ egrep '[^2-9][^5-[Student@localhost ~]$ egrep '[^2-9][^5-9[Student@localhost ~]$ egrep '[^2-9][^5-9][Student@localhost ~]$ egrep '[^2-9][^5-9]'[4h$[4l
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[^2-9][^5-9]$' Ch10S3F1[Student@localhost ~]$ egrep '[^2-9][^5-9]$'[1P
+CIS     15      1       45
+CIS     54      1       20
+BUS     34      2       20
+ENG     11      2       89
+CIS     45      1       38
+MTH     35      1       56
+MTH     25      2       41
+PhE     17      2       25
+CIS     54      2       67
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[^2-9][^5-9]' Ch10S3F1[4h$[4l[Student@localhost ~]$ egrep '[^2-9][^5-9]$' Ch10S3F1
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[^2-9][^5-9]$' Ch10S3F1[1P[4h$[4l
+]0;Student@localhost:~[Student@localhost ~]$ egrep '$[^2-9][^5-9]' Ch10S3F1[1P[Student@localhost ~]$ egrep '[[Student@localhost ~]$ egrep '[^[Student@localhost ~]$ egrep '[^2[Student@localhost ~]$ egrep '[^2-[1P[1P[4h1[4l[Student@localhost ~]$ egrep '[1-[Student@localhost ~]$ egrep '[1-9[1P[4h2[4l[Student@localhost ~]$ egrep '[1-2][Student@localhost ~]$ egrep '[1-2][[Student@localhost ~]$ egrep '[1-2][^[Student@localhost ~]$ egrep '[1-2][^5[Student@localhost ~]$ egrep '[1-2][^5-[Student@localhost ~]$ egrep '[1-2][^5-9[1P[1P[1P[1P[4h0[4l[4h-[4l[4h9[4l[Student@localhost ~]$ egrep '[1-2][0-9]
+CIS     15      1       45
+CIS     54      1       20
+BUS     34      2       20
+ENG     11      2       89
+MTH     25      2       41
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[1-2][0-9]' Ch10S3F1[4h$[4l
+CIS     54      1       20
+BUS     34      2       20
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[1-2][0-9]$' Ch10S3F1[4h([4l[Student@localhost ~]$ egrep '[1-2]([[Student@localhost ~]$ egrep '[1-2]([0[Student@localhost ~]$ egrep '[1-2]([0-[Student@localhost ~]$ egrep '[1-2]([0-9[Student@localhost ~]$ egrep '[1-2]([0-9][4h)[4l[4h[[4l[4h][4l[4h^[4l[4h5[4l[4h-[4l[4h9[4l
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[1-2]([0-9][^5-9])$' Ch10S3F1[8P[0-9][Student@localhost ~]$ egrep '[1-2][0-9]$' Ch10S3F1
+CIS     54      1       20
+BUS     34      2       20
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[1-2][0-9]$' Ch10S3F1 > Ch10S3F4
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[1-2][0-9]$' Ch10S3F1 > Ch10S3F4[K[K[K[K[K[K[K[K[K[K[K[Student@localhost ~]$ egrep '[1-2[1P[1P[1P[4h2[4l[4h0[4l[4h3[4l[1P[1P[4h-[4l[4h3[4l1-2[Student@localhost ~]$ egrep '[1-2][0-9]$' Ch10S3F12-3[Student@localhost ~]$ egrep '[2-3][0-9]$' Ch10S3F1[1P[1P[1P[4h5[4l[4h-[4l[4h0[4l[1P[4h9[4l
+CIS     45      1       38
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[2-3][5-9]$' Ch10S3F1[1P[4h0[4l
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[2-3][5-0]$' Ch10S3F1[Student@localhost ~]$ egrep '[2-3][5-[Student@localhost ~]$ egrep '[2-3][5-0[1P[1P[1P[4h0[4l[4h-[4l[4h5[4l
+CIS     54      1       20
+BUS     34      2       20
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[2-3][0-5]$' Ch10S3F15-0[Student@localhost ~]$ egrep '[2-3][5-0]$' Ch10S3F19[Student@localhost ~]$ egrep '[2-3][5-9]$' Ch10S3F1
+CIS     45      1       38
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[2-3][5-9]$' Ch10S3F1[Student@localhost ~]$ egrep '[2-3][5-9]$' C[Student@localhost ~]$ egrep '[2-3][5-9]$' Ch[Student@localhost ~]$ egrep '[2-3][5-9]$' Ch1[Student@localhost ~]$ egrep '[2-3][5-9]$' Ch10[Student@localhost ~]$ egrep '[2-3][5-9]$' Ch10S[Student@localhost ~]$ egrep '[2-3][5-9]$' Ch10S3[Student@localhost ~]$ egrep '[2-3][5-9]$' Ch10S3F[Student@localhost ~]$ egrep '[2-3][5-9]$' Ch10S3F1[Student@localhost ~]$ egrep '[2-3][5-9][4h\[4l[4h[[4l[4h][4l[1P[1P[Student@localhost ~]$ egrep '[2][Student@localhost ~]$ egrep '[2][[Student@localhost ~]$ egrep '[2][5[Student@localhost ~]$ egrep '[2][5-[Student@localhost ~]$ egrep '[2][5-9[Student@localhost ~]$ egrep '[2][5-9][Student@localhost ~]$ egrep '[2][5-9]\[Student@localhost ~]$ egrep '[2][5-9]\[[1P[4h|[4l[Student@localhost ~]$ egrep '[2][5-9]|[[4h3[4l[4h0[4l[Student@localhost ~]$ egrep '[2][5-9]|[30][Student@localhost ~]$ egrep '[2][5-9]|[30[1P[Student@localhost ~]$ egrep '[2][5-9]|[3][4h[[4l[4h][4l[4h0[4l
+MTH     25      2       41
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[2][5-9]|[3][0]$' Ch10S3F1[Student@localhost ~]$ egrep '[2][5-9][4h&[4l[1P[4h$[4l
+PhE     17      2       25
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[2][5-9]$|[3][0]$' Ch10S3F1 > Ch10S3F5
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Wed 03 May 2006 04:44:33 PM EDT

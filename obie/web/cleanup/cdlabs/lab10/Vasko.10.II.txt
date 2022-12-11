@@ -1,0 +1,120 @@
+Script started on Tue 02 May 2006 08:19:01 AM EDT
+]0;student@localhost:~[student@localhost ~]$ cat > !0[K[K10S1F1[K[K[K[K[K[KCh10S1F1[K2[K[K[K2F1
+				The s Wisdom of Aesop
+It is one thing to say that someting   hing should be b doen  ne.
+	it i    It is qut ut  ite a different matter to do it.
+		"Belling the Cat"
+
+Liars are not belive  eved even when they tell the truth.
+	"The Shp ephard Boy and the Wolf"
+
+Flattery is not a proof of true admiration.
+	"The o Owl and the Grasshopper. "
+
+Those who work the hardest do nto  ot always get the profit.
+	"The lin   Lin on, the Bear, t and the Fox"
+
+Familar  iarity B breeds com ntempt.
+	"The Fox and the Lion' "
+]0;student@localhost:~[student@localhost ~]$ egrep Ch[K[K[K[K[K[K[K[Kgrep -v '$[K^%[K$'[1@e[student@localhost ~]$ eg[student@localhost ~]$ egr[student@localhost ~]$ egre[student@localhost ~]$ egrep[student@localhost ~]$ egrep [student@localhost ~]$ egrep -[student@localhost ~]$ egrep -v[student@localhost ~]$ egrep -v [student@localhost ~]$ egrep -v '[student@localhost ~]$ egrep -v '^[student@localhost ~]$ egrep -v '^$[student@localhost ~]$ egrep -v '^$' Ch10S1F1 > Ch10S1F2
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S1F2
+1425	Juan	18	14.25
+4321	George	22	21.11
+6781	Anne	44	16.77
+1451	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S1F2[21@egrep -v '^$' Ch10S1F1 >[student@localhost ~]$ egrep -v '^$' Ch10S1F1 > Ch10S1F2[1@2[student@localhost ~]$ egrep -v '^$' Ch10S21[student@localhost ~]$ egrep -v '^$' Ch10S21F[student@localhost ~]$ egrep -v '^$' Ch10S21F1[student@localhost ~]$ egrep -v '^$' Ch10S21F1 [student@localhost ~]$ egrep -v '^$' Ch10S21F1 >[student@localhost ~]$ egrep -v '^$' Ch10S21F1 > [student@localhost ~]$ egrep -v '^$' Ch10S21F1 > C[student@localhost ~]$ egrep -v '^$' Ch10S21F1 > Ch[student@localhost ~]$ egrep -v '^$' Ch10S21F1 > Ch1[student@localhost ~]$ egrep -v '^$' Ch10S21F1 > Ch10[student@localhost ~]$ egrep -v '^$' Ch10S21F1 > Ch10S21F2[1PF2[1P[2@^[[1@[[1@C[student@localhost ~]$ egrep -v '^$' Ch10S2^[[CF[1P[1P[2P[1P[1@2[student@localhost ~]$ egrep -v '^$' Ch10S2F[student@localhost ~]$ egrep -v '^$' Ch10S2F1[student@localhost ~]$ egrep -v '^$' Ch10S2F1 [student@localhost ~]$ egrep -v '^$' Ch10S2F1 >[student@localhost ~]$ egrep -v '^$' Ch10S2F1 > [student@localhost ~]$ egrep -v '^$' Ch10S2F1 > C[student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch[student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch1[student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch10[student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch10S[student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch10S2[student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch10S2F[student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch10S2F2
+]0;student@localhost:~[student@localhost ~]$ caat[K[Kat[K[Kt Ch10S2F2
+				The Wisdom of Aesop
+It is one thing to say that something should be done.
+	It is quite a different matter to do it.
+		"Belling the Cat"
+Liars are not believed even when they tell the truth.
+	"The Shephard Boy and the Wolf"
+Flattery is not a proof of true admiration.
+	"The Owl and the Grasshopper"
+Those who work the hardest do not always get the profit.
+	"The Lion, the Bear, and the Fox"
+Familiarity breeds contempt.
+	"The Fox and the Lion"
+]0;student@localhost:~[student@localhost ~]$ egrep '[K-v '.' Ch10S2F2 > Ch10S2F3
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S2F3
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S2F3[20@egrep -v '.' Ch10S2F2 >[student@localhost ~]$ egrep -v '.' Ch10S2F2 > Ch10S2F3[1P[1P[1P[1P[student@localhost ~]$ egrep [student@localhost ~]$ egrep '[1@ [1@{[1@^[1P[1P[1P[1@'[1@[[1@^[1@.[1@}[1P[1@][1@^[student@localhost ~]$ egrep '^[[student@localhost ~]$ egrep '^[^[student@localhost ~]$ egrep '^[^.[student@localhost ~]$ egrep '^[^.][1@*[1@{[1P[1@[[1@.[1@}[1P[1@]
+]0;student@localhost:~[student@localhost ~]$ cat[K[K[Kegrep '^[^.]*[.] ' Ch10S2F2 > Ch10S2F3[student@localhost ~]$ cat Ch10S2F3[K
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S2F3[26@egrep '^[^.]*[.] ' Ch10S2F2 >[student@localhost ~]$ egrep '^[^.]*[.] ' Ch10S2F2 > Ch10S2F3[1P
+]0;student@localhost:~[student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch10S2F3[student@localhost ~]$ cat Ch10S2F3[K
+It is one thing to say that something should be done.
+	It is quite a different matter to do it.
+Liars are not believed even when they tell the truth.
+Flattery is not a proof of true admiration.
+Those who work the hardest do not always get the profit.
+Familiarity breeds contempt.
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S2F3[25@egrep '^[^.]*[.]' Ch10S2F2 >[student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch10S2F3[student@localhost ~]$ egrep[student@localhost ~]$ egrep [1@ [1@-[1@v[student@localhost ~]$ egrep -v [student@localhost ~]$ egrep -v '[student@localhost ~]$ egrep -v '^[student@localhost ~]$ egrep -v '^[[student@localhost ~]$ egrep -v '^[^[student@localhost ~]$ egrep -v '^[^.[student@localhost ~]$ egrep -v '^[^.][student@localhost ~]$ egrep -v '^[^.]*[student@localhost ~]$ egrep -v '^[^.]*[[student@localhost ~]$ egrep -v '^[^.]*[.[student@localhost ~]$ egrep -v '^[^.]*[.][student@localhost ~]$ egrep -v '^[^.]*[.]'[student@localhost ~]$ egrep -v '^[^.]*[.]' [student@localhost ~]$ egrep -v '^[^.]*[.]' C[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch1[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 [student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 >[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > [student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > C[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch1[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S2[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S2F[K4
+]0;student@localhost:~[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S2F4[student@localhost ~]$ cat Ch10S2F3[K[K4
+				The Wisdom of Aesop
+		"Belling the Cat"
+	"The Shephard Boy and the Wolf"
+	"The Owl and the Grasshopper"
+	"The Lion, the Bear, and the Fox"
+	"The Fox and the Lion"
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S2F4[28@egrep -v '^[^.]*[.]' Ch10S2F2 >[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S2F4[student@localhost ~]$ cat Ch10S2F3[K[25@egrep '^[^.]*[.]' Ch10S2F2 >[student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch10S2F3[student@localhost ~]$ cat Ch10S2F3[K[25@egrep '^[^.]*[.]' Ch10S2F2 >[student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch10S2F3[1P[1P[1P
+]0;student@localhost:~[student@localhost ~]$ egrep '^[^.]*' Ch10S2F2 > Ch10S2F3[student@localhost ~]$ [22Pcat Ch10S2F4[K3
+				The Wisdom of Aesop
+It is one thing to say that something should be done.
+	It is quite a different matter to do it.
+		"Belling the Cat"
+Liars are not believed even when they tell the truth.
+	"The Shephard Boy and the Wolf"
+Flattery is not a proof of true admiration.
+	"The Owl and the Grasshopper"
+Those who work the hardest do not always get the profit.
+	"The Lion, the Bear, and the Fox"
+Familiarity breeds contempt.
+	"The Fox and the Lion"
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S2F3[22@egrep '^[^.]*' Ch10S2F2 >[student@localhost ~]$ egrep '^[^.]*' Ch10S2F2 > Ch10S2F3[22Pcat Ch10S2F4[28@egrep -v '^[^.]*[.]' Ch10S2F2 >[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S2F4[1P[1@+[1P[1P[1P[student@localhost ~]$ egrep [student@localhost ~]$ egrep '[student@localhost ~]$ egrep '^[student@localhost ~]$ egrep '^[[student@localhost ~]$ egrep '^[^[student@localhost ~]$ egrep '^[^.[student@localhost ~]$ egrep '^[^.][student@localhost ~]$ egrep '^[^.]+[student@localhost ~]$ egrep '^[^.]+[[student@localhost ~]$ egrep '^[^.]+[.[student@localhost ~]$ egrep '^[^.]+[.][student@localhost ~]$ egrep '^[^.]+[.]'[student@localhost ~]$ egrep '^[^.]+[.]' [student@localhost ~]$ egrep '^[^.]+[.]' C[student@localhost ~]$ egrep '^[^.]+[.]' Ch[student@localhost ~]$ egrep '^[^.]+[.]' Ch1[student@localhost ~]$ egrep '^[^.]+[.]' Ch10[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 [student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 >[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > [student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > C[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch1[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2F[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2F4[K3
+]0;student@localhost:~[student@localhost ~]$ c[Kegrep '^[^.]+[.]' Ch10S2F2 > Ch10S2F3[student@localhost ~]$ cat Ch10S2F3[K
+It is one thing to say that something should be done.
+	It is quite a different matter to do it.
+Liars are not believed even when they tell the truth.
+Flattery is not a proof of true admiration.
+Those who work the hardest do not always get the profit.
+Familiarity breeds contempt.
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S2F3[25@egrep '^[^.]+[.]' Ch10S2F2 >[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2F3[student@localhost ~]$ cat Ch10S2F3[K[22@egrep '^[^.]*' Ch10S2F2 >[student@localhost ~]$ egrep '^[^.]*' Ch10S2F2 > Ch10S2F3[student@localhost ~]$ [22Pcat[student@localhost ~]$ cat Ch10S2F3[25@egrep '^[^.]+[.]' Ch10S2F2 >[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2F3[1P[1@*[student@localhost ~]$ egrep '^[^.]*[[student@localhost ~]$ egrep '^[^.]*[.[student@localhost ~]$ egrep '^[^.]*[.][1@-[1@v[1P[1P[student@localhost ~]$ egrep [1@ [1@v[1P[1@-[1@v[student@localhost ~]$ egrep -v [student@localhost ~]$ egrep -v '[student@localhost ~]$ egrep -v '^[student@localhost ~]$ egrep -v '^[[student@localhost ~]$ egrep -v '^[^[student@localhost ~]$ egrep -v '^[^.[student@localhost ~]$ egrep -v '^[^.][student@localhost ~]$ egrep -v '^[^.]*[student@localhost ~]$ egrep -v '^[^.]*[[student@localhost ~]$ egrep -v '^[^.]*[.[student@localhost ~]$ egrep -v '^[^.]*[.][student@localhost ~]$ egrep -v '^[^.]*[.]'[student@localhost ~]$ egrep -v '^[^.]*[.]' [student@localhost ~]$ egrep -v '^[^.]*[.]' C[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch1[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 [student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 >[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > [student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > C[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch1[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S2[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S2F[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S2F3[K4
+]0;student@localhost:~[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S2F4[student@localhost ~]$ cat Ch10S2F3[K[K4
+				The Wisdom of Aesop
+		"Belling the Cat"
+	"The Shephard Boy and the Wolf"
+	"The Owl and the Grasshopper"
+	"The Lion, the Bear, and the Fox"
+	"The Fox and the Lion"
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S2F4[28@egrep -v '^[^.]*[.]' Ch10S2F2 >[student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S2F4[1P[1@+[student@localhost ~]$ egrep -v '^[^.]+[[student@localhost ~]$ egrep -v '^[^.]+[.[student@localhost ~]$ egrep -v '^[^.]+[.][student@localhost ~]$ egrep -v '^[^.]+[.]'[student@localhost ~]$ egrep -v '^[^.]+[.]' [student@localhost ~]$ egrep -v '^[^.]+[.]' C[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch1[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 [student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 >[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > [student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > C[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch1[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10S[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10S2[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10S2F[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10S2F4[K3[1P[1P[1P[student@localhost ~]$ egrep [student@localhost ~]$ egrep '[student@localhost ~]$ egrep '^[student@localhost ~]$ egrep '^[[student@localhost ~]$ egrep '^[^[student@localhost ~]$ egrep '^[^.[student@localhost ~]$ egrep '^[^.][student@localhost ~]$ egrep '^[^.]+[student@localhost ~]$ egrep '^[^.]+[[student@localhost ~]$ egrep '^[^.]+[.[student@localhost ~]$ egrep '^[^.]+[.][student@localhost ~]$ egrep '^[^.]+[.]'[student@localhost ~]$ egrep '^[^.]+[.]' [student@localhost ~]$ egrep '^[^.]+[.]' C[student@localhost ~]$ egrep '^[^.]+[.]' Ch[student@localhost ~]$ egrep '^[^.]+[.]' Ch1[student@localhost ~]$ egrep '^[^.]+[.]' Ch10[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 [student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 >[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > [student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > C[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch1[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2F[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2F3
+]0;student@localhost:~[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2F3[student@localhost ~]$ cat Ch10S2F4[K[K3
+It is one thing to say that something should be done.
+	It is quite a different matter to do it.
+Liars are not believed even when they tell the truth.
+Flattery is not a proof of true admiration.
+Those who work the hardest do not always get the profit.
+Familiarity breeds contempt.
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S2F3[25@egrep '^[^.]+[.]' Ch10S2F2 >[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2F3[1@-[1@v[1@ [student@localhost ~]$ egrep -v '[student@localhost ~]$ egrep -v '^[student@localhost ~]$ egrep -v '^[[student@localhost ~]$ egrep -v '^[^[student@localhost ~]$ egrep -v '^[^.[student@localhost ~]$ egrep -v '^[^.][student@localhost ~]$ egrep -v '^[^.]+[student@localhost ~]$ egrep -v '^[^.]+[[student@localhost ~]$ egrep -v '^[^.]+[.[student@localhost ~]$ egrep -v '^[^.]+[.][student@localhost ~]$ egrep -v '^[^.]+[.]'[student@localhost ~]$ egrep -v '^[^.]+[.]' [student@localhost ~]$ egrep -v '^[^.]+[.]' C[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch1[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 [student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 >[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > [student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > C[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch1[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10S[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10S2[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10S2F[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10S2F3[K4
+]0;student@localhost:~[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10S2F4[student@localhost ~]$ cat Ch10S2F3[K[K4
+				The Wisdom of Aesop
+		"Belling the Cat"
+	"The Shephard Boy and the Wolf"
+	"The Owl and the Grasshopper"
+	"The Lion, the Bear, and the Fox"
+	"The Fox and the Lion"
+]0;student@localhost:~[student@localhost ~]$ \[Kecho \#4 For some reason the line starts[King with "[K\"It is q uite[K[K[K[K[A[student@localhost ~]$ echo \#4 For some reason the line starting with \"It is [K
+[K[A[student@localhost ~]$ echo \#4 For some reason the line starting with \"It is q uite\" is prin[K[K[K[Kgoing to the file with the not[Knin[K[K-indented lines. I cannot fugure [K[K[K[K[K[Kigru[K[Kure out why . So I l[Kwill leave it for now.\[K
+#4 For some reason the line starting with "It is quite" is going to the file with the non-indented lines. I cannot figure out why. So I will leave it for now.
+]0;student@localhost:~[student@localhost ~]$ echo \#4 For some reason the line starting with \"It is quuite\" is going to the file with the non-indented lines. I cannot figure out why.. So I will leave it for now.[A[Acat Ch10S2F4[K
+[K
+[K[A[A[student@localhost ~]$ cat Ch10S2F4[28@egrep -v '^[^.]+[.]' Ch10S2F2 >[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10S2F4[K3
+]0;student@localhost:~[student@localhost ~]$ egrep -v '^[^.]+[.]' Ch10S2F2 > Ch10S2F3[K4[1P[1P[1P[student@localhost ~]$ egrep [student@localhost ~]$ egrep '[student@localhost ~]$ egrep '^[student@localhost ~]$ egrep '^[[student@localhost ~]$ egrep '^[^[student@localhost ~]$ egrep '^[^.[student@localhost ~]$ egrep '^[^.][student@localhost ~]$ egrep '^[^.]+[student@localhost ~]$ egrep '^[^.]+[[student@localhost ~]$ egrep '^[^.]+[.[student@localhost ~]$ egrep '^[^.]+[.][student@localhost ~]$ egrep '^[^.]+[.]'[student@localhost ~]$ egrep '^[^.]+[.]' [student@localhost ~]$ egrep '^[^.]+[.]' C[student@localhost ~]$ egrep '^[^.]+[.]' Ch[student@localhost ~]$ egrep '^[^.]+[.]' Ch1[student@localhost ~]$ egrep '^[^.]+[.]' Ch10[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 [student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 >[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > [student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > C[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch1[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2F[student@localhost ~]$ egrep '^[^.]+[.]' Ch10S2F2 > Ch10S2F4
+]0;student@localhost:~[student@localhost ~]$ egrep '[6[K^,[K.][K]^[^.][student@localhost ~]$ egrep '^[[student@localhost ~]$ egrep '^[^[student@localhost ~]$ egrep '^[^.[student@localhost ~]$ egrep '^[^.] \ { n \ n [1P | [1P } [1P[student@localhost ~]$ egrep '^[^.]\{\[1@ [student@localhost ~]$ egrep '^[^.]\{ \[student@localhost ~]$ egrep '^[^.]\{ \}[student@localhost ~]$ egrep '^[^.]\{ \} [ ^ [1P [1P $ ' [student@localhost ~]$ egrep '^[^.]\{ \}$'  C h o [1P 1 0 S 2 F 3 
+]0;student@localhost:~[student@localhost ~]$ \[Kecho \#5 Since[K[K[K[K[KIt[K[KNothing was output because we could not technica lly[K[K[K[A[student@localhost ~]$ echo \#5 Nothing was output because we could not technic[K
+[K[A[student@localhost ~]$ echo \#5 Nothing was output because we could not technic[K[K[K[K[K[K[Kcenter t he line exactly anyways. So There was not t[K[Khing for th [Ke egrep to find with this re gexpj. [K[K[K. I think the regular expression is correct. It trys[K[Kies to dined[K[K[K[K[Kfin[K[K[K[K[K[Kto find lines with the  same [K[K[K[K[K[K[Agexp. I think the regular expression is correct. It tries to find lines with th[K
+[K[Agexp. I think the regular expression is correct. It tries to find lines with the  same number of blanks before the [K[K[K[Kany characts[Kers as after the characters. 
+#5 Nothing was output because we could not center the line exactly anyways. So There was nothing for the egrep to find with this regexp. I think the regular expression is correct. It tries to find lines with the same number of blanks before any characters as after the characters.
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Tue 02 May 2006 08:49:17 AM EDT

@@ -1,0 +1,79 @@
+#! /bin/bash
+#Script: jpls
+#Written by: prattjk
+#Purpose: Execute the "ls -l" command but print 
+#only three columns of the user's choice
+#Call: jpls 4 2 1    where only colmns 4, 2, and 1 print in that order
+if [[ $# != 3 ]]  #error checking
+then
+   echo "Requires three arguments: one for each column to print"
+   exit 1
+fi
+if [[ $1 != [0-9] || $2 != [0-9] || $3 != [0-9] ]]    #numeric and range test
+then
+ echo "Arguments must be numeric and between 1 and 9"
+ echo "Try again"
+ exit 1
+fi
+#error free, do ls -l command
+ls -l | while read fld1 fld2 fld3 fld4 fld5 fld6 fld7 fld8 fld9
+ do
+        if [[ $1 -eq "1" ]]    #set value for temp1
+   then echo "$fld1" > temp1 
+   else if [[ $1 -eq "2" ]]
+   then echo "$fld2" > temp1
+   else if [[ $1 -eq "3" ]]
+   then echo "$fld3" > temp1
+   else if [[ $1 -eq "4" ]]
+   then echo "$fld4" > temp1
+   else if [[ $1 -eq "5" ]]
+   then echo "$fld5" > temp1
+   else if [[ $1 -eq "6" ]]
+   then echo "$fld6" > temp1
+   else if [[ $1 -eq "7" ]]
+   then echo "$fld7" > temp1
+   else if [[ $1 -eq "8" ]]
+   then echo "$fld8" > temp1
+   else if [[ $1 -eq "9" ]]
+   then echo "$fld9" > temp1
+   fi fi fi fi fi fi fi fi fi
+        if [[ $2 -eq "1" ]]    #set value for temp2
+   then echo "$fld1" > temp2
+   else if [[ $2 -eq "2" ]]
+   then echo "$fld2" > temp2
+   else if [[ $2 -eq "3" ]]
+   then echo "$fld3" > temp2
+   else if [[ $2 -eq "4" ]]
+   then echo "$fld4" > temp2
+   else if [[ $2 -eq "5" ]]
+   then echo "$fld5" > temp2
+   else if [[ $2 -eq "6" ]]
+   then echo "$fld6" > temp2
+   else if [[ $2 -eq "7" ]]
+   then echo "$fld7" > temp2
+   else if [[ $2 -eq "8" ]]
+   then echo "$fld8" > temp2
+   else if [[ $2 -eq "9" ]]
+   then echo "$fld9" > temp2
+   fi fi fi fi fi fi fi fi fi
+        if [[ $3 -eq "1" ]]     #set value for temp3
+   then echo "$fld1" > temp3
+   else if [[ $3 -eq "2" ]]
+   then echo "$fld2" > temp3
+   else if [[ $3 -eq "3" ]]
+   then echo "$fld3" > temp3
+   else if [[ $3 -eq "4" ]]
+   then echo "$fld4" > temp3
+   else if [[ $3 -eq "5" ]]
+   then echo "$fld5" > temp3
+   else if [[ $3 -eq "6" ]]
+   then echo "$fld6" > temp3
+   else if [[ $3 -eq "7" ]]
+   then echo "$fld7" > temp3
+   else if [[ $3 -eq "8" ]]
+   then echo "$fld8" > temp3
+   else if [[ $3 -eq "9" ]]
+   then echo "$fld9" > temp3
+          fi fi fi fi fi fi fi fi fi
+paste -d" " temp1 temp2 temp3 | cat
+done

@@ -1,0 +1,70 @@
+Script started on Sun 30 Apr 2006 04:58:48 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S6F1
+CIS 15 1     	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE   PE	17	2	25
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ CAT [K[K[K[Kcat 
+Ch6S6F1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ sort +1 -4 Ch6S6F1
+ENG	11	2	89
+CIS	15	1	45
+PE	17	2	25
+BUS	34	2	20
+MTH	35	1	56
+MTH	35	2	41
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ sorct[K[Kt +1 
+[K[K[K-d +1 -2 +2 [Kn -3 +3n -4 Ch6S6F1
+ENG	11	2	89
+CIS	15	1	45
+PE	17	2	25
+BUS	34	2	20
+MTH	35	1	56
+MTH	35	2	41
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ sort -d
+
+
+]0;Student@localhost:~[Student@localhost ~]$ sot[Krt -d Ch6S6F1
+BUS	34	2	20
+CIS	15	1	45
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+ENG	11	2	89
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ sort -d -n Ch6S6F1
+BUS	34	2	20
+CIS	15	1	45
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+ENG	11	2	89
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Sun 30 Apr 2006 05:05:43 PM EDT
+

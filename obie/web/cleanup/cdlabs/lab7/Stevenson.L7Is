@@ -1,0 +1,19 @@
+Script started on Tue 02 May 2006 12:22:12 PM EDT
+]0;stevensonsl@cs:~[stevensonsl@cs stevensonsl]$ mkdir RemoteWork
+]0;stevensonsl@cs:~[stevensonsl@cs stevensonsl]$ mv RemoteWork
+mv: missing file argument
+Try `mv --help' for more information.
+]0;stevensonsl@cs:~[stevensonsl@cs stevensonsl]$ mv /re[K[KRemoteWork
+mv: missing file argument
+Try `mv --help' for more information.
+]0;stevensonsl@cs:~[stevensonsl@cs stevensonsl]$ cd /[KRemoteWork
+]0;stevensonsl@cs:~/RemoteWork[stevensonsl@cs RemoteWork]$ vi Stevenson.L7I.txt
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"Stevenson.L7I.txt" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[?25l[24;1H[K[24;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"Stevenson.L7I.txt" [New] 0L, 0C written
+[?1l>[?25h[?1047l[?1048l]0;stevensonsl@cs:~/RemoteWork[stevensonsl@cs RemoteWork]$ ls [K
+[00m[00mStevenson.L7I.txt[00m
+[m]0;stevensonsl@cs:~/RemoteWork[stevensonsl@cs RemoteWork]$ cd
+]0;stevensonsl@cs:~[stevensonsl@cs stevensonsl]$ ls
+[00m[00;34mRemoteWork[00m  [00mStevenson.L7Is[00m
+[m]0;stevensonsl@cs:~[stevensonsl@cs stevensonsl]$ exit
+
+Script done on Tue 02 May 2006 12:23:59 PM EDT

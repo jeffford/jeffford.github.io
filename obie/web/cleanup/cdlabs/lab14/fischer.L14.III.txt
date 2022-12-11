@@ -1,0 +1,184 @@
+Script started on Tue 09 May 2006 07:53:29 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ./rfls
+This takes three parameters
+]0;Student@localhost:~[Student@localhost ~]$ ./rfls 3
+This takes three parameters
+]0;Student@localhost:~[Student@localhost ~]$ ./rfls 3 4
+This takes three parameters
+]0;Student@localhost:~[Student@localhost ~]$ ./rfls 3 4 a
+Has to be a number
+]0;Student@localhost:~[Student@localhost ~]$ ./rfls 3 4 a[K[K[Ka d
+Has to be a number
+]0;Student@localhost:~[Student@localhost ~]$ ./rfls 3 a d[K[K[K4 11
+11: There are not that many columnms
+]0;Student@localhost:~[Student@localhost ~]$ ./rfls 3 4 11[K[K[K[K[K[K1 4 5
+total		
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+drwxrwxr-x	Student	Student
+drwxrwxr-x	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+drwxr-xr-x	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rwxrw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rwxrw-r--	Student	Student
+-rwxrw-r--	Student	Student
+drwxrwxr-x	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+-rw-rw-r--	Student	Student
+]0;Student@localhost:~[Student@localhost ~]$ ./rfls 1 4 5[K[K[K[K[K3 7 1
+		total
+1	9728	-rw-rw-r--
+1		-rw-rw-r--
+2	4096	drwxrwxr-x
+2	4096	drwxrwxr-x
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+2	4096	drwxr-xr-x
+1		-rw-rw-r--
+1	May	-rw-rw-r--
+1	May	-rw-rw-r--
+1	May	-rw-rw-r--
+1	May	-rw-rw-r--
+1	7704	-rw-rw-r--
+1	May	-rw-rw-r--
+1		-rw-rw-r--
+1	2124	-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1	1498	-rw-rw-r--
+1		-rw-rw-r--
+1	2228	-rw-rw-r--
+1	Apr	-rw-rw-r--
+1	4145	-rw-rw-r--
+1		-rw-rw-r--
+1	2251	-rw-rw-r--
+1	3076	-rw-rw-r--
+1		-rw-rw-r--
+1	3171	-rw-rw-r--
+1	5516	-rw-rw-r--
+1		-rwxrw-r--
+1		-rw-rw-r--
+1		-rwxrw-r--
+1		-rwxrw-r--
+2	4096	drwxrwxr-x
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1		-rw-rw-r--
+1	2222	-rw-rw-r--
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 09 May 2006 07:54:46 AM EDT

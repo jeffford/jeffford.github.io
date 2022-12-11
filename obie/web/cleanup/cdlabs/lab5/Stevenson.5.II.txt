@@ -1,0 +1,464 @@
+Script started on Wed 26 Apr 2006 05:13:40 PM EDT
+]0;student@localhost:~[student@localhost ~]$ who <file1[K[K[K[K[K file1
+bash: file1: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ man
+What manual page do you want?
+]0;student@localhost:~[student@localhost ~]$ man [K[K[K[Kvi file1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"file1" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"file1" [New] 0L, 0C written
+[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ who < file1
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+]0;student@localhost:~[student@localhost ~]$ more file1
+]0;student@localhost:~[student@localhost ~]$ man more
+[?1049h[?1h=[24;1H[KMORE(1)                   BSD General Commands Manual                  MORE(1)
+
+[1mNAME[0m
+     [1mmore[0m - file perusal filter for crt viewing
+
+[1mSYNOPSIS[0m
+     [1mmore[0m [[1m-dlfpcsu[0m] [[1m-num[0m] [+/ pattern] [+ linenum] [[4mfile[24m [4m...[24m]
+
+[1mDESCRIPTION[0m
+     [1mMore[0m is a filter for paging through text one screenful at a time.  This
+     version is especially primitve.  Users should realize that less(1) pro-
+     vides more(1) emulation and extensive enhancements.
+
+[1mOPTIONS[0m
+     Command line options are described below.  Options are also taken from
+     the environment variable MORE (make sure to precede them with a dash
+     (‘‘-’’)) but command line options will override them.
+
+     [1m-num[0m  This option specifies an integer which is the screen size (in
+           lines).
+
+     [1m-d[0m    [1mmore[0m will prompt the user with the message "[Press space to con-
+           tinue, ’q’ to quit.]" and will display "[Press ’h’ for instruc-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K           tions.]" instead of ringing the bell when an illegal key is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K           pressed.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m-l[0m    [1mmore[0m usually treats [1m^L[0m (form feed) as a special character, and will
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K           pause after any line that contains a form feed.  The [1m-l[0m option will
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K           prevent this behavior.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m-f[0m    Causes [1mmore[0m to count logical, rather than screen lines (i.e., long
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K           lines are not folded).
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m-p[0m    Do not scroll.  Instead, clear the whole screen and then display
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K           the text.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m-c[0m    Do not scroll.  Instead, paint each screen from the top, clearing
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K           the remainder of each line as it is displayed.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m-s[0m    Squeeze multiple blank lines into one.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m-u[0m    Suppress underlining.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m+/[0m    The [1m+/[0m option specifies a string that will be searched for before
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K           each file is displayed.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m+num[0m  Start at line number [1mnum[0m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mCOMMANDS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     Interactive commands for [1mmore[0m are based on vi(1).  Some commands may be
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     preceded by a decimal number, called k in the descriptions below.  In the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     following descriptions, ^X means control-X.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1mh[0m or ?      Help: display a summary of these commands.  If you forget all
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 the other commands, remember this one.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1mSPACE[0m       Display next k lines of text.  Defaults to current screen
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 size.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1mz[0m           Display next k lines of text.  Defaults to current screen
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 size.  Argument becomes new default.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1mRETURN[0m      Display next k lines of text.  Defaults to 1.  Argument
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 becomes new default.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1md[0m or [1m^D[0m     Scroll k lines.  Default is current scroll size, initially
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 11.  Argument becomes new default.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1mq[0m or [1mQ[0m or [1mINTERRUPT[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 Exit.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1ms[0m           Skip forward k lines of text.  Defaults to 1.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1mf[0m           Skip forward k screenfuls of text.  Defaults to 1.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1mb[0m or [1m^B[0m     Skip backwards k screenfuls of text.  Defaults to 1.  Only
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 works with files, not pipes.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m’[0m           Go to place where previous search started.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m=[0m           Display current line number.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m/[0m[4mpattern[24m    Search for kth occurrence of regular expression.  Defaults to
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 1.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1mn[0m           Search for kth occurrence of last r.e.  Defaults to 1.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m!<cmd>[0m or [1m:!<cmd>[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 Execute <cmd> in a subshell
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1mv[0m           Start up an editor at current line.  The editor is taken from
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 the environment variable VISUAL if defined, or EDITOR if
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 VISUAL is not defined, or defaults to "vi" if neither VISUAL
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 nor EDITOR is defined.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m^L[0m          Redraw screen
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m:n[0m          Go to kth next file.  Defaults to 1.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m:p[0m          Go to kth previous file.  Defaults to 1.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m:f[0m          Display current file name and line number
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1m.[0m           Repeat previous command
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mENVIRONMENT[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     [1mMore[0m utilizes the following environment variables, if they exist:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     MORE        This variable may be set with favored options to [1mmore[0m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     SHELL       Current shell in use (normally set by the shell at login
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 time).
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     TERM        Specifies terminal type, used by more to get the terminal
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K                 characteristics necessary to manipulate the screen.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mSEE[0m [1mALSO[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     vi(1) less(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mAUTHORS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     Eric Shienbrood, UC Berkeley
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     Modified by Geoff Peck, UCB to add underlining, single spacing
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     Modified by John Foderaro, UCB to add -c and MORE environment variable
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mHISTORY[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     The [1mmore[0m command appeared in 3.0BSD.  This man page documents [1mmore[0m ver-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     sion 5.19 (Berkeley 6/29/88), which is currently in use in the Linux com-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     munity.  Documentation was produced using several other versions of the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     man page, and extensive inspection of the source code.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[KLinux 0.98                     December 25, 1992                    Linux 0.98
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM     [1mMore[0m utilizes the following environment variables, if they exist:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mENVIRONMENT[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM     [1m.[0m           Repeat previous command
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     The [1mmore[0m command appeared in 3.0BSD.  This man page documents [1mmore[0m ver-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     sion 5.19 (Berkeley 6/29/88), which is currently in use in the Linux com-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     munity.  Documentation was produced using several other versions of the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K     man page, and extensive inspection of the source code.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[KLinux 0.98                     December 25, 1992                    Linux 0.98
+[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[Kqq[24;1H[K[7m(END) [27m[24;1H[K[?1l>[?1049l]0;student@localhost:~[student@localhost ~]$ more file1
+]0;student@localhost:~[student@localhost ~]$ who >[K<[K> [K[K[K[K[K[Kwho> file1
+]0;student@localhost:~[student@localhost ~]$ more file1
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+]0;student@localhost:~[student@localhost ~]$ dt[Kate who[K[K[K[K[K[K[K[Kvi file2
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"file2" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"file2" [New] 0L, 0C written
+[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ date who> file2
+date: invalid date `who'
+]0;student@localhost:~[student@localhost ~]$ date < who> file2
+bash: who: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ date | who> file2
+]0;student@localhost:~[student@localhost ~]$ more file2
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+]0;student@localhost:~[student@localhost ~]$ vi file1[K2
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"file2" 2L, 77C[1;1Hstudent  :0[11CApr 26 16:06
+student  pts/1[8CApr 26 17:03 (:0.0)
+[1m[34m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1Htudent  :0 [10CApr 26 16:06[1;34H[K[1;1H[?12l[?25h[?25letudent  :0[10C Apr 26 16:06[24;65H2[1;2H[?12l[?25h[?25latudent  :0[10C Apr 26 16:06[24;65H3[1;3H[?12l[?25h[?25lrtudent  :0[10C Apr 26 16:06[24;65H4[1;4H[?12l[?25h[?25ltudent  :0 [10CApr 26 16:06[1;36H[K[24;65H3[1;3H[?12l[?25h[?25ltudent  :0 [10CApr 26 16:06[1;35H[K[24;65H2[1;2H[?12l[?25h[?25ltudent  :0 [10CApr 26 16:06[1;34H[K[24;65H1[1;1H[?12l[?25h[?25ludent  :0 [10CApr 26 16:06[1;33H[K[1;1H[?12l[?25h[?25ldent  :0 [10CApr 26 16:06[1;32H[K[1;1H[?12l[?25h[?25lent  :0 [10CApr 26 16:06[1;31H[K[1;1H[?12l[?25h[?25lnt  :0 [10CApr 26 16:06[1;30H[K[1;1H[?12l[?25h[?25lt  :0 [10CApr 26 16:06[1;29H[K[1;1H[?12l[?25h[?25l  :0 [10CApr 26 16:06[1;28H[K[1;1H[?12l[?25h[?25l :0 [10CApr 26 16:06[1;27H[K[1;1H[?12l[?25h[?25l:0 [10CApr 26 16:06[1;26H[K[1;1H[?12l[?25h[?25l0 [10CApr 26 16:06[1;25H[K[1;1H[?12l[?25h[?25l [10CApr 26 16:06[1;24H[K[1;1H[?12l[?25h[?25l[10CApr 26 16:06[1;23H[K[1;1H[?12l[?25h[?25l[9CApr 26 16:06[1;22H[K[1;1H[?12l[?25h[?25l[8CApr 26 16:06[1;21H[K[1;1H[?12l[?25h[?25l[7CApr 26 16:06[1;20H[K[1;1H[?12l[?25h[?25l      Apr 26 16:06[1;19H[K[1;1H[?12l[?25h[?25l     Apr 26 16:06[1;18H[K[1;1H[?12l[?25h[?25l    Apr 26 16:06[1;17H[K[1;1H[?12l[?25h[?25l   Apr 26 16:06[1;16H[K[1;1H[?12l[?25h[?25l  Apr 26 16:06[1;15H[K[1;1H[?12l[?25h[?25l Apr 26 16:06[1;14H[K[1;1H[?12l[?25h[?25lApr 26 16:06[1;13H[K[1;1H[?12l[?25h[?25lpr 26 16:06[1;12H[K[1;1H[?12l[?25h[?25lr 26 16:06[1;11H[K[1;1H[?12l[?25h[?25l 26 16:06[1;10H[K[1;1H[?12l[?25h[?25l26 16:06[1;9H[K[1;1H[?12l[?25h[?25l6 16:06[1;8H[K[1;1H[?12l[?25h[?25l 16:06[1;7H[K[1;1H[?12l[?25h[?25l16:06[1;6H[K[1;1H[?12l[?25h[?25l6:06[1;5H[K[1;1H[?12l[?25h[?25l:06[1;4H[K[1;1H[?12l[?25h[?25l06[1;3H[K[1;1H[?12l[?25h[?25l6[1;2H[K[1;1H[?12l[?25h[?25l[1;1H[K[1;1H[?12l[?25h[?25lstudent  pts/1[8CApr 26 17:03 (:0.0)
+[1m[34m~                                                                               [1;1H[?12l[?25h[?25l[mtudent  pts/1 [7CApr 26 17:03 (:0.0)[1;41H[K[1;1H[?12l[?25h[?25ludent  pts/1 [7CApr 26 17:03 (:0.0)[1;40H[K[1;1H[?12l[?25h[?25ldent  pts/1 [7CApr 26 17:03 (:0.0)[1;39H[K[1;1H[?12l[?25h[?25lent  pts/1 [7CApr 26 17:03 (:0.0)[1;38H[K[1;1H[?12l[?25h[?25lnt  pts/1 [7CApr 26 17:03 (:0.0)[1;37H[K[1;1H[?12l[?25h[?25lt  pts/1 [7CApr 26 17:03 (:0.0)[1;36H[K[1;1H[?12l[?25h[?25l  pts/1 [7CApr 26 17:03 (:0.0)[1;35H[K[1;1H[?12l[?25h[?25l pts/1 [7CApr 26 17:03 (:0.0)[1;34H[K[1;1H[?12l[?25h[?25lpts/1 [7CApr 26 17:03 (:0.0)[1;33H[K[1;1H[?12l[?25h[?25lts/1 [7CApr 26 17:03 (:0.0)[1;32H[K[1;1H[?12l[?25h[?25ls/1 [7CApr 26 17:03 (:0.0)[1;31H[K[1;1H[?12l[?25h[?25l/1 [7CApr 26 17:03 (:0.0)[1;30H[K[1;1H[?12l[?25h[?25l1 [7CApr 26 17:03 (:0.0)[1;29H[K[1;1H[?12l[?25h[?25l [7CApr 26 17:03 (:0.0)[1;28H[K[1;1H[?12l[?25h[?25l[7CApr 26 17:03 (:0.0)[1;27H[K[1;1H[?12l[?25h[?25l      Apr 26 17:03 (:0.0)[1;26H[K[1;1H[?12l[?25h[?25l     Apr 26 17:03 (:0.0)[1;25H[K[1;1H[?12l[?25h[?25l    Apr 26 17:03 (:0.0)[1;24H[K[1;1H[?12l[?25h[?25l   Apr 26 17:03 (:0.0)[1;23H[K[1;1H[?12l[?25h[?25l  Apr 26 17:03 (:0.0)[1;22H[K[1;1H[?12l[?25h[?25l Apr 26 17:03 (:0.0)[1;21H[K[1;1H[?12l[?25h[?25lApr 26 17:03 (:0.0)[1;20H[K[1;1H[?12l[?25h[?25lpr 26 17:03 (:0.0)[1;19H[K[1;1H[?12l[?25h[?25lr 26 17:03 (:0.0)[1;18H[K[1;1H[?12l[?25h[?25l 26 17:03 (:0.0)[1;17H[K[1;1H[?12l[?25h[?25l26 17:03 (:0.0)[1;16H[K[1;1H[?12l[?25h[?25l6 17:03 (:0.0)[1;15H[K[1;1H[?12l[?25h[?25l 17:03 (:0.0)[1;14H[K[1;1H[?12l[?25h[?25l17:03 (:0.0)[1;13H[K[1;1H[?12l[?25h[?25l7:03 (:0.0)[1;12H[K[1;1H[?12l[?25h[?25l:03 (:0.0)[1;11H[K[1;1H[?12l[?25h[?25l03 (:0.0)[1;10H[K[1;1H[?12l[?25h[?25l3 (:0.0)[1;9H[K[1;1H[?12l[?25h[?25l (:0.0)[1;8H[K[1;1H[?12l[?25h[?25l(:0.0)[1;7H[K[1;1H[?12l[?25h[?25l:0.0)[1;6H[K[1;1H[?12l[?25h[?25l0.0)[1;5H[K[1;1H[?12l[?25h[?25l.0)[1;4H[K[1;1H[?12l[?25h[?25l0)[1;3H[K[1;1H[?12l[?25h[?25l)[1;2H[K[1;1H[?12l[?25h[?25l[1;1H[K[1;1H[?12l[?25h[24;1H[K[1;1H[?25l[24;63H1,0-1[9CAll[1;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"file2" 1L, 1C written
+[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ date
+Wed Apr 26 17:38:48 EDT 2006
+]0;student@localhost:~[student@localhost ~]$ date [K[K[K[K[Kwho > file [K2 date[K[K[K[K[K; date
+Wed Apr 26 17:39:50 EDT 2006
+]0;student@localhost:~[student@localhost ~]$ more file2
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+]0;student@localhost:~[student@localhost ~]$ vi file3
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"file3" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"file3" [New] 0L, 0C written
+[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ who > file2; date [K[K[K[K[K[K[K[K3 [K; date >file3[K[K[K[K[K file 3[K[K3
+]0;student@localhost:~[student@localhost ~]$ more file3
+Wed Apr 26 17:41:07 EDT 2006
+]0;student@localhost:~[student@localhost ~]$ who > file3[K[K[K[K[K[K[K[K[K[K[Kvi file23[K[K3
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"file3" 1L, 29C[1;1HWed Apr 26 17:41:07 EDT 2006
+[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25led Apr 26 17:41:07 EDT 2006[1;28H[K[1;1H[?12l[?25h[?25ld Apr 26 17:41:07 EDT 2006[1;27H[K[1;1H[?12l[?25h[?25l Apr 26 17:41:07 EDT 2006[1;26H[K[1;1H[?12l[?25h[?25lApr 26 17:41:07 EDT 2006[1;25H[K[1;1H[?12l[?25h[?25lpr 26 17:41:07 EDT 2006[1;24H[K[1;1H[?12l[?25h[?25lr 26 17:41:07 EDT 2006[1;23H[K[1;1H[?12l[?25h[?25l 26 17:41:07 EDT 2006[1;22H[K[1;1H[?12l[?25h[?25l26 17:41:07 EDT 2006[1;21H[K[1;1H[?12l[?25h[?25l6 17:41:07 EDT 2006[1;20H[K[1;1H[?12l[?25h[?25l 17:41:07 EDT 2006[1;19H[K[1;1H[?12l[?25h[?25l17:41:07 EDT 2006[1;18H[K[1;1H[?12l[?25h[?25l7:41:07 EDT 2006[1;17H[K[1;1H[?12l[?25h[?25l:41:07 EDT 2006[1;16H[K[1;1H[?12l[?25h[?25l41:07 EDT 2006[1;15H[K[1;1H[?12l[?25h[?25l1:07 EDT 2006[1;14H[K[1;1H[?12l[?25h[?25l:07 EDT 2006[1;13H[K[1;1H[?12l[?25h[?25l07 EDT 2006[1;12H[K[1;1H[?12l[?25h[?25l7 EDT 2006[1;11H[K[1;1H[?12l[?25h[?25l EDT 2006[1;10H[K[1;1H[?12l[?25h[?25lEDT 2006[1;9H[K[1;1H[?12l[?25h[?25lDT 2006[1;8H[K[1;1H[?12l[?25h[?25lT 2006[1;7H[K[1;1H[?12l[?25h[?25l 2006[1;6H[K[1;1H[?12l[?25h[?25l2006[1;5H[K[1;1H[?12l[?25h[?25l006[1;4H[K[1;1H[?12l[?25h[?25l06[1;3H[K[1;1H[?12l[?25h[?25l6[1;2H[K[1;1H[?12l[?25h[?25l[1;1H[K[24;65H0-1[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"file3" 1L, 1C written
+[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ who [K[K[K[Kl [Ks - [Kl file3[K[K[K[K[K[K[K[K[K[K[Kwho >fil[K[K[K file [K; date >> file
+]0;student@localhost:~[student@localhost ~]$ more file
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+Wed Apr 26 17:46:02 EDT 2006
+]0;student@localhost:~[student@localhost ~]$ who ; date > file4
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+]0;student@localhost:~[student@localhost ~]$ more file4
+Wed Apr 26 17:46:58 EDT 2006
+]0;student@localhost:~[student@localhost ~]$ who > file3; date >>file3
+]0;student@localhost:~[student@localhost ~]$ more file3
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+Wed Apr 26 17:47:17 EDT 2006
+]0;student@localhost:~[student@localhost ~]$ cp file3[K[K[K[K[K[K[K[Kmore [K[K[K[Kan cp
+[?1049h[?1h=[24;1H[KCP(1)                            User Commands                           CP(1)
+
+[1mNAME[0m
+       cp - copy files and directories
+
+[1mSYNOPSIS[0m
+       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m [4mDEST[24m
+       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m
+       [1mcp[0m [[4mOPTION[24m]... [4m--target-directory=DIRECTORY[24m [4mSOURCE[24m...
+
+[1mDESCRIPTION[0m
+       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       [1m-a[0m, [1m--archive[0m
+              same as [1m-dpR[0m
+
+       [1m--backup[0m[=[4mCONTROL[24m]
+              make a backup of each existing destination file
+
+       [1m-b[0m     like [1m--backup[0m but does not accept an argument
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--copy-contents[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              copy contents of special files when recursive
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-d[0m     same as [1m--no-dereference[0m [1m--preserve[0m=[4mlink[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--no-dereference[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              never follow symbolic links
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-f[0m, [1m--force[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1mcp[0m [[4mOPTION[24m]... [4m--target-directory=DIRECTORY[24m [4mSOURCE[24m...
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m [4mDEST[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mSYNOPSIS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       cp - copy files and directories
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mNAME[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HMCP(1)                            User Commands                           CP(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--copy-contents[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              copy contents of special files when recursive
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-d[0m     same as [1m--no-dereference[0m [1m--preserve[0m=[4mlink[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--no-dereference[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              never follow symbolic links
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1mcp[0m [[4mOPTION[24m]... [4m--target-directory=DIRECTORY[24m [4mSOURCE[24m...
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m [4mDEST[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mSYNOPSIS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       cp - copy files and directories
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mNAME[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HMCP(1)                            User Commands                           CP(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--copy-contents[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              copy contents of special files when recursive
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-d[0m     same as [1m--no-dereference[0m [1m--preserve[0m=[4mlink[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--no-dereference[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              never follow symbolic links
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-f[0m, [1m--force[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              if an existing destination file cannot be opened, remove it  and
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              try again
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-i[0m, [1m--interactive[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              prompt before overwrite
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-H[0m     follow command-line symbolic links
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-a[0m, [1m--archive[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       too.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       Mandatory  arguments  to  long  options are mandatory for short options
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mDESCRIPTION[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1mcp[0m [[4mOPTION[24m]... [4m--target-directory=DIRECTORY[24m [4mSOURCE[24m...
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-f[0m, [1m--force[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              if an existing destination file cannot be opened, remove it  and
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              try again
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-i[0m, [1m--interactive[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              prompt before overwrite
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-H[0m     follow command-line symbolic links
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-l[0m, [1m--link[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              link files instead of copying
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-L[0m, [1m--dereference[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              always follow symbolic links
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-p[0m     same as [1m--preserve[0m=[4mmode[24m,ownership,timestamps
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--preserve[0m[=[4mATTR_LIST[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              preserve   the   specified   attributes   (default:  mode,owner-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              ship,timestamps) and security contexts, if  possible  additional
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              attributes: links, all
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--no-preserve[0m=[4mATTR_LIST[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              don’t preserve the specified attributes
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--parents[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              append source path to DIRECTORY
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-P[0m     same as ‘--no-dereference’
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-R[0m, [1m-r[0m, [1m--recursive[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              copy directories recursively
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--remove-destination[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              remove  each existing destination file before attempting to open
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              it (contrast with [1m--force[0m)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--reply=[0m{yes,no,query}
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              specify how to handle the prompt about an  existing  destination
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              file
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--sparse[0m=[4mWHEN[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              control creation of sparse files
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--strip-trailing-slashes[0m remove any trailing slashes from each SOURCE
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              argument
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-s[0m, [1m--symbolic-link[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              make symbolic links instead of copying
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-S[0m, [1m--suffix[0m=[4mSUFFIX[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              override the usual backup suffix
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--target-directory[0m=[4mDIRECTORY[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              move all SOURCE arguments into DIRECTORY
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-u[0m, [1m--update[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              copy  only  when  the  SOURCE file is newer than the destination
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              file or when the destination file is missing
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-v[0m, [1m--verbose[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              explain what is being done
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-x[0m, [1m--one-file-system[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              stay on this file system
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-Z[0m, [1m--context[0m=[4mCONTEXT[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              set security context of copy to CONTEXT
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       By default, sparse SOURCE files are detected by a crude  heuristic  and
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the corresponding DEST file is made sparse as well.  That is the behav-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       ior selected by [1m--sparse[0m=[4mauto[24m.  Specify  [1m--sparse[0m=[4malways[24m  to  create  a
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       sparse  DEST  file  whenever  the  SOURCE  file  contains a long enough
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       sequence of zero bytes.  Use  [1m--sparse[0m=[4mnever[24m  to  inhibit  creation  of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       sparse files.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       The   backup   suffix   is  ‘~’,  unless  set  with  [1m--suffix[0m  or  SIM-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       PLE_BACKUP_SUFFIX.  The version control method may be selected via  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--backup[0m  option  or  through the VERSION_CONTROL environment variable.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Here are the values:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       none, off
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              never make backups (even if [1m--backup[0m is given)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       numbered, t
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              make numbered backups
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       existing, nil
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              numbered if numbered backups exist, simple otherwise
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       simple, never
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              always make simple backups
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       As a special case, cp makes a backup  of  SOURCE  when  the  force  and
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       backup  options  are given and SOURCE and DEST are the same name for an
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       existing, regular file.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mAUTHOR[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Written by Torbjorn Granlund, David MacKenzie, and Jim Meyering.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mREPORTING[0m [1mBUGS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Report bugs to <bug-coreutils@gnu.org>.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mCOPYRIGHT[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Copyright © 2004 Free Software Foundation, Inc.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       This is free software; see the source for copying conditions.  There is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       NO  warranty;  not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       PURPOSE.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mSEE[0m [1mALSO[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       The full documentation for [1mcp[0m is maintained as a  Texinfo  manual.   If
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the  [1minfo[0m and [1mcp[0m programs are properly installed at your site, the com-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       mand
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1minfo[0m [1mcoreutils[0m [1mcp[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       should give you access to the complete manual.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[Kcp (coreutils) 5.2.1              March 2004                             CP(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K[?1l>[?1049l]0;student@localhost:~[student@localhost ~]$ cp file [K3 file3.bak
+]0;student@localhost:~[student@localhost ~]$ ls
+[00m[00;34mDesktop[00m  [00mfile3[00m            [00mLab 2~[00m                    [00mStevenson.L1.txt~[00m
+[00mfile[00m     [00mfile3.bak[00m        [00mStevenson.5.II.txt[00m
+[00mfile1[00m    [00mfile4[00m            [00mStevenson.5.I.txt[00m
+[00mfile2[00m    [00mgtysburgII.txt~[00m  [00mStevenson.gtysburgII.txt[00m
+[m]0;student@localhost:~[student@localhost ~]$ lscp file3 file3.bak[12Pman cpore file3who > file3; date >>file3[15Pmore file4[4hwho ; da[4lte >[student@localhost ~]$ who ; date > file4[4hb[4l[10Pmore file[4hwho > file; dat[4le >>[student@localhost ~]$ who > file; date >> file[4hb[4l[student@localhost ~]$ who > file; b[1P[student@localhost ~]$ who > file[4h3[4l[4h.[4l[4hb[4l[4ha[4l[4hk[4l[student@localhost ~]$ who > file3.bak;[student@localhost ~]$ who > file3.bak; [student@localhost ~]$ who > file3.bak; b[student@localhost ~]$ who > file3.bak; ba[student@localhost ~]$ who > file3.bak; bat[student@localhost ~]$ who > file3.bak; bate[student@localhost ~]$ who > file3.bak; bate [student@localhost ~]$ who > file3.bak; bate >[student@localhost ~]$ who > file3.bak; bate >>[student@localhost ~]$ who > file3.bak; bate >> [student@localhost ~]$ who > file3.bak; bate >> f[student@localhost ~]$ who > file3.bak; bate >> fi[student@localhost ~]$ who > file3.bak; bate >> fil[student@localhost ~]$ who > file3.bak; bate >> file3.bak[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[6;32HVIM - Vi IMproved[8;34Hversion 6.3.71[9;29Hby Bram Moolenaar et al.[10;24HModified by [34m<bugzilla@redhat.com>[m[11;19HVim is open source and freely distributable[13;26HBecome a registered Vim user![14;18Htype  :help register[34m<Enter>[m   for information [16;18Htype  :q[34m<Enter>[m               to exit         [17;18Htype  :help[34m<Enter>[m  or  [34m<F1>[m  for on-line help[18;18Htype  :help version6[34m<Enter>[m   for version info[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[24;1H[K[1;1H[?25l[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ vi[K[Kvi
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[6;32HVIM - Vi IMproved[8;34Hversion 6.3.71[9;29Hby Bram Moolenaar et al.[10;24HModified by [34m<bugzilla@redhat.com>[m[11;19HVim is open source and freely distributable[13;26HBecome a registered Vim user![14;18Htype  :help register[34m<Enter>[m   for information [16;18Htype  :q[34m<Enter>[m               to exit         [17;18Htype  :help[34m<Enter>[m  or  [34m<F1>[m  for on-line help[18;18Htype  :help version6[34m<Enter>[m   for version info[1;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ vi filename[K[K[K[K3
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"file3" 3L, 106C[1;1Hstudent  :0[11CApr 26 16:06
+student  pts/1[8CApr 26 17:03 (:0.0)
+Wed Apr 26 17:47:17 EDT 2006
+[1m[34m~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l[24;65H4[1;4H[?12l[?25h[?25l[24;65H5[1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l[24;65H7[1;7H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25l[24;65H9[1;9H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25l[24;65H7[1;7H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l[24;65H5[1;5H[?12l[?25h[?25l[24;65H4[1;4H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[24;1H[K[1;2H[?25l[24;63H1,2[11CAll[1;2H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25h...[?25l:append[?12l[?25h[?25l[24;7H[K[24;7H[?12l[?25h[?25l[24;6H[K[24;6H[?12l[?25h[?25l[24;5H[K[24;5H[?12l[?25h[?25l[24;4H[K[24;4H[?12l[?25h[?25l[24;3H[K[24;3H[?12l[?25h[?25l[24;2H[K[24;2H[?12l[?25h [?25l[61C1,2[11CAll[1;2H[?12l[?25h[?25l[24;65H1[1;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ vi file3[Klscp file3 file3.bakls[Kcp file3 file3.bak[12Pman cpore file3who > file3; date >>file3[student@localhost ~]$ [15Pmore file3[4Pan cpore file3who > file3; date >>file3[student@localhost ~]$ [15Pmore file4who > file3; date >>file3[4h.[4l[4hb[4l[4ha[4l[4hk[4l[student@localhost ~]$ who > file3.bak;[student@localhost ~]$ who > file3.bak; [student@localhost ~]$ who > file3.bak; d[student@localhost ~]$ who > file3.bak; da[student@localhost ~]$ who > file3.bak; dat[student@localhost ~]$ who > file3.bak; date[student@localhost ~]$ who > file3.bak; date [student@localhost ~]$ who > file3.bak; date >[student@localhost ~]$ who > file3.bak; date >>[student@localhost ~]$ who > file3.bak; date >>f[student@localhost ~]$ who > file3.bak; date >>fi[student@localhost ~]$ who > file3.bak; date >>fil[student@localhost ~]$ who > file3.bak; date >>file[student@localhost ~]$ who > file3.bak; date >>file3.bac[Kk|file3.bak file3.bak[4hb[4l[student@localhost ~]$ who > file3.bak; b[1P[student@localhost ~]$ who >[4h|[4l
+bash: syntax error near unexpected token `|'
+]0;student@localhost:~[student@localhost ~]$ who[K[K[Kwho >| file3.bak; bate >>| file3.bak[student@localhost ~]$ vi file3[K[Klscp file3 file3.bak[12Pman cpore file3who > file3; date >>file3[1P[4hb[4l[student@localhost ~]$ who > file3; b[4h.[4l[4hb[4l[4ha[4l[4hk[4l[student@localhost ~]$ who > file3.bak;[student@localhost ~]$ who > file3.bak; [student@localhost ~]$ who > file3.bak; b[student@localhost ~]$ who > file3.bak; ba[student@localhost ~]$ who > file3.bak; bat[student@localhost ~]$ who > file3.bak; bate[student@localhost ~]$ who > file3.bak; bate [student@localhost ~]$ who > file3.bak; bate >[student@localhost ~]$ who > file3.bak; bate >>[student@localhost ~]$ who > file3.bak; bate >>f[student@localhost ~]$ who > file3.bak; bate >>fi[student@localhost ~]$ who > file3.bak; bate >>fil[student@localhost ~]$ who > file3.bak; bate >>file[student@localhost ~]$ who > file3.bak; bate >>file3.bak
+bash: bate: command not found
+]0;student@localhost:~[student@localhost ~]$ more file3.g[Kbak
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+]0;student@localhost:~[student@localhost ~]$ more file3
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+Wed Apr 26 17:47:17 EDT 2006
+]0;student@localhost:~[student@localhost ~]$ more file3.bakwho > file3.bak; bate >>file3.bak[student@localhost ~]$ who > file3.bak; bate >>fi[student@localhost ~]$ who > file3.bak; bate >>fil[student@localhost ~]$ who > file3.bak; bate >>file[student@localhost ~]$ who > file3.bak; bate >>file3[student@localhost ~]$ who > file3.bak; bate >>file3.[student@localhost ~]$ who > file3.bak; bate >>file3.b[student@localhost ~]$ who > file3.bak; bate >>file3.ba[student@localhost ~]$ who > file3.bak; bate >>file3.bak[student@localhost ~]$ who > file3.bak; bate >>[student@localhost ~]$ who > file3.bak; bate >>f[student@localhost ~]$ who > file3.bak; bate >>fi[4h>[4l[student@localhost ~]$ who >> [student@localhost ~]$ who >> f[student@localhost ~]$ who >> fi[student@localhost ~]$ who >> fil[student@localhost ~]$ who >> file[student@localhost ~]$ who >> file3[student@localhost ~]$ who >> file3.[1P[1P[1P[1P[student@localhost ~]$ who >> file3;[student@localhost ~]$ who >> file3; [student@localhost ~]$ who >> file3; b[student@localhost ~]$ who >> file3; ba[student@localhost ~]$ who >> file3; bat[student@localhost ~]$ who >> file3; bate[student@localhost ~]$ who >> file3; bate [student@localhost ~]$ who >> file3; bate >[student@localhost ~]$ who >> file3; bate >>[student@localhost ~]$ who >> file3; bate >>f[student@localhost ~]$ who >> file3; bate >>fi[student@localhost ~]$ who >> file3; bate >>fil[student@localhost ~]$ who >> file3; bate >>file[student@localhost ~]$ who >> file3; bate >>file3[1Pbak[1Pak[1Pk[K[student@localhost ~]$ who >> file3; bate >>fi[student@localhost ~]$ who >> file3; bate >>fil[student@localhost ~]$ who >> file3; bate >>file[student@localhost ~]$ who >> file3; bate >>file3&file3 file3
+bash: syntax error near unexpected token `&'
+]0;student@localhost:~[student@localhost ~]$ who >> file3; bate >>&> >f>i>l>e>3>[K
+]0;student@localhost:~[student@localhost ~]$ more file3
+bash: bate: command not found
+]0;student@localhost:~[student@localhost ~]$ who > file3; date >>fi[K[K file3
+]0;student@localhost:~[student@localhost ~]$ who > file3; [student@localhost ~]$ who >[student@localhost ~]$ who >[student@localhost ~]$ who > [student@localhost ~]$ who > f[student@localhost ~]$ who > fi[student@localhost ~]$ who > fil[student@localhost ~]$ who > file[student@localhost ~]$ who > file3[student@localhost ~]$ who > file3;[student@localhost ~]$ who > file3; date 2>[student@localhost ~]$ who > file3; date >> file32>[K[student@localhost ~]$ w[student@localhost ~]$ wh[student@localhost ~]$ who[student@localhost ~]$ who [student@localhost ~]$ who >[student@localhost ~]$ who > [student@localhost ~]$ who > f[student@localhost ~]$ who > fi[student@localhost ~]$ who > fil[student@localhost ~]$ who > file[student@localhost ~]$ who > file3[student@localhost ~]$ who > file3;[student@localhost ~]$ who > file3; [student@localhost ~]$ who > file3; d[student@localhost ~]$ who > f[student@localhost ~]$ who > fi[student@localhost ~]$ who > fil[student@localhost ~]$ who > file[student@localhost ~]$ who > file3[student@localhost ~]$ who > file3;[student@localhost ~]$ who > file3; [student@localhost ~]$ who > file3; d[student@localhost ~]$ who > file3; da[student@localhost ~]$ who > file3; dat[student@localhost ~]$ who > file3; date[student@localhost ~]$ who > file3; date [student@localhost ~]$ who > file3; date 2[1P>[student@localhost ~]$ who > file3; [student@localhost ~]$ who > file3; d[student@localhost ~]$ who > file3; da[student@localhost ~]$ who > file3; dat[student@localhost ~]$ who > file3; date[student@localhost ~]$ who > file3; date [student@localhost ~]$ who > file3; date [student@localhost ~]$ who > file3; date >[student@localhost ~]$ who > file3; date >>[student@localhost ~]$ who > file3; date[student@localhost ~]$ who > file3; date [student@localhost ~]$ who > file3; d[student@localhost ~]$ who > file3; da[student@localhost ~]$ who > file3; dat[student@localhost ~]$ who > file3; date[student@localhost ~]$ who > file3; date [student@localhost ~]$ who > file3; date >[student@localhost ~]$ who > file3; date >>[K[K2>[student@localhost ~]$ who > [student@localhost ~]$ who [student@localhost ~]$ who >[4h>[4l[student@localhost ~]$ who >>[student@localhost ~]$ who >> [student@localhost ~]$ who >> f[student@localhost ~]$ who >> fi[student@localhost ~]$ who >> fil[student@localhost ~]$ who >> file[student@localhost ~]$ who >> file3[student@localhost ~]$ who >> file3;[student@localhost ~]$ who >> file3; [student@localhost ~]$ who >> file3; d[student@localhost ~]$ who >> file3; da[student@localhost ~]$ who >> file3; dat[student@localhost ~]$ who >> file3; date[student@localhost ~]$ who >> file3; date [student@localhost ~]$ who >> file3; date 2[student@localhost ~]$ who >> file3; date 2>& [K1 file3[K[K[K[K[K[K
+Wed Apr 26 17:59:06 EDT 2006
+]0;student@localhost:~[student@localhost ~]$ who >> file3; date 2>&1[1P[4hb[4l
+bash: bate: command not found
+]0;student@localhost:~[student@localhost ~]$ f[Kmore file3
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+Wed Apr 26 17:56:10 EDT 2006
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+]0;student@localhost:~[student@localhost ~]$ who >> file3; [student@localhost ~]$ who >> file3; bate >&1
+bash: bate: command not found
+]0;student@localhost:~[student@localhost ~]$ dsflkk[K[K[K[K[K[Kexit
+
+Script done on Wed 26 Apr 2006 06:01:10 PM EDT

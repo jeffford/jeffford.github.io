@@ -1,0 +1,53 @@
+Script started on Thu 27 Apr 2006 08:08:20 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S1F1> Ch6S1F1 | paste table3 table2 table1 > Ch6S1F1[Student@localhost ~]$ cat Ch6S1F1[K> Ch6S1F1 | paste table3 table2 table1 > Ch6S1F1[Student@localhost ~]$ vi Ch6S1F1[K[4hcat[4l >[Student@localhost ~]$ cat > Ch6S1F1[2PCh6S1F1> Ch6S1F1 | paste table3 table2 table1[2P[Student@localhost ~]$ cat > Ch6S1F1 paste table3 table2 table1[Student@localhost ~]$ [14P[Student@localhost ~]$ paste table3 table2 table11 table2 table33 table1 table2[Student@localhost ~]$ [2Pcut -f1 Ch6S1F1 > table3[13Pat Ch6S1F1paste table1 table2[8Pcat Ch6S1F1paste table2 table1cut -f3 Ch6S1F1 > table22 Ch6S1F1 > table1[13Pat Ch6S1F1[4hsort Ch6S[4l1F1[Student@localhost ~]$ sort Ch6S1F1 Ch6S1F1[9Pcat[Student@localhost ~]$ cat Ch6S1F1> Ch6S1F1grady.L6.I.txtscript grady.L5.VI.txt[7Pvi .bash_logoutscript grady.L5.VI.txt[8Pgrady.L6.I.txt[1Pcat > Ch6S1F1
+1425  	Juan	14.25
+4321	George	21.11
+6781	Anna	16.77
+1451	Ben	21.77
+2277	Tuan	18.77
+]0;Student@localhost:~[Student@localhost ~]$ cat CH[Kh6S1F1
+1425	Juan	14.25
+4321	George	21.11
+6781	Anna	16.77
+1451	Ben	21.77
+2277	Tuan	18.77
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S1F1 > ChS1F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S1F1
+1425	Juan	14.25
+4321	George	21.11
+6781	Anna	16.77
+1451	Ben	21.77
+2277	Tuan	18.77
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S1F1sort Ch6S1F1 > ChS1F16S1F1[Student@localhost ~]$ sort Ch6S1F1 > Ch6S[Student@localhost ~]$ sort Ch6S1F1 > Ch6S1[Student@localhost ~]$ sort Ch6S1F1 > Ch6S1F[Student@localhost ~]$ sort Ch6S1F1 > Ch6S1F1
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S1F1 > Ch6S1F1[11Pcat[Student@localhost ~]$ cat Ch6S1F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S1F1
+1425	Juan	14.25
+1451	Ben	21.77
+2277	Tuan	18.77
+4321	George	21.11
+6781	Anna	16.77
+]0;Student@localhost:~[Student@localhost ~]$ cut - [Kf1 CH[Kh6F[KS1F1 > table1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S1F1 > table1[K2[4h2[4l[1P[1P[4h2[4l[Student@localhost ~]$ cut -f2 [Student@localhost ~]$ cut -f2 C[Student@localhost ~]$ cut -f2 Ch[Student@localhost ~]$ cut -f2 Ch6[Student@localhost ~]$ cut -f2 Ch6S[Student@localhost ~]$ cut -f2 Ch6S1[Student@localhost ~]$ cut -f2 Ch6S1F[Student@localhost ~]$ cut -f2 Ch6S1F1[Student@localhost ~]$ cut -f2 Ch6S1F1 [Student@localhost ~]$ cut -f2 Ch6S1F1 >[Student@localhost ~]$ cut -f2 Ch6S1F1 > [Student@localhost ~]$ cut -f2 Ch6S1F1 > t[Student@localhost ~]$ cut -f2 Ch6S1F1 > ta[Student@localhost ~]$ cut -f2 Ch6S1F1 > tab[Student@localhost ~]$ cut -f2 Ch6S1F1 > tabl[Student@localhost ~]$ cut -f2 Ch6S1F1 > table[Student@localhost ~]$ cut -f2 Ch6S1F1 > table2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 Ch6S1F1 > table2[K3[1P[4h3[4l[Student@localhost ~]$ cut -f3 [Student@localhost ~]$ cut -f3 C[Student@localhost ~]$ cut -f3 Ch[Student@localhost ~]$ cut -f3 Ch6[Student@localhost ~]$ cut -f3 Ch6S[Student@localhost ~]$ cut -f3 Ch6S1[Student@localhost ~]$ cut -f3 Ch6S1F[Student@localhost ~]$ cut -f3 Ch6S1F1[Student@localhost ~]$ cut -f3 Ch6S1F1 [Student@localhost ~]$ cut -f3 Ch6S1F1 >[Student@localhost ~]$ cut -f3 Ch6S1F1 > [Student@localhost ~]$ cut -f3 Ch6S1F1 > t[Student@localhost ~]$ cut -f3 Ch6S1F1 > ta[Student@localhost ~]$ cut -f3 Ch6S1F1 > tab[Student@localhost ~]$ cut -f3 Ch6S1F1 > tabl[Student@localhost ~]$ cut -f3 Ch6S1F1 > table[Student@localhost ~]$ cut -f3 Ch6S1F1 > table3
+]0;Student@localhost:~[Student@localhost ~]$ paste table [K1 talbe[K[K[Kble2 table3
+1425	Juan	14.25
+1451	Ben	21.77
+2277	Tuan	18.77
+4321	George	21.11
+6781	Anna	16.77
+]0;Student@localhost:~[Student@localhost ~]$ paste table1 table2 table3[K3[Student@localhost ~]$ paste table1 table2 table3[K[1P table3 table[Student@localhost ~]$ paste table1 table3 [Student@localhost ~]$ paste table1 table3 t[Student@localhost ~]$ paste table1 table3 ta[Student@localhost ~]$ paste table1 table3 tab[Student@localhost ~]$ paste table1 table3 tabl[Student@localhost ~]$ paste table1 table3 table2
+1425	14.25	Juan
+1451	21.77	Ben
+2277	18.77	Tuan
+4321	21.11	George
+6781	16.77	Anna
+]0;Student@localhost:~[Student@localhost ~]$ paste table1 table3 table2[Student@localhost ~]$ p[Student@localhost ~]$ pa[Student@localhost ~]$ pas[Student@localhost ~]$ past[Student@localhost ~]$ paste[Student@localhost ~]$ paste [Student@localhost ~]$ paste t[Student@localhost ~]$ paste ta[Student@localhost ~]$ paste tab[Student@localhost ~]$ paste tabl[Student@localhost ~]$ paste table[Student@localhost ~]$ paste table1[Student@localhost ~]$ paste table1 [Student@localhost ~]$ paste table1 t[Student@localhost ~]$ paste table1 ta[Student@localhost ~]$ paste table1 tab[Student@localhost ~]$ paste table1 tabl[Student@localhost ~]$ paste table1 table[Student@localhost ~]$ paste table1 table3[Student@localhost ~]$ paste table1 table3 [Student@localhost ~]$ paste table1 table3 t[Student@localhost ~]$ paste table1 table3 ta[Student@localhost ~]$ paste table1 table3 tab[Student@localhost ~]$ paste table1 table3 tabl[Student@localhost ~]$ paste table1 table3 table[Student@localhost ~]$ paste table1 table3 table2 > Ch6S1F1
+]0;Student@localhost:~[Student@localhost ~]$ cat ch[K[KH[KCh6S1F1
+1425	14.25	Juan
+1451	21.77	Ben
+2277	18.77	Tuan
+4321	21.11	George
+6781	16.77	Anna
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 08:16:54 AM EDT

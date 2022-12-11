@@ -1,0 +1,42 @@
+Script started on Sun 30 Apr 2006 05:10:03 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ more Morimoto.6.V[4hsc[4lript[Student@localhost ~]$ script Morimoto.6.V[4Pcp ex3  Ch6S5F3sort -u Ch6S5F3 > ex3cat ex1 ex2 > Ch6S5F3sort -n +0 -1 Ch6S5F2 > ex21 > ex1[Student@localhost ~]$ [17Pvi Ch6S5F2[4hca[4lt [Student@localhost ~]$ cat  Ch6S5F21>  Ch6S5F2Ch6S4F1 > Ch6S5F15F3[Kscript Morimoto.6.V[2Pmore[Student@localhost ~]$ more Morimoto.6.V[4hsc[4lript[Student@localhost ~]$ script Morimoto.6.V[4Pcp ex3  Ch6S5F3sort -u Ch6S5F3 > ex3cat ex1 ex2 > Ch6S5F3sort -n +0 -1 Ch6S5F2 > ex2[Student@localhost ~]$ [6Pcat ex1 ex2 > Ch6S5F3sort -u Ch6S5F3 > ex3[6Pcp ex3  Ch6S5F3script Morimoto.6.V[2Pmore[Student@localhost ~]$ more Morimoto.6.V[4hsc[4lript[Student@localhost ~]$ script Morimoto.6.V[8Pcat Ch6S5F34F1 > Ch6S5F15F3[K4F1 > Ch6S5F1[7P>  Ch6S5F2Ch6S4F1 > Ch6S5F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1 > Ch6S5F1[4Pmore Morimoto.6.V[4hsc[4lript[Student@localhost ~]$ script Morimoto.6.V[4Pcp ex3  Ch6S5F3sort -u Ch6S5F3 > ex3cat ex1 ex2 > Ch6S5F3sort -n +0 -1 Ch6S5F2 > ex21 > ex1[Student@localhost ~]$ [17Pvi Ch6S5F2[4hca[4lt [Student@localhost ~]$ cat  Ch6S5F21>  Ch6S5F2Ch6S4F1 > Ch6S5F1[7P>  Ch6S5F2
+1420	12.56	45
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3456	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ cat >  Ch6S5F2Ch6S4F1 > Ch6S5F1[4Pmore Morimoto.6.V[4hsc[4lript[Student@localhost ~]$ script Morimoto.6.V[4Pcp ex3  Ch6S5F3sort -u Ch6S5F3 > ex3cat ex1 ex2 > Ch6S5F3sort -n +0 -1 Ch6S5F2 > ex21 > ex1[Student@localhost ~]$ [17Pvi Ch6S5F2[4hca[4lt [Student@localhost ~]$ cat  Ch6S5F21>  Ch6S5F2[2P Ch6S5F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat  Ch6S5F1>  Ch6S5F2Ch6S4F1 > Ch6S5F1[4Pmore Morimoto.6.V[4hsc[4lript[Student@localhost ~]$ script Morimoto.6.V[4Pcp ex3  Ch6S5F3sort -u Ch6S5F3 > ex3cat ex1 ex2 > Ch6S5F3sort -n +0 -1 Ch6S5F2 > ex21 > ex1[Student@localhost ~]$ [17Pvi Ch6S5F2[4hca[4lt [Student@localhost ~]$ cat  Ch6S5F212
+1420	12.56	45
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3456	56.90	14
+]0;Student@localhost:~[Student@localhost ~]$ cat  Ch6S5F21>  Ch6S5F2Ch6S4F1 > Ch6S5F1[4Pmore Morimoto.6.V[4hsc[4lript[Student@localhost ~]$ script Morimoto.6.V[4Pcp ex3  Ch6S5F3sort -u Ch6S5F3 > ex3cat ex1 ex2 > Ch6S5F3sort -n +0 -1 Ch6S5F2 > ex21 > ex1[Student@localhost ~]$ [17Pvi Ch6S5F2
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch6S5F2" 7L, 98C[1;1H1420    12.56   45
+2456    14.56   22
+2341    45.12   34
+1322    23.56   28
+1443    23.23   19
+2351    67.90   56
+3456    56.90   14
+[1m[34m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Ch6S5F2[4hca[4lt [Student@localhost ~]$ cat  Ch6S5F21>  Ch6S5F2Ch6S4F1 > Ch6S5F1[4Pmore Morimoto.6.V[4hsc[4lript[Student@localhost ~]$ script Morimoto.6.V[4Pcp ex3  Ch6S5F3sort -u Ch6S5F3 > ex3cat ex1 ex2 > Ch6S5F3sort -n +0 -1 Ch6S5F2 > ex21 > ex1[Student@localhost ~]$ [17Pvi Ch6S5F2sort -n +0 -1 Ch6S5F1 > ex1
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +0 -1 Ch6S5F1 > ex1[Student@localhost ~]$ [17Pvi Ch6S5F2[4hca[4lt [Student@localhost ~]$ cat  Ch6S5F21>  Ch6S5F2Ch6S4F1 > Ch6S5F1[4Pmore Morimoto.6.V[4hsc[4lript[Student@localhost ~]$ script Morimoto.6.V[4Pcp ex3  Ch6S5F3sort -u Ch6S5F3 > ex3cat ex1 ex2 > Ch6S5F3sort -n +0 -1 Ch6S5F2 > ex21 > ex1[Student@localhost ~]$ [17Pvi Ch6S5F2[4hca[4lt [Student@localhost ~]$ cat  Ch6S5F2[2Pvi[Student@localhost ~]$ vi Ch6S5F2sort -n +0 -1 Ch6S5F1 > ex12 > ex2
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +0 -1 Ch6S5F2 > ex21 > ex1[Student@localhost ~]$ [17Pvi Ch6S5F2[4hca[4lt [Student@localhost ~]$ cat  Ch6S5F21>  Ch6S5F2Ch6S4F1 > Ch6S5F1[4Pmore Morimoto.6.Vcat Ch6S4F1 > Ch6S5F1[4Pmore Morimoto.6.V[4hsc[4lript[Student@localhost ~]$ script Morimoto.6.V[4Pcp ex3  Ch6S5F3sort -u Ch6S5F3 > ex3cat ex1 ex2 > Ch6S5F3sort -n +0 -1 Ch6S5F2 > ex2[Student@localhost ~]$ [6Pcat ex1 ex2 > Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ cat ex1 ex2 > Ch6S5F3sort -n +0 -1 Ch6S5F2 > ex21 > ex1[Student@localhost ~]$ [17Pvi Ch6S5F2[4hca[4lt [Student@localhost ~]$ cat  Ch6S5F21>  Ch6S5F2Ch6S4F1 > Ch6S5F1[4Pmore Morimoto.6.V[4hsc[4lript[Student@localhost ~]$ script Morimoto.6.V[4Pcp ex3  Ch6S5F3sort -u Ch6S5F3 > ex3cat ex1 ex2 > Ch6S5F3sort -u Ch6S5F3 > ex3
+]0;Student@localhost:~[Student@localhost ~]$ sort -u Ch6S5F3 > ex3cat ex1 ex2 > Ch6S5F3sort -n +0 -1 Ch6S5F2 > ex21 > ex1[Student@localhost ~]$ [17Pvi Ch6S5F2[4hca[4lt [Student@localhost ~]$ cat  Ch6S5F21>  Ch6S5F2Ch6S4F1 > Ch6S5F1[4Pmore Morimoto.6.V[4hsc[4lript[Student@localhost ~]$ script Morimoto.6.V[4Pcp ex3  Ch6S5F3
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Sun 30 Apr 2006 05:12:40 PM EDT

@@ -1,0 +1,60 @@
+Script started on Mon 24 Apr 2006 05:16:08 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ umaks[K[Ksk 663[K[K[K112[K3
+]0;Student@localhost:~[Student@localhost ~]$ mk [Kdir garbage
+]0;Student@localhost:~[Student@localhost ~]$ umask 113
+]0;Student@localhost:~[Student@localhost ~]$ umaks[K[Ksk\[K
+0113
+]0;Student@localhost:~[Student@localhost ~]$ ls -l
+[00mtotal 184
+drwxrwxr-x  3 Student Student  4096 Apr 21 08:41 [00;34massignments[00m
+drwxrwxr-x  2 Student Student  4096 Apr 24 08:05 [00;34mbackups[00m
+drwxrwxr-x  3 Student Student  4096 Apr 24 08:49 [00;34mbusLetters[00m
+drwx------  3 Student Student  4096 Apr 24 17:04 [00;34mchapter_4[00m
+drwxr-xr-x  2 Student Student  4096 Apr 20 08:59 [00;34mDesktop[00m
+drw-rw-r--  2 Student Student  4096 Apr 24 17:19 [00;34mgarbage[00m
+-rw-rw-r--  1 Student Student  5769 Apr 24 08:25 [00mgrady.L3.IIItxt[00m
+-rw-rw-r--  1 Student Student  3498 Apr 23 17:51 [00mgrady.L3.III.txt[00m
+-rw-rw-r--  1 Student Student 15578 Apr 23 17:32 [00mgrady.L3.II.txt[00m
+-rw-rw-r--  1 Student Student 16009 Apr 24 08:49 [00mgrady.L3.IV.txt[00m
+-rw-rw-r--  1 Student Student     0 Apr 24 17:16 [00mgrady.L4.II.txt[00m
+-rw-rw-r--  1 Student Student  9546 Apr 24 17:12 [00mgrady.L4.I.txt[00m
+-rw-rw-r--  1 Student Student  8285 Apr 21 08:46 [00mgrady.lab2.session.txt[00m
+-rw-rw-r--  1 Student Student  1548 Apr 21 08:16 [00mgtsbrgII.txt[00m
+-rw-rw-r--  1 Student Student   850 Apr 21 08:05 [00mgtsybrgII.txt[00m
+-rw-rw-r--  1 Student Student  1548 Apr 21 08:15 [00mgtysbrg.txt[00m
+drwxrwxr-x  3 Student Student  4096 Apr 24 08:49 [00;34mletters[00m
+drwxrwxr-x  5 Student Student  4096 Apr 21 08:44 [00;34mreports[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ rm garbage
+rm: cannot remove `garbage': Is a directory
+]0;Student@localhost:~[Student@localhost ~]$ rmdir garbage
+]0;Student@localhost:~[Student@localhost ~]$ mkdir s[Kchapter_4/session_I
+mkdir: cannot create directory `chapter_4/session_I': File exists
+]0;Student@localhost:~[Student@localhost ~]$ mkdir chapter_4/session_I
+]0;Student@localhost:~[Student@localhost ~]$ cd chapter_4
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ ls -l
+[00mtotal 8
+drw-rw-r--  2 Student Student 4096 Apr 24 17:23 [00;34msession_I[00m
+[m]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ 6[Kecho session[Kn_i [K[KI is setat 664
+session_I is setat 664
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ mik[K[Kkdir s[Ksession_II
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ ls -l
+[00mtotal 16
+drw-rw-r--  2 Student Student 4096 Apr 24 17:23 [00;34msession_I[00m
+drw-rw-r--  2 Student Student 4096 Apr 24 17:25 [00;34msession_II[00m
+[m]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ session_[K_II [4he[4l[4hc[4l[4hh[4l[4ho[4l[4h [4l[Student@localhost chapter_4]$ echo s[Student@localhost chapter_4]$ echo se[Student@localhost chapter_4]$ echo ses[Student@localhost chapter_4]$ echo sess[Student@localhost chapter_4]$ echo sessi[Student@localhost chapter_4]$ echo sessio[Student@localhost chapter_4]$ echo session[Student@localhost chapter_4]$ echo session_[Student@localhost chapter_4]$ echo session_I[Student@localhost chapter_4]$ echo session_II[Student@localhost chapter_4]$ echo session_II is set at 664
+session_II is set at 664
+]0;Student@localhost:~/chapter_4[Student@localhost chapter_4]$ cd ..
+]0;Student@localhost:~[Student@localhost ~]$  ls
+[00m[00;34massignments[00m  [00;34mDesktop[00m           [00mgrady.L3.IV.txt[00m         [00mgtsbrgII.txt[00m   [00;34mreports[00m
+[00;34mbackups[00m      [00mgrady.L3.IIItxt[00m   [00mgrady.L4.II.txt[00m         [00mgtsybrgII.txt[00m
+[00;34mbusLetters[00m   [00mgrady.L3.III.txt[00m  [00mgrady.L4.I.txt[00m          [00mgtysbrg.txt[00m
+[00;34mchapter_4[00m    [00mgrady.L3.II.txt[00m   [00mgrady.lab2.session.txt[00m  [00;34mletters[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ehc[K[Kchoi[K the pers[Kmission does not have and [K[K[Kn X
+the permission does not have an X
+]0;Student@localhost:~[Student@localhost ~]$ ch[Kd chapter_4/session_II
+bash: cd: chapter_4/session_II: Permission denied
+]0;Student@localhost:~[Student@localhost ~]$ echo permission id denied
+permission id denied
+]0;Student@localhost:~[Student@localhost ~]$ D[Kexit
+
+Script done on Mon 24 Apr 2006 05:29:33 PM EDT

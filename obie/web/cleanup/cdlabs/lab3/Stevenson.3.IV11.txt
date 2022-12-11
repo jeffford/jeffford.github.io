@@ -1,0 +1,52 @@
+Script started on Mon 24 Apr 2006 05:54:33 PM EDT
+]0;student@localhost:~[student@localhost ~]$ ls -Rp
+[00m.:
+[00;34massignments[00m/     [00mLab 2~[00m                  [00mstevenson.3.I.txt[00m
+[00;34mbackups[00m/         [00;34mletters[00m/                [00mStevenson.3.IV11.txt[00m
+[00;34mbusLetters[00m/      [00;34mreports[00m/                [00mStevenson.3.IV.txt[00m
+[00;34mBusletters[00m/      [00mstevenson.2.II.txt[00m      [00mStevenson.4.III.txt[00m
+[00;34mDesktop[00m/         [00mstevenson.2.I.txt[00m       [00mStevenson.gtysburgII.txt[00m
+[00mgtysburgII.txt~[00m  [00mStevenson.3.III.txt[00m     [00mStevenson.gtysburg.txt[00m
+[00mHW 3-1.doc[00m       [00mStevenson.3.IIRest.txt[00m  [00mStevenson.L1.txt[00m
+[00mLab 2[00m            [00mstevenson.3.II.txt[00m      [00mStevenson.L1.txt~[00m
+
+./assignments:
+[00;34mUNIX[00m/
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00;36mhw4SL[00m@  [00;34mHWs[00m/  [00;34mProjects[00m/
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00mhw4SL[00m
+
+./busLetters:
+
+./Busletters:
+[00;34mformal[00m/
+
+./Busletters/formal:
+[00mformal.1[00m  [00mformal.2[00m  [00mformal.3[00m  [00mformal.4[00m
+
+./Desktop:
+
+./letters:
+[00;34mfriendly[00m/
+
+./letters/friendly:
+[00mfriend.1[00m  [00mfriendly.3[00m
+
+./reports:
+[00;34mbusiness[00m/  [00;34mpersonal[00m/  [00;34mschool[00m/
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Mon 24 Apr 2006 05:54:42 PM EDT

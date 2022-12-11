@@ -1,0 +1,409 @@
+Script started on Tue 02 May 2006 06:48:34 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cp /etc/passwd Ch6S7F1
+]0;Student@localhost:~[Student@localhost ~]$ wc -l Ch6S7F1
+34 Ch6S7F1
+]0;Student@localhost:~[Student@localhost ~]$ cut -d':' -f1,3 Ch6S7F1 > Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ more Ch7[K6S7F1
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+[7m--More--(61%)[mnetdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+[7m--More--(65%)[msshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+[7m--More--(69%)[mrpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+[7m--More--(73%)[mmailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+[7m--More--(76%)[msmmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+[7m--More--(79%)[mrpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+[7m--More--(83%)[mnfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+[7m--More--(87%)[mxfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+[7m--More--(91%)[mntp:x:38:38::/etc/ntp:/sbin/nologin
+[7m--More--(93%)[mgdm:x:42:42::/var/gdm:/sbin/nologin
+[7m--More--(95%)[mStudent:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6S7F1cut -d':' -f1,3 Ch6S7F1 > Ch6S7F2[Student@localhost ~]$ [21Pmore Ch6S7F1[Kw[K2
+root:0
+bin:1
+daemon:2
+adm:3
+lp:4
+sync:5
+shutdown:6
+halt:7
+mail:8
+news:9
+uucp:10
+operator:11
+games:12
+gopher:13
+ftp:14
+nobody:99
+dbus:81
+vcsa:69
+rpm:37
+haldaemon:68
+pcap:77
+nscd:28
+named:25
+[7m--More--(63%)[mnetdump:34[K
+[7m--More--(67%)[msshd:74[K
+[7m--More--(70%)[mrpc:32[K
+[7m--More--(72%)[mmailnull:47[K
+[7m--More--(76%)[msmmsp:51[K
+[7m--More--(79%)[mrpcuser:29[K
+[7m--More--(83%)[mnfsnobody:65534
+[7m--More--(88%)[mxfs:43[K
+[7m--More--(91%)[mntp:38[K
+[7m--More--(93%)[mgdm:42[K
+[7m--More--(95%)[mStudent:500[K
+]0;Student@localhost:~[Student@localhost ~]$ wc -l Ch6S7F1
+34 Ch6S7F1
+]0;Student@localhost:~[Student@localhost ~]$ tr ":" "\t" < Ch6S7F2
+root	0
+bin	1
+daemon	2
+adm	3
+lp	4
+sync	5
+shutdown	6
+halt	7
+mail	8
+news	9
+uucp	10
+operator	11
+games	12
+gopher	13
+ftp	14
+nobody	99
+dbus	81
+vcsa	69
+rpm	37
+haldaemon	68
+pcap	77
+nscd	28
+named	25
+netdump	34
+sshd	74
+rpc	32
+mailnull	47
+smmsp	51
+rpcuser	29
+nfsnobody	65534
+xfs	43
+ntp	38
+gdm	42
+Student	500
+]0;Student@localhost:~[Student@localhost ~]$ tr ":" "\t" < Ch6S7F2[Ktr ":" "\t" < Ch6S7F2[1P[4h\[4l[4ht[4l[Student@localhost ~]$ tr "\t"[Student@localhost ~]$ tr "\t" [Student@localhost ~]$ tr "\t" "[Student@localhost ~]$ tr "\t" "\[1P[Student@localhost ~]$ tr "\t" "t[1P[4h [4l[Student@localhost ~]$ tr "\t" " " < Ch6S7F2
+root:0
+bin:1
+daemon:2
+adm:3
+lp:4
+sync:5
+shutdown:6
+halt:7
+mail:8
+news:9
+uucp:10
+operator:11
+games:12
+gopher:13
+ftp:14
+nobody:99
+dbus:81
+vcsa:69
+rpm:37
+haldaemon:68
+pcap:77
+nscd:28
+named:25
+netdump:34
+sshd:74
+rpc:32
+mailnull:47
+smmsp:51
+rpcuser:29
+nfsnobody:65534
+xfs:43
+ntp:38
+gdm:42
+Student:500
+]0;Student@localhost:~[Student@localhost ~]$ tr "\t" " " < Ch6S7F2[1P[1P[4h:[4l[Student@localhost ~]$ tr ":"[Student@localhost ~]$ tr ":" [Student@localhost ~]$ tr ":" "[Student@localhost ~]$ tr ":" " " < Ch6S7F2
+root 0
+bin 1
+daemon 2
+adm 3
+lp 4
+sync 5
+shutdown 6
+halt 7
+mail 8
+news 9
+uucp 10
+operator 11
+games 12
+gopher 13
+ftp 14
+nobody 99
+dbus 81
+vcsa 69
+rpm 37
+haldaemon 68
+pcap 77
+nscd 28
+named 25
+netdump 34
+sshd 74
+rpc 32
+mailnull 47
+smmsp 51
+rpcuser 29
+nfsnobody 65534
+xfs 43
+ntp 38
+gdm 42
+Student 500
+]0;Student@localhost:~[Student@localhost ~]$ tr ":" " " < Ch6S7F2[K[K[K[K[K[K[K[K[K\t" " " < Ch6S7F2[10P:" " " [Ktr ":" " " \t" " " < Ch6S7F2[Student@localhost ~]$ tr "\t[1P[1P[4h:[4l[Student@localhost ~]$ tr ":" " " < Ch6S7F2 > Ch[K[Ka
+]0;Student@localhost:~[Student@localhost ~]$ cat a
+root 0
+bin 1
+daemon 2
+adm 3
+lp 4
+sync 5
+shutdown 6
+halt 7
+mail 8
+news 9
+uucp 10
+operator 11
+games 12
+gopher 13
+ftp 14
+nobody 99
+dbus 81
+vcsa 69
+rpm 37
+haldaemon 68
+pcap 77
+nscd 28
+named 25
+netdump 34
+sshd 74
+rpc 32
+mailnull 47
+smmsp 51
+rpcuser 29
+nfsnobody 65534
+xfs 43
+ntp 38
+gdm 42
+Student 500
+]0;Student@localhost:~[Student@localhost ~]$ cp a Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ sort X[KCh6S7F2 > ch6[K[K[KCh6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S7F2 > Ch6S7F2[10Pcp a[Student@localhost ~]$ cp a Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ cp a Ch6S7F2[4hsort Ch6S7[4lF2 >[Student@localhost ~]$ sort Ch6S7F2 > Ch6S7F2[Student@localhost ~]$ sort Ch6S7F2 >~ Ch6S7F2[1P Ch6S7F2[Student@localhost ~]$ sort Ch6S7F2 >  Ch6S7F2~ Ch6S7F2/ Ch6S7F2[1PCh6S7F2[Student@localhost ~]$ sort Ch6S7F2 > ~/Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S7F2 > ~/Ch6S7F2[12Pcp a Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ cp a Ch6S7F2 > asort Ch6S7F2 > ~/Ch6S7F2[K[K[K[K[K[K[K[K[Ka
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S7F2 > acp a[Student@localhost ~]$ cp a Ch6S7F2 > asort Ch6S7F2 > ~/Ch6S7F2[12Pcp a Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ more a
+adm 3
+bin 1
+daemon 2
+dbus 81
+ftp 14
+games 12
+gdm 42
+gopher 13
+haldaemon 68
+halt 7
+lp 4
+mail 8
+mailnull 47
+named 25
+netdump 34
+news 9
+nfsnobody 65534
+nobody 99
+nscd 28
+ntp 38
+operator 11
+pcap 77
+root 0
+[7m--More--(67%)[mrpc 32[K
+[7m--More--(70%)[mrpcuser 29[K
+[7m--More--(73%)[mrpm 37[K
+[7m--More--(76%)[mshutdown 6[K
+[7m--More--(80%)[msmmsp 51[K
+[7m--More--(83%)[msshd 74[K
+[7m--More--(85%)[mStudent 500[K
+[7m--More--(89%)[msync 5[K
+[7m--More--(92%)[muucp 10[K
+[7m--More--(94%)[mvcsa 69[K
+[7m--More--(97%)[mxfs 43[K
+]0;Student@localhost:~[Student@localhost ~]$ cut head -14[K[K24 > a1
+cut: invalid option -- 2
+Try `cut --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cut head -24 > a1[1P[1P[1P[1P[Student@localhost ~]$ head -24 > a1
+]0;Student@localhost:~[Student@localhost ~]$ head -24 > a1[Student@localhost ~]$ h[Student@localhost ~]$ he[Student@localhost ~]$ hea[Student@localhost ~]$ head[Student@localhost ~]$ head [Student@localhost ~]$ head -[Student@localhost ~]$ head -2[Student@localhost ~]$ head -24[Student@localhost ~]$ head -24 [Student@localhost ~]$ head -24 >[Student@localhost ~]$ head -24 > [1P[4h2[4l[Student@localhost ~]$ head -22 [Student@localhost ~]$ head -22 >[4ha[4l[4h [4l[Student@localhost ~]$ head -22 a > a1
+]0;Student@localhost:~[Student@localhost ~]$ more a1
+adm 3
+bin 1
+daemon 2
+dbus 81
+ftp 14
+games 12
+gdm 42
+gopher 13
+haldaemon 68
+halt 7
+lp 4
+mail 8
+mailnull 47
+named 25
+netdump 34
+news 9
+nfsnobody 65534
+nobody 99
+nscd 28
+ntp 38
+operator 11
+pcap 77
+]0;Student@localhost:~[Student@localhost ~]$ more a1[4hhead -22[4l a >[Student@localhost ~]$ head -22 a > a1[1P[4h1[4l
+]0;Student@localhost:~[Student@localhost ~]$ head -12 a > a1[8Pmore[Student@localhost ~]$ more a1
+adm 3
+bin 1
+daemon 2
+dbus 81
+ftp 14
+games 12
+gdm 42
+gopher 13
+haldaemon 68
+halt 7
+lp 4
+mail 8
+]0;Student@localhost:~[Student@localhost ~]$ more a1[Student@localhost ~]$ more a1[4hhead -12[4l a >[Student@localhost ~]$ head -12 a > a1[1P[1P[1P[1P[4ht[4l[4ha[4l[4hi[4l[4hl[4l[Student@localhost ~]$ tail [Student@localhost ~]$ tail -[1P[4h+[4l[Student@localhost ~]$ tail +1[1P[1P[4h2[4l[4h2[4l[1P[1P[1P[1P[4he[4l[4hh[4l[1P[1P[4hh[4l[4he[4l[4ha[4l[4hd[4l[Student@localhost ~]$ head [1P[4h-[4l[1P[4h+[4l[1P[4h+[4l[Student@localhost ~]$ head +2[1P[4h1[4l[1P[4h2[4l[Student@localhost ~]$ head +12 [1P[4h3[4l[Student@localhost ~]$ head +13 [4h [4l[4h-[4l[4h2[4l[4h4[4l[Student@localhost ~]$ head +13 -24 a > a1[K2
+head: invalid option -- 2
+Try `head --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cuthead +13 -24 a > a2[12Pmore a1[4hhead -12[4l a >[Student@localhost ~]$ head -12 a > a1[1P[Student@localhost ~]$ head -2[4h2[4l[1P[4h4[4l[Student@localhost ~]$ head -24 a > a1
+]0;Student@localhost:~[Student@localhost ~]$ hea[K[K[Ktail +14[K[K24 a >a3 a3[1P3a3[Student@localhost ~]$ tail +24 a > a3
+]0;Student@localhost:~[Student@localhost ~]$ tail +24 a > a3[1P[1P[1P[1P[4hh[4l[4he[4l[4ha[4l[4hd[4l[4hs[4l[1P[4hs[4l[4hs[4l[1P[1P[Student@localhost ~]$ head [4h [4l[1P[1P[1P[1P[1P[Student@localhost ~]$ head [4h [4l[4h1[4l[4h2[4l[4h4[4l[1P[1P[1P[4h=[4l[4h2[4l[1P[4h1[4l[4h2[4l[1P[1P[1P[4h+[4l[4h1[4l[4h2[4l[1P[1P[4ha[4l[4h [4l[Student@localhost ~]$ head +12 a[4h1[4l[Student@localhost ~]$ head +12 a1 [Student@localhost ~]$ head +12 a1 >[Student@localhost ~]$ head +12 a1 > [Student@localhost ~]$ head +12 a1 > a[Student@localhost ~]$ head +12 a1 > a3[K2
+head: cannot open `+12' for reading: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ head +12 a1 > a2[Student@localhost ~]$ head +12 a[Student@localhost ~]$ head +12 a1[Student@localhost ~]$ head +12 a1 [Student@localhost ~]$ head +12 a1 >[Student@localhost ~]$ head +12 a1 > [Student@localhost ~]$ head +12 a1 > a[Student@localhost ~]$ head +12 a1 > a2[1P[4h-[4l[Student@localhost ~]$ head -12 a1 > a2
+]0;Student@localhost:~[Student@localhost ~]$ paster[K a1 a2 a4[K3
+adm 3	adm 3	rpc 32
+bin 1	bin 1	rpcuser 29
+daemon 2	daemon 2	rpm 37
+dbus 81	dbus 81	shutdown 6
+ftp 14	ftp 14	smmsp 51
+games 12	games 12	sshd 74
+gdm 42	gdm 42	Student 500
+gopher 13	gopher 13	sync 5
+haldaemon 68	haldaemon 68	uucp 10
+halt 7	halt 7	vcsa 69
+lp 4	lp 4	xfs 43
+mail 8	mail 8	
+mailnull 47		
+named 25		
+netdump 34		
+news 9		
+nfsnobody 65534		
+nobody 99		
+nscd 28		
+ntp 38		
+operator 11		
+pcap 77		
+root 0		
+rpc 32		
+]0;Student@localhost:~[Student@localhost ~]$ cut[K[K[Khead -12[K[K[K[K[K[K[K[Ktail +12 a[K>[Ka1 > a2
+]0;Student@localhost:~[Student@localhost ~]$ tail +12 a1 > a2[Khead -12 a > a1
+]0;Student@localhost:~[Student@localhost ~]$ paste a1 a [K2 a [K3
+adm 3	mail 8	rpc 32
+bin 1	mailnull 47	rpcuser 29
+daemon 2	named 25	rpm 37
+dbus 81	netdump 34	shutdown 6
+ftp 14	news 9	smmsp 51
+games 12	nfsnobody 65534	sshd 74
+gdm 42	nobody 99	Student 500
+gopher 13	nscd 28	sync 5
+haldaemon 68	ntp 38	uucp 10
+halt 7	operator 11	vcsa 69
+lp 4	pcap 77	xfs 43
+mail 8	root 0	
+	rpc 32	
+]0;Student@localhost:~[Student@localhost ~]$ paste a1 a2 a3head -12 a > a1tail +12 a1 > a2[2Ppaste a1 a2 a3head -12 a1 > a2+[Student@localhost ~]$ head +12 a1 > a2[1Ptail +24 a > a3head -24 a > a1+13 -24 a > a2[12Pmore a1head +13 -24 a > a2[4P-24 a > a1tail +24 a > a3head +12 a1 > a2-[Student@localhost ~]$ head -12 a1 > a2[2Ppaste a1 a2 a3tail +12 a1 > a2[1Phead -12 a > a1[1Ppaste a1 a2 a3[Ktr " " "\t" < a
+adm	3
+bin	1
+daemon	2
+dbus	81
+ftp	14
+games	12
+gdm	42
+gopher	13
+haldaemon	68
+halt	7
+lp	4
+mail	8
+mailnull	47
+named	25
+netdump	34
+news	9
+nfsnobody	65534
+nobody	99
+nscd	28
+ntp	38
+operator	11
+pcap	77
+root	0
+rpc	32
+rpcuser	29
+rpm	37
+shutdown	6
+smmsp	51
+sshd	74
+Student	500
+sync	5
+uucp	10
+vcsa	69
+xfs	43
+]0;Student@localhost:~[Student@localhost ~]$ tr " " "\t" < a[1Ppaste a1 a2 a3head -12 a > a1tail +12 a1 > a2[2Ppaste a1 a2 a3head -12 a1 > a2+[Student@localhost ~]$ head +12 a1 > a2[1Ptail +24 a > a3head -24 a > a1
+]0;Student@localhost:~[Student@localhost ~]$ head -24 a > a1tr " " "\t" < a[1Ppaste a1 a2 a3head -12 a > a1tail +12 a1 > a2[2Ppaste a1 a2 a3head -12 a1 > a2+[Student@localhost ~]$ head +12 a1 > a2-[Student@localhost ~]$ head -12 a1 > a2[2Ppaste a1 a2 a3head -12 a1 > a2+[Student@localhost ~]$ head +12 a1 > a2[Student@localhost ~]$ head[1P[1P[1P[1P[4ht[4l[4ha[4l[4hi[4l[4hl[4l[Student@localhost ~]$ tail +12 a1 > a2
+]0;Student@localhost:~[Student@localhost ~]$ tail +12 a1 > a2[1Phead -24 a > a1tr " " "\t" < a[1Ppaste a1 a2 a3head -12 a > a1tail +12 a1 > a2[2Ppaste a1 a2 a3head -12 a1 > a2+[Student@localhost ~]$ head +12 a1 > a2[1Ptail +24 a > a3
+]0;Student@localhost:~[Student@localhost ~]$ tail +24 a > a312 a1 > a2[1Phead -24 a > a1tr " " "\t" < a[1Ppaste a1 a2 a3head -12 a > a1tail +12 a1 > a2[1Phead -12 a > a1[Student@localhost ~]$ head -12 a > a1
+]0;Student@localhost:~[Student@localhost ~]$ head -12 a > a1tail +24 a > a312 a1 > a2[1Phead -24 a > a1tr " " "\t" < a[1Ppaste a1 a2 a3head -12 a > a1[1Ppaste a1 a2 a3
+adm 3	mail 8	rpc 32
+bin 1	mailnull 47	rpcuser 29
+daemon 2	named 25	rpm 37
+dbus 81	netdump 34	shutdown 6
+ftp 14	news 9	smmsp 51
+games 12	nfsnobody 65534	sshd 74
+gdm 42	nobody 99	Student 500
+gopher 13	nscd 28	sync 5
+haldaemon 68	ntp 38	uucp 10
+halt 7	operator 11	vcsa 69
+lp 4	pcap 77	xfs 43
+mail 8	root 0	
+	rpc 32	
+]0;Student@localhost:~[Student@localhost ~]$ paste a1 a2 a3 > Ch6S7F3
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Tue 02 May 2006 07:04:27 AM EDT

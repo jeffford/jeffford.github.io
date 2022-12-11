@@ -1,0 +1,74 @@
+Script started on Thu 27 Apr 2006 08:23:34 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ paste table1 c6s1f21cut -f3 c6s1f1 > table32 c6s1f1 > table21 c6s1f1 > table1[12Pmore c6s1f1[4hcut[4l -f2[Student@localhost ~]$ cut -f2 c6s1f1[2Ppaste[Student@localhost ~]$ paste c6s1f1[4hcu[4lt -f2[Student@localhost ~]$ cut -f2 c6s1f1[2Ppaste[Student@localhost ~]$ paste c6s1f1[4hcu[4lt -f2[Student@localhost ~]$ cut -f2 c6s1f1[2Psort c6s1f1 [3Pvi c6s1f1[4hcat [4l> [Student@localhost ~]$ cat >  c6s1f1
+^^?  1425  	Juan	14.25
+4321	Gearoge==       orge	21.11
+6781	Anna	16.77
+1451	Ben	21.77
+2277	Tuan	18.77
+]0;Student@localhost:~[Student@localhost ~]$ cat >  c6s1f1paste table1 c6s1f2[6Pcat >  c6s1f1[Kcat >  c6s1f1paste table1 c6s1f21cut -f3 c6s1f1 > table32 c6s1f1 > table21 c6s1f1 > table1[12Pmore c6s1f1[4hcut[4l -f2[Student@localhost ~]$ cut -f2 c6s1f1[2Ppaste[Student@localhost ~]$ paste c6s1f1[4hcu[4lt -f2[Student@localhost ~]$ cut -f2 c6s1f1[2Ppaste[Student@localhost ~]$ paste c6s1f1[4hcu[4lt -f2[Student@localhost ~]$ cut -f2 c6s1f1[2Psort c6s1f1 [3Pvi c6s1f1sort c6s1f1 > temp
+]0;Student@localhost:~[Student@localhost ~]$ vi t[K[K[K[Km[Kcp temo[Kp c6s1f1
+]0;Student@localhost:~[Student@localhost ~]$ more c6s1f1
+1425	Juan	14.25
+1451	Ben	21.77
+2277	Tuan	18.77
+4321	George	21.11
+6781	Anna	16.77
+]0;Student@localhost:~[Student@localhost ~]$ cut f1[K3 [K[K[K-f3 c6s1f1
+14.25
+21.77
+18.77
+21.11
+16.77
+]0;Student@localhost:~[Student@localhost ~]$ paste c6s1f1
+1425	Juan	14.25
+1451	Ben	21.77
+2277	Tuan	18.77
+4321	George	21.11
+6781	Anna	16.77
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 c6s1f1
+Juan
+Ben
+Tuan
+George
+Anna
+]0;Student@localhost:~[Student@localhost ~]$ paste c6s1f[K[K[K[K[K[K[K[K[K[K[Kcut[K[K[Kcut -f2 c6s1f1[2Ppaste[Student@localhost ~]$ paste c6s1f1[4hcu[4lt -f3[Student@localhost ~]$ cut -f3 c6s1f1 > table1
+]0;Student@localhost:~[Student@localhost ~]$ paste table1 c6fi[K[Ks1f1
+14.25	1425	Juan	14.25
+21.77	1451	Ben	21.77
+18.77	2277	Tuan	18.77
+21.11	4321	George	21.11
+16.77	6781	Anna	16.77
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 table1[K2[Student@localhost ~]$ cut -f2. table2[1P table2[Student@localhost ~]$ cut -f2  table2> table2[Student@localhost ~]$ cut -f2 >  table2
+
+]0;Student@localhost:~[Student@localhost ~]$ more table2
+
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 c6f[Ks1f1 > table2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 c6s1f1 > table2[K3[1P[4h1[4l
+]0;Student@localhost:~[Student@localhost ~]$ cate[K table3 table1 table2 >c6s1f1
+]0;Student@localhost:~[Student@localhost ~]$ more c6s1f1
+1425
+1451
+2277
+4321
+6781
+14.25
+21.77
+18.77
+21.11
+16.77
+Juan
+Ben
+Tuan
+George
+Anna
+]0;Student@localhost:~[Student@localhost ~]$ paste table3 table1 table2 > c6s1f1
+]0;Student@localhost:~[Student@localhost ~]$ more cpaste table3 table1 table2 > c6s1f1[Student@localhost ~]$ more c6s1f1[K
+1425	14.25	Juan
+1451	21.77	Ben
+2277	18.77	Tuan
+4321	21.11	George
+6781	16.77	Anna
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Thu 27 Apr 2006 08:39:57 AM EDT

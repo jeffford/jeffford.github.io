@@ -1,0 +1,120 @@
+Script started on Tue 25 Apr 2006 07:35:02 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ qhoi[K[K[K[Kwho > file1
+]0;Student@localhost:~[Student@localhost ~]$ more file1
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ morw[Ke
+usage: more [-dflpcsu] [+linenum | +/pattern] name1 name2 ...
+]0;Student@localhost:~[Student@localhost ~]$ more _[K-r file1
+more: unknown option "-r"
+usage: more [-dflpcsu] [+linenum | +/pattern] name1 name2 ...
+]0;Student@localhost:~[Student@localhost ~]$ ad[K[Kdate | [K[K[K[K[K[K[Kdate eho[K[K[Kwho [K [K[K[K[K> | who > file2
+bash: syntax error near unexpected token `|'
+]0;Student@localhost:~[Student@localhost ~]$ date who > fiel2
+date: invalid date `who'
+]0;Student@localhost:~[Student@localhost ~]$ date | who > fiell[K[K[K[Kel[K[Kile2
+]0;Student@localhost:~[Student@localhost ~]$ more file[K[K[K[K[K[K[K[K[Kdate : who > fiel[K[Kle2
+date: too many non-option arguments: who
+Try `date --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ date : who > file2[1P[4h:[4l[1P[4h;[4l
+Tue Apr 25 07:51:38 EDT 2006
+]0;Student@localhost:~[Student@localhost ~]$ more file2
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file2[4hdate ; w[4lho >[Student@localhost ~]$ date ; who > file2[K34[K[K3[Student@localhost ~]$ date ;[1P[Student@localhost ~]$ date  [Student@localhost ~]$ date  w[Student@localhost ~]$ date  wh[Student@localhost ~]$ date  who[Student@localhost ~]$ date  who [Student@localhost ~]$ date  who >> file3[1P file3[4h>[4l[1P[Student@localhost ~]$ date  [Student@localhost ~]$ date  w[Student@localhost ~]$ date  wh[Student@localhost ~]$ date  who[Student@localhost ~]$ date  who [Student@localhost ~]$ date  who >> file3[1P file3[4h>[4l[4h [4l[4hf[4l[4hi[4l[4hl[4l[4he[4l[4h3[4l[4h [4l[4h|[4l[4h [4l[Student@localhost ~]$ date  > file3 | w[Student@localhost ~]$ date  > file3 | wh[Student@localhost ~]$ date  > file3 | who[Student@localhost ~]$ date  > file3 | who [Student@localhost ~]$ date  > file3 | who >[Student@localhost ~]$ date  > file3 | who >> file3
+]0;Student@localhost:~[Student@localhost ~]$ more
+usage: more [-dflpcsu] [+linenum | +/pattern] name1 name2 ...
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Tue Apr 25 08:01:51 EDT 2006
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3[Kdate  > file3 | who >> file3[Student@localhost ~]$ [18Pmore file2[4hdate ; w[4lho >[Student@localhost ~]$ date ; who > file2[Student@localhost ~]$ date ; who > file2[K[K[K[K[K[K[K[Student@localhost ~]$ date [4h>[4l[4h [4l[4hf[4l[4hi[4l[4hl[4l[4he[4l[4h4[4l[4h [4l
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ cp file3 file3.bak[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kp file3 
+cp: missing destination file
+Try `cp --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ cp file3 file.[K3.bak
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Tue Apr 25 08:01:51 EDT 2006
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more fill[Ke3.bak
+Tue Apr 25 08:01:51 EDT 2006
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3 file3.bak
+::::::::::::::
+file3
+::::::::::::::
+Tue Apr 25 08:01:51 EDT 2006
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+[7m--More--(Next file: file3.bak)[m::::::::::::::[K
+file3.bak
+::::::::::::::
+Tue Apr 25 08:01:51 EDT 2006
+[7m--More--(27%)[mStudent  :0           Apr 25 07:31
+[7m--More--(60%)[mStudent  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3 file3.bak[6P.bak[Kcp file3 file3.bak[K[4hdate > fil[4le4 ; who[Student@localhost ~]$ date > file4 ; who [1P[4hb[4l[Student@localhost ~]$ ba[Student@localhost ~]$ bat[Student@localhost ~]$ bate[Student@localhost ~]$ bate [Student@localhost ~]$ bate >[Student@localhost ~]$ bate > [Student@localhost ~]$ bate > f[Student@localhost ~]$ bate > fi[Student@localhost ~]$ bate > fil[Student@localhost ~]$ bate > file[Student@localhost ~]$ bate > file4[Student@localhost ~]$ bate > file4 [Student@localhost ~]$ bate > file4 ;[Student@localhost ~]$ bate > file4 ; [Student@localhost ~]$ bate > file4 ; w[Student@localhost ~]$ bate > file4 ; wh[Student@localhost ~]$ bate > file4 ; who[Student@localhost ~]$ bate > file4 ; who 
+bash: bate: command not found
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ bate > file4 ; who [Student@localhost ~]$ bate > [Student@localhost ~]$ bate > f[Student@localhost ~]$ bate > fi[Student@localhost ~]$ bate > fil[Student@localhost ~]$ bate > file[Student@localhost ~]$ bate > file4[Student@localhost ~]$ bate > file4 [Student@localhost ~]$ bate > file4 ;[Student@localhost ~]$ bate > file4 ; [1P[4h4[4l[1P[4hd[4l
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ dat[K[K[Kbaet[K[Kte >> file2[K3 ; wj[Kho 
+bash: bate: command not found
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Tue Apr 25 08:01:51 EDT 2006
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ bate[K[K[K[Kmore file3 dile[K[K[Kf[K[Kfi9[Kle3.ka[K[Kbak
+::::::::::::::
+file3
+::::::::::::::
+Tue Apr 25 08:01:51 EDT 2006
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+[7m--More--(Next file: file3.bak)[m::::::::::::::[K
+file3.bak
+::::::::::::::
+Tue Apr 25 08:01:51 EDT 2006
+[7m--More--(27%)[mStudent  :0           Apr 25 07:31
+[7m--More--(60%)[mStudent  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3 file3.bak[Kbate >> file3 ; who [4h2[4l
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ bate 2>> file3 ; who [1Pmore file3 file3.bak
+::::::::::::::
+file3
+::::::::::::::
+Tue Apr 25 08:01:51 EDT 2006
+Student  :0           Apr 25 07:31
+Student  pts/1        Apr 25 07:34 (:0.0)
+bash: bate: command not found
+[7m--More--(Next file: file3.bak)[m::::::::::::::[K
+file3.bak
+::::::::::::::
+Tue Apr 25 08:01:51 EDT 2006
+[7m--More--(27%)[mStudent  :0           Apr 25 07:31
+[7m--More--(60%)[mStudent  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3 file3.bakbate 2>> file3 ; who [1Pmore file3 file3.bakbate 2>> file3 ; who [Student@localhost ~]$ bate 2>> file3[1P[4h4[4l[1P[4h5[4l[Student@localhost ~]$ bate 2>> file5 [Student@localhost ~]$ bate 2>> file5 ;[Student@localhost ~]$ bate 2>> file5 ; [Student@localhost ~]$ bate 2>> file5 ; w[Student@localhost ~]$ bate 2>> file5 ; wh[Student@localhost ~]$ bate 2>> file5 ; who[Student@localhost ~]$ bate 2>> file5 ; who >>flie[K[K[Kile4 file4
+]0;Student@localhost:~[Student@localhost ~]$ more file [K5 file 4[K[K4
+::::::::::::::
+file5
+::::::::::::::
+bash: bate: command not found
+[7m--More--(Next file: file4)[m::::::::::::::[K
+file4
+::::::::::::::
+Tue Apr 25 08:12:35 EDT 2006
+[7m--More--(27%)[mStudent  :0           Apr 25 07:31
+[7m--More--(60%)[mStudent  pts/1        Apr 25 07:34 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 25 Apr 2006 08:16:57 AM EDT

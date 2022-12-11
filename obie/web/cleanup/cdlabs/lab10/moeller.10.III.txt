@@ -1,0 +1,54 @@
+Script started on Tue 02 May 2006 10:23:24 PM EDT
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat > Ch10S3F1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+Phs e E	17	2	25
+CIS	54	2	67
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep '[^0-9][1][^0-9]' Ch10S3F1 > Ch1o\0[K[K[K0S3F2
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch10S3F2
+CIS	15	1	45
+CIS	54	1	20
+CIS	45	1	38
+MTH	35	1	56
+]0;moellerja@cs:~[moellerja@cs moellerja]$ fgrep 'CIS' Ch10S3F1 .[K> Ch10S3F3
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch10S3F3
+CIS	15	1	45
+CIS	54	1	20
+CIS	45	1	38
+CIS	54	2	67
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep '[0-2][0-4]$' Ch10S3F1 > ch1[K[K[KCh10S3F4
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch10S2[K3F4
+CIS	54	1	20
+BUS	34	2	20
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep '[2][5-9]|[3][3]' Ch10S3F1 > Ch10S3F5
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch10S3F5
+PhE	17	2	25
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch10S3F1 Ch10S3F2 Ch10S3F3 c[KCh10S3F4 Ch10S3F5
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PhE	17	2	25
+CIS	54	2	67
+CIS	15	1	45
+CIS	54	1	20
+CIS	45	1	38
+MTH	35	1	56
+CIS	15	1	45
+CIS	54	1	20
+CIS	45	1	38
+CIS	54	2	67
+CIS	54	1	20
+BUS	34	2	20
+PhE	17	2	25
+]0;moellerja@cs:~[moellerja@cs moellerja]$ exit
+
+Script done on Tue 02 May 2006 10:31:32 PM EDT

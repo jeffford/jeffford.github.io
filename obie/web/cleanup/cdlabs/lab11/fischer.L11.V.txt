@@ -1,0 +1,26 @@
+Script started on Mon 08 May 2006 06:17:49 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat fischer.[K[K[K[K[K[K[K[KCh11s5f1
+/* The greeting program. This program demonstrates  */
+/*        some of the components of a simple C program.*/
+#include <stdio.h>
+
+int main (void)
+{
+/*	Statements	*/
+
+return 0;
+} /* main */
+
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11s5f1vi Ch11s3.sedsed -f Ch11s3.sed Ch11s3f1b[Student@localhost ~]$ sed -f Ch11s3[1P[4h5[4l[Student@localhost ~]$ sed -f Ch11s5.[Student@localhost ~]$ sed -f Ch11s5.s[Student@localhost ~]$ sed -f Ch11s5.se[Student@localhost ~]$ sed -f Ch11s5.sed[Student@localhost ~]$ sed -f Ch11s5.sed [Student@localhost ~]$ sed -f Ch11s5.sed C[Student@localhost ~]$ sed -f Ch11s5.sed Ch[Student@localhost ~]$ sed -f Ch11s5.sed Ch1[Student@localhost ~]$ sed -f Ch11s5.sed Ch11[Student@localhost ~]$ sed -f Ch11s5.sed Ch11s[Student@localhost ~]$ sed -f Ch11s5.sed Ch11s3[1Pf1b5f1b[Student@localhost ~]$ sed -f Ch11s5.sed Ch11s5f[Student@localhost ~]$ sed -f Ch11s5.sed Ch11s5f1[Student@localhost ~]$ sed -f Ch11s5.sed Ch11s5f1b[K > Ch11s5f2
+]0;Student@localhost:~[Student@localhost ~]$ sed -f Ch11s5.sed Ch11s5f1 > Ch11s5f2[Student@localhost ~]$ cat Ch11s5f1[K[K2
+#include <stdio.h>
+
+int main (void)
+{
+
+return 0;
+
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 08 May 2006 06:18:39 PM EDT

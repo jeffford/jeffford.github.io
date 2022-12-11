@@ -1,0 +1,43 @@
+Script started on Fri 28 Apr 2006 07:41:23 AM EDT
+]0;student@localhost:~[student@localhost ~]$ echo \#7 Corr[K[K[K[Koi [K[K[KI made a mistake on this the fist [K[K[Krst time I did it.  So I am redoin[K[King it.
+#7 I made a mistake on this the first time I did it. So I am redoing it.
+]0;student@localhost:~[student@localhost ~]$ cat[K[K[Kcat Ch6SIS[KF1 [K[K[K[K1F1 Ch5SII[K[K[K[K6SIIF2[K1 > Ch6SIIF3
+]0;student@localhost:~[student@localhost ~]$ cat Ch6SIIF3
+1425	14.25	Juan
+1451	21.77	Ben
+2277	18.77	Tuan
+4321	21.11	George
+6781	16.77	Anna
+Juan	jj@yahoo.com	330-569-5211
+George	george@hotmail.com	330-274-1999
+Anna	sister@aol.com	330-274-5615
+Ben	davisbj@hiram.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;student@localhost:~[student@localhost ~]$ pat[Kste Ch[K[K[K[K[K[K[K[Kcat Ch6SIIF31F1 Ch6SIIF1 > Ch6SIIF3[1P[1P[1P[4hp[4l[4ha[4l[4hs[4l[4ht[4l[4he[4l
+]0;student@localhost:~[student@localhost ~]$ paste Ch6S1F1 Ch6SIIF1 > Ch6SIIF3[student@localhost ~]$ [21Pcat[student@localhost ~]$ cat Ch6SIIF3
+1425	14.25	Juan	Juan	jj@yahoo.com	330-569-5211
+1451	21.77	Ben	George	george@hotmail.com	330-274-1999
+2277	18.77	Tuan	Anna	sister@aol.com	330-274-5615
+4321	21.11	George	Ben	davisbj@hiram.edu	512-345-5678
+6781	16.77	Anna	Tuan	tt1234@aol.com	404-213-1434
+]0;student@localhost:~[student@localhost ~]$ \*[K[Kecho \#* [K[K8 Also [K, have to redo this one.
+#8 Also, have to redo this one.
+]0;student@localhost:~[student@localhost ~]$ cut _[K+0 -3, +4 - 6 Ch6SIIF3 > Ch5[K6SIIS[KF4
+cut: invalid option -- 3
+Try `cut --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ cut +0 -3, +4 - 6 Ch6SIIF3 > Ch6SIIF4[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[4hf[4l[1P[4h-[4l[4hf[4l[4h1[4l[4h-[4l[4h3[4l[4h,[4l[student@localhost ~]$ cut -f1-3, [4h [4l[1P[1P[1P[1P[1P[4h{[4l[1P[4h[[4l[4h1[4l[4h-[4l[4h3[4l[4h,[4l[student@localhost ~]$ cut -f[1-3, [4h [4l[4h4[4l[4h-[4l[4h6[4l[1P[1P[1P[4h5[4l[4h-[4l[4h6[4l[4h][4l
+cut: invalid byte, character or field list
+Try `cut --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ c[Kcut -f[1-3, 5-6] Ch6SIIF3 > Ch6SIIF4[1P[4h6[4l[1P[1P[student@localhost ~]$ cut -f1[student@localhost ~]$ cut -f1-[student@localhost ~]$ cut -f1-3[student@localhost ~]$ cut -f1-3,[student@localhost ~]$ cut -f1-3, [student@localhost ~]$ cut -f1-3, 5[student@localhost ~]$ cut -f1-3, 5-[1P[student@localhost ~]$ cut -f1-3,5[student@localhost ~]$ cut -f1-3,5-[student@localhost ~]$ cut -f1-3,5-6[student@localhost ~]$ cut -f1-3,5-6 [student@localhost ~]$ cut -f1-3,5-6 C[student@localhost ~]$ cut -f1-3,5-6 Ch[student@localhost ~]$ cut -f1-3,5-6 Ch6[student@localhost ~]$ cut -f1-3,5-6 Ch6S[student@localhost ~]$ cut -f1-3,5-6 Ch6SI[student@localhost ~]$ cut -f1-3,5-6 Ch6SII[student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF[student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3[student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3 [student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3 >[student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3 > [student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3 > C[student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3 > Ch[student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3 > Ch6[student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3 > Ch6S[student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3 > Ch6SI[student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3 > Ch6SII[student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3 > Ch6SIIF[student@localhost ~]$ cut -f1-3,5-6 Ch6SIIF3 > Ch6SIIF4
+]0;student@localhost:~[student@localhost ~]$ cat Ch6SIIS[KF4
+1425	14.25	Juan	jj@yahoo.com	330-569-5211
+1451	21.77	Ben	george@hotmail.com	330-274-1999
+2277	18.77	Tuan	sister@aol.com	330-274-5615
+4321	21.11	George	davisbj@hiram.edu	512-345-5678
+6781	16.77	Anna	tt1234@aol.com	404-213-1434
+]0;student@localhost:~[student@localhost ~]$ \#[K[Kecho \#9 The reslu[K[Kut[Klts are dispa[Klayed. Bu [Kt becaus e[K[Ke the colums[Kn  that was cut was not th[K[Kexactly the saem[K[Kme as te[Khe column that was similar to it, the in o[K[Athat was cut was not exactly the same as the column that was similar to it, the i[K
+[K[Athat was cut was not exactly the same as the column that was similar to it, the i[Kin formation may not be perfec[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdoes not match perfectly.
+#9 The results are displayed. But because the column that was cut was not exactly the same as the column that was similar to it, the information does not match perfectly.
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Fri 28 Apr 2006 07:49:14 AM EDT

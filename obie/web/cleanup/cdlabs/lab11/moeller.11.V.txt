@@ -1,0 +1,85 @@
+Script started on Fri 05 May 2006 03:20:46 PM EDT
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat>[K > Ch11S5F1
+/* The greeting program.  This program demonstrates  */
+/*    some of the components of a simple C program.  */
+/*   Wi ritten by: J your name here                      */
+/*       Date: date program written                      */
+#inclued  de <sdio.h     tdio.h>
+
+int main (void)
+{
+/*     Statemet nts  */
+
+  printf  ("Hello w World!/ \n");
+
+  return 0;
+} /* main */
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat [K[Kt Ch11S5F1
+/* The greeting program.  This program demonstrates  */
+/*    some of the components of a simple C program.  */
+/*   Written by: your name here                      */
+/*   Date: date program written                      */
+#include <stdio.h>
+
+int main (void)
+{
+/*     Statements  */
+
+  printf("Hello World!\n");
+
+  return 0;
+} /* main */
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat > Ch11S5.sed
+/^.*/{
+     /^[\/*\].*[\/*\]^[[D        */\]$/d
+     / s. /[\/*\].*[\*/\]//
+     }
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S5.sed
+/^.*/{
+     /^[\/*\].*[\*/\]$/d
+     s/[\/*\].*[\*/\]//
+     }
+]0;moellerja@cs:~[moellerja@cs moellerja]$ sed -f Ch11S5.sed Ch111[KS5F1 > Ch11S5F2
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S5F2
+#include <stdio.h>
+
+int main (void)
+{
+
+  printf("Hello World!\n");
+
+  return 0;
+} 
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S5F1
+/* The greeting program.  This program demonstrates  */
+/*    some of the components of a simple C program.  */
+/*   Written by: your name here                      */
+/*   Date: date program written                      */
+#include <stdio.h>
+
+int main (void)
+{
+/*     Statements  */
+
+  printf("Hello World!\n");
+
+  return 0;
+} /* main */
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S5F[K.sed
+/^.*/{
+     /^[\/*\].*[\*/\]$/d
+     s/[\/*\].*[\*/\]//
+     }
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S5F2
+#include <stdio.h>
+
+int main (void)
+{
+
+  printf("Hello World!\n");
+
+  return 0;
+} 
+]0;moellerja@cs:~[moellerja@cs moellerja]$ exit
+
+Script done on Fri 05 May 2006 03:27:21 PM EDT

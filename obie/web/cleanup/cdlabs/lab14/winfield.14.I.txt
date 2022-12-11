@@ -1,0 +1,77 @@
+Script started on Mon 08 May 2006 04:39:25 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ awbackup
+Must have [file] then [directory]
+]0;Student@localhost:~[Student@localhost ~]$ awbackup backupfile
+Must have [file] then [directory]
+]0;Student@localhost:~[Student@localhost ~]$ awbackup backupfile 
+backu[[Kps blah
+Must have [file] then [directory] name
+]0;Student@localhost:~[Student@localhost ~]$ awbackup backupfile backups 
+blah
+[Student@localhost ~]$ awbackup backupfile backups 
+blah[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khu 
+backups
+cat: hu: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ awbackup hu 
+backups
+[Student@localhost ~]$ awbackup hu[1P 
+backups[1P backupsb backupsa backupsc 
+backupsk backupsu backupsp backupsf 
+backupsi backupsl backupse 
+backups
+[Student@localhost ~]$ awbackup backupfile 
+
+[Student@localhost ~]$ awbackup backupfile b
+[Student@localhost ~]$ 
+awbackup backupfile ba
+[Student@localhost ~]$ awbackup backupfile 
+bac
+[Student@localhost ~]$ awbackup backupfile back
+[Student@localhost ~]$ 
+awbackup backupfile backu
+[Student@localhost ~]$ awbackup backupfile 
+backup
+[Student@localhost ~]$ awbackup backupfile 
+backups[K[K[K[K[K[K[Khu
+cp: cannot create regular file `hu/winfield.11.I.txt.bak': No such file or 
+directory
+winfield.11.I.txt is backed up in hu
+cp: cannot create regular file `hu/winfield.11.II.txt.bak': No such file or 
+directory
+winfield.11.II.txt is backed up in hu
+cp: cannot create regular file `hu/winfield.11.III.txt.bak': No such file or 
+directory
+winfield.11.III.txt is backed up in hu
+]0;Student@localhost:~[Student@localhost ~]$ awbackup backupfile 
+hu[K[K[K bakcupfiel[K[Kle
+cp: cannot create regular file `bakcupfile/winfield.11.I.txt.bak': No such 
+file or directory
+winfield.11.I.txt is backed up in bakcupfile
+cp: cannot create regular file `bakcupfile/winfield.11.II.txt.bak': No such 
+file or directory
+winfield.11.II.txt is backed up in bakcupfile
+cp: cannot create regular file `bakcupfile/winfield.11.III.txt.bak': No such 
+file or directory
+winfield.11.III.txt is backed up in bakcupfile
+]0;Student@localhost:~[Student@localhost ~]$ awbackup backupfile 
+bakcupfile
+[Student@localhost ~]$ awbackup backupfile 
+bakcup
+[Student@localhost ~]$ awbackup backupfile bakcupf
+[Student@localhost 
+~]$ awbackup backupfile bakcupfi
+[Student@localhost ~]$ awbackup backupfile 
+bakcupfil[1Pe[1Pe[1Pe[1Pe[1Pe[1Pe[1Pe
+[Student@localhost 
+~]$ awbackup backupfile bae[Kckups
+winfield.11.I.txt is backed up in backups
+winfield.11.II.txt is backed up in backups
+winfield.11.III.txt is backed up in backups
+]0;Student@localhost:~[Student@localhost ~]$ cd backups
+]0;Student@localhost:~/backups[Student@localhost backups]$ ls
+[00m[00mwinfield.11.III.txt.bak[00m  [00mwinfield.11.II.txt.bak[00m  
+[00mwinfield.11.I.txt.bak[00m
+[m]0;Student@localhost:~/backups[Student@localhost backups]$ exit
+
+Script done on Mon 08 May 2006 04:42:37 PM EDT
+

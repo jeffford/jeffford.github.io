@@ -1,0 +1,32 @@
+Yowa Kimura
+Chapter 2
+
+L.I.1 -Logged into the system.
+L.I.2 -Created a file called gtysbrg.txt by typing in "vi gtysbrg.txt".
+It created a file in the Student's Home directory. Typed in all the information given. To start inserting information, I used the command "i". 
+L.I.3 -Did not have any typing error during the creation of the paragraph.
+L.I.4 -Saved the file by typing in "ZZ". This allowed me to save and quit at
+the same time.
+
+L.II.1 -Logged into the system.
+L.II.2 -Typed in "vi gtysbrg.txt" to open the file created in the previous
+session.
+L.II.3 -In this section, I was told to add some text, change some text, and
+delete some text. 
+	To add some text, I used arrow keys to get to the line, and if the new
+materials were to be entered, then I used "o". I also used "i, I, A, a, and O"
+depending on where the changes were going to be made. 
+	To change some text, I used arrow keys to get to the part that were to
+be changed, used the command "x" to delete the characters. I then entered the
+command "i" to type something to replace the deleted space.
+	To delete some text, I used the command "x" to delete few characters,
+however, when I wanted to delete a whole line, I used "dd".
+L.II.4 -Saved this file with a new name called gtsybrgII.txt. To do this, I
+entered the command, ":w gtsybrgII.txt".
+
+L.III.1 -Logged into the system.
+L.III.2 -Opened the file created in session II by entering, "vi gtysbrgII.txt"
+L.III.3 -In this section, I were to make changes to the text again. I used the
+same methods to complete this task as L.II.3. 
+L.III.4 -Saved this change by entering "ZZ". 
+

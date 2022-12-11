@@ -1,0 +1,83 @@
+Script started on Thu 04 May 2006 02:50:02 PM EDT
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat > Ch10S1F[K[K2[K2F1
+          The Widsom of Aesop          
+It is one thing to say that something should be done.
+  It is quite a different matter to do it.
+    "Bl elling the Cat"
+
+Liars are not believed even when they tell the truth.
+    "The Shepherd Boy and the Wold f"
+
+    Flattery is not a proof of true admiration.
+    "The Owl and the Grasshp opper"
+
+Thosw e who work the hardest do not always e get the profit.
+    "The Lion, the Bear, and the Fox: "
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep '.' Ch10S2F1 > C10[K[Kh10S2F2
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch10S2F2
+          The Widsom of Aesop          
+It is one thing to say that something should be done.
+  It is quite a different matter to do it.
+    "Belling the Cat"
+Liars are not believed even when they tell the truth.
+    "The Shepherd Boy and the Wolf"
+Flattery is not a proof of true admiration.
+    "The Owl and the Grasshopper"
+Those who work the hardest do not always get the profit.
+    "The Lion, the Bear, and the Fox"
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep '^[ ][ ]*' Ch10S2F2 > Ch10S2F3
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch10S3[K2F3
+          The Widsom of Aesop          
+  It is quite a different matter to do it.
+    "Belling the Cat"
+    "The Shepherd Boy and the Wolf"
+    "The Owl and the Grasshopper"
+    "The Lion, the Bear, and the Fox"
+]0;moellerja@cs:~[moellerja@cs moellerja]$ egrep '[K-v '^[ ][ ]*' Ch10F[KS2F2 > Ch10S2F4
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch10S2F4
+It is one thing to say that something should be done.
+Liars are not believed even when they tell the truth.
+Flattery is not a proof of true admiration.
+Those who work the hardest do not always get the profit.
+]0;moellerja@cs:~[moellerja@cs moellerja]$ grep '^[K[K[K[K[K[K[Kcat Ch10S2F4[27@egrep -v '^[ ][ ]*' Ch10S2F2 >[moellerja@cs moellerja]$ egrep -v '^[ ][ ]*' Ch10S2F2 > Ch10S2F4[moellerja@cs moellerja]$ cat Ch10S2F3[K[24@egrep '^[ ][ ]*' Ch10S2F2 >[moellerja@cs moellerja]$ egrep '^[ ][ ]*' Ch10S2F2 > Ch10S2F3[moellerja@cs moellerja]$ [24Pcat Ch10S2F2[17@egrep '.' Ch10S2F1 >[moellerja@cs moellerja]$ egrep '.' Ch10S2F1 > Ch10S2F2[moellerja@cs moellerja]$ [15Pcat > Ch10S2F1Ch10S4F1 Ch10S4F2 Ch10S4F33[Kgrep -i '\(\<[a-z][a-z]*[ ]\).*\1.*\1' Ch10S4F1 > Ch10SS4F3[A[moellerja@cs moellerja]$ cat Ch10S4F3[K
+[K[A[moellerja@cs moellerja]$ cat Ch10S4F3[K[moellerja@cs moellerja]$ cat Ch10S4F3[K[K[K[K[K[K[K[K[K[K[K[Kgrep '^\([ ][ ]*\).*\1$' Ch10S2F3 > Ch10S2F5
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch10S2F5
+          The Widsom of Aesop          
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch10S2F1 Ch10S2F2 Ch10S2F3 Ch10S2F4 Ch10S2F5
+          The Widsom of Aesop          
+It is one thing to say that something should be done.
+  It is quite a different matter to do it.
+    "Belling the Cat"
+
+Liars are not believed even when they tell the truth.
+    "The Shepherd Boy and the Wolf"
+
+Flattery is not a proof of true admiration.
+    "The Owl and the Grasshopper"
+
+Those who work the hardest do not always get the profit.
+    "The Lion, the Bear, and the Fox"
+          The Widsom of Aesop          
+It is one thing to say that something should be done.
+  It is quite a different matter to do it.
+    "Belling the Cat"
+Liars are not believed even when they tell the truth.
+    "The Shepherd Boy and the Wolf"
+Flattery is not a proof of true admiration.
+    "The Owl and the Grasshopper"
+Those who work the hardest do not always get the profit.
+    "The Lion, the Bear, and the Fox"
+          The Widsom of Aesop          
+  It is quite a different matter to do it.
+    "Belling the Cat"
+    "The Shepherd Boy and the Wolf"
+    "The Owl and the Grasshopper"
+    "The Lion, the Bear, and the Fox"
+It is one thing to say that something should be done.
+Liars are not believed even when they tell the truth.
+Flattery is not a proof of true admiration.
+Those who work the hardest do not always get the profit.
+          The Widsom of Aesop          
+]0;moellerja@cs:~[moellerja@cs moellerja]$ exit
+
+Script done on Thu 04 May 2006 02:57:25 PM EDT

@@ -1,0 +1,56 @@
+Script started on Mon 24 Apr 2006 05:19:28 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ls -Rp
+[00m.:
+[00;34massignments[00m/   [00;34mletters[00m/            [00mSangtani.3.II.cont.txt[00m  [00msangtani.L2.txt[00m
+[00mcalstuff[00m       [00;34mreports[00m/            [00mSangtani.3.II.txt[00m
+[00;34mDesktop[00m/       [00msangtani2edit.txt![00m  [00mSangtani.3.I.txt[00m
+[00mgtsybrgII.txt[00m  [00mSangtani2edit.txt[00m   [00mSangtani.L1.txt.odt[00m
+
+./assignments:
+[00;34mUNIX[00m/
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bk[00m  [00;34mHWs[00m/  [00;34mProjects[00m/
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+
+./letters:
+[00;34mformal[00m/  [00;34mfriendly[00m/
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[m]0;Student@localhost:~[Student@localhost ~]$ cd assignments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ pwd
+/home/Student/assignments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ln -i hw4 hw4HL
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ln -s hw4 hw4SL
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls -i UNIX
+[00mls: UNIX: No such file or directory
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls -i hw4
+[00m907666 [00mhw4[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls -i hw4.bk
+[00m907665 [00mhw4.bk[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls -i hw4HL
+[00m907666 [00mhw4HL[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls -ui[K[Ki hw4SL
+[00m907692 [00;36mhw4SL[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls -l
+[00mtotal 44
+-rw-rw-r--  2 Student Student   52 Apr 24 08:35 [00mhw4[00m
+-rw-rw-r--  1 Student Student   52 Apr 24 08:58 [00mhw4.bk[00m
+-rw-rw-r--  2 Student Student   52 Apr 24 08:35 [00mhw4HL[00m
+lrwxrwxrwx  1 Student Student    3 Apr 24 17:34 [00;36mhw4SL[00m -> [00mhw4[00m
+drwxrwxr-x  2 Student Student 4096 Apr 24 08:23 [00;34mHWs[00m
+drwxrwxr-x  2 Student Student 4096 Apr 24 08:23 [00;34mProjects[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ exit
+
+Script done on Mon 24 Apr 2006 05:45:40 PM EDT

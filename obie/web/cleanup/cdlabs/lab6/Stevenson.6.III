@@ -1,0 +1,317 @@
+Script started on Sun 30 Apr 2006 05:11:38 PM EDT
+]0;student@localhost:~[student@localhost ~]$ cat > Ch63F1
+Alph    ALPHABETICAL FACTS.
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN.
+THE LAST THREE LETE TERS ARE XYZ.
+THE FIRST WORD IN MY DICTIONARY IS AAL.
+]0;student@localhost:~[student@localhost ~]$ CAT[K[K[Kcat Ch63F1
+ALPHABETICAL FACTS.
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN.
+THE LAST THREE LETTERS ARE XYZ.
+THE FIRST WORD IN MY DICTIONARY IS AAL.
+]0;student@localhost:~[student@localhost ~]$ tr[K[Kman tr
+[?1049h[?1h=[24;1H[KTR(1)                            User Commands                           TR(1)
+
+[1mNAME[0m
+       tr - translate or delete characters
+
+[1mSYNOPSIS[0m
+       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m]
+
+[1mDESCRIPTION[0m
+       Translate, squeeze, and/or delete characters from standard input, writ-
+       ing to standard output.
+
+       [1m-c[0m, [1m--complement[0m
+              first complement SET1
+
+       [1m-d[0m, [1m--delete[0m
+              delete characters in SET1, do not translate
+
+       [1m-s[0m, [1m--squeeze-repeats[0m
+              replace each input sequence of  a  repeated  character  that  is
+              listed in SET1 with a single occurrence of that character
+
+       [1m-t[0m, [1m--truncate-set1[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              first truncate SET1 to length of SET2
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       SETs  are  specified  as  strings  of characters.  Most represent them-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       selves.  Interpreted sequences are:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \NNN   character with octal value NNN (1 to 3 octal digits)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \\     backslash
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \a     audible BEL
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \b     backspace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \f     form feed
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \n     new line
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \r     return
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \t     horizontal tab
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \v     vertical tab
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       CHAR1-CHAR2
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all characters from CHAR1 to CHAR2 in ascending order
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [CHAR*]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              in SET2, copies of CHAR until length of SET1
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [CHAR*REPEAT]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              REPEAT copies of CHAR, REPEAT octal if starting with 0
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:alnum:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all letters and digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:alpha:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:blank:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all horizontal whitespace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:cntrl:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all control characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:digit:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:graph:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all printable characters, not including space
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:lower:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all lower case letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:print:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all printable characters, including space
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:punct:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all punctuation characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:space:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all horizontal or vertical whitespace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:alpha:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              all letters and digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [:alnum:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              REPEAT copies of CHAR, REPEAT octal if starting with 0
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [CHAR*REPEAT]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:print:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all printable characters, including space
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:punct:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all punctuation characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:space:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all horizontal or vertical whitespace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:upper:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all upper case letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:xdigit:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all hexadecimal digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [=CHAR=]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all characters which are equivalent to CHAR
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Translation occurs if [1m-d[0m is not given and both SET1  and  SET2  appear.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-t[0m  may  be  used only when translating.  SET2 is extended to length of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       SET1 by repeating its last character as necessary.   Excess  characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       of  SET2  are  ignored.  Only [:lower:] and [:upper:] are guaranteed to
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       expand in ascending order; used in SET2  while  translating,  they  may
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       only  be used in pairs to specify case conversion.  [1m-s[0m uses SET1 if not
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       translating nor deleting; else squeezing uses  SET2  and  occurs  after
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       translation or deletion.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mAUTHOR[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Written by Jim Meyering.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mREPORTING[0m [1mBUGS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Report bugs to <bug-coreutils@gnu.org>.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mCOPYRIGHT[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Copyright © 2004 Free Software Foundation, Inc.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       This is free software; see the source for copying conditions.  There is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       NO warranty; not even for MERCHANTABILITY or FITNESS FOR  A  PARTICULAR
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       PURPOSE.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mSEE[0m [1mALSO[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       The  full  documentation  for [1mtr[0m is maintained as a Texinfo manual.  If
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the [1minfo[0m and [1mtr[0m programs are properly installed at your site, the  com-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       mand
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1minfo[0m [1mcoreutils[0m [1mtr[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       should give you access to the complete manual.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[Ktr (coreutils) 5.2.1               May 2005                              TR(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K[?1l>[?1049l]0;student@localhost:~[student@localhost ~]$ tr "ABCDEV[KFGHIJKLMNOPQRSTUB[KVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABC DE" Chg[K63F1 > Ch6F[KS3F2[K1Encr
+tr: too many arguments
+Try `tr --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABCDDE" Ch63F1 > Ch6S3F1Encr[A[K
+[K[A[student@localhost ~]$ tr ==[K[K[K[K[Kman tr
+[?1049h[?1h=[24;1H[KTR(1)                            User Commands                           TR(1)
+
+[1mNAME[0m
+       tr - translate or delete characters
+
+[1mSYNOPSIS[0m
+       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m]
+
+[1mDESCRIPTION[0m
+       Translate, squeeze, and/or delete characters from standard input, writ-
+       ing to standard output.
+
+       [1m-c[0m, [1m--complement[0m
+              first complement SET1
+
+       [1m-d[0m, [1m--delete[0m
+              delete characters in SET1, do not translate
+
+       [1m-s[0m, [1m--squeeze-repeats[0m
+              replace each input sequence of  a  repeated  character  that  is
+              listed in SET1 with a single occurrence of that character
+
+       [1m-t[0m, [1m--truncate-set1[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              first truncate SET1 to length of SET2
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       SETs  are  specified  as  strings  of characters.  Most represent them-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       selves.  Interpreted sequences are:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \NNN   character with octal value NNN (1 to 3 octal digits)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \\     backslash
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \a     audible BEL
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \b     backspace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \f     form feed
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \n     new line
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \r     return
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \t     horizontal tab
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \v     vertical tab
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       CHAR1-CHAR2
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all characters from CHAR1 to CHAR2 in ascending order
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [CHAR*]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              in SET2, copies of CHAR until length of SET1
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [CHAR*REPEAT]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              REPEAT copies of CHAR, REPEAT octal if starting with 0
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:alnum:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all letters and digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:alpha:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:blank:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all horizontal whitespace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:cntrl:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all control characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:digit:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:graph:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all printable characters, not including space
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:lower:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all lower case letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:print:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all printable characters, including space
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:punct:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all punctuation characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:space:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all horizontal or vertical whitespace
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:upper:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all upper case letters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [:xdigit:]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all hexadecimal digits
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [=CHAR=]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all characters which are equivalent to CHAR
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Translation occurs if [1m-d[0m is not given and both SET1  and  SET2  appear.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-t[0m  may  be  used only when translating.  SET2 is extended to length of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       SET1 by repeating its last character as necessary.   Excess  characters
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       of  SET2  are  ignored.  Only [:lower:] and [:upper:] are guaranteed to
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       expand in ascending order; used in SET2  while  translating,  they  may
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       only  be used in pairs to specify case conversion.  [1m-s[0m uses SET1 if not
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       translating nor deleting; else squeezing uses  SET2  and  occurs  after
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       translation or deletion.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mAUTHOR[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Written by Jim Meyering.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mREPORTING[0m [1mBUGS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Report bugs to <bug-coreutils@gnu.org>.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mCOPYRIGHT[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Copyright © 2004 Free Software Foundation, Inc.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       This is free software; see the source for copying conditions.  There is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       NO warranty; not even for MERCHANTABILITY or FITNESS FOR  A  PARTICULAR
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       PURPOSE.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mSEE[0m [1mALSO[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       The  full  documentation  for [1mtr[0m is maintained as a Texinfo manual.  If
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the [1minfo[0m and [1mtr[0m programs are properly installed at your site, the  com-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       mand
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1minfo[0m [1mcoreutils[0m [1mtr[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       should give you access to the complete manual.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[Ktr (coreutils) 5.2.1               May 2005                              TR(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K[?1l>[?1049l]0;student@localhost:~[student@localhost ~]$ man trtr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABCDDE" Ch63F1 > Ch6S3F1EncrDE" Ch63F1 > Ch6S3DE" Ch63F1 > Ch6S3FDE" Ch63F1 > Ch6S3F1DE" Ch63F1 > Ch6S3F1EDE" Ch63F1 > Ch6S3F1EnDE" Ch63F1 > Ch6S3F1EncDE" Ch63F1 > Ch6S3F1Encr[Aman tr[K
+[K[A[student@localhost ~]$ man trtr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABCDDE" Ch63F1 > Ch6S3F1Encr[A[student@localhost ~]$ tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABctr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZABC[4hD[4l[A[student@localhost ~]$ catr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZAB[4hC[4l[A[student@localhost ~]$ ca[student@localhost ~]$ cattr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZA[4hB[4l[A[student@localhost ~]$ cat tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXYZ[4hA[4l[A[student@localhost ~]$ cat Ctr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWXY[4hZ[4l[A[student@localhost ~]$ cat Chtr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVWX[4hY[4l[A[student@localhost ~]$ cat Ch6tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUVW[4hX[4l[A[student@localhost ~]$ cat Ch63tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTUV[4hW[4l[A[student@localhost ~]$ cat Ch63Ftr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTU[4hV[4l[A[student@localhost ~]$ cat Ch63FItr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRST[4hU[4l[A[student@localhost ~]$ cat Ch63FIItr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRS[4hT[4l[A[student@localhost ~]$ cat Ch63FIItr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRST[1P[A[student@localhost ~]$ cat Ch63FItr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRSTU[1P[A[student@localhost ~]$ cat Ch63F2tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRST[4hU[4l[A[student@localhost ~]$ cat Ch63F2 tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQRS[4hT[4l[A[student@localhost ~]$ cat Ch63F2 |tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQR[4hS[4l[A[student@localhost ~]$ cat Ch63F2 | tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQ[4hR[4l[A[student@localhost ~]$ cat Ch63F2 | [student@localhost ~]$ cat Ch63F2 | t[student@localhost ~]$ cat Ch63F2 | tr[student@localhost ~]$ cat Ch63F2 | tr [student@localhost ~]$ cat Ch63F2 | tr "[student@localhost ~]$ cat Ch63F2 | tr "Aman tr[K
+[K[A[student@localhost ~]$ man trcat Ch63F2 | tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQQRSTUVWXYZABCDE" Ch63F1 > Ch6S3F1Encr[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KS[K[K[K[K> Ch6F[KS3F2[K2[K1Encr[A[student@localhost ~]$ cat Ch63F2 | tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNO | tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQR[1P[A[student@localhost ~]$ cat Ch63F1 | tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQ[4hR[4l[A[student@localhost ~]$ cat Ch63F1man tr[K
+[K[A[student@localhost ~]$ man trcat Ch63F1 | tr "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "FGHIJKLMNOPQQRSTUVWXYZABCDE" > Ch6S3F1Encr
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S2[K3F1Encr
+FQUMFGJYNHFQ KFHYX.
+YMJ KNWXY YMWJJ QJYYJWX FWJ FGH.
+YMJ RJINFS QJYYJWX FWJ RS.
+YMJ QFXY YMWJJ QJYYJWX FWJ CDE.
+YMJ KNWXY BTWI NS RD INHYNTSFWD NX FFQ.
+]0;student@localhost:~[student@localhost ~]$ cat Ch[K[K[K[K[K[Kcat Ch6S3F1Encr | Tr[K[Ktr "FGHIJKLMNOPQRSTUB[KVWXYZABCE[KDE" "ABCDEF GHIJKLMNOPQRSTUVWXYZ" > Ch6S3F1
+]0;student@localhost:~[student@localhost ~]$ cat Ch6S3F1
+ALPHABETICAL FACTS.
+THE FIRST THREE LETTERS ARE ABC.
+THE MEDIAN LETTERS ARE MN.
+THE LAST THREE LETTERS ARE XYZ.
+THE FIRST WORD IN MY DICTIONARY IS AAL.
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Sun 30 Apr 2006 05:21:39 PM EDT

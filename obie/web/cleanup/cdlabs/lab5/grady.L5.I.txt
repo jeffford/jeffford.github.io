@@ -1,0 +1,80 @@
+Script started on Mon 24 Apr 2006 05:45:19 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cho[K[K[Kecho $
+$
+]0;Student@localhost:~[Student@localhost ~]$ echo $0
+bash
+]0;Student@localhost:~[Student@localhost ~]$ vi etc/passwd
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"etc/passwd" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hQ[?25l[?12l[?25h[?25l[1m[37m[41mE492: Not an editor command: Q[m[32C0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ cd etc
+bash: cd: etc: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cd ~etc
+bash: cd: ~etc: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ ls _[K-R
+[00m.:
+[00;34massignments[00m  [00;34mDesktop[00m           [00mgrady.L3.IV.txt[00m  [00mgrady.lab2.session.txt[00m  [00;34mletters[00m
+[00;34mbackups[00m      [00mgrady.L3.IIItxt[00m   [00mgrady.L4.II.txt[00m  [00mgtsbrgII.txt[00m            [00;34mreports[00m
+[00;34mbusLetters[00m   [00mgrady.L3.III.txt[00m  [00mgrady.L4.I.txt[00m   [00mgtsybrgII.txt[00m
+[00;34mchapter_4[00m    [00mgrady.L3.II.txt[00m   [00mgrady.L5.I.txt[00m   [00mgtysbrg.txt[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bak[00m  [00mhw4HL[00m  [00mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+[00mhw4[00m  [00mhw4.bk.[00m  [00mhw4HL[00m  [00mhw4SL[00m
+
+./busLetters:
+[00;34mformal[00m
+
+./busLetters/formal:
+[00mformal.1[00m  [00mformal.2[00m
+
+./chapter_4:
+[00;34msession_I[00m  [00;34msession_II[00m
+
+./chapter_4/session_I:
+
+./chapter_4/session_II:
+
+./Desktop:
+
+./letters:
+[00;34mfriends[00m
+
+./letters/friends:
+[00mfriend.1[00m
+
+./reports:
+[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/presonal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ echo $sh[K[KSHELL
+/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ Echo[K[K[K[Kecho it is the same as the login shell
+it is the same as the login shell
+]0;Student@localhost:~[Student@localhost ~]$ csh
+[Student@localhost ~]$ echo $CHELL[K[K[K[K[KSHELL
+/bin/bash
+[Student@localhost ~]$ bac[Ksh
+]0;Student@localhost:~[Student@localhost ~]$ echo $SHELL
+/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ exit [K
+exit
+[Student@localhost ~]$ echo $SHELL
+/bin/bash
+[Student@localhost ~]$ echo $0
+csh
+[Student@localhost ~]$ ehco [K[K[Kcho not in login but in cshell[P[4hC[4l[4h [4l
+not in login but in C shell
+[Student@localhost ~]$ ^Dexit
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Mon 24 Apr 2006 05:59:17 PM EDT

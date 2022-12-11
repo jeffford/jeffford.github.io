@@ -1,0 +1,30 @@
+Script started on Sun 07 May 2006 01:12:35 AM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ ct[Kat Ch11S4.sed
+s/\(.*\)[/]\(.*\)$/\1\ \2/
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat > Ch11S4F1
+/bin/date
+/bin/programs/cal
+/usr/bin/date
+/usr/report/file1
+/usr/report/letters/lett1
+/spool/mails
+]0;prattjk@cs:~[prattjk@cs prattjk]$ sed 0f [K[K[K-f Ch11S4.sed Ch11S4F1 > Ch11S4F2
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S4.sed
+s/\(.*\)[/]\(.*\)$/\1\ \2/
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11S4F1
+/bin/date
+/bin/programs/cal
+/usr/bin/date
+/usr/report/file1
+/usr/report/letters/lett1
+/spool/mails
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch11SF2[K[K[KS4F2
+/bin date
+/bin/programs cal
+/usr/bin date
+/usr/report file1
+/usr/report/letters lett1
+/spool mails
+]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+
+Script done on Sun 07 May 2006 01:14:32 AM EDT

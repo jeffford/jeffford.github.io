@@ -1,0 +1,13 @@
+Script started on Tue 09 May 2006 07:20:15 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ vi Ch11s3.sedb.sed[4hc[4lat[Student@localhost ~]$ cat Ch11s3b.seddir[Kcat fischer.L11.III.txtii.III.txtdir[K[K[K[K./rfbackup 1[Kfile backups
+file is backed up in backups
+18.doc is backed up in backups
+]0;Student@localhost:~[Student@localhost ~]$ ./rfbackup file backups[K[K[K[K[K[K[Kmeepssss
+2nd argument must be a directory
+]0;Student@localhost:~[Student@localhost ~]$ ./rfbackup file meepssss[K[K[K[K[K[K[K[K[K[K[K[K[Kdfgdr backuo[Kp
+1st argument must be a valid file
+]0;Student@localhost:~[Student@localhost ~]$ ./rfbackup dfgdr backup[K[K[K[K[K[K[K[K[K[K[K[Kfile
+This script requires 2 arguments
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 09 May 2006 07:21:19 AM EDT

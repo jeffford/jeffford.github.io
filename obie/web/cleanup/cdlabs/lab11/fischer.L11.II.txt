@@ -1,0 +1,54 @@
+Script started on Sun 07 May 2006 03:00:28 PM EDT
+]0;fischerrl@cs:~[fischerrl@cs fischerrl]$ cat > Ch11s2f1
+UNIX is as UNIX does.
+And DOS is as DOS does.
+But UNIX is not as DOS does.
+Nor is DOS as UNIX does.
+
+So, if UNIX was as DOS does,
+Would UNIX be DOS
+OR r would DOS be UNIX?
+Or to put the question another way:
+I an operating system by any other name^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D                                    
+As beautiful as a UNIX operating system?
+]0;fischerrl@cs:~[fischerrl@cs fischerrl]$ sed 's/UNIX/*****&*****/ [K' Ch11s2f1
+*****UNIX***** is as UNIX does.
+And DOS is as DOS does.
+But *****UNIX***** is not as DOS does.
+Nor is DOS as *****UNIX***** does.
+
+So, if *****UNIX***** was as DOS does,
+Would *****UNIX***** be DOS
+Or would DOS be *****UNIX*****?
+Or to put the question another way:
+I an operating system by any other name
+As beautiful as a *****UNIX***** operating system?
+]0;fischerrl@cs:~[fischerrl@cs fischerrl]$ sed 's/UNIX/*****&*****/' Ch11s2f1[1@'[1@'
+*****UNIX***** is as UNIX does.
+And DOS is as DOS does.
+But *****UNIX***** is not as DOS does.
+Nor is DOS as *****UNIX***** does.
+
+So, if *****UNIX***** was as DOS does,
+Would *****UNIX***** be DOS
+Or would DOS be *****UNIX*****?
+Or to put the question another way:
+I an operating system by any other name
+As beautiful as a *****UNIX***** operating system?
+]0;fischerrl@cs:~[fischerrl@cs fischerrl]$ sed 's/'UNIX'/*****&*****/' Ch11s2f1 > Ch11s2f2
+]0;fischerrl@cs:~[fischerrl@cs fischerrl]$ cat Ch11s2f2
+*****UNIX***** is as UNIX does.
+And DOS is as DOS does.
+But *****UNIX***** is not as DOS does.
+Nor is DOS as *****UNIX***** does.
+
+So, if *****UNIX***** was as DOS does,
+Would *****UNIX***** be DOS
+Or would DOS be *****UNIX*****?
+Or to put the question another way:
+I an operating system by any other name
+As beautiful as a *****UNIX***** operating system?
+]0;fischerrl@cs:~[fischerrl@cs fischerrl]$ exit
+exit
+
+Script done on Sun 07 May 2006 03:24:34 PM EDT

@@ -1,0 +1,77 @@
+Script started on Mon 24 Apr 2006 05:35:09 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ who > file [K1
+]0;Student@localhost:~[Student@localhost ~]$ more file1
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ date; who >f[K file [K2
+Mon Apr 24 17:35:34 EDT 2006
+]0;Student@localhost:~[Student@localhost ~]$ more file2
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ date | who > file3
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ rm file3
+]0;Student@localhost:~[Student@localhost ~]$ date > file3; who > file3
+]0;Student@localhost:~[Student@localhost ~]$ more file [K3
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3[4hdate > file3; w[4lho >[Student@localhost ~]$ date > file3; who > file3[Student@localhost ~]$ rm file3[K[4hdate > file3; who[4l >[Student@localhost ~]$ date > file3; who > file3[Student@localhost ~]$ date > file3; who [Student@localhost ~]$ date > file3; who >> file3[Student@localhost ~]$ date > file3; who >> [Student@localhost ~]$ date > file3; who >> f[Student@localhost ~]$ date > file3; who >> fi[Student@localhost ~]$ date > file3; who >> fil[Student@localhost ~]$ date > file3; who >> file[Student@localhost ~]$ date > file3; who >> file3
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Mon Apr 24 17:39:28 EDT 2006
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3[4hdate > file3; wh[4lo >>[Student@localhost ~]$ date > file3; who >> file3[Student@localhost ~]$ [16Pmore[Student@localhost ~]$ more file3[4hdate > file3; w[4lho >[Student@localhost ~]$ date > file3; who > file3[Student@localhost ~]$ rm file3[K[4hmo[4lre[Student@localhost ~]$ more file3[4hdate | w[4lho >[Student@localhost ~]$ date | who > file3[8Pmore file2date | who > file3[8Pmore[Student@localhost ~]$ more file3[4hdate | w[4lho >[Student@localhost ~]$ date | who > file3[8Pmore file2[4hdate; w[4lho >[Student@localhost ~]$ date; who > file2[4h>[4l[1P[4h [4l[4h>[4l[4h [4l[4hf[4l[4hi[4l[4hl[4l[4hr[4l[1P[4he[4l[4h4[4l[Student@localhost ~]$ date > file4;[Student@localhost ~]$ date > file4; [Student@localhost ~]$ date > file4; w[Student@localhost ~]$ date > file4; wh[Student@localhost ~]$ date > file4; who[Student@localhost ~]$ date > file4; who [Student@localhost ~]$ date > file4; who >[Student@localhost ~]$ date > file4; who > [Student@localhost ~]$ date > file4; who > f[Student@localhost ~]$ date > file4; who > fi[Student@localhost ~]$ date > file4; who > fil[Student@localhost ~]$ date > file4; who > file[1P2[1P2[1P2[K[K[K[K[K[K[K[K[K
+]0;Student@localhost:~[Student@localhost ~]$ rm file4
+]0;Student@localhost:~[Student@localhost ~]$ date >fil[K[K[K file4; who
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file4
+Mon Apr 24 17:43:53 EDT 2006
+]0;Student@localhost:~[Student@localhost ~]$ cp file3 file3.bak
+]0;Student@localhost:~[Student@localhost ~]$ cp file3 file3.bak[8Pmore file4date > file4; who[9Prm file4date > file4;[3Pmore file3[4hdate > file3; wh[4lo >>[Student@localhost ~]$ date > file3; who >> file3[Student@localhost ~]$ d[1P[4hb[4l[Student@localhost ~]$ ba[Student@localhost ~]$ bat[Student@localhost ~]$ bate[Student@localhost ~]$ bate [Student@localhost ~]$ bate >[Student@localhost ~]$ bate >[4h>[4l[Student@localhost ~]$ bate >>[Student@localhost ~]$ bate >> [Student@localhost ~]$ bate >> f[Student@localhost ~]$ bate >> fi[Student@localhost ~]$ bate >> fil[Student@localhost ~]$ bate >> file[Student@localhost ~]$ bate >> file3[Student@localhost ~]$ bate >> file3;[Student@localhost ~]$ bate >> file3; [Student@localhost ~]$ bate >> file3; w[Student@localhost ~]$ bate >> file3; wh[Student@localhost ~]$ bate >> file3; who[Student@localhost ~]$ bate >> file3; who [Student@localhost ~]$ bate >> file3; who >[Student@localhost ~]$ bate >> file3; who >>[Student@localhost ~]$ bate >> file3; who >> [Student@localhost ~]$ bate >> file3; who >> f[Student@localhost ~]$ bate >> file3; who >> fi[Student@localhost ~]$ bate >> file3; who >> fil[Student@localhost ~]$ bate >> file3; who >> file[Student@localhost ~]$ bate >> file3; who >> file3
+bash: bate: command not found
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Mon Apr 24 17:39:28 EDT 2006
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3.bak
+Mon Apr 24 17:39:28 EDT 2006
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3.bak[K[4hbate >> file3; wh[4lo >>[Student@localhost ~]$ bate >> file3; who >> file3[4h2[4l[4h [4l[1P[Student@localhost ~]$ bate[4h [4l[Student@localhost ~]$ bate 2[Student@localhost ~]$ bate 2 [1P
+]0;Student@localhost:~[Student@localhost ~]$ more file3
+Mon Apr 24 17:39:28 EDT 2006
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+bash: bate: command not found
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file3[4hbate 2>> file3; wh[4lo >>[Student@localhost ~]$ bate 2>> file3; who >> file3[Student@localhost ~]$ [18Pmore[Student@localhost ~]$ more file3[4hbate 2>> file3; wh[4lo >>[Student@localhost ~]$ bate 2>> file3; who >> file3[Student@localhost ~]$ bate [Student@localhost ~]$ bate 2[1P[4h [4l[Student@localhost ~]$ bate 2[1P[Student@localhost ~]$ bate >[Student@localhost ~]$ bate >>[Student@localhost ~]$ bate >> [Student@localhost ~]$ bate >> f[Student@localhost ~]$ bate >> fi[Student@localhost ~]$ bate >> fil[Student@localhost ~]$ bate >> file[Student@localhost ~]$ bate >> file3[1P[4h4[4l[Student@localhost ~]$ bate >> file4;[Student@localhost ~]$ bate >> file4; [Student@localhost ~]$ bate >> file4; w[Student@localhost ~]$ bate >> file4;[1P[Student@localhost ~]$ bate >> file4 [4h [4l[4h2[4l[4h>[4l[4h>[4l[1P[Student@localhost ~]$ bate >> file4 2> [4h [4l[4hf[4l[4hi[4l[4hl[4l[4he[4l[4h5[4l[4h;[4l[Student@localhost ~]$ bate >> file4 2> file5; [4h [4l[Student@localhost ~]$ bate >> file4 2> file5;  [Student@localhost ~]$ bate >> file4 2> file5;  w[Student@localhost ~]$ bate >> file4 2> file5;  wh[Student@localhost ~]$ bate >> file4 2> file5;  who[Student@localhost ~]$ bate >> file4 2> file5;  who [Student@localhost ~]$ bate >> file4 2> file5;  who >[Student@localhost ~]$ bate >> file4 2> file5;  who >>[Student@localhost ~]$ bate >> file4 2> file5;  who >> [Student@localhost ~]$ bate >> file4 2> file5;  who >> f[Student@localhost ~]$ bate >> file4 2> file5;  who >> fi[Student@localhost ~]$ bate >> file4 2> file5;  who >> fil[Student@localhost ~]$ bate >> file4 2> file5;  who >> file[Student@localhost ~]$ bate >> file4 2> file5;  who >> file3[K4[Student@localhost ~]$ bate >> file4 2>[4h>[4l[Student@localhost ~]$ bate >> file4 2>>[Student@localhost ~]$ bate >> file4 2>> [Student@localhost ~]$ bate >> file4 2>> f[Student@localhost ~]$ bate >> file4 2>> fi[Student@localhost ~]$ bate >> file4 2>> fil[Student@localhost ~]$ bate >> file4 2>> file[Student@localhost ~]$ bate >> file4 2>> file5[Student@localhost ~]$ bate >> file4 2>> file5;[Student@localhost ~]$ bate >> file4 2>> file5; [Student@localhost ~]$ bate >> file4 2>> file5;  [Student@localhost ~]$ bate >> file4 2>> file5;  w[Student@localhost ~]$ bate >> file4 2>> file5;  wh[Student@localhost ~]$ bate >> file4 2>> file5;  who[Student@localhost ~]$ bate >> file4 2>> file5;  who [Student@localhost ~]$ bate >> file4 2>> file5;  who >[Student@localhost ~]$ bate >> file4 2>> file5;  who >>[Student@localhost ~]$ bate >> file4 2>> file5;  who >> [Student@localhost ~]$ bate >> file4 2>> file5;  who >> f[Student@localhost ~]$ bate >> file4 2>> file5;  who >> fi[Student@localhost ~]$ bate >> file4 2>> file5;  who >> fil[Student@localhost ~]$ bate >> file4 2>> file5;  who >> file[Student@localhost ~]$ bate >> file4 2>> file5;  who >> file4
+]0;Student@localhost:~[Student@localhost ~]$ more file [K4
+Mon Apr 24 17:43:53 EDT 2006
+Student  :0           Apr 24 16:05
+Student  pts/1        Apr 24 17:24 (:0.0)
+Student  pts/4        Apr 24 17:09 (:0.0)
+]0;Student@localhost:~[Student@localhost ~]$ more file5
+bash: bate: command not found
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 24 Apr 2006 05:50:20 PM EDT

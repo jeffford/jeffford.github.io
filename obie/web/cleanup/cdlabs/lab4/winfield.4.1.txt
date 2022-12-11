@@ -1,0 +1,21 @@
+Script started on Mon 24 Apr 2006 08:54:41 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ this does not 
+work[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgroups
+Student
+]0;Student@localhost:~[Student@localhost ~]$ umask 700\[K
+]0;Student@localhost:~[Student@localhost ~]$ mkdir chapter_4
+]0;Student@localhost:~[Student@localhost ~]$ uam[K[Kmask
+0700
+]0;Student@localhost:~[Student@localhost ~]$ echo yes it is 700
+yes it is 700
+]0;Student@localhost:~[Student@localhost ~]$ mk [Kdir 
+chapter_4/session_I
+mkdir: cannot create directory `chapter_4/session_I': Permission denied
+]0;Student@localhost:~[Student@localhost ~]$ echo ka[K[Kcan not 
+me[Kake session_I so a[Kthe rest of the lab is imp 
+osible
+can not make session_I so the rest of the lab is imposible
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 24 Apr 2006 08:57:17 AM EDT
+

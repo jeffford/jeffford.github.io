@@ -1,0 +1,38 @@
+Script started on Thu 04 May 2006 08:47:59 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch10S2F1
+			The Wisdon ,m  m of Aesop
+It is one thing to say that something should be done.
+	It is quite a different matter to do it.
+		"Belling the Cat": 
+
+Liars are not believed even when they tell the truth, .
+	" 	"The Shepherd Boy and the Wolf"
+		
+Flattery is not a pp roof of true admiration.
+		"The Owl and the Grasshoper"
+
+Those who work the hardest do not always t get the profit.
+		"The Lion, the Bnear    ear, and the Fox"
+
+	Familiarity breeds contempt.
+		"The FOx and the          ox and the Lion"
+]0;Student@localhost:~[Student@localhost ~]$ .[Kegrep "[K'.' Ch10S2F1 C[K[K > Ch10S2F2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F2
+			The Wisdom of Aesop
+It is one thing to say that something should be done.
+	It is quite a different matter to do it.
+		"Belling the Cat"
+Liars are not believed even when they tell the truth.
+		"The Shepherd Boy and the Wolf"
+Flattery is not a proof of true admiration.
+		"The Owl and the Grasshoper"
+Those who work the hardest do not always get the profit.
+		"The Lion, the Bear, and the Fox"
+Familiarity breeds contempt.
+		"The Fox and the Lion"
+]0;Student@localhost:~[Student@localhost ~]$ egrep '^[ ]' [K[K' Ch10S2F2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kegrep '[ ]18[ [[K]' Ch10S1F1
+]0;Student@localhost:~[Student@localhost ~]$ egrep '[12[K[K[K[K[K[K[K[K[K[Kegreo[Kp '][K[][K ][K[K[K^[ ]' Ch10S2F1[K2
+]0;Student@localhost:~[Student@localhost ~]$ egrep '^[ ]' Ch10S2F2[4h[[4l[4h [4l[4h][4l[4h*[4l[Student@localhost ~]$ egrep '^[ ][ ]*' Ch10S2F2
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 04 May 2006 09:01:39 AM EDT

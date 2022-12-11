@@ -1,0 +1,41 @@
+Script started on Thu 27 Apr 2006 08:59:26 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat[K[K[Kcat Ch6S3F1ut -f1 Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" "abccdefghijklmnopqrstuvwxyz" > Ch6S3F1[K[Aat Ch6S3F1Encr[K
+[K[A[Student@localhost ~]$ cat Ch6S3F1Encrencrut -f1 Ch6S3F1 | tr "abcdefghijklmnopqrstuvwxyz" "fghijkllmnopqrstuvwxyzabcde" > Ch6S3F1Encr[K[A[Student@localhost ~]$ cut -f1 Ch6S3F1[K
+[K[A[Student@localhost ~]$ cut -f1 Ch6S3F1 | tr 'a' 'f'[K[4Pat[Student@localhost ~]$ cat Ch6S3F1> Ch6S3F1[2PCh6S3F1[4htr "a" "f[4l" >[Student@localhost ~]$ tr "a" "f" > Ch6S3F1[10Pvi[Student@localhost ~]$ vi Ch6S3F1[4hc[4lat[Student@localhost ~]$ cat Ch6S3F1> Ch6S3F1grady.L6.III.txt[3Pcat > Ch6S3F1
+alphphbetical facts.
+the first three li etters are abc.
+the median letters are mn.
+the firest three            last three letters are xyz.
+the fir rst word in my dictionary is aal.
+]0;Student@localhost:~[Student@localhost ~]$ cat [K[K[K[Kcat > Ch6S3F1[2PCh6S3F1ut -f1 Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" "abccdefghijklmnopqrstuvwxyz" > Ch6S3F1[Aat Ch6S3F1[K
+[K[A[Student@localhost ~]$ cat Ch6S3F1
+alphphbetical facts.
+the first three letters are abc.
+the median letters are mn.
+the last three letters are xyz.
+the first word in my dictionary is aal.
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S3F1> Ch6S3F1[2PCh6S3F1ut -f1 Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" "abccdefghijklmnopqrstuvwxyz" > Ch6S3F1[K[Aat Ch6S3F1Encr[K
+[K[A[Student@localhost ~]$ cat Ch6S3F1EncrencrEncrut -f1 Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" "abccdefghijklmnopqrstuvwxyz" [Aat Ch6S3F1Encr[K
+[K[A[Student@localhost ~]$ cat Ch6S3F1Encrencrut -f1 Ch6S3F1 | tr "abcdefghijklmnopqrstuvwxyz" "fghijkllmnopqrstuvwxyzabcde" > Ch6S3F1Encr
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S3F1 | tr "abcdefghijklmnopqrstuvwxyz" "fghijkllmnopqrstuvwxyzabcde" > Ch6S3F1Encr[Aat Ch6S3F1[K
+[K[A[Student@localhost ~]$ cat Ch6S3F1> Ch6S3F1[2PCh6S3F1ut -f1 Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" "abccdefghijklmnopqrstuvwxyz" > Ch6S3F1[K[Aat Ch6S3F1Encr[K
+[K[A[Student@localhost ~]$ cat Ch6S3F1Encr
+fqumumgjynhfq kfhyx.
+ymj knwxy ymwjj qjyyjwx fwj fgh.
+ymj rjinfs qjyyjwx fwj rs.
+ymj qfxy ymwjj qjyyjwx fwj cde.
+ymj knwxy btwi ns rd inhyntsfwd nx ffq.
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S3F1Encrut -f1 Ch6S3F1 | tr "abcdefghijklmnopqrstuvwxyz" "fghijkllmnopqrstuvwxyzabcde" > Ch6S3F1Encr[Aat Ch6S3F1[K
+[K[A[Student@localhost ~]$ cat Ch6S3F1> Ch6S3F1[2PCh6S3F1Enrs[K[Kcr | "fghijklmnopqrstuvwxyzabcde" "abcdefghi jklmnopqrstuvwxyz" > Cha6S3F1Encr[K[K[K[K[1P6S3F1jklmnopqrstuvwxyz" > Ch6jklmnopqrstuvwxyz" > Ch6Sjklmnopqrstuvwxyz" > Ch6S3jklmnopqrstuvwxyz" > Ch6S3Fjklmnopqrstuvwxyz" > Ch6S3F1
+bash: fghijklmnopqrstuvwxyzabcde: command not found
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S3F1Encr | "fghijklmnopqrstuvwxyzabcde" "abcdefghijjklmnopqrstuvwxyz" > Ch6S3F1[A[Student@localhost ~]$ cat Ch6S3F1Encr | "fghijklmnopqrstuvwxyzabcde" "abcdefght"fghijklmnopqrstuvwxyzabcde" "abcdefghi[4hj[4l[A[Student@localhost ~]$ cat Ch6S3F1Encr | tr"fghijklmnopqrstuvwxyzabcde" "abcdefgh[4hi[4l[A[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" "abcdefg[4hh[4l[A[Student@localhost ~]$ cat Ch6S3F1Encr | tr [Student@localhost ~]$ cat Ch6S3F1Encr | tr "[Student@localhost ~]$ cat Ch6S3F1Encr | tr "f[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fg[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fgh[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghi[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghij[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijk[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijkl[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklm[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmn[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmno[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnop[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopq[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqr[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrs[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrst[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstu[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuv[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvw[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwx[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxy[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyz[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyza[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzab[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabc[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcd[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde"[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" [Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" "[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" "a[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" "ab[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" "abc[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" "abcd[Student@localhost ~]$ cat Ch6S3F1Encr | tr "fghijklmnopqrstuvwxyzabcde" "abcde
+gghghighijghijkghijklghijklmghijklmnghijklmnoghijklmnopghijklmnopqghijklmnopqrghijklmnopqrsghijklmnopqrstghijklmnopqrstughijklmnopqrstuvghijklmnopqrstuvwghijklmnopqrstuvwxghijklmnopqrstuvwxyghijklmnopqrstuvwxyzghijklmnopqrstuvwxyz"ghijklmnopqrstuvwxyz" ghijklmnopqrstuvwxyz" >ghijklmnopqrstuvwxyz" > ghijklmnopqrstuvwxyz" > Cghijklmnopqrstuvwxyz" > Chghijklmnopqrstuvwxyz" > Ch6ghijklmnopqrstuvwxyz" > Ch6Sghijklmnopqrstuvwxyz" > Ch6S3ghijklmnopqrstuvwxyz" > Ch6S3Fghijklmnopqrstuvwxyz" > Ch6S3F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S3F1
+alphphbetical facts.
+the first three letters are abc.
+the median letters are mn.
+the last three letters are xyz.
+the first word in my dictionary is aal.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 09:03:49 PM EDT

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/DiscreteStructures_DS/!svn/ver/8/code
+END
+L1_Introduction_to_Multithreading_and_Fork-Join_Parallelism_SumThread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/DiscreteStructures_DS/!svn/ver/8/code/L1_Introduction_to_Multithreading_and_Fork-Join_Parallelism_SumThread.cpp
+END
+L5_Locks_and_Critical_Sections_Nest_Locks.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DiscreteStructures_DS/!svn/ver/8/code/L5_Locks_and_Critical_Sections_Nest_Locks.cpp
+END
+L3_Parallel_Prefix,_Pack,_and_Sorting_Prefix_sum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DiscreteStructures_DS/!svn/ver/8/code/L3_Parallel_Prefix,_Pack,_and_Sorting_Prefix_sum.cpp
+END
+L2_VecAdd_C++_OMP_and_Cilk.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/DiscreteStructures_DS/!svn/ver/8/code/L2_VecAdd_C++_OMP_and_Cilk.cpp
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/DiscreteStructures_DS/!svn/ver/8/code/makefile
+END
+L4_Shared-Memory_Concurrency_and_Mutual_Exclusion_BankAccount_scoped_locking_for_C++_classes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/DiscreteStructures_DS/!svn/ver/8/code/L4_Shared-Memory_Concurrency_and_Mutual_Exclusion_BankAccount_scoped_locking_for_C++_classes.cpp
+END

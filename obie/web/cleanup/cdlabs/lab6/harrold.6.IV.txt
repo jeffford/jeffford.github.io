@@ -1,0 +1,309 @@
+Script started on Mon 01 May 2006 08:05:59 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S4F1
+1420	12.56	45
+3456	14.56	22
+	2347 1	45312	   .12	34
+\ 	1122	23.56	28
+1443	23.23	19
+2351	67.90	56	
+8001	 7300   .00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ "There are 'wc -l' workers"
+bash: There are 'wc -l' workers: command not found
+]0;Student@localhost:~[Student@localhost ~]$ "There are 'wc -l' workers"[1P workers"[1P[1P[4h [4l[4h/[4l[4h"[4l[Student@localhost ~]$ "There are /"w[Student@localhost ~]$ "There are /"wc[Student@localhost ~]$ "There are /"wc [Student@localhost ~]$ "There are /"wc -[Student@localhost ~]$ "There are /"wc -l/ workers"" workers"[Student@localhost ~]$ "There are /"wc -l/" workers"
+bash: There are /wc: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ \"There are /"wc -l/" workers"[1P[1P[1P[1P[1P[1P[1P workers"[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P workers"[1P workers"[1Pworkers"[1Porkers"[1Prkers"[1Pkers"[1Pers"[1Prs"[1Ps"[1P"[Kwc -l "workers [K"
+wc: workers: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ wc -l "workers"[1Pworkers"[1Porkers"[1Prkers"[1Pkers"[1Pers"[1Prs"[1Ps"[1P"[K[K
+^[[A    0
+]0;Student@localhost:~[Student@localhost ~]$ wc -l Ch6S3[K4F1
+7 Ch6S4F1
+]0;Student@localhost:~[Student@localhost ~]$ wc -l Ch6S4F1 "workers"
+ 7 Ch6S4F1
+wc: workers: No such file or directory
+ 7 total
+]0;Student@localhost:~[Student@localhost ~]$ wc -l Ch6S4F1 "workers"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksort -f[Kn[K[K[K[K[K[K[Kcp Ch6S4F1 Ch6S4F1.txt
+]0;Student@localhost:~[Student@localhost ~]$ cp Ch6S4F1 Ch6S4F1.txtwc -l Ch6S4F1 "workers"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksort -n +4 Ch6S4F1`[K
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +4 Ch6S4F1 > Ch6S4F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1
+]0;Student@localhost:~[Student@localhost ~]$ cp Ch6S1FR[K[K[K4F1.txt Ch6S4F1
+]0;Student@localhost:~[Student@localhost ~]$ m[Kcatp Ch6S4F1.txt Ch6S4F1[11Pa[Student@localhost ~]$ cat Ch6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1[4hp Ch6S4F1.t[4lx[Student@localhost ~]$ cp Ch6S4F1.txt Ch6S4F1[11Pa[Student@localhost ~]$ cat Ch6S4F1[4hsort -n +4 Ch6S4F[4l1 >[Student@localhost ~]$ sort -n +4 Ch6S4F1 > Ch6S4F1[K[K[K[K[K[K[K[K[K[K[4h|[4l[4hC[4l[1P[4hc[4l[4hp[4l[4h [4l[1P[1P[1P[4hc[4l[1P[1P[Student@localhost ~]$ sort -n +4 Ch6S4F1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ ch[K[KCh6s4F[K[K[KS4F1 > [K[K[K[K[K[K[K[K[K[Kcatsort -n +4 Ch6S4F1[7Pcat[Student@localhost ~]$ cat Ch6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1[4hsort -n[4l +4[Student@localhost ~]$ sort -n +4 Ch6S4F1 > Ch6S4F1.1[Ka
+]0;Student@localhost:~[Student@localhost ~]$ more ch[K[KCh^S4F1[K[K[K[K[K4F1[K[KS[K[K6S4F1.a
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1.a
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cop[K[K[Kmk[K[Kmv Ch6S4F1.a Ch6S4F1.[K
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S4F1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +_2[K[K2[K1
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +1Ch6S4F1 1Ch6S4F1[1P1Ch6S4F1[Student@localhost ~]$ sort -n +1 Ch6S4F1[Student@localhost ~]$ sort -n +1 Ch6S4F1
+8001	 7.00	14
+1420	12.56	45
+3456	14.56	22
+1443	23.23	19
+1122	23.56	28
+2341	45.12	34
+2351	67.90	56
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +1 Ch6S4F1[4hr[4l[Student@localhost ~]$ sort -rn +1 Ch6S4F1
+2351	67.90	56
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+3456	14.56	22
+1420	12.56	45
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort -rn +1 Ch6S4F1[4h|[4l[4h|[4l[1P[4hc[4l[4hu[4l[4ht[4l[4h [4l[4h-[4l[4hf[4l[4h [4l[1P[4h2[4l[4h,[4l[4h3[4l[4h [4l[Student@localhost ~]$ cut -f2,3 |[4h [4l[Student@localhost ~]$ cut -f2,3 | sort -rn +1 Ch6S4F1
+2351	67.90	56
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+3456	14.56	22
+1420	12.56	45
+8001	 7.00	14
+^[[A^[[A        ]0;Student@localhost:~[Student@localhost ~]$ cut -f2,3 | sort -rn +1 Ch6S4F1[4hC[4l[4hh[4l[4h6[4l[4hS[4l[4h4[4l[4hF[4l[4h1[4l[4h [4l[Student@localhost ~]$ cut -f2,3 Ch6S4F1 | sort -rn +1 Ch6S4F1
+2351	67.90	56
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+3456	14.56	22
+1420	12.56	45
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2,3 Ch6S4F1 | sort -rn +1 Ch6S4F1[1P[4h|[4l[4h|[4l[Student@localhost ~]$ cut -f2,3 Ch6S4F1 || sort -rn +1 Ch6S4F1
+23.56	28
+12.56	45
+23.23	19
+45.12	34
+67.90	56
+14.56	22
+ 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2,3 Ch6S4F1 || sort -rn +1 Ch6S4F1[1P[1P[1P[4h1[4l[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +1 Ch6S4F1
+1122
+1420
+1443
+2341
+2351
+3456
+8001
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +1 Ch6S4F1[1P[4h2[4l[Student@localhost ~]$ cut -f2 Ch6S4F1 || sort -rn +1 Ch6S4F1
+23.56
+12.56
+23.23
+45.12
+67.90
+14.56
+ 7.00
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 Ch6S4F1 || sort -rn +1 Ch6S4F1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcut -f1 Ch6S4F1 || sort -rn +1 Ch6S4F1[Student@localhost ~]$ cut -f1 [Student@localhost ~]$ cut -f1 C[Student@localhost ~]$ cut -f1 Ch[Student@localhost ~]$ cut -f1 Ch6[Student@localhost ~]$ cut -f1 Ch6S[Student@localhost ~]$ cut -f1 Ch6S4[Student@localhost ~]$ cut -f1 Ch6S4F[Student@localhost ~]$ cut -f1 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1 [Student@localhost ~]$ cut -f1 Ch6S4F1 |[Student@localhost ~]$ cut -f1 Ch6S4F1 ||[Student@localhost ~]$ cut -f1 Ch6S4F1 || [Student@localhost ~]$ cut -f1 Ch6S4F1 || s[Student@localhost ~]$ cut -f1 Ch6S4F1 || so[Student@localhost ~]$ cut -f1 Ch6S4F1 || sor[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort [Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -r[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn [Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +[1P Ch6S4F12 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +2 Ch6S4F1
+1122
+1420
+1443
+2341
+2351
+3456
+8001
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +2 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1 [Student@localhost ~]$ cut -f1 Ch6S4F1 |[Student@localhost ~]$ cut -f1 Ch6S4F1 ||[Student@localhost ~]$ cut -f1 Ch6S4F1 || [Student@localhost ~]$ cut -f1 Ch6S4F1 || s[Student@localhost ~]$ cut -f1 Ch6S4F1 || so[Student@localhost ~]$ cut -f1 Ch6S4F1 || sor[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort [Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -r[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn [Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +2[1P Ch6S4F13 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +3 Ch6S4F1
+1122
+1420
+1443
+2341
+2351
+3456
+8001
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +3 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +3 [Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +3 C[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +3 Ch[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +3 Ch6[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +3 Ch6S[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +3 Ch6S4[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +3 Ch6S4F[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +3 Ch6S4F1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmore Ch6S4F1
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6S4F1[4hcut -f1 Ch6S4F1 || sort -r[4ln +3[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +3 Ch6S4F1[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[Student@localhost ~]$ sort -rn +3 Ch6S4F1
+8001	 7.00	14
+3456	14.56	22
+2351	67.90	56
+2341	45.12	34
+1443	23.23	19
+1420	12.56	45
+1122	23.56	28
+]0;Student@localhost:~[Student@localhost ~]$ sort -rn +3 Ch6S4F1[Student@localhost ~]$ sort -rn[Student@localhost ~]$ sort -rn [Student@localhost ~]$ sort -rn +[Student@localhost ~]$ sort -rn +3[1P Ch6S4F12 Ch6S4F1[Student@localhost ~]$ sort -rn +2 Ch6S4F1
+2351	67.90	56
+1420	12.56	45
+2341	45.12	34
+1122	23.56	28
+3456	14.56	22
+1443	23.23	19
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort -rn +2 Ch6S4F1[4h|[4l[4h|[4l[1P[1P[Student@localhost ~]$ sort -rn +2 Ch6S4F1 || cut -f1 Ch6S4F1
+2351	67.90	56
+1420	12.56	45
+2341	45.12	34
+1122	23.56	28
+3456	14.56	22
+1443	23.23	19
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ sort -rn +2 Ch6S4F1 || cut -f1 Ch6S4F1[Student@localhost ~]$ sort -rn +2 Ch6S4F1 |[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P Ch6S4F1[1PCh6S4F1[1Ph6S4F1[1P6S4F1[1PS4F1[1P4F1[1PF1[1P1[K[K[4h|[4l[4h|[4l[Student@localhost ~]$ |[Student@localhost ~]$ ||[4h [4l[4h [4l[4hc[4l[4hu[4l[4ht[4l[Student@localhost ~]$ cut [4h [4l[4hF[4l[1P[4h-[4l[4hf[4l[4h1[4l[Student@localhost ~]$ cut -f1 [4h [4l[4hC[4l[4hh[4l[4h6[4l[4hF[4l[4h2[4l[1P[1P[4hS[4l[4h2[4l[1P[4h4[4l[4hF[4l[4h1[4l
+1122
+1420
+1443
+2341
+2351
+3456
+8001
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +2 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1 |[1P
+2351	67.90	56
+1420	12.56	45
+2341	45.12	34
+1122	23.56	28
+3456	14.56	22
+1443	23.23	19
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1 |[4h|[4l[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[Student@localhost ~]$ sort -rn +2 Ch6S4F1 || [K[K[KCut[K[K[K| cut -f1 Ch^S[K[K6S3[K4F1
+1122
+1420
+1443
+2341
+2351
+3456
+8001
+]0;Student@localhost:~[Student@localhost ~]$ sort -rn +2 Ch6S4F1 | cut -f1 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1[4h|[4l[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +2 Ch6S4F1[1P[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1
+2351	67.90	56
+1420	12.56	45
+2341	45.12	34
+1122	23.56	28
+3456	14.56	22
+1443	23.23	19
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1[1P[1P[1P[1P[1P[1P[1P[1P
+2351	67.90	56
+1420	12.56	45
+2341	45.12	34
+1122	23.56	28
+3456	14.56	22
+1443	23.23	19
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 | sort -rn +2 Ch6S4F1[4hCh6S4F1 [4l[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1
+2351	67.90	56
+1420	12.56	45
+2341	45.12	34
+1122	23.56	28
+3456	14.56	22
+1443	23.23	19
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1[8P[Student@localhost ~]$ cut -f1 | sort -rn +2 Ch6S4F1[4hCh6S4F1 [4l[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1[Student@localhost ~]$ sort -rn +2 Ch6S4F1 | cut -f1[Student@localhost ~]$ sort -rn +2 Ch6S4F1 | cut -f1 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1[4h|[4l[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +2 Ch6S4F1[Student@localhost ~]$ sort -rn +2 Ch6S4F1 || cut -f1[Student@localhost ~]$ sort -rn +2 Ch6S4F1 || cut -f1 Ch6S4F1[K3[Student@localhost ~]$ sort -rn +3 Ch6S4F1[7Pmore[Student@localhost ~]$ more Ch6S4F1[4hcut -f1 Ch6S4F1 || sort -r[4ln +3[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +3 Ch6S4F1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcut -f1 Ch6S4F1 || sort -rn +2 Ch6S4F1 >Ch6S4F1
+1122
+1420
+1443
+2341
+2351
+3456
+8001
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S4F1 || sort -rn +2 Ch6S4F1 >Ch6S4F1[10P sort -rn +2 Ch6S4F1 [K>[K
+2351	67.90	56
+1420	12.56	45
+2341	45.12	34
+1122	23.56	28
+3456	14.56	22
+1443	23.23	19
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1 >Ch6F[KS4F1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1 >Ch6S4F1[K >Ch6S4F1[Student@localhost ~]$ [Kmore Ch6F2[K[KS2F[K[K4DF[K[KF1
+]0;Student@localhost:~[Student@localhost ~]$ cp Ch5[K6F[KS4F1 Ch[K[K[K.txt Ch6F[KS4F1
+]0;Student@localhost:~[Student@localhost ~]$ morecp Ch6S4F1.txt Ch6S4F1[10Pmore[Student@localhost ~]$ more Ch6S4F1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ more Ch6S4F1[Kmore Ch6S4F1[4hcp Ch6S4F1[4l.txt[Student@localhost ~]$ cp Ch6S4F1.txt Ch6S4F1[10Pmore[Student@localhost ~]$ more Ch6S4F1cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1 >Ch6S4F1[K[K[K[K[K[K[K[K[K| sort -rn +2 Ch6S4F1 >Ch6S4F1[10P sort -rn +2 Ch6S4F1[8P[Student@localhost ~]$ cut -f1 | sort -rn +2 Ch6S4F1[4hCh6S4F1 [4l[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1[Student@localhost ~]$ sort -rn +2 Ch6S4F1 | cut -f1[Student@localhost ~]$ sort -rn +2 Ch6S4F1 | cut -f1 Ch6S4F1
+1420
+3456
+2341
+1122
+1443
+2351
+8001
+]0;Student@localhost:~[Student@localhost ~]$ sort -rn +2 Ch6S4F1 | cut -f1 Ch6S4F1[Student@localhost ~]$ more Ch6S4F1[K[4hcp Ch6S4F1[4l.txt[Student@localhost ~]$ cp Ch6S4F1.txt Ch6S4F1[10Pmore[Student@localhost ~]$ more Ch6S4F1[4hcut -f1 Ch6S4F1 | sort -r[4ln +2[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1| sort -rn +2 Ch6S4F1 >Ch6S4F1[10P sort -rn +2 Ch6S4F1| sort -rn +2 Ch6S4F1 >Ch6S4F1[10P sort -rn +2 Ch6S4F1| sort -rn +2 Ch6S4F1 >Ch6S4F1[10P sort -rn +2 Ch6S4F1
+2351	67.90	56
+1420	12.56	45
+2341	45.12	34
+1122	23.56	28
+3456	14.56	22
+1443	23.23	19
+8001	 7.00	14
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1[K[K[K[K[K[K[K[K
+8001
+3456
+2351
+2341
+1443
+1420
+1122
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2[Student@localhost ~]$ cut -f1 Ch6S4F1 | sort -rn +2 Ch6S4F1[Student@localhost ~]$ sort -rn +2 Ch6S4F1 | cut -f1[Student@localhost ~]$ sort -rn +2 Ch6S4F1 | cut -f1 Ch6S4F1[K[K[K[K[K[K[K[K
+2351
+1420
+2341
+1122
+3456
+1443
+8001
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 01 May 2006 08:33:48 AM EDT

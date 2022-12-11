@@ -1,0 +1,476 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+
+
+	
+  <meta http-equiv="Content-Type" content="text/html;CHARSET=iso-8859-1">
+
+
+	
+  <meta name="GENERATOR" content="Visual Page 2.0 for Windows">
+
+
+	
+  <title>CPSC 352: Compter Security</title>
+<style> table, td, th { border-color: #cccccc; border-style: solid; } table { border-width: 0 0 1px 1px; border-spacing: 0px; border-collapse: collapse; } td { border-width: 1px; } th { border-width: 1px; } </style></head>
+
+
+
+
+
+
+<body alink="yellow" bgcolor="#003399" link="yellow" text="#fffbf0" vlink="#ffff99">
+
+
+
+
+<h1 align="center">CPSC 352: Computer Security</h1>
+
+
+<h1 align="center"><a 
+href="http://cs.hiram.edu/~obie/CPSC35200/computersecurity.jpg"><img border="0" hspace="0" 
+src="computersecurity.jpg" width=300 height=281></a></h1>
+
+
+<h1 align="center"><font size="5" face="Arial">Fall, 12 
+week,2011</font></h1>
+
+
+<h3 align="center"><font size="5" face="Arial">Professor 
+:</font> <a href="http://cs.hiram.edu/%7Eobie"><font size="5" 
+face=Arial>Dr. Oberta A. Slotterbeck (Obie)</font>   
+ </a></h3>
+
+
+<p align="center"><a href="mailto:obie@hiram.edu"><b><font size="5" face="Arial">Quickest contact method: 
+Email</font></b></a></p>
+
+
+<h2 align="center"><font 
+face=Arial>    
+Office:&nbsp;&nbsp;COLTON 114 &nbsp;Phone:&nbsp; tba </font>     </h2>
+
+
+<h2>Information Sheets:</h2>
+
+
+
+
+<blockquote>
+
+	
+  <h3><font size="5">Administrative 
+  Details -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; see Chapter0 - Introduction slide below</font></h3>
+
+
+</blockquote>
+
+
+
+
+<h3><font size="5">Textbook:&nbsp;</font></h3>
+<div id="contentContainer">
+<div style="MARGIN-TOP: 10px; MARGIN-LEFT: 20px" id="wrapper">
+<div id="largebook">
+<p><a id="prodImg" title="View Larger Cover Image" href="http://vig-fp.prenhall.com/bigcovers/0321512944.jpg" target="_blank"><acronym><img style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: rgb(0,0,0) 1px solid; BORDER-TOP: rgb(0,0,0) 1px solid; BORDER-RIGHT: rgb(0,0,0) 1px solid" onerror="imgLoadErr();" src="http://vig-fp.prenhall.com/coverimage/0321512944.jpg"></acronym></a></p>
+<p><big><big><big><font size="5"><strong><span class="booktitle">Introduction to Computer Security</span><br></strong></font>
+</big><span class="bookauthor"><big><font size="5"><strong>Michael 
+Goodrich, <em>University of California, Irvine</em><br>
+Roberto Tamassia, <em>Brown 
+University, Addison Wesley, 2011</em></strong></font></big></span></big></big> 
+</p>
+<p><strong><font size="5"><a 
+href="http://cs.hiram.edu/~obie/cpsc35200/slides/Chpt0-Admin.ppt">Syllabus</a></font></strong>
+<a id="prodImg" title="View Larger Cover Image" href="http://cs.hiram.edu/~obie/cpsc35200/slides/Chpt0-Adnub,oot" target="_blank">
+<div style="DISPLAY: none" id="bigCoverImgTestDiv">&nbsp;</div>
+</a>
+<p></p>
+<p></p></div>
+
+
+</div>
+</div>
+<h3></h3>
+<h3><font size="5">IRC Website is at </font><a href="http://cs.hiram.edu/%7Eobie/IRC-2011"><font 
+size=5>http://cs.hiram.edu/~obie/IRC-2011</font></a></h3>
+
+
+<h3><font size="5">Resources for papers on various 
+topics:</font></h3>
+
+
+
+
+<blockquote>
+
+	
+  <h3><font size="5">* </font><a href="http://portal.acm.org/"><font size="5">ACM Digital 
+  Library</font></a><font size="5">- searchable, some articles available for 
+  download</font></h3>
+
+
+	
+  <h3><font size="5">* </font><a href="http://www.computer.org/"><font size="5">IEEE 
+  Computer Society Digital Library</font></a><font size="5">- searchable, I can download a few articles<br>
+
+
+	* Don't forget the resources 
+  that are available at </font><a href="http://library.hiram.edu/"><font size="5">our own library</font></a></h3>
+
+
+	
+  <h3><font size="5">* </font><a href="Links.doc"><font size="5">Various 
+  Security-related Sites</font></a></h3>
+
+
+	
+  <blockquote>
+
+		
+    <h3><font size="5">I'd appreciate being told about any 
+    sites that are not operative.</font></h3>
+
+
+	</blockquote>
+
+
+	
+  <h3><font size="5">* </font><a href="http://www.cs.cornell.edu/courses/cs414/2005sp/cforjava.pdf" 
+ ><font size="5">C</font></a><a href="http://www.cs.cornell.edu/courses/cs414/2005sp/cforjava.pdf" 
+ ><font 
+  size=5> for Java Programmers</font></a></h3>
+
+
+</blockquote>
+
+
+
+
+<h2>Reading Assignments (in text if not specified otherwise) and in class exercises:</h2>
+
+
+
+
+<blockquote>
+
+	
+  <p>
+
+	
+  <table border="1" height="82" width="89%">
+
+
+		<tbody>
+      <tr>
+
+
+			<td width="17%"><b><i><font face="Arial" size="5">Date Assigned</font></i></b></td>
+
+
+			<td width="83%"><b><i><font face="Arial" size="5">Assignment</font></i></b></td>
+
+
+		</tr>
+
+
+		<tr>
+
+
+			<td width="17%"><small><small><font size="5"><font face="Arial"><b>Tues, 8/30</b></font></font></small></small></td>
+
+
+			<td width="83%"><b><font size="5">Reading: Preface and Chapter 1 - Introduction</font></b></td>
+
+
+		</tr>
+
+
+		
+
+		
+
+		
+
+		
+
+		
+
+	
+    </tbody>
+  </table>
+
+
+  </p>
+
+
+</blockquote>
+
+
+
+
+<h2>Class Slides (PowerPoint) :</h2>
+
+
+
+
+<ul>
+
+
+	<li>
+
+	
+    <table border="1" height="99" width="87%">
+
+
+		<tbody>
+    <tr >
+      <td height="40" width="24%" ><font size="5" 
+        face=Arial><strong><em>Date first posted</em></strong></font></td>
+      <td height="40" width="76%" ><strong><em><font size="5" 
+        face=Arial>URL</font></em></strong></td></tr>
+    <tr >
+      <td height="40" width="24%" ><font size="5"><strong>Tues, 
+        8/30</strong></font></td>
+      <td height="40" width="76%" ><font size="5"><strong><a 
+        href="http://cs.hiram.edu/~obie/cpsc35200/slides/Chpt1-Intro.ppt">Chapter 
+        1</a>,&nbsp;&nbsp; <a 
+        href="http://cs.hiram.edu/~obie/cpsc35200/slides/Chpt1.1-Intro.ppt">Chapter 
+        1.1</a></strong></font></td></tr>
+        <tr>
+
+
+			<td height="40" width="24%"><i><font size="5" 
+       ><strong></strong>  </font></i></td>
+
+
+			<td height="40" width="76%"><i><font face="Arial" 
+   ></font></i></td>
+
+
+		</tr>
+
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+	
+      </tbody>
+    </table>
+
+
+
+
+  </li>
+</ul>
+
+
+
+
+<h2>Homework Assignments (Textbook if not specified otherwise) :</h2>
+
+
+
+
+<blockquote>
+
+	
+  <p>
+
+	
+  <table border="1" height="91" width="92%">
+
+
+		<tbody>
+      <tr>
+
+
+			<td width="12%"><b><i><font size="5">Date Assigned</font></i></b></td>
+
+
+			<td width="9%"><b><i><font size="5">Hand In?</font></i></b></td>
+
+
+			<td width="24%"><b><i><font size="5">Date Due <br>
+
+
+				(or discussion date)</font></i></b></td>
+
+
+			<td width="55%"><b><i><font size="5">Assignment</font></i></b></td>
+
+
+		</tr>
+
+
+		<tr>
+
+
+			<td width="12%"><font size="5">Tues, 8/29</font></td>
+
+
+			<td width="9%"><font size="5">Yes</font></td>
+
+
+			<td width="24%"><font size="5">Thurs, 8/31</font></td>
+
+
+			<td width="55%"><font size="5">Print and sign&nbsp;<a 
+        href="WhiteHatOath.doc"><strong>White Hat 
+        Oath</strong>  </a>   </font><font size="5">
+
+				&nbsp;(or drop course)</font></td>
+
+
+		</tr>
+
+
+		
+
+		
+
+	
+    </tbody>
+  </table>
+
+
+  </p>
+
+
+	</blockquote>
+
+
+
+
+<p><b><font size="5">Lab Exercises: Normally on a Tuesday</font></b></p>
+
+
+<p>
+
+<table border="1" width="100%">
+
+
+	<tbody>
+    <tr>
+
+
+		<td width="16%"><i><b><font size="5">Date Introduced</font></b></i></td>
+
+
+		<td width="12%"><i><b><font size="5">Write Report?</font></b></i></td>
+
+
+		<td width="13%"><i><b><font size="5">Due Date</font></b></i></td>
+
+
+		<td width="59%"><i><b><font size="5">Assignment</font></b></i></td>
+
+
+	</tr>
+
+
+	
+
+	
+
+	
+
+	
+
+  </tbody>
+</table>
+
+
+</p>
+
+
+<p><font size="5">Tests:&nbsp;</font></p>
+
+
+<p>
+
+<table border="1" width="93%">
+
+
+	<tbody>
+  <tr >
+    <td width="5%" ><font size="5"><strong>Test</strong></font></td>
+    <td width="11%" ><font size="5"><strong>Type</strong></font></td>
+    <td width="24%" ><font size="5"><strong>Covers</strong></font></td>
+    <td width="16%" ><font size="5"><strong>Hand Out 
+    Date</strong></font></td>
+    <td width="10%" ><font size="5"><strong>DueDate</strong></font></td>
+    <td width="15%" ><font size="5"><strong>Hand in 
+    Media</strong></font></td>
+    <td width="19%" ><font 
+  size=5><strong>Comments</strong></font></td></tr>
+  <tr >
+    <td width="5%" ><font size="5"><strong>1</strong></font></td>
+    <td width="11%" ><font size="5"><strong></strong></font></td>
+    <td width="24%" ><font size="5"><strong></strong></font></td>
+    <td width="16%" ><font size="5"><strong></strong></font></td>
+    <td width="10%" ><font size="5"><strong></strong></font></td>
+    <td width="15%" ><font size="5"><strong></strong></font></td>
+    <td width="19%" ><font size="5"><strong></strong></font></td></tr>
+  <tr >
+    <td width="5%" ><font size="5"><strong>2</strong></font></td>
+    <td width="11%" ></td>
+    <td width="24%" ></td>
+    <td width="16%" ></td>
+    <td width="10%" ></td>
+    <td width="15%" ></td>
+    <td width="19%" ></td></tr>
+
+
+  </tbody>
+</table>
+
+
+</p>
+
+
+<p><b><font size="5">Frequently Asked Questions about HW and assignments:</font></b></p>
+
+
+
+
+<blockquote>
+
+	
+  <p><b><font size="5">Questions from your classmates and answers are made available to all in</font><a href="faq.doc"><font size="5"> faq.doc</font></a></b></p>
+
+
+
+
+	
+  <p><img border="0" align="bottom" src="helpmail.gif" width="190" height="67">
+
+  </p>
+</blockquote>
+
+
+
+
+
+
+</body>
+</html>

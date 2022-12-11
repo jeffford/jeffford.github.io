@@ -1,0 +1,381 @@
+Script started on Mon 08 May 2006 05:33:26 PM EDT
+]0;student@localhost:~[student@localhost ~]$ cat kvls
+#! /bin/bash
+# Script: kvls
+# Purpose: To list only the three specified columns of the ls command
+case $# in 
+	0) echo "Usage: [column number] [column number] [column number]" ; ;;
+	1) echo "Usage: [column number] [column number] [column number]" ; ;;
+	2) echo "Usage: [column number] [column number] [column number]" ; ;;
+	3) column1=$1 column2=$2 column3=$3;;
+	*) echo "Usage: [column number] [column number] [column number]" ; ;;
+esac
+if [[ $1 != [0-9] || $2 != [0-9] || $3 != [0-9] ]]
+ then
+    echo "Arguments must be numbers."  
+fi
+    ls -l | sed 's/  / /g' | sed 's/  / /g' | sed 's/  / /g' | cut -d' ' -f$1,$2,$3  
+ 
+]0;student@localhost:~[student@localhost ~]$ PATH=$PATH:.
+]0;student@localhost:~[student@localhost ~]$ kvls
+bash: ./kvls: Permission denied
+]0;student@localhost:~[student@localhost ~]$ chmod 777
+chmod: too few arguments
+Try `chmod --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ chmod 777 kvls
+]0;student@localhost:~[student@localhost ~]$ kvls
+Usage: [column number] [column number] [column number]
+Arguments must be numbers.
+cut: missing list of fields
+Try `cut --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ kvlschmod 777 kvlskvls[K -1[K[K1
+Usage: [column number] [column number] [column number]
+Arguments must be numbers.
+total
+drwxrwxr-x
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+drwxr-xr-x
+-rw-rw-r--
+-rwxrwxrwx
+-rwxrwxrwx
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+-rw-rw-r--
+]0;student@localhost:~[student@localhost ~]$ kvls 1 2
+Usage: [column number] [column number] [column number]
+Arguments must be numbers.
+total 636
+drwxrwxr-x 2
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+drwxr-xr-x 2
+-rw-rw-r-- 1
+-rwxrwxrwx 1
+-rwxrwxrwx 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+-rw-rw-r-- 1
+]0;student@localhost:~[student@localhost ~]$ kvls 1 2 f
+Arguments must be numbers.
+cut: invalid byte, character or field list
+Try `cut --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ kvls 1 2 f[K[K[Kf t
+Arguments must be numbers.
+cut: invalid byte, character or field list
+Try `cut --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ kvls 1 f t[1P t[1Pt[K10 5
+Arguments must be numbers.
+total
+drwxrwxr-x 4096
+-rw-rw-r-- 33
+-rw-rw-r-- 32
+-rw-rw-r-- 43
+-rw-rw-r-- 29
+-rw-rw-r-- 22
+-rw-rw-r-- 96
+-rw-rw-r-- 96
+-rw-rw-r-- 451
+-rw-rw-r-- 447
+-rw-rw-r-- 167
+-rw-rw-r-- 280
+-rw-rw-r-- 108
+-rw-rw-r-- 12
+-rw-rw-r-- 12
+-rw-rw-r-- 6
+-rw-rw-r-- 3
+-rw-rw-r-- 425
+-rw-rw-r-- 195
+-rw-rw-r-- 63
+-rw-rw-r-- 502
+-rw-rw-r-- 94
+-rw-rw-r-- 91
+-rw-rw-r-- 91
+-rw-rw-r-- 0
+-rw-rw-r-- 298
+-rw-rw-r-- 368
+-rw-rw-r-- 134
+-rw-rw-r-- 359
+-rw-rw-r-- 709
+-rw-rw-r-- 86
+-rw-rw-r-- 163
+-rw-rw-r-- 105
+-rw-rw-r-- 355
+-rw-rw-r-- 173
+-rw-rw-r-- 104
+-rw-rw-r-- 104
+-rw-rw-r-- 103
+-rw-rw-r-- 106
+-rw-rw-r-- 299
+-rw-rw-r-- 90
+-rw-rw-r-- 99
+-rw-rw-r-- 135
+-rw-rw-r-- 289
+-rw-rw-r-- 122
+-rw-rw-r-- 166
+drwxr-xr-x 4096
+-rw-rw-r-- 36
+-rwxrwxrwx 658
+-rwxrwxrwx 626
+-rw-rw-r-- 55
+-rw-rw-r-- 46537
+-rw-rw-r-- 22921
+-rw-rw-r-- 3389
+-rw-rw-r-- 4151
+-rw-rw-r-- 22908
+-rw-rw-r-- 3011
+-rw-rw-r-- 1273
+-rw-rw-r-- 4604
+-rw-rw-r-- 848
+-rw-rw-r-- 28388
+-rw-rw-r-- 11224
+-rw-rw-r-- 1225
+-rw-rw-r-- 0
+-rw-rw-r-- 2684
+]0;student@localhost:~[student@localhost ~]$ kvls 1 10 51[K[K[K[K[K4 5
+total
+drwxrwxr-x student 4096
+-rw-rw-r-- student 33
+-rw-rw-r-- student 32
+-rw-rw-r-- student 43
+-rw-rw-r-- student 29
+-rw-rw-r-- student 22
+-rw-rw-r-- student 96
+-rw-rw-r-- student 96
+-rw-rw-r-- student 451
+-rw-rw-r-- student 447
+-rw-rw-r-- student 167
+-rw-rw-r-- student 280
+-rw-rw-r-- student 108
+-rw-rw-r-- student 12
+-rw-rw-r-- student 12
+-rw-rw-r-- student 6
+-rw-rw-r-- student 3
+-rw-rw-r-- student 425
+-rw-rw-r-- student 195
+-rw-rw-r-- student 63
+-rw-rw-r-- student 502
+-rw-rw-r-- student 94
+-rw-rw-r-- student 91
+-rw-rw-r-- student 91
+-rw-rw-r-- student 0
+-rw-rw-r-- student 298
+-rw-rw-r-- student 368
+-rw-rw-r-- student 134
+-rw-rw-r-- student 359
+-rw-rw-r-- student 709
+-rw-rw-r-- student 86
+-rw-rw-r-- student 163
+-rw-rw-r-- student 105
+-rw-rw-r-- student 355
+-rw-rw-r-- student 173
+-rw-rw-r-- student 104
+-rw-rw-r-- student 104
+-rw-rw-r-- student 103
+-rw-rw-r-- student 106
+-rw-rw-r-- student 299
+-rw-rw-r-- student 90
+-rw-rw-r-- student 99
+-rw-rw-r-- student 135
+-rw-rw-r-- student 289
+-rw-rw-r-- student 122
+-rw-rw-r-- student 166
+drwxr-xr-x student 4096
+-rw-rw-r-- student 36
+-rwxrwxrwx student 658
+-rwxrwxrwx student 626
+-rw-rw-r-- student 55
+-rw-rw-r-- student 46537
+-rw-rw-r-- student 22921
+-rw-rw-r-- student 3389
+-rw-rw-r-- student 4151
+-rw-rw-r-- student 22908
+-rw-rw-r-- student 3011
+-rw-rw-r-- student 1273
+-rw-rw-r-- student 4604
+-rw-rw-r-- student 848
+-rw-rw-r-- student 28388
+-rw-rw-r-- student 11224
+-rw-rw-r-- student 1225
+-rw-rw-r-- student 4096
+-rw-rw-r-- student 2684
+]0;student@localhost:~[student@localhost ~]$ kvls 1 4 5[K[K[K[K[K3 7 1
+total
+drwxrwxr-x student 8
+-rw-rw-r-- student 5
+-rw-rw-r-- student 5
+-rw-rw-r-- student 5
+-rw-rw-r-- student 5
+-rw-rw-r-- student 5
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 3
+-rw-rw-r-- student 3
+-rw-rw-r-- student 3
+-rw-rw-r-- student 3
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 5
+-rw-rw-r-- student 5
+-rw-rw-r-- student 5
+-rw-rw-r-- student 5
+-rw-rw-r-- student 5
+-rw-rw-r-- student 5
+drwxr-xr-x student 1
+-rw-rw-r-- student 8
+-rwxrwxrwx student 8
+-rwxrwxrwx student 8
+-rw-rw-r-- student 4
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 2
+-rw-rw-r-- student 3
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 3
+-rw-rw-r-- student 4
+-rw-rw-r-- student 4
+-rw-rw-r-- student 5
+-rw-rw-r-- student 5
+-rw-rw-r-- student 8
+-rw-rw-r-- student 8
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Mon 08 May 2006 05:35:49 PM EDT

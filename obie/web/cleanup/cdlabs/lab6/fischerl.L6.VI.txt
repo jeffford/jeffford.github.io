@@ -1,0 +1,239 @@
+Script started on Mon 01 May 2006 09:06:53 AM EDT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat Ch6s6f1
+cis	15	1	45
+cis	54	1	20
+bus	34	2	20
+eng	11	2	89
+cis	45	1	38
+mth	35	1	56
+mth	35	2	41
+pe	17	2	25
+cis	54	2	67
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort +0-2 Ch6s6f1
+sort: open failed: +0-2: No such file or directory
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort +0-2 Ch6s6f1[1P[1@-
+sort: invalid option -- 0
+Try `sort --help' for more information.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort -0-2 Ch6s6f1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kman sort
+Reformatting sort(1), please wait...
+[?1049h[?1h=[24;1H[KSORT(1)                          User Commands                         SORT(1)
+
+[1mNAME[0m
+       sort - sort lines of text files
+
+[1mSYNOPSIS[0m
+       [1msort[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       Ordering options:
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       [1m-b[0m, [1m--ignore-leading-blanks[0m ignore leading blanks
+
+       [1m-d[0m, [1m--dictionary-order[0m
+              consider only blanks and alphanumeric characters
+
+       [1m-f[0m, [1m--ignore-case[0m
+              fold lower case to upper case characters
+[24;1H[K[7m Manual page sort(1) line 1[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 2[27m[24;1H[24;1H[K       [1m-g[0m, [1m--general-numeric-sort[0m
+[24;1H[K[7m Manual page sort(1) line 5[27m[24;1H[24;1H[K              compare according to general numerical value
+[24;1H[K[7m Manual page sort(1) line 6[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 7[27m[24;1H[24;1H[K       [1m-i[0m, [1m--ignore-nonprinting[0m
+[24;1H[K[7m Manual page sort(1) line 8[27m[24;1H[24;1H[K              consider only printable characters
+[24;1H[K[7m Manual page sort(1) line 9[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 10[27m[24;1H[24;1H[K       [1m-M[0m, [1m--month-sort[0m
+[24;1H[K[7m Manual page sort(1) line 11[27m[24;1H[24;1H[K              compare (unknown) < ‘JAN’ < ... < ‘DEC’
+[24;1H[K[7m Manual page sort(1) line 12[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 13[27m[24;1H[24;1H[K       [1m-n[0m, [1m--numeric-sort[0m
+[24;1H[K[7m Manual page sort(1) line 14[27m[24;1H[24;1H[K              compare according to string numerical value
+[24;1H[K[7m Manual page sort(1) line 15[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 16[27m[24;1H[24;1H[K       [1m-r[0m, [1m--reverse[0m
+[24;1H[K[7m Manual page sort(1) line 17[27m[24;1H[24;1H[K              reverse the result of comparisons
+[24;1H[K[7m Manual page sort(1) line 18[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 19[27m[24;1H[24;1H[K       Other options:
+[24;1H[K[7m Manual page sort(1) line 20[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 21[27m[24;1H[24;1H[K       [1m-c[0m, [1m--check[0m
+[24;1H[K[7m Manual page sort(1) line 22[27m[24;1H[24;1H[K              check whether input is sorted; do not sort
+[24;1H[K[7m Manual page sort(1) line 23[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 24[27m[24;1H[24;1H[K       [1m-k[0m, [1m--key[0m=[4mPOS1[[24m,POS2]
+[24;1H[K[7m Manual page sort(1) line 25[27m[24;1H[24;1H[K              start a key at POS1, end it at POS 2 (origin 1)
+[24;1H[K[7m Manual page sort(1) line 26[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 27[27m[24;1H[24;1H[K       [1m-m[0m, [1m--merge[0m
+[24;1H[K[7m Manual page sort(1) line 28[27m[24;1H[24;1H[K              merge already sorted files; do not sort
+[24;1H[K[7m Manual page sort(1) line 29[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 30[27m[24;1H[24;1H[K       [1m-o[0m, [1m--output[0m=[4mFILE[24m
+[24;1H[K[7m Manual page sort(1) line 31[27m[24;1H[24;1H[K              write result to FILE instead of standard output
+[24;1H[K[7m Manual page sort(1) line 32[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 33[27m[24;1H[24;1H[K       [1m-s[0m, [1m--stable[0m
+[24;1H[K[7m Manual page sort(1) line 34[27m[24;1H[24;1H[K              stabilize sort by disabling last-resort comparison
+[24;1H[K[7m Manual page sort(1) line 35[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 36[27m[24;1H[24;1H[K       [1m-S[0m, [1m--buffer-size[0m=[4mSIZE[24m
+[24;1H[K[7m Manual page sort(1) line 37[27m[24;1H[24;1H[K              use SIZE for main memory buffer
+[24;1H[K[7m Manual page sort(1) line 38[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 39[27m[24;1H[24;1H[K       [1m-t[0m, [1m--field-separator[0m=[4mSEP[24m use SEP instead of non-blank to blank transi‐
+[24;1H[K[7m Manual page sort(1) line 40[27m[24;1H[24;1H[K              tion
+[24;1H[K[7m Manual page sort(1) line 41[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 42[27m[24;1H[24;1H[K       [1m-T[0m, [1m--temporary-directory[0m=[4mDIR[24m
+[24;1H[K[7m Manual page sort(1) line 43[27m[24;1H[24;1H[K              use  DIR  for temporaries, not $TMPDIR or /tmp; multiple options
+[24;1H[K[7m Manual page sort(1) line 44[27m[24;1H[24;1H[K              specify multiple directories
+[24;1H[K[7m Manual page sort(1) line 45[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 46[27m[24;1H[24;1H[K       [1m-u[0m, [1m--unique[0m
+[24;1H[K[7m Manual page sort(1) line 47[27m[24;1H[24;1H[K              with [1m-c[0m, check for strict ordering; without [1m-c[0m, output only  the
+[24;1H[K[7m Manual page sort(1) line 48[27m[24;1H[24;1H[K              first of an equal run
+[24;1H[K[7m Manual page sort(1) line 49[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 50[27m[24;1H[24;1H[K       [1m-z[0m, [1m--zero-terminated[0m
+[24;1H[K[7m Manual page sort(1) line 51[27m[24;1H[24;1H[K              end lines with 0 byte, not newline
+[24;1H[K[7m Manual page sort(1) line 52[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 53[27m[24;1H[24;1H[K       [1m--help[0m display this help and exit
+[24;1H[K[7m Manual page sort(1) line 54[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 55[27m[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K[7m Manual page sort(1) line 56[27m[24;1H[24;1H[K              output version information and exit
+[24;1H[K[7m Manual page sort(1) line 57[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 58[27m[24;1H[24;1H[K       POS  is  F[.C][OPTS],  where  F is the field number and C the character
+[24;1H[K[7m Manual page sort(1) line 59[27m[24;1H[24;1H[K       position in the field.  OPTS is  one  or  more  single-letter  ordering
+[24;1H[K[7m Manual page sort(1) line 60[27m[24;1H[24;1H[K       options,  which  override  global ordering options for that key.  If no
+[24;1H[K[7m Manual page sort(1) line 61[27m[24;1H[24;1H[K       key is given, use the entire line as the key.
+[24;1H[K[7m Manual page sort(1) line 62[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 63[27m[24;1H[24;1H[K       SIZE may be followed by the following multiplicative suffixes: % 1%  of
+[24;1H[K[7m Manual page sort(1) line 64[27m[24;1H[24;1H[K       memory, b 1, K 1024 (default), and so on for M, G, T, P, E, Z, Y.
+[24;1H[K[7m Manual page sort(1) line 65[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 66[27m[24;1H[24;1H[K       With no FILE, or when FILE is -, read standard input.
+[24;1H[K[7m Manual page sort(1) line 67[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 68[27m[24;1H[24;1H[K       ***  WARNING  ***  The locale specified by the environment affects sort
+[24;1H[K[7m Manual page sort(1) line 69[27m[24;1H[24;1H[K       order.  Set LC_ALL=C to get the traditional sort order that uses native
+[24;1H[K[7m Manual page sort(1) line 70[27m[24;1H[24;1H[K       byte values.
+[24;1H[K[7m Manual page sort(1) line 71[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 72[27m[24;1H[24;1H[K[1mAUTHOR[0m
+[24;1H[K[7m Manual page sort(1) line 73[27m[24;1H[24;1H[K       Written by Mike Haertel and Paul Eggert.
+[24;1H[K[7m Manual page sort(1) line 74[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 75[27m[24;1H[24;1H[K[1mREPORTING[0m [1mBUGS[0m
+[24;1H[K[7m Manual page sort(1) line 76[27m[24;1H[24;1H[K       Report bugs to <bug-coreutils@gnu.org>.
+[24;1H[K[7m Manual page sort(1) line 77[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 78[27m[24;1H[24;1H[K[1mCOPYRIGHT[0m
+[24;1H[K[7m Manual page sort(1) line 79[27m[24;1H[24;1H[K       Copyright © 2004 Free Software Foundation, Inc.
+[24;1H[K[7m Manual page sort(1) line 80[27m[24;1H[24;1H[K       This is free software; see the source for copying conditions.  There is
+[24;1H[K[7m Manual page sort(1) line 81[27m[24;1H[24;1H[K       NO warranty; not even for MERCHANTABILITY or FITNESS FOR  A  PARTICULAR
+[24;1H[K[7m Manual page sort(1) line 82[27m[24;1H[24;1H[K       PURPOSE.
+[24;1H[K[7m Manual page sort(1) line 83[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 84[27m[24;1H[24;1H[K[1mSEE[0m [1mALSO[0m
+[24;1H[K[7m Manual page sort(1) line 85[27m[24;1H[24;1H[K       The  full documentation for [1msort[0m is maintained as a Texinfo manual.  If
+[24;1H[K[7m Manual page sort(1) line 86[27m[24;1H[24;1H[K       the [1minfo[0m and [1msort[0m programs are properly installed  at  your  site,  the
+[24;1H[K[7m Manual page sort(1) line 87[27m[24;1H[24;1H[K       command
+[24;1H[K[7m Manual page sort(1) line 88[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 89[27m[24;1H[24;1H[K              [1minfo[0m [1mcoreutils[0m [1msort[0m
+[24;1H[K[7m Manual page sort(1) line 90[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 91[27m[24;1H[24;1H[K       should give you access to the complete manual.
+[24;1H[K[7m Manual page sort(1) line 92[27m[24;1H[24;1H[K
+[24;1H[K[7m Manual page sort(1) line 93[27m[24;1H[24;1H[Ksort (coreutils) 5.2.1            March 2005                           SORT(1)
+[24;1H[K[7m Manual page sort(1) line 94[27m[24;1H[24;1H[K[24;1H[K[7m Manual page sort(1) line 94/118 (END)[27m[24;1H[24;1H[K[24;1H[K[7m Manual page sort(1) line 94/118 (END)[27m[24;1H[24;1H[K[24;1H[K[7m Manual page sort(1) line 94/118 (END)[27m[24;1H[24;1H[K[24;1H[K[7m Manual page sort(1) line 94/118 (END)[27m[24;1H[24;1H[K[24;1H[K[7m Manual page sort(1) line 94/118 (END)[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       byte values.
+[24;1H[K[7m Manual page sort(1) line 93/118 98%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       order.  Set LC_ALL=C to get the traditional sort order that uses native
+[24;1H[K[7m Manual page sort(1) line 92/118 98%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       ***  WARNING  ***  The locale specified by the environment affects sort
+[24;1H[K[7m Manual page sort(1) line 91/118 96%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 90/118 96%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       With no FILE, or when FILE is -, read standard input.
+[24;1H[K[7m Manual page sort(1) line 89/118 95%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 88/118 95%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       memory, b 1, K 1024 (default), and so on for M, G, T, P, E, Z, Y.
+[24;1H[K[7m Manual page sort(1) line 87/118 94%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       SIZE may be followed by the following multiplicative suffixes: % 1%  of
+[24;1H[K[7m Manual page sort(1) line 86/118 92%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 85/118 90%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       key is given, use the entire line as the key.
+[24;1H[K[7m Manual page sort(1) line 84/118 90%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       options,  which  override  global ordering options for that key.  If no
+[24;1H[K[7m Manual page sort(1) line 83/118 90%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       position in the field.  OPTS is  one  or  more  single-letter  ordering
+[24;1H[K[7m Manual page sort(1) line 82/118 89%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       POS  is  F[.C][OPTS],  where  F is the field number and C the character
+[24;1H[K[7m Manual page sort(1) line 81/118 88%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 80/118 86%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              output version information and exit
+[24;1H[K[7m Manual page sort(1) line 79/118 84%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m--version[0m
+[24;1H[K[7m Manual page sort(1) line 78/118 84%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 77/118 84%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m--help[0m display this help and exit
+[24;1H[K[7m Manual page sort(1) line 76/118 83%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 75/118 82%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              end lines with 0 byte, not newline
+[24;1H[K[7m Manual page sort(1) line 74/118 82%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-z[0m, [1m--zero-terminated[0m
+[24;1H[K[7m Manual page sort(1) line 73/118 81%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 72/118 80%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              first of an equal run
+[24;1H[K[7m Manual page sort(1) line 71/118 80%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              with [1m-c[0m, check for strict ordering; without [1m-c[0m, output only  the
+[24;1H[K[7m Manual page sort(1) line 70/118 80%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-u[0m, [1m--unique[0m
+[24;1H[K[7m Manual page sort(1) line 69/118 78%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 68/118 76%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              specify multiple directories
+[24;1H[K[7m Manual page sort(1) line 67/118 76%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              use  DIR  for temporaries, not $TMPDIR or /tmp; multiple options
+[24;1H[K[7m Manual page sort(1) line 66/118 75%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-T[0m, [1m--temporary-directory[0m=[4mDIR[24m
+[24;1H[K[7m Manual page sort(1) line 65/118 75%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 64/118 73%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              tion
+[24;1H[K[7m Manual page sort(1) line 63/118 71%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-t[0m, [1m--field-separator[0m=[4mSEP[24m use SEP instead of non-blank to blank transi‐
+[24;1H[K[7m Manual page sort(1) line 62/118 71%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 61/118 70%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              use SIZE for main memory buffer
+[24;1H[K[7m Manual page sort(1) line 60/118 68%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-S[0m, [1m--buffer-size[0m=[4mSIZE[24m
+[24;1H[K[7m Manual page sort(1) line 59/118 66%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 58/118 64%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              stabilize sort by disabling last-resort comparison
+[24;1H[K[7m Manual page sort(1) line 57/118 64%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-s[0m, [1m--stable[0m
+[24;1H[K[7m Manual page sort(1) line 56/118 63%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 55/118 62%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              write result to FILE instead of standard output
+[24;1H[K[7m Manual page sort(1) line 54/118 62%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-o[0m, [1m--output[0m=[4mFILE[24m
+[24;1H[K[7m Manual page sort(1) line 53/118 61%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 52/118 61%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              merge already sorted files; do not sort
+[24;1H[K[7m Manual page sort(1) line 51/118 60%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-m[0m, [1m--merge[0m
+[24;1H[K[7m Manual page sort(1) line 50/118 59%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 49/118 59%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              start a key at POS1, end it at POS 2 (origin 1)
+[24;1H[K[7m Manual page sort(1) line 48/118 58%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-k[0m, [1m--key[0m=[4mPOS1[[24m,POS2]
+[24;1H[K[7m Manual page sort(1) line 47/118 56%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 46/118 55%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              check whether input is sorted; do not sort
+[24;1H[K[7m Manual page sort(1) line 45/118 55%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-c[0m, [1m--check[0m
+[24;1H[K[7m Manual page sort(1) line 44/118 54%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 43/118 52%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       Other options:
+[24;1H[K[7m Manual page sort(1) line 42/118 50%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 41/118 50%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              reverse the result of comparisons
+[24;1H[K[7m Manual page sort(1) line 40/118 49%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-r[0m, [1m--reverse[0m
+[24;1H[K[7m Manual page sort(1) line 39/118 47%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 38/118 47%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              compare according to string numerical value
+[24;1H[K[7m Manual page sort(1) line 37/118 46%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-n[0m, [1m--numeric-sort[0m
+[24;1H[K[7m Manual page sort(1) line 36/118 44%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 35/118 44%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              compare (unknown) < ‘JAN’ < ... < ‘DEC’
+[24;1H[K[7m Manual page sort(1) line 34/118 42%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-M[0m, [1m--month-sort[0m
+[24;1H[K[7m Manual page sort(1) line 33/118 42%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 32/118 42%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              consider only printable characters
+[24;1H[K[7m Manual page sort(1) line 31/118 40%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-i[0m, [1m--ignore-nonprinting[0m
+[24;1H[K[7m Manual page sort(1) line 30/118 39%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 29/118 39%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              compare according to general numerical value
+[24;1H[K[7m Manual page sort(1) line 28/118 38%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-g[0m, [1m--general-numeric-sort[0m
+[24;1H[K[7m Manual page sort(1) line 27/118 37%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 26/118 37%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              fold lower case to upper case characters
+[24;1H[K[7m Manual page sort(1) line 25/118 35%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-f[0m, [1m--ignore-case[0m
+[24;1H[K[7m Manual page sort(1) line 24/118 34%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 23/118 34%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              consider only blanks and alphanumeric characters
+[24;1H[K[7m Manual page sort(1) line 22/118 33%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-d[0m, [1m--dictionary-order[0m
+[24;1H[K[7m Manual page sort(1) line 21/118 32%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 20/118 32%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1m-b[0m, [1m--ignore-leading-blanks[0m ignore leading blanks
+[24;1H[K[7m Manual page sort(1) line 19/118 31%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 18/118 31%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       too.
+[24;1H[K[7m Manual page sort(1) line 17/118 30%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       Mandatory  arguments  to  long  options are mandatory for short options
+[24;1H[K[7m Manual page sort(1) line 16/118 29%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 15/118 29%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       Ordering options:
+[24;1H[K[7m Manual page sort(1) line 14/118 28%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 13/118 27%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       Write sorted concatenation of all FILE(s) to standard output.
+[24;1H[K[7m Manual page sort(1) line 12/118 27%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mDESCRIPTION[0m
+[24;1H[K[7m Manual page sort(1) line 11/118 25%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 10/118 24%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [1msort[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+[24;1H[K[7m Manual page sort(1) line 9/118 24%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mSYNOPSIS[0m
+[24;1H[K[7m Manual page sort(1) line 8/118 23%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 7/118 21%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       sort - sort lines of text files
+[24;1H[K[7m Manual page sort(1) line 6/118 21%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM[1mNAME[0m
+[24;1H[K[7m Manual page sort(1) line 5/118 20%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K[7m Manual page sort(1) line 4/118 18%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[HMSORT(1)                          User Commands                         SORT(1)
+[24;1H[K[7m Manual page sort(1) line 1/118 18%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K[7m Manual page sort(1) line 1/118 18%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K[7m Manual page sort(1) line 1/118 18%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K[7m Manual page sort(1) line 1/118 18%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K[7m Manual page sort(1) line 1/118 18%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K[7m Manual page sort(1) line 1/118 18%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K[7m Manual page sort(1) line 1/118 18%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K[7m Manual page sort(1) line 1/118 18%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K[7m Manual page sort(1) line 1/118 18%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K[7m Manual page sort(1) line 1/118 18%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K[7m Manual page sort(1) line 1/118 18%[27m[24;1H[K [KESCESC[KOO[KAA[24;1H[24;1H[K[7m Manual page sort(1) line 1/118 18%[27m[24;1H[K[?1l>[?1049l]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ man sortsort -0-2 Ch6s6f1[1@ rebecca@rebecca:~$ sort -0 -rebecca@rebecca:~$ sort -0 -2[1P Ch6s6f13 Ch6s6f1
+sort: invalid option -- 0
+Try `sort --help' for more information.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort -0 -3 Ch6s6f1[1P[1@=[1P[1@+
+bus	34	2	20
+cis	15	1	45
+cis	45	1	38
+cis	54	1	20
+cis	54	2	67
+eng	11	2	89
+mth	35	1	56
+mth	35	2	41
+pe	17	2	25
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ exit
+
+Script done on Mon 01 May 2006 09:13:52 AM EDT

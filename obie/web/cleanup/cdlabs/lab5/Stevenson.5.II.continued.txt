@@ -1,0 +1,62 @@
+Script started on Thu 27 Apr 2006 07:47:54 AM EDT
+]0;student@localhost:~[student@localhost ~]$ who file[K[K[K[K>> file3; bate >[K2>&1
+bash: bate: command not found
+]0;student@localhost:~[student@localhost ~]$ who >> file3; bate 2 >> file3
+bash: bate: command not found
+]0;student@localhost:~[student@localhost ~]$ who [K[K[K[Kls file3
+[00m[00mfile3[00m
+[m]0;student@localhost:~[student@localhost ~]$ more file3
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+Wed Apr 26 17:56:10 EDT 2006
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+student  :0           Apr 27 07:39
+student  pts/1        Apr 27 07:43 (:0.0)
+student  :0           Apr 27 07:39
+student  pts/1        Apr 27 07:43 (:0.0)
+]0;student@localhost:~[student@localhost ~]$ vi file3
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"file3" 13L, 491C[1;1Hstudent  :0[11CApr 26 16:06
+student  pts/1[8CApr 26 17:03 (:0.0)
+Wed Apr 26 17:56:10 EDT 2006
+student  :0[11CApr 26 16:06
+student  pts/1[8CApr 26 17:03 (:0.0)
+student  :0[11CApr 26 16:06
+student  pts/1[8CApr 26 17:03 (:0.0)
+student  :0[11CApr 26 16:06
+student  pts/1[8CApr 26 17:03 (:0.0)
+student  :0[11CApr 27 07:39
+student  pts/1[8CApr 27 07:43 (:0.0)
+student  :0[11CApr 27 07:39
+student  pts/1[8CApr 27 07:43 (:0.0)
+[1m[34m~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25ltudent  :0 [10CApr 26 16:06[1;34H[K[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;14H[K[24;63H1,1[11CAll[1;1H[K[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H1[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H1[1;1H[?12l[?25h[24;1H[K[1;1H[?25l[24;63H1,0-1[9CAll[1;1H[?12l[?25h[?25ltudent  :0[11CApr 26 16:06[24;65H1  [1;1H[?12l[?25h[?25lstudent  :0[10C Apr 26 16:06[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25ltudent  :0 [10CApr 26 16:06[4;34H[K[4;1H[?12l[?25h[?25ludent  :0 [10CApr 26 16:06[4;33H[K[4;1H[?12l[?25h[?25ldent  :0 [10CApr 26 16:06[4;32H[K[4;1H[?12l[?25h[?25lent  :0 [10CApr 26 16:06[4;31H[K[4;1H[?12l[?25h[?25lnt  :0 [10CApr 26 16:06[4;30H[K[4;1H[?12l[?25h[?25lt  :0 [10CApr 26 16:06[4;29H[K[4;1H[?12l[?25h[?25l  :0 [10CApr 26 16:06[4;28H[K[4;1H[?12l[?25h[?25l :0 [10CApr 26 16:06[4;27H[K[4;1H[?12l[?25h[?25l:0 [10CApr 26 16:06[4;26H[K[4;1H[?12l[?25h[?25l0 [10CApr 26 16:06[4;25H[K[4;1H[?12l[?25h[?25l [10CApr 26 16:06[4;24H[K[4;1H[?12l[?25h[?25l[10CApr 26 16:06[4;23H[K[4;1H[?12l[?25h[?25l[9CApr 26 16:06[4;22H[K[4;1H[?12l[?25h[?25l[8CApr 26 16:06[4;21H[K[4;1H[?12l[?25h[?25l[7CApr 26 16:06[4;20H[K[4;1H[?12l[?25h[?25l      Apr 26 16:06[4;19H[K[4;1H[?12l[?25h[?25l     Apr 26 16:06[4;18H[K[4;1H[?12l[?25h[?25l    Apr 26 16:06[4;17H[K[4;1H[?12l[?25h[?25l   Apr 26 16:06[4;16H[K[4;1H[?12l[?25h[?25l  Apr 26 16:06[4;15H[K[4;1H[?12l[?25h[?25l Apr 26 16:06[4;14H[K[4;1H[?12l[?25h[?25lApr 26 16:06[4;13H[K[4;1H[?12l[?25h[?25lpr 26 16:06[4;12H[K[4;1H[?12l[?25h[?25lr 26 16:06[4;11H[K[4;1H[?12l[?25h[?25l 26 16:06[4;10H[K[4;1H[?12l[?25h[?25l26 16:06[4;9H[K[4;1H[?12l[?25h[?25l6 16:06[4;8H[K[4;1H[?12l[?25h[?25l 16:06[4;7H[K[4;1H[?12l[?25h[?25l16:06[4;6H[K[4;1H[?12l[?25h[?25l6:06[4;5H[K[4;1H[?12l[?25h[?25l:06[4;4H[K[4;1H[?12l[?25h[?25l06[4;3H[K[4;1H[?12l[?25h[?25l6[4;2H[K[4;1H[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25ltudent  pts/1 [7CApr 26 17:03 (:0.0)[4;41H[K[4;1H[?12l[?25h[?25ludent  pts/1 [7CApr 26 17:03 (:0.0)[4;40H[K[4;1H[?12l[?25h[?25ldent  pts/1 [7CApr 26 17:03 (:0.0)[4;39H[K[4;1H[?12l[?25h[?25lent  pts/1 [7CApr 26 17:03 (:0.0)[4;38H[K[4;1H[?12l[?25h[?25lnt  pts/1 [7CApr 26 17:03 (:0.0)[4;37H[K[4;1H[?12l[?25h[?25lt  pts/1 [7CApr 26 17:03 (:0.0)[4;36H[K[4;1H[?12l[?25h[?25l  pts/1 [7CApr 26 17:03 (:0.0)[4;35H[K[4;1H[?12l[?25h[?25l pts/1 [7CApr 26 17:03 (:0.0)[4;34H[K[4;1H[?12l[?25h[?25lpts/1 [7CApr 26 17:03 (:0.0)[4;33H[K[4;1H[?12l[?25h[?25lts/1 [7CApr 26 17:03 (:0.0)[4;32H[K[4;1H[?12l[?25h[?25ls/1 [7CApr 26 17:03 (:0.0)[4;31H[K[4;1H[?12l[?25h[?25l/1 [7CApr 26 17:03 (:0.0)[4;30H[K[4;1H[?12l[?25h[?25l1 [7CApr 26 17:03 (:0.0)[4;29H[K[4;1H[?12l[?25h[?25l [7CApr 26 17:03 (:0.0)[4;28H[K[4;1H[?12l[?25h[?25l[7CApr 26 17:03 (:0.0)[4;27H[K[4;1H[?12l[?25h[?25l      Apr 26 17:03 (:0.0)[4;26H[K[4;1H[?12l[?25h[?25l     Apr 26 17:03 (:0.0)[4;25H[K[4;1H[?12l[?25h[?25l    Apr 26 17:03 (:0.0)[4;24H[K[4;1H[?12l[?25h[?25l   Apr 26 17:03 (:0.0)[4;23H[K[4;1H[?12l[?25h[?25l  Apr 26 17:03 (:0.0)[4;22H[K[4;1H[?12l[?25h[?25l Apr 26 17:03 (:0.0)[4;21H[K[4;1H[?12l[?25h[?25lApr 26 17:03 (:0.0)[4;20H[K[4;1H[?12l[?25h[?25lpr 26 17:03 (:0.0)[4;19H[K[4;1H[?12l[?25h[?25lr 26 17:03 (:0.0)[4;18H[K[4;1H[?12l[?25h[?25l 26 17:03 (:0.0)[4;17H[K[4;1H[?12l[?25h[?25l26 17:03 (:0.0)[4;16H[K[4;1H[?12l[?25h[?25l6 17:03 (:0.0)[4;15H[K[4;1H[?12l[?25h[?25l 17:03 (:0.0)[4;14H[K[4;1H[?12l[?25h[?25l17:03 (:0.0)[4;13H[K[4;1H[?12l[?25h[?25l7:03 (:0.0)[4;12H[K[4;1H[?12l[?25h[?25l:03 (:0.0)[4;11H[K[4;1H[?12l[?25h[?25l03 (:0.0)[4;10H[K[4;1H[?12l[?25h[?25l3 (:0.0)[4;9H[K[4;1H[?12l[?25h[?25l (:0.0)[4;8H[K[4;1H[?12l[?25h[?25l(:0.0)[4;7H[K[4;1H[?12l[?25h[?25l:0.0)[4;6H[K[4;1H[?12l[?25h[?25l0.0)[4;5H[K[4;1H[?12l[?25h[?25l.0)[4;4H[K[4;1H[?12l[?25h[?25l0)[4;3H[K[4;1H[?12l[?25h[?25l)[4;2H[K[4;1H[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25ltudent  :0 [10CApr 26 16:06[4;34H[K[4;1H[?12l[?25h[?25ludent  :0 [10CApr 26 16:06[4;33H[K[4;1H[?12l[?25h[24;1H[K[4;1H[?25l[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;63H3[3;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"file3" 3L, 106C written
+[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ who >> file3; bate >>[K[K2>> file3
+]0;student@localhost:~[student@localhost ~]$ more file3
+student  :0           Apr 26 16:06
+student  pts/1        Apr 26 17:03 (:0.0)
+Wed Apr 26 17:56:10 EDT 2006
+student  :0           Apr 27 07:39
+student  pts/1        Apr 27 07:43 (:0.0)
+bash: bate: command not found
+]0;student@localhost:~[student@localhost ~]$ more file3[4hwho >> file3; bate[4l 2>>[student@localhost ~]$ who >> file3; bate 2>> file3[1P[4h4[4l[student@localhost ~]$ who >> file4;[student@localhost ~]$ who >> file4; [student@localhost ~]$ who >> file4; b[student@localhost ~]$ who >> file4; ba[student@localhost ~]$ who >> file4; bat[student@localhost ~]$ who >> file4; bate[student@localhost ~]$ who >> file4; bate [student@localhost ~]$ who >> file4; bate 2[student@localhost ~]$ who >> file4; bate 2>[student@localhost ~]$ who >> file4; bate 2>>[student@localhost ~]$ who >> file4; bate 2>> [student@localhost ~]$ who >> file4; bate 2>> f[student@localhost ~]$ who >> file4; bate 2>> fi[student@localhost ~]$ who >> file4; bate 2>> fil[student@localhost ~]$ who >> file4; bate 2>> file[student@localhost ~]$ who >> file4; bate 2>>[1P file3[1P[student@localhost ~]$ who > [student@localhost ~]$ who > f[student@localhost ~]$ who > fi[student@localhost ~]$ who > fil[student@localhost ~]$ who > file[student@localhost ~]$ who > file4[student@localhost ~]$ who > file4;[student@localhost ~]$ who > file4; [student@localhost ~]$ who > file4; b[student@localhost ~]$ who > file4; ba[student@localhost ~]$ who > file4; bat[student@localhost ~]$ who > file4; bate[student@localhost ~]$ who > file4; bate [student@localhost ~]$ who > file4; bate 2[student@localhost ~]$ who > file4; bate 2>[student@localhost ~]$ who > file4; bate 2> [student@localhost ~]$ who > file4; bate 2> f[student@localhost ~]$ who > file4; bate 2> fi[student@localhost ~]$ who > file4; bate 2> fil[student@localhost ~]$ who > file4; bate 2> file[student@localhost ~]$ who > file4; bate 2> file3[K5[student@localhost ~]$ who > file4; bate 2> file5
+]0;student@localhost:~[student@localhost ~]$ more file4
+student  :0           Apr 27 07:39
+student  pts/1        Apr 27 07:43 (:0.0)
+]0;student@localhost:~[student@localhost ~]$ more file5
+bash: bate: command not found
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 07:57:22 AM EDT

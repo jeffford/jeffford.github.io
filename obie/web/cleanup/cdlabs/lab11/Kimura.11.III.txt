@@ -1,0 +1,187 @@
+Script started on Mon 08 May 2006 06:21:58 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat C[K>Ch11S3F1
+asdf
+qwer
+asdf
+asdf
+qwer
+ery
+xhg
+wert
+asfd
+dhfg
+1234
+37
+wert
+uiot
+3456
+ndg
+xfdgh
+we5r
+2346
+46
+wert
+se456
+h46
+q34
+j54
+f2t4
+e567
+j468
+34
+746
+134
+wert
+84
+q365
+4nhj68
+25
+u47
+25
+h74
+2
+adfg
+134
+h35ye
+1235
+3u7
+g24
+265
+46
+ser7
+o57
+]0;Student@localhost:~[Student@localhost ~]$ cat -n Ch11S3F1 >Ch11S3F1.num
+]0;Student@localhost:~[Student@localhost ~]$ cat >Ch11S3.sed
+10,15 { w Ch11S3F2
+}
+20,30 { w Ch11S3F3
+}
+31,37 { w Ch11S3F4
+}
+19 ,9 {w Ch11S3F5
+] }
+16,19 { w Ch11S3F5
+}
+38,50 { w Ch11S3F5
+}
+
+]0;Student@localhost:~[Student@localhost ~]$ sed -f Ch11S3.sed Ch11S3F1.num
+     1	asdf
+     2	qwer
+     3	asdf
+     4	asdf
+     5	qwer
+     6	ery
+     7	xhg
+     8	wert
+     9	asfd
+    10	dhfg
+    11	1234
+    12	37
+    13	wert
+    14	uiot
+    15	3456
+    16	ndg
+    17	xfdgh
+    18	we5r
+    19	2346
+    20	46
+    21	wert
+    22	se456
+    23	h46
+    24	q34
+    25	j54
+    26	f2t4
+    27	e567
+    28	j468
+    29	34
+    30	746
+    31	134
+    32	wert
+    33	84
+    34	q365
+    35	4nhj68
+    36	25
+    37	u47
+    38	25
+    39	h74
+    40	2
+    41	adfg
+    42	134
+    43	h35ye
+    44	1235
+    45	3u7
+    46	g24
+    47	265
+    48	46
+    49	ser7
+    50	o57
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ sed -f Ch11S3.sed Ch11S3F1.num[Student@localhost ~]$ more Ch11S3F1 Ch11S3F2 Ch11S3F3 Ch11S3F4 Ch11S3F5[1P[1P[Student@localhost ~]$ more 1[1P[1P[1P[1P[1P[1P[1P[Student@localhost ~]$ more Ch11S3F2 Ch11S3F3 Ch11S3F4 Ch11S3F5
+::::::::::::::
+Ch11S3F2
+::::::::::::::
+    10	dhfg
+    11	1234
+    12	37
+    13	wert
+    14	uiot
+    15	3456
+[7m--More--(Next file: Ch11S3F3)[m::::::::::::::[K
+Ch11S3F3
+::::::::::::::
+    20	46
+[7m--More--(8%)[m[K    21	wert
+[7m--More--(17%)[m[K    22	se456
+[7m--More--(28%)[m[K    23	h46
+[7m--More--(36%)[m[K    24	q34
+[7m--More--(45%)[m[K    25	j54
+[7m--More--(54%)[m[K    26	f2t4
+[7m--More--(64%)[m[K    27	e567
+[7m--More--(73%)[m[K    28	j468
+[7m--More--(83%)[m[K    29	34
+[7m--More--(91%)[m[K    30	746
+[7m--More--(Next file: Ch11S3F4)[m::::::::::::::[K
+Ch11S3F4
+::::::::::::::
+    31	134
+[7m--More--(13%)[m[K    32	wert
+[7m--More--(28%)[m[K    33	84
+[7m--More--(41%)[m[K    34	q365
+[7m--More--(56%)[m[K    35	4nhj68
+[7m--More--(73%)[m[K    36	25
+[7m--More--(86%)[m[K    37	u47
+[7m--More--(Next file: Ch11S3F5)[m::::::::::::::[K
+Ch11S3F5
+::::::::::::::
+     1	asdf
+[7m--More--(4%)[m[K     2	qwer
+[7m--More--(8%)[m[K     3	asdf
+[7m--More--(12%)[m[K     4	asdf
+[7m--More--(16%)[m[K     5	qwer
+[7m--More--(20%)[m[K     6	ery
+[7m--More--(23%)[m[K     7	xhg
+[7m--More--(27%)[m[K     8	wert
+[7m--More--(31%)[m[K     9	asfd
+[7m--More--(35%)[m[K    16	ndg
+[7m--More--(39%)[m[K    17	xfdgh
+[7m--More--(43%)[m[K    18	we5r
+[7m--More--(47%)[m[K    19	2346
+[7m--More--(51%)[m[K    38	25
+[7m--More--(55%)[m[K    39	h74
+[7m--More--(58%)[m[K    40	2
+[7m--More--(61%)[m[K    41	adfg
+[7m--More--(65%)[m[K    42	134
+[7m--More--(69%)[m[K    43	h35ye
+[7m--More--(73%)[m[K    44	1235
+[7m--More--(77%)[m[K    45	3u7
+[7m--More--(81%)[m[K    46	g24
+[7m--More--(85%)[m[K    47	265
+[7m--More--(88%)[m[K    48	46
+[7m--More--(92%)[m[K    49	ser7
+[7m--More--(96%)[m[K    50	o57
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 08 May 2006 08:37:34 PM EDT

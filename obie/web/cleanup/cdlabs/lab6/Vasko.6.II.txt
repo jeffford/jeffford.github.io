@@ -1,0 +1,120 @@
+Script started on Thu 27 Apr 2006 08:28:43 AM EDT
+]0;student@localhost:~[student@localhost ~]$ /e[K[Kcd /etc
+]0;student@localhost:/etc[student@localhost etc]$ head passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+]0;student@localhost:/etc[student@localhost etc]$ tail passwd
+whitela:x:632:634::/home/whitela:/bin/bash
+fannpj:x:633:635::/home/fannpj:/bin/bash
+lozowynp:x:634:636::/home/lozowynp:/bin/bash
+mccruddentj:x:635:637::/home/mccruddentj:/bin/bash
+poganysj:x:636:638::/home/poganysj:/bin/bash
+bakerjc:x:637:639::/home/bakerjc:/bin/bash
+sangtanij:x:638:640::/home/sangtanij:/bin/bash
+student:x:550:550:Computer Science Student:/home/student:/bin/bash
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+]0;student@localhost:/etc[student@localhost etc]$ cat Ch6SIIS[KF1
+cat: Ch6SIIF1: No such file or directory
+]0;student@localhost:/etc[student@localhost etc]$ cat Ch6SIIF1[student@localhost etc]$ cat Ch6SII[student@localhost etc]$ cat Ch6SIIF[student@localhost etc]$ cat Ch6SIIF1> Ch6SIIF1[1P Ch6SIIF1[student@localhost etc]$ cat  Ch6SIIF1> Ch6SIIF1
+bash: Ch6SIIF1: Permission denied
+]0;student@localhost:/etc[student@localhost etc]$ cd
+]0;student@localhost:~[student@localhost ~]$ cat > Ch6SIIF1
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/300-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hira.edu/512-2 345-5678
+Tuan/tt1234@aol.com/494  04-213-1434
+]0;student@localhost:~[student@localhost ~]$ cat Ch6IIF1
+cat: Ch6IIF1: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ cat Ch6IIF1sIIF1[1PIIF1SIIF1[student@localhost ~]$ cat Ch6SI[student@localhost ~]$ cat Ch6SII[student@localhost ~]$ cat Ch6SIIF[student@localhost ~]$ cat Ch6SIIF1
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/300-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hira.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;student@localhost:~[student@localhost ~]$ mk[K[Kcat Ch6SIIF1 > Ch5[K6SIIF1ba[K[K.bak
+]0;student@localhost:~[student@localhost ~]$ cat Ch6SIIF1 > Ch6SIIF1.bak[K
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/300-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hira.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;student@localhost:~[student@localhost ~]$ cut f[K-f1 -[K[K-2[K3 -d"/"
+]0;student@localhost:~[student@localhost ~]$ cut -f1-3 -d"/" Ch6SIIS1[K[K[K[KIIF1 > Ch6SIIF1[K2
+]0;student@localhost:~[student@localhost ~]$ cate[K Ch^[K6SIIF2
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/300-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hira.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;student@localhost:~[student@localhost ~]$ cut -f1 -2"[K[Kd"/" Ch6SIIF1 > table1
+]0;student@localhost:~[student@localhost ~]$ C[Kcut -f1 -d"/" Ch6SIIF1 > table1[1P[1@2[student@localhost ~]$ cut -f2 [student@localhost ~]$ cut -f2 -[student@localhost ~]$ cut -f2 -d[student@localhost ~]$ cut -f2 -d"[student@localhost ~]$ cut -f2 -d"/[student@localhost ~]$ cut -f2 -d"/"[student@localhost ~]$ cut -f2 -d"/" [student@localhost ~]$ cut -f2 -d"/" C[student@localhost ~]$ cut -f2 -d"/" Ch[student@localhost ~]$ cut -f2 -d"/" Ch6[student@localhost ~]$ cut -f2 -d"/" Ch6S[student@localhost ~]$ cut -f2 -d"/" Ch6SI[student@localhost ~]$ cut -f2 -d"/" Ch6SII[student@localhost ~]$ cut -f2 -d"/" Ch6SIIF[student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1[student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 [student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 >[student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > [student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > t[student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > ta[student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > tab[student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > tabl[student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > table[student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > table1[K2
+]0;student@localhost:~[student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > table2[1P[1@3[student@localhost ~]$ cut -f3 [student@localhost ~]$ cut -f3 -[student@localhost ~]$ cut -f3 -d[student@localhost ~]$ cut -f3 -d"[student@localhost ~]$ cut -f3 -d"/[student@localhost ~]$ cut -f3 -d"/"[student@localhost ~]$ cut -f3 -d"/" [student@localhost ~]$ cut -f3 -d"/" C[student@localhost ~]$ cut -f3 -d"/" Ch[student@localhost ~]$ cut -f3 -d"/" Ch6[student@localhost ~]$ cut -f3 -d"/" Ch6S[student@localhost ~]$ cut -f3 -d"/" Ch6SI[student@localhost ~]$ cut -f3 -d"/" Ch6SII[student@localhost ~]$ cut -f3 -d"/" Ch6SIIF[student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1[student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 [student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 >[student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > [student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > t[student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > ta[student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > tab[student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > tabl[student@localhost ~]$ cut -f3 -d"/" Ch6SIIF1 > table[K3
+]0;student@localhost:~[student@localhost ~]$ paste /[Ktable 1 table 2[K[K2[K[K[K[K[K[K[K[K[K1 table 2 [K[K[K2 table3 > Ch6SIIF2
+]0;student@localhost:~[student@localhost ~]$ cat Ch^[K6SIIF2
+Juan	jj@yahoo.com	330-569-5211
+George	george@hotmail.com	300-274-1999
+Anna	sister@aol.com	330-274-5615
+Ben	davisbj@hira.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;student@localhost:~[student@localhost ~]$ paste table1 table2 -f2[K4 talbe3 > Ch6SIIF2
+paste: invalid option -- f
+Try `paste --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ paste table1 table2 -f4 talbe3 > Ch6SIIF2[1P[1P[1P[1P[student@localhost ~]$ paste table1 table2 [student@localhost ~]$ paste table1 table2 t[student@localhost ~]$ paste table1 table2 ta[student@localhost ~]$ paste table1 table2 tal[student@localhost ~]$ paste table1 table2 talb[student@localhost ~]$ paste table1 table2 talbe[student@localhost ~]$ paste table1 table2 talbe3[1@-[1@4[1P[1P[student@localhost ~]$ paste table1 table2 talbe3 [1@ [1@-[1@f[1@4
+paste: invalid option -- f
+Try `paste --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ paste table1 table2 talbe3 -f4 > Ch6SIIF2[student@localhost ~]$ paste table1 table2 ta[student@localhost ~]$ paste table1 table2 tal[student@localhost ~]$ paste table1 table2 talb[student@localhost ~]$ paste table1 table2 talbe[student@localhost ~]$ paste table1 table2 [1@ [1@|[student@localhost ~]$ paste table1 table2 | [student@localhost ~]$ paste table1 table2 | t[student@localhost ~]$ paste table1 table2 | ta[student@localhost ~]$ paste table1 table2 | tal[student@localhost ~]$ paste table1 table2 | talb[student@localhost ~]$ paste table1 table2 | talbe[student@localhost ~]$ paste table1 table2 | talbe3[student@localhost ~]$ paste table1 table2 | talbe3 [student@localhost ~]$ paste table1 table2 | talbe3 -[student@localhost ~]$ paste table1 table2 | talbe3 -f[1P[1P[1@+[student@localhost ~]$ paste table1 table2 | talbe3 +4[1@3[1@ [1@-[1P[1P
+paste: invalid option -- 4
+Try `paste --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ pat[Kste table1 table2 table3[K[K[K[K[K[K| table3 -f4 > [K[K[K
+bash: table3: command not found
+]0;student@localhost:~[student@localhost ~]$ paste table1 table2 | table3 -f4[1@p[1@a[1@s[student@localhost ~]$ paste table1 table2 | past[1@t[1@e[1@ 
+paste: invalid option -- f
+Try `paste --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ paste table1 table2 | paste table3 -f4[1P[student@localhost ~]$ paste table1 table2  [1P[1P[1P[1P[1P[1P[1P[1P[1@ [student@localhost ~]$ paste table1 table2 t[student@localhost ~]$ paste table1 table2 ta[student@localhost ~]$ paste table1 table2 tab[student@localhost ~]$ paste table1 table2 tabl[student@localhost ~]$ paste table1 table2 table[student@localhost ~]$ paste table1 table2 table3[student@localhost ~]$ paste table1 table2 table3 [student@localhost ~]$ paste table1 table2 table3 -[student@localhost ~]$ paste table1 table2 table3 -f[1P4[1P4[K| cut -f4
+
+
+
+
+
+]0;student@localhost:~[student@localhost ~]$ paste table1 table2 table3 | cut -f4[K3
+330-569-5211
+300-274-1999
+330-274-5615
+512-345-5678
+404-213-1434
+]0;student@localhost:~[student@localhost ~]$ paste table1 table2 table3 | cut -f34[2@| paste table3[student@localhost ~]$ paste table1 table2 | paste table3 -f4[6P[student@localhost ~]$ paste table1 table2 | table3 -f4talbe3 +3 -4 > Ch6SIIF2[2P-f[student@localhost ~]$ paste table1 table2 talbe3 -f4 > Ch6SIIF2-f4 talbe3[student@localhost ~]$ paste table1 table2 -f4 talbe3 > Ch6SIIF2[student@localhost ~]$ cat Ch6SIIF2[K[25@paste table1 table2 table3 >[student@localhost ~]$ paste table1 table2 table3 > Ch6SIIF2
+]0;student@localhost:~[student@localhost ~]$ cat Ch6SIIF2
+Juan	jj@yahoo.com	330-569-5211
+George	george@hotmail.com	300-274-1999
+Anna	sister@aol.com	330-274-5615
+Ben	davisbj@hira.edu	512-345-5678
+Tuan	tt1234@aol.com	404-213-1434
+]0;student@localhost:~[student@localhost ~]$ paste Ch6SIIF1 Ch6SIIF2 > JCh[K[K[KCh6SIIF3
+]0;student@localhost:~[student@localhost ~]$ cat[K[K[Kpaste Ch6SIIF1 Ch6SIIF2 > Ch6SIIF3[1P[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1PCh6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1PCh6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3[1P Ch6SIIF3c Ch6SIIF3a Ch6SIIF3t Ch6SIIF3[student@localhost ~]$ cat  Ch6SIIF3
+Juan/jj@yahoo.com/330-569-5211	Juan	jj@yahoo.com	330-569-5211
+George/george@hotmail.com/300-274-1999	George	george@hotmail.com	300-274-1999
+Anna/sister@aol.com/330-274-5615	Anna	sister@aol.com	330-274-5615
+Ben/davisbj@hira.edu/512-345-5678	Ben	davisbj@hira.edu	512-345-5678
+Tuan/tt1234@aol.com/404-213-1434	Tuan	tt1234@aol.com	404-213-1434
+]0;student@localhost:~[student@localhost ~]$ [K[student@localhost ~]$ [K[student@localhost ~]$ \[Kd[Kecho \[K\#8 The duplicate colums[Kn is the one that does not ha ve the slashes, I think. If not I[K[K, I was not able to tell.
+#8 The duplicate column is the one that does not have the slashes, I think. If not, I was not able to tell.
+]0;student@localhost:~[student@localhost ~]$ cut[K[K[Kcut -f1 Ch6Sii[K[KIIS[KF3 > Chg[K6SIIf[KF4
+]0;student@localhost:~[student@localhost ~]$ cat c[KCh6SIIF4
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/300-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hira.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 08:57:01 AM EDT

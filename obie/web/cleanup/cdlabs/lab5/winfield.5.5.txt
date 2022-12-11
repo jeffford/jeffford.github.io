@@ -1,0 +1,38 @@
+Script started on Tue 25 Apr 2006 04:01:59 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ first="PARENT"
+]0;Student@localhost:~[Student@localhost ~]$ echo $first
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ csh
+[Student@localhost ~]$ echo $first
+first: Undefined variable.
+[Student@localhost ~]$ u[Kecho 
+undefi[K[K[K[K[K[K[K[K[K[Kecho undefined veriabl 
+[Kle was printed because the parent on ly exported the veriable 
+m[Ka[Knae[Kme not the value 
+undefined veriable was printed because the parent only exported the veriable 
+name not the value
+[Student@localhost ~]$ set second"SUBSHELL"
+set: Syntax Error.
+[Student@localhost ~]$ setr[K second="SUBSHELL"
+[Student@localhost ~]$ echo $second
+SUBSHELL
+[Student@localhost ~]$ exit
+exit
+]0;Student@localhost:~[Student@localhost ~]$ echo $first
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ echo the 
+[K[K[K[Kp[KPARENT was printed because i[Kthe veriable was not in 
+t 
+he subshell
+PARENT was printed because the veriable was not in the subshell
+]0;Student@localhost:~[Student@localhost ~]$ echo $second
+
+]0;Student@localhost:~[Student@localhost ~]$ echo $c[Ksecond
+
+]0;Student@localhost:~[Student@localhost ~]$ echo a blank space was 
+printed because the veriable was n 
+ot in the login shell
+a blank space was printed because the veriable was not in the login shell
+]0;Student@localhost:~[Student@localhost ~]$
+Script done on Tue 25 Apr 2006 04:07:31 PM EDT
+

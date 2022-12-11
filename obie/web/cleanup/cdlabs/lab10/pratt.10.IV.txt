@@ -1,0 +1,33 @@
+Script started on Fri 05 May 2006 02:28:05 AM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S4F1
+This is a file is that is should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+For example, the following line has duplicated words.
+The duplicated words are hard to find, but grep can find them for you.
+However, you need to write the regular expression very carefully.
+]0;prattjk@cs:~[prattjk@cs prattjk]$ echo "I created this file during test t[Kruns"
+I created this file during test runs
+]0;prattjk@cs:~[prattjk@cs prattjk]$ grep -iv '\(..*\)[\.]*[\?]*[ ]*[\,]*\1' Ch10S4F1 > Ch10S4F 2
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S4F2
+Some lines in this file have duplicated or triplicated words.
+The duplicated words are hard to find, but grep can find them for you.
+]0;prattjk@cs:~[prattjk@cs prattjk]$ echo "I did not get this non-duplicate command to work."
+I did not get this non-duplicate command to work.
+]0;prattjk@cs:~[prattjk@cs prattjk]$ grea[Kp -i '\(..*\)[.]*[\,]*[ ]*[?]*\1[\.][1@\[prattjk@cs prattjk]$ grep -i '\(..*\)[\.[prattjk@cs prattjk]$ grep -i '\(..*\)[\.][prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,][prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ [prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ ][prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ ]*[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ ]*[[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ ]*[?[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ ]*[?][prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ ]*[?]*[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ ]*[?]*\[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ ]*[?]*\1[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ ]*[?]*\1[[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ ]*[?]*\1[\[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ ]*[?]*\1[\.[prattjk@cs prattjk]$ grep -i '\(..*\)[\.]*[\,]*[ ]*[?]*\1[\.]*[\?]*[ ]*[\,]*\1'  Ch10S4F1 C[K> Ch10S4F3
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S4F3
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S4F2
+Some lines in this file have duplicated or triplicated words.
+The duplicated words are hard to find, but grep can find them for you.
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S4F1
+This is a file is that is should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+For example, the following line has duplicated words.
+The duplicated words are hard to find, but grep can find them for you.
+However, you need to write the regular expression very carefully.
+]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+
+Script done on Fri 05 May 2006 02:33:09 AM EDT

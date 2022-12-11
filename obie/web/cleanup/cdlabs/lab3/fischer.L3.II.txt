@@ -1,0 +1,122 @@
+Script started on Mon 24 Apr 2006 10:05:58 PM EDT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ ls -R
+[00m.:
+[01;34massignments[00m      [00mfischer.L3.II.txt[00m  [00mHWch3.txt[00m
+[01;34mDesktop[00m          [00mHWch2.doc[00m          [01;34mletters[00m
+[00mfischer.L2.txt[00m   [00mHWch2.txt[00m          [00mmeeep.txt[00m
+[00mfischer.L2.txt~[00m  [00mHWch3.doc[00m          [01;34mreports[00m
+
+./assignments:
+[01;34mUNIX[00m
+
+./assignments/UNIX:
+[01;34mHWs[00m  [01;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+[00mfischer2edit.txt[00m
+[00mfischer.3.I.txt[00m
+[00mfischer.L1.txt[00m
+[00mFischer.L1.txt~[00m
+[01;32minstallnewfirefox.sh[00m
+[01;32mZager & Evans - In The Year 2525.mp3[00m
+
+./letters:
+[01;34mformal[00m  [01;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[01;34mbusiness[00m  [01;34mpersonal[00m  [01;34mschool[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cd assignments/UNIX
+]0;rebecca@rebecca: /home/rebecca/assignments/UNIXrebecca@rebecca:~/assignments/UNIX$ pwd
+/home/rebecca/assignments/UNIX
+]0;rebecca@rebecca: /home/rebecca/assignments/UNIXrebecca@rebecca:~/assignments/UNIX$ vi H[Khw4
+[?1049h[?1h=[>c[1;21r[27m[m[H[2J[?25l[21;1H"hw4" [New File][2;1H[1m[34m~                                                   [3;1H~                                                   [4;1H~                                                   [5;1H~                                                   [6;1H~                                                   [7;1H~                                                   [8;1H~                                                   [9;1H~                                                   [10;1H~                                                   [11;1H~                                                   [12;1H~                                                   [13;1H~                                                   [14;1H~                                                   [15;1H~                                                   [16;1H~                                                   [17;1H~                                                   [18;1H~                                                   [19;1H~                                                   [20;1H~                                                   [m[21;35H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[21;1H[1m-- INSERT --[m[21;13H[K[21;35H0,1[11CAll[1;1H[?25h[?25lI[21;35H1,2[1;2H[?25h[?25l[21;37H3[1;3H[?25h[?25ll[21;37H4[1;4H[?25h[?25li[21;37H5[1;5H[?25h[?25lk[21;37H6[1;6H[?25h[?25le[21;37H7[1;7H[?25h[?25l[21;37H8[1;8H[?25h[?25lm[21;37H9[1;9H[?25h[?25la[21;37H10[1;10H[?25h[?25ln[21;38H1[1;11H[?25h[?25ly[21;38H2[1;12H[?25h[?25l[21;38H3[1;13H[?25h[?25lt[21;38H4[1;14H[?25h[?25lh[21;38H5[1;15H[?25h[?25li[21;38H6[1;16H[?25h[?25ln[21;38H7[1;17H[?25h[?25lg[21;38H8[1;18H[?25h[?25ls[21;38H9[1;19H[?25h[?25l.[21;37H20[1;20H[?25h[?25l[21;38H1[1;21H[?25h[?25lI[21;38H2[1;22H[?25h[?25l[21;38H3[1;23H[?25h[?25ls[21;38H4[1;24H[?25h[?25l[1;23H[K[21;38H3[1;23H[?25h[?25la[21;38H4[1;24H[?25h[?25ll[21;38H5[1;25H[?25h[?25ls[21;38H6[1;26H[?25h[?25lo[21;38H7[1;27H[?25h[?25l[21;38H8[1;28H[?25h[?25lh[21;38H9[1;29H[?25h[?25la[21;37H30[1;30H[?25h[?25lv[21;38H1[1;31H[?25h[?25le[21;38H2[1;32H[?25h[?25l[21;38H3[1;33H[?25h[?25lm[21;38H4[1;34H[?25h[?25la[21;38H5[1;35H[?25h[?25ln[21;38H6[1;36H[?25h[?25ly[21;38H7[1;37H[?25h[?25l[21;38H8[1;38H[?25h[?25ls[21;38H9[1;39H[?25h[?25lk[21;37H40[1;40H[?25h[?25li[21;38H1[1;41H[?25h[?25ll[21;38H2[1;42H[?25h[?25ll[21;38H3[1;43H[?25h[?25ls[21;38H4[1;44H[?25h[?25l,[21;38H5[1;45H[?25h[?25lb[21;38H6[1;46H[?25h[?25lu[21;38H7[1;47H[?25h[?25lt[21;38H8[1;48H[?25h[?25l[21;38H9[1;49H[?25h[?25lt[21;37H50[1;50H[?25h[?25lh[21;38H1[1;51H[?25h[?25la[21;38H2[1;52H[?25h[?25lt[21;38H3[2;1H[?25h[?25l [2;2H[K[21;38H4[2;2H[?25h[?25li[21;38H5[2;3H[?25h[?25ls[21;38H6[2;4H[?25h[?25l[21;38H7[2;5H[?25h[?25la[21;38H8[2;6H[?25h[?25ln[21;38H9[2;7H[?25h[?25lo[21;37H60[2;8H[?25h[?25lt[21;38H1[2;9H[?25h[?25lh[21;38H2[2;10H[?25h[?25le[21;38H3[2;11H[?25h[?25lr[21;38H4[2;12H[?25h[?25l[21;38H5[2;13H[?25h[?25lm[21;38H6[2;14H[?25h[?25la[21;38H7[2;15H[?25h[?25lt[21;38H8[2;16H[?25h[?25lt[21;38H9[2;17H[?25h[?25le[21;37H70[2;18H[?25h[?25lr[21;38H1[2;19H[?25h[?25l.[21;38H2[2;20H[?25h[21;1H[K[2;19H[?25l[21;35H1,71[10CAll[2;19H[?25h[?25l[21;35H[K[21;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"hw4" [New] 1L, 72C written
+[?1l>[?25h[?1049l]0;rebecca@rebecca: /home/rebecca/assignments/UNIXrebecca@rebecca:~/assignments/UNIX$ cd
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ ls -la
+[00mtotal 332
+drwxr-xr-x  29 rebecca rebecca  4096 2006-04-24 22:09 [01;34m.[00m
+drwxr-xr-x   3 root    root     4096 2006-04-21 23:36 [01;34m..[00m
+drwxr-xr-x   3 rebecca rebecca  4096 2006-04-24 22:04 [01;34massignments[00m
+-rw-------   1 rebecca rebecca  1588 2006-04-24 22:05 [00m.bash_history[00m
+-rw-r--r--   1 rebecca rebecca   414 2006-04-21 23:36 [00m.bash_profile[00m
+-rw-r--r--   1 rebecca rebecca  2044 2006-04-21 23:36 [00m.bashrc[00m
+drwxr-xr-x   2 rebecca rebecca  4096 2006-04-24 00:28 [01;34m.cddbslave[00m
+drwxr-xr-x   2 rebecca rebecca  4096 2006-04-24 08:33 [01;34mDesktop[00m
+-rw-------   1 rebecca rebecca    26 2006-04-22 03:48 [00m.dmrc[00m
+-rw-------   1 rebecca rebecca    16 2006-04-22 03:48 [00m.esd_auth[00m
+drwxr-xr-x   7 rebecca rebecca  4096 2006-04-24 19:44 [01;34m.evolution[00m
+-rw-r--r--   1 rebecca rebecca   630 2006-04-24 01:47 [00mfischer.L2.txt[00m
+-rw-r--r--   1 rebecca rebecca     0 2006-04-24 01:15 [00mfischer.L2.txt~[00m
+-rw-r--r--   1 rebecca rebecca  4096 2006-04-24 22:09 [00mfischer.L3.II.txt[00m
+-rw-r--r--   1 rebecca rebecca  4431 2006-04-22 15:22 [00m.fonts.cache-1[00m
+drwxr-xr-x   3 rebecca rebecca  4096 2006-04-22 16:07 [01;34m.fullcircle[00m
+drwx------   5 rebecca rebecca  4096 2006-04-24 21:59 [01;34m.gaim[00m
+drwx------   5 rebecca rebecca  4096 2006-04-24 21:14 [01;34m.gconf[00m
+drwx------   2 rebecca rebecca  4096 2006-04-24 22:05 [01;34m.gconfd[00m
+-rw-r-----   1 rebecca rebecca     0 2006-04-24 19:39 [00m.gksu.lock[00m
+drwxr-xr-x   3 rebecca rebecca  4096 2006-04-22 18:59 [01;34m.gnome[00m
+drwx------  10 rebecca rebecca  4096 2006-04-24 21:14 [01;34m.gnome2[00m
+drwx------   2 rebecca rebecca  4096 2006-04-22 03:48 [01;34m.gnome2_private[00m
+drwxr-xr-x   2 rebecca rebecca  4096 2006-04-22 03:48 [01;34m.gstreamer-0.8[00m
+-rw-r--r--   1 rebecca rebecca    89 2006-04-22 03:48 [00m.gtkrc-1.2-gnome2[00m
+-rw-r--r--   1 rebecca rebecca 15360 2006-04-24 09:07 [00mHWch2.doc[00m
+-rw-r--r--   1 rebecca rebecca   402 2006-04-24 09:07 [00mHWch2.txt[00m
+-rw-r--r--   1 rebecca rebecca 13824 2006-04-24 09:49 [00mHWch3.doc[00m
+-rw-r--r--   1 rebecca rebecca   691 2006-04-24 09:49 [00mHWch3.txt[00m
+-rw-------   1 rebecca rebecca   324 2006-04-24 21:32 [00m.ICEauthority[00m
+drwx------   3 rebecca rebecca  4096 2006-04-24 21:26 [01;34m.kde[00m
+drwxr-xr-x   4 rebecca rebecca  4096 2006-04-24 21:59 [01;34mletters[00m
+drwx------   3 rebecca rebecca  4096 2006-04-22 19:18 [01;34m.local[00m
+drwxr-xr-x   3 rebecca rebecca  4096 2006-04-24 21:26 [01;34m.mcop[00m
+-rw-------   1 rebecca rebecca    31 2006-04-24 21:26 [00m.mcoprc[00m
+-rw-r--r--   1 rebecca rebecca    12 2006-04-24 01:34 [00mmeeep.txt[00m
+-rw-r--r--   1 rebecca rebecca 12288 2006-04-24 01:35 [00m.meeep.txt.swp[00m
+drwx------   3 rebecca rebecca  4096 2006-04-22 03:48 [01;34m.metacity[00m
+drwx------   3 rebecca rebecca  4096 2006-04-22 03:49 [01;34m.mozilla[00m
+drwx------   3 rebecca rebecca  4096 2006-04-22 16:06 [01;34m.mozilla_backup[00m
+drwxr-xr-x   3 rebecca rebecca  4096 2006-04-22 03:48 [01;34m.nautilus[00m
+drwxr-xr-x   3 rebecca rebecca  4096 2006-04-23 20:37 [01;34m.openoffice[00m
+drwxr-xr-x   2 rebecca rebecca  4096 2006-04-24 21:26 [01;34m.qt[00m
+-rw-------   1 rebecca rebecca  4444 2006-04-24 19:38 [00m.recently-used[00m
+drwxr-xr-x   5 rebecca rebecca  4096 2006-04-24 22:03 [01;34mreports[00m
+-rw-r--r--   1 rebecca rebecca    72 2006-04-23 20:37 [00m.sversionrc[00m
+drwx------   4 rebecca rebecca  4096 2006-04-22 19:00 [01;34m.thumbnails[00m
+drwx------   3 rebecca rebecca  4096 2006-04-23 20:08 [01;34m.Trash[00m
+drwx------   2 rebecca rebecca  4096 2006-04-22 03:48 [01;34m.update-notifier[00m
+-rw-------   1 rebecca rebecca  5242 2006-04-24 22:09 [00m.viminfo[00m
+-rw-r--r--   1 rebecca rebecca     0 2006-04-24 01:44 [00m.viminfo.tmp[00m
+-rw-------   1 rebecca rebecca   118 2006-04-24 21:14 [00m.Xauthority[00m
+drwxr-xr-x   4 rebecca rebecca  4096 2006-04-22 19:17 [01;34m.xmms[00m
+-rw-r--r--   1 rebecca rebecca 11292 2006-04-22 16:41 [00m.xscreensaver[00m
+-rw-r--r--   1 rebecca rebecca 71751 2006-04-24 22:18 [00m.xsession-errors[00m
+[m]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cp assignments.[K/UNIX/hw4 assignmen ts/UNIX/hx4.bk
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ [Krebecca@rebecca:~$ [Krebecca@rebecca:~$ [Krebecca@rebecca:~$ [Krebecca@rebecca:~$ [Krebecca@rebecca:~$ [Krebecca@rebecca:~$ [Krebecca@rebecca:~$ [Krebecca@rebecca:~$ find assignments/UNIX/hw*
+assignments/UNIX/hw4
+assignments/UNIX/hw4.bk
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ pwd
+/home/rebecca
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cd assignments/UNIX
+]0;rebecca@rebecca: /home/rebecca/assignments/UNIXrebecca@rebecca:~/assignments/UNIX$ pwd
+/home/rebecca/assignments/UNIX
+]0;rebecca@rebecca: /home/rebecca/assignments/UNIXrebecca@rebecca:~/assignments/UNIX$ ln hw4 hw4HL
+]0;rebecca@rebecca: /home/rebecca/assignments/UNIXrebecca@rebecca:~/assignments/UNIX$ ln -s hw4 hw4SL
+]0;rebecca@rebecca: /home/rebecca/assignments/UNIXrebecca@rebecca:~/assignments/UNIX$ ls -i hw*
+[00m507760 [00mhw4[00m  507685 [00mhw4.bk[00m  507760 [00mhw4HL[00m  507561 [01;36mhw4SL[00m
+[m]0;rebecca@rebecca: /home/rebecca/assignments/UNIXrebecca@rebecca:~/assignments/UNIX$ ls -p hw*
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [01;36mhw4SL[00m@
+[m]0;rebecca@rebecca: /home/rebecca/assignments/UNIXrebecca@rebecca:~/assignments/UNIX$ exit
+
+Script done on Mon 24 Apr 2006 10:36:35 PM EDT

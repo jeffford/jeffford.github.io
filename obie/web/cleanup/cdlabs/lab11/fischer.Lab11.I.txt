@@ -1,0 +1,46 @@
+Script started on Fri 05 May 2006 08:49:46 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ exitsort -t' ' +1 -2 Ch11s1f1[4h[A-Z][4l[Student@localhost ~]$ sort -t'[A-Z] ' +1 -2 Ch11s1f1[10P +2 -3 Ch11s1f20 -1[Student@localhost ~]$ sort  +0 -1 Ch11s1f21 -2[Student@localhost ~]$ sort  +1 -2 Ch11s1f2[4h-t' '[4l[Student@localhost ~]$ sort -t' ' +1 -2 Ch11s1f21[4h[:space:[4l][Student@localhost ~]$ sort -t'[:space:]' +1 -2 Ch11s1f1blank[Student@localhost ~]$ sort -t'[:blank:]' +1 -2 Ch11s1f1[8P [Student@localhost ~]$ sort -t' ' +1 -2 Ch11s1f10s1f1d[Student@localhost ~]$ sort -d' ' +1 -2 Ch10s1f1[Student@localhost ~]$ [13Pcat Ch11s1f2sed 's/\(^[A-Za-z]*\)[ ]*\([ ][A-Za-z]*\)[ ]*\([0-9][0-9]\\)/\2, \1 \3/' Ch11s1f1 > Ch11s1f2[K[Acat Ch11s1f1[K
+[K[A[Student@localhost ~]$ cat Ch11s1f10s1f1[8Pexitsed 's/\(^[A-Za-z]*\)[ ]*\([ ][A-Za-z]*\)[ ]*\([0-9][0-9]\\)/\2, \1 \3/' Ch11s1f1\)/\2,[1P\)/\2,\1 \3/' Ch11s1f1[A[Student@localhost ~]$ sed 's/\(^[A-Za-z]*[ ]\)\([ ]*[A-Za-z]*[ ]\)[ ]*\([0-9][0-[4h9]\)[4l/\2, -9]\)/\2, \1 \3/' Ch11s1f1[A[Student@localhost ~]$ sed 's/\(^[A-Za-z]*[ ]\)\([ ]*[A-Za-z]*[ ]\)\([ ]*[0-9][0--9]\)/\2, \1 \3/' Ch11s1f1[A[Student@localhost ~]$ sed 's/\(^[A-Za-z]*[ ]\)\([ ]*[A-Za-z]*[ ]*\)\([ ]*[0-9][0[4h-[4l0-9]\)/\2, \1 \3/' Ch11s1f1[A[Student@localhost ~]$ sed 's/\(^[A-Za-z]*[ ]\)\([ ]*[A-Za-z]*[ ]\)\([ ]*[0-9][0-[1P-9]\)/\2, \1 \3/' Ch11s1f1[A[Student@localhost ~]$ sed 's/\(^[A-Za-z]*[ ]\)\([ ]*[A-Za-z]*[ ]*\)\([ ]*[0-9][0[4h-[4l0-9]\)/\2, \1 \3/' Ch11s1f1[A[Student@localhost ~]$ sed 's/\(^[A-Za-z]*[ ]\)\([ ]*[A-Za-z]*[ ]\)\([ ]*[0-9][0-[1P-9]\)/\2, \1 \3/' Ch11s1f1[A[Student@localhost ~]$ sed 's/\(^[A-Za-z]*[ ]\)\([ ]*[A-Za-z]*[ ]\)[ ]*\([0-9][0--9]\)/\2, \1 \3/' Ch11s1f1[A[Student@localhost ~]$ sed 's/\(^[A-Za-z]*\)[ ]*\([ ][A-Za-z]*\)[ ]*\([0-9][0-9]\[4P)/\2,\)/\2,\1 \3/' Ch11s1f1\)/\2,[4h [4l\)/\2, \1 \3/' Ch11s1f1[Aexit[K
+[K[A[Student@localhost ~]$ exitcat Ch10s1f1[1Ps1f11s1f1
+John Adams   55
+George Bull 77
+Anne Blue   99
+Janet   Blue   67
+Ben Benjamin       78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11s1f1[8Pexitsort -t' ' +1 -2 Ch11s1f1[4h[A-Z][4l[Student@localhost ~]$ sort -t'[A-Z] ' +1 -2 Ch11s1f1[10P +2 -3 Ch11s1f20 -1[Student@localhost ~]$ sort  +0 -1 Ch11s1f21 -2[Student@localhost ~]$ sort  +1 -2 Ch11s1f2[4h-t' '[4l[Student@localhost ~]$ sort -t' ' +1 -2 Ch11s1f21[4h[:space:[4l][Student@localhost ~]$ sort -t'[:space:]' +1 -2 Ch11s1f1blank[Student@localhost ~]$ sort -t'[:blank:]' +1 -2 Ch11s1f1[8P [Student@localhost ~]$ sort -t' ' +1 -2 Ch11s1f10s1f1d[Student@localhost ~]$ sort -d' ' +1 -2 Ch10s1f1[Student@localhost ~]$ [13Pcat Ch11s1f2sed 's/\(^[A-Za-z]*\)[ ]*\([ ][A-Za-z]*\)[ ]*\([0-9][0-9]\\)/\2, \1 \3/' Ch11s1f1 > Ch11s1f2
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\(^[A-Za-z]*\)[ ]*\([ ][A-Za-z]*\)[ ]*\([0-9][0-9]\\)/\2, \1 \3/' Ch11s1f1 > Ch11s1f2[Acat Ch11s1f1[K
+[K[A[Student@localhost ~]$ cat Ch11s1f1[8Pexitsort -t' ' +1 -2 Ch11s1f1[Student@localhost ~]$ sort -[Student@localhost ~]$ sort -t[Student@localhost ~]$ sort -t'[Student@localhost ~]$ sort -t' [Student@localhost ~]$ sort -t' '[Student@localhost ~]$ sort -t' ' [1P[1P[1P[1P[1P[1P[Student@localhost ~]$ sort [Student@localhost ~]$ sort +[Student@localhost ~]$ sort +1[1P[4h0[4l[Student@localhost ~]$ sort +0 [Student@localhost ~]$ sort +0 -[Student@localhost ~]$ sort +0 -2[1P Ch11s1f11 Ch11s1f1[Student@localhost ~]$ sort +0 -1  Ch11s1f1+ Ch11s1f12 Ch11s1f1[Student@localhost ~]$ sort +0 -1 +2  Ch11s1f1- Ch11s1f13 Ch11s1f1[Student@localhost ~]$ sort +0 -1 +2 -3  Ch11s1f1[1PCh11s1f1
+Anne Blue   99
+Ben Benjamin       78
+George Bull 77
+Janet   Blue   67
+John Adams   55
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -1 +2 -3 Ch11s1f1[K2
+ Adams, John 55
+ Benjamin, Ben 78
+ Blue, Janet 67
+ Blue, Anne 99
+ Bull, George 77
+ White, Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -1 +2 -3 Ch11s1f2 >temp
+]0;Student@localhost:~[Student@localhost ~]$ cp Ch11s1f2[K2tCh11s1f2eCh11s1f2mCh11s1f2pCh11s1f2 Ch11s1f2
+]0;Student@localhost:~[Student@localhost ~]$ cate[Kp temp Ch11s1f2sort +0 -1 +2 -3 Ch11s1f2 >temp[K1ed 's/\(^[A-Za-z]*\)[ ]*\([ ][A-Za-z]*\)[ ]*\([0-9][0-9]\\)/\2, \1 \3/' Ch11s1f1 > Ch11s1f2[Acat Ch11s1f1[K
+[K[A[Student@localhost ~]$ cat Ch11s1f1
+John Adams   55
+George Bull 77
+Anne Blue   99
+Janet   Blue   67
+Ben Benjamin       78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11s1f1[K2
+ Adams, John 55
+ Benjamin, Ben 78
+ Blue, Janet 67
+ Blue, Anne 99
+ Bull, George 77
+ White, Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Fri 05 May 2006 08:54:16 AM EDT

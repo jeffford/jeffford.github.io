@@ -1,0 +1,281 @@
+Script started on Tue 25 Apr 2006 08:06:54 AM EDT
+]0;student@localhost:~[student@localhost ~]$ groups
+Student
+]0;student@localhost:~[student@localhost ~]$ umask
+0022
+]0;student@localhost:~[student@localhost ~]$ mkdir garg[Kbage
+]0;student@localhost:~[student@localhost ~]$ ls -l
+[00mtotal 416
+drwxrwxr-x  3 student Student   4096 Apr 21 08:35 [00;34massignments[00m
+drwxr-xr-x  2 student Student   4096 Apr 24 17:30 [00;34mbackups[00m
+drwxr-xr-x  2 student Student   4096 Apr 24 17:51 [00;34mbusLetters[00m
+drwxr-xr-x  3 student Student   4096 Apr 24 17:51 [00;34mBusletters[00m
+drwx------  3 student Student   4096 Apr 25 07:48 [00;34mchapter_4[00m
+drwxr-xr-x  2 student Student   4096 Apr 24 16:25 [00;34mDesktop[00m
+drwxr-xr-x  2 student Student   4096 Apr 25 08:07 [00;34mgarbage[00m
+-rw-rw-r--  1 student Student    846 Apr 21 08:07 [00mgtysburgII.txt~[00m
+-rw-r--r--  1 student Student  12800 Apr 24 07:28 [00mHW 3-1.doc[00m
+-rw-rw-r--  1 student Student    777 Apr 24 06:02 [00mLab 2[00m
+-rw-rw-r--  1 student Student    765 Apr 21 08:23 [00mLab 2~[00m
+drwxrwxr-x  3 student Student   4096 Apr 24 17:40 [00;34mletters[00m
+drwxrwxr-x  5 student Student   4096 Apr 21 08:35 [00;34mreports[00m
+-rw-rw-r--  1 student Student   6255 Apr 21 08:54 [00mstevenson.2.II.txt[00m
+-rw-rw-r--  1 student Student   2313 Apr 21 08:42 [00mstevenson.2.I.txt[00m
+-rw-r--r--  1 student Student   6345 Apr 24 17:31 [00mStevenson.3.III.txt[00m
+-rw-r--r--  1 student Student 110248 Apr 24 17:14 [00mStevenson.3.IIRest.txt[00m
+-rw-r--r--  1 student Student   6255 Apr 24 16:29 [00mstevenson.3.II.txt[00m
+-rw-r--r--  1 student Student   2313 Apr 24 16:29 [00mstevenson.3.I.txt[00m
+-rw-r--r--  1 student Student   1719 Apr 24 17:54 [00mStevenson.3.IV11.txt[00m
+-rw-r--r--  1 student Student  16384 Apr 24 17:51 [00mStevenson.3.IV.txt[00m
+-rw-r--r--  1 student Student  12288 Apr 24 17:38 [00mStevenson.4.III.txt[00m
+-rw-r--r--  1 student Student      0 Apr 25 08:06 [00mStevenson.4.II.txt[00m
+-rw-r--r--  1 student Student  42285 Apr 25 08:06 [00mStevenson.4.I.txt[00m
+-rw-rw-r--  1 student Student   1542 Apr 21 08:13 [00mStevenson.gtysburgII.txt[00m
+-rw-rw-r--  1 student Student    479 Apr 21 08:02 [00mStevenson.gtysburg.txt[00m
+-rw-r--r--  1 student Student   4677 Apr 24 16:23 [00mStevenson.L1.txt[00m
+-rw-r--r--  1 student Student   3503 Apr 24 08:56 [00mStevenson.L1.txt~[00m
+[m]0;student@localhost:~[student@localhost ~]$ umask 113
+]0;student@localhost:~[student@localhost ~]$ umask
+0113
+]0;student@localhost:~[student@localhost ~]$ ls -l
+[00mtotal 416
+drwxrwxr-x  3 student Student   4096 Apr 21 08:35 [00;34massignments[00m
+drwxr-xr-x  2 student Student   4096 Apr 24 17:30 [00;34mbackups[00m
+drwxr-xr-x  2 student Student   4096 Apr 24 17:51 [00;34mbusLetters[00m
+drwxr-xr-x  3 student Student   4096 Apr 24 17:51 [00;34mBusletters[00m
+drwx------  3 student Student   4096 Apr 25 07:48 [00;34mchapter_4[00m
+drwxr-xr-x  2 student Student   4096 Apr 24 16:25 [00;34mDesktop[00m
+drwxr-xr-x  2 student Student   4096 Apr 25 08:07 [00;34mgarbage[00m
+-rw-rw-r--  1 student Student    846 Apr 21 08:07 [00mgtysburgII.txt~[00m
+-rw-r--r--  1 student Student  12800 Apr 24 07:28 [00mHW 3-1.doc[00m
+-rw-rw-r--  1 student Student    777 Apr 24 06:02 [00mLab 2[00m
+-rw-rw-r--  1 student Student    765 Apr 21 08:23 [00mLab 2~[00m
+drwxrwxr-x  3 student Student   4096 Apr 24 17:40 [00;34mletters[00m
+drwxrwxr-x  5 student Student   4096 Apr 21 08:35 [00;34mreports[00m
+-rw-rw-r--  1 student Student   6255 Apr 21 08:54 [00mstevenson.2.II.txt[00m
+-rw-rw-r--  1 student Student   2313 Apr 21 08:42 [00mstevenson.2.I.txt[00m
+-rw-r--r--  1 student Student   6345 Apr 24 17:31 [00mStevenson.3.III.txt[00m
+-rw-r--r--  1 student Student 110248 Apr 24 17:14 [00mStevenson.3.IIRest.txt[00m
+-rw-r--r--  1 student Student   6255 Apr 24 16:29 [00mstevenson.3.II.txt[00m
+-rw-r--r--  1 student Student   2313 Apr 24 16:29 [00mstevenson.3.I.txt[00m
+-rw-r--r--  1 student Student   1719 Apr 24 17:54 [00mStevenson.3.IV11.txt[00m
+-rw-r--r--  1 student Student  16384 Apr 24 17:51 [00mStevenson.3.IV.txt[00m
+-rw-r--r--  1 student Student  12288 Apr 24 17:38 [00mStevenson.4.III.txt[00m
+-rw-r--r--  1 student Student      0 Apr 25 08:06 [00mStevenson.4.II.txt[00m
+-rw-r--r--  1 student Student  42285 Apr 25 08:06 [00mStevenson.4.I.txt[00m
+-rw-rw-r--  1 student Student   1542 Apr 21 08:13 [00mStevenson.gtysburgII.txt[00m
+-rw-rw-r--  1 student Student    479 Apr 21 08:02 [00mStevenson.gtysburg.txt[00m
+-rw-r--r--  1 student Student   4677 Apr 24 16:23 [00mStevenson.L1.txt[00m
+-rw-r--r--  1 student Student   3503 Apr 24 08:56 [00mStevenson.L1.txt~[00m
+[m]0;student@localhost:~[student@localhost ~]$ vi Stev[K[K[K[KStevenson.Lab4[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K Stevenson.Lb[Kab4.txt
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Stevenson.Lab4.txt" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;student@localhost:~[student@localhost ~]$ cd garbage
+]0;student@localhost:~/garbage[student@localhost garbage]$ umask
+0113
+]0;student@localhost:~/garbage[student@localhost garbage]$ umask 022
+]0;student@localhost:~/garbage[student@localhost garbage]$ umask
+0022
+]0;student@localhost:~/garbage[student@localhost garbage]$ u[Kcd~
+bash: cd~: command not found
+]0;student@localhost:~/garbage[student@localhost garbage]$ cd ~
+]0;student@localhost:~[student@localhost ~]$ ua[Kmask
+0022
+]0;student@localhost:~[student@localhost ~]$ u[Kumask 133
+]0;student@localhost:~[student@localhost ~]$ umask 112[K3
+]0;student@localhost:~[student@localhost ~]$ rmdir [K[K[K[K garbage
+rm: cannot remove `garbage': Is a directory
+]0;student@localhost:~[student@localhost ~]$ rmdir garbage
+]0;student@localhost:~[student@localhost ~]$ mkdir see[Kssion_2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir chapter_4/session_II
+]0;student@localhost:~[student@localhost ~]$ l[Kcd chapter_4/session_II
+bash: cd: chapter_4/session_II: Permission denied
+]0;student@localhost:~[student@localhost ~]$ umask
+0113
+]0;student@localhost:~[student@localhost ~]$ cd chapter_4
+]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ ls -;[Kl
+[00mtotal 16
+drwx------  2 student Student 4096 Apr 25 08:06 [00;34msession_I[00m
+drw-rw-r--  2 student Student 4096 Apr 25 08:18 [00;34msession_II[00m
+[m]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ cd session_II
+bash: cd: session_II: Permission denied
+]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ umask 71~[K[K[K013
+]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ ls -l
+[00mtotal 16
+drwx------  2 student Student 4096 Apr 25 08:06 [00;34msession_I[00m
+drw-rw-r--  2 student Student 4096 Apr 25 08:18 [00;34msession_II[00m
+[m]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ cd session_II
+bash: cd: session_II: Permission denied
+]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ umsa[K[Kask
+0013
+]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ /[Kcd ~
+]0;student@localhost:~[student@localhost ~]$ ua[Kmask 013
+]0;student@localhost:~[student@localhost ~]$ s[Kcd se[K[Kchapter_4/session_II
+bash: cd: chapter_4/session_II: Permission denied
+]0;student@localhost:~[student@localhost ~]$ cd chapter_[K[K[K[K[K[K[K[K[K[K[Kumask 113
+]0;student@localhost:~[student@localhost ~]$ cd chapter_4
+]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ chown [K[K[K[K[K[Kman chown
+[?1049h[?1h=[24;1H[KCHOWN(1)                         User Commands                        CHOWN(1)
+
+[1mNAME[0m
+       chown - change file owner and group
+
+[1mSYNOPSIS[0m
+       [1mchown[0m [[4mOPTION[24m]... [4mOWNER[24m[[4m:[24m[[4mGROUP[24m]] [4mFILE[24m...
+       [1mchown[0m [[4mOPTION[24m]... [4m:GROUP[24m [4mFILE[24m...
+       [1mchown[0m [[4mOPTION[24m]... [4m--reference=RFILE[24m [4mFILE[24m...
+
+[1mDESCRIPTION[0m
+       This manual page documents the GNU version of [1mchown[0m.  [1mchown[0m changes the
+       user and/or group ownership of each given file, according to its  first
+       non-option  argument,  which is interpreted as follows.  If only a user
+       name (or numeric user ID) is given, that user is made the owner of each
+       given  file,  and the files’ group is not changed.  If the user name is
+       followed by a colon or dot and a group name (or numeric group ID), with
+       no  spaces between them, the group ownership of the files is changed as
+       well.  If a colon or dot but no group name follows the user name,  that
+       user  is  made  the  owner  of  the files and the group of the files is
+       changed to that user’s login group.  If the colon or dot and group  are
+       given,  but  the  user  name is omitted, only the group of the files is
+       changed; in this case, [1mchown[0m performs the same function as [1mchgrp[0m.
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K[1mOPTIONS[0m
+[24;1H[K:[24;1H[24;1H[K       Change the owner and/or group of each FILE to OWNER and/or GROUP.  With
+[24;1H[K:[24;1H[24;1H[K       [1m--reference[0m, change the owner and group of each FILE to those of RFILE.
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m-c[0m, [1m--changes[0m
+[24;1H[K:[24;1H[24;1H[K              like verbose but report only when a change is made
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m--dereference[0m
+[24;1H[K:[24;1H[24;1H[K              affect the referent of each symbolic link, rather than the  sym-
+[24;1H[K:[24;1H[24;1H[K              bolic link itself (this is the default)
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m-h[0m, [1m--no-dereference[0m
+[24;1H[K:[24;1H[24;1H[K              affect each symbolic link instead of any referenced file (useful
+[24;1H[K:[24;1H[24;1H[K              only on systems that can change the ownership of a symlink)
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m--from[0m=[4mCURRENT_OWNER[24m:CURRENT_GROUP
+[24;1H[K:[24;1H[24;1H[K              change the owner and/or group of each file only if  its  current
+[24;1H[K:[24;1H[24;1H[K              owner  and/or  group  match those specified here.  Either may be
+[24;1H[K:[24;1H[24;1H[K              omitted, in which case a match is not required for  the  omitted
+[24;1H[K:[24;1H[24;1H[K              attribute.
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m--no-preserve-root[0m do not treat ‘/’ specially (the default)
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m--preserve-root[0m
+[24;1H[K:[24;1H[24;1H[K              fail to operate recursively on ‘/’
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m-f[0m, [1m--silent[0m, [1m--quiet[0m
+[24;1H[K:[24;1H[24;1H[K              suppress most error messages
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m--reference[0m=[4mRFILE[24m
+[24;1H[K:[24;1H[24;1H[K              use   RFILE’s   owner  and  group  rather  than  the  specifying
+[24;1H[K:[24;1H[24;1H[K              OWNER:GROUP values
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m-R[0m, [1m--recursive[0m
+[24;1H[K:[24;1H[24;1H[K              operate on files and directories recursively
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m-v[0m, [1m--verbose[0m
+[24;1H[K:[24;1H[24;1H[K              output a diagnostic for every file processed
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       The following options modify how a hierarchy is traversed when  the  [1m-R[0m
+[24;1H[K:[24;1H[24;1H[K       option  is  also  specified.   If  more than one is specified, only the
+[24;1H[K:[24;1H[24;1H[K       final one takes effect.
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m-H[0m     if a command line argument is a symbolic link  to  a  directory,
+[24;1H[K:[24;1H[24;1H[K              traverse it
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m-L[0m     traverse every symbolic link to a directory encountered
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m-P[0m     do not traverse any symbolic links (default)
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K:[24;1H[24;1H[K              output version information and exit
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       Owner  is  unchanged  if  missing.   Group is unchanged if missing, but
+[24;1H[K:[24;1H[24;1H[K       changed to login group if implied by a ‘:’.  OWNER  and  GROUP  may  be
+[24;1H[K:[24;1H[24;1H[K       numeric as well as symbolic.
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K[1mAUTHOR[0m
+[24;1H[K:[24;1H[24;1H[K       Written by David MacKenzie and Jim Meyering.
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K[1mREPORTING[0m [1mBUGS[0m
+[24;1H[K:[24;1H[24;1H[K       Report bugs to <bug-coreutils@gnu.org>.
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K[1mCOPYRIGHT[0m
+[24;1H[K:[24;1H[24;1H[K       Copyright © 2004 Free Software Foundation, Inc.
+[24;1H[K:[24;1H[24;1H[K       This is free software; see the source for copying conditions.  There is
+[24;1H[K:[24;1H[24;1H[K       NO warranty; not even for MERCHANTABILITY or FITNESS FOR  A  PARTICULAR
+[24;1H[K:[24;1H[24;1H[K       PURPOSE.
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K[1mSEE[0m [1mALSO[0m
+[24;1H[K:[24;1H[24;1H[K       The full documentation for [1mchown[0m is maintained as a Texinfo manual.  If
+[24;1H[K:[24;1H[24;1H[K       the [1minfo[0m and [1mchown[0m programs are properly installed at  your  site,  the
+[24;1H[K:[24;1H[24;1H[K       command
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K              [1minfo[0m [1mcoreutils[0m [1mchown[0m
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[K       should give you access to the complete manual.
+[24;1H[K:[24;1H[24;1H[K
+[24;1H[K:[24;1H[24;1H[Kchown (coreutils) 5.2.1            May 2005                           CHOWN(1)
+[24;1H[K:[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[K^J^J[24;1H[K[7m(END) [27m[24;1H[K[?1l>[?1049l]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ chown student
+chown: too few arguments
+Try `chown --help' for more information.
+]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ chown -[Kstudent [K:gfoups[K[K[K[K[Krpu[K[Koup
+chown: too few arguments
+Try `chown --help' for more information.
+]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ st[K[Kchown --help
+Usage: chown [OPTION]... OWNER[:[GROUP]] FILE...
+  or:  chown [OPTION]... :GROUP FILE...
+  or:  chown [OPTION]... --reference=RFILE FILE...
+Change the owner and/or group of each FILE to OWNER and/or GROUP.
+With --reference, change the owner and group of each FILE to those of RFILE.
+
+  -c, --changes          like verbose but report only when a change is made
+      --dereference      affect the referent of each symbolic link, rather
+                         than the symbolic link itself (this is the default)
+  -h, --no-dereference   affect each symbolic link instead of any referenced
+                         file (useful only on systems that can change the
+                         ownership of a symlink)
+      --from=CURRENT_OWNER:CURRENT_GROUP
+                         change the owner and/or group of each file only if
+                         its current owner and/or group match those specified
+                         here.  Either may be omitted, in which case a match
+                         is not required for the omitted attribute.
+      --no-preserve-root do not treat `/' specially (the default)
+      --preserve-root    fail to operate recursively on `/'
+  -f, --silent, --quiet  suppress most error messages
+      --reference=RFILE  use RFILE's owner and group rather than
+                         the specifying OWNER:GROUP values
+  -R, --recursive        operate on files and directories recursively
+  -v, --verbose          output a diagnostic for every file processed
+
+The following options modify how a hierarchy is traversed when the -R
+option is also specified.  If more than one is specified, only the final
+one takes effect.
+
+  -H                     if a command line argument is a symbolic link
+                         to a directory, traverse it
+  -L                     traverse every symbolic link to a directory
+                         encountered
+  -P                     do not traverse any symbolic links (default)
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+Owner is unchanged if missing.  Group is unchanged if missing, but changed
+to login group if implied by a `:'.  OWNER and GROUP may be numeric as well
+as symbolic.
+
+Report bugs to <bug-coreutils@gnu.org>.
+]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ chown --help[Kchown [K[K[K[Kmod 013 session_II
+]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ cd session_ii[K[K[K[K[K[K[K[K[K[K[K[K[Kcd session_OO[K[KII
+bash: cd: session_II: Permission denied
+]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ ls -l
+[00mtotal 16
+drwx------  2 student Student 4096 Apr 25 08:06 [00;34msession_I[00m
+d-----x-wx  2 student Student 4096 Apr 25 08:18 [00;34msession_II[00m
+[m]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ chmon[Kd 764 session_II
+]0;student@localhost:~/chapter_4[student@localhost chapter_4]$ cd session_II
+]0;student@localhost:~/chapter_4/session_II[student@localhost session_II]$ exit
+
+Script done on Tue 25 Apr 2006 08:37:31 AM EDT

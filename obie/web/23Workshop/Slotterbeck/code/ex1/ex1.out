@@ -1,0 +1,23 @@
+-- Pass 2 (020505) e option  --
+INPUT VALUES FOR BI:
+A blank line terminates input
+AA,BB,CC,
+Dump iput:  
+DUMP OF ASSOCIATION BI FOLLOWS:
+ AA,BB,CC,
+   1    17     0  
+   2    13     0  
+   2     8     1  
+   3    11     1  
+   2     9     0  
+   4    67     0  
+summ= 21
+DUMP OF ASSOCIATION BI FOLLOWS:
+ AA,BB,CC,
+   1    17     0  
+  13    13     0  
+  21     8     1  
+   3    11     1  
+   5     9     0  
+   4    67     0  
+STOP quadruple detected. 

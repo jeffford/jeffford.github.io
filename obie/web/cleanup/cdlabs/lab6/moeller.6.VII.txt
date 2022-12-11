@@ -1,0 +1,461 @@
+Script started on Sun 30 Apr 2006 09:07:15 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cp  [Ketc[K[K[K/etc/passwe[Kd Ch6S7F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F1
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+poganysj:x:501:501:S Pogany:/home/poganysj:/bin/bash
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,3 -d":" Ch6S7F2
+root:0
+bin:1
+daemon:2
+adm:3
+lp:4
+sync:5
+shutdown:6
+halt:7
+mail:8
+news:9
+uucp:10
+operator:11
+games:12
+gopher:13
+ftp:14
+nobody:99
+dbus:81
+vcsa:69
+rpm:37
+haldaemon:68
+pcap:77
+nscd:28
+named:25
+netdump:34
+sshd:74
+rpc:32
+mailnull:47
+smmsp:51
+rpcuser:29
+nfsnobody:65534
+xfs:43
+ntp:38
+gdm:42
+Student:500
+poganysj:501
+apache:48
+mysql:27
+[Student@localhost ~]$ sort Ch6S7F2
+adm:3
+apache:48
+bin:1
+daemon:2
+dbus:81
+ftp:14
+games:12
+gdm:42
+gopher:13
+haldaemon:68
+halt:7
+lp:4
+mailnull:47
+mail:8
+mysql:27
+named:25
+netdump:34
+news:9
+nfsnobody:65534
+nobody:99
+nscd:28
+ntp:38
+operator:11
+pcap:77
+poganysj:501
+root:0
+rpcuser:29
+rpc:32
+rpm:37
+shutdown:6
+smmsp:51
+sshd:74
+Student:500
+sync:5
+uucp:10
+vcsa:69
+xfs:43
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F1[K2
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+poganysj:x:501:501:S Pogany:/home/poganysj:/bin/bash
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+[Student@localhost ~]$ sort Ch6S7F2
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+halt:x:7:0:halt:/sbin:/sbin/halt
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+news:x:9:13:news:/etc/news:
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+poganysj:x:501:501:S Pogany:/home/poganysj:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+sync:x:5:0:sync:/sbin:/bin/sync
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+]0;Student@localhost:~[Student@localhost ~]$ cut -f [K1,3 -d":" Ch6S7F1 >?[K Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ d[Kcat Ch6S7F2
+root:0
+bin:1
+daemon:2
+adm:3
+lp:4
+sync:5
+shutdown:6
+halt:7
+mail:8
+news:9
+uucp:10
+operator:11
+games:12
+gopher:13
+ftp:14
+nobody:99
+dbus:81
+vcsa:69
+rpm:37
+haldaemon:68
+pcap:77
+nscd:28
+named:25
+netdump:34
+sshd:74
+rpc:32
+mailnull:47
+smmsp:51
+rpcuser:29
+nfsnobody:65534
+xfs:43
+ntp:38
+gdm:42
+Student:500
+poganysj:501
+apache:48
+mysql:27
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S7F2 > Ch6S7F2.temp
+]0;Student@localhost:~[Student@localhost ~]$ mv Ch6S7F2.temp Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F2
+adm:3
+apache:48
+bin:1
+daemon:2
+dbus:81
+ftp:14
+games:12
+gdm:42
+gopher:13
+haldaemon:68
+halt:7
+lp:4
+mail:8
+mailnull:47
+mysql:27
+named:25
+netdump:34
+news:9
+nfsnobody:65534
+nobody:99
+nscd:28
+ntp:38
+operator:11
+pcap:77
+poganysj:501
+root:0
+rpc:32
+rpcuser:29
+rpm:37
+shutdown:6
+smmsp:51
+sshd:74
+Student:500
+sync:5
+uucp:10
+vcsa:69
+xfs:43
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,2 -d:[K";[K:" Ch6S7F2 | Pa[K[Kpaste -d [K"\t" > Ch6S7F2.temp
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F2.temp[Kp
+adm:3
+apache:48
+bin:1
+daemon:2
+dbus:81
+ftp:14
+games:12
+gdm:42
+gopher:13
+haldaemon:68
+halt:7
+lp:4
+mail:8
+mailnull:47
+mysql:27
+named:25
+netdump:34
+news:9
+nfsnobody:65534
+nobody:99
+nscd:28
+ntp:38
+operator:11
+pcap:77
+poganysj:501
+root:0
+rpc:32
+rpcuser:29
+rpm:37
+shutdown:6
+smmsp:51
+sshd:74
+Student:500
+sync:5
+uucp:10
+vcsa:69
+xfs:43
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F2.temp[4hut -f1,2 -d":" Ch6S7F2 | paste -d"\t"[4l >[Student@localhost ~]$ cut -f1,2 -d":" Ch6S7F2 | paste -d"\t" > Ch6S7F2.temp[Student@localhost ~]$ cut -f1,[1P[Student@localhost ~]$ cut -f12[1P[Student@localhost ~]$ cut -f1 [Student@localhost ~]$ cut -f1 -[Student@localhost ~]$ cut -f1 -d[Student@localhost ~]$ cut -f1 -d"[Student@localhost ~]$ cut -f1 -d":[Student@localhost ~]$ cut -f1 -d":"[Student@localhost ~]$ cut -f1 -d":" [Student@localhost ~]$ cut -f1 -d":" C[Student@localhost ~]$ cut -f1 -d":" Ch[Student@localhost ~]$ cut -f1 -d":" Ch6[Student@localhost ~]$ cut -f1 -d":" Ch6S[Student@localhost ~]$ cut -f1 -d":" Ch6S7[Student@localhost ~]$ cut -f1 -d":" Ch6S7F[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 [Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 |[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | [Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | p[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | pa[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | pas[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | past[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste [Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t"[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" [Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" >[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > [Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > C[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > Ch[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > Ch6[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > Ch6S[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > Ch6S7[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > Ch6S7F[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > Ch6S7F2[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > Ch6S7F2.[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > Ch6S7F2.t[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > Ch6S7F2.te[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > Ch6S7F2.tem[Student@localhost ~]$ cut -f1 -d":" Ch6S7F2 | paste -d"\t" > Ch6S7F2.temp1
+]0;Student@localhost:~[Student@localhost ~]$ ca[K[Kcut -f2 -d":[K[K":" Ch6s[KS7F2 | paste -d"\t" > Cht[K6S7F2.temp2
+]0;Student@localhost:~[Student@localhost ~]$ ca [K[K[Kpat[Kste Cht[K6S7F2.temp1 Ch6S7F2.temp2 > Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F2
+adm	3
+apache	48
+bin	1
+daemon	2
+dbus	81
+ftp	14
+games	12
+gdm	42
+gopher	13
+haldaemon	68
+halt	7
+lp	4
+mail	8
+mailnull	47
+mysql	27
+named	25
+netdump	34
+news	9
+nfsnobody	65534
+nobody	99
+nscd	28
+ntp	38
+operator	11
+pcap	77
+poganysj	501
+root	0
+rpc	32
+rpcuser	29
+rpm	37
+shutdown	6
+smmsp	51
+sshd	74
+Student	500
+sync	5
+uucp	10
+vcsa	69
+xfs	43
+]0;Student@localhost:~[Student@localhost ~]$ cut -[K[K[K[K[Khead -25 Ch6S7F2 > tm[Kemp
+]0;Student@localhost:~[Student@localhost ~]$ head -13 temp > one
+]0;Student@localhost:~[Student@localhost ~]$ head[K[K[K[Ktail -12 temp ? [K[K> tow[K[Kwo
+]0;Student@localhost:~[Student@localhost ~]$ tail -12 Ch6S7F2 > three
+]0;Student@localhost:~[Student@localhost ~]$ paste C[Kone two three > Cht[K6S7F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Cht[K6S7F3
+adm	3	mailnull	47	root	0
+apache	48	mysql	27	rpc	32
+bin	1	named	25	rpcuser	29
+daemon	2	netdump	34	rpm	37
+dbus	81	news	9	shutdown	6
+ftp	14	nfsnobody	65534	smmsp	51
+games	12	nobody	99	sshd	74
+gdm	42	nscd	28	Student	500
+gopher	13	ntp	38	sync	5
+haldaemon	68	operator	11	uucp	10
+halt	7	pcap	77	vcsa	69
+lp	4	poganysj	501	xfs	43
+mail	8		
+]0;Student@localhost:~[Student@localhost ~]$ cte[K[Kat Ch6S7F1 Ch6s[KS7F2 Ch6S7F3
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+poganysj:x:501:501:S Pogany:/home/poganysj:/bin/bash
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+adm	3
+apache	48
+bin	1
+daemon	2
+dbus	81
+ftp	14
+games	12
+gdm	42
+gopher	13
+haldaemon	68
+halt	7
+lp	4
+mail	8
+mailnull	47
+mysql	27
+named	25
+netdump	34
+news	9
+nfsnobody	65534
+nobody	99
+nscd	28
+ntp	38
+operator	11
+pcap	77
+poganysj	501
+root	0
+rpc	32
+rpcuser	29
+rpm	37
+shutdown	6
+smmsp	51
+sshd	74
+Student	500
+sync	5
+uucp	10
+vcsa	69
+xfs	43
+adm	3	mailnull	47	root	0
+apache	48	mysql	27	rpc	32
+bin	1	named	25	rpcuser	29
+daemon	2	netdump	34	rpm	37
+dbus	81	news	9	shutdown	6
+ftp	14	nfsnobody	65534	smmsp	51
+games	12	nobody	99	sshd	74
+gdm	42	nscd	28	Student	500
+gopher	13	ntp	38	sync	5
+haldaemon	68	operator	11	uucp	10
+halt	7	pcap	77	vcsa	69
+lp	4	poganysj	501	xfs	43
+mail	8		
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Sun 30 Apr 2006 09:47:52 PM EDT

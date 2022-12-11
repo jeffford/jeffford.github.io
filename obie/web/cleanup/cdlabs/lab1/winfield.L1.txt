@@ -1,0 +1,48 @@
+Andrew Winfield
+Chapter 1
+
+L.1.4) Bash
+L.1.5) Student@localhost
+L.1.6) No
+L.2.2) No, Same
+L.2.3) format and displays the online manual pages
+L.2.4) show who is logged on to the System
+L.2.5) print the effective userid
+L.2.6) print or set the system date and time
+L.2.7) used to update the user’s authentication tokens: changes the password
+L.3.3) Yes, terminal 0
+L.3.4) –q	prints names of users on and number of users
+	-b	does nothing
+	-s	same as just using who
+L.4.2) Thu. Apr 20 08:36:46 EDT 2006
+L.4.3) Thu. Apr 20 12:38:09 UTC 2006
+L.4.4) There is a 4 hour difference, local time is behind
+L.4.5) description is already on p16
+L.4.6.a) prints “This is the date”
+L.4.6.b) prints “This is the date (current month)”
+L.4.7.a) date “+%D”
+L.4.7.b) date “+%A, %B %d, %j”
+L.4.7.c) date “+%A %D”
+L.4.8.a) date “+Day: %A”
+L.4.8.b) date “+Month: %B”
+L.4.8.c) date “+Year: %j”
+L.4.9.a) date “+%r”
+L.4.9.b) date “+%R %p”
+L.4.9.c) date “+%H”
+L.4.10.a) date “+Hours: %H”
+L.4.10.b) date “+Hours: %H Minuets: %M”
+L.4.10.c) date “+Hours: %H Minuets: %M Seconds: %S”
+L.5.2) Yes
+L.5.3) cal
+L.5.4) cal 6 2232
+L.5.5) Saturday
+L.5.6) Yes it was
+L.5.7) No, it was not
+L.5.8) They are completely different
+L.5.9) The Gregorian Reformation
+L.5.10) using man cal we were able to find a fact about 1752
+L.6.2) learn does not exist
+L.6.3) help is useful to find out facts about different commands
+L.6.4) finger can be useful to an administrator but a user it is not really 
+important
+

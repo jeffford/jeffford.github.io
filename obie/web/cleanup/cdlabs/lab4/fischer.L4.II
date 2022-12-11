@@ -1,0 +1,72 @@
+Script started on Wed 26 Apr 2006 09:41:13 PM EDT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ groups
+rebecca adm dialout cdrom floppy audio dip video plugdev lpadmin scanner admin
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ mkdir garbage
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ ls -l
+[00mtotal 148
+drwxr-xr-x  3 rebecca rebecca  4096 2006-04-24 22:04 [01;34massignments[00m
+drwxr-xr-x  2 rebecca rebecca  4096 2006-04-24 23:53 [01;34mbackups[00m
+drwxr-xr-x  3 rebecca rebecca  4096 2006-04-24 23:42 [01;34mbusLetters[00m
+drwx------  3 rebecca rebecca  4096 2006-04-26 21:36 [01;34mchaper_4[00m
+drwxr-xr-x  2 rebecca rebecca  4096 2006-04-25 00:11 [01;34mDesktop[00m
+-rw-r--r--  1 rebecca rebecca  5616 2006-04-25 00:05 [00mfischer.3.III.txt[00m
+-rw-r--r--  1 rebecca rebecca 13507 2006-04-24 23:42 [00mfischer.4.VI.txt[00m
+-rw-r--r--  1 rebecca rebecca   630 2006-04-24 01:47 [00mfischer.L2.txt[00m
+-rw-r--r--  1 rebecca rebecca     0 2006-04-24 01:15 [00mfischer.L2.txt~[00m
+-rw-r--r--  1 rebecca rebecca     0 2006-04-26 21:41 [00mfischer.L4.II[00m
+-rw-r--r--  1 rebecca rebecca 10273 2006-04-26 21:38 [00mfischer.L4.I.txt[00m
+drwxr-xr-x  2 rebecca rebecca  4096 2006-04-26 21:41 [01;34mgarbage[00m
+-rw-r--r--  1 rebecca rebecca 15360 2006-04-24 09:07 [00mHWch2.doc[00m
+-rw-r--r--  1 rebecca rebecca   402 2006-04-24 09:07 [00mHWch2.txt[00m
+-rw-r--r--  1 rebecca rebecca 13824 2006-04-24 09:49 [00mHWch3.doc[00m
+-rw-r--r--  1 rebecca rebecca   691 2006-04-24 09:49 [00mHWch3.txt[00m
+-rw-r--r--  1 rebecca rebecca 14336 2006-04-25 09:43 [00mHWch4.doc[00m
+-rw-r--r--  1 rebecca rebecca 12800 2006-04-25 09:41 [00mHWch5.doc[00m
+drwxr-xr-x  3 rebecca rebecca  4096 2006-04-24 23:42 [01;34mletters[00m
+-rw-r--r--  1 rebecca rebecca    12 2006-04-24 01:34 [00mmeeep.txt[00m
+drwxr-xr-x  5 rebecca rebecca  4096 2006-04-24 22:03 [01;34mreports[00m
+[m]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ umask 113
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ ls -l
+[00mtotal 148
+drwxr-xr-x  3 rebecca rebecca  4096 2006-04-24 22:04 [01;34massignments[00m
+drwxr-xr-x  2 rebecca rebecca  4096 2006-04-24 23:53 [01;34mbackups[00m
+drwxr-xr-x  3 rebecca rebecca  4096 2006-04-24 23:42 [01;34mbusLetters[00m
+drwx------  3 rebecca rebecca  4096 2006-04-26 21:36 [01;34mchaper_4[00m
+drwxr-xr-x  2 rebecca rebecca  4096 2006-04-25 00:11 [01;34mDesktop[00m
+-rw-r--r--  1 rebecca rebecca  5616 2006-04-25 00:05 [00mfischer.3.III.txt[00m
+-rw-r--r--  1 rebecca rebecca 13507 2006-04-24 23:42 [00mfischer.4.VI.txt[00m
+-rw-r--r--  1 rebecca rebecca   630 2006-04-24 01:47 [00mfischer.L2.txt[00m
+-rw-r--r--  1 rebecca rebecca     0 2006-04-24 01:15 [00mfischer.L2.txt~[00m
+-rw-r--r--  1 rebecca rebecca     0 2006-04-26 21:41 [00mfischer.L4.II[00m
+-rw-r--r--  1 rebecca rebecca 10273 2006-04-26 21:38 [00mfischer.L4.I.txt[00m
+drwxr-xr-x  2 rebecca rebecca  4096 2006-04-26 21:41 [01;34mgarbage[00m
+-rw-r--r--  1 rebecca rebecca 15360 2006-04-24 09:07 [00mHWch2.doc[00m
+-rw-r--r--  1 rebecca rebecca   402 2006-04-24 09:07 [00mHWch2.txt[00m
+-rw-r--r--  1 rebecca rebecca 13824 2006-04-24 09:49 [00mHWch3.doc[00m
+-rw-r--r--  1 rebecca rebecca   691 2006-04-24 09:49 [00mHWch3.txt[00m
+-rw-r--r--  1 rebecca rebecca 14336 2006-04-25 09:43 [00mHWch4.doc[00m
+-rw-r--r--  1 rebecca rebecca 12800 2006-04-25 09:41 [00mHWch5.doc[00m
+drwxr-xr-x  3 rebecca rebecca  4096 2006-04-24 23:42 [01;34mletters[00m
+-rw-r--r--  1 rebecca rebecca    12 2006-04-24 01:34 [00mmeeep.txt[00m
+drwxr-xr-x  5 rebecca rebecca  4096 2006-04-24 22:03 [01;34mreports[00m
+[m]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ rmdir garbage
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ mkdir s[Kchaper_4/session_2
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ ls -l chaper_4
+[00mtotal 8
+drwx------  2 rebecca rebecca 4096 2006-04-26 21:38 [01;34msession_1[00m
+drw-rw-r--  2 rebecca rebecca 4096 2006-04-26 21:45 [01;34msession_2[00m
+[m]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ chmode [K[K -u[K[Ku-x
+chmod: too few arguments
+Try `chmod --help' for more information.
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ chmod chmod u-x session_2
+chmod: invalid mode string: `chmod'
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cho[Kmod u-x ses[K[K[Kchaper_34[K[K43[K/session_2
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cd cd chaper_4/session_2
+bash: cd: cd: No such file or directory
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cd chaper_4/session_[K3[K_2
+bash: cd: chaper_4/session_2: Permission denied
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cd chaper_4/session_2d chaper_4/session_2rebecca@rebecca:~$ c[4@hmod u-xrebecca@rebecca:~$ chmod u-x chaper_4/session_2rebecca@rebecca:~$ chmod u-[1P[1@+
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cd chaper_4/session_2
+]0;rebecca@rebecca: /home/rebecca/chaper_4/session_2rebecca@rebecca:~/chaper_4/session_2$ exit
+
+Script done on Wed 26 Apr 2006 09:49:44 PM EDT

@@ -1,0 +1,99 @@
+Script started on Tue 25 Apr 2006 04:27:05 PM EDT
+]0;student@localhost:~[student@localhost ~]$ \[Kecho \#6 S[KI am[K[Kmade a mistake in my [K original script f[Ks[Kfor sessi on VI[A[student@localhost ~]$ [36Pscript Vasko.5.VI.txt
+[K[A[student@localhost ~]$ script Vasko.5.VI.txtecho \#6 I made a mistake in my original script for sessioon VI[A[student@localhost ~]$ echo \#6 I made a mistake in my original script for sess I made a mistake in my original script for session[1P VI[A[student@localhost ~]$ echo \#1 I made a mistake in my original script for session VI[A[student@localhost ~]$ echo \#10 I made a mistake in my original script for sessi[1@o[A[student@localhost ~]$ echo \#10[student@localhost ~]$ echo \#10 [student@localhost ~]$ echo \#10 I[student@localhost ~]$ echo \#10 I [student@localhost ~]$ echo \#10 I m[student@localhost ~]$ echo \#10 I ma[student@localhost ~]$ echo \#10 I mad[student@localhost ~]$ echo \#10 I made[student@localhost ~]$ echo \#10 I made [student@localhost ~]$ echo \#10 I made a[student@localhost ~]$ echo \#10 I made a [student@localhost ~]$ echo \#10 I made a m[student@localhost ~]$ echo \#10 I made a mi[student@localhost ~]$ echo \#10 I made a mis[student@localhost ~]$ echo \#10 I made a mist[student@localhost ~]$ echo \#10 I made a mista[student@localhost ~]$ echo \#10 I made a mistak[student@localhost ~]$ echo \#10 I made a mistake[student@localhost ~]$ echo \#10 I made a mistake [student@localhost ~]$ echo \#10 I made a mistake i[student@localhost ~]$ echo \#10 I made a mistake in[student@localhost ~]$ echo \#10 I made a mistake in [student@localhost ~]$ echo \#10 I made a mistake in m[student@localhost ~]$ echo \#10 I made a mistake in my[student@localhost ~]$ echo \#10 I made a mistake in my [student@localhost ~]$ echo \#10 I made a mistake in my o[student@localhost ~]$ echo \#10 I made a mistake in my or[student@localhost ~]$ echo \#10 I made a mistake in my ori[student@localhost ~]$ echo \#10 I made a mistake in my orig[student@localhost ~]$ echo \#10 I made a mistake in my origi[student@localhost ~]$ echo \#10 I made a mistake in my origin[student@localhost ~]$ echo \#10 I made a mistake in my origina[student@localhost ~]$ echo \#10 I made a mistake in my original[student@localhost ~]$ echo \#10 I made a mistake in my original [student@localhost ~]$ echo \#10 I made a mistake in my original s[student@localhost ~]$ echo \#10 I made a mistake in my original sc[student@localhost ~]$ echo \#10 I made a mistake in my original scr[student@localhost ~]$ echo \#10 I made a mistake in my original scri[student@localhost ~]$ echo \#10 I made a mistake in my original scrip[student@localhost ~]$ echo \#10 I made a mistake in my original script[student@localhost ~]$ echo \#10 I made a mistake in my original script [student@localhost ~]$ echo \#10 I made a mistake in my original script f[student@localhost ~]$ echo \#10 I made a mistake in my original script fo[student@localhost ~]$ echo \#10 I made a mistake in my original script for[student@localhost ~]$ echo \#10 I made a mistake in my original script for [student@localhost ~]$ echo \#10 I made a mistake in my original script for s[student@localhost ~]$ echo \#10 I made a mistake in my original script for se[student@localhost ~]$ echo \#10 I made a mistake in my original script for ses
+iioionion ion Vion VI. I said I was not able to find the logout file. B[KI later found it.
+#10 I made a mistake in my original script for session VI. I said I was not able to find the logout file. I later found it.
+]0;student@localhost:~[student@localhost ~]$ /[Kcd[Kd /c[Ketc
+]0;student@localhost:/etc[student@localhost etc]$ m[Kmore .bash_logout
+.bash_logout: No such file or directory
+]0;student@localhost:/etc[student@localhost etc]$ ls
+[00m[00ma2ps.cfg[00m              [00;34mhotplug[00m               [00mprelink.cache[00m
+[00ma2ps-site.cfg[00m         [00;34mhotplug.d[00m             [00mprelink.conf[00m
+[00;34macpi[00m                  [00;34mhowl[00m                  [00mprintcap[00m
+[00madjtime[00m               [00;34mhtdig[00m                 [00mprofile[00m
+[00;34malchemist[00m             [00midmapd.conf[00m           [00;34mprofile.d[00m
+[00maliases[00m               [00mim_palette.pal[00m        [00mprotocols[00m
+[00maliases.db[00m            [00mim_palette-small.pal[00m  [00mpwdb.conf[00m
+[00;34malsa[00m                  [00mim_palette-tiny.pal[00m   [00mquotagrpadmins[00m
+[00;34malternatives[00m          [00mimrc[00m                  [00mquotatab[00m
+[00manacrontab[00m            [00;36minit.d[00m                [00;34mracoon[00m
+[00mant.conf[00m              [00minitlog.conf[00m          [00;36mrc[00m
+[00;34mant.d[00m                 [00minittab[00m               [00;36mrc0.d[00m
+[00masound.conf[00m           [00minputrc[00m               [00;36mrc1.d[00m
+[00masound.state[00m          [00;34miproute2[00m              [00;36mrc2.d[00m
+[00mat.deny[00m               [00;34misdn[00m                  [00;36mrc3.d[00m
+[00mauditd.conf[00m           [00missue[00m                 [00;36mrc4.d[00m
+[00maudit.rules[00m           [00missue.net[00m             [00;36mrc5.d[00m
+[00mauto.master[00m           [00;34mjava[00m                  [00;36mrc6.d[00m
+[00mauto.misc[00m             [00mjwhois.conf[00m           [00;34mrc.d[00m
+[00;32mauto.net[00m              [00;34mkde[00m                   [00;36mrc.local[00m
+[00;32mauto.smb[00m              [00mkderc[00m                 [00;36mrc.sysinit[00m
+[00mbashrc[00m                [00;34mkermit[00m                [00;34mredhat-lsb[00m
+[00mblkid.tab[00m             [00mkrb5.conf[00m             [00;36mredhat-release[00m
+[00mblkid.tab.old[00m         [00mkrb.conf[00m              [00mresolv.conf[00m
+[00;34mbluetooth[00m             [00mkrb.realms[00m            [00mresolv.conf.predhclient[00m
+[00;34mbonobo-activation[00m     [00mksysguarddrc[00m          [00;34mrhgb[00m
+[00mcdrecord.conf[00m         [00mldap.conf[00m             [00;36mrmt[00m
+[00mcpuspeed.conf[00m         [00mld.so.cache[00m           [00mrndc.conf[00m
+[00;34mcron.d[00m                [00mld.so.conf[00m            [00mrndc.key[00m
+[00;34mcron.daily[00m            [00;34mld.so.conf.d[00m          [00mrpc[00m
+[00mcron.deny[00m             [00mlftp.conf[00m             [00;34mrpm[00m
+[00;34mcron.hourly[00m           [00mlibuser.conf[00m          [00;34msamba[00m
+[00;34mcron.monthly[00m          [00mlisarc[00m                [00;34msane.d[00m
+[00mcrontab[00m               [00mlocaltime[00m             [00mscreenrc[00m
+[00;34mcron.weekly[00m           [00mlogin.defs[00m            [00mscrollkeeper.conf[00m
+[00mcsh.cshrc[00m             [00mlogrotate.conf[00m        [00mscsi_id.config[00m
+[00mcsh.login[00m             [00;34mlogrotate.d[00m           [00msecuretty[00m
+[00;34mcups[00m                  [00;34mlogwatch[00m              [00;34msecurity[00m
+[00;34mdbus-1[00m                [00mlsb-release[00m           [00;34mselinux[00m
+[00;34mdefault[00m               [00mltrace.conf[00m           [00msensors.conf[00m
+[00;34mdev.d[00m                 [00;34mlvm[00m                   [00mservices[00m
+[00mDIR_COLORS[00m            [00;34mmail[00m                  [00msestatus.conf[00m
+[00mDIR_COLORS.xterm[00m      [00mmailcap[00m               [00;34msetuptool.d[00m
+[00mdumpdates[00m             [00mmail.rc[00m               [00;34msgml[00m
+[00menscript.cfg[00m          [00;34mmakedev.d[00m             [00mshadow[00m
+[00menvironment[00m           [00mman.config[00m            [00mshadow-[00m
+[00mesd.conf[00m              [00;34mmgetty+sendfax[00m        [00mshells[00m
+[00mexports[00m               [00mmime.types[00m            [00;34mskel[00m
+[00mfb.modes[00m              [00mminicom.users[00m         [00mslrn.rc[00m
+[00mfdprm[00m                 [00mmodprobe.conf[00m         [00;34msmrsh[00m
+[00mfedora-release[00m        [00mmodprobe.conf~[00m        [00;34msnmp[00m
+[00mfilesystems[00m           [00mmodprobe.conf.dist[00m    [00;34msound[00m
+[00;34mfonts[00m                 [00;34mmodprobe.d[00m            [00;34mssh[00m
+[00;34mfoomatic[00m              [00mmotd[00m                  [00;34mstunnel[00m
+[00mfstab[00m                 [00mmtab[00m                  [00msudoers[00m
+[00;34mgaim[00m                  [00mmtools.conf[00m           [00;34msysconfig[00m
+[00;34mgconf[00m                 [00mMuttrc[00m                [00msysctl.conf[00m
+[00;34mghostscript[00m           [00mMuttrc.local[00m          [00msyslog.conf[00m
+[00;34mgimp[00m                  [00mnamed.conf[00m            [00mtermcap[00m
+[00;34mgnome-vfs-2.0[00m         [00;34mnetplug[00m               [00;34mudev[00m
+[00mgnome-vfs-mime-magic[00m  [00;34mnetplug.d[00m             [00mupdatedb.conf[00m
+[00;34mgnopernicus-1.0[00m       [00mnscd.conf[00m             [00mvimrc[00m
+[00mgpm-root.conf[00m         [00mnsswitch.conf[00m         [00mvimrc.rpmnew[00m
+[00;34mgre.d[00m                 [00;34mntp[00m                   [00mwarnquota.conf[00m
+[00mgroup[00m                 [00mntp.conf[00m              [00mwgetrc[00m
+[00mgroup-[00m                [00;34mopenldap[00m              [00mwvdial.conf[00m
+[00mgroup.lock[00m            [00;34mopt[00m                   [00;34mX11[00m
+[00;36mgrub.conf[00m             [00;34mpam.d[00m                 [00;34mxdg[00m
+[00mgshadow[00m               [00mpam_smb.conf[00m          [00;34mxinetd.d[00m
+[00mgshadow-[00m              [00;34mpango[00m                 [00;34mxml[00m
+[00mgshadow.lock[00m          [00mpasswd[00m                [00myp.conf[00m
+[00mgssapi_mech.conf[00m      [00mpasswd-[00m               [00;34myum[00m
+[00;34mgtk[00m                   [00mpasswd.OLD[00m            [00myum.conf[00m
+[00;34mgtk-2.0[00m               [00mpbm2ppa.conf[00m          [00;34myum.repos.d[00m
+[00;34mhal[00m                   [00;34mpcmcia[00m                [00mzlogin[00m
+[00mhost.conf[00m             [00mpinforc[00m               [00mzlogout[00m
+[00mhosts[00m                 [00;34mpki[00m                   [00mzprofile[00m
+[00mhosts.allow[00m           [00mpnm2ppa.conf[00m          [00mzshenv[00m
+[00mhosts.deny[00m            [00;34mppp[00m                   [00mzshrc[00m
+[m]0;student@localhost:/etc[student@localhost etc]$ more ~/.bash_logout
+# ~/.bash_logout
+
+clear
+]0;student@localhost:/etc[student@localhost etc]$ \#1[K[K[Kecho \# [K10 There it is :L[K)
+bash: syntax error near unexpected token `)'
+]0;student@localhost:/etc[student@localhost etc]$ who[K[K[K\[Kecho \#10 There it is \:)[K\)
+#10 There it is :)
+]0;student@localhost:/etc[student@localhost etc]$ exit
+
+Script done on Tue 25 Apr 2006 04:34:05 PM EDT

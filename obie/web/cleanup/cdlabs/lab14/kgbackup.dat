@@ -1,0 +1,18 @@
+#! /bin/bash
+# Script: kgbackup
+# this script will chech to see if the name of the# and if the directory exists and then copy the file as a backup.
+
+case $# in
+	0) echo "Usage [filename] [destination directory]" ; exit;;
+	1) echo "Usage [filename] [destination directory]" ; exit;;
+	2) filename=$1 directoryname=$2;;
+	*) echo "Usage [filename] [destination directory]" ; exit;;
+esac
+cat $filename | while read line
+do
+	if [[ -f $filename ]]
+	then 
+		cp $line $directoryname/$line.bak
+		echo "$line is now in $directoryname"
+	fi
+done

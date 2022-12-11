@@ -1,0 +1,241 @@
+Script started on Wed 26 Apr 2006 01:56:31 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ more e[K/etc/profile
+# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc
+
+pathmunge () {
+	if ! echo $PATH | /bin/egrep -q "(^|:)$1($|:)" ; then
+	   if [ "$2" = "after" ] ; then
+	      PATH=$PATH:$1
+	   else
+	      PATH=$1:$PATH
+	   fi
+	fi
+}
+
+# Path manipulation
+if [ $EUID = 0 ]; then
+	pathmunge /sbin
+	pathmunge /usr/sbin
+	pathmunge /usr/local/sbin
+fi
+
+pathmunge /usr/X11R6/bin after
+[7m--More--(51%)[m[K
+[7m--More--(51%)[m[K
+[7m--More--(51%)[m# No core files by default
+[7m--More--(55%)[mulimit -S -c 0 > /dev/null 2>&1
+[7m--More--(58%)[m[K
+[7m--More--(59%)[mUSER="`id -un`"
+[7m--More--(60%)[mLOGNAME=$USER
+[7m--More--(62%)[mMAIL="/var/spool/mail/$USER"
+[7m--More--(66%)[m[K
+[7m--More--(66%)[mHOSTNAME=`/bin/hostname`
+[7m--More--(69%)[mHISTSIZE=1000
+[7m--More--(70%)[m[K
+[7m--More--(70%)[mif [ -z "$INPUTRC" -a ! -f "$HOME/.inputrc" ]; then
+[7m--More--(77%)[m    INPUTRC=/etc/inputrc
+[7m--More--(80%)[mfi[K
+[7m--More--(80%)[m[K
+[7m--More--(80%)[mexport PATH USER LOGNAME MAIL HOSTNAME HISTSIZE INPUTRC
+[7m--More--(87%)[m[K
+[7m--More--(87%)[mfor i in /etc/profile.d/*.sh ; do
+[7m--More--(91%)[m    if [ -r "$i" ]; then
+[7m--More--(94%)[m[K    	. $i
+[7m--More--(95%)[m    fi[K
+[7m--More--(96%)[mdone[K
+[7m--More--(97%)[m[K
+[7m--More--(97%)[munset i[K
+[7m--More--(98%)[munset pathmunge
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ vi [K[K[Kmore /etc/profile[4hv[4l[4hi[4l[1P[1P[1P[1P /etc/profile[Student@localhost ~]$ vi /etc/profile
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"/etc/profile" [readonly] 49L, 840C[1;1H[34m# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc[m
+
+pathmunge () [35m{[m[7;9H[33mif[m [33m![m [33mecho[m[31m [m[35m$PATH[m[31m [m[33m|[m /bin/egrep [33m-q[m [33m"[m[31m(^|:)[m[35m$1[m[31m($|:)[m[33m"[m [33m;[m [33mthen[8;12Hif[m [33m[[m [33m"[m[35m$2[m[33m"[m [33m=[m [33m"[m[31mafter[m[33m"[m [33m][m [33m;[m [33mthen[m[9;15H[36mPATH[m=[35m$PATH[m:[35m$1[m[10;12H[33melse[m[11;15H[36mPATH[m=[35m$1[m:[35m$PATH[m[12;12H[33mfi[13;9Hfi[m
+[35m}[m
+
+[34m# Path manipulation[m
+[33mif[m [33m[[m [35m$EUID[m [33m=[m [31m0[m [33m];[m [33mthen[m[18;9Hpathmunge /sbin[19;9Hpathmunge /usr/sbin[20;9Hpathmunge /usr/local/sbin
+[33mfi[m
+
+pathmunge /usr/X11R6/bin after[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5,0-1[5;1H[?12l[?25h[?25l[24;63H6,1  [6;1H[?12l[?25h[?25l[24;63H7,1-8[7;8H[?12l[?25h[?25l[24;63H8[8;8H[?12l[?25h[?25l[24;63H9[9;8H[?12l[?25h[?25l[24;63H10,1-8[10;8H[?12l[?25h[?25l[24;64H1[11;8H[?12l[?25h[?25l[24;64H2[12;8H[?12l[?25h[?25l[24;64H3[13;8H[?12l[?25h[?25l[24;64H4,1  [14;1H[?12l[?25h[?25l[24;64H5,0-1[15;1H[?12l[?25h[?25l[24;64H6,1  [16;1H[?12l[?25h[?25l[24;64H7[17;1H[?12l[?25h[?25l[24;64H8,1-8[18;8H[?12l[?25h[?25l[24;64H9[19;8H[?12l[?25h[?25l[24;63H20[20;8H[?12l[?25h[?25l[24;64H1,1  [21;1H[?12l[?25h[?25l[24;64H2,0-1[22;1H[?12l[?25h[?25l[24;64H3,1  [23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;1H[K[24;63H24,0-1[9C3%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H25,0-1[9C7%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[34m# No core files by default[m[24;63H[K[24;63H26,1[10C11%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mulimit[m [35m-S[m [35m-c[m [31m0[m [33m>[m /dev/null [33m2>&1[m[24;63H[K[24;63H27,1[10C15%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H28,0-1[8C19%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mUSER[m=[33m"[m[35m`id -un`[m[33m"[m[24;63H[K[24;63H29,1[10C23%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mLOGNAME[m=[35m$USER[m[24;63H[K[24;63H30,1[10C26%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mMAIL[m=[33m"[m[31m/var/spool/mail/[m[35m$USER[m[33m"[m[24;63H[K[24;63H31,1[10C30%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H32,0-1[8C34%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mHOSTNAME[m=[35m`/bin/hostname`[m[24;63H[K[24;63H33,1[10C38%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[36mHISTSIZE[m=[31m1000[m[24;63H[K[24;63H34,1[10C42%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H35,0-1[8C46%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mif[m [33m[[m [33m-z[m [33m"[m[35m$INPUTRC[m[33m"[m [33m-a[m [33m![m [33m-f[m [33m"[m[35m$HOME[m[31m/.inputrc[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H36,1[10C50%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[36mINPUTRC[m=/etc/inputrc[24;63H[K[24;63H37,1[10C53%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mfi[m[24;63H[K[24;63H38,1[10C57%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H39,0-1[8C61%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mexport [m[36mPATH[m [36mUSER[m [36mLOGNAME[m [36mMAIL[m [36mHOSTNAME[m [36mHISTSIZE[m [36mINPUTRC[m[24;63H[K[24;63H40,1[10C65%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H41,0-1[8C69%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mfor[m i [33min[m /etc/profile.d/*.sh [33m;[m [33mdo[m[24;63H[K[24;63H42,1[10C73%[23;1H[?12l[?25h[?25l[24;66H33[23;33H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[m[24;63H[K[24;63H43,24[9C76%[23;24H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33m    . [m[35m$i[m[24;63H[K[24;63H44,9-12[7C80%[23;12H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mfi[m[24;63H[K[24;63H45,6[10C84%[23;6H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33mdone[m[24;63H[K[24;63H46,4[10C88%[23;4H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H47,0-1[8C92%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33munset [m[36mi[m[24;63H[K[24;63H48,7[10C96%[23;7H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[33munset [m[36mpathmunge[m[24;63H[K[24;63H49,15[9CBot[23;15H[?12l[?25h[?25l
+[31mW10: Warning: Changing a readonly file[m[24;63H[K[23;15H[K[24;63H49,14[9CBot[23;14H[?12l[?25h[?25l[24;64H8,7 [22;7H[?12l[?25h[?25l
+
+[1m-- INSERT --[m[24;13H[K[24;63H48,7[10CBot[22;7H[?12l[?25h[?25l[24;64H9[23;7H[?12l[?25h[?25l[24;64H8[22;7H[?12l[?25h[?25l[36mai[m[24;66H8[22;8H[?12l[?25h[?25l[36mi[m[22;8H[K[24;66H7[22;7H[?12l[?25h[?25l[36mZi[m[24;66H8[22;8H[?12l[?25h[?25l[36mi[m[22;8H[K[24;66H7[22;7H[?12l[?25h[24;1H[K[22;6H[?25l[24;63H48,6[10CBot[22;6H[?12l[?25h[?25l
+
+[1m[37m[41mE45: 'readonly' option is set (add ! to override)[m[24;63H[K[24;63H48,6[10CBot[22;6H[?12l[?25h[?25l[24;66H5[22;5H[?12l[?25h[?25l
+
+[1m-- INSERT --[m[24;13H[K[24;63H48,5[10CBot[22;5H[?12l[?25h[24;1H[K[22;4H[?25l[24;63H48,4[10CBot[22;4H[?12l[?25h[?25l[24;63H[K[24;1H:[1;1H[K[2;1H[33mif[m [33m[[m [33m-z[m [33m"[m[35m$INPUTRC[m[33m"[m [33m-a[m [33m![m [33m-f[m [33m"[m[35m$HOME[m[31m/.inputrc[m[33m"[m [33m];[m [33mthen[m
+    [36mINPUTRC[m=/etc/inputrc
+[33mfi[m[4;3H[K[5;1H[K[6;1H[33mexport [m[36mPATH[m [36mUSER[m [36mLOGNAME[m [36mMAIL[m [36mHOSTNAME[m [36mHISTSIZE[m [36mINPUTRC[m[7;1H[K[8;1H[33mfor[m i [33min[m /etc/profile.d/*.sh [33m;[m [33mdo
+[m    [33mif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[m
+    [33m    . [m[35m$i[m[10;13H[K[11;5H[33mfi[m[11;7H[K[12;1H[33mdone
+
+unset [m[36mi[m[14;8H[K[15;1H[7m/etc/profile [+][RO]                                          48,4           97%[m[16;1H[1m[34m:[mzz[16;5H[K[17;1H[1m[34m:[mZZ[17;5H[K[18;1H[1m[34m:[m[33mw[m gtysbrgII[33m.[mtxt
+[1m[34m:[m[33mw[m[19;5H[K[20;1H[1m[34m:[m[33mw[m formal[33m.[m[31m3[m
+[1m[34m:
+:~                                                                              [m[23;1H[1m[7mcommand-line                                                  6,0-1          All[21;2H[?12l[?25h[?25l[m
+
+
+[1mrecording[21;2H[?12l[?25h[?25l[m[24;1H[K[21;2H[?12l[?25h[?25l
+
+
+[1mrecording[21;2H[?12l[?25h[?25l
+
+
+-- INSERT --recording[m[23;65H[1m[7m1   [21;2H[?12l[?25h[?25l[m[33mt[m[23;65H[1m[7m2 [21;3H[?12l[?25h[?25l[m[21;2H[K[23;65H[1m[7m1 [21;2H[?12l[?25h[?25l[m;[23;65H[1m[7m2 [21;3H[?12l[?25h[?25l[m[21;2H[K[23;65H[1m[7m1 [21;2H[?12l[?25h[m
+
+
+[1mrecording[m[24;10H[K[21;2H[?25l[23;65H[1m[7m0-1 [21;2H[?12l[?25h[?25l[m
+
+
+[1m[37m[41mE11: Invalid in command-line window; <CR> executes, CTRL-C quits[m[1mrecording[m[24;10H[K[21;2H[?12l[?25h[?25l[16;22r[16;1H[2M[1;24r[21;1H[1m[34m:
+:[21;2H~                                                                              [22;2H~                                                                              [m[23;78H[1m[7mBot[19;2H[?12l[?25h[?25l[m[24;1H[K[19;2H[?12l[?25h[24;1H[?25l[1;1H[33mulimit[m [35m-S[m [35m-c[m [31m0[m [33m>[m /dev/null [33m2>&1[m[2;1H[K[3;1H[36mUSER[m=[33m"[m[35m`id -un`[m[33m"[m[3;16H[K[4;1H[36mLOGNAME[m=[35m$USER[m
+[36mMAIL[m=[33m"[m[31m/var/spool/mail/[m[35m$USER[m[33m"[m[6;1H[K[7;1H[36mHOSTNAME[m=[35m`/bin/hostname`[m
+[36mHISTSIZE[m=[31m1000[m[8;14H[K[9;5H[K[10;1H[33mif[m [33m[[m [33m-z[m [33m"[m[35m$INPUTRC[m[33m"[m [33m-a[m [33m![m [33m-f[m [33m"[m[35m$HOME[m[31m/.inputrc[m[33m"[m [33m];[m [33mthen[m
+    [36mINPUTRC[m=/etc/inputrc
+[33mfi[m[12;3H[K[14;1H[33mexport [m[36mPATH[m [36mUSER[m [36mLOGNAME[m [36mMAIL[m [36mHOSTNAME[m [36mHISTSIZE[m [36mINPUTRC[m[15;1H[K[16;1H[33mfor[m i [33min[m /etc/profile.d/*.sh [33m;[m [33mdo[m
+    [33mif[m [33m[[m [33m-r[m [33m"[m[35m$i[m[33m"[m [33m];[m [33mthen[m
+    [33m    . [m[35m$i[m
+    [33mfi
+done[m[20;5H[K[21;1H[K[22;1H[33munset [m[36mi[m[22;8H[K[23;1H[33munset [m[36mpathmung[m[23;15H[K[24;63H48,4[10CBot[22;4H[?12l[?25h[?25l
+
+[1mrecording[m[24;63H[K[24;63H48,4[10CBot[22;4H[?12l[?25h[?25l[24;1H[K[24;63H48,4[10CBot[22;4H[?12l[?25h[?25l
+
+[1m-- INSERT --[m[24;63H[K[24;63H48,4[10CBot[22;4H[?12l[?25h[?25l[24;66H8[22;8H[?12l[?25h[?25l[24;64H9,15[23;15H[?12l[?25h[24;1H[K[23;14H[?25l[24;63H49,14[9CBot[23;14H[?12l[?25h[?25l
+[1mrecording[m[24;63H[K[24;63H49,14[9CBot[23;14H[?12l[?25h[?25l[24;1H[K[24;63H49,14[9CBot[23;14H[?12l[?25h[?25l
+[1mrecording[m[24;63H[K[24;63H49,14[9CBot[23;14H[?12l[?25h[?25l[24;1H[K[24;63H49,14[9CBot[23;14H[?12l[?25h[?25l
+[1mrecording[m[24;63H[K[24;63H49,14[9CBot[23;14H[?12l[?25h[?25l[24;1H[K[24;63H49,14[9CBot[23;14H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ alial[Ks
+alias l.='ls -d .* --color=tty'
+alias ll='ls -l --color=tty'
+alias ls='ls --color=tty'
+alias vi='vim'
+alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
+]0;Student@localhost:~[Student@localhost ~]$ more .bashrc
+# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+]0;Student@localhost:~[Student@localhost ~]$ cp .bashrc .bashrc.bak
+]0;Student@localhost:~[Student@localhost ~]$ more .bashrc.bak
+# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+]0;Student@localhost:~[Student@localhost ~]$ vi b[K.bashrc
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".bashrc" 8L, 124C[1;1H[34m# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions[m
+[33mif[m [33m[[m [33m-f[m /etc/bashrc [33m];[m [33mthen
+        . [m/etc/bashrc
+[33mfi[m
+[1m[34m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4,0-1[4;1H[?12l[?25h[?25l[24;63H5,1  [5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H7,1-8[7;8H[?12l[?25h[?25l[24;63H8,1  [8;1H[?12l[?25h[?25l[24;65H2[8;2H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H8,3[11CAll[8;3H[?12l[?25h[?25l[9;1H[K[24;63H9,1[9;1H[?12l[?25h[?25la[24;65H2[9;2H[?12l[?25h[?25ll[24;65H3[9;3H[?12l[?25h[?25li[24;65H4[9;4H[?12l[?25h[?25la[24;65H5[9;5H[?12l[?25h[?25l[33malias[m[24;65H6[9;6H[?12l[?25h[?25l[24;65H7[9;7H[?12l[?25h[?25l[33m [m[36ml[m[24;65H8[9;8H[?12l[?25h[?25l[33m=[m[24;65H9[9;9H[?12l[?25h[?25ll[24;65H10[9;10H[?12l[?25h[?25l[33mls[m[24;66H1[9;11H[?12l[?25h[?25l[10;1H[K[24;63H10,[10;1H[?12l[?25h[?25la[24;66H2[10;2H[?12l[?25h[?25ll[24;66H3[10;3H[?12l[?25h[?25li[24;66H4[10;4H[?12l[?25h[?25la[24;66H5[10;5H[?12l[?25h[?25l[33malias[m[24;66H6[10;6H[?12l[?25h[?25l[24;66H7[10;7H[?12l[?25h[?25l[33m [m[36mr[m[24;66H8[10;8H[?12l[?25h[?25l[33m=[m[24;66H9[10;9H[?12l[?25h[?25lc[24;66H10[10;10H[?12l[?25h[?25la[24;67H1[10;11H[?12l[?25h[?25ll[24;67H2[10;12H[?12l[?25h[24;1H[K[10;11H[?25l[24;63H10,11[9CAll[10;11H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".bashrc" 10L, 147C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ l
+bash: l: command not found
+]0;Student@localhost:~[Student@localhost ~]$ r
+bash: r: command not found
+]0;Student@localhost:~[Student@localhost ~]$ rlvi .bashrc
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".bashrc" 10L, 147C[1;1H[34m# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions[m
+[33mif[m [33m[[m [33m-f[m /etc/bashrc [33m];[m [33mthen
+        . [m/etc/bashrc
+[33mfi
+alias [m[36ml[m[33m=ls
+alias [m[36mr[m[33m=[mcal
+[1m[34m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H10,1[10CAll[10;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~
+]0;Student@localhost:~[Student@localhost ~]$ source.bashrc[Student@localhost ~]$ source .bashrc[Student@localhost ~]$ source .bashrc
+]0;Student@localhost:~[Student@localhost ~]$ l
+[00m[00;34massignments[00m  [00mfile4[00m              [00mKimura.3.I.txt[00m    [00mKimura.5.IV.txt[00m
+[00;34mbackups[00m      [00mfile5[00m              [00mKimura.3.I.txt~[00m   [00mKimura.5.IV.txt~[00m
+[00;34mbusLetters[00m   [00mformal.3[00m           [00mKimura.3.IV.txt[00m   [00mKimura.5.VI.txt[00m
+[00;34mchapter_4[00m    [00mgtysbrgII.txt[00m      [00mKimura.3.IV.txt~[00m  [00mKimura.5.V.txt[00m
+[00;34mDesktop[00m      [00mgtysbrg.txt[00m        [00mKimura.4.II.txt[00m   [00mKimura.L1.txt.odt[00m
+[00mfile1[00m        [01;05;37;41mhw4SL[00m              [00mKimura.4.II.txt~[00m  [00mkimura.L2.txt[00m
+[00mfile2[00m        [00mKimura.3.III.txt[00m   [00mKimura.4.I.txt[00m    [00;34mletters[00m
+[00mfile3[00m        [00mKimura.3.III.txt~[00m  [00mKimura.4.I.txt~[00m   [00;34mnothing[00m
+[00mfile3~[00m       [00mKimura.3.II.txt[00m    [00mKimura.5.II.txt[00m   [00;34mreports[00m
+[00mfile3.bak[00m    [00mKimura.3.II.txt~[00m   [00mKimura.5.I.txt[00m    [00mtypescript~[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ r
+     April 2006     
+Su Mo Tu We Th Fr Sa
+                   1
+ 2  3  4  5  6  7  8
+ 9 10 11 12 13 14 15
+16 17 18 19 20 21 22
+23 24 25 [7m26[27m 27 28 29
+30
+]0;Student@localhost:~[Student@localhost ~]$ rlsource .bashrc[1P.bashrc[3Pvi .bashrc
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".bashrc" 10L, 147C[1;1H[34m# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions[m
+[33mif[m [33m[[m [33m-f[m /etc/bashrc [33m];[m [33mthen
+        . [m/etc/bashrc
+[33mfi
+alias [m[36ml[m[33m=ls
+alias [m[36mr[m[33m=[mcal
+[1m[34m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H10,1[10CAll[10;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi .bashrc
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".bashrc" 10L, 147C[1;1H[34m# .bashrc
+
+# User specific aliases and functions
+
+# Source global definitions[m
+[33mif[m [33m[[m [33m-f[m /etc/bashrc [33m];[m [33mthen
+        . [m/etc/bashrc
+[33mfi
+alias [m[36ml[m[33m=ls
+alias [m[36mr[m[33m=[mcal
+[1m[34m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H10,1[10CAll[10;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H10,1[10CAll[10;1H[?12l[?25h[24;1H[K[10;1H[?25l[24;63H10,1[10CAll[10;1H[?12l[?25h[?25llias [33mr=[mcal[10;11H[K[10;1H[?12l[?25h[?25lias [33mr=[mcal[10;10H[K[10;1H[?12l[?25h[?25las [33mr=[mcal[10;9H[K[10;1H[?12l[?25h[?25ls [33mr=[mcal[10;8H[K[10;1H[?12l[?25h[?25l [33mr=[mcal[10;7H[K[10;1H[?12l[?25h[?25l[33mr=[mcal[10;6H[K[10;1H[?12l[?25h[?25l[33m=[mcal[10;5H[K[10;1H[?12l[?25h[?25lcal[10;4H[K[10;1H[?12l[?25h[?25lal[10;3H[K[10;1H[?12l[?25h[?25ll[10;2H[K[10;1H[?12l[?25h[?25l[10;1H[K[24;66H0-1[10;1H[?12l[?25h[?25l[24;63H9,1   [9;1H[?12l[?25h[?25llias [36ml[m=[33mls[m[9;10H[K[9;1H[?12l[?25h[?25lias [36ml[m=[33mls[m[9;9H[K[9;1H[?12l[?25h[?25las [36ml[m=[33mls[m[9;8H[K[9;1H[?12l[?25h[?25ls [36ml[m=[33mls[m[9;7H[K[9;1H[?12l[?25h[?25l [36ml[m=[33mls[m[9;6H[K[9;1H[?12l[?25h[?25l[36ml[m=[33mls[m[9;5H[K[9;1H[?12l[?25h[?25l[33m=ls[m[9;4H[K[9;1H[?12l[?25h[?25l[33mls[m[9;3H[K[9;1H[?12l[?25h[?25ls[9;2H[K[9;1H[?12l[?25h[?25l[9;1H[K[24;65H0-1[9;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".bashrc" 10L, 126C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ more .bash_logout
+# ~/.bash_logout
+
+clear
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Wed 26 Apr 2006 02:09:39 PM EDT

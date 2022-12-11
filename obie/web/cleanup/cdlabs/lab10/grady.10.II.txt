@@ -1,0 +1,198 @@
+Script started on Tue 02 May 2006 08:14:37 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch10S2F1
+		The Wisdon m of Aesop
+It is one thing to say that something should be done.
+	it is quite a differne  ent matter to do it.
+		""^[[D     Belling the cat"
+
+Liars are not believed even h when they tell the truth.
+	""^[[D     The Shepered Boy and the Wolf"
+
+Flattery is not a proof of true admiration.
+	"The Owl and the Grasshopper: "
+
+Those who work the hae rdest do not always get the profit.
+	"The Lion, the Dear    bear    Bear, and the Fox"
+
+Familiarity breeds contempt.
+	"The Fox and the Lion' "
+
+Take care of little things and 
+	the     the big thigs will take car of themselves.
+		"t The Astrologer"
+
+Two blacks do not make                      ]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F1 | egrep ''^'$'[Student@localhost ~]$ cat Ch10S2F1 | egrep '^$'
+
+
+
+
+
+
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F1 | egrep '^$'-'^$'v'^$' '^$'
+		The Wisdom of Aesop
+It is one thing to say that something should be done.
+	it is quite a different matter to do it.
+		"Belling the cat"
+Liars are not believed even when they tell the truth.
+	"The Shepered Boy and the Wolf"
+Flattery is not a proof of true admiration.
+	"The Owl and the Grasshopper"
+Those who work the hardest do not always get the profit.
+	"The Lion, the Bear, and the Fox"
+Familiarity breeds contempt.
+	"The Fox and the Lion"
+Take care of little things and 
+	the big thigs will take car of themselves.
+		"The Astrologer"
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F1 | egrep -v '^$'[Student@localhost ~]$ cat Ch10S2F1 [4h>[4l[4h [4l[4hC[4l[4hh[4l[4h1[4l[4h0[4l[4hS[4l[4h1[4l[4hF[4l[4h2[4l[4h [4l[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 |[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | [Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | e[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | eg[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | egr[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | egre[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | egrep[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | egrep [Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | egrep -[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | egrep -v[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | egrep -v [Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | egrep -v '[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | egrep -v '^[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | egrep -v '^$[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | egrep -v '^$'
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F1 > Ch10S1F2 | egrep -v '^$'[1P[4h2[4l
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch2[K10S2F2
+		The Wisdom of Aesop
+It is one thing to say that something should be done.
+	it is quite a different matter to do it.
+		"Belling the cat"
+
+Liars are not believed even when they tell the truth.
+	"The Shepered Boy and the Wolf"
+
+Flattery is not a proof of true admiration.
+	"The Owl and the Grasshopper"
+
+Those who work the hardest do not always get the profit.
+	"The Lion, the Bear, and the Fox"
+
+Familiarity breeds contempt.
+	"The Fox and the Lion"
+
+Take care of little things and 
+	the big thigs will take car of themselves.
+		"The Astrologer"
+
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F21 > Ch10S2F2 | egrep -v '^$'
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F1 > Ch10S2F2 | egrep -v '^$'2[K
+		The Wisdom of Aesop
+It is one thing to say that something should be done.
+	it is quite a different matter to do it.
+		"Belling the cat"
+
+Liars are not believed even when they tell the truth.
+	"The Shepered Boy and the Wolf"
+
+Flattery is not a proof of true admiration.
+	"The Owl and the Grasshopper"
+
+Those who work the hardest do not always get the profit.
+	"The Lion, the Bear, and the Fox"
+
+Familiarity breeds contempt.
+	"The Fox and the Lion"
+
+Take care of little things and 
+	the big thigs will take car of themselves.
+		"The Astrologer"
+
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F21 > Ch10S2F2 | egrep -v '^$'[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1Pcat Ch10S2F21 > Ch10S2F2 | egrep -v '^$'2[Kegrep -v '^$' > Ch10S2F2
+
+]0;Student@localhost:~[Student@localhost ~]$ egrep -v '^$' > Ch10S2F2[4hc[4l[4hh[4l[1P[1P[4hC[4l[4hh[4l[4h [4l[1P[4h1[4l[4h0[4l[4hS[4l[4h1[4l[4hF[4l[4h1[4l[4h [4l
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F2
+1425	Juan	18	14.25
+4321	George	22	21.11
+6781	Anne	44	16.77
+1451	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F2[4hegrep -v '^$' Ch10S1F[4l1 >[Student@localhost ~]$ egrep -v '^$' Ch10S1F1 > Ch10S2F2[1P[4h2[4l[Student@localhost ~]$ egrep -v '^$' Ch10S2F[Student@localhost ~]$ egrep -v '^$' Ch10S2F1[Student@localhost ~]$ egrep -v '^$' Ch10S2F1 [Student@localhost ~]$ egrep -v '^$' Ch10S2F1 >[Student@localhost ~]$ egrep -v '^$' Ch10S2F1 > [Student@localhost ~]$ egrep -v '^$' Ch10S2F1 > C[Student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch[Student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch1[Student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch10[Student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch10S[Student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch10S2[Student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch10S2F[Student@localhost ~]$ egrep -v '^$' Ch10S2F1 > Ch10S2F2
+]0;Student@localhost:~[Student@localhost ~]$ cat [K[K[K[Kegrep -v '^$' Ch10S2F1 > Ch10S2F2[Student@localhost ~]$ [21Pcat[Student@localhost ~]$ cat Ch10S2F2
+		The Wisdom of Aesop
+It is one thing to say that something should be done.
+	it is quite a different matter to do it.
+		"Belling the cat"
+Liars are not believed even when they tell the truth.
+	"The Shepered Boy and the Wolf"
+Flattery is not a proof of true admiration.
+	"The Owl and the Grasshopper"
+Those who work the hardest do not always get the profit.
+	"The Lion, the Bear, and the Fox"
+Familiarity breeds contempt.
+	"The Fox and the Lion"
+Take care of little things and 
+	the big thigs will take car of themselves.
+		"The Astrologer"
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 Ch10S2F2
+
+It is one thing to say that something should be done.
+it is quite a different matter to do it.
+
+Liars are not believed even when they tell the truth.
+"The Shepered Boy and the Wolf"
+Flattery is not a proof of true admiration.
+"The Owl and the Grasshopper"
+Those who work the hardest do not always get the profit.
+"The Lion, the Bear, and the Fox"
+Familiarity breeds contempt.
+"The Fox and the Lion"
+Take care of little things and 
+the big thigs will take car of themselves.
+
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 Ch10S2F2[1P Ch10S2F21 Ch10S2F2[Student@localhost ~]$ cut -f1 [Student@localhost ~]$ cut -f1 C[Student@localhost ~]$ cut -f1 Ch[Student@localhost ~]$ cut -f1 Ch1[Student@localhost ~]$ cut -f1 Ch10[Student@localhost ~]$ cut -f1 Ch10S[Student@localhost ~]$ cut -f1 Ch10S2[Student@localhost ~]$ cut -f1 Ch10S2F[Student@localhost ~]$ cut -f1 Ch10S2F2 > [7Pat Ch10S2F2 [K[K[K[K[K[K[K[K[K[K[K[K[Kegrep '' Ch10S2F2 >[4h^[4l[4h[[4l[4h][4l[4h[[4l[4h][4l[4h^[4l[4h.[4l[Student@localhost ~]$ egrep '^[^.][Student@localhost ~]$ egrep '^[^.][[Student@localhost ~]$ egrep '^[^.][][1P[1P[Student@localhost ~]$ egrep '^[^.]'[Student@localhost ~]$ egrep '^[^.]' [Student@localhost ~]$ egrep '^[^.]' C[Student@localhost ~]$ egrep '^[^.]' Ch[Student@localhost ~]$ egrep '^[^.]' Ch1[Student@localhost ~]$ egrep '^[^.]' Ch10[Student@localhost ~]$ egrep '^[^.]' Ch10S[Student@localhost ~]$ egrep '^[^.]' Ch10S2[Student@localhost ~]$ egrep '^[^.]' Ch10S2F[Student@localhost ~]$ egrep '^[^.]' Ch10S2F2[Student@localhost ~]$ egrep '^[^.]' Ch10S2F2 [Student@localhost ~]$ egrep '^[^.]' Ch10S2F2 >[K[K
+		The Wisdom of Aesop
+It is one thing to say that something should be done.
+	it is quite a different matter to do it.
+		"Belling the cat"
+Liars are not believed even when they tell the truth.
+	"The Shepered Boy and the Wolf"
+Flattery is not a proof of true admiration.
+	"The Owl and the Grasshopper"
+Those who work the hardest do not always get the profit.
+	"The Lion, the Bear, and the Fox"
+Familiarity breeds contempt.
+	"The Fox and the Lion"
+Take care of little things and 
+	the big thigs will take car of themselves.
+		"The Astrologer"
+]0;Student@localhost:~[Student@localhost ~]$ egrep '^[^.]' Ch10S2F2[4h*[4l[4h[[4l[4h][4l[4h.[4l[Student@localhost ~]$ egrep '^[^.]*[.][Student@localhost ~]$ egrep '^[^.]*[.]'[Student@localhost ~]$ egrep '^[^.]*[.]' [Student@localhost ~]$ egrep '^[^.]*[.]' C[Student@localhost ~]$ egrep '^[^.]*[.]' Ch[Student@localhost ~]$ egrep '^[^.]*[.]' Ch1[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2
+It is one thing to say that something should be done.
+	it is quite a different matter to do it.
+Liars are not believed even when they tell the truth.
+Flattery is not a proof of true admiration.
+Those who work the hardest do not always get the profit.
+Familiarity breeds contempt.
+	the big thigs will take car of themselves.
+]0;Student@localhost:~[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch10S2D[KF3[K4
+]0;Student@localhost:~[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch10S2F4[Student@localhost ~]$ egrep '^[^.]*[.][Student@localhost ~]$ egrep '^[^.]*[.]'[Student@localhost ~]$ egrep '^[^.]*[.]' [Student@localhost ~]$ egrep '^[^.]*[.]' C[Student@localhost ~]$ egrep '^[^.]*[.]' Ch[Student@localhost ~]$ egrep '^[^.]*[.]' Ch1[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 [Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 >[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > [Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > C[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch1[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch10[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch10S[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch10S2[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch10S2F[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2 > Ch10S2F4[K[K[K[K[K[K[K[K[K[K[K[1P[1P[1P[1P[1P[1P[1P[1P[Kegrep '^' Ch10S2F2[4h[^.]*[.][4l[Student@localhost ~]$ egrep '^[^.]*[.]' Ch10S2F2[4h-[4l[4hv[4l[4h [4l[Student@localhost ~]$ egrep -v '[Student@localhost ~]$ egrep -v '^[Student@localhost ~]$ egrep -v '^[[Student@localhost ~]$ egrep -v '^[^[Student@localhost ~]$ egrep -v '^[^.[Student@localhost ~]$ egrep -v '^[^.][Student@localhost ~]$ egrep -v '^[^.]*[Student@localhost ~]$ egrep -v '^[^.]*[[Student@localhost ~]$ egrep -v '^[^.]*[.[Student@localhost ~]$ egrep -v '^[^.]*[.][Student@localhost ~]$ egrep -v '^[^.]*[.]'[Student@localhost ~]$ egrep -v '^[^.]*[.]' [Student@localhost ~]$ egrep -v '^[^.]*[.]' C[Student@localhost ~]$ egrep -v '^[^.]*[.]' Ch[Student@localhost ~]$ egrep -v '^[^.]*[.]' Ch1[Student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10[Student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S[Student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2[Student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F[Student@localhost ~]$ egrep -v '^[^.]*[.]' Ch10S2F2 > Ch10S2D3[K[KF3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F3
+		The Wisdom of Aesop
+		"Belling the cat"
+	"The Shepered Boy and the Wolf"
+	"The Owl and the Grasshopper"
+	"The Lion, the Bear, and the Fox"
+	"The Fox and the Lion"
+Take care of little things and 
+		"The Astrologer"
+]0;Student@localhost:~[Student@localhost ~]$ egrep ''[Student@localhost ~]$ egrep '' c[KCh10S2F3 [4h^[4l[4h[[4l[4h][4l[4h^[4l[4h.[4l[Student@localhost ~]$ egrep '^[^.][4h+[4l[4h[[4l[4h][4l[4h$[4l[4h.[4l[Student@localhost ~]$ egrep '^[^.]+[$.][Student@localhost ~]$ egrep '^[^.]+[$.]'[Student@localhost ~]$ egrep '^[^.]+[$.]' [Student@localhost ~]$ egrep '^[^.]+[$.]' C[Student@localhost ~]$ egrep '^[^.]+[$.]' Ch[Student@localhost ~]$ egrep '^[^.]+[$.]' Ch1
+]0;Student@localhost:~[Student@localhost ~]$ egrep '^[^.]+[$.]' Ch10S2F3 [1P[Student@localhost ~]$ egrep '^[^.]+[.[4h%[4l[1P[4h$[4l
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F3
+		The Wisdom of Aesop
+		"Belling the cat"
+	"The Shepered Boy and the Wolf"
+	"The Owl and the Grasshopper"
+	"The Lion, the Bear, and the Fox"
+	"The Fox and the Lion"
+Take care of little things and 
+		"The Astrologer"
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S2F3egrep '^[^.]+[.$]' Ch10S2F3 [Student@localhost ~]$ egrep '^[^.]+[.$][1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[4h^[4l[4h[[4l[4h][4l[4h^[4l[Student@localhost ~]$ egrep '^[^][4h*[4l[4h[[4l[4h][4l[4h&[4l[Student@localhost ~]$ egrep '^[^]*[&][1P[1P[4h$[4l[4h][4l
+		The Wisdom of Aesop
+		"Belling the cat"
+	"The Shepered Boy and the Wolf"
+	"The Owl and the Grasshopper"
+	"The Lion, the Bear, and the Fox"
+	"The Fox and the Lion"
+Take care of little things and 
+		"The Astrologer"
+]0;Student@localhost:~[Student@localhost ~]$ egrep '^[^]*[$]' Ch10S2F3 [4h.[4l
+]0;Student@localhost:~[Student@localhost ~]$ egrep '^[^.]*[$]' Ch10S2F3 [1P[4h.[4l[Student@localhost ~]$ egrep '^[^.][Student@localhost ~]$ egrep '^[^.]*[Student@localhost ~]$ egrep '^[^.]*[[Student@localhost ~]$ egrep '^[^.]*[$[Student@localhost ~]$ egrep '^[^.]*[$][1P[1P[1P[1P[4h\[4l[4h{[4l[4h}[4l[4h[[4l[4h][4l[4h*[4l[Student@localhost ~]$ egrep '^[^.]\{}*[[4h&[4l[1P[4h$[4l
+]0;Student@localhost:~[Student@localhost ~]$ egrep '^[^.]\{}*[$]' Ch10S2F3 [1P[1P[1P[1P[4h [4l[4h\[4l[Student@localhost ~]$ egrep '^[^.]\{ \}[4h$[4l[Student@localhost ~]$ egrep '^[^.]\{ \}$'[Student@localhost ~]$ egrep '^[^.]\{ \}$' [Student@localhost ~]$ egrep '^[^.]\{ \}$' C[Student@localhost ~]$ egrep '^[^.]\{ \}$' Ch[Student@localhost ~]$ egrep '^[^.]\{ \}$' Ch1[Student@localhost ~]$ egrep '^[^.]\{ \}$' Ch10[Student@localhost ~]$ egrep '^[^.]\{ \}$' Ch10S[Student@localhost ~]$ egrep '^[^.]\{ \}$' Ch10S2[Student@localhost ~]$ egrep '^[^.]\{ \}$' Ch10S2F[Student@localhost ~]$ egrep '^[^.]\{ \}$' Ch10S2F3[Student@localhost ~]$ egrep '^[^.]\{ \}$' Ch10S2F3 
+]0;Student@localhost:~[Student@localhost ~]$ echo we [K[K[Kwe [K[K[K''w'e' 'd'i'd' 'n'o't' 's'e'[1P'[1P'c'e'n't'e'r' 'a'l'[1P'n'y't'h'i'n'g' 's'o' 'w'e' 'c'o'u'l'd' 'n'o't' 'e'x't'r'e'[1P'a'c't' [A[Student@localhost ~]$ echo 'we did not center anything so we could not extract ''t'h'e' 'c'e't'n'e'r'e'd' 'l'i'n'e's'.'
+we did not center anything so we could not extract the cetnered lines.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 02 May 2006 08:49:18 AM EDT

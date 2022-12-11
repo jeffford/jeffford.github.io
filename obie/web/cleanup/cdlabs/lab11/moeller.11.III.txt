@@ -1,0 +1,280 @@
+Script started on Thu 04 May 2006 11:48:22 PM EDT
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat > Ch11S3F1
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+aa
+ab
+ac
+ad
+ae
+af
+ag
+ah
+ai
+aj
+ak
+a
+am
+an
+ao
+ap
+aq
+ar
+as
+at
+au
+av
+aw
+ax
+]0;moellerja@cs:~[moellerja@cs moellerja]$ vi Ch11S3F1
+[?1048h[?1047h[?1h=[1;33r[?25h[?25h[27m[m[H[2J[?25l[33;1H"Ch11S3F1" 50L, 123C[1;1Ha
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+aa
+ab
+ac
+ad
+ae
+af[33;63H28,1[10CTop[28;1H[?25h[?25l[33;64H9[29;1H[?25h[?25l[33;63H30[30;1H[?25h[?25l[33;64H1[31;1H[?25h[?25l[33;64H2[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Hag[33;64H3[12C 5%[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Hah[33;64H4[12C11[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Hai[33;64H5[13C6[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Haj[33;64H6[12C22[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Hak[33;64H7[13C7[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Ha[33;64H8[12C33[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Ham[33;64H9[13C8[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Han[33;63H40[12C44[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Hao[33;64H1[12C50[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Hap[33;64H2[13C5[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Haq[33;64H3[12C61[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Har[33;64H4[13C6[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Has[33;64H5[12C72[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Hat[33;64H6[13C7[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Hau[33;64H7[12C83[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Hav[33;64H8[13C8[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Haw[33;64H9[12C94[32;1H[?25h[?25l[1;32r[32;1H
+[1;33r[32;1Hax[33;63H50[12CBot[32;1H[?25h[?25l[33;63H49[31;1H[?25h[?25l[33;64H8[30;1H[?25h[?25l[33;64H7[29;1H[?25h[?25l[33;64H6[28;1H[?25h[?25l[33;64H5[27;1H[?25h[?25l[33;64H4[26;1H[?25h[?25l[33;64H3[25;1H[?25h[?25l[33;64H2[24;1H[?25h[?25l[33;64H1[23;1H[?25h[?25l[33;64H0[22;1H[?25h[?25l[33;63H39[21;1H[?25h[?25l[33;64H8[20;1H[?25h[?25l[33;64H7[19;1H[?25h[?25l[33;64H6[18;1H[?25h[?25l[33;64H7[19;1H[?25h[?25l[33;64H8[20;1H[?25h[?25l[33;1H[1m-- INSERT --[m[33;13H[K[33;63H38,1[10CBot[20;1H[?25h[?25l[33;66H2[20;2H[?25h[?25ll[33;66H3[20;3H[?25h[33;1H[K[20;2H[?25l[33;63H38,2[10CBot[20;2H[?25h[?25l[33;63H[K[33;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"Ch11S3F1" 50L, 124C written
+[?1l>[?25h[?1047l[?1048l]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S3F[K[K[K[K[K[K[K-n Ch11S3F1 > temp
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat [K[K[K[Kmv temp Ch11S3F1
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S3F1
+     1	a
+     2	b
+     3	c
+     4	d
+     5	e
+     6	f
+     7	g
+     8	h
+     9	i
+    10	j
+    11	k
+    12	l
+    13	m
+    14	n
+    15	o
+    16	p
+    17	q
+    18	r
+    19	s
+    20	t
+    21	u
+    22	v
+    23	w
+    24	x
+    25	y
+    26	z
+    27	aa
+    28	ab
+    29	ac
+    30	ad
+    31	ae
+    32	af
+    33	ag
+    34	ah
+    35	ai
+    36	aj
+    37	ak
+    38	al
+    39	am
+    40	an
+    41	ao
+    42	ap
+    43	aq
+    44	ar
+    45	as
+    46	at
+    47	au
+    48	av
+    49	aw
+    50	ax
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat > Ch11S3.sed
+10,15 s/\(..*\)/\1/w Ch11S3F2
+20,30 s/\)..    \(..*\)/\1/w Ch11S3F2 3
+31,37 s/\(..*\)/1 \1/w Ch11S3F4
+38,50 s/\(..*0 \)/\1/w Ch11S3F5
+1,9 s/\(..*\)/\1/w Ch11S3F5
+16,19 s/\(..*\)/\1/w Ch11S3F5
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S3.sed
+10,15 s/\(..*\)/\1/w Ch11S3F2
+20,30 s/\(..*\)/\1/w Ch11S3F3
+31,37 s/\(..*\)/\1/w Ch11S3F4
+38,50 s/\(..*\)/\1/w Ch11S3F5
+1,9 s/\(..*\)/\1/w Ch11S3F5
+16,19 s/\(..*\)/\1/w Ch11S3F5
+]0;moellerja@cs:~[moellerja@cs moellerja]$ sed -f Ch11S3.sed Ch11S3F1
+     1	a
+     2	b
+     3	c
+     4	d
+     5	e
+     6	f
+     7	g
+     8	h
+     9	i
+    10	j
+    11	k
+    12	l
+    13	m
+    14	n
+    15	o
+    16	p
+    17	q
+    18	r
+    19	s
+    20	t
+    21	u
+    22	v
+    23	w
+    24	x
+    25	y
+    26	z
+    27	aa
+    28	ab
+    29	ac
+    30	ad
+    31	ae
+    32	af
+    33	ag
+    34	ah
+    35	ai
+    36	aj
+    37	ak
+    38	al
+    39	am
+    40	an
+    41	ao
+    42	ap
+    43	aq
+    44	ar
+    45	as
+    46	at
+    47	au
+    48	av
+    49	aw
+    50	ax
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S3F2
+    10	j
+    11	k
+    12	l
+    13	m
+    14	n
+    15	o
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S3F3
+    20	t
+    21	u
+    22	v
+    23	w
+    24	x
+    25	y
+    26	z
+    27	aa
+    28	ab
+    29	ac
+    30	ad
+]0;moellerja@cs:~[moellerja@cs moellerja]$ Ch11S3F4
+bash: Ch11S3F4: command not found
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch[K[K[K[K[K[KCh11S3F4cat Ch11S3F3[K4
+    31	ae
+    32	af
+    33	ag
+    34	ah
+    35	ai
+    36	aj
+    37	ak
+]0;moellerja@cs:~[moellerja@cs moellerja]$ cat Ch11S3F4[4PCh11S3F4cat Ch11S3F4[K5
+     1	a
+     2	b
+     3	c
+     4	d
+     5	e
+     6	f
+     7	g
+     8	h
+     9	i
+    16	p
+    17	q
+    18	r
+    19	s
+    38	al
+    39	am
+    40	an
+    41	ao
+    42	ap
+    43	aq
+    44	ar
+    45	as
+    46	at
+    47	au
+    48	av
+    49	aw
+    50	ax
+]0;moellerja@cs:~[moellerja@cs moellerja]$ exit
+
+Script done on Thu 04 May 2006 11:55:49 PM EDT

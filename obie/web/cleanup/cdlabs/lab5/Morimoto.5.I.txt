@@ -1,0 +1,25 @@
+2. echo $SHELL
+	=> /bin/bash
+
+3. more /etc/passwd
+	=> Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+
+4. echo $0
+	=> bash, same as login shell
+
+5. csh
+
+6. echo $0
+	=> csh
+
+7. bash
+
+8. echo $0
+	=> it matchs the login shell
+
+9. exit => to csh 
+   exit => to login shell
+
+10. Yes
+
+

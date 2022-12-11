@@ -1,0 +1,14 @@
+Script started on Mon 01 May 2006 10:06:33 AM EDT
+]0;vaskok@cs:~[vaskok@cs vaskok]$ mkdir Tem[K[K[KRemote Work
+]0;vaskok@cs:~[vaskok@cs vaskok]$ cd Remot [K[Kte Work
+]0;vaskok@cs:~/Remote[vaskok@cs Remote]$ cd
+]0;vaskok@cs:~[vaskok@cs vaskok]$ mkdir RemoteWork
+]0;vaskok@cs:~[vaskok@cs vaskok]$ RemoteWo[K[K[K[K[K[K[K[Kcd Remote [KWork
+]0;vaskok@cs:~/RemoteWork[vaskok@cs RemoteWork]$ vi Vasko.L7I.txt
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"Vasko.L7I.txt" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[?25l[24;1H[K[24;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"Vasko.L7I.txt" [New] 0L, 0C written
+[?1l>[?25h[?1047l[?1048l]0;vaskok@cs:~/RemoteWork[vaskok@cs RemoteWork]$ ls -l
+[00mtotal 0
+-rw-rw-r--    1 vaskok   vaskok          0 May  1 10:08 [00mVasko.L7I.txt[00m
+[m]0;vaskok@cs:~/RemoteWork[vaskok@cs RemoteWork]$ exit
+
+Script done on Mon 01 May 2006 10:09:12 AM EDT

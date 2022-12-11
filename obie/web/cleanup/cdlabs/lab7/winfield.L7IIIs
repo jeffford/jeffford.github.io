@@ -1,0 +1,27 @@
+Script started on Mon 01 May 2006 08:27:03 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ssh -l winfieldaj cs
+The authenticity of host 'cs (198.30.199.89)' can't be established.
+RSA key fingerprint is 9f:39:73:fd:0b:27:4d:68:e6:4f:43:1f:29:1d:8d:82.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'cs' (RSA) to the list of known hosts.
+winfieldaj@cs's password: 
+]0;winfieldaj@cs:~[winfieldaj@cs winfieldaj]$ script your[K[K[K[Kwinfeidl[K[K[K[Kieldaj.L7III
+Script started, file is winfieldaj.L7III
+]0;winfieldaj@cs:~[winfieldaj@cs winfieldaj]$ dir
+RemoteWork  web  winfieldaj.L7III  winfield.L7Is
+]0;winfieldaj@cs:~[winfieldaj@cs winfieldaj]$ cat <> [K[K[K> RemoteWork/winfield.L7III.txt
+this is a  nother small file
+]0;winfieldaj@cs:~[winfieldaj@cs winfieldaj]$ ls -l
+[00mtotal 8
+drwxrwxr-x    2 winfieldaj winfieldaj     4096 May  1 12:16 [00;34mRemoteWork[00m
+lrwxrwxrwx    1 root     root           25 Dec  3 23:22 [00;36mweb[00m -> [00;34m/home/webusers/winfieldaj[00m
+-rw-rw-r--    1 winfieldaj winfieldaj        0 May  1 12:15 [00mwinfieldaj.L7III[00m
+-rw-rw-r--    1 winfieldaj winfieldaj      867 May  1 12:01 [00mwinfield.L7Is[00m
+[m]0;winfieldaj@cs:~[winfieldaj@cs winfieldaj]$ exit
+Script done, file is winfieldaj.L7III
+]0;winfieldaj@cs:~[winfieldaj@cs winfieldaj]$ quit
+-bash: quit: command not found
+]0;winfieldaj@cs:~[winfieldaj@cs winfieldaj]$ logout
+[H[2JConnection to cs closed.
+]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Mon 01 May 2006 08:33:19 AM EDT

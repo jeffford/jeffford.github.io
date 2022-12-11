@@ -1,0 +1,9 @@
+[RESOURCES]
+Drill Press
+[VARIABLES]
+Part Arrives to System.NumberOut
+Drilling Center.NumberOut
+Drilling Center.VATime
+Drilling Center.NumberIn
+Part Leaves System.NumberOut
+Drilling Center.WaitTime

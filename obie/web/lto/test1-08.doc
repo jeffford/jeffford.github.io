@@ -1,0 +1,709 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff2\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f36\froman\fcharset238\fprq2 Times New Roman CE;}{\f37\froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\f39\froman\fcharset161\fprq2 Times New Roman Greek;}{\f40\froman\fcharset162\fprq2 Times New Roman Tur;}{\f41\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f42\froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\f43\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f44\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f56\fmodern\fcharset238\fprq1 Courier New CE;}{\f57\fmodern\fcharset204\fprq1 Courier New Cyr;}
+{\f59\fmodern\fcharset161\fprq1 Courier New Greek;}{\f60\fmodern\fcharset162\fprq1 Courier New Tur;}{\f61\fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f62\fmodern\fcharset178\fprq1 Courier New (Arabic);}
+{\f63\fmodern\fcharset186\fprq1 Courier New Baltic;}{\f64\fmodern\fcharset163\fprq1 Courier New (Vietnamese);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\s15\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 
+\f2\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext15 \ssemihidden endnote text;}{\*\cs16 \additive \super \sbasedon10 \ssemihidden endnote reference;}{\s17\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 
+\f2\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext17 \ssemihidden footnote text;}{\*\cs18 \additive \super \sbasedon10 \ssemihidden footnote reference;}{\s19\ql \fi-720\li720\ri720\sb480\nowidctlpar
+\tqr\tldot\tx9360\wrapdefault\hyphpar0\faauto\adjustright\rin720\lin720\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 1;}{\s20\ql \fi-720\li1440\ri720\nowidctlpar
+\tqr\tldot\tx9360\wrapdefault\hyphpar0\faauto\adjustright\rin720\lin1440\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 2;}{\s21\ql \fi-720\li2160\ri720\nowidctlpar
+\tqr\tldot\tx9360\wrapdefault\hyphpar0\faauto\adjustright\rin720\lin2160\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 3;}{\s22\ql \fi-720\li2880\ri720\nowidctlpar
+\tqr\tldot\tx9360\wrapdefault\hyphpar0\faauto\adjustright\rin720\lin2880\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 4;}{\s23\ql \fi-720\li3600\ri720\nowidctlpar
+\tqr\tldot\tx9360\wrapdefault\hyphpar0\faauto\adjustright\rin720\lin3600\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 5;}{\s24\ql \fi-720\li720\ri0\nowidctlpar
+\tqr\tx9360\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin720\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 6;}{
+\s25\ql \fi-720\li720\ri0\nowidctlpar\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin720\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 7;}{\s26\ql \fi-720\li720\ri0\nowidctlpar
+\tqr\tx9360\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin720\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 8;}{\s27\ql \fi-720\li720\ri0\nowidctlpar
+\tqr\tldot\tx9360\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin720\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 9;}{\s28\ql \fi-1440\li1440\ri720\nowidctlpar
+\tqr\tldot\tx9360\wrapdefault\hyphpar0\faauto\adjustright\rin720\lin1440\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden index 1;}{\s29\ql \fi-720\li1440\ri720\nowidctlpar
+\tqr\tldot\tx9360\wrapdefault\hyphpar0\faauto\adjustright\rin720\lin1440\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden index 2;}{\s30\ql \li0\ri0\nowidctlpar
+\tqr\tx9360\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \ssemihidden toa heading;}{\s31\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 
+\f2\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \ssemihidden caption;}{\*\cs32 \additive _Equation Caption;}{\s33\ql \li0\ri0\nowidctlpar\tqc\tx4320\tqr\tx8640\wrapdefault\faauto\adjustright\rin0\lin0\itap0 
+\f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext33 header;}{\s34\ql \li0\ri0\nowidctlpar\tqc\tx4320\tqr\tx8640\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext34 footer;}{\*\cs35 \additive \sbasedon10 page number;}}{\*\rsidtbl \rsid155720\rsid789651\rsid791203\rsid860541\rsid2512470\rsid2896278\rsid2959507\rsid2979038\rsid4153551\rsid4212486\rsid4466406\rsid6707388\rsid7689850\rsid8006261
+\rsid8806216\rsid9127813\rsid9527768\rsid10301192\rsid12011966\rsid12074431\rsid13304199\rsid13441527\rsid13719987\rsid14025325\rsid14488449\rsid15225853\rsid16272250}{\*\generator Microsoft Word 10.0.6846;}{\info{\title NAME_________________________  }
+{\author Oberta A. Slotterbeck}{\operator TSS Helpdesk}{\creatim\yr2008\mo9\dy30\hr21\min50}{\revtim\yr2008\mo10\dy1\hr11\min26}{\version15}{\edmins105}{\nofpages13}{\nofwords2709}{\nofchars15445}{\*\company hiram college}{\nofcharsws18118}
+{\vern16393}{\*\password 00000000}}{\*\xmlnstbl {\xmlns1 urn:schemas-microsoft-com:office:smarttags}}\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0 
+\widowctrl\ftnbj\aenddoc\hyphhotz950\grfdocevents0\notabind\wraptrsp\nocolbal\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\sprslnsp\nospaceforul\lytprtmet\hyphcaps0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\viewkind1\viewscale100\nolnhtadjtbl\rsidroot2979038 \fet0{\*\wgrffmtfilter 013f}{\*\ftnsep \pard\plain \ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\fs24\insrsid13441527 \chftnsep }{\insrsid13441527 
+\par }}{\*\ftnsepc \pard\plain \ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid13441527 \chftnsepc 
+\par }}{\*\aftnsep \pard\plain \ql \li0\ri0\sl-20\slmult0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs24\insrsid13441527 
+\par }}{\*\aftnsepc \pard\plain \ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs24\insrsid13441527  }{\insrsid13441527 
+\par }}{\*\aftncn \pard\plain \ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs24\insrsid13441527  }{\insrsid13441527 
+\par }}\sectd \sbknone\pgnrestart\linex0\headery1440\footery1440\pgbrdropt32\sectdefaultcl\sectrsid4153551\sftnbj {\headerr \pard\plain \s33\ql \li0\ri0\nowidctlpar\tqc\tx4320\tqr\tx8640\wrapdefault\faauto\adjustright\rin0\lin0\itap0 
+\f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\f0\fs24\insrsid13441527 NAME_________________________}{\f0\fs24\insrsid13441527 \tab \tab }{\b\f0\fs24\insrsid13441527 CPSC 171, Test 1
+\par \tab \tab page }{\field{\*\fldinst {\cs35\b\f0\fs24\insrsid13441527  PAGE }}{\fldrslt {\cs35\b\f0\fs24\lang1024\langfe1024\noproof\insrsid8006261 11}}}\sectd \linex0\endnhere\sectdefaultcl\sftnbj {\cs35\b\f0\fs24\insrsid13441527  of }{\field{\*\fldinst {
+\cs35\b\fs24\insrsid13441527  NUMPAGES }}{\fldrslt {\cs35\b\fs24\lang1024\langfe1024\noproof\insrsid8006261 13}}}\sectd \linex0\endnhere\sectdefaultcl\sftnbj {\b\f0\fs24\insrsid13441527 
+\par }}{\footerr \pard\plain \ql \li0\ri0\sb140\sl-100\slmult0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs10\insrsid13441527 
+\par }\pard \ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\fs24\insrsid13441527 
+\par }{\lang1024\langfe1024\noproof\insrsid8006261 {\shp{\*\shpinst\shpleft1440\shptop240\shpright10800\shpbottom440\shpfhdr1\shpbxpage\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz0\shplid2049
+{\sp{\sn shapeType}{\sv 1}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn lTxid}{\sv 65536}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}
+{\sp{\sn lineWidth}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn fShadow}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\shptxt \pard\plain \ql \li0\ri0\nowidctlpar
+\tqc\tx4680\tqr\tx9360\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs24\insrsid13441527 \tab }{\b\expnd0\expndtw-2\insrsid13441527 
+\par }}}{\shprslt{\*\do\dobxpage\dobypara\dodhgt8192\dptxbx\dptxlrtb{\dptxbxtext\pard\plain \ql \li0\ri0\nowidctlpar\tqc\tx4680\tqr\tx9360\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\fs24\insrsid13441527 \tab }{\b\expnd0\expndtw-2\insrsid13441527 
+\par }}\dpx1440\dpy240\dpxsize9360\dpysize200\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat0\dplinehollow}}}}{\insrsid13441527 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1 {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1 {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1 {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1 {\pntxta .}}{\*\pnseclvl5\pndec\pnstart1 {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1 
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1 {\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1 {\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain 
+\qj \li0\ri0\nowidctlpar\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\field{\*\fldinst {\f0\fs24\expnd0\expndtw-2\insrsid13441527 PRIVATE }{\f0\expnd0\expndtw-2\insrsid791203 
+{\*\datafield 0c0070686f656e69780001000000000000000000000000000000000000000000000000000300}}}{\fldrslt }}\sectd \sbknone\pgnrestart\linex0\headery1440\footery1440\pgbrdropt32\sectdefaultcl\sectrsid4153551\sftnbj {\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+                        
+\par }\pard \qj \li0\ri0\nowidctlpar\tqc\tx4680\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 \tab CPSC 171: Test 1
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid12011966 \tab Spring, 2008}{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid12011966 {\b\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 DIRECTIONS:}{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 
+ Other than th}{\f0\fs24\expnd0\expndtw-2\insrsid4466406 is test booklet}{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 , you should only have a pen, pencil, and eraser on your desk. In particular, you should }{
+\b\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 NOT}{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987  have a calculator}{\f0\fs24\expnd0\expndtw-2\insrsid4466406 ,, computer,}{
+\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987  or any of your own paper available. I will have some additional white paper available at the front of the room which you can use, sho
+uld you need more paper. All answers should be put on this test booklet}{\f0\fs24\expnd0\expndtw-2\insrsid4466406 . unless you run out of space. If you use additional paper, please mark that fact on your test booklet.
+\par 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987  Please be careful to read the directions below and the ones before each problem carefully. If you have any questions about interpretation, }{
+\b\i\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 please}{\i\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987  }{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 ask me for help.
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par \tab For }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 MATCHING }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 problems, choose }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 all entries marked with capital letters }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+that make the statement true. }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 Note}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  that any entry can be used more than once or not at all.
+\par 
+\par \tab For }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 MULTIPLE CHOICE}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  questions, circle the identifying letter (a,b,c,...) for }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 all correct entries}{
+\f0\fs24\expnd0\expndtw-2\insrsid13441527 . This means that }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 more than one selection may be required}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+. There are a few questions, clearly marked as such, for which only one answer is to be chosen as the best choice.
+\par 
+\par \tab For }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 TRUE-FALSE}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  questions, }{\f0\fs24\ul\expnd0\expndtw-2\insrsid13441527 underline}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  the TRUE or FALSE.
+\par 
+\par \tab For the other problems, lists, words, or phrases that answer the questions may be used and answered in the space provided on the test booklet unless you are told to answer on your own paper
+. This is the default type of question and is unmarked on the test booklet. All other types will be marked.
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid12011966 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 PROBLEM CREDIT:}{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 
+ Normally, each answer for the matching, multiple choice, and true-false questions are 1 point.  Also, the normal credit for }{\f0\fs24\expnd0\expndtw-2\insrsid2959507 the \'93parts of }{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 questions
+\'94 that require a written answer (e.g., discussion answers, giving output of algorithm, etc.) is 1- 3 points, and depends on the amount of work required. Test grades will be curved, with an \'93A\'94 score based on the top performances in the class. }{
+\f0\fs24\uldb\expnd0\expndtw-2\insrsid13441527\charrsid12011966 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par \tab BE SURE TO INCLUDE YOUR INITIALS ON EACH PAGE!
+\par 
+\par \tab REMEMBER THAT YOU MAY NOT FINISH THE TEST. DO NOT RUSH WHEN ANSWERING QUESTIONS JUST TO BE}{\b\f0\fs24\expnd0\expndtw-2\insrsid4466406  ABLE TO REACH THE END.}{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+ SKIP OVER A QUESTION IF YOU HAVE NO CLUE HOW TO SOLVE IT.}{\b\f0\fs24\expnd0\expndtw-2\insrsid8006261  }{\b\i\f0\fs24\expnd0\expndtw-2\insrsid8006261 THE QUESTIONS AT THE END ARE THE HARDER ONES!}{
+\b\i\f0\fs24\expnd0\expndtw-2\insrsid13441527\charrsid8006261 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 \tab 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid8006261 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 1. (MULTIPLE-CHOICE)}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  For a set of instructions to describe an algorithm, the instructions must
+\par }\pard \qj \fi-720\li720\ri0\nowidctlpar\tx-720\tx0\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin720\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid13441527 \tab a. Be unambiguous.
+\par \tab b. Be written in a computer programming language.
+\par \tab c. Direct an activity that terminates and produces a result.
+\par \tab d. Be well-ordered.
+\par \tab e. Be written in pseudocode.
+\par \tab f. Be executable on a computer
+\par \tab g. Be effectively computable
+\par \tab h. None of the above.
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 For questions 2 - 5, assum}{\b\f0\fs24\expnd0\expndtw-2\insrsid8806216 e the computing agent is a student}{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527  at {\*\xmlopen\xmlns1{\factoidname place}}
+{\*\xmlopen\xmlns1{\factoidname PlaceName}}Hiram{\*\xmlclose} {\*\xmlopen\xmlns1{\factoidname PlaceType}}College{\*\xmlclose}{\*\xmlclose} taking CPSC 171 this term. There is }{\b\f0\fs24\ul\expnd0\expndtw-2\insrsid13441527 one and only one}{
+\b\f0\fs24\expnd0\expndtw-2\insrsid13441527  best answer for these questions.
+\par 2.}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 (MULTIPLE CHOICE- 1 answer only)}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  The instruction 
+\par \tab \tab }{\i\f0\fs24\expnd0\expndtw-2\insrsid13441527 Make a list of all the positive integer numbers greater than 100.
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par \tab a. Is ambiguous.
+\par }\pard \qj \fi-720\li720\ri0\nowidctlpar\tx-720\tx0\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin720\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid13441527 \tab b. Is not effectively computable.
+\par \tab c. Is not well-ordered.
+\par \tab d. None of the above 
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 3. (MULTIPLE CHOICE-1 answer only) }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 The instruction
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\tx0\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid13441527 \tab \tab }{\i\f0\fs24\expnd0\expndtw-2\insrsid13441527 Do question 4 or do question 5 on this test next.
+\par }\pard \qj \fi-720\li720\ri0\nowidctlpar\tx-720\tx0\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin720\itap0 {\i\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid13441527 \tab a. Is ambiguous.
+\par }\pard \qj \fi-720\li720\ri0\nowidctlpar\tx-720\tx0\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin720\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid13441527 \tab b. Is not effectively computable.
+\par \tab c. Is not well-ordered.
+\par \tab d. None of the above 
+\par 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 4.}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+(MULTIPLE CHOICE-1 answer only)}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  Consider the pseudocode:
+\par 
+\par }{\i\f0\fs24\expnd0\expndtw-2\insrsid13441527    \tab \tab Assign Data a value of 1
+\par    \tab \tab Repeat the next line until Data > 10
+\par \tab \tab \tab Assign Data the value of Data + 1
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527    
+\par \tab a. This is an algorithm.
+\par }\pard \qj \fi-720\li720\ri0\nowidctlpar\tx-720\tx0\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin720\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid13441527 \tab b. This is not an algorithm because the code is ambiguous.
+\par \tab c. This is not an algorithm because it does not terminate.
+\par \tab d. This is not an algorithm because there are operations that are not effectively computable.
+\par \tab e. This is not an algorithm, but the reason is not given above in b, c, or d.
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 5.}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+(MULTIPLE CHOICE-1 answer only)}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  Consider the pseudocode:
+\par 
+\par    \tab \tab }{\i\f0\fs24\expnd0\expndtw-2\insrsid13441527 Set X to 0.
+\par    \tab \tab Repeat steps 1 and 2 while X < 100
+\par \tab \tab \tab Step 1: If X is not 0 then print the value of X
+\par      \tab \tab \tab Step 2: Subtract 1 from  X
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par \tab a. This is an algorithm.
+\par }\pard \qj \fi-720\li720\ri0\nowidctlpar\tx-720\tx0\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin720\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid13441527 \tab b. This is not an algorithm because the code is ambiguous.
+\par \tab c. This is not an algorithm because it does not terminate.
+\par \tab d. This is not an algorithm because there are operations that are not effectively computable.
+\par \tab e. This is not an algorithm, but the reason is not given above in b, c, or d.
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 6. }{\f0\fs24\expnd0\expndtw-2\insrsid13441527  Show what is printed by each of the following }{\f0\fs24\expnd0\expndtw-2\insrsid8806216 partial }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 algorithms:
+\par 
+\par a. Assign Count a value of 1            ANSWER:
+\par    If Count < 0 then
+\par    \tab Print 'Yes'
+\par    else Print 'No}{\f0\fs24\expnd0\expndtw-2\insrsid2959507 '}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par 
+\par b. Set GPA to a value of 1.0           ANSWER:
+\par    If GPA < 2.0 then
+\par    \tab Print 'Uh-oh'
+\par    Print the value of GPA
+\par 
+\par c. Assign GPA a value of 2.3            ANSWER:
+\par    If GPA < 2.0 then
+\par    \tab Print 'Uh-oh'
+\par    Print the value of GPA
+\par 
+\par d. Set the value of Count to 3          ANSWER:
+\par    While Count < 6 do
+\par \tab \tab Print the value of Count
+\par \tab \tab Set Count to the value of Count + 1
+\par    Print 'END'
+\par 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid9527768 
+\par 
+\par 
+\par 
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid2512470\charrsid2512470 7}{\f0\fs24\expnd0\expndtw-2\insrsid8806216 . Write pseudocode for the following operations:
+\par 
+\par a. Compute and display the value x  divided by y if }{\f0\fs24\expnd0\expndtw-2\insrsid9527768 y is not zero. Otherwise, display "Sorry".}{\f0\fs24\expnd0\expndtw-2\insrsid8806216 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid9527768 
+\par 
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par 
+\par 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid9527768 b. Set n to the value of 1. While n \u8804\'3d 10, print n and increment n by 1.}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid9527768 
+\par 
+\par 
+\par 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid9527768\charrsid9527768 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par 8. On your own paper}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 , trace the following algorithm showing the values of sum, n and the step number being executed displayed as:
+\par 
+\par \tab }{\f0\fs24\ul\expnd0\expndtw-2\insrsid4466406 Step\tab \tab }{\f0\fs24\ul\expnd0\expndtw-2\insrsid13441527\charrsid4466406 sum\tab \tab n
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527               }{\f0\fs24\expnd0\expndtw-2\insrsid4466406   }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par 
+\par If the value isn't assigned yet, write G for its value. Assume your computing agent can add numbers two at a time and can square numbers.
+\par 
+\par \tab Step 1: Set sum equal to 0.
+\par \tab Step 2: Set n equal to 1.
+\par \tab Step 3: Repeat steps 4 and 5 until n > 4.
+\par \tab Step 4:\tab \tab Set sum equal to sum + n}{\f0\fs24\expnd0\expndtw-2\super\insrsid13441527 2}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 .
+\par \tab Step 5:\tab \tab Replace n with n + 1.
+\par \tab Step 6: Print sum.
+\par \tab Step 7. Stop.
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 9. (TRUE-FALSE)}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  All problems have algorithmic solutions, but some of the solutions are impractical.
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 10. (TRUE-FALSE)}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  If we can specify an algorithm to solve a problem, then we can automate the solution.
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 11. (TRUE-FALSE)}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  Computer science is }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527\charrsid4466406 defined}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+ in the textbook as the study and use of computers and computer programs.
+\par }\pard \ql \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\nosnaplinegrid\adjustright\rin0\lin0\itap0\pararsid12011966 {\b\f0\fs24\expnd0\expndtw-2\insrsid2512470 12}{\b\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 
+. (MULTIPLE CHOICE) }{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 Which of the following are true about the history of computing?
+\par \tab a. A device that was like a computer was designed, but not built, in the 1800s by Charles Babbage.
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid4466406 \tab b. }{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 Ada Augusta, Countess of Lovelace, has been called the first programmer as she wrote how Babbage's machine could be used to solve problems.
+
+\par \tab c. There is a dispute as to whether the first computer was built by a German, Zuse, or by two Americans at the {\*\xmlopen\xmlns1{\factoidname place}}{\*\xmlopen\xmlns1{\factoidname PlaceType}}University{\*\xmlclose} of {\*\xmlopen\xmlns1
+{\factoidname PlaceName}}Pennsylvania{\*\xmlclose}{\*\xmlclose}, Mauchley and Eckert.
+\par \tab d. Many early computing devices were designed as mechanical devices.
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid4466406 \tab e. }{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 During World War II, several computers were being designed and constructed.
+\par \tab f. ENIAC had the computing capacity of a modern PC even though it was much larger.}{\f0\fs24\expnd0\expndtw-2\insrsid12011966 
+\par \tab g. Hollerith invented a machine that could sort punched cards and, consequently, allowed the 1890 census to be completed on time.
+\par \tab h. Hollerith founded a company that eventually became Microsoft.
+\par \tab i. ENIAC was built in the 1920s.
+\par \tab j. The first commercial computer, UNIVAC, predicted Eisenhower would win the presidency by a landslide, but the news people refused to believe the early prediction.
+\par \tab k. Early computers at {\*\xmlopen\xmlns1{\factoidname place}}{\*\xmlopen\xmlns1{\factoidname PlaceName}}Hiram{\*\xmlclose} {\*\xmlopen\xmlns1{\factoidname PlaceType}}College{\*\xmlclose}{\*\xmlclose}
+ were the DEC-40 and the VAX  780 in 1974 and 1981 respectively.
+\par \tab l. Parallel computer speed is often measured in GFLOPS- billions of decimal number arithmetic operations performed per second.
+\par \tab m. The APRANET, the forerunner of the Internet, was designed to allow the military to be deployed quickly in the {\*\xmlopen\xmlns1{\factoidname place}}{\*\xmlopen\xmlns1{\factoidname country-region}}United States{\*\xmlclose}{\*\xmlclose}.
+\par \tab n. Alan Turing devised a test that is often mentioned as a test that something is intelligent.}{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid12011966 \tab o}{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 . None of the above
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid2512470 13}{\b\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 .  (MULTIPLE CHOICE) }{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 Some of the characteristics of the earliest machines (1}{
+\f0\fs24\expnd0\expndtw-2\super\insrsid12011966\charrsid13719987 st}{\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987  generation) were
+\par \tab a. They were physically large.
+\par \tab b. Some were programmed by rewiring the machine.
+\par \tab c. Transistors were used to store information.
+\par \tab d. Input was generally limited to punched cards, punched tapes, line printers, and tape drives.
+\par \tab e. They generated a lot of heat.
+\par \tab f. They were expensive.
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid12011966\charrsid13719987 \tab g.. None of the above}{\f0\fs24\expnd0\expndtw-2\insrsid13441527\charrsid4466406 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid2512470 14}{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 . (TRUE-FALSE)}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  Pseudocode is a precise, rigid language used to insure uniformity among programmers.
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid2512470 15}{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 . (TRUE-FALSE)}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  The most important attribute of an algorithm is that it is elegant and cleverly constructed.
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid2512470 16}{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 .}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  When the sequential search algorith}{\f0\fs24\expnd0\expndtw-2\insrsid14025325 m is searching for a target of 11}{
+\f0\fs24\expnd0\expndtw-2\insrsid13441527  in the list
+\par 
+\par \tab 1  7  4  5  9  2  3  4
+\par 
+\par which values in the list are compared to the target? 
+\par ANSWER:
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid2512470 17}{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 . }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 When the binary search algorithm is searching f}{\f0\fs24\expnd0\expndtw-2\insrsid14025325 or a target of 11}{
+\f0\fs24\expnd0\expndtw-2\insrsid13441527  in the list
+\par 
+\par \tab 1  3  4  7  9  10  12  15
+\par 
+\par which values in the list are compared to the target? 
+\par ANSWER:
+\par 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid14025325 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 18. (MULTIPLE CHOICE) }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 When doing complexity analysis, which of the following decisions must be made about an algorithm:
+\par \tab a. How will the input size be determined.
+\par \tab b. What computer will run the algorithm.
+\par \tab c. What computer language will be used to run the algorithm.
+\par \tab d. Should time or space complexity be studied.
+\par \tab e. What operation or operations will be counted.
+\par \tab f. How will all of the instructions be executed.
+\par \tab g. None of the above
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid2959507 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid2959507 {\b\f0\fs24\expnd0\expndtw-2\insrsid12074431 19}{\b\f0\fs24\expnd0\expndtw-2\insrsid2959507 . (TRUE-FALSE) }{
+\f0\fs24\expnd0\expndtw-2\insrsid2959507 If we plan to compare two algorithms, the input size need not be determined in the same way and different operations could be counted.
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid12074431 20}{\b\f0\fs24\expnd0\expndtw-2\insrsid2959507 . (TRUE-FALSE) }{\f0\fs24\expnd0\expndtw-2\insrsid2959507 When calculating time complexity, a count of }{\b\f0\fs24\expnd0\expndtw-2\insrsid2959507 n}{
+\f0\fs24\expnd0\expndtw-2\insrsid2959507  or }{\b\f0\fs24\expnd0\expndtw-2\insrsid2959507 2n}{\f0\fs24\expnd0\expndtw-2\insrsid2959507  is viewed as the same, but when calculating space complexity we view a count of }{
+\b\f0\fs24\expnd0\expndtw-2\insrsid2959507 n}{\f0\fs24\expnd0\expndtw-2\insrsid2959507  and }{\b\f0\fs24\expnd0\expndtw-2\insrsid2959507 2n }{\f0\fs24\expnd0\expndtw-2\insrsid2959507 as different..
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid12074431 21}{\b\f0\fs24\expnd0\expndtw-2\insrsid2959507 . (TRUE-FALSE) }{\f0\fs24\expnd0\expndtw-2\insrsid2959507 If we are studying time complexity for algorithms, then}{\b\f0\fs24\expnd0\expndtw-2\insrsid2959507  }{
+\f0\fs24\expnd0\expndtw-2\insrsid2959507 {\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid2959507 
+(n) represents a collection of algorithms that have timings that could be exactly 2n, 5n + 4, -3n -12, or 3000n.
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid12074431 22}{\b\f0\fs24\expnd0\expndtw-2\insrsid2959507 . (TRUE-FALSE) }{\f0\fs24\expnd0\expndtw-2\insrsid2959507 
+Suppose we count a specific operation for an algorithm and we find the count is calculated as 1 + 2 + 3 + ... + n. Then, we can conclude the algorithm is in }{\f0\fs24\expnd0\expndtw-2\insrsid2959507 {\field{\*\fldinst SYMBOL 81 \\f "Symbol"
+ \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid2959507 (n).
+\par 
+\par 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid2959507 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid2959507 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid12074431 23}{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 .}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 (MATCHING) }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+Match each of the following algorithms with its }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 worst-case order of magnitude for time efficiency}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+ as determined in the textbook or in class. Input size is given by m or n below.}{\f0\fs24\expnd0\expndtw-2\insrsid2959507  }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+Comparisons are counted for searches and pattern matching. Comparisons and exchanges are counted for the sort. Examinations and copies are counted for the data cleanup algorithms.}{\f0\fs24\expnd0\expndtw-2\insrsid8806216 
+ Take your time on this question and think about your lab work also.}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par 
+\par _____a. Searching: Sequential Search\tab \tab \tab A. }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 {\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 (n)
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid10301192 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 _____b. Searching: Binary Search\tab \tab \tab B. }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 {\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 (n}{
+\f0\fs24\expnd0\expndtw-2\super\insrsid13441527 2}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 )
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid10301192 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\tx4290\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid6707388 {\f0\fs24\expnd0\expndtw-2\insrsid13304199 _____c. Tr}{\f0\fs24\expnd0\expndtw-2\insrsid6707388 aveling Salesperson     }{
+\f0\fs24\expnd0\expndtw-2\insrsid13304199 \tab \tab }{\f0\fs24\expnd0\expndtw-2\insrsid6707388 \tab }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 C. }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 {\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt
+\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 (1)}{\f0\fs24\expnd0\expndtw-2\insrsid6707388 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid12074431            }{\f0\fs24\expnd0\expndtw-2\insrsid6707388             (best known algorithm)}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 \tab \tab \tab \tab \tab 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid13304199 
+\par _____d}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 . Data Cleanup: Shuffle Left\tab \tab \tab D. }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 {\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 (n}
+{\f0\fs24\expnd0\expndtw-2\super\insrsid13441527 5}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 )
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13304199 
+\par _____e}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 . Data Cleanup: Copy Over\tab \tab \tab E. }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 {\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 (lg n)
+
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13304199 
+\par _____f}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 . Data Cleanup: Conv}{\f0\fs24\expnd0\expndtw-2\insrsid4466406 erging Pointers               F.}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 {\field{\*\fldinst 
+SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid4466406 (m}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 n)
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13304199 
+\par _____g}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 . Pattern Matching: Forward }{\f39\fs24\expnd0\expndtw-2\insrsid4466406 March         \tab G. \'c8(2}{\f0\fs24\expnd0\expndtw-2\super\insrsid4466406 n}{\f0\fs24\expnd0\expndtw-2\insrsid13304199 )}{
+\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13304199 
+\par _____h. Sorting: Selection Sort                                    H. None of these  
+\par                                   }{\v\f0\fs24\expnd0\expndtw-2\insrsid13304199 . NoneH}{\v\f0\fs24\expnd0\expndtw-2\insrsid13304199\charrsid13304199 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13304199 
+\par _____i. Sorting: Bubble Sort
+\par 
+\par _____j. Sorting: Quicksort}{\f0\fs24\expnd0\expndtw-2\insrsid13304199\charrsid13304199 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid8806216 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid2959507 {\b\f0\fs24\expnd0\expndtw-2\insrsid12074431 24}{\b\f0\fs24\expnd0\expndtw-2\insrsid2959507 .}{\f0\fs24\expnd0\expndtw-2\insrsid2959507  }{
+\b\f0\fs24\expnd0\expndtw-2\insrsid2959507 (MULTIPLE CHOICE) }{\f0\fs24\expnd0\expndtw-2\insrsid2959507 You are told that two algorithms exist for solving a given problem. Algorithm A has }{\f0\fs24\expnd0\expndtw-2\insrsid2959507 {\field{\*\fldinst 
+SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid2959507 (n}{\f0\fs24\expnd0\expndtw-2\super\insrsid2959507 2}{\f0\fs24\expnd0\expndtw-2\insrsid2959507 ) and Algorithm B has }{\f0\fs24\expnd0\expndtw-2\insrsid2959507 
+{\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid2959507 (n lg n) time complexity in the average case. Which of the following can you conclude?
+\par 
+\par \tab a. Algorithm A will use less space than Algorithm B.
+\par \tab b. There could be data sets for which Algorithm A runs faster than Algorithm B.
+\par \tab c. Algorithm B will run faster than Algorithm A on all data.
+\par \tab d. On average data, for large data sets, Algorithm B will probably run faster than Algorithm A. However, the definition of "large" will need to be determined for a particular environment.\tab \tab 
+e. If you knew nothing about the data set and you had what you would view as a very, very large data set, the probable best choice would be Algorithm B if you could not do any further analysis.
+\par \tab f. None of the above.
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\b\f0\fs24\expnd0\expndtw-2\insrsid14488449 25}{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 .}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  }{
+\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 (MATCHING) }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 Match each of the following algorithms with its }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 best-case order of magnitude for time efficiency}{
+\f0\fs24\expnd0\expndtw-2\insrsid13441527  as determined in the textbook or in class. Input size is given by m or n below.
+\par Comparisons are counted for searches and pattern matching. }{\f0\fs24\expnd0\expndtw-2\insrsid12074431 Comparisons and exchanges are co}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+unted for the sort. Examinations and copies are counted for the data cleanup algorithms.}{\f0\fs24\expnd0\expndtw-2\insrsid8806216  Take your time on this one also and think of your lab work.}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid6707388 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid6707388 {\f0\fs24\expnd0\expndtw-2\insrsid6707388 _____a. Searching: Sequential Search\tab \tab \tab A. }{\f0\fs24\expnd0\expndtw-2\insrsid6707388 
+{\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid6707388 (n)
+\par 
+\par _____b. Searching: Binary Search\tab \tab \tab B. }{\f0\fs24\expnd0\expndtw-2\insrsid6707388 {\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid6707388 (n}{\f0\fs24\expnd0\expndtw-2\super\insrsid6707388 
+2}{\f0\fs24\expnd0\expndtw-2\insrsid6707388 )
+\par 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\tx4290\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid6707388 {\f0\fs24\expnd0\expndtw-2\insrsid6707388 _____c. Traveling Salesperson     \tab \tab \tab C. }{\f0\fs24\expnd0\expndtw-2\insrsid6707388 
+{\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid6707388 (1)
+\par                 (best known algorithm)\tab \tab \tab \tab \tab 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid6707388 {\f0\fs24\expnd0\expndtw-2\insrsid6707388 
+\par _____d. Data Cleanup: Shuffle Left\tab \tab \tab D. }{\f0\fs24\expnd0\expndtw-2\insrsid6707388 {\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid6707388 (n}{
+\f0\fs24\expnd0\expndtw-2\super\insrsid6707388 5}{\f0\fs24\expnd0\expndtw-2\insrsid6707388 )
+\par 
+\par _____e. Data Cleanup: Copy Over\tab \tab \tab E. }{\f0\fs24\expnd0\expndtw-2\insrsid6707388 {\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid6707388 (lg n)
+\par 
+\par _____f. Data Cleanup: Converging Pointers               F. }{\f0\fs24\expnd0\expndtw-2\insrsid6707388 {\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid6707388 (mn)
+\par 
+\par }{\f39\fs24\expnd0\expndtw-2\insrsid6707388 _____g. Pattern Matching: Forward March         \tab G. \'c8(2}{\f0\fs24\expnd0\expndtw-2\super\insrsid6707388 n}{\f0\fs24\expnd0\expndtw-2\insrsid6707388 )
+\par 
+\par _____h. Sorting: Selection Sort                                    H. None of these  
+\par                                   }{\v\f0\fs24\expnd0\expndtw-2\insrsid6707388 . NoneH}{\v\f0\fs24\expnd0\expndtw-2\insrsid6707388\charrsid13304199 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid6707388 
+\par _____i. Sorting: Bubble Sort
+\par 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid6707388 _____j. Sorting: Quicksort}{\f0\fs24\expnd0\expndtw-2\insrsid13304199 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid10301192 {\b\f0\fs24\expnd0\expndtw-2\insrsid14488449 26}{\b\f0\fs24\expnd0\expndtw-2\insrsid10301192 .}{\f0\fs24\expnd0\expndtw-2\insrsid10301192  }{
+\b\f0\fs24\expnd0\expndtw-2\insrsid10301192 (MULTIPLE CHOICE) }{\f0\fs24\expnd0\expndtw-2\insrsid10301192 Formal complexity analysis of algorithms is useful because
+\par 
+\par \tab a. It allows for a rough classification of algorithms into rather broad categories that can guide our choice of an algorithm.
+\par \tab b. It gives us precise timing functions for the worst case and the average case for all algorithms we would consider.
+\par \tab c. It tells us which algorithm is the best algorithm to choose in any given situation.
+\par \tab d. It tells us about the algorithm's behavior on large data sets.
+\par \tab e. It tells us about the algorithm's behavior on small data sets.
+\par \tab f. It allows us to avoid doing benchmarkings that are so dependent upon many variables.
+\par \tab g. None of the above.}{\b\f0\fs24\expnd0\expndtw-2\insrsid10301192 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid10301192 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\b\f0\fs24\expnd0\expndtw-2\insrsid10301192 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid14488449 27}{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 .}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  Consider the following list of data:
+\par }{\lang1024\langfe1024\noproof\insrsid8006261 {\shpgrp{\*\shpinst\shpleft288\shptop144\shpright4896\shpbottom576\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz1\shplid1027
+{\sp{\sn groupLeft}{\sv 1728}}{\sp{\sn groupTop}{\sv 2448}}{\sp{\sn groupRight}{\sv 6336}}{\sp{\sn groupBottom}{\sv 2880}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn fLayoutInCell}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\shp{\*\shpinst\shplid1028{\sp{\sn relLeft}{\sv 1728}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2448}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}
+{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1029{\sp{\sn relLeft}{\sv 1728}}{\sp{\sn relTop}{\sv 2880}}
+{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1030{\sp{\sn relLeft}{\sv 2304}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 2304}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1031{\sp{\sn relLeft}{\sv 2880}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 2880}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1032{\sp{\sn relLeft}{\sv 3456}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 3456}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1033{\sp{\sn relLeft}{\sv 4032}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 4032}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1034{\sp{\sn relLeft}{\sv 4608}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 4608}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1035{\sp{\sn relLeft}{\sv 5184}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 5184}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1036{\sp{\sn relLeft}{\sv 5760}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 5760}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1037{\sp{\sn relLeft}{\sv 6336}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8193\dpgroup\dpcount11\dpx288\dpy144\dpxsize4608\dpysize432
+\dpline\dpptx0\dppty0\dpptx4608\dppty0\dpx0\dpy0\dpxsize4608\dpysize0\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx4608\dppty0\dpx0\dpy432\dpxsize4608\dpysize0\dplinew15\dplinecor0\dplinecog0\dplinecob0
+\dpline\dpptx0\dppty0\dpptx0\dppty432\dpx576\dpy0\dpxsize0\dpysize432\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty432\dpx1152\dpy0\dpxsize0\dpysize432\dplinew15\dplinecor0\dplinecog0\dplinecob0
+\dpline\dpptx0\dppty0\dpptx0\dppty432\dpx1728\dpy0\dpxsize0\dpysize432\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty432\dpx2304\dpy0\dpxsize0\dpysize432\dplinew15\dplinecor0\dplinecog0\dplinecob0
+\dpline\dpptx0\dppty0\dpptx0\dppty432\dpx2880\dpy0\dpxsize0\dpysize432\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty432\dpx3456\dpy0\dpxsize0\dpysize432\dplinew15\dplinecor0\dplinecog0\dplinecob0
+\dpline\dpptx0\dppty0\dpptx0\dppty432\dpx4032\dpy0\dpxsize0\dpysize432\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty432\dpx4608\dpy0\dpxsize0\dpysize432\dplinew15\dplinecor0\dplinecog0\dplinecob0
+\dpendgroup\dpx0\dpy0\dpxsize0\dpysize0}}}{\shp{\*\shpinst\shpleft288\shptop144\shpright288\shpbottom576\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz0\shplid1038
+{\sp{\sn shapeType}{\sv 20}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8192\dpline\dpptx0\dppty0\dpptx0\dppty432\dpx288\dpy144\dpxsize0\dpysize432\dplinew15\dplinecor0\dplinecog0\dplinecob0}
+}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 \tab 
+\par          0        3        4  \tab  0  \tab 1       0         7  \tab   2
+\par 
+\par 
+\par a. Show the data after the "shuffle left algorithm" executes to completion on the original data:
+\par }{\lang1024\langfe1024\noproof\insrsid8006261 {\shp{\*\shpinst\shpleft864\shptop184\shpright864\shpbottom760\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz3\shplid1039
+{\sp{\sn shapeType}{\sv 20}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8195\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx864\dpy184\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0}
+}}{\shpgrp{\*\shpinst\shpleft864\shptop184\shpright5472\shpbottom760\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz2\shplid1040
+{\sp{\sn groupLeft}{\sv 1728}}{\sp{\sn groupTop}{\sv 2448}}{\sp{\sn groupRight}{\sv 6336}}{\sp{\sn groupBottom}{\sv 2880}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn lidRegroup}{\sv 0}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn posrelv}{\sv 2}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\shp{\*\shpinst\shplid1041{\sp{\sn relLeft}{\sv 1728}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 6336}}
+{\sp{\sn relBottom}{\sv 2448}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1042{\sp{\sn relLeft}{\sv 1728}}{\sp{\sn relTop}{\sv 2880}}{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1043{\sp{\sn relLeft}{\sv 2304}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 2304}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1044{\sp{\sn relLeft}{\sv 2880}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 2880}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1045{\sp{\sn relLeft}{\sv 3456}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 3456}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1046{\sp{\sn relLeft}{\sv 4032}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 4032}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1047{\sp{\sn relLeft}{\sv 4608}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 4608}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1048{\sp{\sn relLeft}{\sv 5184}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 5184}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1049{\sp{\sn relLeft}{\sv 5760}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 5760}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1050{\sp{\sn relLeft}{\sv 6336}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8194\dpgroup\dpcount11\dpx864\dpy184\dpxsize4608\dpysize576\dpline\dpptx0\dppty0\dpptx4608\dppty0\dpx0\dpy0\dpxsize4608\dpysize0
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx4608\dppty0\dpx0\dpy576\dpxsize4608\dpysize0\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx576\dpy0\dpxsize0\dpysize576
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx1152\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx1728\dpy0\dpxsize0\dpysize576
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx2304\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx2880\dpy0\dpxsize0\dpysize576
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx3456\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx4032\dpy0\dpxsize0\dpysize576
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx4608\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpendgroup\dpx0\dpy0\dpxsize0\dpysize0}}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par    
+\par 
+\par 
+\par b. Show the data after the "copy over algorithm" executes to completion on the original data:
+\par 
+\par }{\lang1024\langfe1024\noproof\insrsid8006261 {\shpgrp{\*\shpinst\shpleft864\shptop80\shpright5472\shpbottom664\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz4\shplid1051
+{\sp{\sn groupLeft}{\sv 2304}}{\sp{\sn groupTop}{\sv 5464}}{\sp{\sn groupRight}{\sv 6912}}{\sp{\sn groupBottom}{\sv 6048}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn fLayoutInCell}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\shpgrp{\*\shpinst\shplid1052{\sp{\sn groupLeft}{\sv 1728}}{\sp{\sn groupTop}{\sv 2448}}{\sp{\sn groupRight}{\sv 6336}}{\sp{\sn groupBottom}{\sv 2880}}
+{\sp{\sn relLeft}{\sv 2304}}{\sp{\sn relTop}{\sv 5464}}{\sp{\sn relRight}{\sv 6912}}{\sp{\sn relBottom}{\sv 6040}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn lidRegroup}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\shp{\*\shpinst\shplid1053{\sp{\sn relLeft}{\sv 1728}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 6336}}
+{\sp{\sn relBottom}{\sv 2448}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1054{\sp{\sn relLeft}{\sv 1728}}{\sp{\sn relTop}{\sv 2880}}{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1055{\sp{\sn relLeft}{\sv 2304}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 2304}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1056{\sp{\sn relLeft}{\sv 2880}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 2880}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1057{\sp{\sn relLeft}{\sv 3456}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 3456}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1058{\sp{\sn relLeft}{\sv 4032}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 4032}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1059{\sp{\sn relLeft}{\sv 4608}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 4608}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1060{\sp{\sn relLeft}{\sv 5184}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 5184}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1061{\sp{\sn relLeft}{\sv 5760}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 5760}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1062{\sp{\sn relLeft}{\sv 6336}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}}}{\shp{\*\shpinst\shplid1063{\sp{\sn relLeft}{\sv 2304}}{\sp{\sn relTop}{\sv 5472}}{\sp{\sn relRight}{\sv 2304}}{\sp{\sn relBottom}{\sv 6048}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8196\dpgroup\dpcount3\dpx864\dpy80\dpxsize4608\dpysize584\dpgroup\dpcount11\dpx0\dpy0\dpxsize4608\dpysize576\dpline\dpptx0\dppty0\dpptx4608\dppty0\dpx0\dpy0\dpxsize4608\dpysize0
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx4608\dppty0\dpx0\dpy576\dpxsize4608\dpysize0\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx576\dpy0\dpxsize0\dpysize576
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx1152\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx1728\dpy0\dpxsize0\dpysize576
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx2304\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx2880\dpy0\dpxsize0\dpysize576
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx3456\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx4032\dpy0\dpxsize0\dpysize576
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx4608\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpendgroup\dpx0\dpy0\dpxsize0\dpysize0\dpline\dpptx0\dppty0\dpptx0\dppty576
+\dpx0\dpy8\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpendgroup\dpx0\dpy0\dpxsize0\dpysize0}}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527    
+\par 
+\par 
+\par }{\lang1024\langfe1024\noproof\insrsid8006261 {\shpgrp{\*\shpinst\shpleft864\shptop256\shpright5472\shpbottom840\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz5\shplid1064
+{\sp{\sn groupLeft}{\sv 2304}}{\sp{\sn groupTop}{\sv 5464}}{\sp{\sn groupRight}{\sv 6912}}{\sp{\sn groupBottom}{\sv 6048}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn lidRegroup}{\sv 0}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn posrelv}{\sv 2}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\shpgrp{\*\shpinst\shplid1065{\sp{\sn groupLeft}{\sv 1728}}{\sp{\sn groupTop}{\sv 2448}}{\sp{\sn groupRight}{\sv 6336}}
+{\sp{\sn groupBottom}{\sv 2880}}{\sp{\sn relLeft}{\sv 2304}}{\sp{\sn relTop}{\sv 5464}}{\sp{\sn relRight}{\sv 6912}}{\sp{\sn relBottom}{\sv 6040}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn lidRegroup}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\shp{\*\shpinst\shplid1066{\sp{\sn relLeft}{\sv 1728}}
+{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2448}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1067{\sp{\sn relLeft}{\sv 1728}}{\sp{\sn relTop}{\sv 2880}}
+{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1068{\sp{\sn relLeft}{\sv 2304}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 2304}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1069{\sp{\sn relLeft}{\sv 2880}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 2880}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1070{\sp{\sn relLeft}{\sv 3456}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 3456}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1071{\sp{\sn relLeft}{\sv 4032}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 4032}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1072{\sp{\sn relLeft}{\sv 4608}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 4608}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1073{\sp{\sn relLeft}{\sv 5184}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 5184}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1074{\sp{\sn relLeft}{\sv 5760}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 5760}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1075{\sp{\sn relLeft}{\sv 6336}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}}}{\shp{\*\shpinst\shplid1076{\sp{\sn relLeft}{\sv 2304}}{\sp{\sn relTop}{\sv 5472}}
+{\sp{\sn relRight}{\sv 2304}}{\sp{\sn relBottom}{\sv 6048}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8197\dpgroup\dpcount3\dpx864\dpy256\dpxsize4608\dpysize584\dpgroup\dpcount11\dpx0\dpy0\dpxsize4608\dpysize576\dpline\dpptx0\dppty0\dpptx4608\dppty0
+\dpx0\dpy0\dpxsize4608\dpysize0\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx4608\dppty0\dpx0\dpy576\dpxsize4608\dpysize0\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576
+\dpx576\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx1152\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576
+\dpx1728\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx2304\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576
+\dpx2880\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx3456\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576
+\dpx4032\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx4608\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0
+\dpendgroup\dpx0\dpy0\dpxsize0\dpysize0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx0\dpy8\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpendgroup\dpx0\dpy0\dpxsize0\dpysize0}}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par 
+\par 
+\par 
+\par 
+\par c. Show the data after the "converging pointers algorithm "executes to completion on the original data:
+\par }{\lang1024\langfe1024\noproof\insrsid8006261 {\shpgrp{\*\shpinst\shpleft864\shptop160\shpright5472\shpbottom744\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz6\shplid1077
+{\sp{\sn groupLeft}{\sv 2304}}{\sp{\sn groupTop}{\sv 5464}}{\sp{\sn groupRight}{\sv 6912}}{\sp{\sn groupBottom}{\sv 6048}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn lidRegroup}{\sv 0}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn posrelv}{\sv 2}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\shpgrp{\*\shpinst\shplid1078{\sp{\sn groupLeft}{\sv 1728}}{\sp{\sn groupTop}{\sv 2448}}{\sp{\sn groupRight}{\sv 6336}}
+{\sp{\sn groupBottom}{\sv 2880}}{\sp{\sn relLeft}{\sv 2304}}{\sp{\sn relTop}{\sv 5464}}{\sp{\sn relRight}{\sv 6912}}{\sp{\sn relBottom}{\sv 6040}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn lidRegroup}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\shp{\*\shpinst\shplid1079{\sp{\sn relLeft}{\sv 1728}}
+{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2448}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1080{\sp{\sn relLeft}{\sv 1728}}{\sp{\sn relTop}{\sv 2880}}
+{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1081{\sp{\sn relLeft}{\sv 2304}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 2304}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1082{\sp{\sn relLeft}{\sv 2880}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 2880}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1083{\sp{\sn relLeft}{\sv 3456}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 3456}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1084{\sp{\sn relLeft}{\sv 4032}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 4032}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1085{\sp{\sn relLeft}{\sv 4608}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 4608}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1086{\sp{\sn relLeft}{\sv 5184}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 5184}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1087{\sp{\sn relLeft}{\sv 5760}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 5760}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1088{\sp{\sn relLeft}{\sv 6336}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}}}{\shp{\*\shpinst\shplid1089{\sp{\sn relLeft}{\sv 2304}}{\sp{\sn relTop}{\sv 5472}}
+{\sp{\sn relRight}{\sv 2304}}{\sp{\sn relBottom}{\sv 6048}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8198\dpgroup\dpcount3\dpx864\dpy160\dpxsize4608\dpysize584\dpgroup\dpcount11\dpx0\dpy0\dpxsize4608\dpysize576\dpline\dpptx0\dppty0\dpptx4608\dppty0
+\dpx0\dpy0\dpxsize4608\dpysize0\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx4608\dppty0\dpx0\dpy576\dpxsize4608\dpysize0\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576
+\dpx576\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx1152\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576
+\dpx1728\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx2304\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576
+\dpx2880\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx3456\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576
+\dpx4032\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx4608\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0
+\dpendgroup\dpx0\dpy0\dpxsize0\dpysize0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx0\dpy8\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpendgroup\dpx0\dpy0\dpxsize0\dpysize0}}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par    
+\par 
+\par 
+\par d. Briefly describe the problem that is solved by the three algorithms above.
+\par 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid8806216 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par 
+\par e.}{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527  }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 Show the data after the "selection sort" executes three passes over the original data. Assume the largest values will be on the right. 
+\par }{\lang1024\langfe1024\noproof\insrsid8006261 {\shp{\*\shpinst\shpleft864\shptop100\shpright864\shpbottom676\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz8\shplid1090
+{\sp{\sn shapeType}{\sv 20}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn lidRegroup}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8200\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx864\dpy100\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0}}}
+{\shpgrp{\*\shpinst\shpleft864\shptop92\shpright5472\shpbottom668\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz7\shplid1091{\sp{\sn groupLeft}{\sv 1728}}{\sp{\sn groupTop}{\sv 2448}}{\sp{\sn groupRight}{\sv 6336}}
+{\sp{\sn groupBottom}{\sv 2880}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn rotation}{\sv 0}}{\sp{\sn lidRegroup}{\sv 1}}{\sp{\sn posrelh}{\sv 2}}
+{\sp{\sn posrelv}{\sv 2}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\shp{\*\shpinst\shplid1092{\sp{\sn relLeft}{\sv 1728}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 6336}}
+{\sp{\sn relBottom}{\sv 2448}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1093{\sp{\sn relLeft}{\sv 1728}}{\sp{\sn relTop}{\sv 2880}}{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1094{\sp{\sn relLeft}{\sv 2304}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 2304}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1095{\sp{\sn relLeft}{\sv 2880}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 2880}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1096{\sp{\sn relLeft}{\sv 3456}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 3456}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1097{\sp{\sn relLeft}{\sv 4032}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 4032}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1098{\sp{\sn relLeft}{\sv 4608}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 4608}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1099{\sp{\sn relLeft}{\sv 5184}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 5184}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}
+{\shp{\*\shpinst\shplid1100{\sp{\sn relLeft}{\sv 5760}}{\sp{\sn relTop}{\sv 2448}}{\sp{\sn relRight}{\sv 5760}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}{\shp{\*\shpinst\shplid1101{\sp{\sn relLeft}{\sv 6336}}{\sp{\sn relTop}{\sv 2448}}
+{\sp{\sn relRight}{\sv 6336}}{\sp{\sn relBottom}{\sv 2880}}{\sp{\sn fRelFlipH}{\sv 0}}{\sp{\sn fRelFlipV}{\sv 0}}{\sp{\sn shapeType}{\sv 20}}{\sp{\sn shapePath}{\sv 4}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8199\dpgroup\dpcount11\dpx864\dpy92\dpxsize4608\dpysize576\dpline\dpptx0\dppty0\dpptx4608\dppty0\dpx0\dpy0\dpxsize4608\dpysize0
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx4608\dppty0\dpx0\dpy576\dpxsize4608\dpysize0\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx576\dpy0\dpxsize0\dpysize576
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx1152\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx1728\dpy0\dpxsize0\dpysize576
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx2304\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx2880\dpy0\dpxsize0\dpysize576
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx3456\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx4032\dpy0\dpxsize0\dpysize576
+\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpline\dpptx0\dppty0\dpptx0\dppty576\dpx4608\dpy0\dpxsize0\dpysize576\dplinew15\dplinecor0\dplinecog0\dplinecob0\dpendgroup\dpx0\dpy0\dpxsize0\dpysize0}}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par 
+\par 
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid8806216 
+\par 
+\par 
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid8006261 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 28. (MULTIPLE CHOICE-1 choice only) }{\f0\fs24\expnd0\expndtw-2\insrsid8006261 What}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  }{\f0\fs24\expnd0\expndtw-2\insrsid14025325 single }{
+\f0\fs24\expnd0\expndtw-2\insrsid13441527 property of an algorithm affects its running time the most if you know nothing about the size or nature of the input?
+\par \tab a. The language in which it is coded.
+\par \tab b. The computer on which it is run.
+\par \tab c. Its complexity class.
+\par \tab d. The constants in the formula counting the amount of work.
+\par \tab e. None of the above
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 2}{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 9. (TRUE-FALSE)}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  An algorithm that is }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 {\field{\*\fldinst SYMBOL 81 \\f 
+"Symbol" \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 (1) for its worst case is one that does the same amount of work independent of the input size on any kind of data.
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 30. (TRUE-FALSE)}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  No one has been able to discover an algorithm in }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 {\field{\*\fldinst SYMBOL 81 \\f "Symbol"
+ \\s 12}{\fldrslt\f3\fs24}}}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 (2}{\f0\fs24\expnd0\expndtw-2\super\insrsid13441527 n}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 ).
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 31. (TRUE-FALSE) }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 An algorithm with time complexity }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 {\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{
+\f0\fs24\expnd0\expndtw-2\insrsid13441527 (n) will always run faster than another algorithm with time complexity }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 {\field{\*\fldinst SYMBOL 81 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{
+\f0\fs24\expnd0\expndtw-2\insrsid13441527 (n}{\f0\fs24\expnd0\expndtw-2\super\insrsid13441527 3}{\f0\fs24\expnd0\expndtw-2\insrsid13441527 ).
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid10301192 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid4212486 {\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 32. }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+Give estimates for these times as we did in the homework, not exact predictions as in the lab where the constant K was calculated.}{\f0\fs24\expnd0\expndtw-2\insrsid13441527\charrsid13441527 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par  }{\f39\fs24\expnd0\expndtw-2\insrsid4212486 a. You have carefully timed an algorithm on your computer and have discovered that a \'c8(n) algorithm takes 10 seconds to exe}{\f0\fs24\expnd0\expndtw-2\insrsid4212486 cute when n = 100. How long would you }{
+\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 estimate}{\f0\fs24\expnd0\expndtw-2\insrsid13441527  it}{\f0\fs24\expnd0\expndtw-2\insrsid4212486  would take when n = 800?
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }{\f39\fs24\expnd0\expndtw-2\insrsid4212486 b. You have carefully timed an algorithm on your computer and have discovered that a \'c8(n}{\f0\fs24\expnd0\expndtw-2\super\insrsid4212486 2}{\f0\fs24\expnd0\expndtw-2\insrsid4212486 
+) algorithm takes 10 seconds to execute when n = 100. How long would you }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 estimate}{\f0\fs24\expnd0\expndtw-2\insrsid4212486  it would take when n = 800?
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }{\f39\fs24\expnd0\expndtw-2\insrsid4212486 c. You have carefully timed an algorithm on your computer and have discovered that a \'c8(lg n) algorithm takes 10 seconds to execute when n = 100. How long would you }{
+\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 estimate}{\f0\fs24\expnd0\expndtw-2\insrsid4212486  it would take when n = 800?
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid13441527 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid4466406 {\f39\fs24\expnd0\expndtw-2\insrsid4212486 d. c. You have carefully timed an algorithm on your computer and have discovered that a \'c8(2}{
+\f0\fs24\expnd0\expndtw-2\super\insrsid4212486 n}{\f0\fs24\expnd0\expndtw-2\insrsid4212486 ) algorithm takes 10 seconds to execute when n = 100. How long would you }{\b\f0\fs24\expnd0\expndtw-2\insrsid13441527 estimate}{
+\f0\fs24\expnd0\expndtw-2\insrsid4212486  it would take when n = 800?}{\f0\fs24\expnd0\expndtw-2\insrsid14025325 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid10301192 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid14488449 33. }{\f0\fs24\expnd0\expndtw-2\insrsid10301192 Would the text 
+\par \tab AAAAAAAAAAAAAAAAA\tab \tab \tab ANSWER:
+\par and a pattern of AAAAB
+\par be an example of worst case data for the pattern matching algorithm?
+\par 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid8006261 
+\par }{\b\f0\fs24\expnd0\expndtw-2\insrsid14488449\charrsid14488449 34}{\f0\fs24\expnd0\expndtw-2\insrsid10301192 . }{\f0\fs24\expnd0\expndtw-2\insrsid16272250 (}{\b\f0\fs24\expnd0\expndtw-2\insrsid16272250 MULTIPLE CHOICE}{
+\f0\fs24\expnd0\expndtw-2\insrsid16272250 ) When the Quicksort finishes with the partioning part of the algorithm, which of the following are true  (assuming all elements ar unique)?}{\f0\fs24\expnd0\expndtw-2\insrsid10301192 
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid16272250 \tab a. The pivot will be in its correct position for the data when sorted.
+\par \tab b. The elements to the left of the pivot are smaller than the pivot.
+\par \tab c. The elements to the right of the pivot are larger than the pivot.
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid14488449 \tab d. The data is soeted.
+\par \tab e, None of the above
+\par }\pard \qj \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid14025325 {\b\f0\fs24\insrsid14488449 35}{\b\f0\fs24\insrsid14025325 . }{\f0\fs24\insrsid14025325 
+Consider the algorithm given on the last page of this booklet.}{\f0\fs24\insrsid8806216  (You might want to remove tha}{\f0\fs24\insrsid15225853 t page so you can use it for}{\f0\fs24\insrsid8806216  this question).}{\f0\fs24\insrsid14025325 
+\par \tab a. }{\b\f0\fs24\insrsid14488449 (On your own paper) }{\f0\fs24\insrsid14025325 Trace the algorithm using input values of a = 2 and b = 5. After each completed pass through the loop, write down the current values of the four variables 
+\par \tab \tab }{\f0\fs24\ul\insrsid14025325\charrsid2896278 a\tab \tab b \tab \tab count\tab \tab \tab product
+\par }\pard \qj \fi720\li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid14488449 {\f0\fs24\insrsid14025325 
+b. Describe what would be output by the algorithm if the original input is a = -2 and b = 4
+\par }{\f0\fs24\insrsid14488449 
+\par }{\f0\fs24\insrsid15225853 
+\par }{\f0\fs24\insrsid14488449 
+\par }{\f0\fs24\insrsid14025325 c. Describe what would be output by the algorithim if the original input is a = 2 and }{\f0\fs24\insrsid6707388 
+\par }\pard \qj \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid14025325 {\f0\fs24\insrsid14025325 b = -4.
+\par 
+\par }{\f0\fs24\insrsid15225853 
+\par 
+\par }\pard \qj \fi720\li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid14488449 {\f0\fs24\insrsid14025325 d. When does the algorithm fail to produce a correct answer.}{
+\f0\fs24\insrsid15225853   How would you fix the algorithm? (Pseudocode is not necessary - just a description of a fix.)}{\f0\fs24\insrsid14025325 
+\par }\pard \qj \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid14025325 {\b\f0\fs24\insrsid14488449 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid9127813 {\b\f0\fs24\expnd0\expndtw-2\insrsid9127813\charrsid8006261 36.}{\f0\fs24\expnd0\expndtw-2\insrsid9127813  We have a school in which each of }{
+\b\f0\fs24\expnd0\expndtw-2\insrsid9127813 n }{\f0\fs24\expnd0\expndtw-2\insrsid9127813 classrooms has students in }{\b\f0\fs24\expnd0\expndtw-2\insrsid9127813 n}{\f0\fs24\expnd0\expndtw-2\insrsid9127813  rows and }{
+\b\f0\fs24\expnd0\expndtw-2\insrsid9127813 n}{\f0\fs24\expnd0\expndtw-2\insrsid9127813  columns. We want to print the name of every student in the school. Assume we are counting the operation }{\b\f0\fs24\expnd0\expndtw-2\insrsid9127813 print }{
+\f0\fs24\expnd0\expndtw-2\insrsid9127813 and we are determining time complexity. The algorithm has a person move from classroom to classroom and the person prints the name of each student in each column and row. Explain your answers below.
+\par 
+\par a. Is there any difference between the worst case and the best case of this algorithm?
+\par }{\f0\fs24\expnd0\expndtw-2\cf5\insrsid9127813 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid9127813 {\f0\fs24\expnd0\expndtw-2\insrsid9127813 
+\par 
+\par 
+\par b. What is the time complexity of the algorithm?
+\par }{\f0\fs24\expnd0\expndtw-2\insrsid789651 
+\par 
+\par 
+\par 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid789651 {\b\f0\fs24\expnd0\expndtw-2\insrsid789651\charrsid8006261 37.}{\f0\fs24\expnd0\expndtw-2\insrsid789651\charrsid789651  }{
+\f0\fs24\expnd0\expndtw-2\insrsid789651 The input for an algorithm is a list of n whole numbers in a horizontal list each randomly chosen between 1 and 100. The algorithm examines each of the numbers sequentially from left to right and
+ prints a number once if it is less than 50 and prints it n times if it is greater than 50. Assume that you are counting the number of print operations executed.
+\par 
+\par a. Show the output produced on the input
+\par 
+\par \tab 11  51  2  100  49
+\par ANSWER:
+\par 
+\par 
+\par b. }{\b\f0\fs24\expnd0\expndtw-2\insrsid789651 On your own paper, }{\f0\fs24\expnd0\expndtw-2\insrsid789651 describe best case data and specify the best case order of magnitude. Explain your answer.
+\par 
+\par c. }{\b\f0\fs24\expnd0\expndtw-2\insrsid789651 On your own paper, }{\f0\fs24\expnd0\expndtw-2\insrsid789651 describe worst case data and specify the worst case order of magnitude. Explain your answer.
+\par 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid9127813 {\insrsid789651\charrsid789651 
+\par }\pard \qj \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9127813 {\b\f0\fs24\expnd0\expndtw-2\insrsid9127813 \tab }{\b\f0\fs24\insrsid14488449 
+\par }\pard \qj \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid14025325 {\b\f0\fs24\insrsid14488449 
+\par 
+\par }{\b\f0\fs24\insrsid9127813 
+\par Algorithm for Question 35}{\b\f0\fs24\insrsid14025325\charrsid10301192  :
+\par }{\b\f0\fs24\insrsid14025325\charrsid8806216 MULTIPLICATION VIA REPEATED ADDITION
+\par }{\f0\fs24\insrsid14025325 Get values for a and b.
+\par If (either a = 0 or b= 0) then
+\par \tab Set the value of product to 0
+\par Else
+\par \tab Set the value of count to 0
+\par \tab Set the value of product to 0
+\par \tab While (count < b) do
+\par \tab \tab Set the value of product to (product + a)
+\par \tab Increment count
+\par \tab End loop
+\par Print the value of product}{\f0\fs24\insrsid14025325\charrsid2896278 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0\pararsid14025325 {\f0\fs24\expnd0\expndtw-2\insrsid14025325 
+\par }\pard \qj \li0\ri0\nowidctlpar\tx-720\wrapdefault\hyphpar0\faauto\adjustright\rin0\lin0\itap0 {\f0\fs24\expnd0\expndtw-2\insrsid14025325 
+\par 
+\par 
+\par }}

@@ -1,0 +1,87 @@
+Script started on Tue 25 Apr 2006 07:51:22 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ find date "+%D %H"[3PI"H"D"[5Pcal 02100man scriptfind ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; [1P[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups \; [2P[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups; [4h \[4l[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups \; [4h [4l[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; [1P[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups \; [2P[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups; [1P [K -exec cp{} ~/backups ; [4h \[4l[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups \; [4h [4l[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; \
+> find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; \[K
+find: paths must precede expression
+Usage: find [-H] [-L] [-P] [path...] [expression]
+]0;Student@localhost:~[Student@localhost ~]$ [Afind ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; findd ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; fi[K
+[K[A[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; fi[K[K[K[K[K[K[Ks \:[K;
+]0;Student@localhost:~[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; findd ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; [A[Student@localhost ~]$ date "+%D %H"[K
+[K[A[Student@localhost ~]$ date "+%D %H"[3PI"H"D"[5Pcal 02100man scriptfind ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; [1P[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups \; [2P[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups; [1P [Khw4*[K~/assignments/UNIX/hw4* -exec cp{} ~/backups ; [4h \[4l[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups \; [4h [4l[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; [Student@localhost ~]$ man script[K[2Pcal 2100man scriptfind ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; [1P[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups \; [2P[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups; [1P [Khw4*[Kmkdir backupsscript calapa.2.II.txtexit[Kls -pman ls[3Pls -lin -s hw4 hw4sl[3Phw4 hw4hlpwd[Kcd assignments/UNIXfind ~/assignments/UNIX/hw4 ~/assignments/UNIX/hw4.bkhw4.bk[K[19P[Student@localhost ~]$ find hw4 hw4.bk[4h~/assignments/UNIX/[4l[Student@localhost ~]$ find ~/assignments/UNIX/hw4 hw4.bk~/assignments/UNIX/hw4.bk[Student@localhost ~]$ [34Pcd assignments/UNIXpwd[Kln hw4 hw4hl-s hw4 hw4sl[9Ps -li[Kman ls[1Pls -p[1Pexitscript calapa.2.II.txt[9Pmkdir backups[4Pfind hw4*~/assignments/UNIX/hw4* -exec cp{} ~/backups ; [4h \[4l[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups \; [4h [4l[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; [Student@localhost ~]$ man script[K[2Pcal 21000[Kdate "+%D"H"I"D %H"find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; findd ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; [A[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \;[K
+[K[A[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \;[Student@localhost ~]$ [Kls -li ~/backups/hw4* 
+[00m227477 -rw-rw-r--  1 Student Student 66 Apr 25 07:55 [00m/home/Student/backups/hw4[00m
+227478 -rw-rw-r--  1 Student Student 66 Apr 25 07:55 [00m/home/Student/backups/hw4.bk[00m
+227479 -rw-rw-r--  1 Student Student 66 Apr 25 07:55 [00m/home/Student/backups/hw4hl[00m
+227480 -rw-rw-r--  1 Student Student 66 Apr 25 07:55 [00m/home/Student/backups/hw4sl[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -li ~/backups/hw4* [Kls -li ~/backups/hw4* [1P[1P[1P[1P[1P[1P[1P[4ha[4l[4hs[4l[4hs[4l[4hi[4l[4hg[4l[4hn[4l[4hm[4l[4he[4l[4hn[4l[4ht[4l[4hs[4l[Student@localhost ~]$ ls -li ~/assignments/[4hs[4l[1P[4hU[4l[4hN[4l[4hI[4l[4hX[4l[4h/[4l
+[00m227913 -rw-rw-r--  2 Student Student 66 Apr 24 08:25 [00m/home/Student/assignments/UNIX/hw4[00m
+227909 -rw-rw-r--  1 Student Student 66 Apr 24 08:34 [00m/home/Student/assignments/UNIX/hw4.bk[00m
+227913 -rw-rw-r--  2 Student Student 66 Apr 24 08:25 [00m/home/Student/assignments/UNIX/hw4hl[00m
+227912 lrwxrwxrwx  1 Student Student  3 Apr 24 08:39 [00;36m/home/Student/assignments/UNIX/hw4sl[00m -> [00mhw4[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ [K[Student@localhost ~]$ ls -li ~/assignments/UNIX/hw4* [9Pbackups[Student@localhost ~]$ ls -li ~/backups/hw4* find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; find ~/assignmeents/UNIX/hw4* -exec cp {} ~/backups \; [A[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \;[K
+[K[A[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \;[Student@localhost ~]$ [31Pls -li ~/backups/hw4* [4hassignmen[4lts/UNIX[Student@localhost ~]$ ls -li ~/assignments/UNIX/hw4* [Student@localhost ~]$ [Krm ~/assignments/UNIX/hw4
+]0;Student@localhost:~[Student@localhost ~]$ find rm ~/assignments/UNIX/hw4[Student@localhost ~]$ ls -li ~/assignments/UNIX/hw4* [9Pbackups[Student@localhost ~]$ ls -li ~/backups/hw4* find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; find ~/assignmeents/UNIX/hw4* -exec cp {} ~/backups \; [A[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \;[K
+[K[A[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \;[Student@localhost ~]$ [31Pls -li ~/backups/hw4* find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \;[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K*
+/home/Student/assignments/UNIX/hw4.bk
+/home/Student/assignments/UNIX/hw4hl
+/home/Student/assignments/UNIX/hw4sl
+]0;Student@localhost:~[Student@localhost ~]$ find ~/assignments/UNIX/hw4*[Student@localhost ~]$ [3Prm ~/assignments/UNIX/hw4[Student@localhost ~]$ ls -li ~/assignments/UNIX/hw4* [9Pbackups[Student@localhost ~]$ ls -li ~/backups/hw4* [1P[1P[1P[1P[1P[1P[4hf[4l[4hi[4l[4hn[4l[4hd[4l[Student@localhost ~]$ find [Student@localhost ~]$ find ~[Student@localhost ~]$ find ~/[Student@localhost ~]$ find ~/b[Student@localhost ~]$ find ~/ba[Student@localhost ~]$ find ~/bac[Student@localhost ~]$ find ~/back[Student@localhost ~]$ find ~/backu[Student@localhost ~]$ find ~/backup[Student@localhost ~]$ find ~/backups[Student@localhost ~]$ find ~/backups/[Student@localhost ~]$ find ~/backups/h[Student@localhost ~]$ find ~/backups/hw[Student@localhost ~]$ find ~/backups/hw4[Student@localhost ~]$ find ~/backups/hw4*[Student@localhost ~]$ find ~/backups/hw4* 
+/home/Student/backups/hw4
+/home/Student/backups/hw4.bk
+/home/Student/backups/hw4hl
+/home/Student/backups/hw4sl
+]0;Student@localhost:~[Student@localhost ~]$ find ~/backups/hw4* assignments/UNIX/hw4*[Student@localhost ~]$ [3Prm ~/assignments/UNIX/hw4[Student@localhost ~]$ ls -li ~/assignments/UNIX/hw4* 
+[00m227909 -rw-rw-r--  1 Student Student 66 Apr 24 08:34 [00m/home/Student/assignments/UNIX/hw4.bk[00m
+227913 -rw-rw-r--  1 Student Student 66 Apr 24 08:25 [00m/home/Student/assignments/UNIX/hw4hl[00m
+227912 lrwxrwxrwx  1 Student Student  3 Apr 24 08:39 [01;05;37;41m/home/Student/assignments/UNIX/hw4sl[00m -> [01;05;37;41mhw4[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -li ~/assignments/UNIX/hw4* [Student@localhost ~]$ [11Pfind ~/backups[Student@localhost ~]$ find ~/backups/hw4* assignments/UNIX/hw4*[Student@localhost ~]$ [3Prm ~/assignments/UNIX/hw4[Student@localhost ~]$ ls -li ~/assignments/UNIX/hw4* [9Pbackups[Student@localhost ~]$ ls -li ~/backups/hw4* 
+[00m227477 -rw-rw-r--  1 Student Student 66 Apr 25 07:55 [00m/home/Student/backups/hw4[00m
+227478 -rw-rw-r--  1 Student Student 66 Apr 25 07:55 [00m/home/Student/backups/hw4.bk[00m
+227479 -rw-rw-r--  1 Student Student 66 Apr 25 07:55 [00m/home/Student/backups/hw4hl[00m
+227480 -rw-rw-r--  1 Student Student 66 Apr 25 07:55 [00m/home/Student/backups/hw4sl[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -li ~/backups/hw4* [Kcp [K[K[Kcp;[K ~/assis[Kgnments [K/UNIX/hw4.h[Kbk hw4
+]0;Student@localhost:~[Student@localhost ~]$ cp ~/assignments/UNIX/hw4.bk hw4~hw4/hw4ahw4shw4shw4ihw4ghw4nhw4mhw4ehw4nhw4thw4shw4/hw4Uhw4Nhw4Ihw4Xhw4/hw4
+]0;Student@localhost:~[Student@localhost ~]$ rm ~/assignments/UNIX/hw4sl
+]0;Student@localhost:~[Student@localhost ~]$ rm ~/assignments/UNIX/hw4sl[Student@localhost ~]$ cp ~/assignments/UNIX/hw4.bk ~/assignments/UNIX/hw4hw4[K[Student@localhost ~]$ [10Pls -li ~/backups/hw4* [4hassignmen[4lts/UNIX[Student@localhost ~]$ ls -li ~/assignments/UNIX/hw4* [Student@localhost ~]$ [11Pfind ~/backups[Student@localhost ~]$ find ~/backups/hw4* assignments/UNIX/hw4*[Student@localhost ~]$ [3Prm ~/assignments/UNIX/hw4[Student@localhost ~]$ ls -li ~/assignments/UNIX/hw4* [9Pbackups[Student@localhost ~]$ ls -li ~/backups/hw4* find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; find ~/assignmeents/UNIX/hw4* -exec cp {} ~/backups \; [Adate "+%D %H"[K
+[K[A[Student@localhost ~]$ date "+%D %H"[3PI"H"D"[5Pcal 02100man scriptfind ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; [1P[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups \; [2P[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups; [1P [Khw4*[Kmkdir backupsscript calapa.2.II.txtexit[Kls -pman ls[3Pls -lin -s hw4 hw4sl[3Phw4 hw4hl-s hw4 hw4sl[4h~[4l[4h/[4l[4ha[4l[4hs[4l[4hs[4l[4hi[4l[4hg[4l[4hn[4l[4hm[4l[4he[4l[4hn[4l[4ht[4l[4hs[4l[4h/[4l[4hU[4l[4hN[4l[4hI[4l[4hX[4l[4h/[4l[Student@localhost ~]$ ln -s ~/assignments/UNIX/h[Student@localhost ~]$ ln -s ~/assignments/UNIX/hw[Student@localhost ~]$ ln -s ~/assignments/UNIX/hw4[Student@localhost ~]$ ln -s ~/assignments/UNIX/hw4 ~hw4sl/hw4slahw4slshw4slshw4slihw4slghw4slnhw4slmhw4slehw4slnhw4slthw4slshw4sl/hw4slUhw4slNhw4slIhw4slXhw4sl/hw4sl
+]0;Student@localhost:~[Student@localhost ~]$ ln -s ~/assignments/UNIX/hw4 ~/assignments/UNIX/hw4sl[Student@localhost ~]$ [26Prm[Student@localhost ~]$ rm ~/assignments/UNIX/hw4sl[Student@localhost ~]$ cp ~/assignments/UNIX/hw4.bk ~/assignments/UNIX/hw4hw4[K[Student@localhost ~]$ [10Pls -li ~/backups/hw4* [4hassignmen[4lts/UNIX[Student@localhost ~]$ ls -li ~/assignments/UNIX/hw4* [Student@localhost ~]$ [11Pfind ~/backups[Student@localhost ~]$ find ~/backups/hw4* assignments/UNIX/hw4*[Student@localhost ~]$ [3Prm ~/assignments/UNIX/hw4[Student@localhost ~]$ ls -li ~/assignments/UNIX/hw4* [9Pbackups[Student@localhost ~]$ ls -li ~/backups/hw4* find ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; find ~/assignmeents/UNIX/hw4* -exec cp {} ~/backups \; [Adate "+%D %H"[K
+[K[A[Student@localhost ~]$ date "+%D %H"[3PI"H"D"[5Pcal 02100man scriptfind ~/assignments/UNIX/hw4* -exec cp {} ~/backups \; [1P[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups \; [2P[Student@localhost ~]$ find ~/assignments/UNIX/hw4* -exec cp{} ~/backups; [1P [Khw4*[Kmkdir backupsscript calapa.2.II.txtexit[Kls -pman ls[3Pls -lin -s hw4 hw4sl[3Phw4 hw4hlpwd[Kcd assignments/UNIXfind ~/assignments/UNIX/hw4 ~/assignments/UNIX/hw4.bkhw4.bk[K[19P[Student@localhost ~]$ find hw4 hw4.bkcp ~/assignments/UNIX/hw4 ~/assignments/UNIX/hw4.bkhw4.bk[K[Student@localhost ~]$ [18Pls assignments[Kassignments/UNIX/hw4cd[Kls assignments/UNIX/hw4cd[Kvi hw4[3Ppwdcd assignments/UNIXls -R[K[3Pcdls -R 
+[00m.:
+[00m205lab1.odt[00m  [00mbook hw ch1.odt[00m   [00mcalapa.2.II.txt[00m  [00mch2hw[00m      [00mch3hw.odt[00m  [00;34mDesktop[00m      [00;34mreports[00m
+[00;34massignments[00m  [00mCalapa2edit.txt[00m   [00mcalapa.2.I.txt[00m   [00mch2hw.odt[00m  [00mch4hw[00m      [00mgtysbrg.txt[00m
+[00;34mbackups[00m      [00mcalapa.2.III.txt[00m  [00mch1hw[00m            [00mch3hw[00m      [00mch4hw.odt[00m  [00;34mletters[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bk[00m  [00mhw4hl[00m  [00;36mhw4sl[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+[00mhw4[00m  [00mhw4.bk[00m  [00mhw4hl[00m  [00mhw4sl[00m
+
+./Desktop:
+[00m205lab1.odt[00m  [00mLab 2 writeup.odt[00m
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpersonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Tue 25 Apr 2006 08:24:53 AM EDT

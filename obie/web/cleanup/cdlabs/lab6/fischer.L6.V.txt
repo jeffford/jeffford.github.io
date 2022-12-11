@@ -1,0 +1,94 @@
+Script started on Sun 07 May 2006 12:28:02 AM EDT
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat Ch6s4f1 > Ch6s5f1
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat Ch6s5f2
+cat: Ch6s5f2: No such file or directory
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat Ch6s5f2>Ch6s5f2 Ch6s5f2
+1420	12.56	45
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19] 
+2351	67.90	56
+3467	56.90	14
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat > Ch6s5f2[2PCh6s5f2[K1
+1420	12.56	45
+3456	14.56	22
+2341	45.12	34
+1122	23.56	28
+1443	23.23	19
+2351	67.90	56
+8001	7.00	14
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat Ch6s5f1[K2
+1420	12.56	45
+2456	14.56	22
+2341	45.12	34
+1322	23.56	28
+1443	23.23	19
+2351	67.90	56
+3467	56.90	14
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort Ch6s5f1 > temp1
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort Ch6s5f1 > temp1rebecca@rebecca:~$ sort Ch6s5f1 > rebecca@rebecca:~$ sort Ch6s5f1 > trebecca@rebecca:~$ sort Ch6s5f1 > terebecca@rebecca:~$ sort Ch6s5f1 > temrebecca@rebecca:~$ sort Ch6s5f1 > temprebecca@rebecca:~$ sort Ch6s5f1 > temp1[K2[1P[1@2
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cp temp1 Ch6s5f1
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cp temp1 Ch6s5f1rebecca@rebecca:~$ cp temp1 Ch6s5f1[K2rebecca@rebecca:~$ cp temp1[1P Ch6s5f22 Ch6s5f2
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat Ch6s5f1 Ch6s5f2
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	7.00	14
+1322	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3467	56.90	14
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat Ch6s5f1 Ch6s5f2 > Ch6s5f3
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ uniq -u Ch6s5f3 > temp2[K3
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cp[K[Kuniq -u Ch6s5f3 > temp3rebecca@rebecca:~$ cat Ch6s5f1 Ch6s5f2 > Ch6s5f3[K[3Pp temp2rebecca@rebecca:~$ cp temp2 Ch6s5f2rebecca@rebecca:~$ cp temp2 Ch6s5frebecca@rebecca:~$ cp temp2 Ch6s5f2[K3[1P Ch6s5f33 Ch6s5f3
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat Ch6s5d[Kf3
+1122	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+3456	14.56	22
+8001	7.00	14
+1322	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3467	56.90	14
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat Ch6s5f3[5@p temp3rebecca@rebecca:~$ cp temp3 Ch6s5f3uniq -u Ch6s5f3 > temp3rebecca@rebecca:~$ uniq -u Ch6s5f3 > trebecca@rebecca:~$ uniq -u Ch6s5f3 > terebecca@rebecca:~$ uniq -u Ch6s5f3 > temrebecca@rebecca:~$ uniq -u Ch6s5f3 > temprebecca@rebecca:~$ uniq -u Ch6s5f3 > temp3[K[K[K[K[K[K[K[1P[1@d
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ uniq -d Ch6s5f3 [1P[1@urebecca@rebecca:~$ uniq[1P[1P[1P[1P[1@s[1@o[1@r[1@t
+1122	23.56	28
+1322	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	7.00	14
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort -u Ch6s5f3 >temp3
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ sort -u Ch6s5f3 >temp3[1Ptemp3rebecca@rebecca:~$ sort -u Crebecca@rebecca:~$ sort -u Chrebecca@rebecca:~$ sort -u Ch6rebecca@rebecca:~$ sort -u Ch6srebecca@rebecca:~$ sort -u Ch6s5rebecca@rebecca:~$ sort -u Ch6s5frebecca@rebecca:~$ sort -u Ch6s5f3rebecca@rebecca:~$ sort -u Ch6s5f3 rebecca@rebecca:~$ sort -u Ch6s5f3 trebecca@rebecca:~$ sort -u Ch6s5f3 terebecca@rebecca:~$ sort -u Ch6s5f3 temrebecca@rebecca:~$ sort -u Ch6s5f3 temprebecca@rebecca:~$ sort -u Ch6s5f3 temp3[K[K[K[K[K[K[1P Ch6s5f3[1P Ch6s5f3[1PCh6s5f3[1P Ch6s5f3[1P Ch6s5f3[1P Ch6s5f3[1P Ch6s5f3c Ch6s5f3p Ch6s5f3rebecca@rebecca:~$ cp  Ch6s5f3t Ch6s5f3e Ch6s5f3m Ch6s5f3p Ch6s5f33 Ch6s5f3
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ cat Ch6s5f3
+1122	23.56	28
+1322	23.56	28
+1420	12.56	45
+1443	23.23	19
+2341	45.12	34
+2351	67.90	56
+2456	14.56	22
+3456	14.56	22
+3467	56.90	14
+8001	7.00	14
+]0;rebecca@rebecca: /home/rebeccarebecca@rebecca:~$ exit
+exit
+
+Script done on Sun 07 May 2006 12:53:40 AM EDT

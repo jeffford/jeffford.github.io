@@ -1,0 +1,4041 @@
+; Visual Thought 1.0
+
+(header
+  (program "vthought")
+  (version "1.4")
+  (buildDate "$Date: 1998/07/17 01:33:32 $")
+  (writeDate "Sun Mar 19, 2006 7:00:39 PM ")
+  (documentPath "C:\Documents and Settings\Owner\Desktop\SP-2006\software engineering\our project\DFD_ophelia's_hotel.vthought")
+)
+
+(document
+  (palette F)
+  (layout
+    (page "Letter")
+    (units "Inches")
+    (orientation "portrait")
+    (numberOfPages 3 2)
+    (scale 100)
+    (margins 18 18 18 18)
+  )
+)
+
+(views
+  (view
+    (location 265 38)
+    (size 1010 864)
+    (zoom 1)
+    (documentLocation 107 735)
+    (gridSnap T)
+    (gridVisibility F)
+    (gridSpacing 9)
+    (pageBreaks T)
+    (toolVisibility T)
+    (rulerVisibility T)
+  )
+)
+
+(shapes
+  (shape
+    (id 2)
+    (layer 1)
+    (type "Horizontal Emphasis")
+    (location 238.5 274.5)
+    (size 81 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 32047 41360 56712)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Room_Data}})
+  )
+  (shape
+    (id 5)
+    (layer 4)
+    (type "Horizontal Emphasis")
+    (location 670.5 310.5)
+    (size 81 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 64033 52619 30470)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Arrival_Data}})
+  )
+  (shape
+    (id 7)
+    (layer 6)
+    (type "Horizontal Emphasis")
+    (location 463.5 1305)
+    (size 81 36)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 32047 41360 56712)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Room_Data}})
+  )
+  (shape
+    (id 10)
+    (layer 9)
+    (type "Horizontal Emphasis")
+    (location 90 832.5)
+    (size 90 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 64033 52619 30470)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Arrival_Data}})
+  )
+  (shape
+    (id 11)
+    (layer 10)
+    (type "Rectangle")
+    (location 861 1444.5)
+    (size 210 81)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked F)
+      (strokeColor 0 0 0)
+      (lineWidth 4)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "top")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard {\b\fs38 Group Azmi Yowa Pat
+\par       Ophelia's Hotel
+\par                 DFD}})
+  )
+  (shape
+    (id 16)
+    (layer 15)
+    (type "Horizontal Emphasis")
+    (location 1228.5 1269)
+    (size 81 36)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 32047 41360 56712)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Room_Data}})
+  )
+  (shape
+    (id 17)
+    (layer 16)
+    (type "Rounded Rectangle")
+    (location 1012.5 1269)
+    (size 81 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 62327 62385 46738)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Print_expected_rm_occ
+\par _report}})
+  )
+  (shape
+    (id 20)
+    (layer 19)
+    (type "Rounded Rectangle")
+    (location 634.5001 1359)
+    (size 80.8923 53.8924)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 62327 62385 46738)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Print_incentive
+\par _report}})
+  )
+  (shape
+    (id 21)
+    (layer 20)
+    (type "Horizontal Emphasis")
+    (location 220.5 1395)
+    (size 117 36)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 58851 33081 24690)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Base_Rate_Data}})
+  )
+  (shape
+    (id 26)
+    (layer 25)
+    (type "Rounded Rectangle")
+    (location 454.5001 1170)
+    (size 80.8923 53.8924)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 62327 62385 46738)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Print_expectedrm_income
+\par _report}})
+  )
+  (shape
+    (id 31)
+    (layer 30)
+    (type "Rounded Rectangle")
+    (location 1228.5 1107)
+    (size 81 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 62327 62385 46738)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Print_D_Occ_Report}})
+  )
+  (shape
+    (id 36)
+    (layer 35)
+    (type "Horizontal Emphasis")
+    (location 1354.5 981)
+    (size 81 36)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 64033 52619 30470)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Arrivals_Data}})
+  )
+  (shape
+    (id 37)
+    (layer 36)
+    (type "Rounded Rectangle")
+    (location 1174.5 981)
+    (size 81 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 62327 62385 46738)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Print_D_Arr_Report}})
+  )
+  (shape
+    (id 44)
+    (layer 43)
+    (type "Horizontal Emphasis")
+    (location 1062 868.5)
+    (size 126 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 61677 20292 22581)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 External_Backup_storage}})
+  )
+  (shape
+    (id 45)
+    (layer 44)
+    (type "Horizontal Emphasis")
+    (location 751.5 931.5)
+    (size 81 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 64033 52619 30470)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Arrivals_Data}})
+  )
+  (shape
+    (id 46)
+    (layer 45)
+    (type "Horizontal Emphasis")
+    (location 684 814.5)
+    (size 90 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 41458 57843 37706)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Reservation_Data}})
+  )
+  (shape
+    (id 47)
+    (layer 46)
+    (type "Horizontal Emphasis")
+    (location 715.5 877.5)
+    (size 81 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 62394 62487 25760)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Charge_Data}})
+  )
+  (shape
+    (id 50)
+    (layer 49)
+    (type "Rounded Rectangle")
+    (location 819 742.5)
+    (size 72 45)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 45166 62925 49125)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Create
+\par _Backups}})
+  )
+  (shape
+    (id 51)
+    (layer 50)
+    (type "Rectangle")
+    (location 999 1098)
+    (size 72 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed T)
+      (shadowColor 7332 4476 60269)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Employee}})
+  )
+  (shape
+    (id 54)
+    (layer 53)
+    (type "Rounded Rectangle")
+    (location 621 949.5)
+    (size 72 45)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 45166 62925 49125)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Upload_base_rate}})
+  )
+  (shape
+    (id 55)
+    (layer 54)
+    (type "Rectangle")
+    (location 630 1170)
+    (size 72 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 65535 64485 65389)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed T)
+      (shadowColor 1304 1304 1304)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Manager}})
+  )
+  (shape
+    (id 57)
+    (layer 56)
+    (type "Horizontal Emphasis")
+    (location 814.5 22.5)
+    (size 81 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 32047 41360 56712)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Room_Data}})
+  )
+  (shape
+    (id 62)
+    (layer 61)
+    (type "Rounded Rectangle")
+    (location 729 247.5)
+    (size 90 63)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 62327 62385 46738)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Print Accomodation
+\par Bill}})
+  )
+  (shape
+    (id 65)
+    (layer 64)
+    (type "Rounded Rectangle")
+    (location 823.5 126)
+    (size 81 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 45166 62925 49125)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Check_Out}})
+  )
+  (shape
+    (id 66)
+    (layer 65)
+    (type "Rectangle")
+    (location 432 135)
+    (size 72 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed T)
+      (shadowColor 62941 1806 6211)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Guest}})
+  )
+  (shape
+    (id 71)
+    (layer 70)
+    (type "Rounded Rectangle")
+    (location 436.5 279)
+    (size 81 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 45166 62925 49125)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Cancel
+\par Reservation}})
+  )
+  (shape
+    (id 75)
+    (layer 74)
+    (type "Horizontal Emphasis")
+    (location 1008 526.5)
+    (size 90 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 32047 41360 56712)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Room_Data}})
+  )
+  (shape
+    (id 82)
+    (layer 81)
+    (type "Rounded Rectangle")
+    (location 823.5 540)
+    (size 81 36)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 45166 62925 49125)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Credit Check}})
+  )
+  (shape
+    (id 83)
+    (layer 82)
+    (type "Horizontal Emphasis")
+    (location 823.5 625.5)
+    (size 81 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 56886 41264 59511)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Guest_Data}})
+  )
+  (shape
+    (id 86)
+    (layer 85)
+    (type "Rectangle")
+    (location 819 423)
+    (size 72 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed T)
+      (shadowColor 7332 4476 60269)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Employee}})
+  )
+  (shape
+    (id 87)
+    (layer 86)
+    (type "Rounded Rectangle")
+    (location 1003.5 423)
+    (size 81 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 45166 62925 49125)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Check_In}})
+  )
+  (shape
+    (id 88)
+    (layer 87)
+    (type "Rectangle")
+    (location 1188 423)
+    (size 72 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed T)
+      (shadowColor 62941 1806 6211)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Guest}})
+  )
+  (shape
+    (id 90)
+    (layer 89)
+    (type "Horizontal Emphasis")
+    (location 621 535.5)
+    (size 90 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 58851 33081 24690)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Base_Rate_Data}})
+  )
+  (shape
+    (id 95)
+    (layer 94)
+    (type "Horizontal Emphasis")
+    (location 553.5 301.5)
+    (size 81 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 62394 62487 25760)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Charge_Data}})
+  )
+  (shape
+    (id 102)
+    (layer 101)
+    (type "Rounded Rectangle")
+    (location 625.5 423)
+    (size 81 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 45166 62925 49125)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Generate Charges}})
+  )
+  (shape
+    (id 103)
+    (layer 102)
+    (type "Rectangle")
+    (location 432 423)
+    (size 72 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed T)
+      (shadowColor 7332 4476 60269)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Employee}})
+  )
+  (shape
+    (id 104)
+    (layer 103)
+    (type "Rounded Rectangle")
+    (location 238.5 423)
+    (size 81 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 45166 62925 49125)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Change Reservation}})
+  )
+  (shape
+    (id 105)
+    (layer 104)
+    (type "Rectangle")
+    (location 45 414)
+    (size 72 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed T)
+      (shadowColor 62940 1805 6216)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Guest}})
+  )
+  (shape
+    (id 115)
+    (layer 114)
+    (type "Rounded Rectangle")
+    (location 445.5 819)
+    (size 81 36)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 45166 62925 49125)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Check_credit}})
+  )
+  (shape
+    (id 116)
+    (layer 115)
+    (type "Rounded Rectangle")
+    (location 436.5 549)
+    (size 81 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 45166 62925 49125)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Check_Room_Availability}})
+  )
+  (shape
+    (id 117)
+    (layer 116)
+    (type "Horizontal Emphasis")
+    (location 238.5 544.5)
+    (size 81 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 32047 41360 56712)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Room_Data}})
+  )
+  (shape
+    (id 120)
+    (layer 119)
+    (type "Horizontal Emphasis")
+    (location 445.5 931.5)
+    (size 81 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 56886 41264 59511)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Guest_Data}})
+  )
+  (shape
+    (id 124)
+    (layer 123)
+    (type "Rectangle")
+    (location 441 702)
+    (size 72 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed T)
+      (shadowColor 7332 4476 60269)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Employee}})
+  )
+  (shape
+    (id 126)
+    (layer 125)
+    (type "Rectangle")
+    (location 54 702)
+    (size 72 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed T)
+      (shadowColor 62940 1805 6216)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Guest}})
+  )
+  (shape
+    (id 127)
+    (layer 126)
+    (type "Rounded Rectangle")
+    (location 247.5 702)
+    (size 81 54)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 45166 62925 49125)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Make Reservation}})
+  )
+  (shape
+    (id 128)
+    (layer 127)
+    (type "Horizontal Emphasis")
+    (location 252 832.5)
+    (size 90 27)
+    (rotation 0)
+    (locked F)
+    (style
+      (filled T)
+      (fillColor 41458 57843 37706)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 2)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (flipHorizontal F)
+    (flipVertical F)
+    (showText T)
+    (textVerticalAlignment "center")
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Reservation_Data}})
+  )
+)
+
+(connections
+  (connection
+    (id 1)
+    (layer 0)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (396 279)
+      (280 279)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par room_data}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 3)
+    (layer 2)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (234 531)
+      (234 450)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 126)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 room_data}})
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 4)
+    (layer 3)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 5)
+    (end 94)
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 arrival_info}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 6)
+    (layer 5)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 7)
+    (end 20)
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Room_data}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 8)
+    (layer 7)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 7)
+    (points
+      (459 1197)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Room_data}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 9)
+    (layer 8)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (end 10)
+    (points
+      (216 729)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 arrival_info}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 12)
+    (layer 11)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (1053 1260)
+      (1188 1260)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 70)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par 
+\par Expected_rm
+\par _occ_Report}})
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 13)
+    (layer 12)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (1053 1278)
+      (1188 1278)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 106)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 expected_rm
+\par _occ_Report_order}
+\par 
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 14)
+    (layer 13)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (1026 1125)
+      (1026 1242)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 88)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Expected_rm
+\par _occ_Report}
+\par 
+\par 
+\par })
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 15)
+    (layer 14)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (990 1125)
+      (990 1242)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 70)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par 
+\par 
+\par expected_rm
+\par _occ_Report_order}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 18)
+    (layer 17)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (657 1332)
+      (657 1197)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\b\fs20 
+\par 
+\par incentive
+\par _report}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 19)
+    (layer 18)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (621 1197)
+      (621 1332)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 81)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 incentive_report_order}
+\par 
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 22)
+    (layer 21)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 21)
+    (end 20)
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 54)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\b\fs20 base_rate}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 23)
+    (layer 22)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 21)
+    (end 26)
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 63)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc base_rate
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 24)
+    (layer 23)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (594 1161)
+      (495 1161)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\b\fs20 
+\par 
+\par Expected_rm
+\par _income_report}})
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 25)
+    (layer 24)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (495 1179)
+      (594 1179)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 171)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Expected_rm
+\par _income_report_order}
+\par 
+\par 
+\par })
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 27)
+    (layer 26)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (1188 1098)
+      (1035 1098)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 89)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\b\fs20 
+\par Daily_occ_report}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 28)
+    (layer 27)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (1242 1242)
+      (1242 1134)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par 
+\par Daily_occ_report}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 29)
+    (layer 28)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (1215 1134)
+      (1215 1251)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 daily_Occ_Report_order}
+\par 
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 30)
+    (layer 29)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (1035 1116)
+      (1188 1116)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 178)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 daily_Occ_Report_order}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 32)
+    (layer 31)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (1131 970)
+      (999 1074)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\b\fs20 
+\par Daily_arr_report}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 33)
+    (layer 32)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (1305 972)
+      (1215 972)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par 
+\par Daily_arr
+\par _report}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 34)
+    (layer 33)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (1215 990)
+      (1314 990)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 daily_arr_Report_order}
+\par 
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 35)
+    (layer 34)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (end 37)
+    (points
+      (1035 1080)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 daily_arr
+\par _Report_order}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 38)
+    (layer 37)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 46)
+    (end 50)
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 reservation_data}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 39)
+    (layer 38)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 50)
+    (points
+      (819 639)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 guest_data}
+\par 
+\par })
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 40)
+    (layer 39)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 50)
+    (end 75)
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 room_data}})
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 41)
+    (layer 40)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 50)
+    (points
+      (648 549)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 base_rate_data}})
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 42)
+    (layer 41)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 47)
+    (points
+      (828 765)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 charge_data}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 43)
+    (layer 42)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 45)
+    (points
+      (837 765)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 arrival_data}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 48)
+    (layer 47)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (end 44)
+    (points
+      (855 747)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 108)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 backed_up_data}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 49)
+    (layer 48)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 51)
+    (points
+      (848.3924 765)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Backup_order}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 52)
+    (layer 51)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (start 54)
+    (points
+      (621 549)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 New_base_rate}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 53)
+    (layer 52)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (621 1143)
+      (621 972)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 New_base_rate}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 56)
+    (layer 55)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (819 99)
+      (819 36)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 126)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Room_Av}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 58)
+    (layer 57)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (783 117)
+      (477 117)
+    )
+    (curved F)
+    (style
+      (filled T)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 54)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Accom_Bill}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 59)
+    (layer 58)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (846 396)
+      (846 153)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 54)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par 
+\par 
+\par 
+\par Accom
+\par _Bill}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 60)
+    (layer 59)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (783 396)
+      (720 279)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Check_out_inf}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 61)
+    (layer 60)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (805 396)
+      (738 279)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Accom_Bill}})
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinFlatArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 63)
+    (layer 62)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (819 153)
+      (819 396)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Check
+\par _out_info}
+\par 
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 64)
+    (layer 63)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (468 135)
+      (783 135)
+    )
+    (curved F)
+    (style
+      (filled T)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Chek_out_info}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 67)
+    (layer 66)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (450 252)
+      (450 162)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Cancel_Conf}
+\par 
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 68)
+    (layer 67)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (414 306)
+      (414 396)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par 
+\par 
+\par Cancel_info}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 69)
+    (layer 68)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (414 162)
+      (414 252)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par 
+\par Cancel_info}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 70)
+    (layer 69)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (450 306)
+      (450 396)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Cancel_Conf}
+\par 
+\par })
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 72)
+    (layer 71)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (666 414)
+      (783 414)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Charges_list}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 73)
+    (layer 72)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (666 432)
+      (783 432)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 generate_chareges_order}
+\par 
+\par })
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 74)
+    (layer 73)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (999 450)
+      (999 513)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 room_data}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 76)
+    (layer 75)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (1152 414)
+      (1044 414)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Check_In_Conf}})
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 77)
+    (layer 76)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (963 414)
+      (855 414)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Check_In_Conf}})
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 78)
+    (layer 77)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (837 558)
+      (837 612)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Guest_Info}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 79)
+    (layer 78)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (837 450)
+      (837 522)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Guest_Info}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 80)
+    (layer 79)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (801 522)
+      (801 450)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Credit_report}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 81)
+    (layer 80)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (801 612)
+      (801 558)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Credit_ report}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 84)
+    (layer 83)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (855 432)
+      (954 432)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 check_in_info}
+\par })
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 85)
+    (layer 84)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (1044 432)
+      (1152 432)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 check_in_info}
+\par })
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 89)
+    (layer 88)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (621 522)
+      (621 450)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 base_rate}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 91)
+    (layer 90)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (189 405)
+      (81 405)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Change_Responce}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 92)
+    (layer 91)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (468 414)
+      (585 414)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Charge_amount}})
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 93)
+    (layer 92)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (end 102)
+    (points
+      (540 315)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Charge_%}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 94)
+    (layer 93)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (end 95)
+    (points
+      (630 396)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Charge_info}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 96)
+    (layer 95)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (468 432)
+      (585 432)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Change_info,
+\par Cancel_info}
+\par 
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 97)
+    (layer 96)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (279 441)
+      (396 441)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Change_info}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 98)
+    (layer 97)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (459 450)
+      (459 522)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par room_AV}})
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 99)
+    (layer 98)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (81 432)
+      (189 432)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Change_info}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 100)
+    (layer 99)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (414 522)
+      (414 450)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 108)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Change_info}
+\par 
+\par })
+    (drawStartArrowhead T)
+    (drawEndArrowhead F)
+    (startArrowhead "ThinArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 101)
+    (layer 100)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (387 414)
+      (279 414)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 90)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Change_Responce, Charge_amount}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 106)
+    (layer 105)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (396 540)
+      (280 540)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Res_info}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 107)
+    (layer 106)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (459 837)
+      (459 909)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Guest_Info}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 108)
+    (layer 107)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (459 729)
+      (459 801)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Guest_Info}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 109)
+    (layer 108)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (243 675)
+      (243 558)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 126)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 room_data}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 110)
+    (layer 109)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (279 549)
+      (396 549)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Room_Av}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 111)
+    (layer 110)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (414 576)
+      (413 675)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Room_Av}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 112)
+    (layer 111)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (459 666)
+      (459 576)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Res_info}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 113)
+    (layer 112)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (423 801)
+      (423 738)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Credit_report}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 114)
+    (layer 113)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (423 918)
+      (423 837)
+    )
+    (curved F)
+    (style
+      (filled T)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Credit_ report}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 118)
+    (layer 117)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (279 729)
+      (278 819)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Res_type}
+\par 
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 119)
+    (layer 118)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (225 819)
+      (225 729)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Res_procedure}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 121)
+    (layer 120)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (396 693)
+      (297 693)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Res_process}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 122)
+    (layer 121)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (288 720)
+      (405 720)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Res_info}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 123)
+    (layer 122)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (90 720)
+      (207 720)
+    )
+    (curved F)
+    (style
+      (filled F)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 Res_info}
+\par })
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+  (connection
+    (id 125)
+    (layer 124)
+    (rotation 0)
+    (textRotation 0)
+    (locked F)
+    (points
+      (198 693)
+      (99 693)
+    )
+    (curved F)
+    (style
+      (filled T)
+      (fillColor 65535 65535 65535)
+      (stroked T)
+      (strokeColor 0 0 0)
+      (lineWidth 1)
+      (shadowed F)
+      (shadowColor 39321 39321 39321)
+    )
+    (showText T)
+    (textDistancePercentage 0.5)
+    (textWidth 72)
+    (textOffset 0)
+    (rtfText{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial medium;}}
+{\colortbl\red0\green0\blue0;}
+\cf0\plain\pard\qc {\fs20 
+\par Res_responce}})
+    (drawStartArrowhead F)
+    (drawEndArrowhead T)
+    (startArrowhead "StandardArrow")
+    (endArrowhead "ThinArrow")
+  )
+)
+
+(groups
+)

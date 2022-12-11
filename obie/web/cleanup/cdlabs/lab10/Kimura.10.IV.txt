@@ -1,0 +1,33 @@
+Script started on Sun 07 May 2006 04:00:13 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch[K[K>ch[K[KCh10S4F1
+This is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicatd ed.
+If it is repeated thrice, it is triplicated.    (thrice is three).
+For example, the following line has duplicated words.
+The dub plicated words are hard to find, but grp   ep can find them for you.
+However, you need to write the regular expression very carefully.
+]0;Student@localhost:~[Student@localhost ~]$ echo [K[K[K[K[K
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ echo 'For t[Ksection [K[K[K[K[K[K[Kession IV s[Knumber 3, this is assumed that only  thi[Ke file[K[K[K[K[K[K[K[K[A[Student@localhost ~]$ echo 'For session IV number 3, this is assumed that only[K
+[K[A[Student@localhost ~]$ echo 'For session IV number 3, this is assumed that only[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Konly valid for thi s specifit[Kc file only. So it [K[Kt already has in mind that the duplicated word is a 4  character word, and that the r[Ktriplicated word is 2 character word.character word, and that the triplicated word is 2 character word.'
+For session IV number 3, this is only valid for this specific file only. So it already has in mind that the duplicated word is a 4 character word, and that the triplicated word is 2 character word.
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '\(\<[][]\>\).*1.*\1.*[Student@localhost ~]$ grep -v '\(\<[][]\>\).*\1[Student@localhost ~]$ grep -v '\(\<[][]\>\).*\1.*\1[Student@localhost ~]$ grep -v '\(\<[Student@localhost ~]$ grep -v '\(\<[[Student@localhost ~]$ grep -v '\(\<[]a][]\>\).*\1.*\1-][]\>\).*\1.*\1z][]\>\).*\1.*\1[Student@localhost ~]$ grep -v '\(\<[a-z][Student@localhost ~]$ grep -v '\(\<[a-z][a]\>\).*\1.*\1-]\>\).*\1.*\1z]\>\).*\1.*\1[Student@localhost ~]$ grep -v '\(\<[a-z][a-z]\>\).*\1.*\1' Ch10S4F1 >notrip; gr i[Kep -v '\(\<[][][][]\>\).*\1'ep -v '\(\<ep -v '\(\<[a][][][]\>\).*\1'ep -v '\(\<[a-][][][]\>\).*\1'ep -v '\(\<[a-z][][][]\>\).*\1'ep -v '\(\<[a-z]ep -v '\(\<[a-z][a][][]\>\).*\1'-][][]\>\).*\1'z][][]\>\).*\1'ep -v '\(\<[a-z][a-z]ep -v '\(\<[a-z][a-z][a][]\>\).*\1'-][]\>\).*\1'z][]\>\).*\1'ep -v '\(\<[a-z][a-z][a-z]ep -v '\(\<[a-z][a-z][a-z][a]\>\).*\1'-]\>\).*\1'z]\>\).*\1'ep -v '\(\<[a-z][a-z][a-z][a-z]\>\).*\1' notrip .[K>Ch10S4F2
+]0;Student@localhost:~[Student@localhost ~]$ cat Cgrep -v '\(\<[a-z][a-z]\>\).*\1.*\1' Ch10S4F1 >notrip; greep -v '\(\<[a-z][a-z][a-z][a-z]\>\).*\1' notrip >Ch10S4F2[A[Student@localhost ~]$ echo 'For session IV number 3, this is only valid for this specific file only. So it already has in mind that the duplicated word is a 4 ccharacter word, and that the triplicated word is 2 character word.'[A[A[Student@localhost ~]$ cat >Ch10S4F1[K
+[K
+[K[A[A[Student@localhost ~]$ cat >Ch10S4F1[Student@localhost ~]$ cat [1PCh10S4F1[Student@localhost ~]$ cat Ch10S4F1[K2
+This is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+For example, the following line has duplicated words.
+However, you need to write the regular expression very carefully.
+]0;Student@localhost:~[Student@localhost ~]$ echo 'For triplicated [K[K[K[K[K[K[K[K[K[K[K[K[K lines with Tr[K[Ktriplicated lines,[K:'
+For lines with triplicated lines:
+]0;Student@localhost:~[Student@localhost ~]$ echo 'For lines with triplicated lines:'[Student@localhost ~]$ cat Ch10S4F2[Kgrep -v '\(\<[a-z][a-z]\>\).*\1.*\1' Ch10S4F1 >notrip; greep -v '\(\<[a-z][a-z][a-z][a-z]\>\).*\1' notrip >Ch10S4F2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[Student@localhost ~]$ grep -v '\(\<[a-z][a-z]\>\).*\1.*\1' Ch10S4F1 >notrip; g[K
+[K[A[Student@localhost ~]$ grep -v '\(\<[a-z][a-z]\>\).*\1.*\1' Ch10S4F1 >notrip; g[K[K[K[K[K[K[K[K[KCh10S4F3[Student@localhost ~]$ g[Student@localhost ~]$ gr[Student@localhost ~]$ gre[Student@localhost ~]$ grep[Student@localhost ~]$ grep [1P[1P[1P[Student@localhost ~]$ grep '\(\<[a-z][a-z]\>\).*\1.*\1' Ch10S4F1 >Ch10S4F3
+]0;Student@localhost:~[Student@localhost ~]$ grep '\(\<[a-z][a-z]\>\).*\1.*\1' Ch10S4F1 >Ch10S4F3[Student@localhost ~]$ [12Pecho 'For lines with triplicated lines:'[Student@localhost ~]$ cat Ch10S4F2[K[K3
+If it is repeated thrice, it is triplicated (thrice is three).
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Sun 07 May 2006 06:07:34 PM EDT

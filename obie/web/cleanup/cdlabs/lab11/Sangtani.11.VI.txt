@@ -1,0 +1,135 @@
+Script started on Mon 08 May 2006 09:39:16 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch11S6F1
+/*This program ^[[D     ^[[D^[[D^[[D^[[D^[[D                                 This program reads two integer numberts    s from the
+	   keyboard and t prints their product.
+      	Written by:
+	Date:
+*/
+
+/*	Statements *& /
+	   scanf ("%d", &number1);
+   scanf ("%d", &number2);
+   result = numeb  ber1 * number1 2;
+   printf ("%d", result);
+   return 0;
+} /*ma   main */
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch11S6.sed
+# script name: Cj h11S6.sed
+# Deletes the text between                  comments from a file
+
+/\/\*.*/*/\\s  \        *.*\*\//s///
+/\/\*/,/\ \*\//{
+	/\* /\*/{
+		h
+		d
+		} }
+
+	/\ \*\//!{
+		H
+		d
+		}
+
+	/\/ *\//{
+		x x h
+		G
+		}
+	s/\/\*.*\*\///
+	}
+]0;Student@localhost:~[Student@localhost ~]$ vi Ch11S6.sed
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11S6.sed" 21L, 175C[1;1H[34m# script name: Ch11S6.sed
+# Deletes comments from a file[m
+
+[35m/\/\*.*\*\//[m[36ms[m[35m///
+/\/\*/,/\*\//{
+        /\/\*/{[m[7;17H[36mh[8;17Hd[m[9;17H[35m}
+
+        /\*\//!{[m[12;17H[36mH[13;17Hd[m[14;17H[35m}
+
+        /\*\//{[m[17;17H[36mh[18;17HG[m[19;17H[35m}[m[20;9H[36ms[m[35m/\/\*.*\*\///[21;9H}[m
+[1m[34m~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3,0-1[3;1H[?12l[?25h[?25l[24;63H4,1  [4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6,1-8[6;8H[?12l[?25h[?25l[24;63H7[7;8H[?12l[?25h[?25l[24;63H8[8;8H[?12l[?25h[?25l[24;63H9[9;8H[?12l[?25h[?25l[24;63H10,0-1[10;1H[?12l[?25h[?25l[24;64H1,1-8[11;8H[?12l[?25h[?25l[24;64H2[12;8H[?12l[?25h[?25l[24;64H3[13;8H[?12l[?25h[?25l[24;64H4[14;8H[?12l[?25h[?25l[24;64H5,0-1[15;1H[?12l[?25h[?25l[24;64H6,1-8[16;8H[?12l[?25h[?25l[24;64H7[17;8H[?12l[?25h[?25l[24;64H8[18;8H[?12l[?25h[?25l[24;64H9[19;8H[?12l[?25h[?25l[24;63H20[20;8H[?12l[?25h[?25l[24;64H1[21;8H[?12l[?25h[?25l[24;64H0[20;8H[?12l[?25h[?25l[24;63H19[19;8H[?12l[?25h[?25l[24;64H8[18;8H[?12l[?25h[?25l[24;64H7[17;8H[?12l[?25h[?25l[24;66H2-16[17;16H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;14H[K[24;63H17,2-9[8CAll[17;9H[?12l[?25h[?25l[24;66H3-17[17;17H[?12l[?25h[?25l[24;66H4-18[17;18H[?12l[?25h[?25l[17;17H[K[24;66H3-17[17;17H[?12l[?25h[?25l[36mx[m[24;66H4-18[17;18H[?12l[?25h[24;1H[K[17;17H[?25l[24;63H17,3-17[7CAll[17;17H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11S6.sed" 21L, 175C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Ch11S6.sed[K[K[K[K[K[K[K[K[K[K[K[K[Ksed -g[Kf Ch11S6.sed Ch11DS[K[Ks[KS6F1
+
+
+
+   scanf ("%d", &number1);
+   scanf ("%d", &number2);
+   result = number1 * number2;
+   printf ("%d", result);
+   return 0;
+} 
+]0;Student@localhost:~[Student@localhost ~]$ sed -f Ch11S6.sed Ch11S6F1 > Ch11[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi Ch11S6.sed[4hcat[4l >[Student@localhost ~]$ cat > Ch11S6.sed[3Pvi[Student@localhost ~]$ vi Ch11S6.sed
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch11S6.sed" 21L, 175C[1;1H[34m# script name: Ch11S6.sed
+# Deletes comments from a file[m
+
+[35m/\/\*.*\*\//[m[36ms[m[35m///
+/\/\*/,/\*\//{
+        /\/\*/{[m[7;17H[36mh[8;17Hd[m[9;17H[35m}
+
+        /\*\//!{[m[12;17H[36mH[13;17Hd[m[14;17H[35m}
+
+        /\*\//{[m[17;17H[36mx[18;17HG[m[19;17H[35m}[m[20;9H[36ms[m[35m/\/\*.*\*\///[21;9H}[m
+[1m[34m~                                                                               [23;1H~                                                                               [m[24;63H17,3-17[7CAll[17;17H[?12l[?25h[?25l[24;64H8[18;17H[?12l[?25h[?25l[24;64H9[19;17H[?12l[?25h[?25l[24;63H20,10-17[20;17H[?12l[?25h[?25l[24;64H1,2-9  [21;9H[?12l[?25h[?25l
+
+
+[1m-- INSERT --[m[24;14H[K[24;63H21,2-9[8CAll[21;9H[?12l[?25h[?25l[24;66H3-10[21;10H[?12l[?25h[?25l[1m[37m[41mc[m[24;66H4-11[21;11H[?12l[?25h[?25l[21;10H[K[24;66H3-10[21;10H[?12l[?25h[?25l[24;64H0[20;10H[?12l[?25h[?25l[24;66H4-11[20;11H[?12l[?25h[?25l[24;66H5-12[20;12H[?12l[?25h[?25l[24;64H1,3-10[21;10H[?12l[?25h[?25l[22;1H[K[24;64H2,1   [22;1H[?12l[?25h[?25l[36mw[m[24;66H2[22;2H[?12l[?25h[?25l[24;66H3[22;3H[?12l[?25h[?25l[31mC[m[24;66H4[22;4H[?12l[?25h[?25l[31mh[m[24;66H5[22;5H[?12l[?25h[?25l[31m1[m[24;66H6[22;6H[?12l[?25h[?25l[31m1[m[24;66H7[22;7H[?12l[?25h[?25l[31mS[m[24;66H8[22;8H[?12l[?25h[?25l[31m6[m[24;66H9[22;9H[?12l[?25h[?25l[31mF[m[24;66H10[22;10H[?12l[?25h[?25l[31m2[m[24;67H1[22;11H[?12l[?25h[24;1H[K[22;10H[?25l[24;63H22,10[9CAll[22;10H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch11S6.sed" 22L, 186C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Ch11S6.sed[Kvi Ch11S6.sed[4hcat[4l >[Student@localhost ~]$ cat > Ch11S6.sed[3Pvi[Student@localhost ~]$ vi Ch11S6.sed[Kvi Ch11S6.sed[Kvi Ch11S6.sed[Kvi Ch11S6.sed[4hcat[4l >[Student@localhost ~]$ cat > Ch11S6.sed[2PF1Sangtani.11.VI.txt[4Pcat > Ch11S6F1.sed[3Pvi[Student@localhost ~]$ vi Ch11S6.sed[Ksed -f Ch11S6.sed Ch11S6F1
+
+
+
+   scanf ("%d", &number1);
+   scanf ("%d", &number2);
+   result = number1 * number2;
+   printf ("%d", result);
+   return 0;
+} 
+]0;Student@localhost:~[Student@localhost ~]$ sed -f Ch11S6.sed Ch11S6F1 > cat [K[K[K[KCh11S6F2
+]0;Student@localhost:~[Student@localhost ~]$ sed -f Ch11S6.sed Ch11S6F1 > Ch11S6F2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KCh11[K[K[K[Kcat Ch11S6F2
+
+
+
+   scanf ("%d", &number1);
+   scanf ("%d", &number2);
+   result = number1 * number2;
+   printf ("%d", result);
+   return 0;
+} 
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S6F2[K1
+/* This program reads two integer numbers from the
+   keyboard and prints their product.
+	Written by:
+	Date:
+*/
+
+/*	Statements */
+   scanf ("%d", &number1);
+   scanf ("%d", &number2);
+   result = number1 * number2;
+   printf ("%d", result);
+   return 0;
+} /* main */
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S6F1[K[K.sed
+# script name: Ch11S6.sed
+# Deletes comments from a file
+
+/\/\*.*\*\//s///
+/\/\*/,/\*\//{
+	/\/\*/{
+		h
+		d
+		}
+
+	/\*\//!{
+		H
+		d
+		}
+
+	/\*\//{
+		x
+		G
+		}
+	s/\/\*.*\*\///
+	}
+w Ch11S6F2
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 08 May 2006 09:51:11 PM EDT

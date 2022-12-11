@@ -1,0 +1,7 @@
+Stu Stevenson 
+Lab 2
+Sessions I-III
+
+L.I.2) We used the A command (appends text at the end of the line) in order to type the paragraph first.  Then, upon seeing a few errors, we went back and, hitting Esc, then entered the a command (inserting the characters after the cursor, but not altering the characters already existing) to make the necessary edits.
+L.II.3)  We opened the file through Student Home on the desktop, and entered into a program entitled gedit, which bears striking resemblance to the Notepad program done by Microsoft, at least in terms of utilization.  From here, we edited the txt file gtysburg, resaving it as gtysburgII.txt
+L.III.3) We altered the txt file in the same fashion as session II, and saved the entire piece as gtysburgII.txt (see attached).

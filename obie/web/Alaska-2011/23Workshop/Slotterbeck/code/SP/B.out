@@ -1,0 +1,61 @@
+-- Pass 2 (020505) e option  --
+INPUT VALUES FOR GRAPH:
+A blank line terminates input
+TAIL,HEAD,WEIGHT,
+    
+    
+Created initial state:  
+SCALAR OPERATIONS 9
+PARALLEL OPERATIONS 175
+     
+     
+In loop to find S  
+SCALAR OPERATIONS 23
+PARALLEL OPERATIONS 404
+   
+   
+In loop to find S  
+SCALAR OPERATIONS 23
+PARALLEL OPERATIONS 404
+   
+   
+In loop to find S  
+SCALAR OPERATIONS 23
+PARALLEL OPERATIONS 404
+   
+   
+In loop to find S  
+SCALAR OPERATIONS 23
+PARALLEL OPERATIONS 404
+   
+   
+In loop to find S  
+SCALAR OPERATIONS 28
+PARALLEL OPERATIONS 487
+   
+   
+In loop to find S  
+SCALAR OPERATIONS 33
+PARALLEL OPERATIONS 657
+   
+   
+In loop to find S  
+SCALAR OPERATIONS 38
+PARALLEL OPERATIONS 827
+   
+   
+In loop to find S  
+SCALAR OPERATIONS 43
+PARALLEL OPERATIONS 997
+   
+   
+Fnal counts:  
+SCALAR OPERATIONS 43
+PARALLEL OPERATIONS 1084
+DUMP OF ASSOCIATION RESULT FOLLOWS:
+ TAIL,HEAD,WEIGHT,
+   1     2     3  
+   2     3     1  
+   3     6     1  
+   6     5     2  
+STOP quadruple detected. 

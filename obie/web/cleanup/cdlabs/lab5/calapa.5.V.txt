@@ -1,0 +1,23 @@
+Script started on Wed 26 Apr 2006 05:43:31 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ first="PARENT[K[K[K[K[K[K[K'"PARENT"'
+]0;Student@localhost:~[Student@localhost ~]$ echo p[K$first
+"PARENT"
+]0;Student@localhost:~[Student@localhost ~]$ bsh[K[Kash[K[K[K[Kecho $SHELL
+/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ bash
+]0;Student@localhost:~[Student@localhost ~]$ echofi[K[K first
+first
+]0;Student@localhost:~[Student@localhost ~]$ second='"SUBSHELL"'
+]0;Student@localhost:~[Student@localhost ~]$ echo second
+second
+]0;Student@localhost:~[Student@localhost ~]$ echo $second
+"SUBSHELL"
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+]0;Student@localhost:~[Student@localhost ~]$ fir[K[K[Kecho $first
+"PARENT"
+]0;Student@localhost:~[Student@localhost ~]$ echo $second
+
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Wed 26 Apr 2006 05:46:18 PM EDT

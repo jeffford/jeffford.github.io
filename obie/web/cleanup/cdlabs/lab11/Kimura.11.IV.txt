@@ -1,0 +1,22 @@
+Script started on Mon 08 May 2006 08:39:56 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat >Ch11S4F1
+/bin/date
+/bin/programs/cal
+/usr/bin/date
+/usr/report/file1
+/usr/report/letters/lett1
+/spool/mails
+]0;Student@localhost:~[Student@localhost ~]$ cat >Ch11S4.sed
+s/\/\([] a-z]*[^\/]\)$/ \1/
+]0;Student@localhost:~[Student@localhost ~]$ sed -f Ch11S4.sed Ch11S4F1
+/bin date
+/bin/programs cal
+/usr/bin date
+/usr/report file1
+/usr/report/letters lett1
+/spool mails
+]0;Student@localhost:~[Student@localhost ~]$ sed -f Ch11S4.sed Ch11S4F1 >Ch11S4F2
+]0;Student@localhost:~[Student@localhost ~]$ exit[K[K[K[Kexit
+exit
+
+Script done on Mon 08 May 2006 09:09:48 PM EDT

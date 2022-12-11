@@ -1,0 +1,23 @@
+Script started on Tue 02 May 2006 08:12:07 AM EDT
+]0;student@localhost:~[student@localhost ~]$ grep[K[K[K[Kcat > Ch10S1F1
+1425	Juan	18	1 14.25
+4321	George	22	2. 1.11
+6781	Anne	44	16.77
+1451	Ben  	2 36	21.77
+2277	Tuan	16	18.77
+]0;student@localhost:~[student@localhost ~]$ egrep 'Anne' Chq[K10F[KS1F1 | cut -f4
+16.77
+]0;student@localhost:~[student@localhost ~]$ grep[K[K[K[Kegrep 'Anne' Ch10S1F1 | cut -f4[1P[student@localhost ~]$ g[student@localhost ~]$ gr[student@localhost ~]$ gre[student@localhost ~]$ grep[student@localhost ~]$ grep [student@localhost ~]$ grep '[1P[student@localhost ~]$ grep 'n[1P[1P[1P[1@1[1@4[1@5[1@1[student@localhost ~]$ grep '1451'[student@localhost ~]$ grep '1451' [student@localhost ~]$ grep '1451' C[student@localhost ~]$ grep '1451' Ch[student@localhost ~]$ grep '1451' Ch1[student@localhost ~]$ grep '1451' Ch10[student@localhost ~]$ grep '1451' Ch10S[student@localhost ~]$ grep '1451' Ch10S1[student@localhost ~]$ grep '1451' Ch10S1F[student@localhost ~]$ grep '1451' Ch10S1F1[student@localhost ~]$ grep '1451' Ch10S1F1 [student@localhost ~]$ grep '1451' Ch10S1F1 |[student@localhost ~]$ grep '1451' Ch10S1F1 | [student@localhost ~]$ grep '1451' Ch10S1F1 | c[student@localhost ~]$ grep '1451' Ch10S1F1 | cu[student@localhost ~]$ grep '1451' Ch10S1F1 | cut[student@localhost ~]$ grep '1451' Ch10S1F1 | cut [student@localhost ~]$ grep '1451' Ch10S1F1 | cut -[student@localhost ~]$ grep '1451' Ch10S1F1 | cut -f[K2
+Ben
+]0;student@localhost:~[student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep '[2-0[K9][0-9]' | cut -f1
+George
+Anne
+Ben
+]0;student@localhost:~[student@localhost ~]$ g[Kegrep n[K[K [2-9[K[K[K[K'[2-0[K9][09[K-9]\.[0-9][0-9]' | [K[KCh10S1F1 | cut -f1,f[K2
+4321	George
+1451	Ben
+]0;student@localhost:~[student@localhost ~]$ egrep '[2-9][0-9]\.[0-9][0-9]' Ch10S1F1 | cut -f1,2[student@localhost ~]$ egrep '[2-9][0-9]\.[0-9][0-9][1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[student@localhost ~]$ egrep  [student@localhost ~]$ egrep  C[student@localhost ~]$ egrep  Ch[student@localhost ~]$ egrep  Ch1[student@localhost ~]$ egrep  Ch10[student@localhost ~]$ egrep  Ch10S[student@localhost ~]$ egrep  Ch10S1[student@localhost ~]$ egrep  Ch10S1F[student@localhost ~]$ egrep  Ch10S1F1[student@localhost ~]$ egrep  Ch10S1F1 [student@localhost ~]$ egrep  Ch10S1F1 |[student@localhost ~]$ egrep  Ch10S1F1 | [student@localhost ~]$ egrep  Ch10S1F1 | c[student@localhost ~]$ egrep  Ch10S1F1 | cu[student@localhost ~]$ egrep  Ch10S1F1 | cut[student@localhost ~]$ egrep  Ch10S1F1 | cut [student@localhost ~]$ egrep  Ch10S1F1 | cut -[student@localhost ~]$ egrep  Ch10S1F1 | cut -f[student@localhost ~]$ egrep  Ch10S1F1 | cut -f1[student@localhost ~]$ egrep  Ch10S1F1 | cut -f1,[student@localhost ~]$ egrep  Ch10S1F1 | cut -f1,2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcut -f3 Ch10S1F1 | egrep '[0-[K[K[K[0][0-9]'
+]0;student@localhost:~[student@localhost ~]$ cut -f3 Ch10S1F1 | egrep '[0][0-9]' | [K[K[K
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Tue 02 May 2006 08:18:54 AM EDT

@@ -1,0 +1,56 @@
+
+                            ARENA Simulation Results
+                             obie - License: STUDENT
+
+                        Summary for Replication 1 of 1
+
+Project:Try1                                     Run execution date : 1/19/2002
+Analyst:obie                                     Model revision date: 1/19/2002
+
+Replication ended at time      : 20.0
+
+                                 TALLY VARIABLES
+
+Identifier              Average   Half Width  Minimum    Maximum   Observations
+_______________________________________________________________________________
+
+Drilling Center.WaitTi  3.0340     (Insuf)    .00000     8.1598          5    
+Drilling Center.TotalT  6.4396     (Insuf)    2.8955     12.618          5    
+Drilling Center.VATime  3.4056     (Insuf)    1.7641     4.5167          5    
+Part.VATime             3.4056     (Insuf)    1.7641     4.5167          5    
+Part.NVATime            .00000     (Insuf)    .00000     .00000          5    
+Part.WaitTime           3.0340     (Insuf)    .00000     8.1598          5    
+Part.TranTime           .00000     (Insuf)    .00000     .00000          5    
+Part.OtherTime          .00000     (Insuf)    .00000     .00000          5    
+Part.TotalTime          6.4396     (Insuf)    2.8955     12.618          5    
+Drilling Center.Queue.  2.5283     (Insuf)    .00000     8.1598          6    
+
+                           DISCRETE-CHANGE VARIABLES
+
+Identifier              Average   Half Width  Minimum    Maximum   Final Value
+_______________________________________________________________________________
+
+Part.WIP                1.7059     (Insuf)    .00000     4.0000     2.0000    
+Drill Press.NumberBusy  .91709     (Insuf)    .00000     1.0000     1.0000    
+Drill Press.NumberSche  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Press.Utilizatio  .91709     (Insuf)    .00000     1.0000     1.0000    
+Drilling Center.Queue.  .78890     (Insuf)    .00000     3.0000     1.0000    
+
+                                   OUTPUTS
+
+                    Identifier                      Value
+                    _________________________________________
+
+                    Drilling Center Number         5.0000    
+                    Drilling Center Accum V        17.028    
+                    Drilling Center Number         7.0000    
+                    Drilling Center Accum W        15.170    
+                    Part.NumberIn                  7.0000    
+                    Part.NumberOut                 5.0000    
+                    Drill Press.TimesUsed          6.0000    
+                    Drill Press.ScheduledUt        .91709    
+                    System.NumberOut               5.0000    
+
+
+Simulation run time: 0.12 minutes.
+Simulation run complete.

@@ -1,0 +1,324 @@
+Script started on Fri 28 Apr 2006 12:41:18 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cp /ec[Ktc.[K/passwd Ch^S7[K[K[K6S7 [KF1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F1
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+poganysj:x:501:501:S Pogany:/home/poganysj:/bin/bash
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ wc -l Ch6S7F1
+37 Ch6S7F1
+]0;Student@localhost:~[Student@localhost ~]$ che [K[K[K[Kecho there are 37 users in the passwrd[K[Kd file.
+there are 37 users in the passwd file.
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 ch[K[KCh6S7F1
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+poganysj:x:501:501:S Pogany:/home/poganysj:/bin/bash
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S7F1 > Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ soryt[K[Kt Ch6S7F2
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+halt:x:7:0:halt:/sbin:/sbin/halt
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+news:x:9:13:news:/etc/news:
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+poganysj:x:501:501:S Pogany:/home/poganysj:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+sync:x:5:0:sync:/sbin:/bin/sync
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S7F2 | cat 
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+halt:x:7:0:halt:/sbin:/sbin/halt
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+news:x:9:13:news:/etc/news:
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+poganysj:x:501:501:S Pogany:/home/poganysj:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+sync:x:5:0:sync:/sbin:/bin/sync
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S7F2 | cat > ch[K[KCh6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ sort Ch6S7F2 | cat > Ch6S7F2[1PCh6S7F2[1PCh6S7F2[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+]0;Student@localhost:~[Student@localhost ~]$ cp /etc.[K/passwd Ch6S7F1
+]0;Student@localhost:~[Student@localhost ~]$ cp /etc/passwd Ch6S7F1[11Pat Ch6S7F2[4hsort Ch6S7F2 | ca[4lt >[Student@localhost ~]$ sort Ch6S7F2 | cat > Ch6S7F2[K[K[4hcut -f1 Ch6S7[4lF1 >[Student@localhost ~]$ cut -f1 Ch6S7F1 > Ch6S7F2[Kecho there are 37 users in the passwd file.[Student@localhost ~]$ wc -l Ch6S7F1[K[2Pcat[Student@localhost ~]$ cat Ch6S7F1[4hwc[4l -l[Student@localhost ~]$ wc -l Ch6S7F1
+37 Ch6S7F1
+]0;Student@localhost:~[Student@localhost ~]$ wc -l Ch6S7F1[4hcp /etc/p[4lasswd[Student@localhost ~]$ cp /etc/passwd Ch6S7F1[11Pat Ch6S7F2[4hsort Ch6S7F2 | ca[4lt >[Student@localhost ~]$ sort Ch6S7F2 | cat > Ch6S7F2[K[K[4hcut -f1 Ch6S7[4lF1 >[Student@localhost ~]$ cut -f1 Ch6S7F1 > Ch6S7F2
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch6S7F1 > Ch6S7F2[Student@localhost ~]$ [12Pwc -l Ch6S7F1[4hcp /etc/p[4lasswd[Student@localhost ~]$ cp /etc/passwd Ch6S7F1[11Pat Ch6S7F2
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+poganysj:x:501:501:S Pogany:/home/poganysj:/bin/bash
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S7F2[Kcat Ch6S7F2[4hut -f1 Ch6S7F1[4l >[Student@localhost ~]$ cut -f1 Ch6S7F1 > Ch6S7F2[Student@localhost ~]$ [12Pwc -l Ch6S7F1[4hcp /etc/p[4lasswd[Student@localhost ~]$ cp /etc/passwd Ch6S7F1[11Pat Ch6S7F2[4hsort Ch6S7F2 | ca[4lt >[Student@localhost ~]$ sort Ch6S7F2 | cat > Ch6S7F2[K[K
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+halt:x:7:0:halt:/sbin:/sbin/halt
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+news:x:9:13:news:/etc/news:
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+poganysj:x:501:501:S Pogany:/home/poganysj:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+sync:x:5:0:sync:/sbin:/bin/sync
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S7F2
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+poganysj:x:501:501:S Pogany:/home/poganysj:/bin/bash
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+[Student@localhost ~]$ sort Ch6S7F2
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+halt:x:7:0:halt:/sbin:/sbin/halt
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+news:x:9:13:news:/etc/news:
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+poganysj:x:501:501:S Pogany:/home/poganysj:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+sync:x:5:0:sync:/sbin:/bin/sync
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+]0;Student@localhost:~[Student@localhost ~]$ echp [K[Ko i don't think i can.
+> 
+]0;Student@localhost:~[Student@localhost ~]$ ehc[K[K[Kecho ""i" "d"o"n"l"[1P";"t" "[1P"[1P"[1P"'"t" "t"i"n"k" "[1P"[1P"k"[1P"[1P"[1P"h"i"n"k" "i" "c"n"[1P"a"n"."
+i don't think i can.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Fri 28 Apr 2006 12:52:46 PM EDT

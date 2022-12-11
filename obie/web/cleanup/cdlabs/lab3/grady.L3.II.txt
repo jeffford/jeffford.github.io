@@ -1,0 +1,138 @@
+Script started on Sun 23 Apr 2006 05:00:53 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ vi hw4
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"hw4" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi j[Khw4
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"hw4" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m  [00mgrady.L3.II.txt[00m         [00mgtsbrgII.txt[00m   [00mgtysbrg.txt[00m  [00;34mreports[00m
+[00;34mDesktop[00m      [00mgrady.lab2.session.txt[00m  [00mgtsybrgII.txt[00m  [00;34mletters[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00mhw4[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+
+./letters:
+[00;34mfirends[00m  [00;34mformal[00m
+
+./letters/firends:
+
+./letters/formal:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/presonal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ cd assignments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ vi hw4
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"hw4" 1L, 42C[1;1HI really enjoy my martial art activities.
+[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ lpr hw4
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ cd ../../..
+]0;Student@localhost:/home[Student@localhost home]$ lpr asse[K[K[K[K~hw4
+lpr: error - unable to access "~hw4" - No such file or directory
+]0;Student@localhost:/home[Student@localhost home]$ lpr vi assignmetn[K[Knts/UNIX.[K/hw4
+lpr: error - unable to access "vi" - No such file or directory
+]0;Student@localhost:/home[Student@localhost home]$ vi assignmentslpr vi assignments/UNIX/hw4[Student@localhost home]$ l[Student@localhost home]$ lp[Student@localhost home]$ lpr[1P[1P[1P[Student@localhost home]$  [1P
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"assignments/UNIX/hw4" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:/home[Student@localhost home]$ vi assignments/UNIX/hw4[4hlpr [4l[Student@localhost home]$ lpr vi assignments/UNIX/hw4[1P assignments/UNIX/hw4[1P assignments/UNIX/hw4[1Passignments/UNIX/hw4
+lpr: error - unable to access "assignments/UNIX/hw4" - No such file or directory
+]0;Student@localhost:/home[Student@localhost home]$ ls assignments/ U[K[KUn[KNIX
+[00mls: assignments/UNIX: No such file or directory
+[m]0;Student@localhost:/home[Student@localhost home]$ ls
+[00m[00;34mStudent[00m
+[m]0;Student@localhost:/home[Student@localhost home]$ ls s[KStundent[1Pdent[Student@localhost home]$ ls Stud[Student@localhost home]$ ls Stude[Student@localhost home]$ ls Studen[Student@localhost home]$ ls Student/assignments/UNIX
+[00m[00mhw4[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:/home[Student@localhost home]$ ls Student/assignments/UNIX/hw4
+[00m[00mStudent/assignments/UNIX/hw4[00m
+[m]0;Student@localhost:/home[Student@localhost home]$ cd ls Student/assignments/UNIX/hw4[Student@localhost home]$ cd [KStudent.[K/assigm[Knments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ cp hw4
+cp: missing destination file
+Try `cp --help' for more information.
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ .
+bash: .: filename argument required
+.: usage: . filename [arguments]
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ cd .
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ pwd
+/home/Student/assignments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls
+[00m[00mhw4[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ cp hw4 hw4.bk.
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ cd ../../..\
+> 
+]0;Student@localhost:/home[Student@localhost home]$ ls -R
+[00m.:
+[00;34mStudent[00m
+
+./Student:
+[00;34massignments[00m  [00mgrady.L3.II.txt[00m         [00mgtsbrgII.txt[00m   [00mgtysbrg.txt[00m  [00;34mreports[00m
+[00;34mDesktop[00m      [00mgrady.lab2.session.txt[00m  [00mgtsybrgII.txt[00m  [00;34mletters[00m
+
+./Student/assignments:
+[00;34mUNIX[00m
+
+./Student/assignments/UNIX:
+[00mhw4[00m  [00mhw4.bk.[00m  [00;34mHWs[00m  [00;34mProjects[00m
+
+./Student/assignments/UNIX/HWs:
+
+./Student/assignments/UNIX/Projects:
+
+./Student/Desktop:
+
+./Student/letters:
+[00;34mfirends[00m  [00;34mformal[00m
+
+./Student/letters/firends:
+
+./Student/letters/formal:
+
+./Student/reports:
+[00;34mbusiness[00m  [00;34mpresonal[00m  [00;34mschool[00m
+
+./Student/reports/business:
+
+./Student/reports/presonal:
+
+./Student/reports/school:
+[m]0;Student@localhost:/home[Student@localhost home]$ cd s[KStundent[K[K[K[K[Kdent/assignments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls
+[00m[00mhw4[00m  [00mhw4.bk.[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ .[Kcd .
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ pwd
+/home/Student/assignments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls [K[Ks lnDie[Kr
+[00mls: lnDir: No such file or directory
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls hw4 UNIX/hw4HL
+[00mls: UNIX/hw4HL: No such file or directory
+[00mhw4[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls hw4 UNIX/hw4HL[Student@localhost UNIX]$ l[Student@localhost UNIX]$ ls[1P[4hn[4l
+ln: creating hard link `UNIX/hw4HL' to `hw4': No such file or directory
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ln hw4 hwr[K4HL
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ln hw4 hw4SL
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls -i
+[00m1431793 [00mhw4[00m      1431793 [00mhw4HL[00m  1432251 [00;34mHWs[00m
+1431810 [00mhw4.bk.[00m  1431793 [00mhw4SL[00m  1432252 [00;34mProjects[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls -i hw4
+[00m1431793 [00mhw4[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls -i hw4.bk.
+[00m1431810 [00mhw4.bk.[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls -i hw4HL
+[00m1431793 [00mhw4HL[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ s[Kls -i hw4Sl[K
+[00mls: hw4S: No such file or directory
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ Ls[K[Kls -i hw4SL
+[00m1431793 [00mhw4SL[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ ls -p hw4
+[00m[00mhw4[00m
+[m]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ D[Kexit
+
+Script done on Sun 23 Apr 2006 05:32:51 PM EDT

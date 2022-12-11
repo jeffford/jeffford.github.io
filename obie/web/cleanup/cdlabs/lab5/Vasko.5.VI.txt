@@ -1,0 +1,4408 @@
+Script started on Tue 25 Apr 2006 08:25:10 AM EDT
+]0;student@localhost:~[student@localhost ~]$ cd /etc
+]0;student@localhost:/etc[student@localhost etc]$ more profie[Kle
+# /etc/profile
+
+# System wide environment and startup programs, for login setup
+# Functions and aliases go in /etc/bashrc
+
+pathmunge () {
+	if ! echo $PATH | /bin/egrep -q "(^|:)$1($|:)" ; then
+	   if [ "$2" = "after" ] ; then
+	      PATH=$PATH:$1
+	   else
+	      PATH=$1:$PATH
+	   fi
+	fi
+}
+
+# Path manipulation
+if [ $EUID = 0 ]; then
+	pathmunge /sbin
+	pathmunge /usr/sbin
+	pathmunge /usr/local/sbin
+fi
+
+pathmunge /usr/X11R6/bin after
+[7m--More--(51%)[27m
+Most commands optionally preceded by integer argument k.  Defaults in brackets.
+Star (*) indicates argument becomes new default.
+-------------------------------------------------------------------------------
+<space>                 Display next k lines of text [current screen size]
+z                       Display next k lines of text [current screen size]*
+<return>                Display next k lines of text [1]*
+d or ctrl-D             Scroll k lines [current scroll size, initially 11]*
+q or Q or <interrupt>   Exit from more
+s                       Skip forward k lines of text [1]
+f                       Skip forward k screenfuls of text [1]
+b or ctrl-B             Skip backwards k screenfuls of text [1]
+'                       Go to place where previous search started
+=                       Display current line number
+/<regular expression>   Search for kth occurrence of regular expression [1]
+n                       Search for kth occurrence of last r.e [1]
+!<cmd> or :!<cmd>       Execute <cmd> in a subshell
+v                       Start up /usr/bin/vi at current line
+ctrl-L                  Redraw screen
+:n                      Go to kth next file [1]
+:p                      Go to kth previous file [1]
+:f                      Display current file name and line number
+.                       Repeat previous command
+-------------------------------------------------------------------------------
+[K[7m--More--(51%)[27m[K/home.hiram.edu/http://home.hiram.edu/[K[7mPattern not found[27m[K
+[7m--More--(51%)[27m[K]0;student@localhost:/etc[student@localhost etc]$ echo \1[K#1 The descir[K[Kription of this file was \" Sys[K[K[K[KSystem wide environ[K[Knmen[K[K[K[Konment and startup programs, for login setup. I also see a few progrm[Kamming  stat[K[K[K[Klines ane [K[Kd soe [K[Kme commands.[A[A[student@localhost etc]$ more profile[K
+[K
+[K[A[A[student@localhost etc]$ more profileecho \#1 The description of this file was \"System wideeenvironment and startup programs, for login setup. I also see a few programming llines and some commands.[Aenvironment and startup programs, for login setup. I also see a few programmingenvironment and startup programs, for login setup\. I also see a few programming [1@l[Aenvironment and startup programs, for login setup\. I also see a few programming l[1P[Aenvironment and startup programs, for login setupenvironment and startup programs, for login setup.\ I also see a few programming [1@l[Aenvironment and startup programs, for login setup.\" I also see a few programming[1@ [Aenvironment and startup programs, for login setup.\"environment and startup programs, for login setup.\" environment and startup programs, for login setup.\" Ienvironment and startup programs, for login setup.\" I environment and startup programs, for login setup.\" I aenvironment and startup programs, for login setup.\" I alenvironment and startup programs, for login setup.\" I alsenvironment and startup programs, for login setup.\" I alsoenvironment and startup programs, for login setup.\" I also environment and startup programs, for login setup.\" I also senvironment and startup programs, for login setup.\" I also seenvironment and startup programs, for login setup.\" I also seeenvironment and startup programs, for login setup.\" I also see environment and startup programs, for login setup.\" I also see aenvironment and startup programs, for login setup.\" I also see a environment and startup programs, for login setup.\" I also see a fenvironment and startup programs, for login setup.\" I also see a feenvironment and startup programs, for login setup.\" I also see a fewenvironment and startup programs, for login setup.\" I also see a few environment and startup programs, for login setup.\" I also see a few penvironment and startup programs, for login setup.\" I also see a few prenvironment and startup programs, for login setup.\" I also see a few proenvironment and startup programs, for login setup.\" I also see a few progenvironment and startup programs, for login setup.\" I also see a few progrenvironment and startup programs, for login setup.\" I also see a few prograenvironment and startup programs, for login setup.\" I also see a few programenvironment and startup programs, for login setup.\" I also see a few programmenvironment and startup programs, for login setup.\" I also see a few programmi
+gg g lg lig ling lineg linesg lines g lines ag lines ang lines andg lines and g lines and sg lines and sog lines and somg lines and someg lines and some g lines and some cg lines and some cog lines and some comg lines and some commg lines and some commag lines and some commang lines and some commandg lines and some commandsg lines and some commands.
+#1 The description of this file was "System wideenvironment and startup programs, for login setup." I also see a few programming lines and some commands.
+]0;student@localhost:/etc[student@localhost etc]$ echo \" B[K[KBlah Blah Blah\" >> prog[Kfile
+bash: profile: Permission denied
+]0;student@localhost:/etc[student@localhost etc]$ \[Kecho \#2 We are denied permission to c[Kappend this file.
+#2 We are denied permission to append this file.
+]0;student@localhost:/etc[student@localhost etc]$ $alias[K[K[K[K[K[Kalias
+alias l.='ls -d .* --color=tty'
+alias ll='ls -l --color=tty'
+alias ls='ls --color=tty'
+alias vi='vim'
+alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
+]0;student@localhost:/etc[student@localhost etc]$ more bashrc
+# /etc/bashrc
+
+# System wide functions and aliases
+# Environment stuff goes in /etc/profile
+
+# by default, we want this to get set.
+# Even for non-interactive, non-login shells.
+if [ $UID -gt 99 ] && [ "`id -gn`" = "`id -un`" ]; then
+	umask 002
+else
+	umask 022
+fi
+
+# are we an interactive shell?
+if [ "$PS1" ]; then
+    case $TERM in
+	xterm*)
+		if [ -e /etc/sysconfig/bash-prompt-xterm ]; then
+			PROMPT_COMMAND=/etc/sysconfig/bash-prompt-xterm
+		else
+	    	PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#
+$HOME/~}\007"'
+		fi
+[7m--More--(46%)[27m[K]0;student@localhost:/etc[student@localhost etc]$ cop[K[Kp bashrc bashrc.bak
+cp: cannot create regular file `bashrc.bak': Permission denied
+]0;student@localhost:/etc[student@localhost etc]$ echo \#5 We do not have permission to make a backup fil e.
+#5 We do not have permission to make a backup file.
+]0;student@localhost:/etc[student@localhost etc]$ $[Kalis[Kas b[Kbashrc
+bash: alias: bashrc: not found
+]0;student@localhost:/etc[student@localhost etc]$ cp bashrc ~/.[Kbashrc.bak
+]0;student@localhost:/etc[student@localhost etc]$ \#5 Never[K[K[K[K[K[K[K[K[Kecho \#5 ne[K[Knever [Kmind, I fi[K[Kif[K[Kfigured out ha [K[Kow to make a backup. [A[student@localhost etc]$ echo \#5 nevermind, I figured out how to make a backup[K.
+#5 nevermind, I figured out how to make a backup.
+]0;student@localhost:/etc[student@localhost etc]$ d[Kcd
+]0;student@localhost:~[student@localhost ~]$ alisa [K[K[Kas blah [K=ls .[K> file[K[K[K[Kbashrc.bak
+]0;student@localhost:~[student@localhost ~]$ alisa[K[Kas hoohaa [K=date > bashrc.bak> bashrc.bak
+]0;student@localhost:~[student@localhost ~]$ more [K[K[K[K[Khoohaa
+Tue Apr 25 08:46:58 EDT 2006
+]0;student@localhost:~[student@localhost ~]$ echo \#7 My alias work
+#7 My alias work
+]0;student@localhost:~[student@localhost ~]$ cd /t[Ketc
+]0;student@localhost:/etc[student@localhost etc]$ sourc.[K .bashrc
+bash: sourc: command not found
+]0;student@localhost:/etc[student@localhost etc]$ source .bahsr[K[K[Kshrc
+bash: .bashrc: No such file or directory
+]0;student@localhost:/etc[student@localhost etc]$ bashrc
+bash: bashrc: command not found
+]0;student@localhost:/etc[student@localhost etc]$ -exec [K[K[K[K[K[Kmore bashrc
+# /etc/bashrc
+
+# System wide functions and aliases
+# Environment stuff goes in /etc/profile
+
+# by default, we want this to get set.
+# Even for non-interactive, non-login shells.
+if [ $UID -gt 99 ] && [ "`id -gn`" = "`id -un`" ]; then
+	umask 002
+else
+	umask 022
+fi
+
+# are we an interactive shell?
+if [ "$PS1" ]; then
+    case $TERM in
+	xterm*)
+		if [ -e /etc/sysconfig/bash-prompt-xterm ]; then
+			PROMPT_COMMAND=/etc/sysconfig/bash-prompt-xterm
+		else
+	    	PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#
+$HOME/~}\007"'
+		fi
+[7m--More--(46%)[27m[K]0;student@localhost:/etc[student@localhost etc]$ cd
+]0;student@localhost:~[student@localhost ~]$ rm bashrc.bak
+]0;student@localhost:~[student@localhost ~]$ cd /etc
+]0;student@localhost:/etc[student@localhost etc]$ more bash_lou[Kgout
+bash_logout: No such file or directory
+]0;student@localhost:/etc[student@localhost etc]$ more o[Kloug[K[Kgout
+logout: No such file or directory
+]0;student@localhost:/etc[student@localhost etc]$ mour[K[Kre .bash_logout
+.bash_logout: No such file or directory
+]0;student@localhost:/etc[student@localhost etc]$ ls -R
+[00m.:
+[00ma2ps.cfg[00m              [00;34mhotplug[00m               [00mprelink.cache[00m
+[00ma2ps-site.cfg[00m         [00;34mhotplug.d[00m             [00mprelink.conf[00m
+[00;34macpi[00m                  [00;34mhowl[00m                  [00mprintcap[00m
+[00madjtime[00m               [00;34mhtdig[00m                 [00mprofile[00m
+[00;34malchemist[00m             [00midmapd.conf[00m           [00;34mprofile.d[00m
+[00maliases[00m               [00mim_palette.pal[00m        [00mprotocols[00m
+[00maliases.db[00m            [00mim_palette-small.pal[00m  [00mpwdb.conf[00m
+[00;34malsa[00m                  [00mim_palette-tiny.pal[00m   [00mquotagrpadmins[00m
+[00;34malternatives[00m          [00mimrc[00m                  [00mquotatab[00m
+[00manacrontab[00m            [00;36minit.d[00m                [00;34mracoon[00m
+[00mant.conf[00m              [00minitlog.conf[00m          [00;36mrc[00m
+[00;34mant.d[00m                 [00minittab[00m               [00;36mrc0.d[00m
+[00masound.conf[00m           [00minputrc[00m               [00;36mrc1.d[00m
+[00masound.state[00m          [00;34miproute2[00m              [00;36mrc2.d[00m
+[00mat.deny[00m               [00;34misdn[00m                  [00;36mrc3.d[00m
+[00mauditd.conf[00m           [00missue[00m                 [00;36mrc4.d[00m
+[00maudit.rules[00m           [00missue.net[00m             [00;36mrc5.d[00m
+[00mauto.master[00m           [00;34mjava[00m                  [00;36mrc6.d[00m
+[00mauto.misc[00m             [00mjwhois.conf[00m           [00;34mrc.d[00m
+[00;32mauto.net[00m              [00;34mkde[00m                   [00;36mrc.local[00m
+[00;32mauto.smb[00m              [00mkderc[00m                 [00;36mrc.sysinit[00m
+[00mbashrc[00m                [00;34mkermit[00m                [00;34mredhat-lsb[00m
+[00mblkid.tab[00m             [00mkrb5.conf[00m             [00;36mredhat-release[00m
+[00mblkid.tab.old[00m         [00mkrb.conf[00m              [00mresolv.conf[00m
+[00;34mbluetooth[00m             [00mkrb.realms[00m            [00mresolv.conf.predhclient[00m
+[00;34mbonobo-activation[00m     [00mksysguarddrc[00m          [00;34mrhgb[00m
+[00mcdrecord.conf[00m         [00mldap.conf[00m             [00;36mrmt[00m
+[00mcpuspeed.conf[00m         [00mld.so.cache[00m           [00mrndc.conf[00m
+[00;34mcron.d[00m                [00mld.so.conf[00m            [00mrndc.key[00m
+[00;34mcron.daily[00m            [00;34mld.so.conf.d[00m          [00mrpc[00m
+[00mcron.deny[00m             [00mlftp.conf[00m             [00;34mrpm[00m
+[00;34mcron.hourly[00m           [00mlibuser.conf[00m          [00;34msamba[00m
+[00;34mcron.monthly[00m          [00mlisarc[00m                [00;34msane.d[00m
+[00mcrontab[00m               [00mlocaltime[00m             [00mscreenrc[00m
+[00;34mcron.weekly[00m           [00mlogin.defs[00m            [00mscrollkeeper.conf[00m
+[00mcsh.cshrc[00m             [00mlogrotate.conf[00m        [00mscsi_id.config[00m
+[00mcsh.login[00m             [00;34mlogrotate.d[00m           [00msecuretty[00m
+[00;34mcups[00m                  [00;34mlogwatch[00m              [00;34msecurity[00m
+[00;34mdbus-1[00m                [00mlsb-release[00m           [00;34mselinux[00m
+[00;34mdefault[00m               [00mltrace.conf[00m           [00msensors.conf[00m
+[00;34mdev.d[00m                 [00;34mlvm[00m                   [00mservices[00m
+[00mDIR_COLORS[00m            [00;34mmail[00m                  [00msestatus.conf[00m
+[00mDIR_COLORS.xterm[00m      [00mmailcap[00m               [00;34msetuptool.d[00m
+[00mdumpdates[00m             [00mmail.rc[00m               [00;34msgml[00m
+[00menscript.cfg[00m          [00;34mmakedev.d[00m             [00mshadow[00m
+[00menvironment[00m           [00mman.config[00m            [00mshadow-[00m
+[00mesd.conf[00m              [00;34mmgetty+sendfax[00m        [00mshells[00m
+[00mexports[00m               [00mmime.types[00m            [00;34mskel[00m
+[00mfb.modes[00m              [00mminicom.users[00m         [00mslrn.rc[00m
+[00mfdprm[00m                 [00mmodprobe.conf[00m         [00;34msmrsh[00m
+[00mfedora-release[00m        [00mmodprobe.conf~[00m        [00;34msnmp[00m
+[00mfilesystems[00m           [00mmodprobe.conf.dist[00m    [00;34msound[00m
+[00;34mfonts[00m                 [00;34mmodprobe.d[00m            [00;34mssh[00m
+[00;34mfoomatic[00m              [00mmotd[00m                  [00;34mstunnel[00m
+[00mfstab[00m                 [00mmtab[00m                  [00msudoers[00m
+[00;34mgaim[00m                  [00mmtools.conf[00m           [00;34msysconfig[00m
+[00;34mgconf[00m                 [00mMuttrc[00m                [00msysctl.conf[00m
+[00;34mghostscript[00m           [00mMuttrc.local[00m          [00msyslog.conf[00m
+[00;34mgimp[00m                  [00mnamed.conf[00m            [00mtermcap[00m
+[00;34mgnome-vfs-2.0[00m         [00;34mnetplug[00m               [00;34mudev[00m
+[00mgnome-vfs-mime-magic[00m  [00;34mnetplug.d[00m             [00mupdatedb.conf[00m
+[00;34mgnopernicus-1.0[00m       [00mnscd.conf[00m             [00mvimrc[00m
+[00mgpm-root.conf[00m         [00mnsswitch.conf[00m         [00mvimrc.rpmnew[00m
+[00;34mgre.d[00m                 [00;34mntp[00m                   [00mwarnquota.conf[00m
+[00mgroup[00m                 [00mntp.conf[00m              [00mwgetrc[00m
+[00mgroup-[00m                [00;34mopenldap[00m              [00mwvdial.conf[00m
+[00mgroup.lock[00m            [00;34mopt[00m                   [00;34mX11[00m
+[00;36mgrub.conf[00m             [00;34mpam.d[00m                 [00;34mxdg[00m
+[00mgshadow[00m               [00mpam_smb.conf[00m          [00;34mxinetd.d[00m
+[00mgshadow-[00m              [00;34mpango[00m                 [00;34mxml[00m
+[00mgshadow.lock[00m          [00mpasswd[00m                [00myp.conf[00m
+[00mgssapi_mech.conf[00m      [00mpasswd-[00m               [00;34myum[00m
+[00;34mgtk[00m                   [00mpasswd.OLD[00m            [00myum.conf[00m
+[00;34mgtk-2.0[00m               [00mpbm2ppa.conf[00m          [00;34myum.repos.d[00m
+[00;34mhal[00m                   [00;34mpcmcia[00m                [00mzlogin[00m
+[00mhost.conf[00m             [00mpinforc[00m               [00mzlogout[00m
+[00mhosts[00m                 [00;34mpki[00m                   [00mzprofile[00m
+[00mhosts.allow[00m           [00mpnm2ppa.conf[00m          [00mzshenv[00m
+[00mhosts.deny[00m            [00;34mppp[00m                   [00mzshrc[00m
+
+./acpi:
+[00;34mactions[00m  [00;34mevents[00m
+
+./acpi/actions:
+
+./acpi/events:
+[00msample.conf[00m
+
+./alchemist:
+[00;34mnamespace[00m  [00;34mswitchboard[00m
+
+./alchemist/namespace:
+[00;34mprintconf[00m
+
+./alchemist/namespace/printconf:
+[00mlocal.adl[00m  [00mrpm.adl[00m
+
+./alchemist/switchboard:
+[00mprintconf.swb.adl[00m
+
+./alsa:
+[00mainit.conf[00m  [00malsa.conf[00m  [00;34mcards[00m  [00;34mpcm[00m  [00msndo-mixer.alisp[00m
+
+./alsa/cards:
+[00mAACI.conf[00m          [00mCA0106.conf[00m         [00mHDA-Intel.conf[00m   [00;34mSI7018[00m
+[00maliases.alisp[00m      [00mCMI8338.conf[00m        [00mICE1712.conf[00m     [00mSI7018.conf[00m
+[00maliases.conf[00m       [00mCMI8338-SWIEC.conf[00m  [00mICE1724.conf[00m     [00mTRID4DWAVENX.conf[00m
+[00mATIIXP.conf[00m        [00mCMI8738-MC6.conf[00m    [00mICH4.conf[00m        [00mVIA686A.conf[00m
+[00mATIIXP-MODEM.conf[00m  [00mCMI8738-MC8.conf[00m    [00mICH.conf[00m         [00mVIA8233A.conf[00m
+[00mATIIXP-SPDMA.conf[00m  [00mCS46xx.conf[00m         [00mICH-MODEM.conf[00m   [00mVIA8233.conf[00m
+[00mAU8810.conf[00m        [00mEMU10K1.conf[00m        [00mMaestro3.conf[00m    [00mVIA8237.conf[00m
+[00mAU8820.conf[00m        [00mEMU10K1X.conf[00m       [00mNFORCE.conf[00m      [00mVX222.conf[00m
+[00mAU8830.conf[00m        [00mENS1370.conf[00m        [00mPC-Speaker.conf[00m  [00mVXPocket440.conf[00m
+[00mAudigy2.conf[00m       [00mENS1371.conf[00m        [00mPMac.conf[00m        [00mVXPocket.conf[00m
+[00mAudigy.conf[00m        [00mES1968.conf[00m         [00mPMacToonie.conf[00m  [00mYMF744.conf[00m
+[00mAureon51.conf[00m      [00mFM801.conf[00m          [00mRME9636.conf[00m
+[00mAureon71.conf[00m      [00mGUS.conf[00m            [00mRME9652.conf[00m
+
+./alsa/cards/SI7018:
+[00msndoc-mixer.alisp[00m  [00msndop-mixer.alisp[00m
+
+./alsa/pcm:
+[00mcenter_lfe.conf[00m  [00mdmix.template[00m     [00mfront.conf[00m   [00msurround40.conf[00m
+[00mdefault.conf[00m     [00mdsnoop.conf[00m       [00miec958.conf[00m  [00msurround41.conf[00m
+[00mdmix.conf[00m        [00mdsnoop.conf.back[00m  [00mmodem.conf[00m   [00msurround50.conf[00m
+[00mdmix.conf.back[00m   [00mdsnoop.conf.lock[00m  [00mrear.conf[00m    [00msurround51.conf[00m
+[00mdmix.conf.lock[00m   [00mdsnoop.template[00m   [00mside.conf[00m    [00msurround71.conf[00m
+
+./alternatives:
+[00;36mantlr[00m                   [00;36mjre[00m                [00;36mprint-cancel[00m
+[00;36metags[00m                   [00;36mjre_1.4.2[00m          [00;36mprint-cancelman[00m
+[00;36mhibernate_jdbc_cache[00m    [00;36mjre_1.4.2_exports[00m  [00;36mprint-lp[00m
+[00;36mjar[00m                     [00;36mjre_exports[00m        [00;36mprint-lpc[00m
+[00;36mjava[00m                    [00;36mjre_gcj[00m            [00;36mprint-lpcman[00m
+[00;36mjavac[00m                   [00;36mjre_gcj_exports[00m    [00;36mprint-lpman[00m
+[00;36mjavadoc[00m                 [00;36mmta[00m                [00;36mprint-lpq[00m
+[00;36mjavah[00m                   [00;36mmta-aliasesman[00m     [00;36mprint-lpqman[00m
+[00;36mjava_sdk[00m                [00;36mmta-mailq[00m          [00;36mprint-lprm[00m
+[00;36mjava_sdk_1.4.2[00m          [00;36mmta-mailqman[00m       [00;36mprint-lprman[00m
+[00;36mjava_sdk_1.4.2_exports[00m  [00;36mmta-newaliases[00m     [00;36mprint-lprmman[00m
+[00;36mjava_sdk_exports[00m        [00;36mmta-newaliasesman[00m  [00;36mprint-lpstat[00m
+[00;36mjava_sdk_gcj[00m            [00;36mmta-pam[00m            [00;36mprint-lpstatman[00m
+[00;36mjava_sdk_gcj_exports[00m    [00;36mmta-rmail[00m          [00;36mrmic[00m
+[00;36mjaxp_parser_impl[00m        [00;36mmta-sendmail[00m       [00;36mrmiregistry[00m
+[00;36mjaxp_transform_impl[00m     [00;36mmta-sendmailman[00m
+[00;36mjmxri[00m                   [00;36mprint[00m
+
+./ant.d:
+[00mantlr[00m         [00mapache-oro[00m       [00mcommons-logging[00m  [00mjmf[00m     [00mswing[00m
+[00mapache-bcel[00m   [00mapache-regexp[00m    [00mjavamail[00m         [00mjunit[00m   [00mtrax[00m
+[00mapache-log4j[00m  [00mapache-resolver[00m  [00mjdepend[00m          [00mnodeps[00m
+
+./bluetooth:
+[00mhcid.conf[00m  [00mpin[00m  [00mrfcomm.conf[00m
+
+./bonobo-activation:
+[00mbonobo-activation-config.xml[00m
+
+./cron.d:
+
+./cron.daily:
+[00;32m0anacron[00m   [00;32mcups[00m       [00;32mmakewhatis.cron[00m  [00;32mrpm[00m           [00;32mtetex.cron[00m  [00;32myum.cron[00m
+[00;36m0logwatch[00m  [00;32mlogrotate[00m  [00;32mprelink[00m          [00;32mslocate.cron[00m  [00;32mtmpwatch[00m
+
+./cron.hourly:
+
+./cron.monthly:
+[00;32m0anacron[00m
+
+./cron.weekly:
+[00;32m0anacron[00m  [00;32mmakewhatis.cron[00m  [00;32myum.cron[00m
+
+./cups:
+[00;34mcerts[00m         [00mcupsd.conf[00m       [00mlpoptions[00m   [00;34mppd[00m            [00mpstoraster.convs[00m
+[00mclasses.conf[00m  [00mcupsd.conf.save[00m  [00mmime.convs[00m  [00mppds.dat[00m
+[00mclient.conf[00m   [00;34minterfaces[00m       [00mmime.types[00m  [00mprinters.conf[00m
+ls: ./cups/certs: Permission denied
+
+./cups/interfaces:
+
+./cups/ppd:
+[00mColton106.ppd[00m
+
+./dbus-1:
+[00msession.conf[00m  [00msystem.conf[00m  [00;34msystem.d[00m
+
+./dbus-1/system.d:
+[00mbluez.conf[00m                    [00;32mdhcdbd.conf[00m  [00mNetworkManager.conf[00m
+[00mcups.conf[00m                     [00mhal.conf[00m     [00mnm-applet.conf[00m
+[00mcups-config-daemon-dbus.conf[00m  [00mnamed.conf[00m   [00mprintdriverselector.conf[00m
+
+./default:
+[00mnss[00m  [00museradd[00m
+
+./dev.d:
+[00;34mdefault[00m  [00;34mfd0[00m  [00;34mfd1[00m  [00;34mfd2[00m  [00;34mfd3[00m  [00;34msound[00m
+
+./dev.d/default:
+[00;36m05-pam_console.dev[00m
+
+./dev.d/fd0:
+[00;36m10-MAKEDEV.dev[00m
+
+./dev.d/fd1:
+[00;36m10-MAKEDEV.dev[00m
+
+./dev.d/fd2:
+[00;36m10-MAKEDEV.dev[00m
+
+./dev.d/fd3:
+[00;36m10-MAKEDEV.dev[00m
+
+./dev.d/sound:
+[00;32malsa.dev[00m
+
+./fonts:
+[00mfonts.conf[00m  [00mfonts.dtd[00m  [00mlocal.conf[00m
+
+./foomatic:
+[00mfilter.conf[00m
+
+./gaim:
+[00mprefs.xml[00m
+
+./gconf:
+[00;34m2[00m  [00;34mgconf.xml.defaults[00m  [00;34mgconf.xml.mandatory[00m  [00;34mschemas[00m
+
+./gconf/2:
+[00mevoldap.conf[00m  [00mpath[00m
+
+./gconf/gconf.xml.defaults:
+[00;34mapps[00m  [00;34mdesktop[00m  [00;34mschemas[00m  [00;34msystem[00m
+
+./gconf/gconf.xml.defaults/apps:
+[00;34maisleriot[00m     [00;34mgfloppy[00m                [00;34mgnome-system-log[00m  [00;34mmini-commander[00m
+[00;34mblackjack[00m     [00;34mglines[00m                 [00;34mgnome-terminal[00m    [00;34mnautilus[00m
+[00;34mbug-buddy[00m     [00;34mgnect[00m                  [00;34mgnometris[00m         [00;34mnautilus-cd-burner[00m
+[00;34mCDDB-Slave2[00m   [00;34mgnibbles[00m               [00;34mgnomine[00m           [00;34mnetstatus_applet[00m
+[00;34mdevhelp[00m       [00;34mgnobots2[00m               [00;34mgnopernicus[00m       [00;34mpanel[00m
+[00;34mevince[00m        [00;34mgnome-cd[00m               [00;34mgnotravex[00m         [00;34mprocman[00m
+[00;34mevolution[00m     [00;34mgnome-dictionary[00m       [00;34mgok[00m               [00;34mrhythmbox[00m
+[00;34mfile-roller[00m   [00;34mgnome-keyring-manager[00m  [00;34mgswitchit[00m         [00;34msame-gnome[00m
+[00;34mgataxx[00m        [00;34mgnomemeeting[00m           [00;34mgtali[00m             [00;34msound-juicer[00m
+[00;34mgcalctool[00m     [00;34mgnome-screenshot[00m       [00;34mgthumb[00m            [00;34mstickynotes_applet[00m
+[00;34mgconf-editor[00m  [00;34mgnome-search-tool[00m      [00;34miagno[00m             [00;34mtotem[00m
+[00m%gconf.xml[00m    [00;34mgnome-session[00m          [00;34mmahjongg[00m
+[00;34mgedit-2[00m       [00;34mgnome_settings_daemon[00m  [00;34mmetacity[00m
+
+./gconf/gconf.xml.defaults/apps/aisleriot:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/blackjack:
+[00;34mdeck[00m  [00m%gconf.xml[00m  [00;34mglobal[00m  [00;34msettings[00m
+
+./gconf/gconf.xml.defaults/apps/blackjack/deck:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/blackjack/global:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/blackjack/settings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/bug-buddy:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/CDDB-Slave2:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/devhelp:
+[00m%gconf.xml[00m  [00;34mui[00m
+
+./gconf/gconf.xml.defaults/apps/devhelp/ui:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evince:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution:
+[00;34maddressbook[00m  [00;34mcalendar[00m  [00m%gconf.xml[00m  [00;34mmail[00m  [00;34mshell[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/addressbook:
+[00;34mcompletion[00m  [00;34mdisplay[00m  [00m%gconf.xml[00m  [00;34mselect_names[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/addressbook/completion:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/addressbook/display:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/addressbook/select_names:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/calendar:
+[00;34mdate_navigator[00m  [00;34mdisplay[00m  [00m%gconf.xml[00m  [00;34mnotify[00m  [00;34mother[00m  [00;34mprompts[00m  [00;34mpublish[00m  [00;34mtasks[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/calendar/date_navigator:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/calendar/display:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/calendar/notify:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/calendar/other:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/calendar/prompts:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/calendar/publish:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/calendar/tasks:
+[00;34mcolors[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/calendar/tasks/colors:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail:
+[00;34mcomposer[00m  [00;34mfilters[00m  [00m%gconf.xml[00m  [00;34mmessage_window[00m  [00;34mprompts[00m           [00;34mtrash[00m
+[00;34mdisplay[00m   [00;34mformat[00m   [00;34mjunk[00m        [00;34mnotify[00m          [00;34msubscribe_window[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/composer:
+[00m%gconf.xml[00m  [00;34mview[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/composer/view:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/display:
+[00;34mfonts[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/display/fonts:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/filters:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/format:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/junk:
+[00m%gconf.xml[00m  [00;34msa[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/junk/sa:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/message_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/notify:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/prompts:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/subscribe_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/mail/trash:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/shell:
+[00m%gconf.xml[00m  [00;34moffline[00m  [00;34mview_defaults[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/shell/offline:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/shell/view_defaults:
+[00;34mfolder_bar[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/evolution/shell/view_defaults/folder_bar:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/file-roller:
+[00;34mdialogs[00m  [00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mlisting[00m  [00;34mui[00m
+
+./gconf/gconf.xml.defaults/apps/file-roller/dialogs:
+[00;34mbatch-add[00m  [00;34mextract[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/file-roller/dialogs/batch-add:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/file-roller/dialogs/extract:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/file-roller/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/file-roller/listing:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/file-roller/ui:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gataxx:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gcalctool:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gconf-editor:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2:
+[00m%gconf.xml[00m  [00;34mplugins[00m  [00;34mpreferences[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/plugins:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences:
+[00;34meditor[00m  [00;34mencodings[00m  [00m%gconf.xml[00m  [00;34mprint[00m  [00;34msyntax_highlighting[00m  [00;34mui[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/editor:
+[00;34mauto_indent[00m       [00;34mcolors[00m        [00;34mfont[00m        [00;34mline_numbers[00m  [00;34msave[00m  [00;34mundo[00m
+[00;34mbracket_matching[00m  [00;34mcurrent_line[00m  [00m%gconf.xml[00m  [00;34mright_margin[00m  [00;34mtabs[00m  [00;34mwrap_mode[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/editor/auto_indent:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/editor/bracket_matching:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/editor/colors:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/editor/current_line:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/editor/font:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/editor/line_numbers:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/editor/right_margin:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/editor/save:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/editor/tabs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/editor/undo:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/editor/wrap_mode:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/encodings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/print:
+[00;34mfonts[00m  [00m%gconf.xml[00m  [00;34mpage[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/print/fonts:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/print/page:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/syntax_highlighting:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/ui:
+[00m%gconf.xml[00m  [00;34mopen_save[00m  [00;34mrecents[00m  [00;34mstatusbar[00m  [00;34mtoolbar[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/ui/open_save:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/ui/recents:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/ui/statusbar:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gedit-2/preferences/ui/toolbar:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gfloppy:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/glines:
+[00m%gconf.xml[00m  [00;34mpreferences[00m  [00;34msaved[00m
+
+./gconf/gconf.xml.defaults/apps/glines/preferences:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/glines/saved:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnect:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnibbles:
+[00m%gconf.xml[00m  [00;34mpreferences[00m
+
+./gconf/gconf.xml.defaults/apps/gnibbles/preferences:
+[00m%gconf.xml[00m  [00;34mworm[00m
+
+./gconf/gconf.xml.defaults/apps/gnibbles/preferences/worm:
+[00;34m0[00m  [00;34m1[00m  [00;34m2[00m  [00;34m3[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnibbles/preferences/worm/0:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnibbles/preferences/worm/1:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnibbles/preferences/worm/2:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnibbles/preferences/worm/3:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnobots2:
+[00m%gconf.xml[00m  [00;34mpreferences[00m
+
+./gconf/gconf.xml.defaults/apps/gnobots2/preferences:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-cd:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-dictionary:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-keyring-manager:
+[00m%gconf.xml[00m  [00;34mkeyring-editor[00m  [00;34mkeyring-manager[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-keyring-manager/keyring-editor:
+[00;34mcolumns[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-keyring-manager/keyring-editor/columns:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-keyring-manager/keyring-manager:
+[00;34mcolumns[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-keyring-manager/keyring-manager/columns:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting:
+[00;34mcodecs[00m  [00;34mcontacts[00m  [00;34mdevices[00m  [00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mprotocols[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/codecs:
+[00;34maudio[00m  [00m%gconf.xml[00m  [00;34mvideo[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/codecs/audio:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/codecs/video:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/contacts:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/devices:
+[00;34maudio[00m  [00m%gconf.xml[00m  [00;34mvideo[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/devices/audio:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/devices/video:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general:
+[00;34mcall_options[00m  [00m%gconf.xml[00m  [00;34mnat[00m  [00;34mpersonal_data[00m  [00;34msound_events[00m  [00;34muser_interface[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/call_options:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/nat:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/personal_data:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/sound_events:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/user_interface:
+[00;34maddress_book_window[00m   [00;34mlocal_video_window[00m  [00;34mpreferences_window[00m
+[00;34mcalls_history_window[00m  [00;34mlog_window[00m          [00;34mremote_video_window[00m
+[00;34mdruid_window[00m          [00;34mmain_window[00m         [00;34mvideo_display[00m
+[00m%gconf.xml[00m            [00;34mpc_to_phone_window[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/user_interface/address_book_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/user_interface/calls_history_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/user_interface/druid_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/user_interface/local_video_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/user_interface/log_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/user_interface/main_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/user_interface/pc_to_phone_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/user_interface/preferences_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/user_interface/remote_video_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/general/user_interface/video_display:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/protocols:
+[00m%gconf.xml[00m  [00;34mh323[00m  [00;34mldap[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/protocols/h323:
+[00;34madvanced[00m  [00;34mcall_forwarding[00m  [00;34mgatekeeper[00m  [00;34mgateway[00m  [00m%gconf.xml[00m  [00;34mports[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/protocols/h323/advanced:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/protocols/h323/call_forwarding:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/protocols/h323/gatekeeper:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/protocols/h323/gateway:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/protocols/h323/ports:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomemeeting/protocols/ldap:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-screenshot:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-search-tool:
+[00m%gconf.xml[00m  [00;34mselect[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-search-tool/select:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-session:
+[00m%gconf.xml[00m  [00;34moptions[00m  [00;34mrh_extensions[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-session/options:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-session/rh_extensions:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome_settings_daemon:
+[00;34meditor[00m  [00m%gconf.xml[00m  [00;34mkeybindings[00m  [00;34mscreensaver[00m
+
+./gconf/gconf.xml.defaults/apps/gnome_settings_daemon/editor:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome_settings_daemon/keybindings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome_settings_daemon/screensaver:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-system-log:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-terminal:
+[00m%gconf.xml[00m  [00;34mglobal[00m  [00;34mkeybindings[00m  [00;34mprofiles[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-terminal/global:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-terminal/keybindings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-terminal/profiles:
+[00;34mDefault[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnome-terminal/profiles/Default:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnometris:
+[00;34mcontrols[00m  [00m%gconf.xml[00m  [00;34moptions[00m
+
+./gconf/gconf.xml.defaults/apps/gnometris/controls:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnometris/options:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnomine:
+[00m%gconf.xml[00m  [00;34mgeometry[00m
+
+./gconf/gconf.xml.defaults/apps/gnomine/geometry:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus:
+[00;34mbraille[00m  [00;34mcommand_map[00m  [00m%gconf.xml[00m  [00;34mpresentation[00m  [00;34mspeech[00m
+[00;34mbrlmon[00m   [00;34mconfig[00m       [00;34mmagnifier[00m   [00;34mremote[00m        [00;34msrcore[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/braille:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/brlmon:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map:
+[00;34mbraille_key[00m  [00m%gconf.xml[00m  [00;34mkeyboard[00m  [00;34mkey_pad[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/braille_key:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard:
+[00;34mDK00[00m        [00;34mL00K03[00m  [00;34mL00K13[00m  [00;34mL03K04[00m  [00;34mL05K06[00m  [00;34mL06K06[00m  [00;34mL07K03[00m  [00;34mL08K02[00m  [00;34mL09K01[00m
+[00;34mDK01[00m        [00;34mL00K04[00m  [00;34mL00K14[00m  [00;34mL03K05[00m  [00;34mL05K07[00m  [00;34mL06K07[00m  [00;34mL07K04[00m  [00;34mL08K03[00m  [00;34mL09K03[00m
+[00;34mDK01DK02[00m    [00;34mL00K05[00m  [00;34mL00K15[00m  [00;34mL03K06[00m  [00;34mL05K08[00m  [00;34mL06K08[00m  [00;34mL07K05[00m  [00;34mL08K04[00m  [00;34mL09K04[00m
+[00;34mDK02[00m        [00;34mL00K06[00m  [00;34mL01K01[00m  [00;34mL03K07[00m  [00;34mL05K09[00m  [00;34mL06K09[00m  [00;34mL07K06[00m  [00;34mL08K05[00m  [00;34mL09K06[00m
+[00;34mDK03[00m        [00;34mL00K07[00m  [00;34mL01K02[00m  [00;34mL03K10[00m  [00;34mL05K10[00m  [00;34mL06K10[00m  [00;34mL07K08[00m  [00;34mL08K06[00m  [00;34mL10K01[00m
+[00;34mDK04[00m        [00;34mL00K08[00m  [00;34mL01K03[00m  [00;34mL05K01[00m  [00;34mL06K01[00m  [00;34mL06K11[00m  [00;34mL07K09[00m  [00;34mL08K07[00m  [00;34mL10K02[00m
+[00;34mDK05[00m        [00;34mL00K09[00m  [00;34mL01K12[00m  [00;34mL05K02[00m  [00;34mL06K02[00m  [00;34mL06K12[00m  [00;34mL07K10[00m  [00;34mL08K08[00m  [00;34mL10K03[00m
+[00m%gconf.xml[00m  [00;34mL00K10[00m  [00;34mL03K01[00m  [00;34mL05K03[00m  [00;34mL06K03[00m  [00;34mL06K13[00m  [00;34mL07K11[00m  [00;34mL08K09[00m  [00;34mL10K04[00m
+[00;34mL00K01[00m      [00;34mL00K11[00m  [00;34mL03K02[00m  [00;34mL05K04[00m  [00;34mL06K04[00m  [00;34mL07K01[00m  [00;34mL07K13[00m  [00;34mL08K10[00m
+[00;34mL00K02[00m      [00;34mL00K12[00m  [00;34mL03K03[00m  [00;34mL05K05[00m  [00;34mL06K05[00m  [00;34mL07K02[00m  [00;34mL08K01[00m  [00;34mL08K13[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/DK00:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/DK01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/DK01DK02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/DK02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/DK03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/DK04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/DK05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K07:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K08:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K09:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K10:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K11:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K12:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K13:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K14:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L00K15:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L01K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L01K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L01K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L01K12:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L03K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L03K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L03K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L03K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L03K05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L03K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L03K07:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L03K10:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L05K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L05K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L05K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L05K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L05K05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L05K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L05K07:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L05K08:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L05K09:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L05K10:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K07:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K08:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K09:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K10:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K11:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K12:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L06K13:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L07K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L07K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L07K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L07K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L07K05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L07K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L07K08:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L07K09:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L07K10:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L07K11:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L07K13:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L08K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L08K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L08K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L08K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L08K05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L08K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L08K07:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L08K08:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L08K09:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L08K10:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L08K13:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L09K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L09K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L09K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L09K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L10K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L10K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L10K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/keyboard/L10K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/command_map/key_pad:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/config:
+[00;34mbrlmon[00m  [00m%gconf.xml[00m  [00;34mremote[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/config/brlmon:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/config/remote:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/magnifier:
+[00m%gconf.xml[00m  [00;34mschema1[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/magnifier/schema1:
+[00m%gconf.xml[00m  [00;34mgeneric_zoomer[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/magnifier/schema1/generic_zoomer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/presentation:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/remote:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/speech:
+[00;34mdictionary[00m  [00m%gconf.xml[00m  [00;34msettings[00m  [00;34mvoices_parameters[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/speech/dictionary:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/speech/settings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/speech/voices_parameters:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnopernicus/srcore:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gnotravex:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok:
+[00;34mactions[00m  [00;34mfeedbacks[00m  [00m%gconf.xml[00m  [00;34mlayout[00m  [00;34mspy[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions:
+[00;34mdwell[00m       [00;34mmousebutton1[00m  [00;34mmousebutton3[00m  [00;34mmousebutton5[00m  [00;34mswitch1[00m  [00;34mswitch3[00m  [00;34mswitch5[00m
+[00m%gconf.xml[00m  [00;34mmousebutton2[00m  [00;34mmousebutton4[00m  [00;34mmousepointer[00m  [00;34mswitch2[00m  [00;34mswitch4[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions/dwell:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions/mousebutton1:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions/mousebutton2:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions/mousebutton3:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions/mousebutton4:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions/mousebutton5:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions/mousepointer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions/switch1:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions/switch2:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions/switch3:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions/switch4:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/actions/switch5:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/feedbacks:
+[00m%gconf.xml[00m  [00;34mgoksound1[00m  [00;34mgoksound2[00m  [00;34mgokspeech[00m  [00;34mkey_flashing[00m  [00;34mnone[00m
+
+./gconf/gconf.xml.defaults/apps/gok/feedbacks/goksound1:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/feedbacks/goksound2:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/feedbacks/gokspeech:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/feedbacks/key_flashing:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/feedbacks/none:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/layout:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gok/spy:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gswitchit:
+[00;34mApplet[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gswitchit/Applet:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gtali:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb:
+[00;34mbrowser[00m  [00;34mdialogs[00m  [00;34mexporter[00m  [00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mslideshow[00m  [00;34mui[00m  [00;34mviewer[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/browser:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs:
+[00;34mconvert_format[00m  [00;34mjpeg_saver[00m      [00;34mprint[00m          [00;34msearch[00m      [00;34mweb_album[00m
+[00;34mcrop[00m            [00;34mmessages[00m        [00;34mrename_series[00m  [00;34mtga_saver[00m
+[00m%gconf.xml[00m      [00;34mphoto_importer[00m  [00;34mscale_image[00m    [00;34mtiff_saver[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs/convert_format:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs/crop:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs/jpeg_saver:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs/messages:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs/photo_importer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs/print:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs/rename_series:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs/scale_image:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs/search:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs/tga_saver:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs/tiff_saver:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/dialogs/web_album:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/exporter:
+[00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mpage[00m  [00;34mthumbnail[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/exporter/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/exporter/page:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/exporter/thumbnail:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/general:
+[00;34madd_to_catalog[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/general/add_to_catalog:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/slideshow:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/ui:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/gthumb/viewer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/iagno:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/mahjongg:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/metacity:
+[00m%gconf.xml[00m  [00;34mglobal_keybindings[00m   [00;34mwindow_keybindings[00m
+[00;34mgeneral[00m     [00;34mkeybinding_commands[00m  [00;34mworkspace_names[00m
+
+./gconf/gconf.xml.defaults/apps/metacity/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/metacity/global_keybindings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/metacity/keybinding_commands:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/metacity/window_keybindings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/metacity/workspace_names:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/mini-commander:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/nautilus:
+[00;34mdesktop[00m  [00m%gconf.xml[00m  [00;34micon_view[00m  [00;34mlist_view[00m  [00;34mpreferences[00m  [00;34msidebar_panels[00m
+
+./gconf/gconf.xml.defaults/apps/nautilus/desktop:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/nautilus/icon_view:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/nautilus/list_view:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/nautilus/preferences:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/nautilus/sidebar_panels:
+[00m%gconf.xml[00m  [00;34mtree[00m
+
+./gconf/gconf.xml.defaults/apps/nautilus/sidebar_panels/tree:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/nautilus-cd-burner:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/netstatus_applet:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel:
+[00;34mapplets[00m  [00;34mdefault_setup[00m  [00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mglobal[00m  [00;34mobjects[00m  [00;34mtoplevels[00m
+
+./gconf/gconf.xml.defaults/apps/panel/applets:
+[00;34mclock[00m       [00;34mgimlet[00m  [00;34mshow_desktop_button[00m  [00;34mwindow_list[00m
+[00m%gconf.xml[00m  [00;34mmixer[00m   [00;34msystray[00m              [00;34mworkspace_switcher[00m
+
+./gconf/gconf.xml.defaults/apps/panel/applets/clock:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/applets/gimlet:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/applets/mixer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/applets/show_desktop_button:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/applets/systray:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/applets/window_list:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/applets/workspace_switcher:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/apps/panel/applets/workspace_switcher/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup:
+[00;34mapplets[00m  [00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mobjects[00m  [00;34mtoplevels[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/applets:
+[00;34mclock[00m       [00;34mgimlet[00m  [00;34mshow_desktop_button[00m  [00;34mwindow_list[00m
+[00m%gconf.xml[00m  [00;34mmixer[00m   [00;34msystray[00m              [00;34mworkspace_switcher[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/applets/clock:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/applets/gimlet:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/applets/mixer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/applets/show_desktop_button:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/applets/systray:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/applets/window_list:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/applets/workspace_switcher:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/applets/workspace_switcher/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/objects:
+[00;34memail_launcher[00m  [00;34mpresentation_launcher[00m  [00;34mwordprocessor_launcher[00m
+[00m%gconf.xml[00m      [00;34mspreadsheet_launcher[00m
+[00;34mmenu_bar[00m        [00;34mweb_launcher[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/objects/email_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/objects/menu_bar:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/objects/presentation_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/objects/spreadsheet_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/objects/web_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/objects/wordprocessor_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/toplevels:
+[00;34mbottom_panel[00m  [00m%gconf.xml[00m  [00;34mtop_panel[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/toplevels/bottom_panel:
+[00;34mbackground[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/toplevels/bottom_panel/background:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/toplevels/top_panel:
+[00;34mbackground[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/default_setup/toplevels/top_panel/background:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/global:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/objects:
+[00;34memail_launcher[00m  [00;34mpresentation_launcher[00m  [00;34mwordprocessor_launcher[00m
+[00m%gconf.xml[00m      [00;34mspreadsheet_launcher[00m
+[00;34mmenu_bar[00m        [00;34mweb_launcher[00m
+
+./gconf/gconf.xml.defaults/apps/panel/objects/email_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/objects/menu_bar:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/objects/presentation_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/objects/spreadsheet_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/objects/web_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/objects/wordprocessor_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/toplevels:
+[00;34mbottom_panel[00m  [00m%gconf.xml[00m  [00;34mtop_panel[00m
+
+./gconf/gconf.xml.defaults/apps/panel/toplevels/bottom_panel:
+[00;34mbackground[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/toplevels/bottom_panel/background:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/toplevels/top_panel:
+[00;34mbackground[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/panel/toplevels/top_panel/background:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/procman:
+[00;34mdisktree[00m  [00m%gconf.xml[00m  [00;34mmemmapstree[00m  [00;34mproctree[00m
+
+./gconf/gconf.xml.defaults/apps/procman/disktree:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/procman/memmapstree:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/procman/proctree:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/rhythmbox:
+[00m%gconf.xml[00m  [00;34mstate[00m  [00;34mui[00m
+
+./gconf/gconf.xml.defaults/apps/rhythmbox/state:
+[00m%gconf.xml[00m  [00;34miradio[00m  [00;34mlibrary[00m  [00;34mload_failure_dialog[00m
+
+./gconf/gconf.xml.defaults/apps/rhythmbox/state/iradio:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/rhythmbox/state/library:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/rhythmbox/state/load_failure_dialog:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/rhythmbox/ui:
+[00m%gconf.xml[00m  [00;34mlibrary[00m
+
+./gconf/gconf.xml.defaults/apps/rhythmbox/ui/library:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/same-gnome:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/sound-juicer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/stickynotes_applet:
+[00;34mdefaults[00m  [00m%gconf.xml[00m  [00;34msettings[00m
+
+./gconf/gconf.xml.defaults/apps/stickynotes_applet/defaults:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/stickynotes_applet/settings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/apps/totem:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop:
+[00m%gconf.xml[00m  [00;34mgnome[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome:
+[00;34maccessibility[00m  [00;34mfile_views[00m      [00;34minterface[00m    [00;34mremote_access[00m  [00;34mtyping_break[00m
+[00;34mapplications[00m   [00;34mfont_rendering[00m  [00;34mlockdown[00m     [00;34msound[00m          [00;34murl-handlers[00m
+[00;34mbackground[00m     [00m%gconf.xml[00m      [00;34mperipherals[00m  [00;34mthumbnailers[00m   [00;34mvolume_manager[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/accessibility:
+[00m%gconf.xml[00m  [00;34mkeyboard[00m  [00;34mstartup[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/accessibility/keyboard:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/accessibility/startup:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/applications:
+[00;34mbrowser[00m  [00;34mcomponent_viewer[00m  [00m%gconf.xml[00m  [00;34mhelp_viewer[00m  [00;34mterminal[00m  [00;34mwindow_manager[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/applications/browser:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/applications/component_viewer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/applications/help_viewer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/applications/terminal:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/applications/window_manager:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/background:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/file_views:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/font_rendering:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/interface:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/lockdown:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/peripherals:
+[00m%gconf.xml[00m  [00;34mkeyboard[00m  [00;34mmonitor[00m  [00;34mmouse[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/peripherals/keyboard:
+[00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mkbd[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/peripherals/keyboard/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/peripherals/keyboard/kbd:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/peripherals/monitor:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/peripherals/mouse:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/remote_access:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/sound:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers:
+[00;34mapplication@ogg[00m                      [00;34mmisc@ultravox[00m
+[00;34mapplication@pdf[00m                      [00;34mvideo@3gpp[00m
+[00;34mapplication@vnd.rn-realmedia[00m         [00;34mvideo@dv[00m
+[00;34mapplication@x-extension-m4a[00m          [00;34mvideo@mp4[00m
+[00;34mapplication@x-extension-mp4[00m          [00;34mvideo@mpeg[00m
+[00;34mapplication@x-font-otf[00m               [00;34mvideo@msvideo[00m
+[00;34mapplication@x-font-pcf[00m               [00;34mvideo@quicktime[00m
+[00;34mapplication@x-font-ttf[00m               [00;34mvideo@vnd.rn-realvideo[00m
+[00;34mapplication@x-font-type1[00m             [00;34mvideo@x-anim[00m
+[00;34mapplication@x-gnome-theme[00m            [00;34mvideo@x-avi[00m
+[00;34mapplication@x-gnome-theme-installed[00m  [00;34mvideo@x-flc[00m
+[00;34mapplication@x-matroska[00m               [00;34mvideo@x-fli[00m
+[00;34mapplication@x-ogg[00m                    [00;34mvideo@x-mpeg[00m
+[00;34mapplication@x-shockwave-flash[00m        [00;34mvideo@x-ms-asf[00m
+[00;34maudio@x-pn-realaudio[00m                 [00;34mvideo@x-msvideo[00m
+[00m%gconf.xml[00m                           [00;34mvideo@x-ms-wmv[00m
+[00;34mimage@vnd.rn-realpix[00m                 [00;34mvideo@x-nsv[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@ogg:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@pdf:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@vnd.rn-realmedia:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@x-extension-m4a:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@x-extension-mp4:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@x-font-otf:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@x-font-pcf:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@x-font-ttf:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@x-font-type1:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@x-gnome-theme:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@x-gnome-theme-installed:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@x-matroska:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@x-ogg:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/application@x-shockwave-flash:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/audio@x-pn-realaudio:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/image@vnd.rn-realpix:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/misc@ultravox:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@3gpp:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@dv:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@mp4:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@mpeg:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@msvideo:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@quicktime:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@vnd.rn-realvideo:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@x-anim:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@x-avi:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@x-flc:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@x-fli:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@x-mpeg:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@x-ms-asf:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@x-msvideo:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@x-ms-wmv:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/thumbnailers/video@x-nsv:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/typing_break:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers:
+[00;34mabout[00m  [00;34mcallto[00m  [00m%gconf.xml[00m  [00;34mh323[00m  [00;34mhttps[00m  [00;34mmailto[00m  [00;34mmms[00m   [00;34mnet[00m  [00;34mrtp[00m   [00;34mtrash[00m  [00;34mwebcal[00m
+[00;34maim[00m    [00;34mcdda[00m    [00;34mghelp[00m       [00;34mhttp[00m  [00;34minfo[00m   [00;34mman[00m     [00;34mmmsh[00m  [00;34mpnm[00m  [00;34mrtsp[00m  [00;34muvox[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/about:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/aim:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/callto:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/cdda:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/ghelp:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/h323:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/http:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/https:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/info:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/mailto:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/man:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/mms:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/mmsh:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/net:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/pnm:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/rtp:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/rtsp:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/trash:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/uvox:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/url-handlers/webcal:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/desktop/gnome/volume_manager:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas:
+[00;34mapps[00m  [00;34mdesktop[00m  [00m%gconf.xml[00m  [00;34msystem[00m
+
+./gconf/gconf.xml.defaults/schemas/apps:
+[00;34maisleriot[00m          [00;34mgnibbles[00m               [00;34miagno[00m
+[00;34mbattstat-applet[00m    [00;34mgnobots2[00m               [00;34mmahjongg[00m
+[00;34mblackjack[00m          [00;34mgnome-cd[00m               [00;34mmetacity[00m
+[00;34mbug-buddy[00m          [00;34mgnome-dictionary[00m       [00;34mmini-commander[00m
+[00;34mCDDB-Slave2[00m        [00;34mgnome-keyring-manager[00m  [00;34mmini-commander-global[00m
+[00;34mcharpick[00m           [00;34mgnomemeeting[00m           [00;34mmixer_applet[00m
+[00;34mclock_applet[00m       [00;34mgnome-screenshot[00m       [00;34mmodemlights[00m
+[00;34mcpufreq-applet[00m     [00;34mgnome-search-tool[00m      [00;34mmultiload[00m
+[00;34mdevhelp[00m            [00;34mgnome-session[00m          [00;34mnautilus[00m
+[00;34mdrivemount-applet[00m  [00;34mgnome_settings_daemon[00m  [00;34mnautilus-cd-burner[00m
+[00;34mevince[00m             [00;34mgnome-system-log[00m       [00;34mnetstatus_applet[00m
+[00;34mevolution[00m          [00;34mgnome-terminal[00m         [00;34mpager_applet[00m
+[00;34mfile-roller[00m        [00;34mgnometris[00m              [00;34mpanel[00m
+[00;34mfish_applet[00m        [00;34mgnomine[00m                [00;34mprocman[00m
+[00;34mgataxx[00m             [00;34mgnopernicus[00m            [00;34mrhythmbox[00m
+[00;34mgcalctool[00m          [00;34mgnotravex[00m              [00;34msame-gnome[00m
+[00;34mgconf-editor[00m       [00;34mgok[00m                    [00;34msound-juicer[00m
+[00m%gconf.xml[00m         [00;34mgpilot_applet[00m          [00;34mstickynotes_applet[00m
+[00;34mgedit-2[00m            [00;34mgswitchit[00m              [00;34mtasklist_applet[00m
+[00;34mgeyes[00m              [00;34mgtali[00m                  [00;34mtotem[00m
+[00;34mgfloppy[00m            [00;34mgthumb[00m                 [00;34mwindow_list_applet[00m
+[00;34mglines[00m             [00;34mgtik[00m                   [00;34mworkspace_switcher_applet[00m
+[00;34mgnect[00m              [00;34mgweather[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/aisleriot:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/battstat-applet:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/battstat-applet/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/blackjack:
+[00;34mdeck[00m  [00m%gconf.xml[00m  [00;34mglobal[00m  [00;34msettings[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/blackjack/deck:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/blackjack/global:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/blackjack/settings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/bug-buddy:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/CDDB-Slave2:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/charpick:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/charpick/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/clock_applet:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/clock_applet/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/cpufreq-applet:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/cpufreq-applet/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/devhelp:
+[00m%gconf.xml[00m  [00;34mui[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/devhelp/ui:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/drivemount-applet:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/drivemount-applet/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evince:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution:
+[00;34maddressbook[00m  [00;34mcalendar[00m  [00m%gconf.xml[00m  [00;34mmail[00m  [00;34mshell[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/addressbook:
+[00;34mcompletion[00m  [00;34mdisplay[00m  [00m%gconf.xml[00m  [00;34mselect_names[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/addressbook/completion:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/addressbook/display:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/addressbook/select_names:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/calendar:
+[00;34mdate_navigator[00m  [00;34mdisplay[00m  [00m%gconf.xml[00m  [00;34mnotify[00m  [00;34mother[00m  [00;34mprompts[00m  [00;34mpublish[00m  [00;34mtasks[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/calendar/date_navigator:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/calendar/display:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/calendar/notify:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/calendar/other:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/calendar/prompts:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/calendar/publish:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/calendar/tasks:
+[00;34mcolors[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/calendar/tasks/colors:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail:
+[00;34mcomposer[00m  [00;34mfilters[00m  [00m%gconf.xml[00m  [00;34mmessage_window[00m  [00;34mprompts[00m           [00;34mtrash[00m
+[00;34mdisplay[00m   [00;34mformat[00m   [00;34mjunk[00m        [00;34mnotify[00m          [00;34msubscribe_window[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/composer:
+[00m%gconf.xml[00m  [00;34mview[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/composer/view:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/display:
+[00;34mfonts[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/display/fonts:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/filters:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/format:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/junk:
+[00m%gconf.xml[00m  [00;34msa[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/junk/sa:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/message_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/notify:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/prompts:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/subscribe_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/mail/trash:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/shell:
+[00m%gconf.xml[00m  [00;34moffline[00m  [00;34mview_defaults[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/shell/offline:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/shell/view_defaults:
+[00;34mfolder_bar[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/evolution/shell/view_defaults/folder_bar:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/file-roller:
+[00;34mdialogs[00m  [00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mlisting[00m  [00;34mui[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/file-roller/dialogs:
+[00;34mbatch-add[00m  [00;34mextract[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/file-roller/dialogs/batch-add:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/file-roller/dialogs/extract:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/file-roller/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/file-roller/listing:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/file-roller/ui:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/fish_applet:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/fish_applet/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gataxx:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gcalctool:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gconf-editor:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2:
+[00m%gconf.xml[00m  [00;34mplugins[00m  [00;34mpreferences[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/plugins:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences:
+[00;34meditor[00m  [00;34mencodings[00m  [00m%gconf.xml[00m  [00;34mprint[00m  [00;34msyntax_highlighting[00m  [00;34mui[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/editor:
+[00;34mauto_indent[00m       [00;34mcolors[00m        [00;34mfont[00m        [00;34mline_numbers[00m  [00;34msave[00m  [00;34mundo[00m
+[00;34mbracket_matching[00m  [00;34mcurrent_line[00m  [00m%gconf.xml[00m  [00;34mright_margin[00m  [00;34mtabs[00m  [00;34mwrap_mode[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/editor/auto_indent:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/editor/bracket_matching:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/editor/colors:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/editor/current_line:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/editor/font:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/editor/line_numbers:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/editor/right_margin:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/editor/save:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/editor/tabs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/editor/undo:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/editor/wrap_mode:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/encodings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/print:
+[00;34mfonts[00m  [00m%gconf.xml[00m  [00;34mpage[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/print/fonts:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/print/page:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/syntax_highlighting:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/ui:
+[00m%gconf.xml[00m  [00;34mopen_save[00m  [00;34mrecents[00m  [00;34mstatusbar[00m  [00;34mtoolbar[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/ui/open_save:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/ui/recents:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/ui/statusbar:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gedit-2/preferences/ui/toolbar:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/geyes:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/geyes/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gfloppy:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/glines:
+[00m%gconf.xml[00m  [00;34mpreferences[00m  [00;34msaved[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/glines/preferences:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/glines/saved:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnect:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnibbles:
+[00m%gconf.xml[00m  [00;34mpreferences[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnibbles/preferences:
+[00m%gconf.xml[00m  [00;34mworm[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnibbles/preferences/worm:
+[00;34m0[00m  [00;34m1[00m  [00;34m2[00m  [00;34m3[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnibbles/preferences/worm/0:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnibbles/preferences/worm/1:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnibbles/preferences/worm/2:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnibbles/preferences/worm/3:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnobots2:
+[00m%gconf.xml[00m  [00;34mpreferences[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnobots2/preferences:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-cd:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-dictionary:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-keyring-manager:
+[00m%gconf.xml[00m  [00;34mkeyring-editor[00m  [00;34mkeyring-manager[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-keyring-manager/keyring-editor:
+[00;34mcolumns[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-keyring-manager/keyring-editor/columns:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-keyring-manager/keyring-manager:
+[00;34mcolumns[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-keyring-manager/keyring-manager/columns:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting:
+[00;34mcodecs[00m  [00;34mcontacts[00m  [00;34mdevices[00m  [00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mprotocols[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/codecs:
+[00;34maudio[00m  [00m%gconf.xml[00m  [00;34mvideo[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/codecs/audio:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/codecs/video:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/contacts:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/devices:
+[00;34maudio[00m  [00m%gconf.xml[00m  [00;34mvideo[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/devices/audio:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/devices/video:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general:
+[00;34mcall_options[00m  [00m%gconf.xml[00m  [00;34mnat[00m  [00;34mpersonal_data[00m  [00;34msound_events[00m  [00;34muser_interface[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/call_options:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/nat:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/personal_data:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/sound_events:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/user_interface:
+[00;34maddress_book_window[00m   [00;34mlocal_video_window[00m  [00;34mpreferences_window[00m
+[00;34mcalls_history_window[00m  [00;34mlog_window[00m          [00;34mremote_video_window[00m
+[00;34mdruid_window[00m          [00;34mmain_window[00m         [00;34mvideo_display[00m
+[00m%gconf.xml[00m            [00;34mpc_to_phone_window[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/user_interface/address_book_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/user_interface/calls_history_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/user_interface/druid_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/user_interface/local_video_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/user_interface/log_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/user_interface/main_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/user_interface/pc_to_phone_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/user_interface/preferences_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/user_interface/remote_video_window:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/general/user_interface/video_display:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/protocols:
+[00m%gconf.xml[00m  [00;34mh323[00m  [00;34mldap[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/protocols/h323:
+[00;34madvanced[00m  [00;34mcall_forwarding[00m  [00;34mgatekeeper[00m  [00;34mgateway[00m  [00m%gconf.xml[00m  [00;34mports[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/protocols/h323/advanced:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/protocols/h323/call_forwarding:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/protocols/h323/gatekeeper:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/protocols/h323/gateway:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/protocols/h323/ports:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomemeeting/protocols/ldap:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-screenshot:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-search-tool:
+[00m%gconf.xml[00m  [00;34mselect[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-search-tool/select:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-session:
+[00m%gconf.xml[00m  [00;34moptions[00m  [00;34mrh_extensions[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-session/options:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-session/rh_extensions:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome_settings_daemon:
+[00;34meditor[00m  [00m%gconf.xml[00m  [00;34mkeybindings[00m  [00;34mscreensaver[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome_settings_daemon/editor:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome_settings_daemon/keybindings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome_settings_daemon/screensaver:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-system-log:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-terminal:
+[00m%gconf.xml[00m  [00;34mglobal[00m  [00;34mkeybindings[00m  [00;34mprofiles[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-terminal/global:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-terminal/keybindings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-terminal/profiles:
+[00;34mDefault[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnome-terminal/profiles/Default:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnometris:
+[00;34mcontrols[00m  [00m%gconf.xml[00m  [00;34moptions[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnometris/controls:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnometris/options:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomine:
+[00m%gconf.xml[00m  [00;34mgeometry[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnomine/geometry:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus:
+[00;34mbraille[00m  [00;34mcommand_map[00m  [00m%gconf.xml[00m  [00;34mpresentation[00m  [00;34mspeech[00m
+[00;34mbrlmon[00m   [00;34mconfig[00m       [00;34mmagnifier[00m   [00;34mremote[00m        [00;34msrcore[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/braille:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/brlmon:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map:
+[00;34mbraille_key[00m  [00m%gconf.xml[00m  [00;34mkeyboard[00m  [00;34mkey_pad[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/braille_key:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard:
+[00;34mDK00[00m        [00;34mL00K03[00m  [00;34mL00K13[00m  [00;34mL03K04[00m  [00;34mL05K06[00m  [00;34mL06K06[00m  [00;34mL07K03[00m  [00;34mL08K02[00m  [00;34mL09K01[00m
+[00;34mDK01[00m        [00;34mL00K04[00m  [00;34mL00K14[00m  [00;34mL03K05[00m  [00;34mL05K07[00m  [00;34mL06K07[00m  [00;34mL07K04[00m  [00;34mL08K03[00m  [00;34mL09K03[00m
+[00;34mDK01DK02[00m    [00;34mL00K05[00m  [00;34mL00K15[00m  [00;34mL03K06[00m  [00;34mL05K08[00m  [00;34mL06K08[00m  [00;34mL07K05[00m  [00;34mL08K04[00m  [00;34mL09K04[00m
+[00;34mDK02[00m        [00;34mL00K06[00m  [00;34mL01K01[00m  [00;34mL03K07[00m  [00;34mL05K09[00m  [00;34mL06K09[00m  [00;34mL07K06[00m  [00;34mL08K05[00m  [00;34mL09K06[00m
+[00;34mDK03[00m        [00;34mL00K07[00m  [00;34mL01K02[00m  [00;34mL03K10[00m  [00;34mL05K10[00m  [00;34mL06K10[00m  [00;34mL07K08[00m  [00;34mL08K06[00m  [00;34mL10K01[00m
+[00;34mDK04[00m        [00;34mL00K08[00m  [00;34mL01K03[00m  [00;34mL05K01[00m  [00;34mL06K01[00m  [00;34mL06K11[00m  [00;34mL07K09[00m  [00;34mL08K07[00m  [00;34mL10K02[00m
+[00;34mDK05[00m        [00;34mL00K09[00m  [00;34mL01K12[00m  [00;34mL05K02[00m  [00;34mL06K02[00m  [00;34mL06K12[00m  [00;34mL07K10[00m  [00;34mL08K08[00m  [00;34mL10K03[00m
+[00m%gconf.xml[00m  [00;34mL00K10[00m  [00;34mL03K01[00m  [00;34mL05K03[00m  [00;34mL06K03[00m  [00;34mL06K13[00m  [00;34mL07K11[00m  [00;34mL08K09[00m  [00;34mL10K04[00m
+[00;34mL00K01[00m      [00;34mL00K11[00m  [00;34mL03K02[00m  [00;34mL05K04[00m  [00;34mL06K04[00m  [00;34mL07K01[00m  [00;34mL07K13[00m  [00;34mL08K10[00m
+[00;34mL00K02[00m      [00;34mL00K12[00m  [00;34mL03K03[00m  [00;34mL05K05[00m  [00;34mL06K05[00m  [00;34mL07K02[00m  [00;34mL08K01[00m  [00;34mL08K13[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/DK00:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/DK01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/DK01DK02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/DK02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/DK03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/DK04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/DK05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K07:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K08:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K09:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K10:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K11:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K12:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K13:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K14:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L00K15:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L01K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L01K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L01K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L01K12:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L03K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L03K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L03K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L03K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L03K05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L03K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L03K07:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L03K10:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L05K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L05K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L05K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L05K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L05K05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L05K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L05K07:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L05K08:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L05K09:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L05K10:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K07:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K08:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K09:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K10:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K11:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K12:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L06K13:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L07K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L07K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L07K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L07K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L07K05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L07K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L07K08:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L07K09:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L07K10:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L07K11:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L07K13:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L08K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L08K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L08K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L08K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L08K05:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L08K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L08K07:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L08K08:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L08K09:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L08K10:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L08K13:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L09K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L09K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L09K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L09K06:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L10K01:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L10K02:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L10K03:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/keyboard/L10K04:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/command_map/key_pad:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/config:
+[00;34mbrlmon[00m  [00m%gconf.xml[00m  [00;34mremote[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/config/brlmon:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/config/remote:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/magnifier:
+[00m%gconf.xml[00m  [00;34mschema1[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/magnifier/schema1:
+[00m%gconf.xml[00m  [00;34mgeneric_zoomer[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/magnifier/schema1/generic_zoomer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/presentation:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/remote:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/speech:
+[00;34mdictionary[00m  [00m%gconf.xml[00m  [00;34msettings[00m  [00;34mvoices_parameters[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/speech/dictionary:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/speech/settings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/speech/voices_parameters:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnopernicus/srcore:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gnotravex:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok:
+[00;34mactions[00m  [00;34mfeedbacks[00m  [00m%gconf.xml[00m  [00;34mlayout[00m  [00;34mspy[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions:
+[00;34mdwell[00m       [00;34mmousebutton1[00m  [00;34mmousebutton3[00m  [00;34mmousebutton5[00m  [00;34mswitch1[00m  [00;34mswitch3[00m  [00;34mswitch5[00m
+[00m%gconf.xml[00m  [00;34mmousebutton2[00m  [00;34mmousebutton4[00m  [00;34mmousepointer[00m  [00;34mswitch2[00m  [00;34mswitch4[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions/dwell:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions/mousebutton1:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions/mousebutton2:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions/mousebutton3:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions/mousebutton4:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions/mousebutton5:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions/mousepointer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions/switch1:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions/switch2:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions/switch3:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions/switch4:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/actions/switch5:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/feedbacks:
+[00m%gconf.xml[00m  [00;34mgoksound1[00m  [00;34mgoksound2[00m  [00;34mgokspeech[00m  [00;34mkey_flashing[00m  [00;34mnone[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/feedbacks/goksound1:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/feedbacks/goksound2:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/feedbacks/gokspeech:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/feedbacks/key_flashing:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/feedbacks/none:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/layout:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gok/spy:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gpilot_applet:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gpilot_applet/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gswitchit:
+[00;34mApplet[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gswitchit/Applet:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gtali:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb:
+[00;34mbrowser[00m  [00;34mdialogs[00m  [00;34mexporter[00m  [00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mslideshow[00m  [00;34mui[00m  [00;34mviewer[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/browser:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs:
+[00;34madd_to_catalog[00m  [00m%gconf.xml[00m  [00;34mphoto_importer[00m  [00;34mscale_image[00m  [00;34mtiff_saver[00m
+[00;34mconvert_format[00m  [00;34mjpeg_saver[00m  [00;34mprint[00m           [00;34msearch[00m       [00;34mweb_album[00m
+[00;34mcrop[00m            [00;34mmessages[00m    [00;34mrename_series[00m   [00;34mtga_saver[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/add_to_catalog:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/convert_format:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/crop:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/jpeg_saver:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/messages:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/photo_importer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/print:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/rename_series:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/scale_image:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/search:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/tga_saver:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/tiff_saver:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/dialogs/web_album:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/exporter:
+[00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mpage[00m  [00;34mthumbnail[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/exporter/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/exporter/page:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/exporter/thumbnail:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/slideshow:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/ui:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gthumb/viewer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gtik:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gtik/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gweather:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/gweather/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/iagno:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/mahjongg:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/metacity:
+[00m%gconf.xml[00m  [00;34mglobal_keybindings[00m   [00;34mwindow_keybindings[00m
+[00;34mgeneral[00m     [00;34mkeybinding_commands[00m  [00;34mworkspace_names[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/metacity/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/metacity/global_keybindings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/metacity/keybinding_commands:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/metacity/window_keybindings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/metacity/workspace_names:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/mini-commander:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/mini-commander/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/mini-commander-global:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/mixer_applet:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/mixer_applet/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/modemlights:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/modemlights/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/multiload:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/multiload/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/nautilus:
+[00;34mdesktop[00m  [00m%gconf.xml[00m  [00;34micon_view[00m  [00;34mlist_view[00m  [00;34mpreferences[00m  [00;34msidebar_panels[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/nautilus/desktop:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/nautilus/icon_view:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/nautilus/list_view:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/nautilus/preferences:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/nautilus/sidebar_panels:
+[00m%gconf.xml[00m  [00;34mtree[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/nautilus/sidebar_panels/tree:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/nautilus-cd-burner:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/netstatus_applet:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/netstatus_applet/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/pager_applet:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/pager_applet/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel:
+[00;34mdefault_profiles[00m  [00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mglobal[00m  [00;34mobjects[00m  [00;34mtoplevels[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles:
+[00m%gconf.xml[00m  [00;34mlarge[00m  [00;34mmedium[00m  [00;34msmall[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/large:
+[00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mpanels[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/large/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/large/panels:
+[00;34mbottom_panel[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/large/panels/bottom_panel:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium:
+[00;34mapplets[00m  [00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mobjects[00m  [00;34mpanels[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/applets:
+[00;34mclock_applet[00m  [00;34mmixer_applet[00m  [00;34mtasklist_applet[00m
+[00m%gconf.xml[00m    [00;34mpager_applet[00m  [00;34mtray_applet[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/applets/clock_applet:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/applets/mixer_applet:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/applets/pager_applet:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/applets/tasklist_applet:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/applets/tray_applet:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/objects:
+[00;34memail_launcher[00m  [00;34mpresentations_launcher[00m  [00;34mweb_browser_launcher[00m
+[00m%gconf.xml[00m      [00;34mprint_launcher[00m          [00;34mwordprocessor_launcher[00m
+[00;34mhelp_launcher[00m   [00;34mspreadsheet_launcher[00m
+[00;34mmain_menu[00m       [00;34mterminal_launcher[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/objects/email_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/objects/help_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/objects/main_menu:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/objects/presentations_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/objects/print_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/objects/spreadsheet_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/objects/terminal_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/objects/web_browser_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/objects/wordprocessor_launcher:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/panels:
+[00;34mbottom_panel[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/medium/panels/bottom_panel:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/small:
+[00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mpanels[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/small/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/small/panels:
+[00;34mbottom_panel[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/default_profiles/small/panels/bottom_panel:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/global:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/objects:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/toplevels:
+[00;34mbackground[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/panel/toplevels/background:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/procman:
+[00;34mdisktree[00m  [00m%gconf.xml[00m  [00;34mmemmapstree[00m  [00;34mproctree[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/procman/disktree:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/procman/memmapstree:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/procman/proctree:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/rhythmbox:
+[00m%gconf.xml[00m  [00;34mstate[00m  [00;34mui[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/rhythmbox/state:
+[00m%gconf.xml[00m  [00;34miradio[00m  [00;34mlibrary[00m  [00;34mload_failure_dialog[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/rhythmbox/state/iradio:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/rhythmbox/state/library:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/rhythmbox/state/load_failure_dialog:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/rhythmbox/ui:
+[00m%gconf.xml[00m  [00;34mlibrary[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/rhythmbox/ui/library:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/same-gnome:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/sound-juicer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/stickynotes_applet:
+[00;34mdefaults[00m  [00m%gconf.xml[00m  [00;34msettings[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/stickynotes_applet/defaults:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/stickynotes_applet/settings:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/tasklist_applet:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/tasklist_applet/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/totem:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/window_list_applet:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/window_list_applet/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/workspace_switcher_applet:
+[00m%gconf.xml[00m  [00;34mprefs[00m
+
+./gconf/gconf.xml.defaults/schemas/apps/workspace_switcher_applet/prefs:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop:
+[00m%gconf.xml[00m  [00;34mgnome[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome:
+[00;34maccessibility[00m  [00;34mfile-views[00m      [00;34mlockdown[00m       [00;34mthumbnailers[00m
+[00;34mapplications[00m   [00;34mfont_rendering[00m  [00;34mperipherals[00m    [00;34mtyping_break[00m
+[00;34mbackground[00m     [00m%gconf.xml[00m      [00;34mremote_access[00m  [00;34murl-handlers[00m
+[00;34mfile_views[00m     [00;34minterface[00m       [00;34msound[00m          [00;34mvolume_manager[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/accessibility:
+[00m%gconf.xml[00m  [00;34mkeyboard[00m  [00;34mstartup[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/accessibility/keyboard:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/accessibility/startup:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/applications:
+[00;34mbrowser[00m  [00;34mcomponent_viewer[00m  [00m%gconf.xml[00m  [00;34mhelp_viewer[00m  [00;34mterminal[00m  [00;34mwindow_manager[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/applications/browser:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/applications/component_viewer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/applications/help_viewer:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/applications/terminal:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/applications/window_manager:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/background:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/file_views:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/file-views:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/font_rendering:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/interface:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/lockdown:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/peripherals:
+[00m%gconf.xml[00m  [00;34mkeyboard[00m  [00;34mmonitor[00m  [00;34mmouse[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/peripherals/keyboard:
+[00m%gconf.xml[00m  [00;34mgeneral[00m  [00;34mkbd[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/peripherals/keyboard/general:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/peripherals/keyboard/kbd:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/peripherals/monitor:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/peripherals/mouse:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/remote_access:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/sound:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers:
+[00;34mapplication@ogg[00m                      [00;34mmisc@ultravox[00m
+[00;34mapplication@pdf[00m                      [00;34mvideo@3gpp[00m
+[00;34mapplication@vnd.rn-realmedia[00m         [00;34mvideo@dv[00m
+[00;34mapplication@x-extension-m4a[00m          [00;34mvideo@mp4[00m
+[00;34mapplication@x-extension-mp4[00m          [00;34mvideo@mpeg[00m
+[00;34mapplication@x-font-otf[00m               [00;34mvideo@msvideo[00m
+[00;34mapplication@x-font-pcf[00m               [00;34mvideo@quicktime[00m
+[00;34mapplication@x-font-ttf[00m               [00;34mvideo@vnd.rn-realvideo[00m
+[00;34mapplication@x-font-type1[00m             [00;34mvideo@x-anim[00m
+[00;34mapplication@x-gnome-theme[00m            [00;34mvideo@x-avi[00m
+[00;34mapplication@x-gnome-theme-installed[00m  [00;34mvideo@x-flc[00m
+[00;34mapplication@x-matroska[00m               [00;34mvideo@x-fli[00m
+[00;34mapplication@x-ogg[00m                    [00;34mvideo@x-mpeg[00m
+[00;34mapplication@x-shockwave-flash[00m        [00;34mvideo@x-ms-asf[00m
+[00;34maudio@x-pn-realaudio[00m                 [00;34mvideo@x-msvideo[00m
+[00m%gconf.xml[00m                           [00;34mvideo@x-ms-wmv[00m
+[00;34mimage@vnd.rn-realpix[00m                 [00;34mvideo@x-nsv[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@ogg:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@pdf:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@vnd.rn-realmedia:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@x-extension-m4a:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@x-extension-mp4:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@x-font-otf:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@x-font-pcf:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@x-font-ttf:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@x-font-type1:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@x-gnome-theme:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@x-gnome-theme-installed:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@x-matroska:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@x-ogg:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/application@x-shockwave-flash:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/audio@x-pn-realaudio:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/image@vnd.rn-realpix:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/misc@ultravox:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@3gpp:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@dv:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@mp4:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@mpeg:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@msvideo:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@quicktime:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@vnd.rn-realvideo:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@x-anim:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@x-avi:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@x-flc:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@x-fli:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@x-mpeg:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@x-ms-asf:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@x-msvideo:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@x-ms-wmv:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/thumbnailers/video@x-nsv:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/typing_break:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers:
+[00;34mabout[00m  [00;34mcallto[00m  [00m%gconf.xml[00m  [00;34mh323[00m  [00;34mhttps[00m  [00;34mmailto[00m  [00;34mmms[00m   [00;34mnet[00m  [00;34mrtp[00m   [00;34mtrash[00m  [00;34mwebcal[00m
+[00;34maim[00m    [00;34mcdda[00m    [00;34mghelp[00m       [00;34mhttp[00m  [00;34minfo[00m   [00;34mman[00m     [00;34mmmsh[00m  [00;34mpnm[00m  [00;34mrtsp[00m  [00;34muvox[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/about:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/aim:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/callto:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/cdda:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/ghelp:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/h323:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/http:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/https:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/info:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/mailto:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/man:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/mms:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/mmsh:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/net:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/pnm:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/rtp:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/rtsp:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/trash:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/uvox:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/webcal:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/desktop/gnome/volume_manager:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/system:
+[00;34mdns_sd[00m  [00m%gconf.xml[00m  [00;34mgstreamer[00m  [00;34mhttp_proxy[00m  [00;34mproxy[00m  [00;34msmb[00m
+
+./gconf/gconf.xml.defaults/schemas/system/dns_sd:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/system/gstreamer:
+[00;34m0.8[00m  [00;34maudio[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/system/gstreamer/0.8:
+[00;34mdefault[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/system/gstreamer/0.8/default:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/system/gstreamer/audio:
+[00m%gconf.xml[00m  [00;34mglobal[00m  [00;34mprofiles[00m
+
+./gconf/gconf.xml.defaults/schemas/system/gstreamer/audio/global:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/system/gstreamer/audio/profiles:
+[00;34mcdlossless[00m  [00;34mcdlossy[00m  [00m%gconf.xml[00m  [00;34mvoice[00m
+
+./gconf/gconf.xml.defaults/schemas/system/gstreamer/audio/profiles/cdlossless:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/system/gstreamer/audio/profiles/cdlossy:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/system/gstreamer/audio/profiles/voice:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/system/http_proxy:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/system/proxy:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/schemas/system/smb:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/system:
+[00;34mdns_sd[00m  [00m%gconf.xml[00m  [00;34mgstreamer[00m  [00;34mhttp_proxy[00m  [00;34mproxy[00m  [00;34msmb[00m
+
+./gconf/gconf.xml.defaults/system/dns_sd:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/system/gstreamer:
+[00;34m0.8[00m  [00;34maudio[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/system/gstreamer/0.8:
+[00;34mdefault[00m  [00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/system/gstreamer/0.8/default:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/system/gstreamer/audio:
+[00m%gconf.xml[00m  [00;34mglobal[00m  [00;34mprofiles[00m
+
+./gconf/gconf.xml.defaults/system/gstreamer/audio/global:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/system/gstreamer/audio/profiles:
+[00;34mcdlossless[00m  [00;34mcdlossy[00m  [00m%gconf.xml[00m  [00;34mvoice[00m
+
+./gconf/gconf.xml.defaults/system/gstreamer/audio/profiles/cdlossless:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/system/gstreamer/audio/profiles/cdlossy:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/system/gstreamer/audio/profiles/voice:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/system/http_proxy:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/system/proxy:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.defaults/system/smb:
+[00m%gconf.xml[00m
+
+./gconf/gconf.xml.mandatory:
+
+./gconf/schemas:
+[00maisleriot.schemas[00m
+[00mapps_evolution_addressbook-2.2.schemas[00m
+[00mapps_evolution_calendar-2.2.schemas[00m
+[00mapps_evolution_shell-2.2.schemas[00m
+[00mapps_gnome_settings_daemon_default_editor.schemas[00m
+[00mapps_gnome_settings_daemon_keybindings.schemas[00m
+[00mapps_gnome_settings_daemon_screensaver.schemas[00m
+[00mapps_nautilus_preferences.schemas[00m
+[00mbattstat.schemas[00m
+[00mblackjack.schemas[00m
+[00mbrlmonitor.schemas[00m
+[00mbug-buddy.schemas[00m
+[00;32mcdda-url-handler.schemas[00m
+[00mCDDB-Slave2.schemas[00m
+[00mcharpick.schemas[00m
+[00mclock.schemas[00m
+[00mcpufreq-applet.schemas[00m
+[00mdesktop_default_applications.schemas[00m
+[00mdesktop_gnome_accessibility_keyboard.schemas[00m
+[00mdesktop_gnome_accessibility_startup.schemas[00m
+[00mdesktop_gnome_applications_browser.schemas[00m
+[00mdesktop_gnome_applications_help_viewer.schemas[00m
+[00mdesktop_gnome_applications_terminal.schemas[00m
+[00mdesktop_gnome_applications_window_manager.schemas[00m
+[00mdesktop_gnome_background.schemas[00m
+[00mdesktop_gnome_file_views.schemas[00m
+[00mdesktop_gnome_font_rendering.schemas[00m
+[00mdesktop_gnome_interface.schemas[00m
+[00mdesktop_gnome_lockdown.schemas[00m
+[00mdesktop_gnome_peripherals_keyboard.schemas[00m
+[00mdesktop_gnome_peripherals_keyboard_xkb.schemas[00m
+[00mdesktop_gnome_peripherals_monitor.schemas[00m
+[00mdesktop_gnome_peripherals_mouse.schemas[00m
+[00mdesktop_gnome_sound.schemas[00m
+[00mdesktop_gnome_thumbnailers.schemas[00m
+[00mdesktop_gnome_typing_break.schemas[00m
+[00mdesktop_gnome_url_handlers.schemas[00m
+[00mdevhelp.schemas[00m
+[00mdrivemount.schemas[00m
+[00meggcups.schemas[00m
+[00mevince.schemas[00m
+[00mevince-thumbnailer.schemas[00m
+[00mevolution-mail-2.2.schemas[00m
+[00mevolution-webcal.schemas[00m
+[00mfile-roller.schemas[00m
+[00mfish.schemas[00m
+[00mfontilus.schemas[00m
+[00mgataxx.schemas[00m
+[00mgcalctool.schemas[00m
+[00mgconf-editor.schemas[00m
+[00mgdict.schemas[00m
+[00mgedit.schemas[00m
+[00mgeyes.schemas[00m
+[00mgfloppy.schemas[00m
+[00mglines.schemas[00m
+[00mgnect.schemas[00m
+[00mgnibbles.schemas[00m
+[00mgnobots2.schemas[00m
+[00mgnome-audio-profiles.schemas[00m
+[00mgnome-cd.schemas[00m
+[00mgnome-keyring-manager.schemas[00m
+[00mgnomemeeting.schemas[00m
+[00mgnome-screenshot.schemas[00m
+[00mgnome-search-tool.schemas[00m
+[00mgnome-session.schemas[00m
+[00mgnome-system-monitor.schemas[00m
+[00mgnome-terminal.schemas[00m
+[00mgnometris.schemas[00m
+[00mgnome-volume-manager.schemas[00m
+[00mgnomine.schemas[00m
+[00mgnopernicus.schemas[00m
+[00mgnotravex.schemas[00m
+[00mgnotski.schemas[00m
+[00mgok.schemas[00m
+[00mgstreamer-0.8.schemas[00m
+[00mgswitchit.schemas[00m
+[00mgtali.schemas[00m
+[00mgthumb.schemas[00m
+[00mgtik.schemas[00m
+[00mgweather.schemas[00m
+[00miagno.schemas[00m
+[00mlibgnomegames.schemas[00m
+[00mlogview.schemas[00m
+[00mmahjongg.schemas[00m
+[00mmetacity.schemas[00m
+[00mmini-commander-global.schemas[00m
+[00mmini-commander.schemas[00m
+[00mmixer.schemas[00m
+[00mmodemlights.schemas[00m
+[00mmultiload.schemas[00m
+[00mncb.schemas[00m
+[00mnetstatus.schemas[00m
+[00mpager.schemas[00m
+[00mpanel-compatibility.schemas[00m
+[00mpanel-default-setup-battstat.entries[00m
+[00mpanel-default-setup.entries[00m
+[00mpanel-general.schemas[00m
+[00mpanel-global.schemas[00m
+[00mpanel-object.schemas[00m
+[00mpanel-toplevel.schemas[00m
+[00mpilot.schemas[00m
+[00mplanner.schemas[00m
+[00mremote.schemas[00m
+[00mrhythmbox.schemas[00m
+[00msame-gnome.schemas[00m
+[00msound-juicer.schemas[00m
+[00mstickynotes.schemas[00m
+[00msystem_dns_sd.schemas[00m
+[00msystem_http_proxy.schemas[00m
+[00msystem_smb.schemas[00m
+[00mtasklist.schemas[00m
+[00mthemus.schemas[00m
+[00mtotem-handlers.schemas[00m
+[00mtotem.schemas[00m
+[00mtotem-video-thumbnail.schemas[00m
+[00mvino-server.schemas[00m
+[00mwindow-list.schemas[00m
+[00mworkspace-switcher.schemas[00m
+[00myelp.schemas[00m
+
+./ghostscript:
+
+./gimp:
+[00;34m2.0[00m
+
+./gimp/2.0:
+[00mcontrollerrc[00m  [00mgimprc[00m  [00mgtkrc[00m  [00mps-menurc[00m  [00msessionrc[00m  [00mtemplaterc[00m  [00munitrc[00m
+
+./gnome-vfs-2.0:
+[00;34mmodules[00m
+
+./gnome-vfs-2.0/modules:
+[00mdefault-modules.conf[00m  [00mmapping-modules.conf[00m  [00mssl-modules.conf[00m
+[00mfont-method.conf[00m      [00msmb-module.conf[00m       [00mtheme-method.conf[00m
+
+./gnopernicus-1.0:
+[00;34mtranslation_tables[00m
+
+./gnopernicus-1.0/translation_tables:
+[00mde.a2b[00m  [00men_US.a2b[00m  [00mes.a2b[00m  [00msv.a2b[00m
+
+./gre.d:
+[00mgre.conf[00m
+
+./gtk:
+[00mgtkrc[00m                        [00mgtkrc.iso885915[00m              [00mgtkrc.ru[00m
+[00mgtkrc.az[00m                     [00mgtkrc.iso88592[00m               [00;36mgtkrc.ru_RU.iso88595[00m
+[00;36mgtkrc.be[00m                     [00mgtkrc.iso88593[00m               [00;36mgtkrc.sk[00m
+[00;36mgtkrc.bg[00m                     [00mgtkrc.iso88595[00m               [00;36mgtkrc.sl[00m
+[00;36mgtkrc.bg_BG.iso88595[00m         [00mgtkrc.iso88597[00m               [00;36mgtkrc.sp[00m
+[00mgtkrc.cp1251[00m                 [00mgtkrc.iso88599[00m               [00;36mgtkrc.sq[00m
+[00mgtkrc.cp1255[00m                 [00mgtkrc.ja[00m                     [00;36mgtkrc.sr[00m
+[00;36mgtkrc.cs[00m                     [00mgtkrc.ja.utf8[00m                [00mgtkrc.th[00m
+[00;36mgtkrc.cy[00m                     [00;36mgtkrc.ka[00m                     [00mgtkrc.uk[00m
+[00;36mgtkrc.et[00m                     [00mgtkrc.ka_GE.georgianacademy[00m  [00mgtkrc.utf8[00m
+[00;36mgtkrc.ga[00m                     [00mgtkrc.ka_GE.georgianps[00m       [00;36mgtkrc.vi[00m
+[00mgtkrc.he[00m                     [00mgtkrc.ko[00m                     [00mgtkrc.vi_VN.tcvn[00m
+[00;36mgtkrc.he_IL.cp1255[00m           [00mgtkrc.ko.utf8[00m                [00mgtkrc.vi_VN.viscii[00m
+[00;36mgtkrc.he_IL.microsoftcp1255[00m  [00;36mgtkrc.lt[00m                     [00;36mgtkrc.vi_VN.viscii111[00m
+[00;36mgtkrc.hr[00m                     [00;36mgtkrc.lv[00m                     [00;36mgtkrc.yi[00m
+[00;36mgtkrc.hu[00m                     [00;36mgtkrc.mi[00m                     [00mgtkrc.zh_CN[00m
+[00mgtkrc.hy[00m                     [00;36mgtkrc.mk[00m                     [00mgtkrc.zh_CN.utf8[00m
+[00mgtkrc.iso885913[00m              [00;36mgtkrc.pl[00m                     [00mgtkrc.zh_TW.big5[00m
+[00mgtkrc.iso885914[00m              [00;36mgtkrc.ro[00m                     [00mgtkrc.zh_TW.utf8[00m
+
+./gtk-2.0:
+[00mgtkrc[00m  [00;34mi386-redhat-linux-gnu[00m
+
+./gtk-2.0/i386-redhat-linux-gnu:
+[00mgdk-pixbuf.loaders[00m  [00mgtk.immodules[00m
+
+./hal:
+[00;34mfdi[00m
+
+./hal/fdi:
+[00;34minformation[00m  [00;34mpolicy[00m  [00;34mpreprobe[00m
+
+./hal/fdi/information:
+
+./hal/fdi/policy:
+
+./hal/fdi/preprobe:
+
+./hotplug:
+[00mblacklist[00m          [00;32mieee1394.agent[00m  [00;34mpci[00m        [00;32mscsi.agent[00m  [00musb.distmap[00m
+[00;32mdasd.agent[00m         [00;32minput.agent[00m     [00;32mpci.agent[00m  [00;32mtape.agent[00m  [00musb.handmap[00m
+[00;32mfirmware.agent[00m     [00;32minput.rc[00m        [00;32mpci.rc[00m     [00;34musb[00m         [00;32musb.rc[00m
+[00;32mhotplug.functions[00m  [00;32mnet.agent[00m       [00;32mpnp.rc[00m     [00;32musb.agent[00m   [00musb.usermap[00m
+
+./hotplug/pci:
+
+./hotplug/usb:
+[00mlibsane.usermap[00m  [00;32mlibusbscanner[00m  [00;32musbcam[00m
+
+./hotplug.d:
+[00;34mdefault[00m
+
+./hotplug.d/default:
+[00;36m20-hal.hotplug[00m  [00;32mdefault.hotplug[00m
+
+./howl:
+[00;32mmDNSResponder.conf[00m
+
+./htdig:
+[00mcookies.txt[00m  [00mhtdig.conf[00m  [00mHtFileType-magic.mime[00m  [00mmime.types[00m
+
+./iproute2:
+[00mrt_dsfield[00m            [00mrt_realms[00m            [00mrt_tables[00m
+[00mrt_dsfield.rt_config[00m  [00mrt_realms.rt_config[00m  [00mrt_tables.rt_config[00m
+[00mrt_protos[00m             [00mrt_scopes[00m
+[00mrt_protos.rt_config[00m   [00mrt_scopes.rt_config[00m
+
+./isdn:
+[00mcallerid.conf[00m  [00misdn.conf[00m                  [00misdnlog.users[00m  [00mvboxd.conf[00m
+[00mibod.cf[00m        [00misdnlog.isdnctrl0.options[00m  [00mrate.conf[00m      [00mvboxgetty.conf[00m
+
+./java:
+[00mfont.properties[00m  [00mjava.conf[00m  [00mjpackage-release[00m  [00;34msecurity[00m
+
+./java/security:
+[00;34msecurity.d[00m
+
+./java/security/security.d:
+[00m1000-gnu.java.security.provider.Gnu[00m         [00m3000-gnu.crypto.jce.GnuCrypto[00m
+[00m2000-org.metastatic.jessie.provider.Jessie[00m
+
+./kde:
+[00;34mkdm[00m
+
+./kde/kdm:
+[00mbackgroundrc[00m  [00;36mXaccess[00m  [00;36mXservers[00m  [00;36mXsetup[00m    [00;36mXwilling[00m
+[00;36mkdmrc[00m         [00;32mXreset[00m   [00;36mXsession[00m  [00;32mXstartup[00m
+
+./kermit:
+[00;32mckermit.ini[00m         [00;32mckermit.local.ini[00m  [00;32mckermit.phone[00m
+[00;32mckermit.locale.ini[00m  [00;32mckermit.modem.ini[00m
+
+./ld.so.conf.d:
+[00mqt-i386.conf[00m  [00mxorg-x11-i386.conf[00m
+
+./logrotate.d:
+[00macpid[00m  [00mcups[00m  [00mkdm[00m  [00mmgetty[00m  [00mnamed[00m  [00mppp[00m  [00mpsacct[00m  [00mrpm[00m  [00msnmpd[00m  [00msyslog[00m  [00mup2date[00m  [00myum[00m
+
+./logwatch:
+[00;34mconf[00m  [00;34mscripts[00m
+
+./logwatch/conf:
+[00mignore.conf[00m  [00;34mlogfiles[00m  [00mlogwatch.conf[00m  [00moverride.conf[00m  [00;34mservices[00m
+
+./logwatch/conf/logfiles:
+
+./logwatch/conf/services:
+
+./logwatch/scripts:
+
+./lvm:
+[00;34marchive[00m  [00;34mbackup[00m  [00mlvm.conf[00m
+ls: ./lvm/archive: Permission denied
+ls: ./lvm/backup: Permission denied
+
+./mail:
+[00maccess[00m          [00mhelpfile[00m          [00mMakefile[00m      [00msubmit.cf[00m      [00mvirtusertable.db[00m
+[00maccess.db[00m       [00mlocal-host-names[00m  [00msendmail.cf[00m   [00msubmit.mc[00m
+[00mdomaintable[00m     [00mmailertable[00m       [00msendmail.mc[00m   [00mtrusted-users[00m
+[00mdomaintable.db[00m  [00mmailertable.db[00m    [00;34mspamassassin[00m  [00mvirtusertable[00m
+
+./mail/spamassassin:
+[00minit.pre[00m  [00mspamassassin-default.rc[00m  [00mspamassassin-spamc.rc[00m
+[00mlocal.cf[00m  [00;32mspamassassin-helper.sh[00m
+
+./makedev.d:
+[00m00macros[00m  [00mconsole[00m  [00mia64[00m  [00mipfilter[00m     [00mmouse[00m   [00ms390[00m          [00musb[00m
+[00malsa[00m      [00mdac960[00m   [00mibcs[00m  [00misdn[00m         [00mqic[00m     [00msound[00m         [00mv4l[00m
+[00mcciss[00m     [00mftape[00m    [00mida[00m   [00mlinux1394[00m    [00mraid[00m    [00mstd[00m
+[00mcdrom[00m     [00mgeneric[00m  [00mide[00m   [00mlinux-2.6.x[00m  [00mredhat[00m  [00mundocumented[00m
+
+./mgetty+sendfax:
+[00mdialin.config[00m  [00mlogin.config[00m  [00mmgetty.config[00m
+
+./modprobe.d:
+[00mblacklist-compat[00m  [00mmodprobe.conf.dist[00m
+
+./netplug:
+[00mnetplugd.conf[00m
+
+./netplug.d:
+[00;32mnetplug[00m
+
+./ntp:
+[00mkeys[00m  [00mntpservers[00m  [00mstep-tickers[00m
+
+./openldap:
+[00;34mcacerts[00m  [00mldap.conf[00m
+
+./openldap/cacerts:
+
+./opt:
+
+./pam.d:
+[00matd[00m               [00mpasswd[00m                        [00msystem-config-language[00m
+[00mauthconfig[00m        [00mpoweroff[00m                      [00msystem-config-lvm[00m
+[00mauthconfig-gtk[00m    [00mppp[00m                           [00msystem-config-mouse[00m
+[00mchfn[00m              [00mprintconf[00m                     [00msystem-config-network[00m
+[00mchsh[00m              [00mprintconf-gui[00m                 [00msystem-config-network-cmd[00m
+[00mcpufreq-selector[00m  [00mprintconf-tui[00m                 [00msystem-config-network-druid[00m
+[00mcrond[00m             [00mprinttool[00m                     [00msystem-config-packages[00m
+[00mcups[00m              [00mreboot[00m                        [00msystem-config-printer[00m
+[00mdateconfig[00m        [00mremote[00m                        [00msystem-config-printer-gui[00m
+[00mgdm[00m               [00mrhn_register[00m                  [00msystem-config-printer-tui[00m
+[00mgdm-autologin[00m     [00mrun_init[00m                      [00msystem-config-rootpassword[00m
+[00mgdmsetup[00m          [00mscreen[00m                        [00msystem-config-securitylevel[00m
+[00mhalt[00m              [00;36mserviceconf[00m                   [00msystem-config-services[00m
+[00mhwbrowser[00m         [00msetup[00m                         [00msystem-config-soundcard[00m
+[00minternet-druid[00m    [00;36msmtp[00m                          [00msystem-config-time[00m
+[00mkbdrate[00m           [00msmtp.sendmail[00m                 [00msystem-config-users[00m
+[00mkcheckpass[00m        [00msshd[00m                          [00msystem-install-packages[00m
+[00mkdm[00m               [00msu[00m                            [00mup2date[00m
+[00mkdm-np[00m            [00msudo[00m                          [00mup2date-config[00m
+[00mkppp[00m              [00msystem-auth[00m                   [00mup2date-nox[00m
+[00mkscreensaver[00m      [00msystem-cdinstall-helper[00m       [00mxdm[00m
+[00mlogin[00m             [00msystem-config-authentication[00m  [00mxscreensaver[00m
+[00mneat[00m              [00msystem-config-date[00m            [00mxserver[00m
+[00mnewrole[00m           [00msystem-config-display[00m
+[00mother[00m             [00msystem-config-keyboard[00m
+
+./pango:
+[00;34mi386-redhat-linux-gnu[00m  [00mpangox.aliases[00m
+
+./pango/i386-redhat-linux-gnu:
+[00mpango.modules[00m
+
+./pcmcia:
+[00;32mbluetooth[00m       [00;32mide[00m            [00;32mnetwork[00m       [00mscsi.opts[00m    [00mwireless.opts[00m
+[00mbluetooth.conf[00m  [00mide.opts[00m       [00mnetwork.opts[00m  [00;32mserial[00m
+[00;34mcis[00m             [00;32mieee1394[00m       [00;32mparport[00m       [00mserial.opts[00m
+[00mconfig[00m          [00mieee1394.opts[00m  [00mparport.opts[00m  [00mshared[00m
+[00mconfig.opts[00m     [00;32misdn[00m           [00;32mscsi[00m          [00;32mwireless[00m
+
+./pcmcia/cis:
+[00m3CCFEM556.dat[00m  [00mCOMpad4.dat[00m  [00mLA-PCM.dat[00m     [00mPCMLM28.dat[00m  [00mRS-COM-2P.dat[00m
+[00m3CXEM556.dat[00m   [00mDP83903.dat[00m  [00mMT5634ZLX.dat[00m  [00mPE-200.dat[00m   [00mtamarack.dat[00m
+[00mCOMpad2.dat[00m    [00mE-CARD.dat[00m   [00mNE2K.dat[00m       [00mPE520.dat[00m
+
+./pki:
+[00;34mCA[00m  [00;34mrpm-gpg[00m  [00;34mtls[00m
+ls: ./pki/CA: Permission denied
+
+./pki/rpm-gpg:
+[00mRPM-GPG-KEY[00m         [00mRPM-GPG-KEY-fedora-extras[00m   [00mRPM-GPG-KEY-rawhide[00m
+[00mRPM-GPG-KEY-beta[00m    [00mRPM-GPG-KEY-fedora-rawhide[00m
+[00mRPM-GPG-KEY-fedora[00m  [00mRPM-GPG-KEY-fedora-test[00m
+
+./pki/tls:
+[00;36mcert.pem[00m  [00;34mcerts[00m  [00;34mmisc[00m  [00mopenssl.cnf[00m  [00;34mprivate[00m
+
+./pki/tls/certs:
+[00mca-bundle.crt[00m  [00mmake-dummy-cert[00m  [00mMakefile[00m
+
+./pki/tls/misc:
+[00;32mCA[00m  [00;32mc_hash[00m  [00;32mc_info[00m  [00;32mc_issuer[00m  [00;32mc_name[00m
+
+./pki/tls/private:
+
+./ppp:
+[00mchap-secrets[00m         [00;32mip-down[00m          [00;32mipv6-down[00m    [00;34mpeers[00m
+[00mfirewall-masq[00m        [00;32mip-down.ipv6to4[00m  [00;32mipv6-up[00m      [00mpppoe-server-options[00m
+[00mfirewall-standalone[00m  [00;32mip-up[00m            [00moptions[00m
+[00mioptions[00m             [00;32mip-up.ipv6to4[00m    [00mpap-secrets[00m
+
+./ppp/peers:
+[00;34misdn[00m  [00mwvdial[00m
+
+./ppp/peers/isdn:
+[00marcor[00m  [00mavm[00m  [00mavm-ml[00m  [00mleased[00m  [00motelo[00m  [00mtalkline[00m
+
+./profile.d:
+[00;32mcolorls.csh[00m  [00;32mgnome-ssh-askpass.csh[00m  [00;32mkrb5.csh[00m  [00;32mless.csh[00m  [00;32mvim.csh[00m
+[00;32mcolorls.sh[00m   [00;32mgnome-ssh-askpass.sh[00m   [00;32mkrb5.sh[00m   [00;32mless.sh[00m   [00;32mvim.sh[00m
+[00;32mglib2.csh[00m    [00;32mkde.csh[00m                [00;32mlang.csh[00m  [00;32mqt.csh[00m    [00;32mwhich-2.sh[00m
+[00;32mglib2.sh[00m     [00;32mkde.sh[00m                 [00;32mlang.sh[00m   [00;32mqt.sh[00m
+
+./racoon:
+[00;34mcerts[00m  [00mpsk.txt[00m  [00mracoon.conf[00m
+ls: ./racoon/certs: Permission denied
+
+./rc.d:
+[00;34minit.d[00m  [00;34mrc0.d[00m  [00;34mrc2.d[00m  [00;34mrc4.d[00m  [00;34mrc6.d[00m     [00;32mrc.sysinit[00m
+[00;32mrc[00m      [00;34mrc1.d[00m  [00;34mrc3.d[00m  [00;34mrc5.d[00m  [00;32mrc.local[00m
+
+./rc.d/init.d:
+[00;32macpid[00m               [00;32mirda[00m                      [00;32mpcmcia[00m
+[00;32manacron[00m             [00;32misdn[00m                      [00;32mportmap[00m
+[00;32mapmd[00m                [00;32mkillall[00m                   [00;32mpsacct[00m
+[00;32matd[00m                 [00;32mkudzu[00m                     [00;32mrdisc[00m
+[00;32mauditd[00m              [00;32mlisa[00m                      [00;32mrhnsd[00m
+[00;32mautofs[00m              [00;32mlm_sensors[00m                [00;32mrpcgssd[00m
+[00;32mbluetooth[00m           [00;32mmdmonitor[00m                 [00;32mrpcidmapd[00m
+[00;32mcpuspeed[00m            [00;32mmdmpd[00m                     [00;32mrpcsvcgssd[00m
+[00;32mcrond[00m               [00;32mmDNSResponder[00m             [00;32msaslauthd[00m
+[00;32mcups[00m                [00;32mmessagebus[00m                [00;32msendmail[00m
+[00;32mcups-config-daemon[00m  [00;32mnamed[00m                     [00;32msingle[00m
+[00;32mdhcdbd[00m              [00;32mnetdump[00m                   [00;32msnmpd[00m
+[00;32mdiskdump[00m            [00;32mnetfs[00m                     [00;32msnmptrapd[00m
+[00;32mdund[00m                [00;32mnetplugd[00m                  [00;32mspamassassin[00m
+[00;32mfirstboot[00m           [00;32mnetwork[00m                   [00;32msshd[00m
+[00;32mfunctions[00m           [00;32mNetworkManager[00m            [00;32msyslog[00m
+[00;32mgdm-allow-login[00m     [00;32mNetworkManagerDispatcher[00m  [00;32mvncserver[00m
+[00;32mgdm-early-login[00m     [00;32mnfs[00m                       [00;32mwinbind[00m
+[00;32mgpm[00m                 [00;32mnfslock[00m                   [00;32mxfs[00m
+[00;32mhaldaemon[00m           [00;32mnifd[00m                      [00;32mypbind[00m
+[00;32mhalt[00m                [00;32mnscd[00m                      [00;32myum[00m
+[00;32mhidd[00m                [00;32mntpd[00m                      [00;32mzzz-bootup-complete[00m
+[00;32miptables[00m            [00;32mpand[00m
+
+./rc.d/rc0.d:
+[00;36mK01yum[00m                       [00;36mK20nfs[00m            [00;36mK68rpcidmapd[00m   [00;36mK87portmap[00m
+[00;36mK02cups-config-daemon[00m        [00;36mK24irda[00m           [00;36mK69rpcgssd[00m     [00;36mK88syslog[00m
+[00;36mK02dhcdbd[00m                    [00;36mK25sshd[00m           [00;36mK69rpcsvcgssd[00m  [00;36mK89netplugd[00m
+[00;36mK02haldaemon[00m                 [00;36mK30sendmail[00m       [00;36mK72autofs[00m      [00;36mK89rdisc[00m
+[00;36mK02NetworkManager[00m            [00;36mK30spamassassin[00m   [00;36mK73ypbind[00m      [00;36mK90bluetooth[00m
+[00;36mK02NetworkManagerDispatcher[00m  [00;36mK35vncserver[00m      [00;36mK74apmd[00m        [00;36mK90network[00m
+[00;36mK03messagebus[00m                [00;36mK35winbind[00m        [00;36mK74lm_sensors[00m  [00;36mK91isdn[00m
+[00;36mK03rhnsd[00m                     [00;36mK36lisa[00m           [00;36mK74nscd[00m        [00;36mK92iptables[00m
+[00;36mK05anacron[00m                   [00;36mK50netdump[00m        [00;36mK74ntpd[00m        [00;36mK94diskdump[00m
+[00;36mK05atd[00m                       [00;36mK50snmpd[00m          [00;36mK75netfs[00m       [00;36mK95kudzu[00m
+[00;36mK05saslauthd[00m                 [00;36mK50snmptrapd[00m      [00;36mK85mdmonitor[00m   [00;36mK96pcmcia[00m
+[00;36mK10cups[00m                      [00;36mK56acpid[00m          [00;36mK85mdmpd[00m       [00;36mK99cpuspeed[00m
+[00;36mK10psacct[00m                    [00;36mK60crond[00m          [00;36mK86nfslock[00m     [00;36mS00killall[00m
+[00;36mK10xfs[00m                       [00;36mK66mDNSResponder[00m  [00;36mK87auditd[00m      [00;36mS01halt[00m
+[00;36mK15gpm[00m                       [00;36mK67nifd[00m           [00;36mK87named[00m
+
+./rc.d/rc1.d:
+[00;36mK01yum[00m                       [00;36mK20nfs[00m            [00;36mK68rpcidmapd[00m   [00;36mK87portmap[00m
+[00;36mK02cups-config-daemon[00m        [00;36mK24irda[00m           [00;36mK69rpcgssd[00m     [00;36mK88syslog[00m
+[00;36mK02dhcdbd[00m                    [00;36mK25sshd[00m           [00;36mK69rpcsvcgssd[00m  [00;36mK89netplugd[00m
+[00;36mK02haldaemon[00m                 [00;36mK30sendmail[00m       [00;36mK72autofs[00m      [00;36mK89rdisc[00m
+[00;36mK02NetworkManager[00m            [00;36mK30spamassassin[00m   [00;36mK73ypbind[00m      [00;36mK90bluetooth[00m
+[00;36mK02NetworkManagerDispatcher[00m  [00;36mK35vncserver[00m      [00;36mK74apmd[00m        [00;36mK90network[00m
+[00;36mK03messagebus[00m                [00;36mK35winbind[00m        [00;36mK74lm_sensors[00m  [00;36mK91isdn[00m
+[00;36mK03rhnsd[00m                     [00;36mK36lisa[00m           [00;36mK74nscd[00m        [00;36mK92iptables[00m
+[00;36mK05anacron[00m                   [00;36mK50netdump[00m        [00;36mK74ntpd[00m        [00;36mK94diskdump[00m
+[00;36mK05atd[00m                       [00;36mK50snmpd[00m          [00;36mK75netfs[00m       [00;36mK95kudzu[00m
+[00;36mK05saslauthd[00m                 [00;36mK50snmptrapd[00m      [00;36mK85mdmonitor[00m   [00;36mK96pcmcia[00m
+[00;36mK10cups[00m                      [00;36mK56acpid[00m          [00;36mK85mdmpd[00m       [00;36mS00single[00m
+[00;36mK10psacct[00m                    [00;36mK60crond[00m          [00;36mK86nfslock[00m     [00;36mS06cpuspeed[00m
+[00;36mK10xfs[00m                       [00;36mK66mDNSResponder[00m  [00;36mK87auditd[00m
+[00;36mK15gpm[00m                       [00;36mK67nifd[00m           [00;36mK87named[00m
+
+./rc.d/rc2.d:
+[00;36mK01yum[00m                       [00;36mK35winbind[00m        [00;36mK75netfs[00m     [00;36mS15mdmonitor[00m
+[00;36mK02cups-config-daemon[00m        [00;36mK36lisa[00m           [00;36mK85mdmpd[00m     [00;36mS18auditd[00m
+[00;36mK02dhcdbd[00m                    [00;36mK50netdump[00m        [00;36mK86nfslock[00m   [00;36mS25bluetooth[00m
+[00;36mK02haldaemon[00m                 [00;36mK50snmpd[00m          [00;36mK87named[00m     [00;36mS26apmd[00m
+[00;36mK02NetworkManager[00m            [00;36mK50snmptrapd[00m      [00;36mK87portmap[00m   [00;36mS26lm_sensors[00m
+[00;36mK02NetworkManagerDispatcher[00m  [00;36mK56acpid[00m          [00;36mK89netplugd[00m  [00;36mS55cups[00m
+[00;36mK03messagebus[00m                [00;36mK66mDNSResponder[00m  [00;36mK89rdisc[00m     [00;36mS55sshd[00m
+[00;36mK03rhnsd[00m                     [00;36mK67nifd[00m           [00;36mK94diskdump[00m  [00;36mS80sendmail[00m
+[00;36mK05atd[00m                       [00;36mK68rpcidmapd[00m      [00;36mK95kudzu[00m     [00;36mS85gpm[00m
+[00;36mK05saslauthd[00m                 [00;36mK69rpcgssd[00m        [00;36mS06cpuspeed[00m  [00;36mS90crond[00m
+[00;36mK10psacct[00m                    [00;36mK69rpcsvcgssd[00m     [00;36mS08iptables[00m  [00;36mS90xfs[00m
+[00;36mK20nfs[00m                       [00;36mK72autofs[00m         [00;36mS09isdn[00m      [00;36mS95anacron[00m
+[00;36mK24irda[00m                      [00;36mK73ypbind[00m         [00;36mS09pcmcia[00m    [00;36mS99local[00m
+[00;36mK30spamassassin[00m              [00;36mK74nscd[00m           [00;36mS10network[00m
+[00;36mK35vncserver[00m                 [00;36mK74ntpd[00m           [00;36mS12syslog[00m
+
+./rc.d/rc3.d:
+[00;36mK01yum[00m                       [00;36mK87named[00m      [00;36mS26lm_sensors[00m
+[00;36mK02dhcdbd[00m                    [00;36mK89netplugd[00m   [00;36mS28autofs[00m
+[00;36mK02NetworkManager[00m            [00;36mK89rdisc[00m      [00;36mS33nifd[00m
+[00;36mK02NetworkManagerDispatcher[00m  [00;36mK94diskdump[00m   [00;36mS34mDNSResponder[00m
+[00;36mK05saslauthd[00m                 [00;36mS05kudzu[00m      [00;36mS44acpid[00m
+[00;36mK10psacct[00m                    [00;36mS06cpuspeed[00m   [00;36mS55cups[00m
+[00;36mK20nfs[00m                       [00;36mS08iptables[00m   [00;36mS55sshd[00m
+[00;36mK24irda[00m                      [00;36mS09isdn[00m       [00;36mS80sendmail[00m
+[00;36mK30spamassassin[00m              [00;36mS09pcmcia[00m     [00;36mS85gpm[00m
+[00;36mK35vncserver[00m                 [00;36mS10network[00m    [00;36mS90crond[00m
+[00;36mK35winbind[00m                   [00;36mS12syslog[00m     [00;36mS90xfs[00m
+[00;36mK36lisa[00m                      [00;36mS13portmap[00m    [00;36mS95anacron[00m
+[00;36mK50netdump[00m                   [00;36mS14nfslock[00m    [00;36mS95atd[00m
+[00;36mK50snmpd[00m                     [00;36mS15mdmonitor[00m  [00;36mS97messagebus[00m
+[00;36mK50snmptrapd[00m                 [00;36mS18auditd[00m     [00;36mS97rhnsd[00m
+[00;36mK69rpcsvcgssd[00m                [00;36mS18rpcidmapd[00m  [00;36mS98cups-config-daemon[00m
+[00;36mK73ypbind[00m                    [00;36mS19rpcgssd[00m    [00;36mS98haldaemon[00m
+[00;36mK74nscd[00m                      [00;36mS25bluetooth[00m  [00;36mS99local[00m
+[00;36mK74ntpd[00m                      [00;36mS25netfs[00m
+[00;36mK85mdmpd[00m                     [00;36mS26apmd[00m
+
+./rc.d/rc4.d:
+[00;36mK01yum[00m                       [00;36mK87named[00m      [00;36mS26lm_sensors[00m
+[00;36mK02dhcdbd[00m                    [00;36mK89netplugd[00m   [00;36mS28autofs[00m
+[00;36mK02NetworkManager[00m            [00;36mK89rdisc[00m      [00;36mS33nifd[00m
+[00;36mK02NetworkManagerDispatcher[00m  [00;36mK94diskdump[00m   [00;36mS34mDNSResponder[00m
+[00;36mK05saslauthd[00m                 [00;36mS05kudzu[00m      [00;36mS44acpid[00m
+[00;36mK10psacct[00m                    [00;36mS06cpuspeed[00m   [00;36mS55cups[00m
+[00;36mK20nfs[00m                       [00;36mS08iptables[00m   [00;36mS55sshd[00m
+[00;36mK24irda[00m                      [00;36mS09isdn[00m       [00;36mS80sendmail[00m
+[00;36mK30spamassassin[00m              [00;36mS09pcmcia[00m     [00;36mS85gpm[00m
+[00;36mK35vncserver[00m                 [00;36mS10network[00m    [00;36mS90crond[00m
+[00;36mK35winbind[00m                   [00;36mS12syslog[00m     [00;36mS90xfs[00m
+[00;36mK36lisa[00m                      [00;36mS13portmap[00m    [00;36mS95anacron[00m
+[00;36mK50netdump[00m                   [00;36mS14nfslock[00m    [00;36mS95atd[00m
+[00;36mK50snmpd[00m                     [00;36mS15mdmonitor[00m  [00;36mS97messagebus[00m
+[00;36mK50snmptrapd[00m                 [00;36mS18auditd[00m     [00;36mS97rhnsd[00m
+[00;36mK69rpcsvcgssd[00m                [00;36mS18rpcidmapd[00m  [00;36mS98cups-config-daemon[00m
+[00;36mK73ypbind[00m                    [00;36mS19rpcgssd[00m    [00;36mS98haldaemon[00m
+[00;36mK74nscd[00m                      [00;36mS25bluetooth[00m  [00;36mS99local[00m
+[00;36mK74ntpd[00m                      [00;36mS25netfs[00m
+[00;36mK85mdmpd[00m                     [00;36mS26apmd[00m
+
+./rc.d/rc5.d:
+[00;36mK01yum[00m                       [00;36mK87named[00m      [00;36mS26lm_sensors[00m
+[00;36mK02dhcdbd[00m                    [00;36mK89netplugd[00m   [00;36mS28autofs[00m
+[00;36mK02NetworkManager[00m            [00;36mK89rdisc[00m      [00;36mS33nifd[00m
+[00;36mK02NetworkManagerDispatcher[00m  [00;36mK94diskdump[00m   [00;36mS34mDNSResponder[00m
+[00;36mK05saslauthd[00m                 [00;36mS05kudzu[00m      [00;36mS44acpid[00m
+[00;36mK10psacct[00m                    [00;36mS06cpuspeed[00m   [00;36mS55cups[00m
+[00;36mK20nfs[00m                       [00;36mS08iptables[00m   [00;36mS55sshd[00m
+[00;36mK24irda[00m                      [00;36mS09isdn[00m       [00;36mS80sendmail[00m
+[00;36mK30spamassassin[00m              [00;36mS09pcmcia[00m     [00;36mS85gpm[00m
+[00;36mK35vncserver[00m                 [00;36mS10network[00m    [00;36mS90crond[00m
+[00;36mK35winbind[00m                   [00;36mS12syslog[00m     [00;36mS90xfs[00m
+[00;36mK36lisa[00m                      [00;36mS13portmap[00m    [00;36mS95anacron[00m
+[00;36mK50netdump[00m                   [00;36mS14nfslock[00m    [00;36mS95atd[00m
+[00;36mK50snmpd[00m                     [00;36mS15mdmonitor[00m  [00;36mS97messagebus[00m
+[00;36mK50snmptrapd[00m                 [00;36mS18auditd[00m     [00;36mS97rhnsd[00m
+[00;36mK69rpcsvcgssd[00m                [00;36mS18rpcidmapd[00m  [00;36mS98cups-config-daemon[00m
+[00;36mK73ypbind[00m                    [00;36mS19rpcgssd[00m    [00;36mS98haldaemon[00m
+[00;36mK74nscd[00m                      [00;36mS25bluetooth[00m  [00;36mS99local[00m
+[00;36mK74ntpd[00m                      [00;36mS25netfs[00m
+[00;36mK85mdmpd[00m                     [00;36mS26apmd[00m
+
+./rc.d/rc6.d:
+[00;36mK01yum[00m                       [00;36mK20nfs[00m            [00;36mK68rpcidmapd[00m   [00;36mK87portmap[00m
+[00;36mK02cups-config-daemon[00m        [00;36mK24irda[00m           [00;36mK69rpcgssd[00m     [00;36mK88syslog[00m
+[00;36mK02dhcdbd[00m                    [00;36mK25sshd[00m           [00;36mK69rpcsvcgssd[00m  [00;36mK89netplugd[00m
+[00;36mK02haldaemon[00m                 [00;36mK30sendmail[00m       [00;36mK72autofs[00m      [00;36mK89rdisc[00m
+[00;36mK02NetworkManager[00m            [00;36mK30spamassassin[00m   [00;36mK73ypbind[00m      [00;36mK90bluetooth[00m
+[00;36mK02NetworkManagerDispatcher[00m  [00;36mK35vncserver[00m      [00;36mK74apmd[00m        [00;36mK90network[00m
+[00;36mK03messagebus[00m                [00;36mK35winbind[00m        [00;36mK74lm_sensors[00m  [00;36mK91isdn[00m
+[00;36mK03rhnsd[00m                     [00;36mK36lisa[00m           [00;36mK74nscd[00m        [00;36mK92iptables[00m
+[00;36mK05anacron[00m                   [00;36mK50netdump[00m        [00;36mK74ntpd[00m        [00;36mK94diskdump[00m
+[00;36mK05atd[00m                       [00;36mK50snmpd[00m          [00;36mK75netfs[00m       [00;36mK95kudzu[00m
+[00;36mK05saslauthd[00m                 [00;36mK50snmptrapd[00m      [00;36mK85mdmonitor[00m   [00;36mK96pcmcia[00m
+[00;36mK10cups[00m                      [00;36mK56acpid[00m          [00;36mK85mdmpd[00m       [00;36mK99cpuspeed[00m
+[00;36mK10psacct[00m                    [00;36mK60crond[00m          [00;36mK86nfslock[00m     [00;36mS00killall[00m
+[00;36mK10xfs[00m                       [00;36mK66mDNSResponder[00m  [00;36mK87auditd[00m      [00;36mS01reboot[00m
+[00;36mK15gpm[00m                       [00;36mK67nifd[00m           [00;36mK87named[00m
+
+./redhat-lsb:
+[00;32mlsb_killproc[00m  [00;32mlsb_log_message[00m  [00;32mlsb_pidofproc[00m  [00;32mlsb_start_daemon[00m
+
+./rhgb:
+[00;34mtemp[00m
+
+./rhgb/temp:
+
+./rpm:
+[00mmacros.jpackage[00m  [00mmacros.prelink[00m  [00mmacros.specspo[00m  [00mmacros.up2date[00m  [00mplatform[00m
+
+./samba:
+[00mlmhosts[00m  [00msmb.conf[00m
+
+./sane.d:
+[00mabaton.conf[00m          [00mdmc.conf[00m         [00mmicrotek.conf[00m    [00msnapscan.conf[00m
+[00magfafocus.conf[00m       [00mepson.conf[00m       [00mmustek.conf[00m      [00msp15c.conf[00m
+[00mapple.conf[00m           [00mfujitsu.conf[00m     [00mmustek_pp.conf[00m   [00mst400.conf[00m
+[00martec.conf[00m           [00mgenesys.conf[00m     [00mmustek_usb.conf[00m  [00mtamarack.conf[00m
+[00martec_eplus48u.conf[00m  [00mgphoto2.conf[00m     [00mnec.conf[00m         [00mteco1.conf[00m
+[00mavision.conf[00m         [00mgt68xx.conf[00m      [00mnet.conf[00m         [00mteco2.conf[00m
+[00mbh.conf[00m              [00mhp4200.conf[00m      [00mpie.conf[00m         [00mteco3.conf[00m
+[00mcanon630u.conf[00m       [00mhp5400.conf[00m      [00mplustek.conf[00m     [00mtest.conf[00m
+[00mcanon.conf[00m           [00mhp.conf[00m          [00mplustek_pp.conf[00m  [00mu12.conf[00m
+[00mcanon_pp.conf[00m        [00mhpsj5s.conf[00m      [00mqcam.conf[00m        [00mumax1220u.conf[00m
+[00mcoolscan2.conf[00m       [00mibm.conf[00m         [00mricoh.conf[00m       [00mumax.conf[00m
+[00mcoolscan.conf[00m        [00mleo.conf[00m         [00ms9036.conf[00m       [00mumax_pp.conf[00m
+[00mdc210.conf[00m           [00mlexmark.conf[00m     [00msaned.conf[00m       [00mv4l.conf[00m
+[00mdc240.conf[00m           [00mma1509.conf[00m      [00msceptre.conf[00m
+[00mdc25.conf[00m            [00mmatsushita.conf[00m  [00msharp.conf[00m
+[00mdll.conf[00m             [00mmicrotek2.conf[00m   [00msm3840.conf[00m
+
+./security:
+[00maccess.conf[00m   [00mconsole.handlers[00m  [00mgroup.conf[00m   [00mpam_env.conf[00m
+[00mchroot.conf[00m   [00mconsole.perms[00m     [00mlimits.conf[00m  [00mtime.conf[00m
+[00;34mconsole.apps[00m  [00;34mconsole.perms.d[00m   [00mopasswd[00m
+
+./security/console.apps:
+[00mauthconfig[00m        [00mreboot[00m                        [00msystem-config-printer[00m
+[00mauthconfig-gtk[00m    [00mrhn_register[00m                  [00msystem-config-printer-gui[00m
+[00mcpufreq-selector[00m  [00;36mserviceconf[00m                   [00msystem-config-printer-tui[00m
+[00mdateconfig[00m        [00msetup[00m                         [00msystem-config-rootpassword[00m
+[00mgdmsetup[00m          [00msystem-cdinstall-helper[00m       [00msystem-config-securitylevel[00m
+[00mhalt[00m              [00msystem-config-authentication[00m  [00msystem-config-services[00m
+[00mhwbrowser[00m         [00msystem-config-date[00m            [00msystem-config-soundcard[00m
+[00minternet-druid[00m    [00msystem-config-display[00m         [00msystem-config-time[00m
+[00mkbdrate[00m           [00msystem-config-keyboard[00m        [00msystem-config-users[00m
+[00mkppp[00m              [00msystem-config-language[00m        [00msystem-install-packages[00m
+[00mneat[00m              [00msystem-config-lvm[00m             [00mup2date[00m
+[00mpoweroff[00m          [00msystem-config-mouse[00m           [00mup2date-config[00m
+[00mprintconf[00m         [00msystem-config-network[00m         [00mup2date-nox[00m
+[00mprintconf-gui[00m     [00msystem-config-network-cmd[00m     [00mxserver[00m
+[00mprintconf-tui[00m     [00msystem-config-network-druid[00m
+[00mprinttool[00m         [00msystem-config-packages[00m
+
+./security/console.perms.d:
+[00m50-default.perms[00m
+
+./selinux:
+[00mconfig[00m  [00;34mtargeted[00m
+
+./selinux/targeted:
+[00mbooleans[00m  [00mbooleans.local[00m  [00;34mcontexts[00m  [00;34mpolicy[00m  [00;34musers[00m
+
+./selinux/targeted/contexts:
+[00mcustomizable_types[00m  [00mdefault_type[00m      [00minitrc_context[00m     [00muserhelper_context[00m
+[00mdbus_contexts[00m       [00mfailsafe_context[00m  [00mport_types[00m         [00;34musers[00m
+[00mdefault_contexts[00m    [00;34mfiles[00m             [00mremovable_context[00m
+
+./selinux/targeted/contexts/files:
+[00mfile_contexts[00m  [00mfile_contexts.homedirs[00m  [00mhomedir_template[00m  [00mmedia[00m
+
+./selinux/targeted/contexts/users:
+[00mroot[00m
+
+./selinux/targeted/policy:
+[00mpolicy.19[00m
+
+./selinux/targeted/users:
+[00mlocal.users[00m  [00msystem.users[00m
+
+./setuptool.d:
+[00m98netconfig[00m               [00m99lokkit[00m         [00m99system-config-network-tui[00m
+[00m98system-config-display[00m   [00m99mouseconfig[00m    [00m99system-config-printer-tui[00m
+[00m98system-config-keyboard[00m  [00m99ntsysv[00m         [00m99timeconfig[00m
+[00m99authconfig[00m              [00m99printconf-tui[00m  [00m99Xconfigurator[00m
+[00m99kbdconfig[00m               [00m99sndconfig[00m
+
+./sgml:
+[00mcatalog[00m                      [00msgml-docbook-4.4-1.0-26.cat[00m
+[00msgml.conf[00m                    [00;36msgml-docbook.cat[00m
+[00msgml-docbook-3.0-1.0-26.cat[00m  [00mxml-docbook-4.1.2-1.0-26.cat[00m
+[00msgml-docbook-3.1-1.0-26.cat[00m  [00mxml-docbook-4.2-1.0-26.cat[00m
+[00msgml-docbook-4.0-1.0-26.cat[00m  [00mxml-docbook-4.3-1.0-26.cat[00m
+[00msgml-docbook-4.1-1.0-26.cat[00m  [00mxml-docbook-4.4-1.0-26.cat[00m
+[00msgml-docbook-4.2-1.0-26.cat[00m  [00;36mxml-docbook.cat[00m
+[00msgml-docbook-4.3-1.0-26.cat[00m
+
+./skel:
+
+./smrsh:
+
+./snmp:
+[00msnmpd.conf[00m
+
+./sound:
+[00;34mevents[00m
+
+./sound/events:
+[00mbattstat_applet.soundlist[00m  [00mgnobots2.soundlist[00m  [00mgtk-events-2.soundlist[00m
+[00mgnibbles.soundlist[00m         [00mgnome-2.soundlist[00m   [00miagno.soundlist[00m
+
+./ssh:
+[00mmoduli[00m       [00mssh_host_dsa_key[00m      [00mssh_host_key.pub[00m
+[00mssh_config[00m   [00mssh_host_dsa_key.pub[00m  [00mssh_host_rsa_key[00m
+[00msshd_config[00m  [00mssh_host_key[00m          [00mssh_host_rsa_key.pub[00m
+
+./stunnel:
+
+./sysconfig:
+[00mapmd[00m         [00mfirstboot[00m        [00mkudzu[00m               [00mpand[00m
+[00;34mapm-scripts[00m  [00mgrub[00m             [00mlm_sensors[00m          [00mpcmcia[00m
+[00mauditd[00m       [00mharddisks[00m        [00;34mmodules[00m             [00mprelink[00m
+[00mauthconfig[00m   [00mhidd[00m             [00mmouse[00m               [00;34mrhn[00m
+[00mautofs[00m       [00mhwconf[00m           [00mnamed[00m               [00msaslauthd[00m
+[00mbluetooth[00m    [00mi18n[00m             [00mnetdump[00m             [00;36mselinux[00m
+[00mclock[00m        [00minit[00m             [00mnetdump_id_dsa[00m      [00msendmail[00m
+[00;34mconsole[00m      [00minstallinfo[00m      [00mnetdump_id_dsa.pub[00m  [00mspamassassin[00m
+[00mcrond[00m        [00miptables-config[00m  [00mnetwork[00m             [00msyslog[00m
+[00mdesktop[00m      [00mirda[00m             [00;34mnetworking[00m          [00msystem-config-securitylevel[00m
+[00mdiskdump[00m     [00mkernel[00m           [00;34mnetwork-scripts[00m     [00msystem-config-users[00m
+[00mdund[00m         [00mkeyboard[00m         [00mntpd[00m                [00mvncservers[00m
+
+./sysconfig/apm-scripts:
+[00;32mapmscript[00m
+
+./sysconfig/console:
+
+./sysconfig/modules:
+
+./sysconfig/networking:
+[00;34mdevices[00m  [00;34mprofiles[00m
+
+./sysconfig/networking/devices:
+
+./sysconfig/networking/profiles:
+[00;34mdefault[00m
+
+./sysconfig/networking/profiles/default:
+
+./sysconfig/network-scripts:
+[00mifcfg-eth0[00m      [00;32mifdown-ipsec[00m  [00;36mifup[00m          [00;32mifup-ipx[00m     [00;32mifup-sit[00m
+[00mifcfg-lo[00m        [00;32mifdown-ipv6[00m   [00;32mifup-aliases[00m  [00;36mifup-isdn[00m    [00;32mifup-sl[00m
+[00;36mifdown[00m          [00;36mifdown-isdn[00m   [00;32mifup-bnep[00m     [00;32mifup-plip[00m    [00;32mifup-wireless[00m
+[00;32mifdown-aliases[00m  [00;32mifdown-post[00m   [00;32mifup-eth[00m      [00;32mifup-plusb[00m   [00;32minit.ipv6-global[00m
+[00;32mifdown-bnep[00m     [00;32mifdown-ppp[00m    [00;32mifup-ippp[00m     [00;32mifup-post[00m    [00mnetwork-functions[00m
+[00;32mifdown-eth[00m      [00;32mifdown-sit[00m    [00;32mifup-ipsec[00m    [00;32mifup-ppp[00m     [00mnetwork-functions-ipv6[00m
+[00;32mifdown-ippp[00m     [00;32mifdown-sl[00m     [00;32mifup-ipv6[00m     [00;32mifup-routes[00m
+
+./sysconfig/rhn:
+[00;34mclientCaps.d[00m  [00mrhnsd[00m    [00mup2date[00m              [00mup2date-uuid[00m
+[00mrhn-applet[00m    [00msources[00m  [00mup2date-keyring.gpg[00m
+
+./sysconfig/rhn/clientCaps.d:
+
+./udev:
+[00;34mdevices[00m  [00;34mmakedev.d[00m  [00;34mrules.d[00m  [00;34mscripts[00m  [00mudev.conf[00m
+
+./udev/devices:
+
+./udev/makedev.d:
+[00m50-udev.nodes[00m
+
+./udev/rules.d:
+[00m10-wacom.rules[00m  [00m50-udev.rules[00m  [00mhotplug.rules[00m
+
+./udev/scripts:
+[00;32mcheck-cdrom.sh[00m  [00;32mide-media.sh[00m  [00;32mpam_console.dev[00m
+[00;32mdvb.sh[00m          [00;32mMAKEDEV.dev[00m   [00;32mudevpermconv.sh[00m
+
+./X11:
+[00;34mapplnk[00m  [00;34mlbxproxy[00m   [00;34mserverconfig[00m  [00;34mtwm[00m  [00;34mxinit[00m    [00mxorg.conf[00m   [00;34mxserver[00m
+[00;34mfs[00m      [00;32mprefdm[00m     [00;34mstarthere[00m     [00;36mX[00m    [00;36mxkb[00m      [00mXresources[00m  [00;34mxsm[00m
+[00;34mgdm[00m     [00;34mproxymngr[00m  [00;34msysconfig[00m     [00;34mxdm[00m  [00mXmodmap[00m  [00;36mX.rpmsave[00m
+
+./X11/applnk:
+
+./X11/fs:
+[00mconfig[00m
+
+./X11/gdm:
+[00mfactory-gdm.conf[00m  [00;34mInit[00m          [00;34mmodules[00m    [00;34mPostSession[00m  [00;32mXKeepsCrashing[00m
+[00mgdm.conf[00m          [00mlocale.alias[00m  [00;34mPostLogin[00m  [00;34mPreSession[00m
+
+./X11/gdm/Init:
+[00;36m:0[00m  [00;32mDefault[00m
+
+./X11/gdm/modules:
+[00mAccessDwellMouseEvents[00m  [00mfactory-AccessDwellMouseEvents[00m
+[00mAccessKeyMouseEvents[00m    [00mfactory-AccessKeyMouseEvents[00m
+
+./X11/gdm/PostLogin:
+[00;32mDefault.sample[00m
+
+./X11/gdm/PostSession:
+[00;32mDefault[00m
+
+./X11/gdm/PreSession:
+[00;32mDefault[00m
+
+./X11/lbxproxy:
+[00mAtomControl[00m
+
+./X11/proxymngr:
+[00mpmconfig[00m
+
+./X11/serverconfig:
+
+./X11/starthere:
+[00mapplications.desktop[00m  [00mpreferences.desktop[00m  [00msysconfig.desktop[00m
+
+./X11/sysconfig:
+
+./X11/twm:
+[00msystem.twmrc[00m
+
+./X11/xdm:
+[00;36mauthdir[00m  [00;32mGiveConsole[00m  [00;34mpixmaps[00m      [00mXaccess[00m     [00mXresources[00m  [00;32mXsession[00m  [00;32mXwilling[00m
+[00;32mchooser[00m  [00mkdmrc[00m        [00;32mTakeConsole[00m  [00mxdm-config[00m  [00mXservers[00m    [00;32mXsetup_0[00m
+
+./X11/xdm/pixmaps:
+[00;35mxorg-bw.xpm[00m  [00;35mxorg.xpm[00m
+
+./X11/xinit:
+[00;32mXclients[00m  [00;34mXclients.d[00m  [00;32mxinitrc[00m  [00;32mxinitrc-common[00m  [00;34mxinitrc.d[00m
+
+./X11/xinit/Xclients.d:
+
+./X11/xinit/xinitrc.d:
+[00;32mxinput.sh[00m  [00;32mxmbind.sh[00m
+
+./X11/xserver:
+[00mSecurityPolicy[00m
+
+./X11/xsm:
+[00msystem.xsm[00m
+
+./xdg:
+[00;34mmenus[00m
+
+./xdg/menus:
+[00mapplications.menu[00m        [00mkde-information.menu[00m   [00mserver-settings.menu[00m
+[00;34mapplications-merged[00m      [00mkde-screensavers.menu[00m  [00msettings.menu[00m
+[00mkde-applications.menu[00m    [00mkde-settings.menu[00m      [00mstart-here.menu[00m
+[00;36mkde-applications-merged[00m  [00mpreferences.menu[00m       [00msystem-settings.menu[00m
+
+./xdg/menus/applications-merged:
+[00mkde-essential.menu[00m  [00mkde-multimedia-music.menu[00m
+
+./xinetd.d:
+[00mcvs[00m  [00meklogin[00m  [00mgssftp[00m  [00mklogin[00m  [00mkrb5-telnet[00m  [00mkshell[00m  [00mktalk[00m  [00mrsync[00m
+
+./xml:
+[00mcatalog[00m
+
+./yum:
+[00myum-daily.yum[00m
+
+./yum.repos.d:
+[00mfedora-devel.repo[00m         [00mfedora-extras.repo[00m  [00mfedora-updates.repo[00m
+[00mfedora-extras-devel.repo[00m  [00mfedora.repo[00m         [00mfedora-updates-testing.repo[00m
+[m]0;student@localhost:/etc[student@localhost etc]$ echo \#[K whoops sorry about that
+ whoops sorry about that
+]0;student@localhost:/etc[student@localhost etc]$ ls -r[K[K[K 
+[00m[00ma2ps.cfg[00m              [00;34mhotplug[00m               [00mprelink.cache[00m
+[00ma2ps-site.cfg[00m         [00;34mhotplug.d[00m             [00mprelink.conf[00m
+[00;34macpi[00m                  [00;34mhowl[00m                  [00mprintcap[00m
+[00madjtime[00m               [00;34mhtdig[00m                 [00mprofile[00m
+[00;34malchemist[00m             [00midmapd.conf[00m           [00;34mprofile.d[00m
+[00maliases[00m               [00mim_palette.pal[00m        [00mprotocols[00m
+[00maliases.db[00m            [00mim_palette-small.pal[00m  [00mpwdb.conf[00m
+[00;34malsa[00m                  [00mim_palette-tiny.pal[00m   [00mquotagrpadmins[00m
+[00;34malternatives[00m          [00mimrc[00m                  [00mquotatab[00m
+[00manacrontab[00m            [00;36minit.d[00m                [00;34mracoon[00m
+[00mant.conf[00m              [00minitlog.conf[00m          [00;36mrc[00m
+[00;34mant.d[00m                 [00minittab[00m               [00;36mrc0.d[00m
+[00masound.conf[00m           [00minputrc[00m               [00;36mrc1.d[00m
+[00masound.state[00m          [00;34miproute2[00m              [00;36mrc2.d[00m
+[00mat.deny[00m               [00;34misdn[00m                  [00;36mrc3.d[00m
+[00mauditd.conf[00m           [00missue[00m                 [00;36mrc4.d[00m
+[00maudit.rules[00m           [00missue.net[00m             [00;36mrc5.d[00m
+[00mauto.master[00m           [00;34mjava[00m                  [00;36mrc6.d[00m
+[00mauto.misc[00m             [00mjwhois.conf[00m           [00;34mrc.d[00m
+[00;32mauto.net[00m              [00;34mkde[00m                   [00;36mrc.local[00m
+[00;32mauto.smb[00m              [00mkderc[00m                 [00;36mrc.sysinit[00m
+[00mbashrc[00m                [00;34mkermit[00m                [00;34mredhat-lsb[00m
+[00mblkid.tab[00m             [00mkrb5.conf[00m             [00;36mredhat-release[00m
+[00mblkid.tab.old[00m         [00mkrb.conf[00m              [00mresolv.conf[00m
+[00;34mbluetooth[00m             [00mkrb.realms[00m            [00mresolv.conf.predhclient[00m
+[00;34mbonobo-activation[00m     [00mksysguarddrc[00m          [00;34mrhgb[00m
+[00mcdrecord.conf[00m         [00mldap.conf[00m             [00;36mrmt[00m
+[00mcpuspeed.conf[00m         [00mld.so.cache[00m           [00mrndc.conf[00m
+[00;34mcron.d[00m                [00mld.so.conf[00m            [00mrndc.key[00m
+[00;34mcron.daily[00m            [00;34mld.so.conf.d[00m          [00mrpc[00m
+[00mcron.deny[00m             [00mlftp.conf[00m             [00;34mrpm[00m
+[00;34mcron.hourly[00m           [00mlibuser.conf[00m          [00;34msamba[00m
+[00;34mcron.monthly[00m          [00mlisarc[00m                [00;34msane.d[00m
+[00mcrontab[00m               [00mlocaltime[00m             [00mscreenrc[00m
+[00;34mcron.weekly[00m           [00mlogin.defs[00m            [00mscrollkeeper.conf[00m
+[00mcsh.cshrc[00m             [00mlogrotate.conf[00m        [00mscsi_id.config[00m
+[00mcsh.login[00m             [00;34mlogrotate.d[00m           [00msecuretty[00m
+[00;34mcups[00m                  [00;34mlogwatch[00m              [00;34msecurity[00m
+[00;34mdbus-1[00m                [00mlsb-release[00m           [00;34mselinux[00m
+[00;34mdefault[00m               [00mltrace.conf[00m           [00msensors.conf[00m
+[00;34mdev.d[00m                 [00;34mlvm[00m                   [00mservices[00m
+[00mDIR_COLORS[00m            [00;34mmail[00m                  [00msestatus.conf[00m
+[00mDIR_COLORS.xterm[00m      [00mmailcap[00m               [00;34msetuptool.d[00m
+[00mdumpdates[00m             [00mmail.rc[00m               [00;34msgml[00m
+[00menscript.cfg[00m          [00;34mmakedev.d[00m             [00mshadow[00m
+[00menvironment[00m           [00mman.config[00m            [00mshadow-[00m
+[00mesd.conf[00m              [00;34mmgetty+sendfax[00m        [00mshells[00m
+[00mexports[00m               [00mmime.types[00m            [00;34mskel[00m
+[00mfb.modes[00m              [00mminicom.users[00m         [00mslrn.rc[00m
+[00mfdprm[00m                 [00mmodprobe.conf[00m         [00;34msmrsh[00m
+[00mfedora-release[00m        [00mmodprobe.conf~[00m        [00;34msnmp[00m
+[00mfilesystems[00m           [00mmodprobe.conf.dist[00m    [00;34msound[00m
+[00;34mfonts[00m                 [00;34mmodprobe.d[00m            [00;34mssh[00m
+[00;34mfoomatic[00m              [00mmotd[00m                  [00;34mstunnel[00m
+[00mfstab[00m                 [00mmtab[00m                  [00msudoers[00m
+[00;34mgaim[00m                  [00mmtools.conf[00m           [00;34msysconfig[00m
+[00;34mgconf[00m                 [00mMuttrc[00m                [00msysctl.conf[00m
+[00;34mghostscript[00m           [00mMuttrc.local[00m          [00msyslog.conf[00m
+[00;34mgimp[00m                  [00mnamed.conf[00m            [00mtermcap[00m
+[00;34mgnome-vfs-2.0[00m         [00;34mnetplug[00m               [00;34mudev[00m
+[00mgnome-vfs-mime-magic[00m  [00;34mnetplug.d[00m             [00mupdatedb.conf[00m
+[00;34mgnopernicus-1.0[00m       [00mnscd.conf[00m             [00mvimrc[00m
+[00mgpm-root.conf[00m         [00mnsswitch.conf[00m         [00mvimrc.rpmnew[00m
+[00;34mgre.d[00m                 [00;34mntp[00m                   [00mwarnquota.conf[00m
+[00mgroup[00m                 [00mntp.conf[00m              [00mwgetrc[00m
+[00mgroup-[00m                [00;34mopenldap[00m              [00mwvdial.conf[00m
+[00mgroup.lock[00m            [00;34mopt[00m                   [00;34mX11[00m
+[00;36mgrub.conf[00m             [00;34mpam.d[00m                 [00;34mxdg[00m
+[00mgshadow[00m               [00mpam_smb.conf[00m          [00;34mxinetd.d[00m
+[00mgshadow-[00m              [00;34mpango[00m                 [00;34mxml[00m
+[00mgshadow.lock[00m          [00mpasswd[00m                [00myp.conf[00m
+[00mgssapi_mech.conf[00m      [00mpasswd-[00m               [00;34myum[00m
+[00;34mgtk[00m                   [00mpasswd.OLD[00m            [00myum.conf[00m
+[00;34mgtk-2.0[00m               [00mpbm2ppa.conf[00m          [00;34myum.repos.d[00m
+[00;34mhal[00m                   [00;34mpcmcia[00m                [00mzlogin[00m
+[00mhost.conf[00m             [00mpinforc[00m               [00mzlogout[00m
+[00mhosts[00m                 [00;34mpki[00m                   [00mzprofile[00m
+[00mhosts.allow[00m           [00mpnm2ppa.conf[00m          [00mzshenv[00m
+[00mhosts.deny[00m            [00;34mppp[00m                   [00mzshrc[00m
+[m]0;student@localhost:/etc[student@localhost etc]$ 10[K[Kecho \#10 I canno f[K[Kt fine[Kd the file loug[K[Kgout[K[K[K[K[K[Kbash.[K_lou[Kgout
+#10 I cannot find the file bash_logout
+]0;student@localhost:/etc[student@localhost etc]$ exit
+
+Script done on Tue 25 Apr 2006 08:53:11 AM EDT

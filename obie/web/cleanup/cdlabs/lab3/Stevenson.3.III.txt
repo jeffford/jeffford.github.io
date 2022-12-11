@@ -1,0 +1,113 @@
+Script started on Mon 24 Apr 2006 05:14:29 PM EDT
+]0;student@localhost:~[student@localhost ~]$ mdk[K[Kkdir[K[K[KDir[K\[K[K[Kdir backups\[K
+]0;student@localhost:~[student@localhost ~]$ find assignments/UNIX/hw4
+assignments/UNIX/hw4
+]0;student@localhost:~[student@localhost ~]$ find assignments/UNIX/hw4*
+assignments/UNIX/hw4
+assignments/UNIX/hw4.bk
+assignments/UNIX/hw4HL
+assignments/UNIX/hw4SL
+]0;student@localhost:~[student@localhost ~]$ cp assignments/UNIX/hw4* backups
+]0;student@localhost:~[student@localhost ~]$ ls backups
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00mhw4SL[00m
+[m]0;student@localhost:~[student@localhost ~]$ ls -i backups
+[00m388996 [00mhw4[00m  389475 [00mhw4.bk[00m  389476 [00mhw4HL[00m  389477 [00mhw4SL[00m
+[m]0;student@localhost:~[student@localhost ~]$ /[Krm ad[Kssin[Kgn,[Kments/UNIX/hw4
+]0;student@localhost:~[student@localhost ~]$ l[Kls hw*
+[00mls: hw*: No such file or directory
+[m]0;student@localhost:~[student@localhost ~]$ ls assignments/UNIX/hw4*
+[00m[00massignments/UNIX/hw4.bk[00m  [00massignments/UNIX/hw4HL[00m  [01;05;37;41massignments/UNIX/hw4SL[00m
+[m]0;student@localhost:~[student@localhost ~]$ ls a[Kbackups/UNIX[K[K[K[Khw*
+[00m[00mbackups/hw4[00m  [00mbackups/hw4.bk[00m  [00mbackups/hw4HL[00m  [00mbackups/hw4SL[00m
+[m]0;student@localhost:~[student@localhost ~]$ more backups/hw4HL
+I enjoy relaxing, playing computer games, and throwing for track & Field.  I 
+also enjoy debating on MySpace forums, and find the views of others to be som
+etimes enlightening.
+]0;student@localhost:~[student@localhost ~]$ more backups/hw4SL
+I enjoy relaxing, playing computer games, and throwing for track & Field.  I 
+also enjoy debating on MySpace forums, and find the views of others to be som
+etimes enlightening.
+]0;student@localhost:~[student@localhost ~]$ h[Kmore backo[Kups/hw4
+I enjoy relaxing, playing computer games, and throwing for track & Field.  I 
+also enjoy debating on MySpace forums, and find the views of others to be som
+etimes enlightening.
+]0;student@localhost:~[student@localhost ~]$ h[Kmore backups/hw4l.[K[K.bk
+I enjoy relaxing, playing computer games, and throwing for track & Field.  I 
+also enjoy debating on MySpace forums, and find the views of others to be som
+etimes enlightening.
+]0;student@localhost:~[student@localhost ~]$ more assignments/UNIX/hw4
+assignments/UNIX/hw4: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ /[Kmore assignments/UNIX/hw4SL
+assignments/UNIX/hw4SL: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ more assignments/UNIX/hw4HL
+I enjoy relaxing, playing computer games, and throwing for track & Field.  I 
+also enjoy debating on MySpace forums, and find the views of others to be som
+etimes enlightening.
+]0;student@localhost:~[student@localhost ~]$ more assignments/UNIXS[K/hw4.bk
+I enjoy relaxing, playing computer games, and throwing for track & Field.  I 
+also enjoy debating on MySpace forums, and find the views of others to be som
+etimes enlightening.
+]0;student@localhost:~[student@localhost ~]$ cp assignments/UNIX/hwr[K4.bk assignments/UNIX/hw4
+]0;student@localhost:~[student@localhost ~]$ ls [K[K[Kmore assignments/UNIX/hw4SL
+I enjoy relaxing, playing computer games, and throwing for track & Field.  I 
+also enjoy debating on MySpace forums, and find the views of others to be som
+etimes enlightening.
+]0;student@localhost:~[student@localhost ~]$ rm assigmen[Ken[K[Knts/UNIX/hw4SL
+rm: cannot remove `assigments/UNIX/hw4SL': No such file or directory
+]0;student@localhost:~[student@localhost ~]$ ls assignments/UNIX/hw4[K[K[K
+[00m[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00;36mhw4SL[00m  [00;34mHWs[00m  [00;34mProjects[00m
+[m]0;student@localhost:~[student@localhost ~]$ ls [K[K[Kls -Rp backup[K[K[K[K[K[K[K
+[00m.:
+[00;34massignments[00m/     [00;34mletters[00m/                [00mstevenson.3.I.txt[00m
+[00;34mbackups[00m/         [00;34mreports[00m/                [00mStevenson.gtysburgII.txt[00m
+[00;34mDesktop[00m/         [00mstevenson.2.II.txt[00m      [00mStevenson.gtysburg.txt[00m
+[00mgtysburgII.txt~[00m  [00mstevenson.2.I.txt[00m       [00mStevenson.L1.txt[00m
+[00mHW 3-1.doc[00m       [00mStevenson.3.III.txt[00m     [00mStevenson.L1.txt~[00m
+[00mLab 2[00m            [00mStevenson.3.IIRest.txt[00m
+[00mLab 2~[00m           [00mstevenson.3.II.txt[00m
+
+./assignments:
+[00;34mUNIX[00m/
+
+./assignments/UNIX:
+[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00;36mhw4SL[00m@  [00;34mHWs[00m/  [00;34mProjects[00m/
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+[00mhw4[00m  [00mhw4.bk[00m  [00mhw4HL[00m  [00mhw4SL[00m
+
+./Desktop:
+
+./letters:
+[00;34mformal[00m/  [00;34mfriendly[00m/
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34mbusiness[00m/  [00;34mpersonal[00m/  [00;34mschool[00m/
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;student@localhost:~[student@localhost ~]$ ls [K[K[Kmore backups/hw4SL
+I enjoy relaxing, playing computer games, and throwing for track & Field.  I 
+also enjoy debating on MySpace forums, and find the views of others to be som
+etimes enlightening.
+]0;student@localhost:~[student@localhost ~]$ rm backups/hw4
+]0;student@localhost:~[student@localhost ~]$ rm ba[K[Ks[Kassignments/UNIX/hw4
+]0;student@localhost:~[student@localhost ~]$ ls [K[K[Kcp a[Kbackups [K/hw4.bk backups/hw4
+]0;student@localhost:~[student@localhost ~]$ cp assignmne[K[Kents/UNIX/hw4.bk assignments/UNIX/hw4
+]0;student@localhost:~[student@localhost ~]$ ls backups/hw4*
+[00m[00mbackups/hw4[00m  [00mbackups/hw4.bk[00m  [00mbackups/hw4HL[00m  [00mbackups/hw4SL[00m
+[m]0;student@localhost:~[student@localhost ~]$ ls assignmn[Kents/UNIX/hw4*
+[00m[00massignments/UNIX/hw4[00m     [00massignments/UNIX/hw4HL[00m
+[00massignments/UNIX/hw4.bk[00m  [00;36massignments/UNIX/hw4SL[00m
+[m]0;student@localhost:~[student@localhost ~]$ more [K[K[K[K[K
+Script done on Mon 24 Apr 2006 05:31:23 PM EDT

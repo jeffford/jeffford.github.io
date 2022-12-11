@@ -1,0 +1,68 @@
+  
+BODY {
+        font-family:"Arial Black", sans-serif; font-size: 14pt;
+        background-color:#afeeee;
+        color:#000000;
+
+}
+
+#content {
+        margin-left:0px;
+        margin-right:0px;
+}
+
+#cb_title {
+        font-family:"Arial Rounded MT Bold", sans-serif; font-size: 14pt;
+        text-align:center;
+        color:#000000
+}
+
+#cb_title2 {
+        font-family:"Arial Black", sans-serif; font-size: 12pt;
+        text-align:center;
+        color:#000000
+}
+
+#cb_caption {
+        font-family:"Arial Black", sans-serif; font-size: 14pt;
+        text-align:center;
+        color:#000000
+}
+
+
+#cb_link {
+        font-family:"Arial Black", sans-serif; font-size: 14pt;
+        text-align:center;
+        color:#ff0000
+}
+
+#cb_thumb {
+        border:0px solid #ffffff;
+}
+
+#cb_frame {
+        border:0px solid #ffffff;
+}
+
+
+A:link {
+        font-family:"Arial Black", sans-serif; font-size: 14pt;
+        color:#ff0000
+}
+
+A:visited {
+        font-family:"Arial Black", sans-serif; font-size: 12pt;
+        color:#0000ff
+}
+
+A:active, A:hover {
+        font-family:"Arial Black", sans-serif; font-size: 12pt;
+        color:#0000ff
+}
+
+IMG.banner {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+

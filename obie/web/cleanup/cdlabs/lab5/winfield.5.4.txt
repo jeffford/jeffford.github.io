@@ -1,0 +1,209 @@
+Script started on Tue 25 Apr 2006 08:41:05 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ echo i love cows > file1
+]0;Student@localhost:~[Student@localhost ~]$ more file2[K1
+i love cows
+]0;Student@localhost:~[Student@localhost ~]$ echo "tyoe then hit enter
+>type some more"
+tyoe then hit enter
+type some more
+]0;Student@localhost:~[Student@localhost ~]$ echo "type then hit 
+enter"[K [K
+>then tyop[K[Kpe more" > file2
+]0;Student@localhost:~[Student@localhost ~]$ more file2
+type then hit enter
+then type more
+]0;Student@localhost:~[Student@localhost ~]$ facts="U[KUNIX vs. Others"
+]0;Student@localhost:~[Student@localhost ~]$ echo "this is a fact 
+&[K$facts in our 
+llife[K[K[K[Kife"[1P[4hT[4l
+[Student@localhost 
+~]$ echo "Th
+[Student@localhost ~]$ echo "Thi
+[Student@localhost ~]$ echo 
+"This
+[Student@localhost ~]$ echo "This 
+[Student@localhost ~]$ echo "This 
+i
+[Student@localhost ~]$ echo "This is
+[Student@localhost ~]$ echo "This is 
+
+[Student@localhost ~]$ echo "This is a
+[Student@localhost ~]$ echo "This is 
+a 
+[Student@localhost ~]$ echo "This is a f
+[Student@localhost ~]$ echo 
+"This is a fa
+[Student@localhost ~]$ echo "This is a fac
+[Student@localhost 
+~]$ echo "This is a fact
+[Student@localhost ~]$ echo "This is a fact 
+
+[Student@localhost ~]$ echo "This is a fact $
+[Student@localhost ~]$ echo 
+"This is a fact $f
+[Student@localhost ~]$ echo "This is a fact 
+$fa
+[Student@localhost ~]$ echo "This is a fact $fac
+[Student@localhost ~]$ 
+echo "This is a fact $fact
+[Student@localhost ~]$ echo "This is a fact 
+$facts
+[Student@localhost ~]$ echo "This is a fact $facts 
+
+[Student@localhost ~]$ echo "This is a fact $facts i
+[Student@localhost ~]$ 
+echo "This is a fact $facts in
+[Student@localhost ~]$ echo "This is a fact 
+$facts in 
+[Student@localhost ~]$ echo "This is a fact $facts in 
+o
+[Student@localhost ~]$ echo "This is a fact $facts in 
+ou
+[Student@localhost ~]$ echo "This is a fact $facts in 
+our
+[Student@localhost ~]$ echo "This is a fact $facts in our 
+
+[Student@localhost ~]$ echo "This is a fact $facts in our 
+l
+[Student@localhost ~]$ echo "This is a fact $facts in our 
+li
+[Student@localhost ~]$ echo "This is a fact $facts in our 
+lif
+[Student@localhost ~]$ echo "This is a fact $facts in our 
+life
+[Student@localhost ~]$ echo "This is a fact $facts in our life"
+This is a fact UNIX vs. Others in our life
+]0;Student@localhost:~[Student@localhost ~]$ echo UNIX vs. others 
+[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kthe output 
+is because it appen[K[K[K[K[Kinserts the veriable you pl 
+ace 
+there
+the output is because it inserts the veriable you place there
+]0;Student@localhost:~[Student@localhost ~]$ echo "THis 
+[K[K[K[Khis is  [Ka fact '$facts' in our life"
+This is a fact 'UNIX vs. Others' in our life
+]0;Student@localhost:~[Student@localhost ~]$ the '' are there because the 
+[Ky are in the 
+""s[4hs[4l[4he[4l[4hc[4l[4hh[4l[4ho[4l[4h 
+[4l
+[Student@localhost ~]$ echo t
+[Student@localhost ~]$ echo 
+th
+[Student@localhost ~]$ echo the
+[Student@localhost ~]$ echo the 
+
+[Student@localhost ~]$ echo the '
+[Student@localhost ~]$ echo the 
+''
+[Student@localhost ~]$ echo the ''s
+[Student@localhost ~]$ echo the ''s 
+
+[Student@localhost ~]$ echo the ''s a
+[Student@localhost ~]$ echo the ''s 
+ar
+[Student@localhost ~]$ echo the ''s are
+[Student@localhost ~]$ echo the 
+''s are 
+[Student@localhost ~]$ echo the ''s are t
+[Student@localhost ~]$ 
+echo the ''s are th
+[Student@localhost ~]$ echo the ''s are 
+the
+[Student@localhost ~]$ echo the ''s are ther
+[Student@localhost ~]$ echo 
+the ''s are there
+[Student@localhost ~]$ echo the ''s are there 
+
+[Student@localhost ~]$ echo the ''s are there b
+[Student@localhost ~]$ echo 
+the ''s are there be
+[Student@localhost ~]$ echo the ''s are there 
+bec
+[Student@localhost ~]$ echo the ''s are there beca
+[Student@localhost 
+~]$ echo the ''s are there becau
+[Student@localhost ~]$ echo the ''s are 
+there becaus
+[Student@localhost ~]$ echo the ''s are there 
+because
+[Student@localhost ~]$ echo the ''s are there because 
+
+[Student@localhost ~]$ echo the ''s are there because t
+[Student@localhost 
+~]$ echo the ''s are there because th
+[Student@localhost ~]$ echo the ''s 
+are there because the
+[Student@localhost ~]$ echo the ''s are there because 
+they
+[Student@localhost ~]$ echo the ''s are there because they 
+
+[Student@localhost ~]$ echo the ''s are there because they 
+a
+[Student@localhost ~]$ echo the ''s are there because they 
+ar
+[Student@localhost ~]$ echo the ''s are there because they 
+are
+[Student@localhost ~]$ echo the ''s are there because they are 
+
+[Student@localhost ~]$ echo the ''s are there because they are 
+i
+[Student@localhost ~]$ echo the ''s are there because they are 
+in
+[Student@localhost ~]$ echo the ''s are there because they are in 
+
+[Student@localhost ~]$ echo the ''s are there because they are in 
+t
+[Student@localhost ~]$ echo the ''s are there because they are in 
+th
+[Student@localhost ~]$ echo the ''s are there because they are in 
+the
+[Student@localhost ~]$ echo the ''s are there because they are in the 
+
+[Student@localhost ~]$ echo the ''s are there because they are in the 
+"
+[Student@localhost ~]$ echo the ''s are there because they are in the 
+""
+[Student@localhost ~]$ echo the ''s are there because they are in the 
+""s
+the s are there because they are in the s
+]0;Student@localhost:~[Student@localhost ~]$ echo the single qu[Kotes 
+are there because the [Ky are in the d 
+oube [K 
+[K[K[K[K
+[K[A
+[Student@localhost ~]$ echo the single qotes are 
+there because they are in the [K
+
+[K[A
+[Student@localhost ~]$ echo the single qotes are there because they 
+are in the d 
+ouo[Kble quotes
+the single qotes are there because they are in the double quotes
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact \$facts 
+in our life."
+This is a fact $facts in our life.
+]0;Student@localhost:~[Student@localhost ~]$ it is printed beacues 
+[K[K[K[K[K[Kcause of [K[Kof [K[K[Kf the slash
+bash: it: command not found
+]0;Student@localhost:~[Student@localhost ~]$ echo it is printed because of 
+the slash
+it is printed because of the slash
+]0;Student@localhost:~[Student@localhost ~]$ echo ""This is a fact 
+"$facts" in our life"
+>"
+This is a fact UNIX vs. Others in our life
+
+]0;Student@localhost:~[Student@localhost ~]$ echo thi[K[K[K"This is 
+a fact """[K[K[K[K """""%[K$facts"""""in our life"
+This is a fact UNIX vs. Othersin our life
+]0;Student@localhost:~[Student@localhost ~]$ echo "THis is a fact 
+''[K[K[K [K[K[K[K[K[K[K[K[K[K[K[K[K[Khis 
+is a fact \" $facts \" in our life" 
+"\"
+[Student@localhost ~]$ echo 
+[4h\[4l
+[Student@localhost ~]$ echo \"[4h [4l
+" This is a fact " UNIX vs. Others " in our life "
+]0;Student@localhost:~[Student@localhost ~]$
+Script done on Tue 25 Apr 2006 08:50:22 AM EDT
+

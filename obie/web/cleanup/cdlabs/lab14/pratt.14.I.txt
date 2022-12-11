@@ -1,0 +1,77 @@
+Script started on Mon 08 May 2006 08:24:22 PM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ PATH=$PATH:.
+]0;prattjk@cs:~[prattjk@cs prattjk]$ echo $PATH
+/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/usr/X11R6/bin:/home/prattjk/bin:.
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat bkfile
+Ch11S1F1
+Ch11S1F1.new
+Ch11S6.sed
+pratt.11.IV.txt
+jan1.sav
+]0;prattjk@cs:~[prattjk@cs prattjk]$ jpbackup
+Requires two arguments: file name with list of files to back up
+and directory name where file resides
+]0;prattjk@cs:~[prattjk@cs prattjk]$ jpbackup bkfile
+Requires two arguments: file name with list of files to back up
+and directory name where file resides
+]0;prattjk@cs:~[prattjk@cs prattjk]$ jpbackup bkfile bj[KkupDir har
+Requires two arguments: file name with list of files to back up
+and directory name where file resides
+]0;prattjk@cs:~[prattjk@cs prattjk]$ jpba[Kackup har bkupDir
+har file does not exist or is empty
+]0;prattjk@cs:~[prattjk@cs prattjk]$ jpbackup bkfile Ch22S12F1[K[K[K[K[K[K[K11S1F1
+Ch11S1F1 directory does not exist
+]0;prattjk@cs:~[prattjk@cs prattjk]$ jpbackup bkfile C[KbkupDir
+Ch11S1F1 is backed up in bkupDir
+Ch11S1F1.new is backed up in bkupDir
+Ch11S6.sed is backed up in bkupDir
+pratt.11.IV.txt is backed up in bkupDir
+jan1.sav is backed up in bkupDir
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat [K[K[K[Kcd bkupDir
+]0;prattjk@cs:~/bkupDir[prattjk@cs bkupDir]$ ls
+[00m[00mCh11S1F1.bak[00m      [00mCh11S6.sed.bak[00m  [00mpratt.11.IV.txt.bak[00m
+[00mCh11S1F1.new.bak[00m  [00mjan1.sav.bak[00m
+[m]0;prattjk@cs:~/bkupDir[prattjk@cs bkupDir]$ cd ..
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat bkfile
+Ch11S1F1
+Ch11S1F1.new
+Ch11S6.sed
+pratt.11.IV.txt
+jan1.sav
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat jpbackup
+#! /bin/bash
+# Script: jpbackup
+# Written by: prattjk
+# Date: 05/08/06
+#Purpose: Check for errors before running script, then
+# copy the files listed in the input file to ./bkupDir
+dir=bkupDir                  #subdirectory will be bkupDir
+if [[ $# != 2 ]]
+then
+	echo "Requires two arguments: file name with list of files to back up"
+	echo "and directory name where file resides"
+	exit 1
+fi
+if [[ ! -s $1 ]]
+then
+	echo "$1 file does not exist or is empty"
+	exit 2
+fi
+if [[ ! -d "$2" ]]
+then
+	echo "$2 directory does not exist" 
+	exit 3
+fi
+#End of error checking
+#copy the files listed in $line to the backup directory
+cat $1 | while read line
+  do
+    if [[ -f $line ]]    #only work with files
+    then
+        cp $line $dir/$line.bak    #copy and add .bak to name
+        echo "$line is backed up in $dir"       #print a msg about what happened
+    fi
+  done
+]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+
+Script done on Mon 08 May 2006 08:29:06 PM EDT

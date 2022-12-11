@@ -1,0 +1,126 @@
+Script started on Wed 03 May 2006 05:20:51 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch10S5F1
+* The is a line with onle   y one asterik xk  sk.
+* the     The is a line tha tSt   starte s with an asterksit    isk, **^[[D     but* has more.*
+This is         *** The is is a line with three at sterisks in a row.
+this line has no asterick.
+* This is another line with only one asterisk.
+This line has two asterisks * separated by other charaters. *
+*** Thi   The start and end have three asterisks. ***
+This line has two astersi  iks  sks with *a* charat cter betwwen   een them.
+*** The start has three, but the end has four astericks. ****
+* the     The start and end have one asterisk. *
+]0;Student@localhost:~[Student@localhost ~]$ grep '' Ch10S5F1[Student@localhost ~]$ grep '[4h^[4l[4h[[4l[4h][4l[4h\[4l[4h*[4l[4h [4l[Student@localhost ~]$ grep '^[\* ][4h?[4l
+]0;Student@localhost:~[Student@localhost ~]$ grep '^[\* ]?' Ch10S5F1[1P
+]0;Student@localhost:~[Student@localhost ~]$ grep '^[\*]?' Ch10S5F1[Student@localhost ~]$ grep '^[\*]?[1P
+* The is a line with only one asterisk.
+* The is a line tha starts with an asterisk, *but* has more.*
+*** This is a line with three asterisks in a row.
+* This is another line with only one asterisk.
+*** The start and end have three asterisks. ***
+*** The start has three, but the end has four astericks. ****
+* The start and end have one asterisk. *
+]0;Student@localhost:~[Student@localhost ~]$ grep '^[\*]' Ch10S5F1[4h[[4l[4h][4l[4h^[4l[4h\[4l[4h*[4l[Student@localhost ~]$ grep '^[\*][^\*]
+* The is a line with only one asterisk.
+* The is a line tha starts with an asterisk, *but* has more.*
+* This is another line with only one asterisk.
+* The start and end have one asterisk. *
+]0;Student@localhost:~[Student@localhost ~]$ grep '^[\*][^\*]' Ch10S5F1[Student@localhost ~]$ grep '^[\*[4h.[4l[Student@localhost ~]$ grep '^[\*.][Student@localhost ~]$ grep '^[\*.][[Student@localhost ~]$ grep '^[\*.][^[Student@localhost ~]$ grep '^[\*.][^\[Student@localhost ~]$ grep '^[\*.][^\*[Student@localhost ~]$ grep '^[\*.][^\*][Student@localhost ~]$ grep '^[\*.][^\*]'[1P[1P[1P[1P[1P[1P[1P[4h][4l[Student@localhost ~]$ grep '^[\*][Student@localhost ~]$ grep '^[\*][Student@localhost ~]$ grep '^[\*]' Ch10S5F1[4h?[4l[Student@localhost ~]$ grep '^[\*]?' Ch10S5F1[1P[Student@localhost ~]$ grep '^[\*]' Ch10S5F1[Kgrep '^[\*]' Ch10S5F1[Student@localhost ~]$ grep '^[\*[Student@localhost ~]$ grep '^[\*][4h[[4l[4h][4l[4h^[4l[4h\[4l[4h*[4l[Student@localhost ~]$ grep '^[\*][^\*][4h[[4l[4h][4l[4h\[4l[4h*[4l
+]0;Student@localhost:~[Student@localhost ~]$ grep '^[\*][^\*][\*]' Ch10S5F1[Student@localhost ~]$ grep '[Student@localhost ~]$ grep '^[1P
+This line has two asterisks with *a* character between them.
+]0;Student@localhost:~[Student@localhost ~]$ grep '[\*][^\*][\*]' Ch10S5F1[1P[1P[1P[1P[1P[1P[1P[1P[1P[4h[[4l[4h][4l[Student@localhost ~]$ grep '[\*][][1P[1P[4h\[4l[4h[[4l[4h][4l[1P[1P[4h{[4l[4h}[4l[4h\[4l[4h,[4l[4h [4l[1P[1P[1P[4h,[4l[4h [4l[4h6[4l[4h\[4l
+grep: Invalid content of \{\}
+]0;Student@localhost:~[Student@localhost ~]$ grep '[\*]\{, 6\}' Ch10S5F1[1P[1P[1P[1P[1P[1P[1P[Student@localhost ~]$ grep [Student@localhost ~]$ gre[Student@localhost ~]$ grep[Student@localhost ~]$ grep [Student@localhost ~]$ grep '[Student@localhost ~]$ grep '[[Student@localhost ~]$ grep '[\[Student@localhost ~]$ grep '[\*[Student@localhost ~]$ grep '[\*][1P[1P[1P[1P[4h-[4l[Student@localhost ~]$ grep -'[1P[Student@localhost ~]$ grep '[Student@localhost ~]$ grep '[4h-[4l[4hv[4l[4h [4l[Student@localhost ~]$ grep -v '[4h[[4l[4h][4l[4h\[4l[4h*[4l[Student@localhost ~]$ grep -v '[\*][4h&[4l[1P[4h$[4l[Student@localhost ~]$ grep -v '[\*]$[Student@localhost ~]$ grep -v '[\*]$'[Student@localhost ~]$ grep -v '[\*]$' [Student@localhost ~]$ grep -v '[\*]$' C[Student@localhost ~]$ grep -v '[\*]$' Ch
+* The is a line with only one asterisk.
+*** This is a line with three asterisks in a row.
+this line has no asterick.
+* This is another line with only one asterisk.
+This line has two asterisks with *a* character between them.
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '[\*]$' Ch10S5F1[4h7[4l
+* The is a line with only one asterisk.
+*** This is a line with three asterisks in a row.
+this line has no asterick.
+* This is another line with only one asterisk.
+This line has two asterisks with *a* character between them.
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '[7\*]$' Ch10S5F1[Student@localhost ~]$ grep -v[Student@localhost ~]$ grep -v [1P[1P[1P[Student@localhost ~]$ grep '[Student@localhost ~]$ grep '[[Student@localhost ~]$ grep '[7[Student@localhost ~]$ grep '[7\[Student@localhost ~]$ grep '[7\*[Student@localhost ~]$ grep '[7\*][Student@localhost ~]$ grep '[7\*]$[1P[1P[4h6[4l
+* The is a line with only one asterisk.
+* The is a line tha starts with an asterisk, *but* has more.*
+*** This is a line with three asterisks in a row.
+* This is another line with only one asterisk.
+This line has two asterisks * separated by other charaters. *
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+*** The start has three, but the end has four astericks. ****
+* The start and end have one asterisk. *
+]0;Student@localhost:~[Student@localhost ~]$ grep '[6\*]' Ch10S5F1[4h-v '[4l[7\*]$[Student@localhost ~]$ grep -v '[7\*]$' Ch10S5F1
+* The is a line with only one asterisk.
+*** This is a line with three asterisks in a row.
+this line has no asterick.
+* This is another line with only one asterisk.
+This line has two asterisks with *a* character between them.
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '[7\*]$' Ch10S5F1[4h^[4l
+* The is a line with only one asterisk.
+* The is a line tha starts with an asterisk, *but* has more.*
+*** This is a line with three asterisks in a row.
+this line has no asterick.
+* This is another line with only one asterisk.
+This line has two asterisks * separated by other charaters. *
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+*** The start has three, but the end has four astericks. ****
+* The start and end have one asterisk. *
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '^[7\*]$' Ch10S5F1[1P[1P
+this line has no asterick.
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '[7\*]' Ch10S5F1[4h$[4l
+* The is a line with only one asterisk.
+*** This is a line with three asterisks in a row.
+this line has no asterick.
+* This is another line with only one asterisk.
+This line has two asterisks with *a* character between them.
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '[7\*]$' Ch10S5F1[1P[Student@localhost ~]$ grep -v '[7\*]' Ch10S5F1[Student@localhost ~]$ grep -v '[7\*]' Ch[Student@localhost ~]$ grep -v '[7\*]' Ch1[Student@localhost ~]$ grep -v '[7\*]' Ch10[Student@localhost ~]$ grep -v '[7\*]' Ch10S[Student@localhost ~]$ grep -v '[7\*]' Ch10S5[Student@localhost ~]$ grep -v '[7\*]' Ch10S5F[Student@localhost ~]$ grep -v '[7\*]' Ch10S5F1[4h$[4l[Student@localhost ~]$ grep -v '[7\*]$' Ch10S5F1[Student@localhost ~]$ [Kgrep -v '[7\*]$' Ch10S5F1[Student@localhost ~]$ grep -v '[7\*]$[1P
+this line has no asterick.
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '[7\*]' Ch10S5F1[1P[Student@localhost ~]$ grep -v '[\[Student@localhost ~]$ grep -v '[\*[Student@localhost ~]$ grep -v '[\*][4h*[4l[4h*[4l[4h*[4l[Student@localhost ~]$ grep -v '[\****][4h$[4l
+* The is a line with only one asterisk.
+*** This is a line with three asterisks in a row.
+this line has no asterick.
+* This is another line with only one asterisk.
+This line has two asterisks with *a* character between them.
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '[\****]$' Ch10S5F1[1P[4h\[4l
+this line has no asterick.
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '[\****\]' Ch10S5F1
+this line has no asterick.
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '[\****\]' Ch10S5F1[1P
+this line has no asterick.
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '[\****]' Ch10S5F1[1P[1P[1P[1P[1P[1P[1P[4h[[4l[4h][4l[4h\[4l[4h8[4l[1P[4h*[4l[Student@localhost ~]$ grep -v '[\*[Student@localhost ~]$ grep -v '[\*][4h[[4l[4h][4l[4h|[4l[1P[4h\[4l[4h*[4l[Student@localhost ~]$ grep -v '[\*][\*][4h[[4l[4h][4l[4h|[4l[1P[4h\[4l[4h*[4l[Student@localhost ~]$ grep -v '[\*][\*][\*][4h[[4l[4h][4l[4h|[4l[1P[4h\[4l[4h*[4l[Student@localhost ~]$ grep -v '[\*][\*][\*][\*][4h$[4l
+* The is a line with only one asterisk.
+* The is a line tha starts with an asterisk, *but* has more.*
+*** This is a line with three asterisks in a row.
+this line has no asterick.
+* This is another line with only one asterisk.
+This line has two asterisks * separated by other charaters. *
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+* The start and end have one asterisk. *
+]0;Student@localhost:~[Student@localhost ~]$ grep -v '[\*][\*][\*][\*]$' Ch10S5F1[Student@localhost ~]$ grep -v[Student@localhost ~]$ grep -v [1P[1P[1P[Student@localhost ~]$ grep '[Student@localhost ~]$ grep '[[Student@localhost ~]$ grep '[\[Student@localhost ~]$ grep '[\*[Student@localhost ~]$ grep '[\*][Student@localhost ~]$ grep '[\*][[Student@localhost ~]$ grep '[\*][\[Student@localhost ~]$ grep '[\*][\*[Student@localhost ~]$ grep '[\*][\*][Student@localhost ~]$ grep '[\*][\*][[Student@localhost ~]$ grep '[\*][\*][\[Student@localhost ~]$ grep '[\*][\*][\*[Student@localhost ~]$ grep '[\*][\*][\*][Student@localhost ~]$ grep '[\*][\*][\*][[Student@localhost ~]$ grep '[\*][\*][\*][\[Student@localhost ~]$ grep '[\*][\*][\*][\*[Student@localhost ~]$ grep '[\*][\*][\*][\*][Student@localhost ~]$ grep '[\*][\*][\*][\*]$[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[4h[[4l[4h][4l[4h\[4l[4h*[4l[Student@localhost ~]$ grep '[\*][4h[[4l[4h][4l[4h\[4l[4h*[4l[Student@localhost ~]$ grep '[\*][\*][4h[[4l[4h][4l[4h\[4l[4h*[4l[Student@localhost ~]$ grep '[\*][\*][\*][4h^[4l[Student@localhost ~]$ grep '^[[Student@localhost ~]$ grep '^[\[Student@localhost ~]$ grep '^[\*[Student@localhost ~]$ grep '^[\*][Student@localhost ~]$ grep '^[\*][[Student@localhost ~]$ grep '^[\*][\[Student@localhost ~]$ grep '^[\*][\*[Student@localhost ~]$ grep '^[\*][\*][Student@localhost ~]$ grep '^[\*][\*][[Student@localhost ~]$ grep '^[\*][\*][\[Student@localhost ~]$ grep '^[\*][\*][\*[Student@localhost ~]$ grep '^[\*][\*][\*][Student@localhost ~]$ grep '^[\*][\*][\*]'[Student@localhost ~]$ grep '^[\*][\*][\*]' [Student@localhost ~]$ grep '^[\*][\*][\*]' C[4h8[4l[1P[4h*[4l[4h[[4l[4h][4l[4h[[4l[4h][4l[4h[[4l[4h][4l[4h\[4l[Student@localhost ~]$ grep '^[\*][\*][\*]*[\][Student@localhost ~]$ grep '^[\*][\*][\*]*[\][[4h\[4l[Student@localhost ~]$ grep '^[\*][\*][\*]*[\][\][Student@localhost ~]$ grep '^[\*][\*][\*]*[\][\][[4h\[4l[4h8[4l[Student@localhost ~]$ grep '^[\*][\*][\*]*[\8][Student@localhost ~]$ grep '^[\*][\*][\*]*[\8][[Student@localhost ~]$ grep '^[\*][\*][\*]*[\8][\[1P[1P[1P[1P[4h*[4l[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][\[4h*[4l[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][\[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][\[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][\*[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][\*][4h[[4l[4h][4l[4h\[4l[4h8[4l[1P[4h*[4l[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][\*][\*][4h$[4l[4h|[4l[4h^[4l[4h[[4l[4h][4l[4h8[4l[4h[[4l[4h][4l[1P[1P[1P[4h*[4l[4h[[4l[4h][4l[4h$[4l[4h\[4l[4h*[4l[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][\*][\*]$|^[\*][Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][\*][\*]$|^[\*]*[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][\*][\*]$|^[\*]*[[4h/[4l[4h*[4l[1P[1P[1P[4h[[4l[4h\[4l[4h$[4l
+]0;Student@localhost:~[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][\*][\*]$|^[\*]*[\$]$' Ch10S5F1[4h.[4l[Student@localhost ~]$ grep '^[\*][\*][\*].*[Student@localhost ~]$ grep '^[\*][\*][\*].*[[Student@localhost ~]$ grep '^[\*][\*][\*].*[\[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*][Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[\[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*].*[\$]$' Ch10S5F1 [A[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*].
+
+]0;Student@localhost:~[Student@localhost ~]$ 
+]0;Student@localhost:~[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*].*[\$]$' Ch10S5F1 [K[A[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*].*[\$]$' Ch10S5F1[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*].*[\$[1P[4h\[4l[1P[4h*[4l
+]0;Student@localhost:~[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*].*[\*]$' Ch10S5F1[4hE[4l[1P[4he[4l
+* The is a line tha starts with an asterisk, *but* has more.*
+*** The start and end have three asterisks. ***
+*** The start has three, but the end has four astericks. ****
+* The start and end have one asterisk. *
+]0;Student@localhost:~[Student@localhost ~]$ egrep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*].*[\*]$' Ch10S5F1[Student@localhost ~]$ egrep '^[\*][\*][\*].*[[4h[[4l[4h][4l[4h6[4l[1P[4h^[4l[4h\[4l[4h*[4l
+* The is a line tha starts with an asterisk, *but* has more.*
+*** The start and end have three asterisks. ***
+*** The start has three, but the end has four astericks. ****
+* The start and end have one asterisk. *
+]0;Student@localhost:~[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].*[\*]$' Ch10S5F1[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*][Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*][Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].*[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].*[[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].*[\[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].*[\*[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].*[\*][Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].*[[4h[[4l[4h][4l[4h^[4l[4h\[4l[4h*[4l
+* The is a line tha starts with an asterisk, *but* has more.*
+*** The start and end have three asterisks. ***
+* The start and end have one asterisk. *
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Wed 03 May 2006 05:50:16 PM EDT

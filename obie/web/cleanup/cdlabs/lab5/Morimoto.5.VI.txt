@@ -1,0 +1,71 @@
+1.  more /etc/profile
+	=> the file contains a lot of general commands and variable setting
+
+2. HISTSIZE=1111
+   echo $HISTSIZE
+	=> 1111
+
+3.  alias
+	=>
+		alias l.='ls -d .* --color=tty'
+		alias ll='ls -l --color=tty'
+		alias ls='ls --color=tty'
+		alias vi='vim'
+		alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
+
+4. more .bashrc
+	=>
+		# .bashrc
+
+		# User specific aliases and functions
+
+		# Source global definitions
+		if [ -f /etc/bashrc ]; then
+     		   . /etc/bashrc
+		fi
+
+5. cp .bashrc backup
+
+6. alias ls='ls'
+   alias ll="ls -dl"
+
+7. ls
+	=>
+		assignments  file2      gtysbrg          Morimoto.3.III  Morimoto.5.II
+		backup       file3      letters          Morimoto.3.IV   Morimoto.5.IV
+		backups      file3.bak  morimoto2edit    Morimoto.3.IV~  Morimoto.5.V
+		busLetters   file4      Morimoto.2.II~   Morimoto.4.I    reports
+		chapter_4    file5      Morimoto.2.III~  Morimoto.4.I~
+		Desktop      formal.2   Morimoto.3.I     Morimoto.4.II
+		file1        gtsybrgII  Morimoto.3.II    Morimoto.5.I
+   ll
+	=> drwxr-xr-x  24 Student Student 4096 Apr 25 17:14 .
+
+8. source .bashrc
+   ls
+	=>
+		assignments  file2      gtysbrg          Morimoto.3.III  Morimoto.5.II
+		backup       file3      letters          Morimoto.3.IV   Morimoto.5.IV
+		backups      file3.bak  morimoto2edit    Morimoto.3.IV~  Morimoto.5.V
+		busLetters   file4      Morimoto.2.II~   Morimoto.4.I    reports
+		chapter_4    file5      Morimoto.2.III~  Morimoto.4.I~
+		Desktop      formal.2   Morimoto.3.I     Morimoto.4.II
+		file1        gtsybrgII  Morimoto.3.II    Morimoto.5.I
+   ll
+	=> 
+		total 256
+		drwxrwxr-x  3 Student Student 4096 Apr 23 16:57 assignments
+		-rw-r--r--  1 Student Student  124 Apr 25 17:10 backup
+		drwxrwxr-x  2 Student Student 4096 Apr 24 08:01 backups
+		drwxrwxr-x  3 Student Student 4096 Apr 24 16:29 busLetters
+		...
+9. unalias -a
+   mv backup .bashsrc
+
+10. more .bash_logout
+	=>
+		# ~/.bash_logout
+
+		clear
+
+

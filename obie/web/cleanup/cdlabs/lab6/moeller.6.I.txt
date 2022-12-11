@@ -1,0 +1,26 @@
+Script started on Thu 27 Apr 2006 12:34:40 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6S1F1
+1425	Juan	14.25
+4321	George	21.11
+6781	Anna	16.77
+1451	Ben	21.77
+2277	Tuan	18.77
+]0;Student@localhost:~[Student@localhost ~]$ sort -n +0 -1 Ch6S1F1 > Ch6S1F1.temp
+]0;Student@localhost:~[Student@localhost ~]$ mv Ch6S1F1.temp Ch6s[KS1F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S1F1
+1425	Juan	14.25
+1451	Ben	21.77
+2277	Tuan	18.77
+4321	George	21.11
+6781	Anna	16.77
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6S1F1 Ch6S1F1 | cut -f1,3,5 > Ch6S1F1.temp
+]0;Student@localhost:~[Student@localhost ~]$ mv Ch6S1F1.temp Ch6S1F1
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S1F1
+1425	14.25	Juan
+1451	21.77	Ben
+2277	18.77	Tuan
+4321	21.11	George
+6781	16.77	Anna
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 12:39:52 PM EDT

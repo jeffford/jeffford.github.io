@@ -1,0 +1,63 @@
+2. ls ~/assignments/UNIX/HWs/*
+
+3. mv ./assignments/UNIX/hw4.bk. ./assignments/UNIX/hw4.bak
+
+4. vi friend.1
+   mv frined.1 ~/letters/friendly/
+
+5. vi formal.1
+   mv formal.1 ~/letters/formal/formal.1
+
+6. cp ~/letters/formal/formal.1 ~/letters/formal/formal.2
+
+7. 
+
+8. more ~/letters/formal/formal.? 
+
+9. mkdir busLetters
+
+10. mv ./letters/formal  ./busLetters/
+
+11. ls -R
+
+12. .:
+assignments  Desktop    letters        Morimoto.2.II   Morimoto.2.III~
+backups      gtsybrgII  morimoto2edit  Morimoto.2.II~  Morimoto.2.IV
+busLetters   gtysbrg    Morimoto.2.I   Morimoto.2.III  reports
+
+./assignments:
+UNIX
+
+./assignments/UNIX:
+hw4  hw4.bak  hw4HL  hw4SL  HWs  Projects
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./backups:
+hw4  hw4.bk.  hw4HL  hw4SL
+
+./busLetters:
+formal
+
+./busLetters/formal:
+formal.1  formal.1~  formal.2
+
+./Desktop:
+
+./letters:
+friendly
+
+./letters/friendly:
+frined.1
+
+./reports:
+business  personal  school
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+

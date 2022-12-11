@@ -1,0 +1,72 @@
+Script started on Fri 05 May 2006 01:26:58 AM EDT
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat > ch[K[KCh10S5F1
+* This is a line with only one asterisk.
+*This^[[D^[[D             This is a line that starts with an asterisk, *but* hasm    more.*
+*** This is a line with three asterisks in a row.
+This line has no asterisk.
+* This is another line with only one asterisk.
+This line has two asterisks * separated by other characters. *
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+*** The ar tart has three, but the end has four asterisks. ****
+*The start and end have one asterisk.*
+]0;prattjk@cs:~[prattjk@cs prattjk]$ vi Ch10S4F[K[K5F1
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"Ch10S5F1" 10L, 502C[1;1H* This is a line with only one asterisk.
+* This is a line that starts with an asterisk, *but* has more.*
+*** This is a line with three asterisks in a row.
+This line has no asterisk.
+* This is another line with only one asterisk.
+This line has two asterisks * separated by other characters. *
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+*** The atart has three, but the end has four asterisks. ****
+*The start and end have one asterisk.*
+[1m[34m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?25h[?25l[24;65H2[1;2H[?25h[?25l[24;65H3[1;3H[?25h[?25l[24;65H4[1;4H[?25h[?25l[24;63H2[2;4H[?25h[?25l[24;63H3[3;4H[?25h[?25l[24;63H4[4;4H[?25h[?25l[24;63H5[5;4H[?25h[?25l[24;63H6[6;4H[?25h[?25l[24;63H7[7;4H[?25h[?25l[24;63H6[6;4H[?25h[?25l[24;63H5[5;4H[?25h[?25l[24;63H4[4;4H[?25h[?25l[24;63H3[3;4H[?25h[?25l[24;63H2[2;4H[?25h[?25l[24;63H1[1;4H[?25h[?25l[24;63H2[2;4H[?25h[?25l[24;63H3[3;4H[?25h[?25l[24;63H4[4;4H[?25h[?25l[24;63H5[5;4H[?25h[?25l[24;63H6[6;4H[?25h[?25l[24;63H7[7;4H[?25h[?25l[24;63H8[8;4H[?25h[?25l[24;63H9[9;4H[?25h[?25l[24;65H5[9;5H[?25h[?25l[24;65H6[9;6H[?25h[?25l[24;65H7[9;7H[?25h[?25l[24;65H8[9;8H[?25h[?25l[24;65H9[9;9H[?25h[?25lsatart has three, but the end has four asterisks. ****[24;65H10[9;10H[?25h[?25ltart has three, but the end has four asterisks. *[9;62H[K[9;10H[?25h[24;1H[K[9;9H[?25l[24;63H9,9[11CAll[9;9H[?25h[?25l[24;63H[K[24;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"Ch10S5F1" 10L, 502C written
+[?1l>[?25h[?1047l[?1048l]0;prattjk@cs:~[prattjk@cs prattjk]$ grep "[\*]^[\*][prattjk@cs prattjk]$ grep "^[[prattjk@cs prattjk]$ grep "^[\[prattjk@cs prattjk]$ grep "^[\*[prattjk@cs prattjk]$ grep "^[\*].*[.*^.*\.**.*].*[1P*[K' Ch10S5F1
+> 
+]0;prattjk@cs:~[prattjk@cs prattjk]$ grep "^[\*][^\*]' Ch10S5F1[1@"[1P Ch10S5F1[prattjk@cs prattjk]$ grep "^[\*][^\*]" Ch10S5F1
+* This is a line with only one asterisk.
+* This is a line that starts with an asterisk, *but* has more.*
+* This is another line with only one asterisk.
+*The start and end have one asterisk.*
+]0;prattjk@cs:~[prattjk@cs prattjk]$ grep "^[\*][\*].[\*]*[\*][1P[\*][prattjk@cs prattjk]$ grep "^[\*].[\*]' Ch10S5F1
+> 
+]0;prattjk@cs:~[prattjk@cs prattjk]$ grep "^[\*].[\*]' Ch10S5F1[1@"[1P[1P Ch10S5F1[1@][prattjk@cs prattjk]$ grep "^[\*].[\*]" Ch10S5F1[prattjk@cs prattjk]$ g[prattjk@cs prattjk]$ gr[prattjk@cs prattjk]$ gre[prattjk@cs prattjk]$ grep[prattjk@cs prattjk]$ grep [prattjk@cs prattjk]$ grep "[1P[prattjk@cs prattjk]$ grep "[\*].[\*]" Ch10S5F1
+*** This is a line with three asterisks in a row.
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+*** The start has three, but the end has four asterisks. ****
+]0;prattjk@cs:~[prattjk@cs prattjk]$ grep "[\*].[\*]" Ch10S5F1[1@[[1@^[1@\[1@*[1@][1P[prattjk@cs prattjk]$ grep "[\*][^\*][\*]" Ch10S5F1
+This line has two asterisks with *a* character between them.
+]0;prattjk@cs:~[prattjk@cs prattjk]$ egrep "[\*\{,6\}]" Ch10S5F1
+* This is a line with only one asterisk.
+* This is a line that starts with an asterisk, *but* has more.*
+*** This is a line with three asterisks in a row.
+* This is another line with only one asterisk.
+This line has two asterisks * separated by other characters. *
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+*** The start has three, but the end has four asterisks. ****
+*The start and end have one asterisk.*
+]0;prattjk@cs:~[prattjk@cs prattjk]$ echo 'this command should work. I don't know hwy[K[K[Kwhy it is not  working.'
+> 
+]0;prattjk@cs:~[prattjk@cs prattjk]$ egrep "6[K^[\*][\*]*.*[prattjk@cs prattjk]$ egrep "^\[\*][\*]*.*([\*][\*]*.*[prattjk@cs prattjk]$ egrep "^\([[prattjk@cs prattjk]$ egrep "^\([\[prattjk@cs prattjk]$ egrep "^\([\*[prattjk@cs prattjk]$ egrep "^\([\*][prattjk@cs prattjk]$ egrep "^\([\*][[prattjk@cs prattjk]$ egrep "^\([\*][\[prattjk@cs prattjk]$ egrep "^\([\*][\*[prattjk@cs prattjk]$ egrep "^\([\*][\*][prattjk@cs prattjk]$ egrep "^\([\*][\*]*\.*).*[prattjk@cs prattjk]$ egrep "^\([\*][\*]*\).[prattjk@cs prattjk]$ egrep "^\([\*][\*]*\).*[prattjk@cs prattjk]$ egrep "^\([\*][\*]*\[prattjk@cs prattjk]$ egrep "^\([\*][\*]*\)[prattjk@cs prattjk]$ egrep "^\([\*][\*]*\).[prattjk@cs prattjk]$ egrep "^\([\*][\*]*\).*[^\*]\1$" Ch10S5F1
+egrep: Invalid back reference
+]0;prattjk@cs:~[prattjk@cs prattjk]$ egrep "^\([\*][\*]*\).*[^\*]\1$" Ch10S5F1[1P[prattjk@cs prattjk]$ grep "^\([\*][\*]*\).*[^\*]\1$" Ch10S5F1
+* This is a line that starts with an asterisk, *but* has more.*
+*** The start and end have three asterisks. ***
+*The start and end have one asterisk.*
+]0;prattjk@cs:~[prattjk@cs prattjk]$ cat Ch10S5F1
+* This is a line with only one asterisk.
+* This is a line that starts with an asterisk, *but* has more.*
+*** This is a line with three asterisks in a row.
+This line has no asterisk.
+* This is another line with only one asterisk.
+This line has two asterisks * separated by other characters. *
+*** The start and end have three asterisks. ***
+This line has two asterisks with *a* character between them.
+*** The start has three, but the end has four asterisks. ****
+*The start and end have one asterisk.*
+]0;prattjk@cs:~[prattjk@cs prattjk]$ exit
+
+Script done on Fri 05 May 2006 01:41:37 AM EDT

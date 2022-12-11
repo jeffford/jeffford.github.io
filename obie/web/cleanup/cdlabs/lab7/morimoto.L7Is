@@ -1,0 +1,56 @@
+Script started on Mon 01 May 2006 11:47:25 AM EDT
+]0;morimotoh@cs:~[morimotoh@cs morimotoh]$ ,kdir [K[K[K[K[K[Kmkdir RemoteWork
+]0;morimotoh@cs:~[morimotoh@cs morimotoh]$ mkdir RemoteWork[Kcd RemoteWork
+]0;morimotoh@cs:~/RemoteWork[morimotoh@cs RemoteWork]$ vi Morimoto.L&I[K[K7I
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"Morimoto.L7I" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[?25l[24;1H[K[24;1H:[?25hw[?25l[?25h[?25l"Morimoto.L7I" [New] 0L, 0C written[27C0,0-1[9CAll[24;63H[K[24;63H0,0-1[9CAll[1;1H[?25h[?25l[24;1H[K[24;1H:[?25hq[?25l[?25h[?25l[24;1H[K[24;1H[?1l>[?25h[?1047l[?1048l]0;morimotoh@cs:~/RemoteWork[morimotoh@cs RemoteWork]$ ls -l -a -R /home/morimotoh
+[00m/home/morimotoh:
+total 48
+drwx------    5 morimotoh morimotoh     4096 May  1 11:48 [00;34m.[00m
+drwxr-xr-x  121 root     root         4096 Apr 25 09:32 [00;34m..[00m
+-rw-r--r--    1 morimotoh morimotoh       24 Apr 25 09:32 [00m.bash_logout[00m
+-rw-r--r--    1 morimotoh morimotoh      191 Apr 25 09:32 [00m.bash_profile[00m
+-rw-r--r--    1 morimotoh morimotoh      124 Apr 25 09:32 [00m.bashrc[00m
+-rw-r--r--    1 morimotoh morimotoh      237 Apr 25 09:32 [00m.emacs[00m
+-rw-r--r--    1 morimotoh morimotoh      120 Apr 25 09:32 [00m.gtkrc[00m
+drwxr-xr-x    3 morimotoh morimotoh     4096 Apr 25 09:32 [00;34m.kde[00m
+-rw-rw-r--    1 morimotoh morimotoh        0 May  1 11:47 [00mmorimoto.L7Is[00m
+drwxrwxr-x    2 morimotoh morimotoh     4096 May  1 11:48 [00;34mRemoteWork[00m
+-rw-------    1 morimotoh morimotoh      726 May  1 11:48 [00m.viminfo[00m
+drwxr-xr-x    2 morimotoh morimotoh     4096 Apr 25 09:32 [00;34m.xemacs[00m
+-rw-r--r--    1 morimotoh morimotoh      220 Apr 25 09:32 [00m.zshrc[00m
+
+/home/morimotoh/.kde:
+total 12
+drwxr-xr-x    3 morimotoh morimotoh     4096 Apr 25 09:32 [00;34m.[00m
+drwx------    5 morimotoh morimotoh     4096 May  1 11:48 [00;34m..[00m
+drwxr-xr-x    2 morimotoh morimotoh     4096 Apr 25 09:32 [00;34mAutostart[00m
+
+/home/morimotoh/.kde/Autostart:
+total 12
+drwxr-xr-x    2 morimotoh morimotoh     4096 Apr 25 09:32 [00;34m.[00m
+drwxr-xr-x    3 morimotoh morimotoh     4096 Apr 25 09:32 [00;34m..[00m
+-rw-r--r--    1 morimotoh morimotoh      381 Apr 25 09:32 [00m.directory[00m
+
+/home/morimotoh/RemoteWork:
+total 8
+drwxrwxr-x    2 morimotoh morimotoh     4096 May  1 11:48 [00;34m.[00m
+drwx------    5 morimotoh morimotoh     4096 May  1 11:48 [00;34m..[00m
+-rw-rw-r--    1 morimotoh morimotoh        0 May  1 11:48 [00mMorimoto.L7I[00m
+
+/home/morimotoh/.xemacs:
+total 12
+drwxr-xr-x    2 morimotoh morimotoh     4096 Apr 25 09:32 [00;34m.[00m
+drwx------    5 morimotoh morimotoh     4096 May  1 11:48 [00;34m..[00m
+-rw-r--r--    1 morimotoh morimotoh      124 Apr 25 09:32 [00minit.el[00m
+[m]0;morimotoh@cs:~/RemoteWork[morimotoh@cs RemoteWork]$ [K[morimotoh@cs RemoteWork]$ [K[morimotoh@cs RemoteWork]$ [K[morimotoh@cs RemoteWork]$ [K[morimotoh@cs RemoteWork]$ ls -l -a -R /home/morimotoh[1P[1P
+[00m/home/morimotoh:
+total 8
+-rw-rw-r--    1 morimotoh morimotoh     4096 May  1 11:48 [00mmorimoto.L7Is[00m
+drwxrwxr-x    2 morimotoh morimotoh     4096 May  1 11:48 [00;34mRemoteWork[00m
+
+/home/morimotoh/RemoteWork:
+total 0
+-rw-rw-r--    1 morimotoh morimotoh        0 May  1 11:48 [00mMorimoto.L7I[00m
+[m]0;morimotoh@cs:~/RemoteWork[morimotoh@cs RemoteWork]$ exit
+
+Script done on Mon 01 May 2006 11:50:21 AM EDT

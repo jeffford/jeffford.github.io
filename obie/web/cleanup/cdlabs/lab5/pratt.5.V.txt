@@ -1,0 +1,31 @@
+Script started on Tue 25 Apr 2006 04:34:08 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ first=PARENT
+]0;Student@localhost:~[Student@localhost ~]$ echo $first
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ bash
+]0;Student@localhost:~[Student@localhost ~]$ $first
+]0;Student@localhost:~[Student@localhost ~]$ echo "nothing printed. The parent did not export the vari able first to the subse[Khell:
+> "
+nothing printed. The parent did not export the variable first to the subshell:
+
+]0;Student@localhost:~[Student@localhost ~]$ second=SUBSHELL
+]0;Student@localhost:~[Student@localhost ~]$ $dev[K[K[Ksecond
+bash: SUBSHELL: command not found
+]0;Student@localhost:~[Student@localhost ~]$ second=SUBSHELL
+]0;Student@localhost:~[Student@localhost ~]$ $second
+bash: SUBSHELL: command not found
+]0;Student@localhost:~[Student@localhost ~]$ sec[K[K[Kecho $second
+SUBSHELL
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+]0;Student@localhost:~[Student@localhost ~]$ echo $first
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ echo "the value in first printed because we are back t[Kat t he parent shell level, which is where the vai[Krai[K[Kiable was defined"
+the value in first printed because we are back at the parent shell level, which is where the variable was defined
+]0;Student@localhost:~[Student@localhost ~]$ echo $second
+
+]0;Student@localhost:~[Student@localhost ~]$ echo "the variable second i[Kwas defined in the subshell, no t the parent shell, so it does not contain a value in the parent shell."
+the variable second was defined in the subshell, not the parent shell, so it does not contain a value in the parent shell.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 25 Apr 2006 04:39:04 PM EDT

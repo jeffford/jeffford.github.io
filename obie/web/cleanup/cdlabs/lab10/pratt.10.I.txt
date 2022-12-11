@@ -1,0 +1,33 @@
+Script started on Wed 03 May 2006 05:01:39 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch10S1F1
+1425	Juan	18	14.25
+4321	George	22	21.11
+6781	Anee  ne	44	16.77
+1451	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;Student@localhost:~[Student@localhost ~]$ fgrep 'Anne"[K' Ch10S1F1 | cut -f4
+16.77
+]0;Student@localhost:~[Student@localhost ~]$ fgrep '1451' Ch10S1F1 | cut -f2
+Ben
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2,3 Ch10S1F1 | egrep '[2-9][1-9]' | cut -f1
+George
+Anne
+Ben
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1,3,4 Ch10S1F1 | egrep '[2-9][1-9]\.[0-9][0-9]' | c ut f1,2-f1,2ut -f1,2
+4321	22
+1451	36
+]0;Student@localhost:~[Student@localhost ~]$ egrep '0[0-9]' Ch10S1F1 | cut -f1,2,4
+]0;Student@localhost:~[Student@localhost ~]$ echo 'there are no employes[Kes who worked fewer tha 10 hour s'
+there are no employees who worked fewer tha 10 hours
+]0;Student@localhost:~[Student@localhost ~]$ echo 'there are no employees who worked fewer tha 10 hourss'[A[Student@localhost ~]$ echo 'there are no employees who worked fewer tha 10 houn 10 hours'[A[Student@localhost ~]$ echo 'there are no employees who worked fewer than
+rs'
+there are no employees who worked fewer than 10 hours
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch10S1F1
+1425	Juan	18	14.25
+4321	George	22	21.11
+6781	Anne	44	16.77
+1451	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Wed 03 May 2006 05:08:58 PM EDT

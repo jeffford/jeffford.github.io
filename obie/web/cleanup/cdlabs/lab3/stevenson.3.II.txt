@@ -1,0 +1,50 @@
+Script started on Fri 21 Apr 2006 08:43:17 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m  [00mgtysburgII.txt[00m   [00mgtysburg.txt[00m  [00;34mletters[00m  [00mstevenson.2.II.txt[00m
+[00;34mDesktop[00m      [00mgtysburgII.txt~[00m  [00mLab 2[00m         [00;34mreports[00m  [00mstevenson.2.I.txt[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpersonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ mv[K[Kcd UNIX
+bash: cd: UNIX: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cd assignments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ pwd
+/home/Student/assignments/UNIX
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ cat hw4
+cat: hw4: No such file or directory
+]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ vi hw4
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"hw4" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[15;1H[7mhw4                                                           0,0-1          All[m[16;1H[1m[34m:[m[33mw[m[16;3H[K[17;1H[1m[34m:[m[33mq[m[17;3H[K[18;1H[1m[34m:[m[33mq[m![18;4H[K[19;1H[1m[34m:[m[19;2H[K[20;1H[1m[34m:
+:
+:[20;2H~
+:~
+:~[m
+[1m[7mcommand-line                                                  4,0-1          All[19;2H[?12l[?25h[?25l[m[24;1H[1mrecording[19;2H[?12l[?25h[?25l[m[23;63H[1m[7m3,2   [18;3H[?12l[?25h[24;1H[?25l[m[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ vi hwr[K4
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"hw4" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:~/assignments/UNIX[Student@localhost UNIX]$ exit
+
+Script done on Fri 21 Apr 2006 08:54:46 AM EDT

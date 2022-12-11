@@ -1,0 +1,40 @@
+Script started on Tue 25 Apr 2006 08:20:30 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ echo [K[K[K[K[Kechoi[K blaaaaahhh blllaaaahhhh deed dede [Student@localhost ~]$ echo blaaaaahhh blllaaaahhhh deed d[4h [4l[1P[Student@localhost ~]$ echo blaaaaahhh blllaaaahhhh deed de[4h [4l[Student@localhost ~]$ echo blaaaaahhh blllaaaahhhh deed de d[Student@localhost ~]$ echo blaaaaahhh blllaaaahhhh deed de de[Student@localhost ~]$ echo blaaaaahhh blllaaaahhhh deed de de I only did it bec ause my dog told my to do it and it seemed like a good ideal a [Kat [K[K[Kt he t[K[K[K[Kthe time becuase  he was were[K[K[K[Kin a dress > filefile1[K[K[K[K[K1
+]0;Student@localhost:~[Student@localhost ~]$ more fo[Kile1
+blaaaaahhh blllaaaahhhh deed de de I only did it because my dog told my to do it
+ and it seemed like a good ideal at the time becuase he was in a dress
+]0;Student@localhost:~[Student@localhost ~]$ ehco [K[K[K[Kcho ""i"t" "w"o"r"k"s" "b"v"e"[1P"[1P"c"[1P"e"c"a"u"s"e" "e"v"e"r"y" "t"h"i"n"g" "i"n" "t"h"e" "q"u"o"t"e"s" "a"[1P"i"s" "r"e"c"o" [A[Student@localhost ~]$ echo "it works because every thing in the quotes is recog""n"i"z"e"d" "a"s" "t"e"x"t"[A[Student@localhost ~]$ more file1[K
+[K[A[Student@localhost ~]$ more file1echo blaaaaahhh blllaaaahhhh deed de de I only did it becaause my dog told my to do it and it seemed like a good ideal at the time becuase  he was in a dress > file1[A[Amore file1[K
+[K
+[K[A[A[Student@localhost ~]$ more file1echo "it works because every thing in the quotes is recognnized as text" > file2
+]0;Student@localhost:~[Student@localhost ~]$ more file2
+it works because every thing in the quotes is recognized as text
+]0;Student@localhost:~[Student@localhost ~]$ set vaialbe [K[K[K[Kble = facts[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfact=""U"N"I"X" "v"s"." "O"t"r"h"[1P"[1P"h"e"r"s"[Student@localhost ~]$ set fact="UNIX vs. Others"
+]0;Student@localhost:~[Student@localhost ~]$ eh[Kcho ""T"H"s"i"[1P"[1P"i"s" "i"s" "a" "f"a"c"e"[1P"t" "$"f"a"d"[1P"c"t"s" "i"n" "u"[1P"o"u"r" "l"i"f"e"."
+THis is a fact  in our life.
+]0;Student@localhost:~[Student@localhost ~]$ set facts-""U"N"I"X" "v"s"." "O"t"h"e"r"s"
+]0;Student@localhost:~[Student@localhost ~]$ set facts-"UNIX vs. Others"[Student@localhost ~]$ echo "THis is a fact $facts in our life."
+THis is a fact  in our life.
+]0;Student@localhost:~[Student@localhost ~]$ $facts
+]0;Student@localhost:~[Student@localhost ~]$ $factsecho "THis is a fact $facts in our life."[Student@localhost ~]$ [14Pset facts-"UNIX vs. Others"[1P[4h+[4l[1P[4h=[4l[Student@localhost ~]$ set facts="[Student@localhost ~]$ set facts="U[Student@localhost ~]$ set facts="UN[Student@localhost ~]$ set facts="UNI[Student@localhost ~]$ set facts="UNIX[Student@localhost ~]$ set facts="UNIX [Student@localhost ~]$ set facts="UNIX v[Student@localhost ~]$ set facts="UNIX vs[Student@localhost ~]$ set facts="UNIX vs.[Student@localhost ~]$ set facts="UNIX vs. [Student@localhost ~]$ set facts="UNIX vs. O[Student@localhost ~]$ set facts="UNIX vs. Ot[Student@localhost ~]$ set facts="UNIX vs. Oth[Student@localhost ~]$ set facts="UNIX vs. Othe[Student@localhost ~]$ set facts="UNIX vs. Other[Student@localhost ~]$ set facts="UNIX vs. Others[Student@localhost ~]$ set facts="UNIX vs. Others"
+]0;Student@localhost:~[Student@localhost ~]$ set facts="UNIX vs. Others"[Student@localhost ~]$ $facts[Kecho "THis is a fact $facts in our life."
+THis is a fact  in our life.
+]0;Student@localhost:~[Student@localhost ~]$ facts=[K=""U"N"I"X" "v"s"." "O"t"h"e"r"s"[Student@localhost ~]$ facts="UNIX vs. Others"
+]0;Student@localhost:~[Student@localhost ~]$ echo ""T"h"i"s" "i"s" "a" "f"a"c"t" "$"f"a"c"t"s" "o"n"[1P"[1P"i"n" "o"u"r" "l"i"k"e"[1P"[1P"f"e"."[Student@localhost ~]$ echo "This is a fact $facts in our life."
+This is a fact UNIX vs. Others in our life.
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact $facts in our life."[4h"[4l[1P[4h'[4l[4h'[4l
+This is a fact 'UNIX vs. Others' in our life.
+]0;Student@localhost:~[Student@localhost ~]$ echo prints '' becuase[K[K[K[Kause they are in the command
+prints  because they are in the command
+]0;Student@localhost:~[Student@localhost ~]$ echo prints '' because they are in the command[Student@localhost ~]$ echo [3P"This is a fact '$facts' in our life."[1P[1P[4h/[4l[1P[4h\[4l
+This is a fact $facts in our life.
+]0;Student@localhost:~[Student@localhost ~]$ prints[K[K[K[K[K[Kecho the ""/"[1P"[K[Student@localhost ~]$ echo the "[K\\ is pri[K[K[K[K[K[Ksaet[K[Kys that what is typed is what you want sipp layed[K[K[K[K[K[A[Student@localhost ~]$ echo the \\ says that what is typed is what you want sip[K
+[K[A[Student@localhost ~]$ echo the \\ says that what is typed is what you want sip[K[K[Kdiss [A[Student@localhost ~]$ echo the \\ says that what is typed is what you want dis[K
+[K[A[Student@localhost ~]$ echo the \\ says that what is typed is what you want disp layed
+the \ says that what is typed is what you want displayed
+]0;Student@localhost:~[Student@localhost ~]$ echo the \\ says that what is typed is what you want displlayed[A[Student@localhost ~]$ echo [15P"This is a fact \$facts in our life."
+[K[A[Student@localhost ~]$ echo "This is a fact \$facts in our life."[Student@localhost ~]$ echo "This is a fact \[4h"[4l[Student@localhost ~]$ echo "This is a fact \"$[Student@localhost ~]$ echo "This is a fact \"$f[Student@localhost ~]$ echo "This is a fact \"$fa[Student@localhost ~]$ echo "This is a fact \"$fac[Student@localhost ~]$ echo "This is a fact \"$fact[4h [4l[Student@localhost ~]$ echo "This is a fact \" $[Student@localhost ~]$ echo "This is a fact \" $f[Student@localhost ~]$ echo "This is a fact \" $fa[Student@localhost ~]$ echo "This is a fact \" $fac[Student@localhost ~]$ echo "This is a fact \" $fact[Student@localhost ~]$ echo "This is a fact \" $facts[Student@localhost ~]$ echo "This is a fact \" $facts [4h [4l[4h?[4l[Student@localhost ~]$ echo "This is a fact \" $facts ? [4h [4l[4h^?[4l[2P[1P[1P[4h/[4l[1P[4h\[4l[4h"[4l[Student@localhost ~]$ echo "This is a fact \" $facts \" [Student@localhost ~]$ echo "This is a fact \" $facts \" i[Student@localhost ~]$ echo "This is a fact \" $facts \" in[Student@localhost ~]$ echo "This is a fact \" $facts \" in [Student@localhost ~]$ echo "This is a fact \" $facts \" in o[Student@localhost ~]$ echo "This is a fact \" $facts \" in ou[Student@localhost ~]$ echo "This is a fact \" $facts \" in our[Student@localhost ~]$ echo "This is a fact \" $facts \" in our [Student@localhost ~]$ echo "This is a fact \" $facts \" in our l[Student@localhost ~]$ echo "This is a fact \" $facts \" in our li[Student@localhost ~]$ echo "This is a fact \" $facts \" in our lif[Student@localhost ~]$ echo "This is a fact \" $facts \" in our life[Student@localhost ~]$ echo "This is a fact \" $facts \" in our life.[Student@localhost ~]$ echo "This is a fact \" $facts \" in our life."
+This is a fact " UNIX vs. Others " in our life.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 25 Apr 2006 08:38:58 AM EDT

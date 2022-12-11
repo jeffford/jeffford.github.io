@@ -1,0 +1,64 @@
+Script started on Tue 09 May 2006 07:27:21 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ more Ch10S4F1
+This is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+For example, the following line has duplicated words.
+The duplicated words are hard to find, but grep can find them for you.
+However, you need to write the regular expression very carefully.
+
+]0;Student@localhost:~[Student@localhost ~]$ more Ch10S4F1exit[Kscript harrold.10.IV.txtII.txt[1P.txt[1P.txtexit[Kgrep '\([^A-Za-z]\).*\1' Ch10S4F1[Student@localhost ~]$ exit[Kgrep '\([^A-Za-z]\).*\1' Ch10S4F1^\([[Student@localhost ~]$ grep '^\([A-Za-z]\).*\1' Ch10S4F1[1P[Student@localhost ~]$ grep '\([A-Za-z]\).*\1' Ch10S4F1[4h[A[4l-Za-z].*[A-Za-z][Student@localhost ~]$ grep '[A-Za-z].*[A-Za-z]' Ch10S4F1[2P\([A-Za-z]\).*\1[Student@localhost ~]$ grep '\([A-Za-z]\).*\1' Ch10S4F1[4h[A[4l-Za-z].*[A-Za-z][Student@localhost ~]$ grep '[A-Za-z].*[A-Za-z]' Ch10S4F1[Student@localhost ~]$ grep '[A-Za-z].*[A-Za-z]' [2P\([A-Za-z]\).*\1[Student@localhost ~]$ grep '\([A-Za-z]\).*\1' Ch10S4F1[4h[A[4l-Za-z].*[A-Za-z][Student@localhost ~]$ grep '[A-Za-z].*[A-Za-z]' Ch10S4F1[2P\([A-Za-z]\).*\1[Student@localhost ~]$ grep '\([A-Za-z]\).*\1' Ch10S4F1[4h^?[4l[2P[1P[1P[1P[Student@localhost ~]$ grep '\[4h<[4l[Student@localhost ~]$ grep '\[4h\[4l[4h([4l[Student@localhost ~]$ grep '\(\[Student@localhost ~]$ grep '\(\<[Student@localhost ~]$ grep '\(\<([Student@localhost ~]$ grep '\(\<([[Student@localhost ~]$ grep '\(\<([a[Student@localhost ~]$ grep '\(\<([a-[Student@localhost ~]$ grep '\(\<([a-z[Student@localhost ~]$ grep '\(\<([a-z][Student@localhost ~]$ grep '\(\<([a-z]\[4h[[4l[4ha[4l[4h-[4l[4hz[4l[4h][4l[4h*[4l[4h[[4l[4h[[4l[4h:[4l[4hs[4l[4hp[4l[4ha[4l[4hc[4l[4he[4l[4h:[4l[4h][4l[4h|[4l[4ha[4l[1P[4h[[4l[4h:[4l[4hp[4l[4hu[4l[4hn[4l[4hc[4l[4h:[4l]\).*\1' Ch10S4F1 [A[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1' Ch10S4F11[A[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]][Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\)[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.' Ch10S4F1[A[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*' Ch10S4F1[A[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\' Ch10S4F1[A[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' Ch10S4F1[A[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1
+0S4F1
+grep: Invalid character class name
+]0;Student@localhost:~[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' Ch100S4F1[A[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' Ch-'\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' Ch10S4F1[A[Student@localhost ~]$ grep -v'\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' Ch10S4F1[A[Student@localhost ~]$ grep -vi'\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' Ch10S4F1[A[Student@localhost ~]$ grep -vi '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' Ch10S4F1[A[Student@localhost ~]$ grep -vi 
+
+grep: Invalid character class name
+]0;Student@localhost:~[Student@localhost ~]$ grep -vi '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1'  Ch10S4F1[A[Student@localhost ~]$ grep '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' Ch10[4PS4F1[A[Student@localhost ~]$ grep -vi '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' Ch10S4F1[A[Student@localhost ~]$ grep -vi '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1[Student@localhost ~]$ grep -vi '\(\[Student@localhost ~]$ grep -vi '\(\<[Student@localhost ~]$ grep -vi '\(\<([a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' C[1Ph10S4F1[A[Student@localhost ~]$ grep -vi '\(\<[K
+[K[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' CCh10S4F1
+grep: Invalid character class name
+]0;Student@localhost:~[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' CCh10S4F1[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1'[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\1' Ch[1P10S4F1[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*\' Ch1[1P0S4F1[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1.*' Ch10[1PS4F1[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1.' Ch10S[1P4F1[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1
+
+grep: Invalid character class name
+]0;Student@localhost:~[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1' Ch10SS4F1[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1' Ch1[Student@localhost ~]$ grep -vi '\(\<[a-z][[Student@localhost ~]$ grep -vi '\(\<[a-z][a
+
+grep: Invalid character class name
+]0;Student@localhost:~[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1' Ch10SS4F1[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1' Ch1[Student@localhost ~]$ grep -vi '\(\<[[Student@localhost ~]$ grep -vi '\([Student@localhost ~]$ grep -vi '\([Student@localhost ~]$ grep -vi '\(\[Student@localhost ~]$ grep -vi '\(\[K[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1' Ch10SS4F1[A[Student@localhost ~]$ grep -vi '\(\[K[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punc:]]\).*\1' Ch10SS4F1[A[Student@localhost ~]$ grep -vi '\(\
+
+grep: Invalid character class name
+]0;Student@localhost:~[Student@localhost ~]$ ^[[A[K[K[Kgrep -vi '\(\<[a-z][a=^?[K[K-z]*[[:space:]|[:punct:]]\).*1' ch[K[KCh10 S4F1
+This is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+For example, the following line has duplicated words.
+The duplicated words are hard to find, but grep can find them for you.
+However, you need to write the regular expression very carefully.
+
+]0;Student@localhost:~[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punct:]]\).*1' Ch10SS4F1[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punct:]]\).*1' Ch1i '\(\<[a-z][a-z]*[[:space:]|[:punct:]]\).*1' Ch10S4[1PF1[A[Student@localhost ~]$ grep -
+
+]0;Student@localhost:~[Student@localhost ~]$ grep -i '\(\<[a-z][a-z]*[[:space:]|[:punct:]]\).*1' Ch10S44F1[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punct:]]\).*1' Ch10S4F1 > Ch10S4F1[K2
+]0;Student@localhost:~[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punct:]]\).*1' Ch10SS4F1 > Ch10S4F2[A[Student@localhost ~]$ grep -i '\(\<[a-z][a-z]*[[:space:]|[:punct:]]\).*1' Ch10S4F1[K > X[KCh10S4F3
+]0;Student@localhost:~[Student@localhost ~]$ grep -i '\(\<[a-z][a-z]*[[:space:]|[:punct:]]\).*1' Ch10S44F1 > Ch10S4F3[A[Student@localhost ~]$ [K
+[K[A[Student@localhost ~]$ grep -Vi[K[Kvi '\(\<[a-z]|[K*[[:space:]|[:punct:]]\).*1' Ch10S4F1
+This is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+For example, the following line has duplicated words.
+The duplicated words are hard to find, but grep can find them for you.
+However, you need to write the regular expression very carefully.
+
+]0;Student@localhost:~[Student@localhost ~]$ grep -vi '\(\<[a-z]*[[:space:]|[:punct:]]\).*1' Ch10S4F1[*[[:space:]|[:punct:]]\).*1' Ch10S4F1 [A[Student@localhost ~]$ grep -vi '\(\<[a-z][a*[[:space:]|[:punct:]]\).*1' Ch10S4F11[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-*[[:space:]|[:punct:]]\).*1' Ch10S4F1[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z*[[:space:]|[:punct:]]\).*1' Ch10S4F1[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]*[[:space:]|[:punct:]]\).*1' Ch10S4F1[A[Student@localhost ~]$ grep -vi '\(\<[a-z][a-z]
+
+This is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+For example, the following line has duplicated words.
+The duplicated words are hard to find, but grep can find them for you.
+However, you need to write the regular expression very carefully.
+
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 09 May 2006 07:47:51 AM EDT

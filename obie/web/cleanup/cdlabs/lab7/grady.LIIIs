@@ -1,0 +1,70 @@
+Script started on Mon 01 May 2006 08:33:49 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ssh.[K cs.hiram.edu
+The authenticity of host 'cs.hiram.edu (198.30.199.89)' can't be established.
+RSA key fingerprint is 9f:39:73:fd:0b:27:4d:68:e6:4f:43:1f:29:1d:8d:82.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'cs.hiram.edu,198.30.199.89' (RSA) to the list of known hosts.
+Student@cs.hiram.edu's password: 
+
+Permission denied, please try again.
+Student@cs.hiram.edu's password: 
+
+]0;Student@localhost:~[Student@localhost ~]$ shh[K[Ksh 0-[K[K0l[K[K-l gradykc
+usage: ssh [-1246AaCfgkMNnqsTtVvXxY] [-b bind_address] [-c cipher_spec]
+           [-D port] [-e escape_char] [-F configfile]
+           [-i identity_file] [-L [bind_address:]port:host:hostport]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-R [bind_address:]port:host:hostport] [-S ctl_path]
+           [user@]hostname [command]
+]0;Student@localhost:~[Student@localhost ~]$ ssh -l gradykc cs
+The authenticity of host 'cs (198.30.199.89)' can't be established.
+RSA key fingerprint is 9f:39:73:fd:0b:27:4d:68:e6:4f:43:1f:29:1d:8d:82.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'cs' (RSA) to the list of known hosts.
+gradykc@cs's password: 
+]0;gradykc@cs:~[gradykc@cs gradykc]$ grady>[K.LIIIsgrady.LIIIcgrady.LIIIrgrady.LIIIigrady.LIIIpgrady.LIIItgrady.LIII grady.LIII[gradykc@cs gradykc]$ script g[gradykc@cs gradykc]$ script gr[gradykc@cs gradykc]$ script gra[gradykc@cs gradykc]$ script grad[gradykc@cs gradykc]$ script grady[gradykc@cs gradykc]$ script grady.[gradykc@cs gradykc]$ script grady.L[gradykc@cs gradykc]$ script grady.LI[gradykc@cs gradykc]$ script grady.LII[gradykc@cs gradykc]$ script grady.LIII
+Script started, file is grady.LIII
+]0;gradykc@cs:~[gradykc@cs gradykc]$ ls
+[00m[00mgrady.L7II.doc[00m  [00mgrady.L7Is[00m  [00mgrady.LIII[00m  [00;34mhome[00m
+[m]0;gradykc@cs:~[gradykc@cs gradykc]$ ls -R
+[00m.:
+[00mgrady.L7II.doc[00m  [00mgrady.L7Is[00m  [00mgrady.LIII[00m  [00;34mhome[00m
+
+./home:
+[00;34mRemoteWork[00m
+
+./home/RemoteWork:
+[00mgrady.L7I.txt[00m
+[m]0;gradykc@cs:~[gradykc@cs gradykc]$ wd
+bash: wd: command not found
+]0;gradykc@cs:~[gradykc@cs gradykc]$ ewd[K[K[Kpwd
+/home/gradykc
+]0;gradykc@cs:~[gradykc@cs gradykc]$ vi[K[Kcat > home/RemoteWork/grady.LIII[K[K[KIII.txt
+]0;gradykc@cs:~[gradykc@cs gradykc]$ ls -R
+[00m.:
+[00mgrady.L7II.doc[00m  [00mgrady.L7Is[00m  [00mgrady.LIII[00m  [00;34mhome[00m
+
+./home:
+[00;34mRemoteWork[00m
+
+./home/RemoteWork:
+[00mgrady.L7I.txt[00m  [00mgrady.LIII.txt[00m
+[m]0;gradykc@cs:~[gradykc@cs gradykc]$ ls -l
+[00mtotal 32
+-rw-r--r--    1 gradykc  gradykc     24064 May  1 12:11 [00mgrady.L7II.doc[00m
+-rw-rw-r--    1 gradykc  gradykc      1242 May  1 11:40 [00mgrady.L7Is[00m
+-rw-rw-r--    1 gradykc  gradykc         0 May  1 12:23 [00mgrady.LIII[00m
+drwxrwxr-x    3 gradykc  gradykc      4096 May  1 11:37 [00;34mhome[00m
+[m]0;gradykc@cs:~[gradykc@cs gradykc]$ logout
+bash: logout: not login shell: use `exit'
+]0;gradykc@cs:~[gradykc@cs gradykc]$ wo[K[Kquit
+bash: quit: command not found
+]0;gradykc@cs:~[gradykc@cs gradykc]$ exit
+exit
+Script done, file is grady.LIII
+]0;gradykc@cs:~[gradykc@cs gradykc]$ logout
+[H[2JConnection to cs closed.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 01 May 2006 08:40:09 AM EDT

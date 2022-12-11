@@ -1,0 +1,66 @@
+Script started on Thu 27 Apr 2006 05:20:46 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ head /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+]0;Student@localhost:~[Student@localhost ~]$ tail /etc/passe[Kwd
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science Student:/home/Student:/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF1
+cat: Ch6SIIF1: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF1>Ch6SIIF1 Ch6SIIF1
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF1
+Juan/jj@yahoo.com/330-569-5211
+George/george@hotmail.com/330-274-1999
+Anna/sister@aol.com/330-274-5615
+Ben/davisbj@hiram.edu/512-345-5678
+Tuan/tt1234@aol.com/404-213-1434
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d|[K"/" Ch6SIIF1 > temp1
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1 -d"/" Ch6SIIF1 > temp121[K[4h2[4l[1P
+]0;Student@localhost:~[Student@localhost ~]$ cut -f2 -d"/" Ch6SIIF1 > temp232[K[4h3[4l[1P
+]0;Student@localhost:~[Student@localhost ~]$ paste temp1 temp3 temp2 Ch6SIIF2>Ch6SIIF2 Ch6SIIF2
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF2
+Juan	330-569-5211	jj@yahoo.com
+George	330-274-1999	george@hotmail.com
+Anna	330-274-5615	sister@aol.com
+Ben	512-345-5678	davisbj@hiram.edu
+Tuan	404-213-1434	tt1234@aol.com
+]0;Student@localhost:~[Student@localhost ~]$ paste Ch6S![K1F1 Ch5[K6SIIF2 > Ch6SIIF3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF3
+1425	14.25	Juan	Juan	330-569-5211	jj@yahoo.com
+1451	21.77	Ben	George	330-274-1999	george@hotmail.com
+2277	18.77	Tuan	Anna	330-274-5615	sister@aol.com
+4321	21.11	George	Ben	512-345-5678	davisbj@hiram.edu
+6781	16.77	Anna	Tuan	404-213-1434	tt1234@aol.com
+]0;Student@localhost:~[Student@localhost ~]$ cut -f1-3,5,6 Ch6SIIF3 > Ch6SIIF4
+]0;Student@localhost:~[Student@localhost ~]$ echo "the integrity of the file Ch6SIIF2 data is now dest royed; Ben is[K[K[Ks record now contains the phone number and email of George. Ohter[K[K[K[Kther reco rds are also destroyed the same way."
+the integrity of the file Ch6SIIF2 data is now destroyed; Bens record now contains the phone number and email of George. Other records are also destroyed the same way.
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6SIIF4
+1425	14.25	Juan	330-569-5211	jj@yahoo.com
+1451	21.77	Ben	330-274-1999	george@hotmail.com
+2277	18.77	Tuan	330-274-5615	sister@aol.com
+4321	21.11	George	512-345-5678	davisbj@hiram.edu
+6781	16.77	Anna	404-213-1434	tt1234@aol.com
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 27 Apr 2006 05:30:09 PM EDT

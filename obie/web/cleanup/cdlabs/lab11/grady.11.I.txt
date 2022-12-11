@@ -1,0 +1,784 @@
+Script started on Thu 04 May 2006 07:54:29 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ script grady.10.V.txtegrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].*[^\*][\*]$$' Ch10S5F1[A[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].*[\*]$' Ch1[5P0S5F1[A[Student@localhost ~]$ egrep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*].*[\*]$' Ch10S5F1[K[A[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*].*[\*]$' Ch10S5F1 [K[A[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*].*[\$
+[A[Student@localhost ~]$ grep '^[\*][\*][\*][2P*[\*][\*][\*]$|^[\*]
+[K[A[Student@localhost ~]$ grep '^[\*][\*][\*]*[\*][\*][\*]$|^[\*]*[\$]$' Ch10S5F1.*[\*][\*][\*]$|^[\*].*[\$]$' Ch10S5F1 [A[Student@localhost ~]$ grep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*].*[\*
+[A[Student@localhost ~]$ egrep '^[\*][\*][\*].*[\*][\*][\*]$|^[\*].*[\*]$' Ch10S5F11[A[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].*[\*]$' Ch10S5F1[A[Student@localhost ~]$ egrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].*[^\*][\*]$' Ch10S5F1[A[Student@localhost ~]$ [36Pscript grady.10.V.txt
+[K[A[Student@localhost ~]$ script grady.10.V.txt[Kscript grady.10.V.txtegrep '^[\*][\*][\*].*[^\*][\*][\*][\*]$|^[\*].*[^\*][\*]$$' Ch10S5F1[A[Student@localhost ~]$ [36Pscript grady.10.V.txt
+[K[A[Student@localhost ~]$ script grady.10.V.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat > Ch11S1F1
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ cat .[K> Ch11S1F1
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S[KS1F1
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed n[K-n Ch11S1F1
+sed: -e expression #1, char 1: unknown command: `C'
+]0;Student@localhost:~[Student@localhost ~]$ sed -e Ch11S1F1
+sed: -e expression #1, char 1: unknown command: `C'
+]0;Student@localhost:~[Student@localhost ~]$ man sed
+[?1049h[?1h=[24;1H[KSED(1)                           User Commands                          SED(1)
+
+[1mNAME[0m
+       sed - manual page for sed version 4.1.3
+
+[1mSYNOPSIS[0m
+       [1msed[0m [[4mOPTION[24m]... [4m{script-only-if-no-other-script}[24m [[4minput-file[24m]...
+
+[1mDESCRIPTION[0m
+       [4mSed[24m  is a stream editor.  A stream editor is used to perform basic text
+       transformations on an input stream (a file or input from  a  pipeline).
+       While  in  some  ways similar to an editor which permits scripted edits
+       (such as [4med[24m), [4msed[24m works by making only one pass over the input(s),  and
+       is consequently more efficient.  But it is [4msed[24m’s ability to filter text
+       in a pipeline which particularly distinguishes it from other  types  of
+       editors.
+
+       [1m-n[0m, [1m--quiet[0m, [1m--silent[0m
+
+              suppress automatic printing of pattern space
+
+       [1m-e[0m script, [1m--expression[0m=[4mscript[24m
+
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              add the script to the commands to be executed
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-f[0m script-file, [1m--file[0m=[4mscript-file[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              add the contents of script-file to the commands to be executed
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-i[SUFFIX][0m, [1m--in-place[0m[=[4mSUFFIX[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              edit files in place (makes backup if extension supplied)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-l[0m N, [1m--line-length[0m=[4mN[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              specify the desired line-wrap length for the ‘l’ command
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--posix[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              disable all GNU extensions.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-r[0m, [1m--regexp-extended[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              use extended regular expressions in the script.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-s[0m, [1m--separate[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              consider  files  as  separate rather than as a single continuous
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              long stream.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-u[0m, [1m--unbuffered[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              load minimal amounts of data from the input files and flush  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output buffers more often
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--help[0m display this help and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output version information and exit
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       If  no  [1m-e[0m, [1m--expression[0m, [1m-f[0m, or [1m--file[0m option is given, then the first
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       non-option argument is taken as  the  sed  script  to  interpret.   All
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       remaining  arguments  are  names  of input files; if no input files are
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       specified, then the standard input is read.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       E-mail bug reports to: bonzini@gnu.org .  Be sure to include  the  word
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       ‘‘sed’’ somewhere in the ‘‘Subject:’’ field.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mCOMMAND[0m [1mSYNOPSIS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       This is just a brief synopsis of [4msed[24m commands to serve as a reminder to
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       those who already know [4msed[24m; other documentation (such  as  the  texinfo
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       document) must be consulted for fuller descriptions.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K   [1mZero-address[0m [1m‘‘commands’’[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       : [4mlabel[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Label for [1mb[0m and [1mt[0m commands.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       #[4mcomment[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              The  comment  extends until the next newline (or the end of a [1m-e[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              script fragment).
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       }      The closing bracket of a { } block.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K   [1mZero-[0m [1mor[0m [1mOne-[0m [1maddress[0m [1mcommands[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       =      Print the current line number.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       a \
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [4mtext[24m   Append [4mtext[24m, which has each embedded newline preceded by a back-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              slash.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       i \
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [4mtext[24m   Insert [4mtext[24m, which has each embedded newline preceded by a back-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              slash.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       q      Immediately quit the [4msed[24m  script  without  processing  any  more
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input,  except  that  if  auto-print is not disabled the current
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              pattern space will be printed.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              Label for [1mb[0m and [1mt[0m commands.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              pattern space will be printed.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              Label for [1mb[0m and [1mt[0m commands.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              pattern space will be printed.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              Label for [1mb[0m and [1mt[0m commands.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       : [4mlabel[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input,  except  that  if  auto-print is not disabled the current
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       : [4mlabel[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input,  except  that  if  auto-print is not disabled the current
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       : [4mlabel[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input,  except  that  if  auto-print is not disabled the current
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       : [4mlabel[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input,  except  that  if  auto-print is not disabled the current
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       : [4mlabel[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM   [1mZero-address[0m [1m‘‘commands’’[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       q      Immediately quit the [4msed[24m  script  without  processing  any  more
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM   [1mZero-address[0m [1m‘‘commands’’[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       q      Immediately quit the [4msed[24m  script  without  processing  any  more
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input,  except  that  if  auto-print is not disabled the current
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              pattern space will be printed.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Q      Immediately quit the [4msed[24m  script  without  processing  any  more
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       r [4mfilename[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Append text read from [4mfilename[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       R [4mfilename[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Append a line read from [4mfilename[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K   [1mCommands[0m [1mwhich[0m [1maccept[0m [1maddress[0m [1mranges[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       {      Begin a block of commands (end with a }).
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       b [4mlabel[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Branch to [4mlabel[24m; if [4mlabel[24m is omitted, branch to end of script.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       t [4mlabel[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              If  a  s///  has  done  a successful substitution since the last
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input line was read and since the last  t  or  T  command,  then
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              branch to [4mlabel[24m; if [4mlabel[24m is omitted, branch to end of script.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       T [4mlabel[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              If  no  s///  has  done a successful substitution since the last
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input line was read and since the last  t  or  T  command,  then
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              branch to [4mlabel[24m; if [4mlabel[24m is omitted, branch to end of script.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       c \
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [4mtext[24m   Replace  the  selected  lines with [4mtext[24m, which has each embedded
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              newline preceded by a backslash.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       d      Delete pattern space.  Start next cycle.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       D      Delete up to the first embedded newline in  the  pattern  space.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Start  next  cycle,  but skip reading from the input if there is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              still data in the pattern space.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       h H    Copy/append pattern space to hold space.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       g G    Copy/append hold space to pattern space.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       x      Exchange the contents of the hold and pattern spaces.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       l      List out the current line in a ‘‘visually unambiguous’’ form.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       n N    Read/append the next line of input into the pattern space.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       p      Print the current pattern space.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       P      Print up to the first embedded newline of  the  current  pattern
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              space.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       s/[4mregexp[24m/[4mreplacement[24m/
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Attempt  to match [4mregexp[24m against the pattern space.  If success-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              ful,  replace  that  portion  matched  with  [4mreplacement[24m.    The
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [4mreplacement[24m may contain the special character [1m&[0m to refer to that
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       d      Delete pattern space.  Start next cycle.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              newline preceded by a backslash.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       [4mtext[24m   Replace  the  selected  lines with [4mtext[24m, which has each embedded
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       c \
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              branch to [4mlabel[24m; if [4mlabel[24m is omitted, branch to end of script.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              input line was read and since the last  t  or  T  command,  then
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM              If  no  s///  has  done a successful substitution since the last
+[24;1H[K:[24;1H[K [KESCESC[KOO[KAA[24;1H[HM       T [4mlabel[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       n N    Read/append the next line of input into the pattern space.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       p      Print the current pattern space.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       P      Print up to the first embedded newline of  the  current  pattern
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              space.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       s/[4mregexp[24m/[4mreplacement[24m/
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Attempt  to match [4mregexp[24m against the pattern space.  If success-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              ful,  replace  that  portion  matched  with  [4mreplacement[24m.    The
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [4mreplacement[24m may contain the special character [1m&[0m to refer to that
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              portion of the pattern space  which  matched,  and  the  special
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              escapes  \1  through  \9  to refer to the corresponding matching
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              sub-expressions in the [4mregexp[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       w [4mfilename[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Write the current pattern space to [4mfilename[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       W [4mfilename[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Write the first line of the current pattern space to [4mfilename[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       y/[4msource[24m/[4mdest[24m/
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Transliterate the characters in the pattern space  which  appear
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              in [4msource[24m to the corresponding character in [4mdest[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mAddresses[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [4mSed[24m  commands can be given with no addresses, in which case the command
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       will be executed for all input lines; with one address, in  which  case
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the  command  will  only  be  executed for input lines which match that
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       address; or with two addresses, in which case the command will be  exe-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       cuted  for  all  input  lines  which match the inclusive range of lines
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       starting from the first address and continuing to the  second  address.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Three  things  to  note about address ranges: the syntax is [4maddr1[24m,[4maddr2[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       (i.e., the addresses are separated by a comma); the  line  which  [4maddr1[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       matched will always be accepted, even if [4maddr2[24m selects an earlier line;
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       and if [4maddr2[24m is a [4mregexp[24m, it will not be tested against the  line  that
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [4maddr1[24m matched.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       After  the address (or address-range), and before the command, a [1m![0m  may
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       be inserted, which specifies that the command shall only be executed if
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the address (or address-range) does [1mnot[0m match.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       The following address types are supported:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [4mnumber[24m Match only the specified line [4mnumber[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [4mfirst[24m~[4mstep[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Match every [4mstep[24m’th line starting with line [4mfirst[24m.  For example,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              ‘‘sed -n 1~2p’’ will print all the  odd-numbered  lines  in  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              input  stream,  and the address 2~5 will match every fifth line,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              starting with the second. (This is an extension.)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       $      Match the last line.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       /[4mregexp[24m/
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Match lines matching the regular expression [4mregexp[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       \[1mc[0m[4mregexp[24m[1mc[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Match lines matching the regular expression [4mregexp[24m.  The  [1mc[0m  may
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              be any character.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       GNU [4msed[24m also supports some special 2-address forms:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       0,[4maddr2[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Start  out  in  "matched  first  address"  state, until [4maddr2[24m is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              found.  This is similar to 1,[4maddr2[24m, except that if [4maddr2[24m matches
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              the very first line of input the 0,[4maddr2[24m form will be at the end
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              of its range, whereas the 1,[4maddr2[24m form  will  still  be  at  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              beginning of its range.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [4maddr1[24m,+[4mN[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Will match [4maddr1[24m and the [4mN[24m lines following [4maddr1[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [4maddr1[24m,~[4mN[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Will  match  [4maddr1[24m  and the lines following [4maddr1[24m until the next
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              line whose input line number is a multiple of [4mN[24m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mREGULAR[0m [1mEXPRESSIONS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       POSIX.2 BREs [4mshould[24m be supported, but they aren’t completely because of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       performance  problems.  The [1m\n[0m sequence in a regular expression matches
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the newline character, and similarly for [1m\a[0m, [1m\t[0m, and other sequences.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mBUGS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       E-mail bug reports to [1mbonzini@gnu.org[0m.  Be sure  to  include  the  word
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       ‘‘sed’’  somewhere in the ‘‘Subject:’’ field.  Also, please include the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       output of ‘‘sed --version’’ in the body of your report if at all possi-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       ble.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mCOPYRIGHT[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Copyright © 2003 Free Software Foundation, Inc.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       This is free software; see the source for copying conditions.  There is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       NO warranty; not even for MERCHANTABILITY or FITNESS FOR  A  PARTICULAR
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       PURPOSE, to the extent permitted by law.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mSEE[0m [1mALSO[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1mawk[0m(1),  [1med[0m(1),  [1mgrep[0m(1),  [1mtr[0m(1),  [1mperlre[0m(1),  sed.info, any of various
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       books on [4msed[24m, the [4msed[24m FAQ (http://sed.sf.net/grabbag/tutorials/sed-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       faq.html), http://sed.sf.net/grabbag/.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       The full documentation for [1msed[0m is maintained as a Texinfo manual.  If
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the [1minfo[0m and [1msed[0m programs are properly installed at your site, the com-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       mand
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1minfo[0m [1msed[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       should give you access to the complete manual.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[Ksed version 4.1.3                January 2005                           SED(1)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[24;1H[K[7m(END) [27m[24;1H[K[?1l>[?1049l]0;Student@localhost:~[Student@localhost ~]$ cut -f1 Ch11S1F1
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed se[K[K''-'s'[1P'[1P's'\'[1P'|'\'0'[1P'9'0'[1P'[1P'(')'[)'])'A])'-])'Z])'a])'-])'s])'[1P])'c])'[1P])'z])'[Student@localhost ~]$ sed 's|\([A-Za-z]*)'*)'_*)'[Student@localhost ~]$ sed 's|\([A-Za-z]*_*\)'[Student@localhost ~]$ sed 's|\([A-Za-z]*_*\)/'[1P'\'[']'[1P'(')'[1P()'[Student@localhost ~]$ sed 's|\([A-Za-z]*_*\)\(_)'9)'0)'[1P)'[1P)'*)'[)'])'A])'-])'Z])'a])'-])'z])'[Student@localhost ~]$ sed 's|\([A-Za-z]*_*\)\(_*[A-Za-z]*)'*)'-*)'[1P*)'_*)'[Student@localhost ~]$ sed 's|\([A-Za-z]*_*\)\(_*[A-Za-z]*_*\)'[Student@localhost ~]$ sed 's|\([A-Za-z]*_*\)\(_*[A-Za-z]*_*\)\'|'\'2','.'\'1'\'2'|'[Student@localhost ~]$ sed 's|\([A-Za-z]*_*\)\(_*[A-Za-z]*_*\)\|\2,.\1\2|' Ch11S 1F1
+sed: -e expression #1, char 45: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's|\([A-Za-z]*_*\)\(_*[A-Za-z]*_*\)\|\2,.\1\2|' Ch11S11F1[A[Student@localhost ~]$ sed 's|\([A-Za-z]*_*\)\(_*[A-Za-z]*_*\)\|\2,.\1\2|' Ch11-s|\([A-Za-z]*_*\)\(_*[A-Za-z]*_*\)\|\2,.\1\2|' Ch11S1F1[A[Student@localhost ~]$ sed '-
+
+sed: invalid option -- |
+Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+
+  -n, --quiet, --silent
+                 suppress automatic printing of pattern space
+  -e script, --expression=script
+                 add the script to the commands to be executed
+  -f script-file, --file=script-file
+                 add the contents of script-file to the commands to be executed
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 edit files in place (makes backup if extension supplied)
+  -l N, --line-length=N
+                 specify the desired line-wrap length for the `l' command
+  --posix
+                 disable all GNU extensions.
+  -r, --regexp-extended
+                 use extended regular expressions in the script.
+  -s, --separate
+                 consider files as separate rather than as a single continuous
+                 long stream.
+  -u, --unbuffered
+                 load minimal amounts of data from the input files and flush
+                 the output buffers more often
+      --help     display this help and exit
+      --version  output version information and exit
+
+If no -e, --expression, -f, or --file option is given, then the first
+non-option argument is taken as the sed script to interpret.  All
+remaining arguments are names of input files; if no input files are
+specified, then the standard input is read.
+
+E-mail bug reports to: bonzini@gnu.org .
+Be sure to include the word ``sed'' somewhere in the ``Subject:'' field.
+]0;Student@localhost:~[Student@localhost ~]$ sed '-s|\([A-Za-z]*_*\)\(_*[A-Za-z]*_*\)\|\2,.\1\2|' Ch11SS1F1[A[Student@localhost ~]$ sed 's|\([A-Za-z]*_*\)\(_*[A-Za-z]*_*\)\|\2,.\1\2|' Ch11S1[1PF1[A[Student@localhost ~]$ sed '-s|\([A-Za-z]*_*\)\(_*[A-Za-z]*_*\)\|\2,.\1\2|' Ch11S1F1[A[Student@localhost ~]$ [K
+[K[A[Student@localhost ~]$ sed '-s|\([A-Za-z]*_*\)\(_*[A-Za-z]*_*\)\|\2,.\1\2|' Ch11SS1F1[A[Student@localhost ~]$ sed '-s|\([A-Za-z]*_*\)\(_*[A-Za-z]*_*\)\|\2,.\1\2|' Ch1*\)\|\2,.\1\2|' Ch11S1[1PF1[A[Student@localhost ~]$ sed '-s|\([A-Za-z]*_*\)\(_*[A-Za-z]* *\)\|\2,.\1\2|' Ch11S1F1[A[Student@localhost ~]$ sed '-s|\([A-Za-z]*_*\)\(_*[A-Za-z]* *[A-Za-z]* *\)\|\2,.\1\2|' Ch11S1[1PF1[A[Student@localhost ~]$ sed '-s|\([A-Za-z]*_*\)\( *[A-Za-z]* *\)\|\2,.\1\2|' Ch11S1F1[A[Student@localhost ~]$ sed '-s|\([A-Za-z]*_*\)\( *\)\( *[A-Za-z]* *\)\|\2,.\1\2|' Ch11S1[1PF1[A[Student@localhost ~]$ sed '-s|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\2|' Ch11S1F1[A[Student@localhost ~]$ sed '-s|\([A-Za-z]* s|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\2|' Ch11S1[1PF1[A[Student@localhost ~]$ sed '
+
+sed: -e expression #1, char 45: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\2|' Ch11S11F1[A[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\2|' Ch11[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\2|' Ch11S1F[1P1[A[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\3|' Ch11S1F1[A[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\3
+
+sed: -e expression #1, char 45: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\3|' Ch11S11F1[A[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\3|' Ch11' Ch11S1F[1P1[A[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\3[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\3' Ch11S1F1[K[A[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\2,.\1\3' Ch11S1F1 [K[A[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)[1P
+[K[A[Student@localhost ~]$ sed 's
+sed: -e expression #1, char 18: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Za-z]* *\)\2,.\1\3' Ch11S1F1[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\3|' Ch11S11F1[A[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\3|' Ch11[Student@localhost ~]$ sed 's[Student@localhost ~]$ sed 's|[Student@localhost ~]$ sed 's|\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|\2,.\1\3|' Ch11S1F[1P1[A[Student@localhost ~]$ sed 's[Student@localhost ~]$ sed 's\[Student@localhost ~]$ sed 's\([Student@localhost ~]$ sed 's\([[Student@localhost ~]$ sed 's\([A[Student@localhost ~]$ sed 's\([A-[Student@localhost ~]$ sed 's\([A-Z[Student@localhost ~]$ sed 's\([A-Za[Student@localhost ~]$ sed 's\([A-Za-[Student@localhost ~]$ sed 's\([A-Za-z[Student@localhost ~]$ sed 's\([A-Za-z][Student@localhost ~]$ sed 's\([A-Za-z]*[Student@localhost ~]$ sed 's\([A-Za-z]* [Student@localhost ~]$ sed 's\([A-Za-z]* *[Student@localhost ~]$ sed 's\([A-Za-z]* *\[Student@localhost ~]$ sed 's\([A-Za-z]* *\)[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\([Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( [Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Z[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Za[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Za-[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Za-z[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Za-z][Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Za-z]*[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Za-z]* [Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Za-z]* *[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Za-z]* *\[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Za-z]* *\)[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Za-z]* *\)\[Student@localhost ~]$ sed 's\([A-Za-z]* *\)\( *[A-Za-z]* *\)\|]* *\)\( *[A-Za-z]* *\)\|\2,.\1\3|' Ch11S1F1[K[A[Student@localhost ~]$ sed 's\([A-Za-]* *\)\( *[A-Za-z]* *\)\|\2,.\1\3|' Ch11S1F1 [K[A[Student@localhost ~]$ sed 's\([A-Za[1P
+[K[A[Student@localhost ~]$ sed 's\([A-Z[Student@localhost ~]$ sed 's\([A-Z][Student@localhost ~]$ sed 's\([A-Z]*[Student@localhost ~]$ sed 's\([A-Z]* [Student@localhost ~]$ sed 's\([A-Z]* *[Student@localhost ~]$ sed 's\([A-Z]* *\[Student@localhost ~]$ sed 's\([A-Z]* *\)[Student@localhost ~]$ sed 's\([A-Z]* *\)\[Student@localhost ~]$ sed 's\([A-Z]* *\)\([Student@localhost ~]$ sed 's\([A-Z]* *\)\( [Student@localhost ~]$ sed 's\([A-Z]* *\)\( *[Student@localhost ~]$ sed 's\([A-Z]* *\)\( *[[Student@localhost ~]$ sed 's\([A-Z]* *\)\( *[A[Student@localhost ~]$ sed 's\([A-Z]* *\)\( *[A-[Student@localhost ~]$ sed 's\([A-Z]* *\)\( *[A-Z[Student@localhost ~]$ sed 's\([A-Z]* *\)\( *[A-Za[Student@localhost ~]$ sed 's\([A-Z]* *\)\( *[A-Za-[Student@localhost ~]$ sed 's\([A-Z]* *\)\( *[A-Za-z[Student@localhost ~]$ sed 's\([A-Z]* *\)\( *[A-Za-z][1P[1P[1P
+sed: -e expression #1, char 15: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's\([A-Z]* *\)\( *[A-Z]* *\)\|\2,.\1\3|' Ch11S1F1[4h*[4l
+sed: -e expression #1, char 15: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's\([A-Z]* *\)\(* *[A-Z]* *\)\|\2,.\1\3|' Ch11S1F1[1P[1P
+sed: -e expression #1, char 15: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's\([A-Z]* *\)\(* *[A-Z]* *\)\|\2,.\1|' Ch11S1F1[4h*[4l
+sed: -e expression #1, char 15: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's\([A-Z]* *\)\(* *[A-Z]* *\)\|\2,.*\1|' Ch11S1F1[1P[1P[4h.[4l[Student@localhost ~]$ sed 's\([A-Z]* *\)\(*[1P[1P[4h/[4l
+sed: -e expression #1, char 36: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Z]* *\)\( *[A-Z]* *\)\|\2,.\1|' Ch11S1F1[1P[4h/[4l[4h/[4l[1P
+sed: -e expression #1, char 36: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Z]* *\)\( *[A-Z]* *\)\|\2,.\1/' Ch11S1F1[1P[4h/[4l[Student@localhost ~]$ sed 's/([A-Z]* *\)/([Student@localhost ~]$ sed 's/([A-Z]* *\)/( [Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z][Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]*[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* [Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\)[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\)\[1P[4h/[4l[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\)/|[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\)/|\[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\)/|\2[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\)/|\2,[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\)/|\2,.[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\)/|\2,.\[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\)/|\2,.\1[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\)/|\2,.\1/[1P
+sed: -e expression #1, char 29: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\)/|\2,.\1' Ch11S1F1[4h/[4l
+sed: -e expression #1, char 29: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Z]* *\)/( *[A-Z]* *\)/|\2,.\1/' Ch11S1F1[1P[1P[Student@localhost ~]$ sed 's/([A-Z]* *)[Student@localhost ~]$ sed 's/([A-Z]* *)/[Student@localhost ~]$ sed 's/([A-Z]* *)/([Student@localhost ~]$ sed 's/([A-Z]* *)/( [Student@localhost ~]$ sed 's/([A-Z]* *)/( *[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z][Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]*[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* [Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *\[1P
+sed: -e expression #1, char 27: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *)/|\2,.\1' Ch11S1F1[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *)/|\2,.\1[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[4h*[4l[4h*[4l[1P[4h [4l[4h*[4l[4h)[4l[Student@localhost ~]$ sed 's/([A-Z]*[Student@localhost ~]$ sed 's/([A-Z]* [Student@localhost ~]$ sed 's/([A-Z]* *[Student@localhost ~]$ sed 's/([A-Z]* *)[Student@localhost ~]$ sed 's/([A-Z]* *)/[Student@localhost ~]$ sed 's/([A-Z]* *)/([Student@localhost ~]$ sed 's/([A-Z]* *)/( [Student@localhost ~]$ sed 's/([A-Z]* *)/( *[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z][Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]*[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* [Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *)[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *)'[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *)' [Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *)' C
+sed: -e expression #1, char 25: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *)' Ch11S1F1[4h/[4l
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *)/' Ch11S1F1[1P
+sed: -e expression #1, char 25: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *)' Ch11S1F1[4h/[4l[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *)/' Ch11S1F1[4h\[4l[4h2[4l[4h,[4l[4h.[4l[4h\[4l[4h1[4l
+sed: -e expression #1, char 32: invalid reference \3 on `s' command's RHS
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Z]* *)/( *[A-Z]* *)\2,.\1/' Ch11S1F1[4h*[4l[Student@localhost ~]$ sed 's/([A-Z]* *)/(* [Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z][Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z]*[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z]* [Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z]* *[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z]* *)[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z]* *)\[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z]* *)\2[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z]* *)\2,[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z]* *)\2,.[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z]* *)\2,.\[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z]* *)\2,.\1
+sed: -e expression #1, char 33: invalid reference \3 on `s' command's RHS
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z]* *)\2,.\1/' Ch11S1F1[1P[1P[1P[1P[1P[1P
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Z]* *)/(* *[A-Z]* *)/' Ch11S1F1[Student@localhost ~]$ sed 's/([A-[Student@localhost ~]$ sed 's/([A-Z[4ha[4l[4h-[4l[4hz[4l[Student@localhost ~]$ sed 's/([A-Za-z][Student@localhost ~]$ sed 's/([A-Za-z]*[Student@localhost ~]$ sed 's/([A-Za-z]* [Student@localhost ~]$ sed 's/([A-Za-z]* *[Student@localhost ~]$ sed 's/([A-Za-z]* *)[Student@localhost ~]$ sed 's/([A-Za-z]* *)/[Student@localhost ~]$ sed 's/([A-Za-z]* *)/([Student@localhost ~]$ sed 's/([A-Za-z]* *)/(*[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* [Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Z[4ha[4l[4h-[4l[4hz[4l
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)/' Ch11S1F1[4h\[4l[4h2[4l[4h,[4l[4h.[4l[4h1[4l[1P[4h\[4l[4h1[4l
+sed: -e expression #1, char 39: invalid reference \3 on `s' command's RHS
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\2,.\1/' Ch11S1F1[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\[4h\[4l[4h([4l)\2,.\1/' Ch11S1F1 [A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\()[)\2,.\1/' Ch11S1F11[A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([])\2,.\1/' Ch11S1F1[A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([][)\2,.\1/' Ch11S1F1[A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([][])\2,.\1/' Ch11S1F1[A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([][]0][])\2,.\1/' Ch11S1F1[A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-][])\2,.\1/' Ch11S1F1[A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][])\2,.\1/' Chh11S1F1[A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0])\2,.\1/' Ch11S1F1[A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-])\2,.\1/' Ch11S1F1[A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])\2,.\1/' Ch11S1F1[A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9[K[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])\2,.\1/' Ch11S1F1[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9][Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])\[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])\2[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])\2,[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])\2,.[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])\2,.\[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])\2,.\1[4h\[4l[4h3[4l[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])\2,.\1\3/[1P[4h/[4l
+sed: -e expression #1, char 47: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' Ch11S1F1[4h\[4l
+sed: -e expression #1, char 48: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' Ch11S1F1[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])/\2,.[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3[1P[Student@localhost ~]$ sed 's/([Student@localhost ~]$ sed 's/([[Student@localhost ~]$ sed 's/([A[Student@localhost ~]$ sed 's/([A-[Student@localhost ~]$ sed 's/([A-Z[Student@localhost ~]$ sed 's/([A-Za[Student@localhost ~]$ sed 's/([A-Za-[Student@localhost ~]$ sed 's/([A-Za-z[Student@localhost ~]$ sed 's/([A-Za-z][Student@localhost ~]$ sed 's/([A-Za-z]*[Student@localhost ~]$ sed 's/([A-Za-z]* [Student@localhost ~]$ sed 's/([A-Za-z]* *[Student@localhost ~]$ sed 's/([A-Za-z]* *)[Student@localhost ~]$ sed 's/([A-Za-z]* *)/[Student@localhost ~]$ sed 's/([A-Za-z]* *)/([Student@localhost ~]$ sed 's/([A-Za-z]* *)/(*[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* [Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Z[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z][Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]*[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* [Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)\[1P[4h/[4l[4h/[4l
+sed: -e expression #1, char 34: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)//([0-9][0-9])/\2,.\1\3' Ch11S1F1[Student@localhost ~]$ sed 's/([A-Za-z]* *)/(* *[A-Za-z]* *)//([0-9][0-9][Student@localhost ~]$ sed 's/\([A-Za-z]* *)/(* *[A-Za-z]* *)\[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' Ch11S1F1[4h\[4l
+sed: -e expression #1, char 49: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' Ch11S1F1[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9][Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3'[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' [Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' C[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' Ch[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' Ch1[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' Ch11[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' Ch11S[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' Ch11S1[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' Ch11S1F[Student@localhost ~]$ sed 's/\([A-Za-z]* *)/\(* *[A-Za-z]* *)\([0-9][0-9])/\2,.\1\3' Ch11S1F1[Student@localhost ~]$ [Ksed ''s'?'[1P'/'\'(')'{)'})'[Student@localhost ~]$ sed 's/\({}[1P)'[1P)'[)'])'A])'-])'Z])'a])'-])'z])'[Student@localhost ~]$ sed 's/\([A-Za-z]*)'*)'_*)'[1P*)' *)'[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)'[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\'(')'[)'])'a])'-])'[1P])'[1P])'A])'-])'Z])'a])'-])'z])'[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\([A-Za-z]*)'*)' *)'[4h [4l[4h*[4l[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Z[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z][Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]*[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* [Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *)[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *)\'(')'[)'])'0])'-])'9])'[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *)\([0-9][)'])'0])'-])'9])'[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *)\([0-9][0-9]\)'[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *)\([0-9][0-9]\)/'\'2','.'\'1'\'2'[1P'3'
+sed: -e expression #1, char 56: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *)\([0-9][0-9]\)/\2,.\1\3'[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\([4h*[4l
+sed: -e expression #1, char 57: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *)\([0-9][0-9]\)/\2,.\1\3'[1P[4h/[4l
+sed: -e expression #1, char 50: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)/(* *[A-Za-z]* *)\([0-9][0-9]\)/\2,.\1\3'\[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *)\([0-9][0-9]\)/\2,.\1\3'
+sed: -e expression #1, char 57: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *)\([0-9][0-9]\)/\2,.\1\3'\)\([0-9][0-9]\)/\2,.\1\3'[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9][Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.\[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.\1[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.\1\[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.\1\3[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.\1\3' Ch11S1F1
+sed: -e expression #1, char 58: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.\1\3' Ch11S1F1[4h/[4l
+sed: -e expression #1, char 52: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)/\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.\1\3' Ch11S1F1[1P
+sed: -e expression #1, char 58: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.\1\3' Ch11S1F1[1P
+sed: -e expression #1, char 57: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.\1\3' Ch11S1F1[4h*[4l[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.\1\3' Ch11S1F1
+sed: -e expression #1, char 58: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.\1\3' Ch11S1F1[Student@localhost ~]$ sed 's/[4h^[4l
+sed: -e expression #1, char 59: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2,.\1\3' Ch11S1F1[4h$[4l
+sed: -e expression #1, char 60: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\1\3' Ch11S1F1[4h/[4l[1P[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\([Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(*[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* [Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Z[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z][Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]*[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* [Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9][Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\1[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\1\[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\1\3[4h/[4l
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\1\3/' Ch11S1F1[Student@localhost ~]$ [Ksed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\1\3/' Ch11S1F1[1P[4h [4l
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2, \1\3/' Ch11S1F1[1P[Student@localhost ~]$ sed 's[1P
+sed: -e expression #1, char 51: unknown command: `\'
+]0;Student@localhost:~[Student@localhost ~]$ sed '/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[4hs/[4l^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[2P/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)[Student@localhost ~]$ sed '/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ [Ksed '/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[4hs/[4l^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[2P/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)[Student@localhost ~]$ sed '/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ [Ksed '/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[4hs/[4l^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[2P/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)[Student@localhost ~]$ sed '/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[4hs/[4l^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[2P/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)[Student@localhost ~]$ sed '/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[4hs/[4l^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[2P/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)[Student@localhost ~]$ sed '/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[4hs/[4l^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2, \1\3/' Ch11S1F1.[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\1\3/' Ch11S1F1[1P[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\1\3' Ch11S1F1[4h/[4l[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\1\3/' Ch11S1F1 [Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[2P/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)[Student@localhost ~]$ sed '/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed '[4hs/[4l^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2, \1\3/' Ch11S1F1.[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\1\3/' Ch11S1F1[1P[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\1\3' Ch11S1F1[4h/[4l[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2,.\1\3/' Ch11S1F1 [Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2, \1\3/' Ch11S1F1
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/^\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed 's/^[1P
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)$/\2, \1\3/' Ch11S1F1[1P
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[4h/[4l
+sed: -e expression #1, char 52: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)/\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)/\(* *[A-Za-z]* *\)\([0-9][0-9]\)/[1P
+sed: -e expression #1, char 59: invalid reference \4 on `s' command's RHS
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)/\(* *[A-Za-z]* *\)\([0-9][0-9]\)\2, \1\3/' Ch11S1F1[4h/[4l[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)/\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)[1P[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[1P
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z] *\)\(* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed 's/\([A-Za-z] *\[Student@localhost ~]$ sed 's/\([A-Za-z] *\)[Student@localhost ~]$ sed 's/\([A-Za-z] *\)\[Student@localhost ~]$ sed 's/\([A-Za-z] *\)\([1P[4h*[4l
+sed: -e expression #1, char 58: Unmatched ) or \)
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\* *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\*[1P[4h([4l
+Adams     , John   55
+Bull , George  77
+Blue    , Anne 99
+Blue  , Janet  67
+Benjamin      , Ben 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[1P
+John   s     , Adam55
+George  l , Bul77
+Anne e    , Blu99
+Janet  e  , Blu67
+Ben n      , Benjami78
+Ted e , Whit32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z] *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[4h*[4l[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1
+Adams     , John   55
+Bull , George  77
+Blue    , Anne 99
+Blue  , Janet  67
+Benjamin      , Ben 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[1P
+John    , Adams    55
+Bull , George  77
+Anne  , Blue   99
+Janet   , Blue 67
+Ben  , Benjamin     78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* \)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[1P
+John       , Adams 55
+ Bull , George 77
+Anne    , Blue 99
+Janet   , Blue 67
+Ben      , Benjamin 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* \)\( *[A-Za-z]* \)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[1P
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* \)\(*[A-Za-z]* \)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[4h [4l[Student@localhost ~]$ sed 's/\([A-Za-z]* \)\( *[A-Za-z]* \)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1
+John       , Adams 55
+ Bull , George 77
+Anne    , Blue 99
+Janet   , Blue 67
+Ben      , Benjamin 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* \)\( *[A-Za-z]* \)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[1P
+John        , Adams55
+  Bull , George77
+Anne     , Blue99
+Janet    , Blue67
+Ben       , Benjamin78
+ White , Ted32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]*\)\( *[A-Za-z]* \)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ sed 's/\([A-Za-z]*[4h [4l[Student@localhost ~]$ sed 's/\([A-Za-z]* \)\( *[A-Za-z]* \)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1
+John       , Adams 55
+ Bull , George 77
+Anne    , Blue 99
+Janet   , Blue 67
+Ben      , Benjamin 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/\([A-Za-z]* \)\( *[A-Za-z]* \)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ [K sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1
+Adams     , John   55
+Bull , George  77
+Blue    , Anne 99
+Blue  , Janet  67
+Benjamin      , Ben 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$  sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[1P
+  Adams     , John 55
+ Bull , George 77
+Blue    , Anne 99
+ Blue  , Janet 67
+Benjamin      , Ben 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[1P
+John       , Adams 55
+ Bull , George 77
+Anne    , Blue 99
+Janet   , Blue 67
+Ben      , Benjamin 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z]* \)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[4h*[4l[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1
+  Adams     , John 55
+ Bull , George 77
+Blue    , Anne 99
+ Blue  , Janet 67
+Benjamin      , Ben 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z]*[1P
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z] *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[4h*[4l[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1
+  Adams     , John 55
+ Bull , George 77
+Blue    , Anne 99
+ Blue  , Janet 67
+Benjamin      , Ben 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z][1P[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z] *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[4h*[4l[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[1P[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z]* \)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[4h*[4l[Student@localhost ~]$  sed 's/\([A-Za-z]* \)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$  sed 's/\([A-Za-z]* [4h*[4l[Student@localhost ~]$  sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1
+Adams     , John   55
+Bull , George  77
+Blue    , Anne 99
+Blue  , Janet  67
+Benjamin      , Ben 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$  sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' Ch11S1F1[Student@localhost ~]$ [Ksed ''s'/' ' '/' '/'g'[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed [K[1Psed[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |s[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |se[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed ""[K[K''s'/' ' '/' '/'[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/  / /'[K[K[K[K[K[K[K[K[K[K ''s'/'\'(')'[)'])'A])'-])'z])'[1P])'Z])'a])'-])'z])'[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]8)'8)'[1P)'[1P)'*)'*)'\)' *\)'[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\'(')'[)'])'A])'-])'Z])'a])'-])'z])' [A-Za-z])'*[A-Za-z])'[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Z[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Za[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Za-[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Za-z[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Za-z]*)'*)'\)' *\)'[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\'(')'[)'])'[)'])'0][])'-][])'9][])'[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0])'-])'9])'[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)'[1P)'/)'\)'2)',)'.)'[1P)' )'\)'1)'\)'3)'[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]/\2, \1\3)[1P'[4h)[4l[4h\[4l
+sed: -e expression #1, char 57: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3'[4h [4l
+sed: -e expression #1, char 57: unterminated `s' command
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3'/'
+Adams   , John  55
+Bull , George 77
+Blue  , Anne 99
+Blue , Janet 67
+Benjamin   , Ben 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[Student@localhost ~]$ sed 's/  / /g'[Student@localhost ~]$ sed 's/  / /g' [Student@localhost ~]$ sed 's/  / /g' C[Student@localhost ~]$ sed 's/  / /g' Ch[Student@localhost ~]$ sed 's/  / /g' Ch1[Student@localhost ~]$ sed 's/  / /g' Ch11[Student@localhost ~]$ sed 's/  / /g' Ch11S[Student@localhost ~]$ sed 's/  / /g' Ch11S1[Student@localhost ~]$ sed 's/  / /g' Ch11S1F[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 [Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |[4h|[4l[4h [4l[4hs[4l[4he[4l[4hd[4l[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed [4h [4l[4h'[4l[4hs[4l[4h/[4l[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/ [4h [4l[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/  [4h [4l/ | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/' [A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/  /[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/  /  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/''[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/  / / | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/  / /g | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/  / /g'[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/  / /g'  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\[1P3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 |sed 's/  / /g' sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | 
+
+Adams  , John 55
+Bull , George 77
+Blue , Anne 99
+Blue , Janet 67
+Benjamin  , Ben 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \11\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, [Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' \  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'\{  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'\{}  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'\{}\}  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\[4h2[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'\{\3\}  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/[4h\[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'\{3
+
+sed: -e expression #1, char 9: unknown option to `s'
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'\{3\}  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)//\2, \1\3/'[K[K/"[K'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'\{3\}  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'\{3\}  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'\{3\  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'\{3  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2,[1P \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'\{  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, [1P\1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'\  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \[1P1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'
+
+Adams  , John 55
+Bull , George 77
+Blue , Anne 99
+Blue , Janet 67
+Benjamin  , Ben 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \\1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2,| | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' |[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' |  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | { | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | {3 | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\[4h2[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | {3\ | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/[4h\[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | {3\} | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)[4h/[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | {3\}[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | {3\}  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\[4h)[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | {3\} | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | {3\} | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | {3\ | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | {3 | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | { | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2,[1P \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | s | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | se | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\[4h2[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/[4h\[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)[4h/[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed ' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\[4h)[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9][4h\[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/ | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9[4h][4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-[4h9[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/ [Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/   | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0[4h-[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][[4h0[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  /[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  /  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][4h[[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / / | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9[4h][4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-[4h9[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0[4h-[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g'
+
+Adams , John 55
+Bull , George 77
+Blue , Anne 99
+Blue , Janet 67
+Benjamin , Ben 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([00-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\(| | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([[4h0[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g'| | | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([4h[[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' [Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |s | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\[4h([4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |se | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)[4h\[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\[4h)[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *[4h\[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed ' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* [4h*[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]*[4h [4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's/ | sed 's/\([A-Za-z]* *\)\( *[A-Za-z][4h*[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's/[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's/  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z[4h][4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's/ [Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's/   | sed 's/\([A-Za-z]* *\)\( *[A-Za-[4hz[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's/  / | sed 's/\([A-Za-z]* *\)\( *[A-Za[4h-[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's/  /[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's/  /  | sed 's/\([A-Za-z]* *\)\( *[A-Z[4ha[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's/  / / | sed 's/\([A-Za-z]* *\)\( *[A-[4hZ[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's/  / /g | sed 's/\([A-Za-z]* *\)\( *[A[4h-[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[[4hA[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' |sed 's/  / /g' sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[4h[[4l[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' | 
+
+Adams , John 55
+Bull , George 77
+Blue , Anne 99
+Blue , Janet 67
+Benjamin , Ben 78
+White , Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( **[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1\3/'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0[17P0-9][0-9]\)/\2, \1\3/' | sed ""[K[K''s0-9][0-9]\)/\2, \1\3/' | sed ''s[K[Ks"[K'/' ','/','/'g'
+Adams, John 55
+Bull, George 77
+Blue, Anne 99
+Blue, Janet 67
+Benjamin, Ben 78
+White, Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([00-9][0-9]\)/\2, \1\3/' | sed 's/ ,/,/g'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\( | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / / | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/ | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/ | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9][1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed ' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | se | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | s | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2,[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, [1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \1[1P[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g'
+
+Adams , John 55
+Bull, George 77
+Blue, Anne 99
+Blue, Janet 67
+Benjamin , Ben 78
+White, Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0-9][0-9]\)/\2, \11\3/' | sed 's/ ,/,/g'[A[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([0[4h-9][0-9]\)/\2, \1[4l0-9][0-9]\)/\2, \1\3/' | sed 's/ ,/,/g'
+Adams, John 55
+Bull, George 77
+Blue, Anne 99
+Blue, Janet 67
+Benjamin, Ben 78
+White, Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ echo ''
+A/                  Ch10S3F3            Ch6S7F2             .gnome2/            moeller.test1       ThisMonth
+.bash_history       Ch10S3F4            Ch6SIIF1            .gnome2_private/    .mozilla/           .Trash/
+.bash_logout        Ch10S3F5            Ch6SIIF2            grady.10.III.txt    mylisting           .viminfo
+.bash_profile       Ch10S4F1            Ch6SIIF3            grady.10.II.txt     .nautilus/          winfield.6.III.txt
+.bashrc             Ch10S4F2            Ch6SIIF3~           grady.10.I.txt      .openoffice.org2.0/ winfield.6.II.txt
+C444/               Ch10S4F3            Ch6SIIF4            grady.10.IV.txt     outfile             winfield.6.IV.txt
+cal                 Ch10S5F1            ChSIIF2             grady.10.V.txt      pipe.example        winfield.6.VII.txt
+Ch10S1F1            Ch11S1F1            Desktop/            grady.11.I.txt      .recently-used      winfield.6.VI.txt
+Ch10S1F2            Ch6S3F1             .dmrc               grady.L7IV.txt      .rhn-applet.cache   winfield.6.V.txt
+Ch10S2F1            Ch6S3F1Encr         .eggcups/           grady.LIIIs         .rhn-applet.conf    .Xauthority
+Ch10S2F2            Ch6S4F1             .esd_auth           .gstreamer-0.8/     .ssh/               .zshrc
+Ch10S2F3            Ch6S5F1             .evolution/         .gtkrc              temp                
+Ch10S2F4            Ch6S5F2             F1s                 .gtkrc-1.2-gnome2   temp1               
+Ch10S3F1            Ch6S5F3             F2s                 .ICEauthority       temp2               
+Ch10S3F2            Ch6S6F1             .gconf/             .kde/               temp3               
+CH10S3F2            Ch6S7F1             .gconfd/            .metacity/          temp4               
+[Student@localhost ~]$ echo ''[Student@localhost ~]$ echo 'L'O'O'O'[1P'K' 'I'T' 'W'O'R'K'S' '[1P'!' 'I'T' 'W'O'R'K'S'!'
+LOOK IT WORKS! IT WORKS!
+]0;Student@localhost:~[Student@localhost ~]$ echo 'LOOK IT WORKS! IT WORKS!'[Student@localhost ~]$ [KSORT [K[K[K[K[Ksort [K[K[K[K[Kecho 'LOOK IT WORKS! IT WORKS!'[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([00-9][0-9]\)/\2, \1\3/' | sed 's/ ,/,/g'
+Adams, John 55
+Bull, George 77
+Blue, Anne 99
+Blue, Janet 67
+Benjamin, Ben 78
+White, Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sed 's/  / /g' Ch11S1F1 | sed 's/  / /g' | sed 's/  / /g' | sed 's/\([A-Za-z]* *\)\( *[A-Za-z]* *\)\([00-9][0-9]\)/\2, \1\3/' | sed 's/ ,/,/g' > ch[K[KCh11S1F2
+]0;Student@localhost:~[Student@localhost ~]$ a[Kcat Ch1[K11D[KS1F1[K2
+Adams, John 55
+Bull, George 77
+Blue, Anne 99
+Blue, Janet 67
+Benjamin, Ben 78
+White, Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sort -t [K'' '[Student@localhost ~]$ sort -t' ' [K[K'
+
+
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 04 May 2006 09:02:08 AM EDT
+
+Script started on Thu 04 May 2006 04:25:52 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ script grady.11.I.txt[7Pcat > Ch11S1F1[4Psort -t' '[K[K[K[K[K[K[K[K[K[Kcat Ch11s[KS1F1
+John   Adams     55
+George  Bull 77
+Anne Blue    99
+Janet  Blue  67
+Ben Benjamin      78
+Ted White 32
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S1F1[Student@localhost ~]$ cat Ch11S1F1[K2
+Adams, John 55
+Bull, George 77
+Blue, Anne 99
+Blue, Janet 67
+Benjamin, Ben 78
+White, Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch11S1F21script grady.11.I.txt[7Pcat > Ch11S1F1[4Psort -t' ' c[KCh11S1F2
+Adams, John 55
+Benjamin, Ben 78
+Blue, Anne 99
+Blue, Janet 67
+Bull, George 77
+White, Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sort -t' ' Ch11S1F2[Student@localhost ~]$ sort -t' '  Ch11S1F2+ Ch11S1F23 Ch11S1F2[Student@localhost ~]$ sort -t' ' +3  Ch11S1F2[1P[4h2[4l[Student@localhost ~]$ sort -t' ' +2   Ch11S1F2[4h-[4l[4h3[4l
+White, Ted 32
+Adams, John 55
+Blue, Janet 67
+Bull, George 77
+Benjamin, Ben 78
+Blue, Anne 99
+]0;Student@localhost:~[Student@localhost ~]$ sort -t' ' +2 -3  Ch11S1F2[4h+[4l[4h0[4l[Student@localhost ~]$ sort -t' '+0 [4h [4l[4h-[4l[4h1[4l[Student@localhost ~]$ sort -t' '+0 -1 [4h [4l
+sort: multi-character tab ` +0'
+]0;Student@localhost:~[Student@localhost ~]$ sort -t' '+0 -1  +2 -3  Ch11S1F2[4h,[4l
+sort: multi-character tab ` +0'
+]0;Student@localhost:~[Student@localhost ~]$ sort -t' '+0 -1,  +2 -3  Ch11S1F2[1P[Student@localhost ~]$ sort -t' '+0 -1  +2 -3  Ch11S1F2[Student@localhost ~]$ sort -t' '+0 -1 [Student@localhost ~]$ sort -t' '+0 -1 [Student@localhost ~]$ sort -t' '+0 -1  [Student@localhost ~]$ sort -t' '+0 -1  +[Student@localhost ~]$ sort -t' '+0 -1  +2[Student@localhost ~]$ sort -t' '+0 -1  +2 [Student@localhost ~]$ sort -t' '+0 -1  +2 -[Student@localhost ~]$ sort -t' '+0 -1  +2 -3[Student@localhost ~]$ sort -t' '+0 -1  +2 -3 [Student@localhost ~]$ sort -t' '+0 -1  +2 -3  [Student@localhost ~]$ sort -t' '+0 -1  +2 -3  C[Student@localhost ~]$ sort -t' '+0 -1  +2 -3  Ch[Student@localhost ~]$ sort -t' '+0 -1  +2 -3  Ch1[Student@localhost ~]$ sort -t' '+0 -1  +2 -3  Ch11[Student@localhost ~]$ sort -t' '+0 -1  +2 -3  Ch11S[Student@localhost ~]$ sort -t' '+0 -1  +2 -3  Ch11S1[Student@localhost ~]$ sort -t' '+0 -1  +2 -3  Ch11S1F[Student@localhost ~]$ sort -t' '+0 -1  +2 -3  Ch11S1F2[4h [4l[Student@localhost ~]$ sort -t' ' +[Student@localhost ~]$ sort -t' ' +0[Student@localhost ~]$ sort -t' ' +0 [Student@localhost ~]$ sort -t' ' +0 -[Student@localhost ~]$ sort -t' ' +0 -1[Student@localhost ~]$ sort -t' ' +0 -1 [Student@localhost ~]$ sort -t' ' +0 -1  [Student@localhost ~]$ sort -t' ' +0 -1  +[Student@localhost ~]$ sort -t' ' +0 -1  +2[Student@localhost ~]$ sort -t' ' +0 -1  +2 [Student@localhost ~]$ sort -t' ' +0 -1  +2 -[Student@localhost ~]$ sort -t' ' +0 -1  +2 -3[Student@localhost ~]$ sort -t' ' +0 -1  +2 -3 [Student@localhost ~]$ sort -t' ' +0 -1  +2 -3  [Student@localhost ~]$ sort -t' ' +0 -1  +2 -3  C[Student@localhost ~]$ sort -t' ' +0 -1  +2 -3  Ch[Student@localhost ~]$ sort -t' ' +0 -1  +2 -3  Ch1[Student@localhost ~]$ sort -t' ' +0 -1  +2 -3  Ch11[Student@localhost ~]$ sort -t' ' +0 -1  +2 -3  Ch11S[Student@localhost ~]$ sort -t' ' +0 -1  +2 -3  Ch11S1[Student@localhost ~]$ sort -t' ' +0 -1  +2 -3  Ch11S1F[Student@localhost ~]$ sort -t' ' +0 -1  +2 -3  Ch11S1F2
+Adams, John 55
+Benjamin, Ben 78
+Blue, Janet 67
+Blue, Anne 99
+Bull, George 77
+White, Ted 32
+]0;Student@localhost:~[Student@localhost ~]$ sort -t' ' +0 -1  +2 -3  Ch11S1F2 > Ch11S1F1
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Thu 04 May 2006 04:32:37 PM EDT

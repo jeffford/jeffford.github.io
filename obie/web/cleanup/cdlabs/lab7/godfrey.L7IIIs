@@ -1,0 +1,30 @@
+Script started on Mon 01 May 2006 08:04:05 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ssh -l godfreydl cs [K
+The authenticity of host 'cs (198.30.199.89)' can't be established.
+RSA key fingerprint is 9f:39:73:fd:0b:27:4d:68:e6:4f:43:1f:29:1d:8d:82.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'cs,198.30.199.89' (RSA) to the list of known hosts.
+godfreydl@cs's password: 
+]0;godfreydl@cs:~[godfreydl@cs godfreydl]$ script godfreydl[K[K.L7IIIs
+Script started, file is godfrey.L7IIIs
+]0;godfreydl@cs:~[godfreydl@cs godfreydl]$ pwd
+/home/godfreydl
+]0;godfreydl@cs:~[godfreydl@cs godfreydl]$ cd RemoteWork
+]0;godfreydl@cs:~/RemoteWork[godfreydl@cs RemoteWork]$ vi godfrey.L7III.txt
+[?1048h[?1047h[?1h=[1;24r[?25h[?25h[27m[m[H[2J[?25l[24;1H"godfrey.L7III.txt" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25ls[24;63H1,2[1;2H[?25h[?25lg[24;65H3[1;3H[?25h[?25lb[24;65H4[1;4H[?25h[?25lv[24;65H5[1;5H[?25h[?25ly[24;65H6[1;6H[?25h[?25l6[24;65H7[1;7H[?25h[?25lh[24;65H8[1;8H[?25h[?25ln[24;65H9[1;9H[?25h[?25l[24;65H10[1;10H[?25h[?25lj[24;66H1[1;11H[?25h[?25lu[24;66H2[1;12H[?25h[?25l[24;66H3[1;13H[?25h[?25lm[24;66H4[1;14H[?25h[?25lj[24;66H5[1;15H[?25h[?25lu[24;66H6[1;16H[?25h[?25lt[24;66H7[1;17H[?25h[?25lh[24;66H8[1;18H[?25h[?25lb[24;66H9[1;19H[?25h[24;1H[K[1;18H[?25l[24;63H1,18[10CAll[1;18H[?25h[?25l[24;63H[K[24;1H:[?25hw[?25l[?25hq[?25l[?25h[?25l"godfrey.L7III.txt" [New] 1L, 19C written
+[?1l>[?25h[?1047l[?1048l]0;godfreydl@cs:~/RemoteWork[godfreydl@cs RemoteWork]$ ls -l
+[00mtotal 32
+-rw-r--r--    1 godfreydl godfreydl    24064 May  1 11:22 [00mgodfreyL7II.doc[00m
+-rw-rw-r--    1 godfreydl godfreydl       19 May  1 11:58 [00mgodfrey.L7III.txt[00m
+-rw-rw-r--    1 godfreydl godfreydl        1 May  1 10:55 [00mgodfrey.L7I.txt[00m
+[m]0;godfreydl@cs:~/RemoteWork[godfreydl@cs RemoteWork]$ exit
+exit
+Script done, file is godfrey.L7IIIs
+]0;godfreydl@cs:~[godfreydl@cs godfreydl]$ exit
+logout
+[H[2JConnection to cs closed.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Mon 01 May 2006 08:12:20 AM EDT

@@ -1,0 +1,34 @@
+Script started on Sun 30 Apr 2006 07:12:23 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cqat[K[K[Kat > Ch6S6F1
+CIS` 	15	1	45
+CIS	54	1	20	
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54q 	2	67
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch6S6F1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ sort +0[K0 -3 Ch6S56[K[K6F1
+BUS	34	2	20
+CIS	15	1	45
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+ENG	11	2	89
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Sun 30 Apr 2006 07:29:14 AM EDT

@@ -1,0 +1,931 @@
+Script started on Tue 09 May 2006 05:40:28 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > jsla[Ks
+sl    ls -l $   | cut -f$1 -  ,$2,# $3  ^[[D^[[C^[[C^[[D                 3
+]0;Student@localhost:~[Student@localhost ~]$ vi jsls
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"jsls" 1L, 23C[1;1Hls -l | cut -f$1,$2,$3
+[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[1;1H[K[2;1Hls -l | cut -f$1,$2,$3[2;23H[K[24;63H2[2;1H[?12l[?25h[?25l[24;63H1[1;1H[?12l[?25h[?25l#[24;65H2[1;2H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25lS[24;65H4[1;4H[?12l[?25h[?25l[1;3H[K[24;65H3[1;3H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25l#[24;65H2[1;2H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25lS[24;65H4[1;4H[?12l[?25h[?25lc[24;65H5[1;5H[?12l[?25h[?25lr[24;65H6[1;6H[?12l[?25h[?25li[24;65H7[1;7H[?12l[?25h[?25lp[24;65H8[1;8H[?12l[?25h[?25lt[24;65H9[1;9H[?12l[?25h[?25l[24;65H10[1;10H[?12l[?25h[?25l[24;65H9 [1;9H[?12l[?25h[?25l[24;65H10[1;10H[?12l[?25h[?25ln[24;66H1[1;11H[?12l[?25h[?25l[1;10H[K[24;66H0[1;10H[?12l[?25h[?25lN[24;66H1[1;11H[?12l[?25h[?25la[24;66H2[1;12H[?12l[?25h[?25lm[24;66H3[1;13H[?12l[?25h[?25le[24;66H4[1;14H[?12l[?25h[?25l:[24;66H5[1;15H[?12l[?25h[?25l[24;66H6[1;16H[?12l[?25h[?25lj[24;66H7[1;17H[?12l[?25h[?25ls[24;66H8[1;18H[?12l[?25h[?25ll[24;66H9[1;19H[?12l[?25h[?25ls[24;65H20[1;20H[?12l[?25h[?25l[2;23r[2;1H[L[1;24r[24;63H[K[24;63H2,1[11CAll[2;1H[?12l[?25h[?25l#[24;65H2[2;2H[?12l[?25h[?25l[24;65H3[2;3H[?12l[?25h[?25lT[24;65H4[2;4H[?12l[?25h[?25lh[24;65H5[2;5H[?12l[?25h[?25le[24;65H6[2;6H[?12l[?25h[?25l[24;65H7[2;7H[?12l[?25h[?25lp[24;65H8[2;8H[?12l[?25h[?25li[24;65H9[2;9H[?12l[?25h[?25l[2;8H[K[24;65H8[2;8H[?12l[?25h[?25lu[24;65H9[2;9H[?12l[?25h[?25lr[24;65H10[2;10H[?12l[?25h[?25lp[24;66H1[2;11H[?12l[?25h[?25lo[24;66H2[2;12H[?12l[?25h[?25ls[24;66H3[2;13H[?12l[?25h[?25le[24;66H4[2;14H[?12l[?25h[?25l[2;13H[K[24;66H3[2;13H[?12l[?25h[?25l[2;12H[K[24;66H2[2;12H[?12l[?25h[?25l[2;11H[K[24;66H1[2;11H[?12l[?25h[?25l[2;10H[K[24;66H0[2;10H[?12l[?25h[?25l[2;9H[K[24;65H9 [2;9H[?12l[?25h[?25l[2;8H[K[24;65H8[2;8H[?12l[?25h[?25l[2;7H[K[24;65H7[2;7H[?12l[?25h[?25l[24;65H6[2;6H[?12l[?25h[?25l[2;5H[K[24;65H5[2;5H[?12l[?25h[?25l[2;4H[K[24;65H4[2;4H[?12l[?25h[?25lo[24;65H5[2;5H[?12l[?25h[?25l[24;65H6[2;6H[?12l[?25h[?25lp[24;65H7[2;7H[?12l[?25h[?25lr[24;65H8[2;8H[?12l[?25h[?25li[24;65H9[2;9H[?12l[?25h[?25ln[24;65H10[2;10H[?12l[?25h[?25lt[24;66H1[2;11H[?12l[?25h[?25l[24;66H2[2;12H[?12l[?25h[?25ls[24;66H3[2;13H[?12l[?25h[?25lp[24;66H4[2;14H[?12l[?25h[?25le[24;66H5[2;15H[?12l[?25h[?25lc[24;66H6[2;16H[?12l[?25h[?25li[24;66H7[2;17H[?12l[?25h[?25lf[24;66H8[2;18H[?12l[?25h[?25li[24;66H9[2;19H[?12l[?25h[?25lc[24;65H20[2;20H[?12l[?25h[?25l[24;66H1[2;21H[?12l[?25h[?25lc[24;66H2[2;22H[?12l[?25h[?25lo[24;66H3[2;23H[?12l[?25h[?25ll[24;66H4[2;24H[?12l[?25h[?25lu[24;66H5[2;25H[?12l[?25h[?25lm[24;66H6[2;26H[?12l[?25h[?25ln[24;66H7[2;27H[?12l[?25h[?25ls[24;66H8[2;28H[?12l[?25h[?25l[24;66H9[2;29H[?12l[?25h[?25lo[24;65H30[2;30H[?12l[?25h[?25lf[24;66H1[2;31H[?12l[?25h[?25l[24;66H2[2;32H[?12l[?25h[?25lt[24;66H3[2;33H[?12l[?25h[?25lh[24;66H4[2;34H[?12l[?25h[?25le[24;66H5[2;35H[?12l[?25h[?25l[24;66H6[2;36H[?12l[?25h[?25l[24;66H5[2;35H[?12l[?25h[?25l[2;34H[K[24;66H4[2;34H[?12l[?25h[?25l[2;33H[K[24;66H3[2;33H[?12l[?25h[?25l[2;32H[K[24;66H2[2;32H[?12l[?25h[?25l[24;66H1[2;31H[?12l[?25h[?25l[2;30H[K[24;66H0[2;30H[?12l[?25h[?25l[2;29H[K[24;65H29[2;29H[?12l[?25h[?25l[24;66H8[2;28H[?12l[?25h[?25l[24;66H9[2;29H[?12l[?25h[?25lf[24;65H30[2;30H[?12l[?25h[?25lr[24;66H1[2;31H[?12l[?25h[?25lo[24;66H2[2;32H[?12l[?25h[?25lm[24;66H3[2;33H[?12l[?25h[?25l[24;66H4[2;34H[?12l[?25h[?25lt[24;66H5[2;35H[?12l[?25h[?25lh[24;66H6[2;36H[?12l[?25h[?25le[24;66H7[2;37H[?12l[?25h[?25l[24;66H8[2;38H[?12l[?25h[?25ld[24;66H9[2;39H[?12l[?25h[?25li[24;65H40[2;40H[?12l[?25h[?25lr[24;66H1[2;41H[?12l[?25h[?25le[24;66H2[2;42H[?12l[?25h[?25lc[24;66H3[2;43H[?12l[?25h[?25lt[24;66H4[2;44H[?12l[?25h[?25lo[24;66H5[2;45H[?12l[?25h[?25lr[24;66H6[2;46H[?12l[?25h[?25ly[24;66H7[2;47H[?12l[?25h[?25l[24;66H8[2;48H[?12l[?25h[?25ll[24;66H9[2;49H[?12l[?25h[?25li[24;65H50[2;50H[?12l[?25h[?25ls[24;66H1[2;51H[?12l[?25h[?25lt[24;66H2[2;52H[?12l[?25h[?25l.[24;66H3[2;53H[?12l[?25h[?25l[24;63H3,2[3;23H[?12l[?25h[?25l[4;1H[K[24;63H4,1 [4;1H[?12l[?25h[24;1H[K[4;1H[?25l[24;63H4,0-1[9CAll[4;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"jsls" 4L, 97C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ jsks[K[Kls 1 2 3
+bash: jsls: command not found
+]0;Student@localhost:~[Student@localhost ~]$ PATH=$PATH:.
+]0;Student@localhost:~[Student@localhost ~]$ chmod [K u+x
+chmod: too few arguments
+Try `chmod --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ chmod u+x jsls
+]0;Student@localhost:~[Student@localhost ~]$ chmod u+x jsls[KPATH=$PATH:.[2Pjsls 1 2 3
+total 1300
+drwxrwxr-x  2 Student Student   4096 May  9 15:10 backup
+-rw-rw-r--  1 Student Student     96 May  4 07:58 Ch10S1F1
+-rw-rw-r--  1 Student Student    453 May  4 08:51 Ch10S2F1
+-rw-rw-r--  1 Student Student    477 May  4 16:39 Ch10S2F2
+-rw-rw-r--  1 Student Student    239 May  4 16:40 Ch10S2F3
+-rw-rw-r--  1 Student Student    238 May  4 16:41 Ch10S2F4
+-rw-rw-r--  1 Student Student     40 May  4 16:44 Ch10S2F5
+-rw-rw-r--  1 Student Student    108 May  4 16:45 Ch10S3F1
+-rw-rw-r--  1 Student Student     48 May  4 16:50 Ch10S3F2
+-rw-rw-r--  1 Student Student     48 May  4 16:55 Ch10S3F3
+-rw-rw-r--  1 Student Student     24 May  4 17:01 Ch10S3F4
+-rw-rw-r--  1 Student Student     12 May  4 17:02 Ch10S3F5
+-rw-rw-r--  1 Student Student    426 May  4 17:06 Ch10S4F1
+-rw-rw-r--  1 Student Student    503 May  4 17:23 Ch10S5F1
+-rw-rw-r--  1 Student Student     91 May  8 08:54 Ch11S1F1
+-rw-rw-r--  1 Student Student     91 May  8 08:37 Ch11S1F1.dat
+-rw-rw-r--  1 Student Student    288 May  8 08:56 Ch11S2F1
+-rw-rw-r--  1 Student Student    358 May  8 16:57 Ch11S2F2
+-rw-rw-r--  1 Student Student    169 May  8 16:57 Ch11S2.sed
+-rw-rw-r--  1 Student Student    316 May  8 17:04 Ch11S3F1
+-rw-rw-r--  1 Student Student    652 May  8 17:05 Ch11S3F1n
+-rw-rw-r--  1 Student Student     84 May  8 20:16 Ch11S3F2
+-rw-rw-r--  1 Student Student      0 May  8 19:50 Ch11S3F2}
+-rw-rw-r--  1 Student Student    152 May  8 20:16 Ch11S3F3
+-rw-rw-r--  1 Student Student      0 May  8 19:50 Ch11S3F3}
+-rw-rw-r--  1 Student Student    100 May  8 20:16 Ch11S3F4
+-rw-rw-r--  1 Student Student      0 May  8 19:50 Ch11S3F4}
+-rw-rw-r--  1 Student Student    197 May  8 20:16 Ch11S3F5
+-rw-rw-r--  1 Student Student    119 May  8 20:16 Ch11S3F5 
+-rw-rw-r--  1 Student Student      0 May  8 19:50 Ch11S3F5}
+-rw-rw-r--  1 Student Student    220 May  8 20:19 Ch11S3.sed
+-rw-rw-r--  1 Student Student     99 May  8 20:24 Ch11S4F1
+-rw-rw-r--  1 Student Student     99 May  8 20:40 Ch11S4F2
+-rw-rw-r--  1 Student Student     46 May  8 20:40 Ch11S4.sed
+-rw-rw-r--  1 Student Student    276 May  8 20:46 Ch11S5F1
+-rw-rw-r--  1 Student Student     85 May  8 21:38 Ch11S5F2
+-rw-rw-r--  1 Student Student     90 May  8 21:38 Ch11S5.sed
+-rw-rw-r--  1 Student Student    267 May  8 21:42 Ch11S6F1
+-rw-rw-r--  1 Student Student    130 May  8 21:50 Ch11S6F2
+-rw-rw-r--  1 Student Student    186 May  8 21:49 Ch11S6.sed
+-rw-rw-r--  1 Student Student    154 Apr 30 07:11 Ch6
+-rw-rw-r--  1 Student Student     26 Apr 29 09:06 Ch61F1l
+-rw-rw-r--  1 Student Student     81 Apr 28 08:54 Ch61S1F1
+-rw-rw-r--  1 Student Student      5 Apr 29 09:07 Ch6S1F1
+-rw-rw-r--  1 Student Student     81 Apr 28 08:54 Ch6S1F15
+-rw-rw-r--  1 Student Student      0 Apr 28 08:42 Ch6S1F1l
+-rw-rw-r--  1 Student Student    152 Apr 29 17:45 Ch6S3F1
+-rw-rw-r--  1 Student Student    152 Apr 29 17:44 Ch6S3F1Encr
+-rw-rw-r--  1 Student Student     98 Apr 29 17:48 Ch6S4F1
+-rw-rw-r--  1 Student Student     98 Apr 30 06:49 Ch6S5F1
+-rw-rw-r--  1 Student Student     98 Apr 30 06:51 Ch6S5F2
+-rw-rw-r--  1 Student Student    154 Apr 30 07:11 Ch6S5F3
+-rw-rw-r--  1 Student Student     98 Apr 30 06:53 Ch6S5F4
+-rw-rw-r--  1 Student Student     98 Apr 30 06:54 Ch6S5F5
+-rw-rw-r--  1 Student Student    107 Apr 30 07:14 Ch6S6F1
+-rw-rw-r--  1 Student Student   1553 Apr 30 07:30 Ch6S7F1
+-rw-rw-r--  1 Student Student    296 Apr 30 07:57 Ch6S7F2
+-rw-rw-r--  1 Student Student    298 Apr 30 08:17 Ch6S7F3
+-rw-rw-r--  1 Student Student     10 May  1 06:13 Ch6SIFI
+-rw-rw-r--  1 Student Student    171 Apr 29 16:35 Ch6SIIFI
+drwxr-xr-x  2 Student Student   4096 Jul 27  2005 Desktop
+-rw-rw-r--  1 Student Student     87 Apr 30 08:12 firstlines
+-rw-rw-r--  1 Student Student     14 May  9 07:55 js
+-rw-rw-r--  1 Student Student      0 May  9 08:11 jsbacjup
+-rwxrw-r--  1 Student Student    377 May  9 15:20 jsbackup
+-rwxrw-r--  1 Student Student     97 May  9 17:48 jsls
+-rw-rw-r--  1 Student Student    102 Apr 30 08:14 lastlines
+-rw-rw-r--  1 Student Student    107 Apr 30 08:16 middlelines
+-rw-rw-r--  1 Student Student     16 May  9 15:10 myfiles
+-rw-rw-r--  1 Student Student   8383 May  5 08:57 Persian Gulf.odt
+-rw-rw-r--  1 Student Student   8383 May  5 08:58 Persian Gulf.txt
+-rw-rw-r--  1 Student Student   1006 May  4 16:45 Sangtani.10.II.cont.txt
+-rw-rw-r--  1 Student Student  14688 May  4 17:02 Sangtani.10.III.txt
+-rw-rw-r--  1 Student Student   1934 May  4 09:01 Sangtani.10.II.txt
+-rw-rw-r--  1 Student Student   6664 May  4 08:47 Sangtani.10.I.txt
+-rw-rw-r--  1 Student Student   6252 May  5 08:05 Sangtani.10.IV.cont.txt
+-rw-rw-r--  1 Student Student    747 May  4 17:19 Sangtani.10.IV.txt
+-rw-rw-r--  1 Student Student  21638 May  4 18:24 Sangtani.10.V.txt
+-rw-rw-r--  1 Student Student  50358 May  8 20:01 Sangtani.11.III.txt
+-rw-rw-r--  1 Student Student  29028 May  8 17:00 Sangtani.11.II.txt
+-rw-rw-r--  1 Student Student  41769 May  8 08:54 Sangtani.11.I.txt
+-rw-rw-r--  1 Student Student  33680 May  8 20:40 Sangtani.11.IV.txt
+-rw-rw-r--  1 Student Student   7574 May  8 21:51 Sangtani.11.VI.txt
+-rw-rw-r--  1 Student Student  58203 May  8 21:39 Sangtani.11.V.txt
+-rw-rw-r--  1 Student Student   4096 May  9 17:47 Sangtani.14.III.txt
+-rw-rw-r--  1 Student Student 184233 May  9 15:21 Sangtani.14.I.txt
+-rw-rw-r--  1 Student Student   3856 Apr 29 17:46 Sangtani.6.III.txt
+-rw-rw-r--  1 Student Student   9510 May  1 06:08 Sangtani.6.II.txt
+-rw-rw-r--  1 Student Student   6121 Apr 29 09:08 Sangtani.6.I.txt
+-rw-rw-r--  1 Student Student   4960 Apr 29 18:02 Sangtani.6.IV.txt
+-rw-rw-r--  1 Student Student  12706 Apr 30 08:18 Sangtani.6.VII.txt
+-rw-rw-r--  1 Student Student    733 Apr 30 07:29 Sangtani.6.VI.txt
+-rw-rw-r--  1 Student Student  12813 Apr 30 07:12 Sangtani.6.V.txt
+-rw-rw-r--  1 Student Student  24064 May  1 08:26 SangtaniL7II.doc
+-rw-rw-r--  1 Student Student  13069 May  1 08:26 Sangtani.L7IIIs
+-rw-rw-r--  1 Student Student     23 May  1 08:26 Sangtani.L7III.txt
+-rw-rw-r--  1 Student Student     15 May  1 08:26 Sangtani.L7I.txt
+-rw-rw-r--  1 Student Student     19 May  1 08:26 Sangtani.L7IV.txt
+-rw-rw-r--  1 Student Student    151 May  4 18:24 typescript
+-rw-rw-r--  1 Student Student      6 May  9 08:45 yowa
+]0;Student@localhost:~[Student@localhost ~]$ ls -l | ci[Kut -f1
+total 1308
+drwxrwxr-x  2 Student Student   4096 May  9 15:10 backup
+-rw-rw-r--  1 Student Student     96 May  4 07:58 Ch10S1F1
+-rw-rw-r--  1 Student Student    453 May  4 08:51 Ch10S2F1
+-rw-rw-r--  1 Student Student    477 May  4 16:39 Ch10S2F2
+-rw-rw-r--  1 Student Student    239 May  4 16:40 Ch10S2F3
+-rw-rw-r--  1 Student Student    238 May  4 16:41 Ch10S2F4
+-rw-rw-r--  1 Student Student     40 May  4 16:44 Ch10S2F5
+-rw-rw-r--  1 Student Student    108 May  4 16:45 Ch10S3F1
+-rw-rw-r--  1 Student Student     48 May  4 16:50 Ch10S3F2
+-rw-rw-r--  1 Student Student     48 May  4 16:55 Ch10S3F3
+-rw-rw-r--  1 Student Student     24 May  4 17:01 Ch10S3F4
+-rw-rw-r--  1 Student Student     12 May  4 17:02 Ch10S3F5
+-rw-rw-r--  1 Student Student    426 May  4 17:06 Ch10S4F1
+-rw-rw-r--  1 Student Student    503 May  4 17:23 Ch10S5F1
+-rw-rw-r--  1 Student Student     91 May  8 08:54 Ch11S1F1
+-rw-rw-r--  1 Student Student     91 May  8 08:37 Ch11S1F1.dat
+-rw-rw-r--  1 Student Student    288 May  8 08:56 Ch11S2F1
+-rw-rw-r--  1 Student Student    358 May  8 16:57 Ch11S2F2
+-rw-rw-r--  1 Student Student    169 May  8 16:57 Ch11S2.sed
+-rw-rw-r--  1 Student Student    316 May  8 17:04 Ch11S3F1
+-rw-rw-r--  1 Student Student    652 May  8 17:05 Ch11S3F1n
+-rw-rw-r--  1 Student Student     84 May  8 20:16 Ch11S3F2
+-rw-rw-r--  1 Student Student      0 May  8 19:50 Ch11S3F2}
+-rw-rw-r--  1 Student Student    152 May  8 20:16 Ch11S3F3
+-rw-rw-r--  1 Student Student      0 May  8 19:50 Ch11S3F3}
+-rw-rw-r--  1 Student Student    100 May  8 20:16 Ch11S3F4
+-rw-rw-r--  1 Student Student      0 May  8 19:50 Ch11S3F4}
+-rw-rw-r--  1 Student Student    197 May  8 20:16 Ch11S3F5
+-rw-rw-r--  1 Student Student    119 May  8 20:16 Ch11S3F5 
+-rw-rw-r--  1 Student Student      0 May  8 19:50 Ch11S3F5}
+-rw-rw-r--  1 Student Student    220 May  8 20:19 Ch11S3.sed
+-rw-rw-r--  1 Student Student     99 May  8 20:24 Ch11S4F1
+-rw-rw-r--  1 Student Student     99 May  8 20:40 Ch11S4F2
+-rw-rw-r--  1 Student Student     46 May  8 20:40 Ch11S4.sed
+-rw-rw-r--  1 Student Student    276 May  8 20:46 Ch11S5F1
+-rw-rw-r--  1 Student Student     85 May  8 21:38 Ch11S5F2
+-rw-rw-r--  1 Student Student     90 May  8 21:38 Ch11S5.sed
+-rw-rw-r--  1 Student Student    267 May  8 21:42 Ch11S6F1
+-rw-rw-r--  1 Student Student    130 May  8 21:50 Ch11S6F2
+-rw-rw-r--  1 Student Student    186 May  8 21:49 Ch11S6.sed
+-rw-rw-r--  1 Student Student    154 Apr 30 07:11 Ch6
+-rw-rw-r--  1 Student Student     26 Apr 29 09:06 Ch61F1l
+-rw-rw-r--  1 Student Student     81 Apr 28 08:54 Ch61S1F1
+-rw-rw-r--  1 Student Student      5 Apr 29 09:07 Ch6S1F1
+-rw-rw-r--  1 Student Student     81 Apr 28 08:54 Ch6S1F15
+-rw-rw-r--  1 Student Student      0 Apr 28 08:42 Ch6S1F1l
+-rw-rw-r--  1 Student Student    152 Apr 29 17:45 Ch6S3F1
+-rw-rw-r--  1 Student Student    152 Apr 29 17:44 Ch6S3F1Encr
+-rw-rw-r--  1 Student Student     98 Apr 29 17:48 Ch6S4F1
+-rw-rw-r--  1 Student Student     98 Apr 30 06:49 Ch6S5F1
+-rw-rw-r--  1 Student Student     98 Apr 30 06:51 Ch6S5F2
+-rw-rw-r--  1 Student Student    154 Apr 30 07:11 Ch6S5F3
+-rw-rw-r--  1 Student Student     98 Apr 30 06:53 Ch6S5F4
+-rw-rw-r--  1 Student Student     98 Apr 30 06:54 Ch6S5F5
+-rw-rw-r--  1 Student Student    107 Apr 30 07:14 Ch6S6F1
+-rw-rw-r--  1 Student Student   1553 Apr 30 07:30 Ch6S7F1
+-rw-rw-r--  1 Student Student    296 Apr 30 07:57 Ch6S7F2
+-rw-rw-r--  1 Student Student    298 Apr 30 08:17 Ch6S7F3
+-rw-rw-r--  1 Student Student     10 May  1 06:13 Ch6SIFI
+-rw-rw-r--  1 Student Student    171 Apr 29 16:35 Ch6SIIFI
+drwxr-xr-x  2 Student Student   4096 Jul 27  2005 Desktop
+-rw-rw-r--  1 Student Student     87 Apr 30 08:12 firstlines
+-rw-rw-r--  1 Student Student     14 May  9 07:55 js
+-rw-rw-r--  1 Student Student      0 May  9 08:11 jsbacjup
+-rwxrw-r--  1 Student Student    377 May  9 15:20 jsbackup
+-rwxrw-r--  1 Student Student     97 May  9 17:48 jsls
+-rw-rw-r--  1 Student Student    102 Apr 30 08:14 lastlines
+-rw-rw-r--  1 Student Student    107 Apr 30 08:16 middlelines
+-rw-rw-r--  1 Student Student     16 May  9 15:10 myfiles
+-rw-rw-r--  1 Student Student   8383 May  5 08:57 Persian Gulf.odt
+-rw-rw-r--  1 Student Student   8383 May  5 08:58 Persian Gulf.txt
+-rw-rw-r--  1 Student Student   1006 May  4 16:45 Sangtani.10.II.cont.txt
+-rw-rw-r--  1 Student Student  14688 May  4 17:02 Sangtani.10.III.txt
+-rw-rw-r--  1 Student Student   1934 May  4 09:01 Sangtani.10.II.txt
+-rw-rw-r--  1 Student Student   6664 May  4 08:47 Sangtani.10.I.txt
+-rw-rw-r--  1 Student Student   6252 May  5 08:05 Sangtani.10.IV.cont.txt
+-rw-rw-r--  1 Student Student    747 May  4 17:19 Sangtani.10.IV.txt
+-rw-rw-r--  1 Student Student  21638 May  4 18:24 Sangtani.10.V.txt
+-rw-rw-r--  1 Student Student  50358 May  8 20:01 Sangtani.11.III.txt
+-rw-rw-r--  1 Student Student  29028 May  8 17:00 Sangtani.11.II.txt
+-rw-rw-r--  1 Student Student  41769 May  8 08:54 Sangtani.11.I.txt
+-rw-rw-r--  1 Student Student  33680 May  8 20:40 Sangtani.11.IV.txt
+-rw-rw-r--  1 Student Student   7574 May  8 21:51 Sangtani.11.VI.txt
+-rw-rw-r--  1 Student Student  58203 May  8 21:39 Sangtani.11.V.txt
+-rw-rw-r--  1 Student Student  12288 May  9 17:49 Sangtani.14.III.txt
+-rw-rw-r--  1 Student Student 184233 May  9 15:21 Sangtani.14.I.txt
+-rw-rw-r--  1 Student Student   3856 Apr 29 17:46 Sangtani.6.III.txt
+-rw-rw-r--  1 Student Student   9510 May  1 06:08 Sangtani.6.II.txt
+-rw-rw-r--  1 Student Student   6121 Apr 29 09:08 Sangtani.6.I.txt
+-rw-rw-r--  1 Student Student   4960 Apr 29 18:02 Sangtani.6.IV.txt
+-rw-rw-r--  1 Student Student  12706 Apr 30 08:18 Sangtani.6.VII.txt
+-rw-rw-r--  1 Student Student    733 Apr 30 07:29 Sangtani.6.VI.txt
+-rw-rw-r--  1 Student Student  12813 Apr 30 07:12 Sangtani.6.V.txt
+-rw-rw-r--  1 Student Student  24064 May  1 08:26 SangtaniL7II.doc
+-rw-rw-r--  1 Student Student  13069 May  1 08:26 Sangtani.L7IIIs
+-rw-rw-r--  1 Student Student     23 May  1 08:26 Sangtani.L7III.txt
+-rw-rw-r--  1 Student Student     15 May  1 08:26 Sangtani.L7I.txt
+-rw-rw-r--  1 Student Student     19 May  1 08:26 Sangtani.L7IV.txt
+-rw-rw-r--  1 Student Student    151 May  4 18:24 typescript
+-rw-rw-r--  1 Student Student      6 May  9 08:45 yowa
+]0;Student@localhost:~[Student@localhost ~]$ vi C[Kjsls
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"jsls" 4L, 97C[1;1H[34m# Script Name: jsls
+# To print specific columns from the directory list.[m
+ls -l | cut -f$1,$2,$3
+
+[1m[34m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H4,0-1[9CAll[4;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4,0-1[4;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H3,1[11CAll[3;1H[?12l[?25h[?25l[4;23r[4;1H[L[1;24r[3;1H[K[4;1Hls -l | cut -f$1,$2,$3[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25ll[24;65H2[3;2H[?12l[?25h[?25ls[24;65H3[3;3H[?12l[?25h[?25l[3;2H[K[24;65H2[3;2H[?12l[?25h[?25l[3;1H[K[24;65H1[3;1H[?12l[?25h[?25ls[24;65H2[3;2H[?12l[?25h[?25le[24;65H3[3;3H[?12l[?25h[?25ld[24;65H4[3;4H[?12l[?25h[?25l[24;65H5[3;5H[?12l[?25h[?25l[24;65H4[3;4H[?12l[?25h[?25l[3;3H[K[24;65H3[3;3H[?12l[?25h[?25l[3;2H[K[24;65H2[3;2H[?12l[?25h[?25l[3;1H[K[24;65H1[3;1H[?12l[?25h[?25ls[24;65H2[3;2H[?12l[?25h[?25l[3;1H[K[24;65H1[3;1H[?12l[?25h[?25ls[24;65H2[3;2H[?12l[?25h[?25le[24;65H3[3;3H[?12l[?25h[?25ld[24;65H4[3;4H[?12l[?25h[?25l[24;65H5[3;5H[?12l[?25h[?25l'[24;65H6[3;6H[?12l[?25h[?25ls[24;65H7[3;7H[?12l[?25h[?25l/[24;65H8[3;8H[?12l[?25h[?25l[[24;65H9[3;9H[?12l[?25h[?25l][24;65H10[3;10H[?12l[?25h[?25l[3;9H[K[24;65H9 [3;9H[?12l[?25h[?25l[24;65H10[3;10H[?12l[?25h[?25l][24;66H1[3;11H[?12l[?25h[?25l[[24;66H2[3;12H[?12l[?25h[?25l[24;66H3[3;13H[?12l[?25h[?25l][24;66H4[3;14H[?12l[?25h[?25l*[24;66H5[3;15H[?12l[?25h[?25l/[24;66H6[3;16H[?12l[?25h[?25l[[24;66H7[3;17H[?12l[?25h[?25l[24;66H8[3;18H[?12l[?25h[?25l][24;66H9[3;19H[?12l[?25h[?25l/[24;65H20[3;20H[?12l[?25h[?25l[24;65H19[3;19H[?12l[?25h[?25l[24;66H8[3;18H[?12l[?25h[?25l[24;66H7[3;17H[?12l[?25h[?25l[24;66H6[3;16H[?12l[?25h[?25l[24;66H5[3;15H[?12l[?25h[?25l[24;66H4[3;14H[?12l[?25h[?25l[24;66H3[3;13H[?12l[?25h[?25l[24;66H2[3;12H[?12l[?25h[?25l[24;66H1[3;11H[?12l[?25h[?25l[24;66H0[3;10H[?12l[?25h[?25l[24;66H1[3;11H[?12l[?25h[?25l[24;66H2[3;12H[?12l[?25h[?25l[24;66H3[3;13H[?12l[?25h[?25l[24;66H4[3;14H[?12l[?25h[?25l[24;66H5[3;15H[?12l[?25h[?25l[24;66H6[3;16H[?12l[?25h[?25l[24;66H7[3;17H[?12l[?25h[?25l[24;66H8[3;18H[?12l[?25h[?25l[24;66H9[3;19H[?12l[?25h[?25l[24;65H20[3;20H[?12l[?25h[?25lg[24;66H1[3;21H[?12l[?25h[?25lsed [31m's/[ ][ ]*/[ ]/g'[m[24;66H2[3;22H[?12l[?25h[?25l[24;66H3[3;23H[?12l[?25h[?25l[24;63H4[4;23H[?12l[?25h[?25l[4;22H[K[24;66H2[4;22H[?12l[?25h[?25l[4;21H[K[24;66H1[4;21H[?12l[?25h[?25l[4;20H[K[24;66H0[4;20H[?12l[?25h[?25l[4;19H[K[24;65H19[4;19H[?12l[?25h[?25l[4;18H[K[24;66H8[4;18H[?12l[?25h[?25l[4;17H[K[24;66H7[4;17H[?12l[?25h[?25l[4;16H[K[24;66H6[4;16H[?12l[?25h[?25l[4;15H[K[24;66H5[4;15H[?12l[?25h[?25l[4;14H[K[24;66H4[4;14H[?12l[?25h[?25l[4;13H[K[24;66H3[4;13H[?12l[?25h[?25l[24;66H2[4;12H[?12l[?25h[?25l[4;11H[K[24;66H1[4;11H[?12l[?25h[?25l[4;10H[K[24;66H0[4;10H[?12l[?25h[?25l[4;9H[K[24;65H9 [4;9H[?12l[?25h[?25l[24;65H8[4;8H[?12l[?25h[?25l[4;7H[K[24;65H7[4;7H[?12l[?25h[?25l[24;65H6[4;6H[?12l[?25h[?25l[4;5H[K[24;65H5[4;5H[?12l[?25h[?25l[4;4H[K[24;65H4[4;4H[?12l[?25h[?25l[24;65H3[4;3H[?12l[?25h[?25l[4;2H[K[24;65H2[4;2H[?12l[?25h[?25l[4;1H[K[24;65H1[4;1H[?12l[?25h[?25l[3;23r[23;1H
+[1;24r[3;1Hsed [31m's/[ ][ ]*/[ ]/g'[m[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H3,23[10CAll[3;23H[?12l[?25h[?25l[24;66H2[3;22H[?12l[?25h[?25l[24;66H1[3;21H[?12l[?25h[?25l[24;66H0[3;20H[?12l[?25h[?25l[24;65H19[3;19H[?12l[?25h[?25l[24;66H8[3;18H[?12l[?25h[?25l[24;66H7[3;17H[?12l[?25h[?25l[24;66H6[3;16H[?12l[?25h[?25l[24;66H5[3;15H[?12l[?25h[?25l[24;66H4[3;14H[?12l[?25h[?25l[24;66H3[3;13H[?12l[?25h[?25l[24;66H2[3;12H[?12l[?25h[?25l[24;66H1[3;11H[?12l[?25h[?25l[24;66H0[3;10H[?12l[?25h[?25l[24;65H9 [3;9H[?12l[?25h[?25l[24;65H8[3;8H[?12l[?25h[?25l[24;65H7[3;7H[?12l[?25h[?25l[24;65H6[3;6H[?12l[?25h[?25l[24;65H5[3;5H[?12l[?25h[?25l[24;65H4[3;4H[?12l[?25h[?25l[24;65H3[3;3H[?12l[?25h[?25l[24;65H2[3;2H[?12l[?25h[?25l[24;65H1[3;1H[?12l[?25h[?25llsed [31m's/[ ][ ]*/[ ]/g'[m[24;65H2[3;2H[?12l[?25h[?25lssed [31m's/[ ][ ]*/[ ]/g'[m[24;65H3[3;3H[?12l[?25h[?25l sed [31m's/[ ][ ]*/[ ]/g'[m[24;65H4[3;4H[?12l[?25h[?25l-sed [31m's/[ ][ ]*/[ ]/g'[m[24;65H5[3;5H[?12l[?25h[?25llsed [31m's/[ ][ ]*/[ ]/g'[m[24;65H6[3;6H[?12l[?25h[?25l sed [31m's/[ ][ ]*/[ ]/g'[m[24;65H7[3;7H[?12l[?25h[?25l\sed [31m's/[ ][ ]*/[ ]/g'[m[24;65H8[3;8H[?12l[?25h[?25lsed [31m's/[ ][ ]*/[ ]/g'[m [24;65H7[3;7H[?12l[?25h[?25l|sed [31m's/[ ][ ]*/[ ]/g'[m[24;65H8[3;8H[?12l[?25h[?25l sed [31m's/[ ][ ]*/[ ]/g'[m[24;65H9[3;9H[?12l[?25h[?25l[24;65H10[3;10H[?12l[?25h[?25l[24;66H1[3;11H[?12l[?25h[?25l[24;66H2[3;12H[?12l[?25h[?25l[24;66H3[3;13H[?12l[?25h[?25l[24;66H4[3;14H[?12l[?25h[?25l[24;66H5[3;15H[?12l[?25h[?25l[24;66H6[3;16H[?12l[?25h[?25l[24;66H7[3;17H[?12l[?25h[?25l[24;66H8[3;18H[?12l[?25h[?25l[24;66H9[3;19H[?12l[?25h[?25l[24;65H20[3;20H[?12l[?25h[?25l[24;66H1[3;21H[?12l[?25h[?25l[24;66H2[3;22H[?12l[?25h[?25l[24;66H3[3;23H[?12l[?25h[?25l[24;66H4[3;24H[?12l[?25h[?25l[24;66H5[3;25H[?12l[?25h[?25l[24;66H6[3;26H[?12l[?25h[?25l[24;66H7[3;27H[?12l[?25h[?25l[24;66H8[3;28H[?12l[?25h[?25l[24;66H9[3;29H[?12l[?25h[?25l[24;65H30[3;30H[?12l[?25h[?25l[24;66H1[3;31H[?12l[?25h[?25l|[24;66H2[3;32H[?12l[?25h[?25l[24;66H3[3;33H[?12l[?25h[?25l
+[1m[34m~                                                                               [3;33H[?12l[?25h[?25l[mc[24;66H4[3;34H[?12l[?25h[?25lu[24;66H5[3;35H[?12l[?25h[?25lt[24;66H6[3;36H[?12l[?25h[?25l[24;66H7[3;37H[?12l[?25h[?25l[[24;66H8[3;38H[?12l[?25h[?25l[24;66H9[3;39H[?12l[?25h[?25l][24;65H40[3;40H[?12l[?25h[?25l[3;39H[K[24;65H39[3;39H[?12l[?25h[?25l[24;66H8[3;38H[?12l[?25h[?25l[3;37H[K[24;66H7[3;37H[?12l[?25h[?25l[24;66H6[3;36H[?12l[?25h[?25l[24;66H5[3;35H[?12l[?25h[?25l[24;66H4[3;34H[?12l[?25h[?25l[24;66H3[3;33H[?12l[?25h[?25l[24;66H2[3;32H[?12l[?25h[?25l[24;66H1[3;31H[?12l[?25h[?25l[24;66H0[3;30H[?12l[?25h[?25l[24;65H29[3;29H[?12l[?25h[?25l[24;66H8[3;28H[?12l[?25h[?25l[24;66H7[3;27H[?12l[?25h[?25l[31m/g'[m | cut [24;66H6[3;26H[?12l[?25h[?25l[31m/g'[m | cut [24;66H5[3;25H[?12l[?25h[?25l[31m/g'[m | cut [24;66H4[3;24H[?12l[?25h[?25l[31mg'[m | cut [24;66H3[3;23H[?12l[?25h[?25l[1C[31m/g'[m | cut[24;66H4[3;24H[?12l[?25h[?25l[31m /g'[m | cut[24;66H5[3;25H[?12l[?25h[?25l[24;66H6[3;26H[?12l[?25h[?25l[24;66H7[3;27H[?12l[?25h[?25l[24;66H8[3;28H[?12l[?25h[?25l[24;66H9[3;29H[?12l[?25h[?25l[24;65H30[3;30H[?12l[?25h[?25l[24;66H1[3;31H[?12l[?25h[?25l[24;66H2[3;32H[?12l[?25h[?25l[24;66H3[3;33H[?12l[?25h[?25l[24;66H4[3;34H[?12l[?25h[?25l[24;66H5[3;35H[?12l[?25h[?25l[24;63H2[2;35H[?12l[?25h[?25l[24;63H3[3;35H[?12l[?25h[?25l-[24;66H6[3;36H[?12l[?25h[?25ld[24;66H7[3;37H[?12l[?25h[?25l'[24;66H8[3;38H[?12l[?25h[?25l[3;37H[K[24;66H7[3;37H[?12l[?25h[?25l[24;66H8[3;38H[?12l[?25h[?25l[24;66H7[3;37H[?12l[?25h[?25l'[24;66H8[3;38H[?12l[?25h[?25l[24;66H9[3;39H[?12l[?25h[?25l[31m' '[m[24;65H40[3;40H[?12l[?25h[?25l[24;66H1[3;41H[?12l[?25h[?25l-[24;66H2[3;42H[?12l[?25h[?25lf[24;66H3[3;43H[?12l[?25h[?25l1[24;66H4[3;44H[?12l[?25h[?25l[3;43H[K[24;66H3[3;43H[?12l[?25h[?25l$[24;66H4[3;44H[?12l[?25h[?25l1[24;66H5[3;45H[?12l[?25h[?25l,[24;66H6[3;46H[?12l[?25h[?25l$[24;66H7[3;47H[?12l[?25h[?25l2[24;66H8[3;48H[?12l[?25h[?25l,[24;66H9[3;49H[?12l[?25h[?25l$[24;65H50[3;50H[?12l[?25h[?25l3[24;66H1[3;51H[?12l[?25h[?25l[4;1H[K[24;63H4,1 [4;1H[?12l[?25h[24;1H[K[4;1H[?25l[24;63H4,0-1[9CAll[4;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"jsls" 4L, 125C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi jslsls -l | cut -f1[5Pjsls 1 2 3
+total 1324
+drwxrwxr-x 2 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+drwxr-xr-x 2 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rwxrw-r-- 1 Student
+-rwxrw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+-rw-rw-r-- 1 Student
+]0;Student@localhost:~[Student@localhost ~]$ vi jsls
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"jsls" 4L, 125C[1;1H[34m# Script Name: jsls
+# To print specific columns from the directory list.[m
+ls -l | sed [31m's/[ ][ ]*/ /g'[m | cut -d[31m' '[m -f$1,$2,$3
+
+[1m[34m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H4,0-1[9CAll[4;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4,0-1[4;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H3,1[11CAll[3;1H[?12l[?25h[?25l[4;23r[4;1H[L[1;24r[3;1H[K[4;1Hls -l | sed [31m's/[ ][ ]*/ /g'[m | cut -d[31m' '[m -f$1,$2,$3[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[4;23r[4;1H[L[1;24r[24;63H[K[24;63H4,1[11CAll[4;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25li[24;65H2[4;2H[?12l[?25h[?25lf[24;65H3[4;3H[?12l[?25h[?25l[24;65H4[4;4H[?12l[?25h[?25l[[24;65H5[4;5H[?12l[?25h[?25l[[24;65H6[4;6H[?12l[?25h[?25l[24;65H7[4;7H[?12l[?25h[?25l[34m#[m[24;65H8[4;8H[?12l[?25h[?25l[4;7H[K[24;65H7[4;7H[?12l[?25h[?25l[24;65H6[4;6H[?12l[?25h[?25l[24;65H7[4;7H[?12l[?25h[?25l$[24;65H8[4;8H[?12l[?25h[?25l#[24;65H9[4;9H[?12l[?25h[?25l[24;65H10[4;10H[?12l[?25h[?25l![24;66H1[4;11H[?12l[?25h[?25l=[24;66H2[4;12H[?12l[?25h[?25l[24;66H3[4;13H[?12l[?25h[?25l3[24;66H4[4;14H[?12l[?25h[?25l][24;66H5[4;15H[?12l[?25h[?25l][24;66H6[4;16H[?12l[?25h[?25l[5;23r[5;1H[L[1;24r[24;63H[K[24;63H5,1[11CAll[5;1H[?12l[?25h[?25l[24;65H2-9[5;9H[?12l[?25h[?25ly[24;65H3-10[5;10H[?12l[?25h[?25le[24;65H4-11[5;11H[?12l[?25h[?25ls[24;65H5-12[5;12H[?12l[?25h[?25l[24;65H6-13[5;13H[?12l[?25h[?25l[24;65H5-12[5;12H[?12l[?25h[?25l[5;11H[K[24;65H4-11[5;11H[?12l[?25h[?25l[5;10H[K[24;65H3-10[5;10H[?12l[?25h[?25l[5;9H[K[24;65H2-9 [5;9H[?12l[?25h[?25le[24;65H3-10[5;10H[?12l[?25h[?25lc[24;65H4-11[5;11H[?12l[?25h[?25lh[24;65H5-12[5;12H[?12l[?25h[?25lo[24;65H6-13[5;13H[?12l[?25h[?25l[24;65H7-14[5;14H[?12l[?25h[?25l"[24;65H8-15[5;15H[?12l[?25h[?25lY[24;65H9-16[5;16H[?12l[?25h[?25lo[24;65H10-17[5;17H[?12l[?25h[?25lu[24;66H1-18[5;18H[?12l[?25h[?25l'[24;66H2-19[5;19H[?12l[?25h[?25lr[24;66H3-20[5;20H[?12l[?25h[?25le[24;66H4-21[5;21H[?12l[?25h[?25l[24;66H5-22[5;22H[?12l[?25h[?25l[24;66H4-21[5;21H[?12l[?25h[?25l[5;20H[K[24;66H3-20[5;20H[?12l[?25h[?25l[5;19H[K[24;66H2-19[5;19H[?12l[?25h[?25l[5;18H[K[24;66H1-18[5;18H[?12l[?25h[?25l[5;17H[K[24;66H0-17[5;17H[?12l[?25h[?25l[5;16H[K[24;65H9-16 [5;16H[?12l[?25h[?25l[5;15H[K[24;65H8-15[5;15H[?12l[?25h[?25l[5;14H[K[24;65H7-14[5;14H[?12l[?25h[?25l"[24;65H8-15[5;15H[?12l[?25h[?25lU[24;65H9-16[5;16H[?12l[?25h[?25ls[24;65H10-17[5;17H[?12l[?25h[?25le[24;66H1-18[5;18H[?12l[?25h[?25l[24;66H2-19[5;19H[?12l[?25h[?25la[24;66H3-20[5;20H[?12l[?25h[?25lt[24;66H4-21[5;21H[?12l[?25h[?25l[24;66H5-22[5;22H[?12l[?25h[?25l[24;66H4-21[5;21H[?12l[?25h[?25l[5;20H[K[24;66H3-20[5;20H[?12l[?25h[?25l[5;19H[K[24;66H2-19[5;19H[?12l[?25h[?25lt[24;66H3-20[5;20H[?12l[?25h[?25lh[24;66H4-21[5;21H[?12l[?25h[?25lr[24;66H5-22[5;22H[?12l[?25h[?25le[24;66H6-23[5;23H[?12l[?25h[?25le[24;66H7-24[5;24H[?12l[?25h[?25l[24;66H8-25[5;25H[?12l[?25h[?25la[24;66H9-26[5;26H[?12l[?25h[?25lr[24;65H20-27[5;27H[?12l[?25h[?25lg[24;66H1-28[5;28H[?12l[?25h[?25lu[24;66H2-29[5;29H[?12l[?25h[?25lm[24;66H3-30[5;30H[?12l[?25h[?25le[24;66H4-31[5;31H[?12l[?25h[?25ln[24;66H5-32[5;32H[?12l[?25h[?25lt[24;66H6-33[5;33H[?12l[?25h[?25ls[24;66H7-34[5;34H[?12l[?25h[?25l[5;14H[31m"Use three arguments"[m[24;66H8-35[5;35H[?12l[?25h[?25l[6;23r[6;1H[L[1;24r[24;63H[K[24;63H6,1[11CAll[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;65H2[4;2H[?12l[?25h[?25l[24;65H3[4;3H[?12l[?25h[?25l[24;65H4[4;4H[?12l[?25h[?25l[24;65H5[4;5H[?12l[?25h[?25l[24;65H6[4;6H[?12l[?25h[?25l[24;65H7[4;7H[?12l[?25h[?25l[24;65H8[4;8H[?12l[?25h[?25l[24;65H9[4;9H[?12l[?25h[?25l[24;65H10[4;10H[?12l[?25h[?25l[24;66H1[4;11H[?12l[?25h[?25l[24;66H2[4;12H[?12l[?25h[?25l[24;66H3[4;13H[?12l[?25h[?25l[24;66H4[4;14H[?12l[?25h[?25l[24;66H5[4;15H[?12l[?25h[?25l[24;66H6[4;16H[?12l[?25h[?25l[5;23r[5;1H[L[1;24r[24;63H[K[24;63H5,1[11CAll[5;1H[?12l[?25h[?25l[24;65H2-9[5;9H[?12l[?25h[?25lt[24;65H3-10[5;10H[?12l[?25h[?25lh[24;65H4-11[5;11H[?12l[?25h[?25le[24;65H5-12[5;12H[?12l[?25h[?25ln[24;65H6-13[5;13H[?12l[?25h[?25l[24;63H6[6;13H[?12l[?25h[?25l[24;63H7,1   [7;1H[?12l[?25h[?25l[24;65H2-9[7;9H[?12l[?25h[?25le[24;65H3-10[7;10H[?12l[?25h[?25ll[24;65H4-11[7;11H[?12l[?25h[?25ls[24;65H5-12[7;12H[?12l[?25h[?25le[24;65H6-13[7;13H[?12l[?25h[?25l[24;63H8,13  [8;13H[?12l[?25h[?25l[24;66H4[8;14H[?12l[?25h[?25l[24;66H5[8;15H[?12l[?25h[?25l[24;66H6[8;16H[?12l[?25h[?25l[24;66H7[8;17H[?12l[?25h[?25l[24;66H8[8;18H[?12l[?25h[?25l[24;66H9[8;19H[?12l[?25h[?25l[24;65H20[8;20H[?12l[?25h[?25l[24;66H1[8;21H[?12l[?25h[?25l[24;66H2[8;22H[?12l[?25h[?25l[24;66H3[8;23H[?12l[?25h[?25l[24;66H4[8;24H[?12l[?25h[?25l[24;66H5[8;25H[?12l[?25h[?25l[24;66H6[8;26H[?12l[?25h[?25l[24;66H7[8;27H[?12l[?25h[?25l[24;66H8[8;28H[?12l[?25h[?25l[24;66H9[8;29H[?12l[?25h[?25l[24;65H30[8;30H[?12l[?25h[?25l[24;66H1[8;31H[?12l[?25h[?25l[24;66H2[8;32H[?12l[?25h[?25l[24;66H3[8;33H[?12l[?25h[?25l[24;66H4[8;34H[?12l[?25h[?25l[24;66H5[8;35H[?12l[?25h[?25l[24;66H6[8;36H[?12l[?25h[?25l[24;66H7[8;37H[?12l[?25h[?25l[24;66H8[8;38H[?12l[?25h[?25l[24;66H9[8;39H[?12l[?25h[?25l[24;65H40[8;40H[?12l[?25h[?25l[24;66H1[8;41H[?12l[?25h[?25l[24;66H2[8;42H[?12l[?25h[?25l[24;66H3[8;43H[?12l[?25h[?25l[24;66H4[8;44H[?12l[?25h[?25l[24;66H5[8;45H[?12l[?25h[?25l[24;66H6[8;46H[?12l[?25h[?25l[24;66H7[8;47H[?12l[?25h[?25l[24;66H8[8;48H[?12l[?25h[?25l[24;66H9[8;49H[?12l[?25h[?25l[24;65H50[8;50H[?12l[?25h[?25l[24;66H1[8;51H[?12l[?25h[?25l[24;63H7,6-13[7;13H[?12l[?25h[?25l[8;23r[8;1H[L[1;24r[24;63H[K[24;63H8,1[11CAll[8;1H[?12l[?25h[?25l[24;65H2-9[8;9H[?12l[?25h[?25li[24;65H3-10[8;10H[?12l[?25h[?25lf[24;65H4-11[8;11H[?12l[?25h[?25l[24;65H5-12[8;12H[?12l[?25h[?25l[[24;65H6-13[8;13H[?12l[?25h[?25l[[24;65H7-14[8;14H[?12l[?25h[?25l[24;65H8-15[8;15H[?12l[?25h[?25l@[24;65H9-16[8;16H[?12l[?25h[?25l#[24;65H10-17[8;17H[?12l[?25h[?25l[8;16H[K[24;65H9-16 [8;16H[?12l[?25h[?25l[8;15H[K[24;65H8-15[8;15H[?12l[?25h[?25l@[24;65H9-16[8;16H[?12l[?25h[?25l[8;15H[K[24;65H8-15[8;15H[?12l[?25h[?25l$[24;65H9-16[8;16H[?12l[?25h[?25l1[24;65H10-17[8;17H[?12l[?25h[?25l[24;66H1-18[8;18H[?12l[?25h[?25l![24;66H2-19[8;19H[?12l[?25h[?25l=[24;66H3-20[8;20H[?12l[?25h[?25l[24;66H4-21[8;21H[?12l[?25h[?25l[[24;66H5-22[8;22H[?12l[?25h[?25l0[24;66H6-23[8;23H[?12l[?25h[?25l-[24;66H7-24[8;24H[?12l[?25h[?25l9[24;66H8-25[8;25H[?12l[?25h[?25l][24;66H9-26[8;26H[?12l[?25h[?25l[24;65H20-27[8;27H[?12l[?25h[?25l[24;66H1-28[8;28H[?12l[?25h[?25l|[24;66H2-29[8;29H[?12l[?25h[?25l|[24;66H3-30[8;30H[?12l[?25h[?25l[24;66H4-31[8;31H[?12l[?25h[?25l@[24;66H5-32[8;32H[?12l[?25h[?25l[8;31H[K[24;66H4-31[8;31H[?12l[?25h[?25l$[24;66H5-32[8;32H[?12l[?25h[?25l1[24;66H6-33[8;33H[?12l[?25h[?25l[8;32H[K[24;66H5-32[8;32H[?12l[?25h[?25l2[24;66H6-33[8;33H[?12l[?25h[?25l[24;66H7-34[8;34H[?12l[?25h[?25l![24;66H8-35[8;35H[?12l[?25h[?25l=[24;66H9-36[8;36H[?12l[?25h[?25l[24;65H30-37[8;37H[?12l[?25h[?25l[[24;66H1-38[8;38H[?12l[?25h[?25l0[24;66H2-39[8;39H[?12l[?25h[?25l-[24;66H3-40[8;40H[?12l[?25h[?25l9[24;66H4-41[8;41H[?12l[?25h[?25l][24;66H5-42[8;42H[?12l[?25h[?25l[24;66H6-43[8;43H[?12l[?25h[?25l|[24;66H7-44[8;44H[?12l[?25h[?25l|[24;66H8-45[8;45H[?12l[?25h[?25l[24;66H9-46[8;46H[?12l[?25h[?25l$[24;65H40-47[8;47H[?12l[?25h[?25l3[24;66H1-48[8;48H[?12l[?25h[?25l[24;66H2-49[8;49H[?12l[?25h[?25l![24;66H3-50[8;50H[?12l[?25h[?25l=[24;66H4-51[8;51H[?12l[?25h[?25l[24;66H5-52[8;52H[?12l[?25h[?25l[[24;66H6-53[8;53H[?12l[?25h[?25l0[24;66H7-54[8;54H[?12l[?25h[?25l-[24;66H8-55[8;55H[?12l[?25h[?25l9[24;66H9-56[8;56H[?12l[?25h[?25l][24;65H50-57[8;57H[?12l[?25h[?25l][24;66H1-58[8;58H[?12l[?25h[?25l][24;66H2-59[8;59H[?12l[?25h[?25l[9;23r[9;1H[L[1;24r[24;63H[K[24;63H9,1[11CAll[9;1H[?12l[?25h[?25l[24;65H2-9[9;9H[?12l[?25h[?25l[24;65H3-17[9;17H[?12l[?25h[?25lt[24;65H4-18[9;18H[?12l[?25h[?25lh[24;65H5-19[9;19H[?12l[?25h[?25le[24;65H6-20[9;20H[?12l[?25h[?25ln[24;65H7-21[9;21H[?12l[?25h[?25l[10;23r[10;1H[L[1;24r[24;63H[K[24;63H10,1[10CAll[10;1H[?12l[?25h[?25l[24;66H2-9[10;9H[?12l[?25h[?25l[24;66H3-17[10;17H[?12l[?25h[?25l[24;66H4-25[10;25H[?12l[?25h[?25l[24;66H3-17[10;17H[?12l[?25h[?25le[24;66H4-18[10;18H[?12l[?25h[?25lc[24;66H5-19[10;19H[?12l[?25h[?25lh[24;66H6-20[10;20H[?12l[?25h[?25lo[24;66H7-21[10;21H[?12l[?25h[?25l[24;66H8-22[10;22H[?12l[?25h[?25l"[24;66H9-23[10;23H[?12l[?25h[?25lO[24;66H10-24[10;24H[?12l[?25h[?25ln[24;67H1-25[10;25H[?12l[?25h[?25l[10;24H[K[24;67H0-24[10;24H[?12l[?25h[?25l[10;23H[K[24;66H9-23 [10;23H[?12l[?25h[?25lI[24;66H10-24[10;24H[?12l[?25h[?25l[10;23H[K[24;66H9-23 [10;23H[?12l[?25h[?25lU[24;66H10-24[10;24H[?12l[?25h[?25ls[24;67H1-25[10;25H[?12l[?25h[?25le[24;67H2-26[10;26H[?12l[?25h[?25l[24;67H3-27[10;27H[?12l[?25h[?25lo[24;67H4-28[10;28H[?12l[?25h[?25ln[24;67H5-29[10;29H[?12l[?25h[?25ll[24;67H6-30[10;30H[?12l[?25h[?25ly[24;67H7-31[10;31H[?12l[?25h[?25l[24;67H8-32[10;32H[?12l[?25h[?25ln[24;67H9-33[10;33H[?12l[?25h[?25lu[24;66H20-34[10;34H[?12l[?25h[?25lm[24;67H1-35[10;35H[?12l[?25h[?25le[24;67H2-36[10;36H[?12l[?25h[?25lr[24;67H3-37[10;37H[?12l[?25h[?25li[24;67H4-38[10;38H[?12l[?25h[?25lc[24;67H5-39[10;39H[?12l[?25h[?25l[24;67H6-40[10;40H[?12l[?25h[?25la[24;67H7-41[10;41H[?12l[?25h[?25lr[24;67H8-42[10;42H[?12l[?25h[?25lg[24;67H9-43[10;43H[?12l[?25h[?25lu[24;66H30-44[10;44H[?12l[?25h[?25le[24;67H1-45[10;45H[?12l[?25h[?25l[10;44H[K[24;67H0-44[10;44H[?12l[?25h[?25lm[24;67H1-45[10;45H[?12l[?25h[?25le[24;67H2-46[10;46H[?12l[?25h[?25ln[24;67H3-47[10;47H[?12l[?25h[?25lt[24;67H4-48[10;48H[?12l[?25h[?25ls[24;67H5-49[10;49H[?12l[?25h[?25l[10;22H[31m"Use only numeric arguments"[m[24;67H6-50[10;50H[?12l[?25h[?25l[11;23r[11;1H[L[1;24r[24;63H[K[24;63H11,1[10CAll[11;1H[?12l[?25h[?25l[24;66H2-9[11;9H[?12l[?25h[?25l[24;66H3-17[11;17H[?12l[?25h[?25le[24;66H4-18[11;18H[?12l[?25h[?25ll[24;66H5-19[11;19H[?12l[?25h[?25ls[24;66H6-20[11;20H[?12l[?25h[?25le[24;66H7-21[11;21H[?12l[?25h[?25l[24;64H0[10;21H[?12l[?25h[?25l[24;63H9,7-21 [9;21H[?12l[?25h[?25l[24;63H8,14-21[8;21H[?12l[?25h[24;1H[K[8;20H[?25l[24;63H8,13-20[7CAll[8;20H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"jsls" 13L, 284C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ ls -l
+[00mtotal 1340
+drwxrwxr-x  2 Student Student   4096 May  9 15:10 [00;34mbackup[00m
+-rw-rw-r--  1 Student Student     96 May  4 07:58 [00mCh10S1F1[00m
+-rw-rw-r--  1 Student Student    453 May  4 08:51 [00mCh10S2F1[00m
+-rw-rw-r--  1 Student Student    477 May  4 16:39 [00mCh10S2F2[00m
+-rw-rw-r--  1 Student Student    239 May  4 16:40 [00mCh10S2F3[00m
+-rw-rw-r--  1 Student Student    238 May  4 16:41 [00mCh10S2F4[00m
+-rw-rw-r--  1 Student Student     40 May  4 16:44 [00mCh10S2F5[00m
+-rw-rw-r--  1 Student Student    108 May  4 16:45 [00mCh10S3F1[00m
+-rw-rw-r--  1 Student Student     48 May  4 16:50 [00mCh10S3F2[00m
+-rw-rw-r--  1 Student Student     48 May  4 16:55 [00mCh10S3F3[00m
+-rw-rw-r--  1 Student Student     24 May  4 17:01 [00mCh10S3F4[00m
+-rw-rw-r--  1 Student Student     12 May  4 17:02 [00mCh10S3F5[00m
+-rw-rw-r--  1 Student Student    426 May  4 17:06 [00mCh10S4F1[00m
+-rw-rw-r--  1 Student Student    503 May  4 17:23 [00mCh10S5F1[00m
+-rw-rw-r--  1 Student Student     91 May  8 08:54 [00mCh11S1F1[00m
+-rw-rw-r--  1 Student Student     91 May  8 08:37 [00mCh11S1F1.dat[00m
+-rw-rw-r--  1 Student Student    288 May  8 08:56 [00mCh11S2F1[00m
+-rw-rw-r--  1 Student Student    358 May  8 16:57 [00mCh11S2F2[00m
+-rw-rw-r--  1 Student Student    169 May  8 16:57 [00mCh11S2.sed[00m
+-rw-rw-r--  1 Student Student    316 May  8 17:04 [00mCh11S3F1[00m
+-rw-rw-r--  1 Student Student    652 May  8 17:05 [00mCh11S3F1n[00m
+-rw-rw-r--  1 Student Student     84 May  8 20:16 [00mCh11S3F2[00m
+-rw-rw-r--  1 Student Student      0 May  8 19:50 [00mCh11S3F2}[00m
+-rw-rw-r--  1 Student Student    152 May  8 20:16 [00mCh11S3F3[00m
+-rw-rw-r--  1 Student Student      0 May  8 19:50 [00mCh11S3F3}[00m
+-rw-rw-r--  1 Student Student    100 May  8 20:16 [00mCh11S3F4[00m
+-rw-rw-r--  1 Student Student      0 May  8 19:50 [00mCh11S3F4}[00m
+-rw-rw-r--  1 Student Student    197 May  8 20:16 [00mCh11S3F5[00m
+-rw-rw-r--  1 Student Student    119 May  8 20:16 [00mCh11S3F5 [00m
+-rw-rw-r--  1 Student Student      0 May  8 19:50 [00mCh11S3F5}[00m
+-rw-rw-r--  1 Student Student    220 May  8 20:19 [00mCh11S3.sed[00m
+-rw-rw-r--  1 Student Student     99 May  8 20:24 [00mCh11S4F1[00m
+-rw-rw-r--  1 Student Student     99 May  8 20:40 [00mCh11S4F2[00m
+-rw-rw-r--  1 Student Student     46 May  8 20:40 [00mCh11S4.sed[00m
+-rw-rw-r--  1 Student Student    276 May  8 20:46 [00mCh11S5F1[00m
+-rw-rw-r--  1 Student Student     85 May  8 21:38 [00mCh11S5F2[00m
+-rw-rw-r--  1 Student Student     90 May  8 21:38 [00mCh11S5.sed[00m
+-rw-rw-r--  1 Student Student    267 May  8 21:42 [00mCh11S6F1[00m
+-rw-rw-r--  1 Student Student    130 May  8 21:50 [00mCh11S6F2[00m
+-rw-rw-r--  1 Student Student    186 May  8 21:49 [00mCh11S6.sed[00m
+-rw-rw-r--  1 Student Student    154 Apr 30 07:11 [00mCh6[00m
+-rw-rw-r--  1 Student Student     26 Apr 29 09:06 [00mCh61F1l[00m
+-rw-rw-r--  1 Student Student     81 Apr 28 08:54 [00mCh61S1F1[00m
+-rw-rw-r--  1 Student Student      5 Apr 29 09:07 [00mCh6S1F1[00m
+-rw-rw-r--  1 Student Student     81 Apr 28 08:54 [00mCh6S1F15[00m
+-rw-rw-r--  1 Student Student      0 Apr 28 08:42 [00mCh6S1F1l[00m
+-rw-rw-r--  1 Student Student    152 Apr 29 17:45 [00mCh6S3F1[00m
+-rw-rw-r--  1 Student Student    152 Apr 29 17:44 [00mCh6S3F1Encr[00m
+-rw-rw-r--  1 Student Student     98 Apr 29 17:48 [00mCh6S4F1[00m
+-rw-rw-r--  1 Student Student     98 Apr 30 06:49 [00mCh6S5F1[00m
+-rw-rw-r--  1 Student Student     98 Apr 30 06:51 [00mCh6S5F2[00m
+-rw-rw-r--  1 Student Student    154 Apr 30 07:11 [00mCh6S5F3[00m
+-rw-rw-r--  1 Student Student     98 Apr 30 06:53 [00mCh6S5F4[00m
+-rw-rw-r--  1 Student Student     98 Apr 30 06:54 [00mCh6S5F5[00m
+-rw-rw-r--  1 Student Student    107 Apr 30 07:14 [00mCh6S6F1[00m
+-rw-rw-r--  1 Student Student   1553 Apr 30 07:30 [00mCh6S7F1[00m
+-rw-rw-r--  1 Student Student    296 Apr 30 07:57 [00mCh6S7F2[00m
+-rw-rw-r--  1 Student Student    298 Apr 30 08:17 [00mCh6S7F3[00m
+-rw-rw-r--  1 Student Student     10 May  1 06:13 [00mCh6SIFI[00m
+-rw-rw-r--  1 Student Student    171 Apr 29 16:35 [00mCh6SIIFI[00m
+drwxr-xr-x  2 Student Student   4096 Jul 27  2005 [00;34mDesktop[00m
+-rw-rw-r--  1 Student Student     87 Apr 30 08:12 [00mfirstlines[00m
+-rw-rw-r--  1 Student Student     14 May  9 07:55 [00mjs[00m
+-rw-rw-r--  1 Student Student      0 May  9 08:11 [00mjsbacjup[00m
+-rwxrw-r--  1 Student Student    377 May  9 15:20 [00;32mjsbackup[00m
+-rwxrw-r--  1 Student Student    284 May  9 18:25 [00;32mjsls[00m
+-rw-rw-r--  1 Student Student    102 Apr 30 08:14 [00mlastlines[00m
+-rw-rw-r--  1 Student Student    107 Apr 30 08:16 [00mmiddlelines[00m
+-rw-rw-r--  1 Student Student     16 May  9 15:10 [00mmyfiles[00m
+-rw-rw-r--  1 Student Student   8383 May  5 08:57 [00mPersian Gulf.odt[00m
+-rw-rw-r--  1 Student Student   8383 May  5 08:58 [00mPersian Gulf.txt[00m
+-rw-rw-r--  1 Student Student   1006 May  4 16:45 [00mSangtani.10.II.cont.txt[00m
+-rw-rw-r--  1 Student Student  14688 May  4 17:02 [00mSangtani.10.III.txt[00m
+-rw-rw-r--  1 Student Student   1934 May  4 09:01 [00mSangtani.10.II.txt[00m
+-rw-rw-r--  1 Student Student   6664 May  4 08:47 [00mSangtani.10.I.txt[00m
+-rw-rw-r--  1 Student Student   6252 May  5 08:05 [00mSangtani.10.IV.cont.txt[00m
+-rw-rw-r--  1 Student Student    747 May  4 17:19 [00mSangtani.10.IV.txt[00m
+-rw-rw-r--  1 Student Student  21638 May  4 18:24 [00mSangtani.10.V.txt[00m
+-rw-rw-r--  1 Student Student  50358 May  8 20:01 [00mSangtani.11.III.txt[00m
+-rw-rw-r--  1 Student Student  29028 May  8 17:00 [00mSangtani.11.II.txt[00m
+-rw-rw-r--  1 Student Student  41769 May  8 08:54 [00mSangtani.11.I.txt[00m
+-rw-rw-r--  1 Student Student  33680 May  8 20:40 [00mSangtani.11.IV.txt[00m
+-rw-rw-r--  1 Student Student   7574 May  8 21:51 [00mSangtani.11.VI.txt[00m
+-rw-rw-r--  1 Student Student  58203 May  8 21:39 [00mSangtani.11.V.txt[00m
+-rw-rw-r--  1 Student Student  45056 May  9 18:24 [00mSangtani.14.III.txt[00m
+-rw-rw-r--  1 Student Student 184233 May  9 15:21 [00mSangtani.14.I.txt[00m
+-rw-rw-r--  1 Student Student   3856 Apr 29 17:46 [00mSangtani.6.III.txt[00m
+-rw-rw-r--  1 Student Student   9510 May  1 06:08 [00mSangtani.6.II.txt[00m
+-rw-rw-r--  1 Student Student   6121 Apr 29 09:08 [00mSangtani.6.I.txt[00m
+-rw-rw-r--  1 Student Student   4960 Apr 29 18:02 [00mSangtani.6.IV.txt[00m
+-rw-rw-r--  1 Student Student  12706 Apr 30 08:18 [00mSangtani.6.VII.txt[00m
+-rw-rw-r--  1 Student Student    733 Apr 30 07:29 [00mSangtani.6.VI.txt[00m
+-rw-rw-r--  1 Student Student  12813 Apr 30 07:12 [00mSangtani.6.V.txt[00m
+-rw-rw-r--  1 Student Student  24064 May  1 08:26 [00mSangtaniL7II.doc[00m
+-rw-rw-r--  1 Student Student  13069 May  1 08:26 [00mSangtani.L7IIIs[00m
+-rw-rw-r--  1 Student Student     23 May  1 08:26 [00mSangtani.L7III.txt[00m
+-rw-rw-r--  1 Student Student     15 May  1 08:26 [00mSangtani.L7I.txt[00m
+-rw-rw-r--  1 Student Student     19 May  1 08:26 [00mSangtani.L7IV.txt[00m
+-rw-rw-r--  1 Student Student    151 May  4 18:24 [00mtypescript[00m
+-rw-rw-r--  1 Student Student      6 May  9 08:45 [00myowa[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ ls -lvi jsls[2Pls -lvi jsls
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"jsls" 13L, 284C[1;1H[34m# Script Name: jsls
+# To print specific columns from the directory list.[m
+
+if [[ $# != 3]][5;9Hthen[6;9Hecho [31m"Use three arguments"[m[7;9Helse[8;9Hif [[ $1 != [0-9]  || $2 != [0-9] || $3 != [0-9]]][9;17Hthen[10;17Hecho [31m"Use only numeric arguments"[m[11;17Helse
+ls -l | sed [31m's/[ ][ ]*/ /g'[m | cut -d[31m' '[m -f$1,$2,$3
+
+[1m[34m~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H8,2-9[9CAll[8;9H[?12l[?25h[?25l[24;63H9,2-16[9;16H[?12l[?25h[?25l[24;63H10,2-16[10;16H[?12l[?25h[?25l[24;64H1[11;16H[?12l[?25h[?25l[24;64H2,9   [12;9H[?12l[?25h[?25l[24;66H8[12;8H[?12l[?25h[?25l[24;66H7[12;7H[?12l[?25h[?25l[24;66H6[12;6H[?12l[?25h[?25l[24;66H5[12;5H[?12l[?25h[?25l[24;66H4[12;4H[?12l[?25h[?25l[24;66H3[12;3H[?12l[?25h[?25l[24;66H2[12;2H[?12l[?25h[?25l[24;66H1[12;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H12,1[10CAll[12;1H[?12l[?25h[?25l        ls -l | sed [31m's/[ ][ ]*/ /g'[m | cut -d[31m' '[m -f$1,$2,$3[24;66H2-9[12;9H[?12l[?25h[?25l        ls -l | sed [31m's/[ ][ ]*/ /g'[m | cut -d[31m' '[m -f$1,$2,$3[24;66H3-17[12;17H[?12l[?25h[?25l[24;64H1[11;17H[?12l[?25h[?25l[24;64H0[10;17H[?12l[?25h[?25l[24;63H9,3-17 [9;17H[?12l[?25h[?25l[24;63H8,10-17[8;17H[?12l[?25h[?25l[24;63H7,6-13 [7;13H[?12l[?25h[?25l[24;63H6,10-17[6;17H[?12l[?25h[?25l[24;63H5,6-13 [5;13H[?12l[?25h[?25l[24;63H6,10-17[6;17H[?12l[?25h[?25l[24;63H7,6-13 [7;13H[?12l[?25h[?25l[24;63H8,10-17[8;17H[?12l[?25h[?25l[24;63H9,3-17 [9;17H[?12l[?25h[?25l[24;63H10,3-17[10;17H[?12l[?25h[?25l[24;63H9,3-17 [9;17H[?12l[?25h[?25l[24;63H8,10-17[8;17H[?12l[?25h[?25l[24;63H7,6-13 [7;13H[?12l[?25h[?25l[24;63H8,10-17[8;17H[?12l[?25h[?25l[24;66H1-18[8;18H[?12l[?25h[?25l[24;66H2-19[8;19H[?12l[?25h[?25l[24;66H3-20[8;20H[?12l[?25h[?25l[24;66H4-21[8;21H[?12l[?25h[?25l[24;66H5-22[8;22H[?12l[?25h[?25l0-9]  || $2 != [0-9] || $3 != [0-9][8;58H[K[24;66H4-21[8;21H[?12l[?25h[?25l[0-9]  || $2 != [0-9] || $3 != [0-9]]][24;66H5-22[8;22H[?12l[?25h[?25l[24;66H4-21[8;21H[?12l[?25h[?25l^[0-9]  || $2 != [0-9] || $3 != [0-9]]][24;66H5-22[8;22H[?12l[?25h[?25l[24;66H6-23[8;23H[?12l[?25h[?25l[24;66H7-24[8;24H[?12l[?25h[?25l[24;66H8-25[8;25H[?12l[?25h[?25l[24;66H9-26[8;26H[?12l[?25h[?25l[24;65H20-27[8;27H[?12l[?25h[?25l$  || $2 != [0-9] || $3 != [0-9]]][24;66H1-28[8;28H[?12l[?25h[?25l[24;66H2-29[8;29H[?12l[?25h[?25l[24;66H3-30[8;30H[?12l[?25h[?25l[24;66H4-31[8;31H[?12l[?25h[?25l[24;66H5-32[8;32H[?12l[?25h[?25l[24;66H6-33[8;33H[?12l[?25h[?25l[24;66H7-34[8;34H[?12l[?25h[?25l[24;66H8-35[8;35H[?12l[?25h[?25l[24;66H9-36[8;36H[?12l[?25h[?25l[24;65H30-37[8;37H[?12l[?25h[?25l[24;66H1-38[8;38H[?12l[?25h[?25l[24;66H2-39[8;39H[?12l[?25h[?25l^[0-9] || $3 != [0-9]]][24;66H3-40[8;40H[?12l[?25h[?25l[24;66H4-41[8;41H[?12l[?25h[?25l[24;66H5-42[8;42H[?12l[?25h[?25l[24;66H6-43[8;43H[?12l[?25h[?25l[24;66H7-44[8;44H[?12l[?25h[?25l[24;66H8-45[8;45H[?12l[?25h[?25l$ || $3 != [0-9]]][24;66H9-46[8;46H[?12l[?25h[?25l[24;63H9,7-21 [9;21H[?12l[?25h[?25l[24;63H8,39-46[8;46H[?12l[?25h[?25l[24;65H40-47[8;47H[?12l[?25h[?25l[24;66H1-48[8;48H[?12l[?25h[?25l[24;66H2-49[8;49H[?12l[?25h[?25l[24;66H3-50[8;50H[?12l[?25h[?25l[24;66H4-51[8;51H[?12l[?25h[?25l[24;66H5-52[8;52H[?12l[?25h[?25l[24;66H6-53[8;53H[?12l[?25h[?25l[24;66H7-54[8;54H[?12l[?25h[?25l[24;66H8-55[8;55H[?12l[?25h[?25l[24;66H9-56[8;56H[?12l[?25h[?25l^[0-9]]][24;65H50-57[8;57H[?12l[?25h[?25l[24;66H1-58[8;58H[?12l[?25h[?25l[24;66H2-59[8;59H[?12l[?25h[?25l[24;66H3-60[8;60H[?12l[?25h[?25l[24;66H4-61[8;61H[?12l[?25h[?25l[24;66H5-62[8;62H[?12l[?25h[?25l$]][24;66H6-63[8;63H[?12l[?25h[?25l[24;63H9,7-21 [9;21H[?12l[?25h[?25l[24;63H10,36-50[10;50H[?12l[?25h[?25l[24;64H1,7-21 [11;21H[?12l[?25h[?25l[24;64H2,49-63[12;63H[?12l[?25h[?25l[24;64H3,1    [13;1H[?12l[?25h[?25l[24;64H2,49-63[12;63H[?12l[?25h[?25l[24;66H50-64[12;64H[?12l[?25h[?25l[24;67H1-65[12;65H[?12l[?25h[?25l[24;67H2-66[12;66H[?12l[?25h[?25l[24;67H3-67[12;67H[?12l[?25h[?25l[12;66H[K[24;67H2-66[12;66H[?12l[?25h[?25l[12;65H[K[24;67H1-65[12;65H[?12l[?25h[?25l[12;64H[K[24;67H0-64[12;64H[?12l[?25h[?25l[12;63H[K[24;66H49-63[12;63H[?12l[?25h[?25l[12;62H[K[24;67H8-62[12;62H[?12l[?25h[?25l[12;61H[K[24;67H7-61[12;61H[?12l[?25h[?25l[12;60H[K[24;67H6-60[12;60H[?12l[?25h[?25l[12;59H[K[24;67H5-59[12;59H[?12l[?25h[?25l[12;58H[K[24;67H4-58[12;58H[?12l[?25h[?25l[12;57H[K[24;67H3-57[12;57H[?12l[?25h[?25l[24;67H2-56[12;56H[?12l[?25h[?25l' [12;55H[K[24;67H1-55[12;55H[?12l[?25h[?25l[24;67H0-54[12;54H[?12l[?25h[?25l[12;53H[K[24;66H39-53[12;53H[?12l[?25h[?25l[12;52H[K[24;67H8-52[12;52H[?12l[?25h[?25l[12;51H[K[24;67H7-51[12;51H[?12l[?25h[?25l[24;67H6-50[12;50H[?12l[?25h[?25l[12;49H[K[24;67H5-49[12;49H[?12l[?25h[?25l[12;48H[K[24;67H4-48[12;48H[?12l[?25h[?25l[12;47H[K[24;67H3-47[12;47H[?12l[?25h[?25l[24;67H2-46[12;46H[?12l[?25h[?25l[12;45H[K[24;67H1-45[12;45H[?12l[?25h[?25l[24;67H0-44[12;44H[?12l[?25h[?25l[24;67H1-45[12;45H[?12l[?25h[?25l>[24;67H2-46[12;46H[?12l[?25h[?25l[24;67H3-47[12;47H[?12l[?25h[?25lf[24;67H4-48[12;48H[?12l[?25h[?25li[24;67H5-49[12;49H[?12l[?25h[?25ll[24;67H6-50[12;50H[?12l[?25h[?25le[24;67H7-51[12;51H[?12l[?25h[?25l[12;50H[K[24;67H6-50[12;50H[?12l[?25h[?25l[12;49H[K[24;67H5-49[12;49H[?12l[?25h[?25l[12;48H[K[24;67H4-48[12;48H[?12l[?25h[?25l[12;47H[K[24;67H3-47[12;47H[?12l[?25h[?25ll[24;67H4-48[12;48H[?12l[?25h[?25ls[24;67H5-49[12;49H[?12l[?25h[?25li[24;67H6-50[12;50H[?12l[?25h[?25l[12;49H[K[24;67H5-49[12;49H[?12l[?25h[?25l[12;48H[K[24;67H4-48[12;48H[?12l[?25h[?25l[12;47H[K[24;67H3-47[12;47H[?12l[?25h[?25ld[24;67H4-48[12;48H[?12l[?25h[?25li[24;67H5-49[12;49H[?12l[?25h[?25lr[24;67H6-50[12;50H[?12l[?25h[?25l[12;49H[K[24;67H5-49[12;49H[?12l[?25h[?25l[12;48H[K[24;67H4-48[12;48H[?12l[?25h[?25l[12;47H[K[24;67H3-47[12;47H[?12l[?25h[?25ll[24;67H4-48[12;48H[?12l[?25h[?25ls[24;67H5-49[12;49H[?12l[?25h[?25li[24;67H6-50[12;50H[?12l[?25h[?25lt[24;67H7-51[12;51H[?12l[?25h[?25l[12;50H[K[24;67H6-50[12;50H[?12l[?25h[?25l[12;49H[K[24;67H5-49[12;49H[?12l[?25h[?25l[12;48H[K[24;67H4-48[12;48H[?12l[?25h[?25li[24;67H5-49[12;49H[?12l[?25h[?25ls[24;67H6-50[12;50H[?12l[?25h[?25lt[24;67H7-51[12;51H[?12l[?25h[?25ld[24;67H8-52[12;52H[?12l[?25h[?25li[24;67H9-53[12;53H[?12l[?25h[?25lr[24;66H40-54[12;54H[?12l[?25h[?25l[13;23r[13;1H[L[1;24r[24;63H[K[24;63H13,1[10CAll[13;1H[?12l[?25h[?25l[24;66H2-9[13;9H[?12l[?25h[?25l[24;66H3-17[13;17H[?12l[?25h[?25ll[24;66H4-18[13;18H[?12l[?25h[?25li[24;66H5-19[13;19H[?12l[?25h[?25ls[24;66H6-20[13;20H[?12l[?25h[?25lt[24;66H7-21[13;21H[?12l[?25h[?25ld[24;66H8-22[13;22H[?12l[?25h[?25li[24;66H9-23[13;23H[?12l[?25h[?25lr[24;66H10-24[13;24H[?12l[?25h[?25l[24;67H1-25[13;25H[?12l[?25h[?25l>[24;67H2-26[13;26H[?12l[?25h[?25l[24;67H3-27[13;27H[?12l[?25h[?25l[24;67H2-26[13;26H[?12l[?25h[?25l[13;25H[K[24;67H1-25[13;25H[?12l[?25h[?25l[24;67H0-24[13;24H[?12l[?25h[?25l[13;23H[K[24;66H9-23 [13;23H[?12l[?25h[?25l[13;22H[K[24;66H8-22[13;22H[?12l[?25h[?25l[13;21H[K[24;66H7-21[13;21H[?12l[?25h[?25l[13;20H[K[24;66H6-20[13;20H[?12l[?25h[?25l[13;19H[K[24;66H5-19[13;19H[?12l[?25h[?25l[13;18H[K[24;66H4-18[13;18H[?12l[?25h[?25l[13;17H[K[24;66H3-17[13;17H[?12l[?25h[?25lc[24;66H4-18[13;18H[?12l[?25h[?25lu[24;66H5-19[13;19H[?12l[?25h[?25lt[24;66H6-20[13;20H[?12l[?25h[?25l[24;66H7-21[13;21H[?12l[?25h[?25l-[24;66H8-22[13;22H[?12l[?25h[?25ld[24;66H9-23[13;23H[?12l[?25h[?25l[24;66H10-24[13;24H[?12l[?25h[?25l1[24;67H1-25[13;25H[?12l[?25h[?25l[13;24H[K[24;67H0-24[13;24H[?12l[?25h[?25l[24;66H9-23 [13;23H[?12l[?25h[?25l'[24;66H10-24[13;24H[?12l[?25h[?25l[24;67H1-25[13;25H[?12l[?25h[?25l[31m' '[m[24;67H2-26[13;26H[?12l[?25h[?25l[24;67H3-27[13;27H[?12l[?25h[?25ll[24;67H4-28[13;28H[?12l[?25h[?25ls[24;67H5-29[13;29H[?12l[?25h[?25li[24;67H6-30[13;30H[?12l[?25h[?25lt[24;67H7-31[13;31H[?12l[?25h[?25ld[24;67H8-32[13;32H[?12l[?25h[?25li[24;67H9-33[13;33H[?12l[?25h[?25l[13;32H[K[24;67H8-32[13;32H[?12l[?25h[?25l[13;31H[K[24;67H7-31[13;31H[?12l[?25h[?25l[13;30H[K[24;67H6-30[13;30H[?12l[?25h[?25l[13;29H[K[24;67H5-29[13;29H[?12l[?25h[?25l[13;28H[K[24;67H4-28[13;28H[?12l[?25h[?25li[24;67H5-29[13;29H[?12l[?25h[?25ls[24;67H6-30[13;30H[?12l[?25h[?25lt[24;67H7-31[13;31H[?12l[?25h[?25ld[24;67H8-32[13;32H[?12l[?25h[?25li[24;67H9-33[13;33H[?12l[?25h[?25lr[24;66H20-34[13;34H[?12l[?25h[?25l[24;67H1-35[13;35H[?12l[?25h[?25l|[24;67H2-36[13;36H[?12l[?25h[?25l[24;67H3-37[13;37H[?12l[?25h[?25l[24;67H2-36[13;36H[?12l[?25h[?25l[13;35H[K[24;67H1-35[13;35H[?12l[?25h[?25l[24;67H0-34[13;34H[?12l[?25h[?25l[24;67H1-35[13;35H[?12l[?25h[?25l>[24;67H2-36[13;36H[?12l[?25h[?25l[24;67H3-37[13;37H[?12l[?25h[?25ll[24;67H4-38[13;38H[?12l[?25h[?25ls[24;67H5-39[13;39H[?12l[?25h[?25li[24;67H6-40[13;40H[?12l[?25h[?25lt[24;67H7-41[13;41H[?12l[?25h[?25l1[24;67H8-42[13;42H[?12l[?25h[?25l[14;23r[14;1H[L[1;24r[24;63H[K[24;63H14,1[10CAll[14;1H[?12l[?25h[?25l[13;23r[23;1H
+[1;24r[13;17Hcut -d[31m' '[m listdir > lsit1[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H13,28-42      All[13;42H[?12l[?25h[?25l[13;41H[K[24;67H7-41[13;41H[?12l[?25h[?25l[13;40H[K[24;67H6-40[13;40H[?12l[?25h[?25l[13;39H[K[24;67H5-39[13;39H[?12l[?25h[?25l[13;38H[K[24;67H4-38[13;38H[?12l[?25h[?25li[24;67H5-39[13;39H[?12l[?25h[?25ls[24;67H6-40[13;40H[?12l[?25h[?25lt[24;67H7-41[13;41H[?12l[?25h[?25l1[24;67H8-42[13;42H[?12l[?25h[?25l[14;23r[14;1H[L[1;24r[24;63H[K[24;63H14,1[10CAll[14;1H[?12l[?25h[?25l[24;66H2-9[14;9H[?12l[?25h[?25l[24;66H3-17[14;17H[?12l[?25h[?25l[24;66H4-25[14;25H[?12l[?25h[?25l[24;66H3-17[14;17H[?12l[?25h[?25lc[24;66H4-18[14;18H[?12l[?25h[?25lu[24;66H5-19[14;19H[?12l[?25h[?25lt[24;66H6-20[14;20H[?12l[?25h[?25l[24;66H7-21[14;21H[?12l[?25h[?25l-[24;66H8-22[14;22H[?12l[?25h[?25ld[24;66H9-23[14;23H[?12l[?25h[?25l'[24;66H10-24[14;24H[?12l[?25h[?25l[24;67H1-25[14;25H[?12l[?25h[?25l[31m' '[m[24;67H2-26[14;26H[?12l[?25h[?25l[24;64H3[13;26H[?12l[?25h[?25l[24;67H3-27[13;27H[?12l[?25h[?25l-listdir > list1[24;67H4-28[13;28H[?12l[?25h[?25lflistdir > list1[24;67H5-29[13;29H[?12l[?25h[?25l$listdir > list1[24;67H6-30[13;30H[?12l[?25h[?25l1listdir > list1[24;67H7-31[13;31H[?12l[?25h[?25l listdir > list1[24;67H8-32[13;32H[?12l[?25h[?25l[24;64H4,12-26[14;26H[?12l[?25h[?25l[24;64H5,1    [15;1H[?12l[?25h[?25l[24;64H4,12-26[14;26H[?12l[?25h[?25l[24;67H3-27[14;27H[?12l[?25h[?25l-[24;67H4-28[14;28H[?12l[?25h[?25lF[24;67H5-29[14;29H[?12l[?25h[?25l$[24;67H6-30[14;30H[?12l[?25h[?25l2[24;67H7-31[14;31H[?12l[?25h[?25l[24;67H8-32[14;32H[?12l[?25h[?25ll[24;67H9-33[14;33H[?12l[?25h[?25li[24;66H20-34[14;34H[?12l[?25h[?25ls[24;67H1-35[14;35H[?12l[?25h[?25lt[24;67H2-36[14;36H[?12l[?25h[?25ld[24;67H3-37[14;37H[?12l[?25h[?25li[24;67H4-38[14;38H[?12l[?25h[?25lr[24;67H5-39[14;39H[?12l[?25h[?25l[24;67H6-40[14;40H[?12l[?25h[?25l>[24;67H7-41[14;41H[?12l[?25h[?25l[24;67H8-42[14;42H[?12l[?25h[?25ll[24;67H9-43[14;43H[?12l[?25h[?25li[24;66H30-44[14;44H[?12l[?25h[?25ls[24;67H1-45[14;45H[?12l[?25h[?25lt[24;67H2-46[14;46H[?12l[?25h[?25l2[24;67H3-47[14;47H[?12l[?25h[?25l[15;23r[15;1H[L[1;24r[24;63H[K[24;63H15,1[10CAll[15;1H[?12l[?25h[?25l[24;66H2-9[15;9H[?12l[?25h[?25l[24;66H3-17[15;17H[?12l[?25h[?25lc[24;66H4-18[15;18H[?12l[?25h[?25lu[24;66H5-19[15;19H[?12l[?25h[?25lt[24;66H6-20[15;20H[?12l[?25h[?25l[24;66H7-21[15;21H[?12l[?25h[?25l-[24;66H8-22[15;22H[?12l[?25h[?25ld[24;66H9-23[15;23H[?12l[?25h[?25l'[24;66H10-24[15;24H[?12l[?25h[?25l[24;67H1-25[15;25H[?12l[?25h[?25l[31m' '[m[24;67H2-26[15;26H[?12l[?25h[?25l[24;67H3-27[15;27H[?12l[?25h[?25l[24;64H4[14;27H[?12l[?25h[?25l[24;67H4-28[14;28H[?12l[?25h[?25l[24;67H5-29[14;29H[?12l[?25h[?25l$2 listdir > list2[14;46H[K[24;67H4-28[14;28H[?12l[?25h[?25lf$2 listdir > list2[24;67H5-29[14;29H[?12l[?25h[?25l[24;64H5,13-27[15;27H[?12l[?25h[?25l-[24;67H4-28[15;28H[?12l[?25h[?25lf[24;67H5-29[15;29H[?12l[?25h[?25l$[24;67H6-30[15;30H[?12l[?25h[?25l3[24;67H7-31[15;31H[?12l[?25h[?25l[24;67H8-32[15;32H[?12l[?25h[?25ll[24;67H9-33[15;33H[?12l[?25h[?25li[24;66H20-34[15;34H[?12l[?25h[?25ls[24;67H1-35[15;35H[?12l[?25h[?25lt[24;67H2-36[15;36H[?12l[?25h[?25ld[24;67H3-37[15;37H[?12l[?25h[?25li[24;67H4-38[15;38H[?12l[?25h[?25lr[24;67H5-39[15;39H[?12l[?25h[?25l[24;67H6-40[15;40H[?12l[?25h[?25l>[24;67H7-41[15;41H[?12l[?25h[?25l[24;67H8-42[15;42H[?12l[?25h[?25ll[24;67H9-43[15;43H[?12l[?25h[?25ls[24;66H30-44[15;44H[?12l[?25h[?25li[24;67H1-45[15;45H[?12l[?25h[?25l[15;44H[K[24;67H0-44[15;44H[?12l[?25h[?25l[15;43H[K[24;66H29-43[15;43H[?12l[?25h[?25li[24;66H30-44[15;44H[?12l[?25h[?25ls[24;67H1-45[15;45H[?12l[?25h[?25lt[24;67H2-46[15;46H[?12l[?25h[?25l2[24;67H3-47[15;47H[?12l[?25h[?25l[15;46H[K[24;67H2-46[15;46H[?12l[?25h[?25l3[24;67H3-47[15;47H[?12l[?25h[?25l[16;23r[16;1H[L[1;24r[24;63H[K[24;63H16,1[10CAll[16;1H[?12l[?25h[?25l[24;66H2-9[16;9H[?12l[?25h[?25l[24;66H3-17[16;17H[?12l[?25h[?25lp[24;66H4-18[16;18H[?12l[?25h[?25la[24;66H5-19[16;19H[?12l[?25h[?25ls[24;66H6-20[16;20H[?12l[?25h[?25lt[24;66H7-21[16;21H[?12l[?25h[?25le[24;66H8-22[16;22H[?12l[?25h[?25l[24;66H9-23[16;23H[?12l[?25h[?25ll[24;66H10-24[16;24H[?12l[?25h[?25li[24;67H1-25[16;25H[?12l[?25h[?25ls[24;67H2-26[16;26H[?12l[?25h[?25lt[24;67H3-27[16;27H[?12l[?25h[?25l2[24;67H4-28[16;28H[?12l[?25h[?25l[24;67H5-29[16;29H[?12l[?25h[?25l[24;67H4-28[16;28H[?12l[?25h[?25l[16;27H[K[24;67H3-27[16;27H[?12l[?25h[?25l1[24;67H4-28[16;28H[?12l[?25h[?25l[24;67H5-29[16;29H[?12l[?25h[?25ll[24;67H6-30[16;30H[?12l[?25h[?25li[24;67H7-31[16;31H[?12l[?25h[?25ls[24;67H8-32[16;32H[?12l[?25h[?25lt[24;67H9-33[16;33H[?12l[?25h[?25l2[24;66H20-34[16;34H[?12l[?25h[?25l[24;67H1-35[16;35H[?12l[?25h[?25ll[24;67H2-36[16;36H[?12l[?25h[?25li[24;67H3-37[16;37H[?12l[?25h[?25ls[24;67H4-38[16;38H[?12l[?25h[?25lt[24;67H5-39[16;39H[?12l[?25h[?25l3[24;67H6-40[16;40H[?12l[?25h[?25l[24;64H5[15;40H[?12l[?25h[?25l[24;64H4[14;40H[?12l[?25h[?25l[24;64H3[13;40H[?12l[?25h[?25l[24;64H2[12;40H[?12l[?25h[?25l[24;64H1,7-21 [11;21H[?12l[?25h[?25l[24;64H0,26-40[10;40H[?12l[?25h[?25l[24;67H7-41[10;41H[?12l[?25h[?25l[24;67H8-42[10;42H[?12l[?25h[?25l[24;67H9-43[10;43H[?12l[?25h[?25l[24;66H30-44[10;44H[?12l[?25h[?25l[24;67H1-45[10;45H[?12l[?25h[?25l[24;67H2-46[10;46H[?12l[?25h[?25l[24;67H3-47[10;47H[?12l[?25h[?25l[24;67H4-48[10;48H[?12l[?25h[?25l[24;67H5-49[10;49H[?12l[?25h[?25l[31m "[m[24;67H6-50[10;50H[?12l[?25h[?25l[31mt"[m[24;67H7-51[10;51H[?12l[?25h[?25l[31mh"[m[24;67H8-52[10;52H[?12l[?25h[?25l[31ma"[m[24;67H9-53[10;53H[?12l[?25h[?25l[31mt"[m[24;66H40-54[10;54H[?12l[?25h[?25l[31m "[m[24;67H1-55[10;55H[?12l[?25h[?25l[31ma"[m[24;67H2-56[10;56H[?12l[?25h[?25l[31mr"[m[24;67H3-57[10;57H[?12l[?25h[?25l[31me"[m[24;67H4-58[10;58H[?12l[?25h[?25l[31m "[m[24;67H5-59[10;59H[?12l[?25h[?25l[31mi"[m[24;67H6-60[10;60H[?12l[?25h[?25l[31mn"[m[24;67H7-61[10;61H[?12l[?25h[?25l[31mc"[m[24;67H8-62[10;62H[?12l[?25h[?25l[31ml"[m[24;67H9-63[10;63H[?12l[?25h[?25l[31mu"[m[24;66H50-64[10;64H[?12l[?25h[?25l[31md"[m[24;67H1-65[10;65H[?12l[?25h[?25l[31me"[m[24;67H2-66[10;66H[?12l[?25h[?25l[31md"[m[24;67H3-67[10;67H[?12l[?25h[?25l[31m "[m[24;67H4-68[10;68H[?12l[?25h[?25l[31mi"[m[24;67H5-69[10;69H[?12l[?25h[?25l[31mn"[m[24;67H6-70[10;70H[?12l[?25h[?25l[31m "[m[24;67H7-71[10;71H[?12l[?25h[?25l[31mt"[m[24;67H8-72[10;72H[?12l[?25h[?25l[31mh"[m[24;67H9-73[10;73H[?12l[?25h[?25l[31me"[m[24;66H60-74[10;74H[?12l[?25h[?25l[31m "[m[24;67H1-75[10;75H[?12l[?25h[?25l[31ml"[m[24;67H2-76[10;76H[?12l[?25h[?25l[31ms"[m[24;67H3-77[10;77H[?12l[?25h[?25l[31mi"[m[24;67H4-78[10;78H[?12l[?25h[?25l[31mt"[m[24;67H5-79[10;79H[?12l[?25h[?25l[31m"[m[10;79H[K[24;67H4-78[10;78H[?12l[?25h[?25l[31m"[m[10;78H[K[24;67H3-77[10;77H[?12l[?25h[?25l[31m"[m[10;77H[K[24;67H2-76[10;76H[?12l[?25h[?25l[31mi"[m[24;67H3-77[10;77H[?12l[?25h[?25l[31ms"[m[24;67H4-78[10;78H[?12l[?25h[?25l[31mt"[m[24;67H5-79[10;79H[?12l[?25h[?25l[24;64H1,7-21 [11;21H[?12l[?25h[?25l[24;64H2,40-54[12;54H[?12l[?25h[?25l[24;64H3,33-47[13;47H[?12l[?25h[?25l[24;64H4[14;47H[?12l[?25h[?25l[24;64H5[15;47H[?12l[?25h[?25l[24;64H6,26-40[16;40H[?12l[?25h[?25l[24;64H7,1    [17;1H[?12l[?25h[?25l[24;64H6,26-40[16;40H[?12l[?25h[?25l
+[1m[34m~                                                                               [16;40H[?12l[?25h[?25l[m[24;64H5[15;40H[?12l[?25h[?25l[24;64H4[14;40H[?12l[?25h[?25l[24;64H3[13;40H[?12l[?25h[?25l[24;64H2[12;40H[?12l[?25h[?25l[24;64H1,7-21 [11;21H[?12l[?25h[?25l[24;64H0,26-40[10;40H[?12l[?25h[?25l[24;64H1,7-21 [11;21H[?12l[?25h[?25l[24;64H2,26-40[12;40H[?12l[?25h[?25l[24;64H3[13;40H[?12l[?25h[?25l[24;64H4[14;40H[?12l[?25h[?25l[24;64H5[15;40H[?12l[?25h[?25l[24;64H6[16;40H[?12l[?25h[24;1H[K[16;39H[?25l[24;63H16,25-39      All[16;39H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H16,25-39      All[16;39H[?12l[?25h[?25l[24;67H6-40[16;40H[?12l[?25h[?25l[17;1H[K[24;64H7,1    [17;1H[?12l[?25h[?25l[24;66H2-9[17;9H[?12l[?25h[?25lf[24;66H3-10[17;10H[?12l[?25h[?25li[24;66H4-11[17;11H[?12l[?25h[?25l[18;1H[K[24;64H8,1   [18;1H[?12l[?25h[?25lf[24;66H2[18;2H[?12l[?25h[?25li[24;66H3[18;3H[?12l[?25h[24;1H[K[18;2H[?25l[24;63H18,2[10CAll[18;2H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"jsls" 18L, 440C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi jsls[2Pls -lvi jslsjsls 1 2 3[K[K[K[K[K[K
+./jsls: line 4: syntax error in conditional expression
+./jsls: line 5: syntax error near `then'
+./jsls: line 5: `	then'
+]0;Student@localhost:~[Student@localhost ~]$ jslsvi jsls[2Pls -lvi jslsjsls 1 2 3
+./jsls: line 4: syntax error in conditional expression
+./jsls: line 5: syntax error near `then'
+./jsls: line 5: `	then'
+]0;Student@localhost:~[Student@localhost ~]$ :[Kjsls 1 2 3[Kvi jsls
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"jsls" 18L, 440C[1;1H[34m# Script Name: jsls
+# To print specific columns from the directory list.[m
+
+if [[ $# != 3]][5;9Hthen[6;9Hecho [31m"Use three arguments"[m[7;9Helse[8;9Hif [[ $1 != ^[0-9]$  || $2 != ^[0-9]$ || $3 != ^[0-9]$]][9;17Hthen[10;17Hecho [31m"Use only numeric arguments that are included in the list"[m[11;17Helse[12;17Hls -l | sed [31m's/[ ][ ]*/ /g'[m > listdir[13;17Hcut -d[31m' '[m -f$1 listdir > list1[14;17Hcut -d[31m' '[m -f$2 listdir > list2[15;17Hcut -d[31m' '[m -f$3 listdir > list3[16;17Hpaste list1 list2 list3[17;9Hfi
+fi
+[1m[34m~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H18,1[10CAll[18;1H[?12l[?25h[?25l[24;64H7,1-8[17;8H[?12l[?25h[?25l[24;64H6[16;8H[?12l[?25h[?25l[24;64H5[15;8H[?12l[?25h[?25l[24;64H4[14;8H[?12l[?25h[?25l[24;64H3[13;8H[?12l[?25h[?25l[24;64H2[12;8H[?12l[?25h[?25l[24;64H1[11;8H[?12l[?25h[?25l[24;64H0[10;8H[?12l[?25h[?25l[24;63H9,1-8 [9;8H[?12l[?25h[?25l[24;63H8[8;8H[?12l[?25h[?25l[24;63H7[7;8H[?12l[?25h[?25l[24;63H6[6;8H[?12l[?25h[?25l[24;63H5[5;8H[?12l[?25h[?25l[24;63H4,1  [4;1H[?12l[?25h[?25l[24;65H2[4;2H[?12l[?25h[?25l[24;65H3[4;3H[?12l[?25h[?25l[24;65H4[4;4H[?12l[?25h[?25l[24;65H5[4;5H[?12l[?25h[?25l[24;65H6[4;6H[?12l[?25h[?25l[24;65H7[4;7H[?12l[?25h[?25l[24;65H8[4;8H[?12l[?25h[?25l[24;65H9[4;9H[?12l[?25h[?25l[24;65H10[4;10H[?12l[?25h[?25l[24;66H1[4;11H[?12l[?25h[?25l[24;66H2[4;12H[?12l[?25h[?25l[24;66H3[4;13H[?12l[?25h[?25l[24;66H4[4;14H[?12l[?25h[?25l[24;66H5[4;15H[?12l[?25h[?25l[24;66H4[4;14H[?12l[?25h[?25l[24;66H5[4;15H[?12l[?25h[?25l[24;66H4[4;14H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H4,14[10CAll[4;14H[?12l[?25h[?25l ]][24;66H5[4;15H[?12l[?25h[?25l[24;63H5,6-13[5;13H[?12l[?25h[?25l[24;63H6,8-15[6;15H[?12l[?25h[?25l[24;63H7,6-13[7;13H[?12l[?25h[?25l[24;63H8,8-15[8;15H[?12l[?25h[?25l[24;65H9-16[8;16H[?12l[?25h[?25l[24;65H10-17[8;17H[?12l[?25h[?25l[24;66H1-18[8;18H[?12l[?25h[?25l[24;66H2-19[8;19H[?12l[?25h[?25l[24;66H3-20[8;20H[?12l[?25h[?25l[24;66H4-21[8;21H[?12l[?25h[?25l[24;66H5-22[8;22H[?12l[?25h[?25l[24;66H6-23[8;23H[?12l[?25h[?25l[24;66H7-24[8;24H[?12l[?25h[?25l[24;66H8-25[8;25H[?12l[?25h[?25l[24;66H9-26[8;26H[?12l[?25h[?25l[24;65H20-27[8;27H[?12l[?25h[?25l[24;66H1-28[8;28H[?12l[?25h[?25l[24;66H2-29[8;29H[?12l[?25h[?25l[24;66H3-30[8;30H[?12l[?25h[?25l[24;66H4-31[8;31H[?12l[?25h[?25l[24;66H5-32[8;32H[?12l[?25h[?25l[24;66H6-33[8;33H[?12l[?25h[?25l[24;66H7-34[8;34H[?12l[?25h[?25l[24;66H8-35[8;35H[?12l[?25h[?25l[24;66H9-36[8;36H[?12l[?25h[?25l[24;65H30-37[8;37H[?12l[?25h[?25l[24;66H1-38[8;38H[?12l[?25h[?25l[24;66H2-39[8;39H[?12l[?25h[?25l[24;66H3-40[8;40H[?12l[?25h[?25l[24;66H4-41[8;41H[?12l[?25h[?25l[24;66H5-42[8;42H[?12l[?25h[?25l[24;66H6-43[8;43H[?12l[?25h[?25l[24;66H7-44[8;44H[?12l[?25h[?25l[24;66H8-45[8;45H[?12l[?25h[?25l[24;66H9-46[8;46H[?12l[?25h[?25l[24;65H40-47[8;47H[?12l[?25h[?25l[24;66H1-48[8;48H[?12l[?25h[?25l[24;66H2-49[8;49H[?12l[?25h[?25l[24;66H3-50[8;50H[?12l[?25h[?25l[24;66H4-51[8;51H[?12l[?25h[?25l[24;66H5-52[8;52H[?12l[?25h[?25l[24;66H6-53[8;53H[?12l[?25h[?25l[24;66H7-54[8;54H[?12l[?25h[?25l[24;66H8-55[8;55H[?12l[?25h[?25l[24;66H9-56[8;56H[?12l[?25h[?25l[24;65H50-57[8;57H[?12l[?25h[?25l[24;66H1-58[8;58H[?12l[?25h[?25l[24;66H2-59[8;59H[?12l[?25h[?25l[24;66H3-60[8;60H[?12l[?25h[?25l[24;66H4-61[8;61H[?12l[?25h[?25l[24;66H5-62[8;62H[?12l[?25h[?25l[24;66H6-63[8;63H[?12l[?25h[?25l ]][24;66H7-64[8;64H[?12l[?25h[?25l[24;63H7,6-13 [7;13H[?12l[?25h[?25l[24;63H6,28-35[6;35H[?12l[?25h[?25l[24;66H7-34[6;34H[?12l[?25h[?25l[24;66H6-33[6;33H[?12l[?25h[?25l[24;66H5-32[6;32H[?12l[?25h[?25l[24;66H4-31[6;31H[?12l[?25h[?25l[24;66H3-30[6;30H[?12l[?25h[?25l[24;66H2-29[6;29H[?12l[?25h[?25l[24;66H1-28[6;28H[?12l[?25h[?25l[24;66H0-27[6;27H[?12l[?25h[?25l[24;65H19-26[6;26H[?12l[?25h[?25l[24;66H8-25[6;25H[?12l[?25h[?25l[24;66H7-24[6;24H[?12l[?25h[?25l[24;66H6-23[6;23H[?12l[?25h[?25l[24;66H5-22[6;22H[?12l[?25h[?25l[24;66H4-21[6;21H[?12l[?25h[?25l[24;66H3-20[6;20H[?12l[?25h[?25l[24;66H2-19[6;19H[?12l[?25h[?25l[24;66H1-18[6;18H[?12l[?25h[?25l[24;66H0-17[6;17H[?12l[?25h[?25l[24;65H9-16 [6;16H[?12l[?25h[?25l[24;65H8-15[6;15H[?12l[?25h[?25l[24;65H7-14[6;14H[?12l[?25h[?25l[24;65H6-13[6;13H[?12l[?25h[?25l[24;65H5-12[6;12H[?12l[?25h[?25l[24;65H4-11[6;11H[?12l[?25h[?25l[24;65H3-10[6;10H[?12l[?25h[?25l[24;65H2-9 [6;9H[?12l[?25h[?25l[24;65H1  [6;1H[?12l[?25h[?25l[24;65H2-9[6;9H[?12l[?25h[?25l        echo [31m"Use three arguments"[m[24;65H3-17[6;17H[?12l[?25h[?25l[24;63H7,6-13[7;13H[?12l[?25h[?25l[24;63H8,10-17[8;17H[?12l[?25h[?25l[24;65H9-16 [8;16H[?12l[?25h[?25l[24;63H9,2-9 [9;9H[?12l[?25h[?25l[24;63H10,2-9[10;9H[?12l[?25h[?25l[24;63H9,2-9 [9;9H[?12l[?25h[?25l[24;65H3-17[9;17H[?12l[?25h[?25l[24;63H10,3-17[10;17H[?12l[?25h[?25l[11;23r[11;1H[L[1;24r[10;17H        echo [31m"Use only numeric arguments that are included in thh[11;1He list"[m[24;63H[K[24;63H10,4-25[7CAll[10;25H[?12l[?25h[?25l[10;23r[23;1H
+[1;24r[10;1H        [8Cecho [31m"Use only numeric arguments that are included in the list"[m[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H10,3-17[7CAll[10;17H[?12l[?25h[?25l[24;64H1[11;17H[?12l[?25h[?25l[24;64H2[12;17H[?12l[?25h[?25l        ls -l | sed [31m's/[ ][ ]*/ /g'[m > listdir[24;66H4-25[12;25H[?12l[?25h[?25l[24;64H3,11-25[13;25H[?12l[?25h[?25l[24;64H4[14;25H[?12l[?25h[?25l[24;64H3[13;25H[?12l[?25h[?25l[24;67H0-24[13;24H[?12l[?25h[?25l[24;66H9-23 [13;23H[?12l[?25h[?25l[24;66H8-22[13;22H[?12l[?25h[?25l[24;66H7-21[13;21H[?12l[?25h[?25l[24;66H6-20[13;20H[?12l[?25h[?25l[24;66H5-19[13;19H[?12l[?25h[?25l[24;66H4-18[13;18H[?12l[?25h[?25l[24;66H3-17[13;17H[?12l[?25h[?25l        cut -d[31m' '[m -f$1 listdir > list1[24;66H4-25[13;25H[?12l[?25h[?25l[24;64H4,11-25[14;25H[?12l[?25h[?25l[24;67H0-24[14;24H[?12l[?25h[?25l[24;66H9-23 [14;23H[?12l[?25h[?25l[24;66H8-22[14;22H[?12l[?25h[?25l[24;66H7-21[14;21H[?12l[?25h[?25l[24;66H6-20[14;20H[?12l[?25h[?25l[24;66H5-19[14;19H[?12l[?25h[?25l[24;66H4-18[14;18H[?12l[?25h[?25l[24;66H3-17[14;17H[?12l[?25h[?25l        cut -d[31m' '[m -f$2 listdir > list2[24;66H4-25[14;25H[?12l[?25h[?25l[24;64H5,11-25[15;25H[?12l[?25h[?25l[24;64H6[16;25H[?12l[?25h[?25l[24;64H5[15;25H[?12l[?25h[?25l[24;67H0-24[15;24H[?12l[?25h[?25l[24;66H9-23 [15;23H[?12l[?25h[?25l[24;66H8-22[15;22H[?12l[?25h[?25l[24;66H7-21[15;21H[?12l[?25h[?25l[24;66H6-20[15;20H[?12l[?25h[?25l[24;66H5-19[15;19H[?12l[?25h[?25l[24;66H4-18[15;18H[?12l[?25h[?25l[24;66H3-17[15;17H[?12l[?25h[?25l        cut -d[31m' '[m -f$3 listdir > list3[24;66H4-25[15;25H[?12l[?25h[?25l[24;64H6,11-25[16;25H[?12l[?25h[?25l[24;67H0-24[16;24H[?12l[?25h[?25l[24;66H9-23 [16;23H[?12l[?25h[?25l[24;66H8-22[16;22H[?12l[?25h[?25l[24;66H7-21[16;21H[?12l[?25h[?25l[24;66H6-20[16;20H[?12l[?25h[?25l[24;66H5-19[16;19H[?12l[?25h[?25l[24;66H4-18[16;18H[?12l[?25h[?25l[24;66H3-17[16;17H[?12l[?25h[?25l        paste list1 list2 list3[24;66H4-25[16;25H[?12l[?25h[24;1H[K[16;24H[?25l[24;63H16,3-24[7CAll[16;24H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"jsls" 18L, 448C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi jslsjsls 1 2 3
+Use only numeric arguments that are included in the list
+]0;Student@localhost:~[Student@localhost ~]$ :[Kjsls 1 2 3[3Pvi jsls
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"jsls" 18L, 448C[1;1H[34m# Script Name: jsls
+# To print specific columns from the directory list.[m
+
+if [[ $# != 3 ]][5;9Hthen[6;17Hecho [31m"Use three arguments"[m[7;9Helse[8;9Hif [[ $1 != ^[0-9]$  || $2 != ^[0-9]$ || $3 != ^[0-9]$ ]][9;17Hthen[10;17Hecho [31m"Use only numeric arguments that are included in the list"[m[11;17Helse[12;25Hls -l | sed [31m's/[ ][ ]*/ /g'[m > listdir[13;25Hcut -d[31m' '[m -f$1 listdir > list1[14;25Hcut -d[31m' '[m -f$2 listdir > list2[15;25Hcut -d[31m' '[m -f$3 listdir > list3[16;25Hpaste list1 list2 list3[17;9Hfi
+fi
+[1m[34m~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H16,4-25[7CAll[16;25H[?12l[?25h[?25l[24;64H5[15;25H[?12l[?25h[?25l[24;64H4[14;25H[?12l[?25h[?25l[24;64H3[13;25H[?12l[?25h[?25l[24;64H2[12;25H[?12l[?25h[?25l[24;64H1,6-20[11;20H[?12l[?25h[?25l[24;64H0,11-25[10;25H[?12l[?25h[?25l[24;63H9,6-20  [9;20H[?12l[?25h[?25l[24;63H8,18-25[8;25H[?12l[?25h[?25l[24;63H7,5-12 [7;12H[?12l[?25h[?25l[24;63H8,18-25[8;25H[?12l[?25h[?25l[24;66H7-24[8;24H[?12l[?25h[?25l[24;66H6-23[8;23H[?12l[?25h[?25l[24;66H5-22[8;22H[?12l[?25h[?25l[24;66H4-21[8;21H[?12l[?25h[?25l[24;66H5-22[8;22H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H8,15-22[7CAll[8;22H[?12l[?25h[?25l[0-9]$  || $2 != ^[0-9]$ || $3 != ^[0-9]$ ][8;65H[K[24;66H4-21[8;21H[?12l[?25h[?25l[24;66H5-22[8;22H[?12l[?25h[?25l[24;66H6-23[8;23H[?12l[?25h[?25l[24;66H7-24[8;24H[?12l[?25h[?25l[24;66H8-25[8;25H[?12l[?25h[?25l[24;66H9-26[8;26H[?12l[?25h[?25l[24;65H20-27[8;27H[?12l[?25h[?25l  || $2 != ^[0-9]$ || $3 != ^[0-9]$ ][8;64H[K[24;65H19-26[8;26H[?12l[?25h[?25l[24;65H20-27[8;27H[?12l[?25h[?25l[24;66H1-28[8;28H[?12l[?25h[?25l[24;66H2-29[8;29H[?12l[?25h[?25l[24;66H3-30[8;30H[?12l[?25h[?25l[24;66H4-31[8;31H[?12l[?25h[?25l[24;66H5-32[8;32H[?12l[?25h[?25l[24;66H6-33[8;33H[?12l[?25h[?25l[24;66H7-34[8;34H[?12l[?25h[?25l[24;66H8-35[8;35H[?12l[?25h[?25l[24;66H9-36[8;36H[?12l[?25h[?25l[24;65H30-37[8;37H[?12l[?25h[?25l[24;66H1-38[8;38H[?12l[?25h[?25l[0-9]$ || $3 != ^[0-9]$ ][8;63H[K[24;66H0-37[8;37H[?12l[?25h[?25l[24;66H1-38[8;38H[?12l[?25h[?25l[24;66H2-39[8;39H[?12l[?25h[?25l[24;66H3-40[8;40H[?12l[?25h[?25l[24;66H4-41[8;41H[?12l[?25h[?25l[24;66H5-42[8;42H[?12l[?25h[?25l[24;66H6-43[8;43H[?12l[?25h[?25l[24;66H7-44[8;44H[?12l[?25h[?25l[24;66H8-45[8;45H[?12l[?25h[?25l[24;66H7-44[8;44H[?12l[?25h[?25l[24;66H6-43[8;43H[?12l[?25h[?25l || $3 != ^[0-9]$ ][8;62H[K[24;66H5-42[8;42H[?12l[?25h[?25l[24;66H6-43[8;43H[?12l[?25h[?25l[24;66H7-44[8;44H[?12l[?25h[?25l[24;66H8-45[8;45H[?12l[?25h[?25l[24;66H9-46[8;46H[?12l[?25h[?25l[24;65H40-47[8;47H[?12l[?25h[?25l[24;66H1-48[8;48H[?12l[?25h[?25l[24;66H2-49[8;49H[?12l[?25h[?25l[24;66H3-50[8;50H[?12l[?25h[?25l[24;66H4-51[8;51H[?12l[?25h[?25l[24;66H5-52[8;52H[?12l[?25h[?25l[24;66H6-53[8;53H[?12l[?25h[?25l[0-9]$ ][8;61H[K[24;66H5-52[8;52H[?12l[?25h[?25l[24;66H6-53[8;53H[?12l[?25h[?25l[24;66H7-54[8;54H[?12l[?25h[?25l[24;66H8-55[8;55H[?12l[?25h[?25l[24;66H9-56[8;56H[?12l[?25h[?25l[24;65H50-57[8;57H[?12l[?25h[?25l[24;66H1-58[8;58H[?12l[?25h[?25l ][8;60H[K[24;66H0-57[8;57H[?12l[?25h[?25l[24;66H1-58[8;58H[?12l[?25h[?25l[24;66H2-59[8;59H[?12l[?25h[?25l[24;66H3-60[8;60H[?12l[?25h[?25l[24;63H9,7-21 [9;21H[?12l[?25h[?25l[24;63H10,46-60[10;60H[?12l[?25h[?25l[24;64H1,7-21 [11;21H[?12l[?25h[?25l[24;64H2,39-60[12;60H[?12l[?25h[?25l[24;64H3,34-55[13;55H[?12l[?25h[?25l[24;64H4[14;55H[?12l[?25h[?25l[24;64H5[15;55H[?12l[?25h[?25l[24;64H6,27-48[16;48H[?12l[?25h[?25l[24;64H7,4-11 [17;11H[?12l[?25h[?25l[24;64H8,3   [18;3H[?12l[?25h[24;1H[K[18;2H[?25l[24;63H18,2[10CAll[18;2H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"jsls" 18L, 442C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi jslsjsls 1 2 3
+total	1388	
+drwxrwxr-x	2	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+drwxr-xr-x	2	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rwxrw-r--	1	Student
+-rwxrw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+-rw-rw-r--	1	Student
+]0;Student@localhost:~[Student@localhost ~]$ jsls 1 2 3[K[K[K[K[K3 2 1
+	1416	total
+Student	2	drwxrwxr-x
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	2	drwxr-xr-x
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rwxrw-r--
+Student	1	-rwxrw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+]0;Student@localhost:~[Student@localhost ~]$ :[Kjsls 10 3 2
+Use only numeric arguments that are included in the list
+]0;Student@localhost:~[Student@localhost ~]$ jsls
+Use three arguments
+]0;Student@localhost:~[Student@localhost ~]$ jsls 2
+Use three arguments
+]0;Student@localhost:~[Student@localhost ~]$ jsls 2 4
+Use three arguments
+]0;Student@localhost:~[Student@localhost ~]$ jss[Kls 3[Kf 3 2
+Use only numeric arguments that are included in the list
+]0;Student@localhost:~[Student@localhost ~]$ jsls f 3 2[Kg
+Use only numeric arguments that are included in the list
+]0;Student@localhost:~[Student@localhost ~]$ jsls f 3 g[K3[1P[4h4[4l[Student@localhost ~]$ jsls 4 [Student@localhost ~]$ jsls 4 3[Student@localhost ~]$ jsls 4 3 [Student@localhost ~]$ jsls 4 3 3[K3[K2[K45
+Use only numeric arguments that are included in the list
+]0;Student@localhost:~[Student@localhost ~]$ jsls 4 3 45[K[K[K[K[K[K1  4[K[K[K 4 5
+total		
+drwxrwxr-x	Student	4096
+-rw-rw-r--	Student	96
+-rw-rw-r--	Student	453
+-rw-rw-r--	Student	477
+-rw-rw-r--	Student	239
+-rw-rw-r--	Student	238
+-rw-rw-r--	Student	40
+-rw-rw-r--	Student	108
+-rw-rw-r--	Student	48
+-rw-rw-r--	Student	48
+-rw-rw-r--	Student	24
+-rw-rw-r--	Student	12
+-rw-rw-r--	Student	426
+-rw-rw-r--	Student	503
+-rw-rw-r--	Student	91
+-rw-rw-r--	Student	91
+-rw-rw-r--	Student	288
+-rw-rw-r--	Student	358
+-rw-rw-r--	Student	169
+-rw-rw-r--	Student	316
+-rw-rw-r--	Student	652
+-rw-rw-r--	Student	84
+-rw-rw-r--	Student	0
+-rw-rw-r--	Student	152
+-rw-rw-r--	Student	0
+-rw-rw-r--	Student	100
+-rw-rw-r--	Student	0
+-rw-rw-r--	Student	197
+-rw-rw-r--	Student	119
+-rw-rw-r--	Student	0
+-rw-rw-r--	Student	220
+-rw-rw-r--	Student	99
+-rw-rw-r--	Student	99
+-rw-rw-r--	Student	46
+-rw-rw-r--	Student	276
+-rw-rw-r--	Student	85
+-rw-rw-r--	Student	90
+-rw-rw-r--	Student	267
+-rw-rw-r--	Student	130
+-rw-rw-r--	Student	186
+-rw-rw-r--	Student	154
+-rw-rw-r--	Student	26
+-rw-rw-r--	Student	81
+-rw-rw-r--	Student	5
+-rw-rw-r--	Student	81
+-rw-rw-r--	Student	0
+-rw-rw-r--	Student	152
+-rw-rw-r--	Student	152
+-rw-rw-r--	Student	98
+-rw-rw-r--	Student	98
+-rw-rw-r--	Student	98
+-rw-rw-r--	Student	154
+-rw-rw-r--	Student	98
+-rw-rw-r--	Student	98
+-rw-rw-r--	Student	107
+-rw-rw-r--	Student	1553
+-rw-rw-r--	Student	296
+-rw-rw-r--	Student	298
+-rw-rw-r--	Student	10
+-rw-rw-r--	Student	171
+drwxr-xr-x	Student	4096
+-rw-rw-r--	Student	87
+-rw-rw-r--	Student	14
+-rw-rw-r--	Student	0
+-rwxrw-r--	Student	377
+-rwxrw-r--	Student	442
+-rw-rw-r--	Student	102
+-rw-rw-r--	Student	833
+-rw-rw-r--	Student	213
+-rw-rw-r--	Student	1150
+-rw-rw-r--	Student	0
+-rw-rw-r--	Student	107
+-rw-rw-r--	Student	16
+-rw-rw-r--	Student	8383
+-rw-rw-r--	Student	8383
+-rw-rw-r--	Student	1006
+-rw-rw-r--	Student	14688
+-rw-rw-r--	Student	1934
+-rw-rw-r--	Student	6664
+-rw-rw-r--	Student	6252
+-rw-rw-r--	Student	747
+-rw-rw-r--	Student	21638
+-rw-rw-r--	Student	50358
+-rw-rw-r--	Student	29028
+-rw-rw-r--	Student	41769
+-rw-rw-r--	Student	33680
+-rw-rw-r--	Student	7574
+-rw-rw-r--	Student	58203
+-rw-rw-r--	Student	90112
+-rw-rw-r--	Student	184233
+-rw-rw-r--	Student	3856
+-rw-rw-r--	Student	9510
+-rw-rw-r--	Student	6121
+-rw-rw-r--	Student	4960
+-rw-rw-r--	Student	12706
+-rw-rw-r--	Student	733
+-rw-rw-r--	Student	12813
+-rw-rw-r--	Student	24064
+-rw-rw-r--	Student	13069
+-rw-rw-r--	Student	23
+-rw-rw-r--	Student	15
+-rw-rw-r--	Student	19
+-rw-rw-r--	Student	151
+-rw-rw-r--	Student	6
+]0;Student@localhost:~[Student@localhost ~]$ jsls 1 4 5[K[K[K[K[K3 7 1
+		total
+Student	9	drwxrwxr-x
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	29	-rw-rw-r--
+Student	28	-rw-rw-r--
+Student	29	-rw-rw-r--
+Student	28	-rw-rw-r--
+Student	28	-rw-rw-r--
+Student	29	-rw-rw-r--
+Student	29	-rw-rw-r--
+Student	29	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	29	-rw-rw-r--
+Student	27	drwxr-xr-x
+Student	30	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	9	-rwxrw-r--
+Student	9	-rwxrw-r--
+Student	30	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	5	-rw-rw-r--
+Student	5	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	5	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	8	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	9	-rw-rw-r--
+Student	29	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	29	-rw-rw-r--
+Student	29	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	30	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	1	-rw-rw-r--
+Student	4	-rw-rw-r--
+Student	9	-rw-rw-r--
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 09 May 2006 06:40:32 PM EDT
+Script started on Tue 09 May 2006 06:43:25 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch[K[Kjsls
+# Script Name: jsls
+# To print specific columns from the directory list.
+
+if [[ $# != 3 ]]
+	then
+		echo "Use three arguments"
+	else
+	if [[ $1 != [0-9]  || $2 != [0-9] || $3 != [0-9] ]]
+		then
+		echo "Use only numeric arguments that are included in the list"
+		else
+			ls -l | sed 's/[ ][ ]*/ /g' > listdir
+			cut -d' ' -f$1 listdir > list1
+			cut -d' ' -f$2 listdir > list2
+			cut -d' ' -f$3 listdir > list3
+			paste list1 list2 list3
+	fi
+fi
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 09 May 2006 06:43:42 PM EDT

@@ -1,0 +1,35 @@
+Script started on Tue 25 Apr 2006 12:21:53 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ echo 'This is a one-line file;[K' > file1
+]0;Student@localhost:~[Student@localhost ~]$ more file1
+This is a one-line file
+]0;Student@localhost:~[Student@localhost ~]$ echo e[K-e "This is a two-line file \n that we are create[King  to show us the use of the new-i[Kline char[K[K[K[Kcharacter"[K." > file2
+]0;Student@localhost:~[Student@localhost ~]$ more file2
+This is a two-line file 
+ that we are creating to show us the use of the new-line character.
+]0;Student@localhost:~[Student@localhost ~]$ echo 'we just created a text file that used [K[Ks [K[Kd the nw[Kew-line  command /[K\n to create two separate lines of tes[Kxt.;[K'
+we just created a text file that used the new-line command \n to create two separate lines of text.
+]0;Student@localhost:~[Student@localhost ~]$ facts=UNIX vs. [KO[K Others
+bash: vs.: command not found
+]0;Student@localhost:~[Student@localhost ~]$ facts="UI[KNIX vs. OT[Kthers:[K"
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact $facts in our life.:[K"
+This is a fact UNIX vs. Others in our life.
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact '$facts;[K' in our life"
+This is a fact 'UNIX vs. Others' in our life
+]0;Student@localhost:~[Student@localhost ~]$ echo,[K  [K"The second time we [K[K[K[K[K[K[K[Ktime there were single quotes surroundin g  [Kthe UNIX vs. Others becua[K[Kause we said ta[Khat we wanted them in [K[K[Kto be printed in th [Ke l ine.:[K"
+The second time there were single quotes surrounding the UNIX vs. Others because we said that we wanted them to be printed in the line.
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact \$facts in our lif"[Ke"
+This is a fact $facts in our life
+]0;Student@localhost:~[Student@localhost ~]$ echo "The \ [K
+> \ in this case[K[K[K[K[K[K[K[K[K[K[K[K[K[K\[Kbash: unexpected EOF while looking for matching `"'
+bash: syntax error: unexpected end of file
+]0;Student@localhost:~[Student@localhost ~]$ echo "The \\ in this case a[Kmake [K[K[Kde \$facts ab[Kctually get print ed out, not the value that it holds."
+The \ in this case made $facts actually get printed out, not the value that it holds.
+]0;Student@localhost:~[Student@localhost ~]$ echo '"This is a fact "UNIX vs [K. Others" in our life[Student@localhost ~]$ echo '"This is a fact "UNIX vs. Other[4h\[4l[Student@localhost ~]$ echo '"This is a fact "UNIX vs. Other\[1P[4hr[4l[Student@localhost ~]$ echo '"This is a fact "UNIX vs. Other\[1P[Student@localhost ~]$ echo '"This is a fact "UNIX vs. Others[4h\[4l[Student@localhost ~]$ echo '"This is a fact [4h\[4l[Student@localhost ~]$ echo '"[Student@localhost ~]$ echo '"T[Student@localhost ~]$ echo '"Th[Student@localhost ~]$ echo '"Thi[Student@localhost ~]$ echo '"This[Student@localhost ~]$ echo '"This [Student@localhost ~]$ echo '"This i[Student@localhost ~]$ echo '"This is[Student@localhost ~]$ echo '"This is [Student@localhost ~]$ echo '"This is a[Student@localhost ~]$ echo '"This is a [Student@localhost ~]$ echo '"This is a f[Student@localhost ~]$ echo '"This is a fa[Student@localhost ~]$ echo '"This is a fac[Student@localhost ~]$ echo '"This is a fact[Student@localhost ~]$ echo '"This is a fact [Student@localhost ~]$ echo '"This is a fact \[Student@localhost ~]$ echo '"This is a fact \"[Student@localhost ~]$ echo '"This is a fact \"U[Student@localhost ~]$ echo '"This is a fact \"UN[Student@localhost ~]$ echo '"This is a fact \"UNI[Student@localhost ~]$ echo '"This is a fact \"UNIX[Student@localhost ~]$ echo '"This is a fact \"UNIX [Student@localhost ~]$ echo '"This is a fact \"UNIX v[Student@localhost ~]$ echo '"This is a fact \"UNIX vs[Student@localhost ~]$ echo '"This is a fact \"UNIX vs.[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. [Student@localhost ~]$ echo '"This is a fact \"UNIX vs. O[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Ot[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Oth[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Othe[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Other[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\"[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\" [Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\" i[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\" in[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\" in [Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\" in o[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\" in ou[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\" in our[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\" in our [Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\" in our l[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\" in our li[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\" in our lif[Student@localhost ~]$ echo '"This is a fact \"UNIX vs. Others\" in our life"'
+"This is a fact \"UNIX vs. Others\" in our life"
+]0;Student@localhost:~[Student@localhost ~]$ echo '"This is a fact "UNIX vs. Others" in our life:[K"
+> '
+"This is a fact "UNIX vs. Others" in our life"
+
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 25 Apr 2006 12:47:16 PM EDT

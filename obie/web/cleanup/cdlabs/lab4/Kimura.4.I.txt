@@ -1,0 +1,48 @@
+Script started on Wed 26 Apr 2006 12:02:59 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ groups
+Student
+]0;Student@localhost:~[Student@localhost ~]$ umask
+0002
+]0;Student@localhost:~[Student@localhost ~]$ umask 077
+]0;Student@localhost:~[Student@localhost ~]$ umask 077[K
+0077
+]0;Student@localhost:~[Student@localhost ~]$ mkdir chapter_4
+]0;Student@localhost:~[Student@localhost ~]$ ls -l
+[00mtotal 252
+drwxrwxr-x  3 Student Student  4096 Apr 25 07:46 [00;34massignments[00m
+drwxrwxr-x  2 Student Student  4096 Apr 25 08:30 [00;34mbackups[00m
+drwxrwxr-x  3 Student Student  4096 Apr 25 08:58 [00;34mbusLetters[00m
+drwx------  2 Student Student  4096 Apr 26 12:05 [00;34mchapter_4[00m
+drwxr-xr-x  2 Student Student  4096 Apr 25 09:03 [00;34mDesktop[00m
+-rw-rw-r--  1 Student Student     7 Apr 25 08:56 [00mformal.3[00m
+-rw-rw-r--  1 Student Student  1538 Apr 21 08:35 [00mgtysbrgII.txt[00m
+-rw-rw-r--  1 Student Student   490 Apr 21 08:25 [00mgtysbrg.txt[00m
+lrwxrwxrwx  1 Student Student     7 Apr 25 08:40 [01;05;37;41mhw4SL[00m -> [01;05;37;41mhw4.txt[00m
+-rw-rw-r--  1 Student Student  6413 Apr 25 08:46 [00mKimura.3.III.txt[00m
+-rw-rw-r--  1 Student Student  6413 Apr 25 08:46 [00mKimura.3.III.txt~[00m
+-rw-rw-r--  1 Student Student 11557 Apr 25 08:19 [00mKimura.3.II.txt[00m
+-rw-rw-r--  1 Student Student 13486 Apr 24 08:52 [00mKimura.3.II.txt~[00m
+-rw-rw-r--  1 Student Student  1653 Apr 25 07:51 [00mKimura.3.I.txt[00m
+-rw-rw-r--  1 Student Student  3496 Apr 25 07:49 [00mKimura.3.I.txt~[00m
+-rw-rw-r--  1 Student Student 14324 Apr 25 09:01 [00mKimura.3.IV.txt[00m
+-rw-rw-r--  1 Student Student 14487 Apr 25 08:58 [00mKimura.3.IV.txt~[00m
+-rw-rw-r--  1 Student Student     0 Apr 26 12:02 [00mKimura.4.I.txt[00m
+-rw-rw-r--  1 Student Student 10917 Apr 23 18:52 [00mKimura.L1.txt.odt[00m
+-rw-rw-r--  1 Student Student  1599 Apr 23 19:16 [00mkimura.L2.txt[00m
+drwxrwxr-x  3 Student Student  4096 Apr 25 08:58 [00;34mletters[00m
+d---rwxrwx  2 Student Student  4096 Apr 26 11:56 [00;34mnothing[00m
+drwxrwxr-x  5 Student Student  4096 Apr 25 07:44 [00;34mreports[00m
+-rw-rw-r--  1 Student Student 12227 Apr 25 08:17 [00mtypescript~[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ mkdir chapter_4/session_I
+[m]0;Student@localhost:~[Student@localhost ~]$ umak[Ksk[K[K[K[K[Kls chapter_4 -l
+[00mtotal 8
+drwx------  2 Student Student 4096 Apr 26 12:05 [00;34msession_I[00m
+[m]0;Student@localhost:~[Student@localhost ~]$ cd chapter_4/sessionI[K_I
+]0;Student@localhost:~/chapter_4/session_I[Student@localhost session_I]$ vi hw_4_1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"hw_4_1" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25lM[24;63H1,2[1;2H[?12l[?25h[?25ly[24;65H3[1;3H[?12l[?25h[?25l[24;65H4[1;4H[?12l[?25h[?25ls[24;65H5[1;5H[?12l[?25h[?25lu[24;65H6[1;6H[?12l[?25h[?25lm[24;65H7[1;7H[?12l[?25h[?25lm[24;65H8[1;8H[?12l[?25h[?25le[24;65H9[1;9H[?12l[?25h[?25lr[24;65H10[1;10H[?12l[?25h[?25l[1;9H[K[24;65H9 [1;9H[?12l[?25h[?25l[1;8H[K[24;65H8[1;8H[?12l[?25h[?25l[1;7H[K[24;65H7[1;7H[?12l[?25h[?25l[1;6H[K[24;65H6[1;6H[?12l[?25h[?25l[1;5H[K[24;65H5[1;5H[?12l[?25h[?25l[1;4H[K[24;65H4[1;4H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l[1;2H[K[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25lI[24;65H2[1;2H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25lw[24;65H4[1;4H[?12l[?25h[?25li[24;65H5[1;5H[?12l[?25h[?25ll[24;65H6[1;6H[?12l[?25h[?25ll[24;65H7[1;7H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25lb[24;65H9[1;9H[?12l[?25h[?25le[24;65H10[1;10H[?12l[?25h[?25l[24;66H1[1;11H[?12l[?25h[?25ll[24;66H2[1;12H[?12l[?25h[?25lo[24;66H3[1;13H[?12l[?25h[?25l[1;12H[K[24;66H2[1;12H[?12l[?25h[?25l[1;11H[K[24;66H1[1;11H[?12l[?25h[?25ls[24;66H2[1;12H[?12l[?25h[?25le[24;66H3[1;13H[?12l[?25h[?25la[24;66H4[1;14H[?12l[?25h[?25lr[24;66H5[1;15H[?12l[?25h[?25lc[24;66H6[1;16H[?12l[?25h[?25lh[24;66H7[1;17H[?12l[?25h[?25li[24;66H8[1;18H[?12l[?25h[?25ln[24;66H9[1;19H[?12l[?25h[?25lg[24;65H20[1;20H[?12l[?25h[?25l[24;66H1[1;21H[?12l[?25h[?25lf[24;66H2[1;22H[?12l[?25h[?25lo[24;66H3[1;23H[?12l[?25h[?25lr[24;66H4[1;24H[?12l[?25h[?25l[24;66H5[1;25H[?12l[?25h[?25lj[24;66H6[1;26H[?12l[?25h[?25lo[24;66H7[1;27H[?12l[?25h[?25lb[24;66H8[1;28H[?12l[?25h[?25ls[24;66H9[1;29H[?12l[?25h[?25l[24;65H30[1;30H[?12l[?25h[?25ld[24;66H1[1;31H[?12l[?25h[?25lu[24;66H2[1;32H[?12l[?25h[?25lr[24;66H3[1;33H[?12l[?25h[?25li[24;66H4[1;34H[?12l[?25h[?25ln[24;66H5[1;35H[?12l[?25h[?25lg[24;66H6[1;36H[?12l[?25h[?25l[24;66H7[1;37H[?12l[?25h[?25lt[24;66H8[1;38H[?12l[?25h[?25lh[24;66H9[1;39H[?12l[?25h[?25le[24;65H40[1;40H[?12l[?25h[?25l[24;66H1[1;41H[?12l[?25h[?25ls[24;66H2[1;42H[?12l[?25h[?25lu[24;66H3[1;43H[?12l[?25h[?25lm[24;66H4[1;44H[?12l[?25h[?25lm[24;66H5[1;45H[?12l[?25h[?25le[24;66H6[1;46H[?12l[?25h[?25lr[24;66H7[1;47H[?12l[?25h[?25l.[24;66H8[1;48H[?12l[?25h[?25l[24;66H9[1;49H[?12l[?25h[?25lU[24;65H50[1;50H[?12l[?25h[?25ln[24;66H1[1;51H[?12l[?25h[?25lf[24;66H2[1;52H[?12l[?25h[?25lo[24;66H3[1;53H[?12l[?25h[?25lr[24;66H4[1;54H[?12l[?25h[?25lt[24;66H5[1;55H[?12l[?25h[?25lu[24;66H6[1;56H[?12l[?25h[?25ln[24;66H7[1;57H[?12l[?25h[?25la[24;66H8[1;58H[?12l[?25h[?25lt[24;66H9[1;59H[?12l[?25h[?25le[24;65H60[1;60H[?12l[?25h[?25ll[24;66H1[1;61H[?12l[?25h[?25ly[24;66H2[1;62H[?12l[?25h[?25l,[24;66H3[1;63H[?12l[?25h[?25l[24;66H4[1;64H[?12l[?25h[?25lI[24;66H5[1;65H[?12l[?25h[?25l[24;66H6[1;66H[?12l[?25h[?25lw[24;66H7[1;67H[?12l[?25h[?25lo[24;66H8[1;68H[?12l[?25h[?25ln[24;66H9[1;69H[?12l[?25h[?25l'[24;65H70[1;70H[?12l[?25h[?25lt[24;66H1[1;71H[?12l[?25h[?25l[24;66H2[1;72H[?12l[?25h[?25lb[24;66H3[1;73H[?12l[?25h[?25le[24;66H4[1;74H[?12l[?25h[?25l[24;66H5[1;75H[?12l[?25h[?25la[24;66H6[1;76H[?12l[?25h[?25lb[24;66H7[1;77H[?12l[?25h[?25ll[24;66H8[1;78H[?12l[?25h[?25le[24;66H9[1;79H[?12l[?25h[?25l[24;65H80[1;80H[?12l[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?12l[?25h[?25lt[24;65H2[2;2H[?12l[?25h[?25lo[24;65H3[2;3H[?12l[?25h[?25l[24;65H4[2;4H[?12l[?25h[?25lg[24;65H5[2;5H[?12l[?25h[?25lo[24;65H6[2;6H[?12l[?25h[?25l[24;65H7[2;7H[?12l[?25h[?25lb[24;65H8[2;8H[?12l[?25h[?25la[24;65H9[2;9H[?12l[?25h[?25lc[24;65H10[2;10H[?12l[?25h[?25lk[24;66H1[2;11H[?12l[?25h[?25l[24;66H2[2;12H[?12l[?25h[?25lh[24;66H3[2;13H[?12l[?25h[?25lo[24;66H4[2;14H[?12l[?25h[?25lm[24;66H5[2;15H[?12l[?25h[?25le[24;66H6[2;16H[?12l[?25h[?25l.[24;66H7[2;17H[?12l[?25h[24;1H[K[2;16H[?25l[24;63H2,16[10CAll[2;16H[?12l[?25h[?25l[24;1H"hw_4_1"[24;63H[K[24;10H[New] 2L, 97C written]0;Student@localhost:~/chapter_4/session_I[Student@localhost session_I]$ ls -l
+[00mtotal 8
+-rw-------  1 Student Student 97 Apr 26 12:09 [00mhw_4_1[00m
+[m]0;Student@localhost:~/chapter_4/session_I[Student@localhost session_I]$ exit
+exit
+
+Script done on Wed 26 Apr 2006 12:11:45 PM EDT

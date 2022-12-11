@@ -1,0 +1,66 @@
+Script started on Wed 26 Apr 2006 05:09:14 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ echo I love life;[K file1[K[K[K[K[K> file1
+]0;Student@localhost:~[Student@localhost ~]$ more file1
+I love life
+]0;Student@localhost:~[Student@localhost ~]$ more file1[4hecho I love li[4lfe >[Student@localhost ~]$ echo I love life > file1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K"I love life \n And you love life too." > file2
+]0;Student@localhost:~[Student@localhost ~]$ echo "I love life \n And you love life too." > file2[Student@localhost ~]$ more file1[K[K2
+I love life \n And you love life too.
+]0;Student@localhost:~[Student@localhost ~]$ more file2[4hecho "I love life \n And you love life too[4l." >[Student@localhost ~]$ echo "I love life \n And you love life too." > file2[1P[4h'[4l[1P[4h'[4l[Student@localhost ~]$ echo 'I love life \n And you love life too.' > file2
+]0;Student@localhost:~[Student@localhost ~]$ echo 'I love life \n And you love life too.' > file2[Student@localhost ~]$ more file2[K
+I love life \n And you love life too.
+]0;Student@localhost:~[Student@localhost ~]$ more file2[4hecho 'I love life \n And you love life too[4l.' >[Student@localhost ~]$ echo 'I love life \n And you love life too.' > file2[Student@localhost ~]$ echo 'I love life \n And you love life too.' > fi[Student@localhost ~]$ echo 'I love life \n And you love life too.' > fil[Student@localhost ~]$ echo 'I love life \n And you love life too.' > file[Student@localhost ~]$ echo 'I love life \n And you love life too.' > file2[K[K[K[K[K[K[K[K[K"[1P[4h"[4l[Student@localhost ~]$ echo "I love life \n And you love life too."
+I love life \n And you love life too.
+]0;Student@localhost:~[Student@localhost ~]$ echo "I love life \n And you love life too."[1P[1P[1P
+I love life And you love life too.
+]0;Student@localhost:~[Student@localhost ~]$ echo "I love life And you love life too."[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+> And you love life tt[Koo" 
+I love life
+And you love life too
+]0;Student@localhost:~[Student@localhost ~]$ echo "I love life
+And you love life too" > filr[Ke2
+]0;Student@localhost:~[Student@localhost ~]$ echo "I love life
+And you love life too" > file2[K[A[Student@localhost ~]$ echo "I love life And you love life too."
+[K[A[Student@localhost ~]$ echo "I love life And you love life too."[4h\n [4l[Student@localhost ~]$ echo "I love life \n And you love life too."[Student@localhost ~]$ more file2[K
+I love life
+And you love life too
+]0;Student@localhost:~[Student@localhost ~]$ echo [K[K[K[K[Kfacts = "UNIX v.Others"
+bash: facts: command not found
+]0;Student@localhost:~[Student@localhost ~]$ facts = "UNIX v.Others"[1P[1P[Student@localhost ~]$ facts="UNIX v.Others"
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fc[Kact $facts in out [Kr[K[Kr life."
+This is a fact UNIX v.Others in our life.
+]0;Student@localhost:~[Student@localhost ~]$ e[Kecho "This is a fact $facts in our life."[4h'[4l[Student@localhost ~]$ echo "This is a fact '$[Student@localhost ~]$ echo "This is a fact '$f[Student@localhost ~]$ echo "This is a fact '$fa[Student@localhost ~]$ echo "This is a fact '$fac[Student@localhost ~]$ echo "This is a fact '$fact[Student@localhost ~]$ echo "This is a fact '$facts[Student@localhost ~]$ echo "This is a fact '$facts [Student@localhost ~]$ echo "This is a fact '$facts i[Student@localhost ~]$ echo "This is a fact '$facts in[Student@localhost ~]$ echo "This is a fact '$facts in [Student@localhost ~]$ echo "This is a fact '$facts in o[Student@localhost ~]$ echo "This is a fact '$facts in ou[Student@localhost ~]$ echo "This is a fact '$facts in our[Student@localhost ~]$ echo "This is a fact '$facts in our [Student@localhost ~]$ echo "This is a fact '$facts in our l[Student@localhost ~]$ echo "This is a fact '$fac[Student@localhost ~]$ echo "This is a fact '$fact[Student@localhost ~]$ echo "This is a fact '$facts[4h'[4l[Student@localhost ~]$ echo "This is a fact '$facts' in our life."
+This is a fact 'UNIX v.Others' in our life.
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact '$facts' in our life."[Student@localhost ~]$ echo "This is a fact '$facts'[1P[1P[4h/[4l[Student@localhost ~]$ echo "This is a fact /$facts in our life."[1P[4h\[4l[Student@localhost ~]$ echo "This is a fact \$facts in our life."
+This is a fact $facts in our life.
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact \$facts in our life."[1P[4h/[4l[4h"[4l[Student@localhost ~]$ echo "This is a fact /"$[Student@localhost ~]$ echo "This is a fact /"$f[Student@localhost ~]$ echo "This is a fact /"$fa[Student@localhost ~]$ echo "This is a fact /"$fac[Student@localhost ~]$ echo "This is a fact /"$fact[Student@localhost ~]$ echo "This is a fact /"$facts[4h/[4l[4h"[4l[Student@localhost ~]$ echo "This is a fact /"$facts/" in our life."
+This is a fact /UNIX v.Others/ in our life.
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact /"$facts/" in our life."[4h [4l[Student@localhost ~]$ echo "This is a fact /" $[Student@localhost ~]$ echo "This is a fact /" $f[Student@localhost ~]$ echo "This is a fact /" $fa[Student@localhost ~]$ echo "This is a fact /" $fac[Student@localhost ~]$ echo "This is a fact /" $fact[Student@localhost ~]$ echo "This is a fact /" $facts[4h [4l[Student@localhost ~]$ echo "This is a fact /" $facts /" in our life."
+This is a fact / UNIX v.Others / in our life.
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact /" $facts /" in our life."[1P[1P[Student@localhost ~]$ echo "This is a fact [Student@localhost ~]$ echo "This is a fact /[1P[1P[4h"[4l[Student@localhost ~]$ echo "This i[Student@localhost ~]$ echo "This is[Student@localhost ~]$ echo "This is [Student@localhost ~]$ echo "This is a[Student@localhost ~]$ echo "This is a [Student@localhost ~]$ echo "This is a f[Student@localhost ~]$ echo "This is a fa[Student@localhost ~]$ echo "This is a fac[Student@localhost ~]$ echo "This is a fact[Student@localhost ~]$ echo "This is a fact [Student@localhost ~]$ echo "This is a fact "[Student@localhost ~]$ echo "This is a fact " [1P[1P[4h'[4l[4h"[4l[Student@localhost ~]$ echo '"T[Student@localhost ~]$ echo '"This is a fact "$facts" in our life."[K"'
+"This is a fact "$facts" in our life."
+]0;Student@localhost:~[Student@localhost ~]$ echo '"This is a fact "$facts" in our life."'[Student@localhost ~]$ echo '"This is a fact [4h/[4l[Student@localhost ~]$ echo '"This is a fact /"[Student@localhost ~]$ echo '"This is a fact /"$[Student@localhost ~]$ echo '"This is a fact /"$f[Student@localhost ~]$ echo '"This is a fact /"$fa[Student@localhost ~]$ echo '"This is a fact /"$fac[Student@localhost ~]$ echo '"This is a fact /"$fact[Student@localhost ~]$ echo '"This is a fact /"$facts[Student@localhost ~]$ echo '"This is a fact /"$facts"[4h/[4l[Student@localhost ~]$ echo '"This is a fact /"$facts/" in our life."'
+"This is a fact /"$facts/" in our life."
+]0;Student@localhost:~[Student@localhost ~]$ echo '"This is a fact /"$facts/" in our life."'[1P[4h\[4l[Student@localhost ~]$ echo '"This is a fact \"[Student@localhost ~]$ echo '"This is a fact \"$[Student@localhost ~]$ echo '"This is a fact \"$f[Student@localhost ~]$ echo '"This is a fact \"$fa[Student@localhost ~]$ echo '"This is a fact \"$fac[Student@localhost ~]$ echo '"This is a fact \"$fact[Student@localhost ~]$ echo '"This is a fact \"$facts[Student@localhost ~]$ echo '"This is a fact \"$facts/[1P[4h\[4l[Student@localhost ~]$ echo '"This is a fact \"$facts\" in our life."'[K[Student@localhost ~]$ [Student@localhost ~]$ e[Student@localhost ~]$ ec[Student@localhost ~]$ ech[Student@localhost ~]$ echo[Student@localhost ~]$ echo [Student@localhost ~]$ echo '[1P[Student@localhost ~]$ echo "This is a fact \"$facts\" in our life."
+This is a fact "UNIX v.Others" in our life.
+]0;Student@localhost:~[Student@localhost ~]$ echo "This is a fact \"$facts\" in our life."[Student@localhost ~]$ echo "[4h"[4l[4h\[4l[Student@localhost ~]$ echo "\"[Student@localhost ~]$ echo "\"T[Student@localhost ~]$ echo "\"Th[Student@localhost ~]$ echo "\"Thi[Student@localhost ~]$ echo "\"This[Student@localhost ~]$ echo "\"This [Student@localhost ~]$ echo "\"This i[Student@localhost ~]$ echo "\"This is[Student@localhost ~]$ echo "\"This is [Student@localhost ~]$ echo "\"This is a[Student@localhost ~]$ echo "\"This is a [Student@localhost ~]$ echo "\"This is a f[Student@localhost ~]$ echo "\"This is a fa[Student@localhost ~]$ echo "\"This is a fac[Student@localhost ~]$ echo "\"This is a fact[Student@localhost ~]$ echo "\"This is a fact [Student@localhost ~]$ echo "\"This is a fact \[Student@localhost ~]$ echo "\"This is a fact \"[Student@localhost ~]$ echo "\"This is a fact \"$[Student@localhost ~]$ echo "\"This is a fact \"$f[Student@localhost ~]$ echo "\"This is a fact \"$fa[Student@localhost ~]$ echo "\"This is a fact \"$fac[Student@localhost ~]$ echo "\"This is a fact \"$fact[Student@localhost ~]$ echo "\"This is a fact \"$facts[Student@localhost ~]$ echo "\"This is a fact \"$facts\[Student@localhost ~]$ echo "\"This is a fact \"$facts\"[Student@localhost ~]$ echo "\"This is a fact \"$facts\" [Student@localhost ~]$ echo "\"This is a fact \"$facts\" i[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in [Student@localhost ~]$ echo "\"This is a fact \"$facts\" in o[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in ou[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our [Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our l[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our li[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our lif[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our life[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our life.[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our life."\"[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our life.\""
+"This is a fact "UNIX v.Others" in our life."
+]0;Student@localhost:~[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our life.\""[1P\""[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our life\""
+"This is a fact "UNIX v.Others" in our life"
+]0;Student@localhost:~[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our life\""[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in ou[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our [Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our l[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our li[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our lif[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our life[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our life\[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our life\"[Student@localhost ~]$ echo "\"This is a fact \"$facts\" in our life\""[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfirst="PARENT"
+]0;Student@localhost:~[Student@localhost ~]$ echo $first\[K
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ bash
+]0;Student@localhost:~[Student@localhost ~]$ echo $first
+
+]0;Student@localhost:~[Student@localhost ~]$ second="SUBSHELL"
+]0;Student@localhost:~[Student@localhost ~]$ second="SUBSHELL"[6Pecho $first[Student@localhost ~]$ echo $first[K[K[K[K[Ksecond
+SUBSHELL
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+]0;Student@localhost:~[Student@localhost ~]$ $first[K[K[K[K[K[Kbashecho $first
+PARENT
+]0;Student@localhost:~[Student@localhost ~]$ echo $first[7Pbashecho $firstfirst="PARENT"echo "\"This is a fact \"$facts\" in our life\"".\""[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K$second
+
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Wed 26 Apr 2006 05:36:54 PM EDT

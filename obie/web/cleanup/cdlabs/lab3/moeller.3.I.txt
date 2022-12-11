@@ -1,0 +1,45 @@
+Script started on Sun 23 Apr 2006 08:27:03 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ mkdir letters repotr[K[Krts assignments
+]0;Student@localhost:~[Student@localhost ~]$ cd letters
+]0;Student@localhost:~/letters[Student@localhost letters]$ k[Kmkdir friendly formal
+]0;Student@localhost:~/letters[Student@localhost letters]$ cd ../reports
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir personal business school
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ../assignments/UNIX
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ../assignments/Unix[K[K[KNIX/HWs
+]0;Student@localhost:~/reports[Student@localhost reports]$ mkdir ../assignments [K/UNIX/Projects
+]0;Student@localhost:~/reports[Student@localhost reports]$ ~
+bash: /home/Student: is a directory
+]0;Student@localhost:~/reports[Student@localhost reports]$ cd ~
+]0;Student@localhost:~[Student@localhost ~]$ ls -R
+[00m.:
+[00;34massignments[00m  [00;34mDesktop[00m  [00;34mletters[00m  [00mmoeller2edit.txt[00m  [00mmoeller.2.I.txt[00m  [00;34mreports[00m
+
+./assignments:
+[00;34mUNIX[00m
+
+./assignments/UNIX:
+[00;34mHWs[00m  [00;34mProjects[00m
+
+./assignments/UNIX/HWs:
+
+./assignments/UNIX/Projects:
+
+./Desktop:
+
+./letters:
+[00;34mformal[00m  [00;34mfriendly[00m
+
+./letters/formal:
+
+./letters/friendly:
+
+./reports:
+[00;34mbusiness[00m  [00;34mpersonal[00m  [00;34mschool[00m
+
+./reports/business:
+
+./reports/personal:
+
+./reports/school:
+[m]0;Student@localhost:~[Student@localhost ~]$ 
+Script done on Sun 23 Apr 2006 08:35:14 PM EDT

@@ -1,0 +1,134 @@
+Script started on Tue 02 May 2006 04:49:43 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ C[Kcat > CH10S4F1
+This is a fl=  ile that sou  hould be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thirce    rice, it is triplicated (thi rice is 
+three).
+For example, the following line has duplicated words.
+The duplicated words are he ard to find, but grep can fing them for you.
+However, you need to write the regular expression very carefully.
+]0;Student@localhost:~[Student@localhost ~]$ egrep 
+[K[K[K[K[K[Kegrep 'word.*word|the.*the|it.*it|find.*find 
+Ch10S4F1 >Ch 
+10S4F2
+>bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+]0;Student@localhost:~[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S4F1 
+ >Ch1
+10S4F2
+[A
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S4F1 
+ >C
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find C
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch1
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S4
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S4F
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S4F1' 
+ >Ch10S4F2[A
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S4F1'
+[Student@localhost ~]$ 
+egrep 'word.*word|the.*the|it.*it|find.*find Ch10S4F1' 
+[Student@localhost 
+~]$ egrep 'word.*word|the.*the|it.*it|find.*find Ch10S4F1' > 
+Ch10S4F2
+
+C
+Ch
+Ch1
+Ch10
+Ch10S
+Ch10S4
+Ch10S4F
+Ch10S4F2
+[A
+[Student@localhost 
+~]$ egrep 'word.*word|the.*the|it.*it|find.*find Ch10S4F1' 
+ >
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S4
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S4F
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S4F1
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S4F1' > 
+Ch[1P10S4F2[A
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find Ch10S4F1
+[Student@localhost 
+~]$ egrep 'word.*word|the.*the|it.*it|find.*find' Ch10S4F1 > 
+Ch10S4F2[A
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find'
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find' 
+
+[Student@localhost ~]$ [K
+
+[K[A
+[Student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|find.*find' 
+Ch10S4F1 > C
+Ch10S4F2
+egrep: Ch10S4F1: No such file or directory
+]0;Student@localhost:~[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find' Ch10S4F1 > 
+C
+Ch10S4F2
+[A
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find' Ch10S4F1 
+ >
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find' 
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find' C
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find' Ch10S4F1 > 
+Ch[1P10S4F2[A
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find' CH10S4F1 > 
+Ch10S4F2[A
+[Student@localhost ~]$ egrep 
+'word.*word|the.*the|it.*it|find.*find' CH
+
+[Student@localhost ~]$ [K
+
+[K[A
+[Student@localhost ~]$ egrep 'word.*word|the.*the|it.*it|find.*find' 
+CH10S4F1 > C
+Ch10S4F2
+]0;Student@localhost:~[Student@localhost ~]$ egrep 'is.*is|[K.*is' 
+Ch10[K[K[KH10S4F1 ?[K> Ch10S4F3
+]0;Student@localhost:~[Student@localhost ~]$ cat Ch[KH10S4F1 Ch10S4F2 
+Ch10S4F3
+This is a file that should be checked carefully.
+Some lines in this file have duplicated or triplicated words.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+For example, the following line has duplicated words.
+The duplicated words are hard to find, but grep can fing them for you.
+However, you need to write the regular expression very carefully.
+If a word appears in the line twice, the word is duplicated.
+If it is repeated thrice, it is triplicated (thrice is three).
+If it is repeated thrice, it is triplicated (thrice is three).
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Tue 02 May 2006 05:08:18 PM EDT
+

@@ -1,0 +1,194 @@
+Script started on Mon 01 May 2006 08:18:27 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ ssh -l sangtanij cs
+The authenticity of host 'cs (198.30.199.89)' can't be established.
+RSA key fingerprint is 9f:39:73:fd:0b:27:4d:68:e6:4f:43:1f:29:1d:8d:82.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'cs,198.30.199.89' (RSA) to the list of known hosts.
+sangtanij@cs's password: 
+]0;sangtanij@cs:~[sangtanij@cs sangtanij]$ scriot[K[Kpt L7III[K[K[K[K[KSangtani.L7III
+Script started, file is Sangtani.L7III
+]0;sangtanij@cs:~[sangtanij@cs sangtanij]$ pwd
+/home/sangtanij
+]0;sangtanij@cs:~[sangtanij@cs sangtanij]$ cat > RemoteWorf[Kk/Sangtani.L7III.txt
+bl  Cory stop cp omplaining!
+]0;sangtanij@cs:~[sangtanij@cs sangtanij]$ ls -la
+[00mtotal 1408
+drwx------    6 sangtanij sangtanij     4096 May  1 12:05 [00;34m.[00m
+drwxr-xr-x  121 root     root         4096 Apr 25 09:32 [00;34m..[00m
+-rw-rw-r--    1 sangtanij sangtanij     1960 Mar 30 23:19 [00m#advisor.clp#[00m
+-rw-rw-r--    1 sangtanij sangtanij     1960 Mar 30 22:30 [00madvisor.clp[00m
+-rw-rw-r--    1 sangtanij sangtanij     1514 Mar 30 03:16 [00madvisor.clp~[00m
+-rw-rw-r--    1 sangtanij sangtanij     1275 Mar 30 23:43 [00madvisor.prolog[00m
+-rw-rw-r--    1 sangtanij sangtanij      880 Mar 30 23:39 [00madvisor.prolog~[00m
+-rwxrwxr-x    1 sangtanij sangtanij     4808 Oct 27  2005 [00;32ma.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      448 Nov  7 21:06 [00m#assignment1jaina.lisp#[00m
+-rw-rw-r--    1 sangtanij sangtanij      446 Nov  7 21:46 [00massignment1jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij      448 Nov  7 21:07 [00massignment1jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij        0 Nov  7 09:28 [00m#Assignment1jaina.lisp#[00m
+-rw-rw-r--    1 sangtanij sangtanij     1773 Nov  8 15:57 [00massignment2jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij      847 Nov  7 21:44 [00massignment2jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij      273 Nov  8 20:30 [00massignment3jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij        0 Nov  8 19:41 [00massignment3jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij      825 Nov  9 03:10 [00massignment4jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij      124 Nov  9 02:41 [00massignment4jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij     3433 Nov  9 21:33 [00massignment5jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij      959 Nov  9 19:17 [00massignment5jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij      588 Nov 10 12:04 [00massignment6jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij       51 Nov 10 11:21 [00massignment6jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij     3143 Nov 16 01:09 [00massignment7jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij     3526 Nov 15 00:28 [00massignment7jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij      899 Nov 21 20:03 [00massignment8jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij      579 Nov 21 14:45 [00massignment8jaina.lisp~[00m
+-rw-------    1 sangtanij sangtanij     7347 May  1 11:45 [00m.bash_history[00m
+-rw-r--r--    1 sangtanij sangtanij       24 Sep  1  2005 [00m.bash_logout[00m
+-rw-r--r--    1 sangtanij sangtanij      191 Sep  1  2005 [00m.bash_profile[00m
+-rw-r--r--    1 sangtanij sangtanij      124 Sep  1  2005 [00m.bashrc[00m
+-rw-rw-r--    1 sangtanij sangtanij      433 Mar 30 03:27 [00mBeckypr.clp[00m
+-rw-rw-r--    1 sangtanij sangtanij       11 Nov  1 11:01 [00m#.c#[00m
+-rw-r--r--    1 sangtanij sangtanij      237 Sep  1  2005 [00m.emacs[00m
+drwxrwxr-x    3 sangtanij sangtanij     4096 Oct 27  2005 [00;34m.emacs.d[00m
+-rw-rw-r--    1 sangtanij sangtanij      194 Oct 27  2005 [00mfun.c[00m
+-rw-rw-r--    1 sangtanij sangtanij      160 Oct 27  2005 [00mfun.c~[00m
+-rw-r--r--    1 sangtanij sangtanij      120 Sep  1  2005 [00m.gtkrc[00m
+-rw-rw-r--    1 sangtanij sangtanij      454 Nov  1 11:18 [00mhghghg[00m
+-rw-rw-r--    1 sangtanij sangtanij      452 Nov  1 11:17 [00mhghghg~[00m
+-rw-rw-r--    1 sangtanij sangtanij      320 Mar 30 00:45 [00mJainapr.clp[00m
+-rw-rw-r--    1 sangtanij sangtanij      322 Mar 30 00:22 [00mJainapr.clp~[00m
+drwxr-xr-x    3 sangtanij sangtanij     4096 Sep  1  2005 [00;34m.kde[00m
+-rw-rw-r--    1 sangtanij sangtanij        0 Nov  3 10:38 [00mlab1.lisp[00m
+-rw-------    1 sangtanij sangtanij       26 Oct 19  2005 [00m.mpd.conf[00m
+drwxrwxr-x    2 sangtanij sangtanij     4096 May  1 12:06 [00;34mRemoteWork[00m
+-rw-rw-r--    1 sangtanij sangtanij     6565 May  1 11:45 [00mSangtani.7.I.txt[00m
+-rw-r--r--    1 sangtanij sangtanij    24064 May  1 11:50 [00mSangtaniL7II.doc[00m
+-rw-rw-r--    1 sangtanij sangtanij        0 May  1 12:05 [00mSangtani.L7III[00m
+-rwxrwxr-x    1 sangtanij sangtanij   577035 Nov 18 16:15 [00;32msat[00m
+-rw-rw-r--    1 sangtanij sangtanij      207 Nov 17 22:04 [00msat1.out[00m
+-rwxrwxr-x    1 sangtanij sangtanij   576911 Nov  3 09:21 [00;32msat2[00m
+-rw-rw-r--    1 sangtanij sangtanij      727 Nov  3 09:21 [00msat21.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      654 Nov  3 09:22 [00msat22.out[00m
+-rw-rw-r--    1 sangtanij sangtanij     1795 Nov  1 23:12 [00msat2.c[00m
+-rw-rw-r--    1 sangtanij sangtanij     1796 Nov  1 23:11 [00msat2.c~[00m
+-rw-rw-r--    1 sangtanij sangtanij      862 Nov  2 14:53 [00msat2.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      232 Nov 18 15:52 [00msatA1.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      237 Nov 18 15:56 [00msatA2.out[00m
+-rw-rw-r--    1 sangtanij sangtanij     2395 Nov 18 16:15 [00msat.c[00m
+-rw-rw-r--    1 sangtanij sangtanij     2430 Nov 18 16:12 [00msat.c~[00m
+-rw-rw-r--    1 sangtanij sangtanij      252 Nov 18 16:11 [00msatC1.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      261 Nov 18 16:12 [00msatC2.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      295 Nov 18 16:15 [00msatD.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      239 Nov 18 15:59 [00msat.out[00m
+drwxr-xr-x    2 sangtanij sangtanij     4096 Sep  1  2005 [00;34m.xemacs[00m
+-rw-r--r--    1 sangtanij sangtanij      220 Sep  1  2005 [00m.zshrc[00m
+[m]0;sangtanij@cs:~[sangtanij@cs sangtanij]$ ls -l
+[00mtotal 1356
+-rw-rw-r--    1 sangtanij sangtanij     1960 Mar 30 23:19 [00m#advisor.clp#[00m
+-rw-rw-r--    1 sangtanij sangtanij     1960 Mar 30 22:30 [00madvisor.clp[00m
+-rw-rw-r--    1 sangtanij sangtanij     1514 Mar 30 03:16 [00madvisor.clp~[00m
+-rw-rw-r--    1 sangtanij sangtanij     1275 Mar 30 23:43 [00madvisor.prolog[00m
+-rw-rw-r--    1 sangtanij sangtanij      880 Mar 30 23:39 [00madvisor.prolog~[00m
+-rwxrwxr-x    1 sangtanij sangtanij     4808 Oct 27  2005 [00;32ma.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      448 Nov  7 21:06 [00m#assignment1jaina.lisp#[00m
+-rw-rw-r--    1 sangtanij sangtanij      446 Nov  7 21:46 [00massignment1jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij      448 Nov  7 21:07 [00massignment1jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij        0 Nov  7 09:28 [00m#Assignment1jaina.lisp#[00m
+-rw-rw-r--    1 sangtanij sangtanij     1773 Nov  8 15:57 [00massignment2jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij      847 Nov  7 21:44 [00massignment2jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij      273 Nov  8 20:30 [00massignment3jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij        0 Nov  8 19:41 [00massignment3jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij      825 Nov  9 03:10 [00massignment4jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij      124 Nov  9 02:41 [00massignment4jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij     3433 Nov  9 21:33 [00massignment5jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij      959 Nov  9 19:17 [00massignment5jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij      588 Nov 10 12:04 [00massignment6jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij       51 Nov 10 11:21 [00massignment6jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij     3143 Nov 16 01:09 [00massignment7jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij     3526 Nov 15 00:28 [00massignment7jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij      899 Nov 21 20:03 [00massignment8jaina.lisp[00m
+-rw-rw-r--    1 sangtanij sangtanij      579 Nov 21 14:45 [00massignment8jaina.lisp~[00m
+-rw-rw-r--    1 sangtanij sangtanij      433 Mar 30 03:27 [00mBeckypr.clp[00m
+-rw-rw-r--    1 sangtanij sangtanij       11 Nov  1 11:01 [00m#.c#[00m
+-rw-rw-r--    1 sangtanij sangtanij      194 Oct 27  2005 [00mfun.c[00m
+-rw-rw-r--    1 sangtanij sangtanij      160 Oct 27  2005 [00mfun.c~[00m
+-rw-rw-r--    1 sangtanij sangtanij      454 Nov  1 11:18 [00mhghghg[00m
+-rw-rw-r--    1 sangtanij sangtanij      452 Nov  1 11:17 [00mhghghg~[00m
+-rw-rw-r--    1 sangtanij sangtanij      320 Mar 30 00:45 [00mJainapr.clp[00m
+-rw-rw-r--    1 sangtanij sangtanij      322 Mar 30 00:22 [00mJainapr.clp~[00m
+-rw-rw-r--    1 sangtanij sangtanij        0 Nov  3 10:38 [00mlab1.lisp[00m
+drwxrwxr-x    2 sangtanij sangtanij     4096 May  1 12:06 [00;34mRemoteWork[00m
+-rw-rw-r--    1 sangtanij sangtanij     6565 May  1 11:45 [00mSangtani.7.I.txt[00m
+-rw-r--r--    1 sangtanij sangtanij    24064 May  1 11:50 [00mSangtaniL7II.doc[00m
+-rw-rw-r--    1 sangtanij sangtanij     4096 May  1 12:07 [00mSangtani.L7III[00m
+-rwxrwxr-x    1 sangtanij sangtanij   577035 Nov 18 16:15 [00;32msat[00m
+-rw-rw-r--    1 sangtanij sangtanij      207 Nov 17 22:04 [00msat1.out[00m
+-rwxrwxr-x    1 sangtanij sangtanij   576911 Nov  3 09:21 [00;32msat2[00m
+-rw-rw-r--    1 sangtanij sangtanij      727 Nov  3 09:21 [00msat21.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      654 Nov  3 09:22 [00msat22.out[00m
+-rw-rw-r--    1 sangtanij sangtanij     1795 Nov  1 23:12 [00msat2.c[00m
+-rw-rw-r--    1 sangtanij sangtanij     1796 Nov  1 23:11 [00msat2.c~[00m
+-rw-rw-r--    1 sangtanij sangtanij      862 Nov  2 14:53 [00msat2.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      232 Nov 18 15:52 [00msatA1.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      237 Nov 18 15:56 [00msatA2.out[00m
+-rw-rw-r--    1 sangtanij sangtanij     2395 Nov 18 16:15 [00msat.c[00m
+-rw-rw-r--    1 sangtanij sangtanij     2430 Nov 18 16:12 [00msat.c~[00m
+-rw-rw-r--    1 sangtanij sangtanij      252 Nov 18 16:11 [00msatC1.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      261 Nov 18 16:12 [00msatC2.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      295 Nov 18 16:15 [00msatD.out[00m
+-rw-rw-r--    1 sangtanij sangtanij      239 Nov 18 15:59 [00msat.out[00m
+[m]0;sangtanij@cs:~[sangtanij@cs sangtanij]$ exit
+Script done, file is Sangtani.L7III
+]0;sangtanij@cs:~[sangtanij@cs sangtanij]$ logout
+[H[2JConnection to cs closed.
+]0;Student@localhost:~[Student@localhost ~]$ cd [K[K[Kcat > Sangtani.L7IV.txt
+I am a    don't need help!
+]0;Student@localhost:~[Student@localhost ~]$ ftp cs
+Connected to cs.hiram.edu.
+220 (vsFTPd 1.2.1)
+530 Please login with USER and PASS.
+530 Please login with USER and PASS.
+KERBEROS_V4 rejected as an authentication type
+Name (cs:Student): sangtanij
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> mput san   Sangtani.L7IV.txt                      cd RemoteWior   ork
+250 Directory successfully changed.
+ftp> mput Sangtani.L7IV.txt
+mput Sangtani.L7IV.txt? y
+227 Entering Passive Mode (198,30,199,89,47,57)
+150 Ok to send data.
+226 File receive OK.
+19 bytes sent in 8.2e-05 seconds (2.3e+02 Kbytes/s)
+ftp> mget Sangtani*
+mget Sangtani.L7I.txt? y n nn 
+mget Sangtani.L7III.txt? n
+mget Sangtani.L7IV.txt? n
+mget SangtaniL7II.doc? n
+ftp> n me get * *
+mget Sangtani.L7I.txt? y
+227 Entering Passive Mode (198,30,199,89,255,155)
+150 Opening BINARY mode data connection for Sangtani.L7I.txt (15 bytes).
+226 File send OK.
+15 bytes received in 6.7e-05 seconds (2.2e+02 Kbytes/s)
+mget Sangtani.L7III.txt? y
+227 Entering Passive Mode (198,30,199,89,33,24)
+150 Opening BINARY mode data connection for Sangtani.L7III.txt (23 bytes).
+226 File send OK.
+23 bytes received in 6.6e-05 seconds (3.4e+02 Kbytes/s)
+mget Sangtani.L7IV.txt? y
+227 Entering Passive Mode (198,30,199,89,220,21)
+150 Opening BINARY mode data connection for Sangtani.L7IV.txt (19 bytes).
+226 File send OK.
+19 bytes received in 0.00013 seconds (1.5e+02 Kbytes/s)
+mget SangtaniL7II.doc? y
+227 Entering Passive Mode (198,30,199,89,79,103)
+150 Opening BINARY mode data connection for SangtaniL7II.doc (24064 bytes).
+226 File send OK.
+24064 bytes received in 0.015 seconds (1.5e+03 Kbytes/s)
+ftp> bye
+221 Goodbye.
+]0;Student@localhost:~[Student@localhost ~]$ exit
+
+Script done on Mon 01 May 2006 08:26:53 AM EDT

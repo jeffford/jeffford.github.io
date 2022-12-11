@@ -1,0 +1,492 @@
+Script started on Fri 05 May 2006 07:09:28 AM EDT
+]0;student@localhost:~[student@localhost ~]$ cat > Ch10S1F1
+1425	Jau  un an	18	14.25
+4321	George	22	21.11
+6781	Anne	44	16.77
+145` 1	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;student@localhost:~[student@localhost ~]$ egrep ^21.77$
+^[[D^[[D^[[C            Ch10S1F1
+]0;student@localhost:~[student@localhost ~]$ egrep '^1[K21.77$' Ch10S1F1
+]0;student@localhost:~[student@localhost ~]$ egrep '21.77' Ch10S1F1
+1451	Ben	36	21.77
+]0;student@localhost:~[student@localhost ~]$ egre[K[K[K[Kfgrep[K[K[K[K[Kegrep '16.77' Ch10S1F1[4h%[4l[1P[4h$[4l
+]0;student@localhost:~[student@localhost ~]$ e[Kegrep '$16.77' Ch10S1F1[1P[1P[student@localhost ~]$ g[student@localhost ~]$ gr[student@localhost ~]$ gre[student@localhost ~]$ grep[student@localhost ~]$ grep [student@localhost ~]$ grep '[student@localhost ~]$ grep '1[student@localhost ~]$ grep [4h [4l[4h-[4l[4hl[4l
+Ch10S1F1
+]0;student@localhost:~[student@localhost ~]$ grep -l '16.77' Ch10S1F1[1P[1P[1P[4hf[4l
+6781	Anne	44	16.77
+]0;student@localhost:~[student@localhost ~]$ fgrep '16.77' Ch10S1F1[4hc[4l[4hu[4l[4ht[4l[4h [4l[4h-[4l[student@localhost ~]$ cut -f[4hf[4l[4h [4l[4h4[4l[4h [4l[4h|[4l[4h [4l[student@localhost ~]$ cut -f 4 | f[student@localhost ~]$ cut -f 4 | fg[student@localhost ~]$ cut -f 4 | fgr[student@localhost ~]$ cut -f 4 | fgre[student@localhost ~]$ cut -f 4 | fgrep[student@localhost ~]$ cut -f 4 | fgrep [student@localhost ~]$ cut -f 4 | fgrep '[student@localhost ~]$ cut -f 4 | fgrep '1[student@localhost ~]$ cut -f 4 | fgrep '16[student@localhost ~]$ cut -f 4 | fgrep '16.[student@localhost ~]$ cut -f 4 | fgrep '16.7[student@localhost ~]$ cut -f 4 | fgrep '16.77[student@localhost ~]$ cut -f 4 | fgrep '16.77'[student@localhost ~]$ cut -f 4 | fgrep '16.77' [student@localhost ~]$ cut -f 4 | fgrep '16.77' C[student@localhost ~]$ cut -f 4 | fgrep '16.77' Ch[student@localhost ~]$ cut -f 4 | fgrep '16.77' Ch1[student@localhost ~]$ cut -f 4 | fgrep '16.77' Ch10[student@localhost ~]$ cut -f 4 | fgrep '16.77' Ch10S[student@localhost ~]$ cut -f 4 | fgrep '16.77' Ch10S1[student@localhost ~]$ cut -f 4 | fgrep '16.77' Ch10S1F[student@localhost ~]$ cut -f 4 | fgrep '16.77' Ch10S1F1
+6781	Anne	44	16.77
+^[[A^[[D        ]0;student@localhost:~[student@localhost ~]$ cut -f 4 | fgrep '16.77' Ch10S1F1[student@localhost ~]$ cut -f 4 [4h [4l[4hC[4l[4hh[4l[4h1[4l[4h0[4l[4hS[4l[4h1[4l[4hF[4l[4h1[4l
+6781	Anne	44	16.77
+]0;student@localhost:~[student@localhost ~]$ cut -f 4 Ch10S1F1 | fgrep '16.77' Ch10S1F1[1P[4h>[4l[4h|[4l
+cut: 16.77: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ cut -f 4 Ch10S1F1 >| fgrep '16.77' Ch10S1F1[1P[4h<[4l
+bash: syntax error near unexpected token `|'
+]0;student@localhost:~[student@localhost ~]$ cut -f 4 Ch10S1F1 <| fgrep '16.77' Ch10S1F1[1P
+14.25
+21.11
+16.77
+21.77
+18.77
+cut: 16.77: No such file or directory
+14.25
+21.11
+16.77
+21.77
+18.77
+]0;student@localhost:~[student@localhost ~]$ cut -f 4 Ch10S1F1 < fgrep '16.77' Ch10S1F1[1P[4h1[4l[4h,[4l[4h2[4l[4h,[4l[4h3[4l
+1425	Juan	18
+4321	George	22
+6781	Anne	44
+1451	Ben	36
+2277	Tuan	16
+cut: 16.77: No such file or directory
+1425	Juan	18
+4321	George	22
+6781	Anne	44
+1451	Ben	36
+2277	Tuan	16
+]0;student@localhost:~[student@localhost ~]$ cut -f 1,2,3 Ch10S1F1 < fgrep '16.77' Ch10S1F1[1P[4h|[4l
+6781	Anne	44	16.77
+]0;student@localhost:~[student@localhost ~]$ cut -f 1,2,3 Ch10S1F1 | fgrep '16.77' Ch10S1F1[student@localhost ~]$ cut -f 1,2,3 Ch10S1F1 |[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[student@localhost ~]$  [student@localhost ~]$  f[student@localhost ~]$  fg[student@localhost ~]$  fgr[student@localhost ~]$  fgre[student@localhost ~]$  fgrep[student@localhost ~]$  fgrep [student@localhost ~]$  fgrep '[student@localhost ~]$  fgrep '1[student@localhost ~]$  fgrep '16[student@localhost ~]$  fgrep '16.[student@localhost ~]$  fgrep '16.7[student@localhost ~]$  fgrep '16.77[student@localhost ~]$  fgrep '16.77'[student@localhost ~]$  fgrep '16.77' [student@localhost ~]$  fgrep '16.77' C[student@localhost ~]$  fgrep '16.77' Ch[student@localhost ~]$  fgrep '16.77' Ch1[student@localhost ~]$  fgrep '16.77' Ch10[student@localhost ~]$  [1P[student@localhost ~]$ f[student@localhost ~]$ fg[student@localhost ~]$ fgr[student@localhost ~]$ fgre[student@localhost ~]$ fgrep[student@localhost ~]$ fgrep [student@localhost ~]$ fgrep '[student@localhost ~]$ fgrep '1[student@localhost ~]$ fgrep '16[student@localhost ~]$ fgrep '16.[student@localhost ~]$ fgrep '16.7[student@localhost ~]$ fgrep '16.77[student@localhost ~]$ fgrep '16.77'[student@localhost ~]$ fgrep '16.77' [student@localhost ~]$ fgrep '16.77' C[student@localhost ~]$ fgrep '16.77' Ch[student@localhost ~]$ fgrep '16.77' Ch1[student@localhost ~]$ fgrep '16.77' Ch10[student@localhost ~]$ fgrep '16.77' Ch10S[student@localhost ~]$ fgrep '16.77' Ch10S1[student@localhost ~]$ fgrep '16.77' Ch10S1F[student@localhost ~]$ fgrep '16.77' Ch10S1F1 | cut -f 4
+16.77
+]0;student@localhost:~[student@localhost ~]$ fgrea[Kp '^1451*&[K[K' Ch10S1F1
+]0;student@localhost:~[student@localhost ~]$ egrep '1451' Ch10S1F1
+1451	Ben	36	21.77
+]0;student@localhost:~[student@localhost ~]$ cut --[Kf 2,3 | greap[K[Kp [2-9][0-9[K[K[K1-9] Ch10S1F1[4hC[4l[4hh[4l[4h1[4l[4h0[4l[4hS[4l[4h1[4l[4hF[4l[4h1[4l[4h [4l
+1425	Juan	18	14.25
+4321	George	22	21.11
+6781	Anne	44	16.77
+1451	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;student@localhost:~[student@localhost ~]$ cut -f 2,3 Ch10S1F1 | grep [2-9][1-9] Ch10S1F1[1P[4h>[4l[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > [4h [4l[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P Ch10S1F1[1PCh10S1F1[1Ph10S1F1[1P10S1F1[1P0S1F1[1PS1F1[1P1F1[1PF1[1P1[KCh10S1F1.Question5
+]0;student@localhost:~[student@localhost ~]$ ls Ch10S1F1 [K.Question5
+[00m[00mCh10S1F1.Question5[00m
+[m]0;student@localhost:~[student@localhost ~]$ more Ch10S1F1.Question5
+Juan	18
+George	22
+Anne	44
+Ben	36
+Tuan	16
+]0;student@localhost:~[student@localhost ~]$ rm Ch10S1F1.Question5
+]0;student@localhost:~[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Question [K5 | grep [K[K[K[K[Kegrep ([K[K[K[K[K[K[K[K grep [2-9] [[K[K[1-9 ]  [KCh10S1F2.Question2[K5
+]0;student@localhost:~[student@localhost ~]$ grecut -f 2,3 Ch10S1F1 > Ch10S1F2.Question5 | grep [2-9][1-9]] Ch10S1F2.Question5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Question5 | grep [2-9][1-[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Question5 | grep [2-9][1-9] [1PCh10S1F2.Question5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Question5 grep [2-9][1-9] C[1Ph10S1F2.Question5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Question5 grep [2-9][1-9] Ch[1P10S1F2.Question5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Question grep [2-9][1-9] Ch1[1P0S1F2.Question5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Questio grep [2-9][1-9] Ch10[1PS1F2.Question5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Questi grep [2-9][1-9] Ch10S[1P1F2.Question5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Quest grep [2-9][1-9] Ch10S1[1PF2.Question5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Ques grep [2-9][1-9] Ch10S1F[1P2.Question5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Que grep [2-9][1-9] Ch10S1F2[1P.Question5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Qu grep [2-9][1-9] Ch10S1F2.[1PQuestion5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2.Q grep [2-9][1-9] Ch10S1F2.Q[1Puestion5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2. grep [2-9][1-9] Ch10S1F2.Qu[1Pestion5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F2 grep [2-9][1-9] Ch10S1F2.Que[1Pstion5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1F grep [2-9][1-9] Ch10S1F2.Ques[1Ption5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S1 grep [2-9][1-9] Ch10S1F2.Quest[1Pion5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10S grep [2-9][1-9] Ch10S1F2.Questi[1Pon5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch10 grep [2-9][1-9] Ch10S1F2.Questio[1Pn5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch1 grep [2-9][1-9] Ch10S1F2.Question[1P5[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > Ch grep [2-9][1-9] Ch10S1F2.Question5[K[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > C grep [2-9][1-9] Ch10S1F2.Question5 [K[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 > [1P
+[K[A[student@localhost ~]$ cut -f 2,3 Ch10S1F1 >[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+George	22
+Anne	44
+Ben	36
+]0;student@localhost:~[student@localhost ~]$ greap[K[Kp ([0-9]\4) [K[2-9][1-9] Ch10S1F1
+bash: syntax error near unexpected token `[0-9]\4'
+]0;student@localhost:~[student@localhost ~]$ grep ([0-9]\4)[2-9][1-9] Ch10S1F1[student@localhost ~]$ grep ([0-9]\4[student@localhost ~]$ grep ([0-9]\4[4h\[4l
+bash: syntax error near unexpected token `[0-9]\4\)[2-9][1-9]'
+]0;student@localhost:~[student@localhost ~]$ grep ([0-9]\4\)[2-9][1-9] Ch10S1F1[Kgrep ([0-9]\4\)[2-9][1-9] Ch10S1F1[student@localhost ~]$ grep [4h'[4l[4h^[4l[student@localhost ~]$ grep '^([student@localhost ~]$ grep '^([[student@localhost ~]$ grep '^([0[student@localhost ~]$ grep '^([0-[student@localhost ~]$ grep '^([0-9[student@localhost ~]$ grep '^([0-9][student@localhost ~]$ grep '^([0-9]\[student@localhost ~]$ grep '^([0-9]\4[student@localhost ~]$ grep '^([0-9]\4\[student@localhost ~]$ grep '^([0-9]\4\)[student@localhost ~]$ grep '^([0-9]\4\)[[student@localhost ~]$ grep '^([0-9]\4\)[2[student@localhost ~]$ grep '^([0-9]\4\)[2-[student@localhost ~]$ grep '^([0-9]\4\)[2-9[student@localhost ~]$ grep '^([0-9]\4\)[2-9][student@localhost ~]$ grep '^([0-9]\4\)[2-9][[student@localhost ~]$ grep '^([0-9]\4\)[2-9][1[student@localhost ~]$ grep '^([0-9]\4\)[2-9][1-[student@localhost ~]$ grep '^([0-9]\4\)[2-9][1-9[student@localhost ~]$ grep '^([0-9]\4\)[2-9][1-9]$ Ch10S1F1' Ch10S1F1
+grep: Invalid back reference
+]0;student@localhost:~[student@localhost ~]$ grep '^([0-9]\4\)[2-9][1-9]$' Ch10S1F1[1P
+grep: Invalid back reference
+]0;student@localhost:~[student@localhost ~]$ grep '^([0-9]\4)[2-9][1-9]$' Ch10S1F1[1P[1P[1P[1P[1P[1P[1P[1P[1P[student@localhost ~]$ grep '^[[4h[[4l[4hA[4l[4h-[4l[4hZ[4l[4h][4l
+]0;student@localhost:~[student@localhost ~]$ grep '^[A-Z][2-9][1-9]$' Ch10S1F1[1P[1P
+]0;student@localhost:~[student@localhost ~]$ grep '[A-Z][2-9][1-9]' Ch10S1F1[4h$[4l
+]0;student@localhost:~[student@localhost ~]$ grep '[A-Z][2-9][1-9]$' Ch10S1F1[4hf[4l
+]0;student@localhost:~[student@localhost ~]$ fgrep '[A-Z][2-9][1-9]$' Ch10S1F1[1P[4he[4l
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Fri 05 May 2006 07:30:51 AM EDT
+Script started on Sun 07 May 2006 04:16:25 PM EDT
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S1F1
+1425	Juan	18	14.25
+4321	George	22	21.11
+6781	Anne	44	16.77
+1451	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;student@localhost:~[student@localhost ~]$ cut [K[K[K[Ka[Kcat MostHours
+cat: MostHours: No such file or directory
+]0;student@localhost:~[student@localhost ~]$ cat mosthours
+2351
+]0;student@localhost:~[student@localhost ~]$ cut -f 2,3 > 20plus
+]0;student@localhost:~[student@localhost ~]$ cut -f 2,3 < 20plus
+]0;student@localhost:~[student@localhost ~]$ cat 20plus
+]0;student@localhost:~[student@localhost ~]$ cut -f 2,3 Ch10S1F1 [K >2[K 20plus
+]0;student@localhost:~[student@localhost ~]$ cat 20pul[K[Klus
+Juan	18
+George	22
+Anne	44
+Ben	36
+Tuan	16
+]0;student@localhost:~[student@localhost ~]$ cut -f 2,3 Ch10S1F1 >| [K[K[K| grep [[K'^[A-Z][K]*[A[Ka=[K-z]*[1P[a-z]*[student@localhost ~]$ cut -f 2,3 Ch10S1F1 | grep '^[A-Z][[student@localhost ~]$ cut -f 2,3 Ch10S1F1 | grep '^[A-Z][a[student@localhost ~]$ cut -f 2,3 Ch10S1F1 | grep '^[A-Z][a-[student@localhost ~]$ cut -f 2,3 Ch10S1F1 | grep '^[A-Z][a-z[student@localhost ~]$ cut -f 2,3 Ch10S1F1 | grep '^[A-Z][a-z][student@localhost ~]$ cut -f 2,3 Ch10S1F1 | grep '^[A-Z][a-z]*[K[K[K[K[K[K[K[K[K[K[K[KJua[K[K[KGeorge, Anne, Ben'
+]0;student@localhost:~[student@localhost ~]$ gre[K[K[Kcut -f 2,3 Ch10S1F1 | grep 'George, Anne, Ben'[student@localhost ~]$ cut -f 2,3 Ch10S1F1 | grep 'George, Anne, Ben' Ch10S1F1
+]0;student@localhost:~[student@localhost ~]$ cut -f 2,3 Ch10S1F1 | grep 'George, Anne, Ben' Ch10S1F1[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+]0;student@localhost:~[student@localhost ~]$ grep 'George, Anne, Ben' Ch10S1F1[4he[4l
+]0;student@localhost:~[student@localhost ~]$ egrep 'George, Anne, Ben' Ch10S1F1[student@localhost ~]$ egrep 'George, Anne, Ben' Ch10S1F1[student@localhost ~]$ [1P[student@localhost ~]$ grep 'George, Anne, Ben' Ch10S1F1[student@localhost ~]$ grep 'George, Anne, Ben' Ch10S1F1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ke' Ch10S1F1 }|[K[K| grep 'Anne;[K' S[KCh10S1F1 [K
+6781	Anne	44	16.77
+]0;student@localhost:~[student@localhost ~]$ greap[K[Kp "[K'George' [K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+
+Script done on Sun 07 May 2006 04:23:25 PM EDT
+Script started on Mon 08 May 2006 08:41:06 AM EDT
+]0;student@localhost:~[student@localhost ~]$ egrep [K[K[K[K[K[Kcut -f 2,3 Ch10S1F1 | egrep "[2-4[K0[K9][0-9]"
+George	22
+Anne	44
+Ben	36
+]0;student@localhost:~[student@localhost ~]$ cut -f 2,3 Ch10S1F1 | egrep "[2-9][0-9]"[1P[4h4[4l[1P[4h1[4l
+1425	14.25
+4321	21.11
+6781	16.77
+1451	21.77
+2277	18.77
+]0;student@localhost:~[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[2-9][0-9]"[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[[2-9][0-9]"0[2-9][0-9]"-[2-9][0-9]"9[2-9][0-9]"][2-9][0-9]"[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][[2-9][0-9]"0[2-9][0-9]"][2-9][0-9]"[1P[2-9][0-9]"-[2-9][0-9]"9[2-9][0-9]"][2-9][0-9]"[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][[2-9][0-9]"0[2-9][0-9]"-[2-9][0-9]"9[2-9][0-9]"][2-9][0-9]"[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][[2-9][0-9]"0[2-9][0-9]" [A[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][0-[2-9][0-9]""[A[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][0-9[2-9][0-9]"[A[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][0-9][2-9][0-9]"[A[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][0-9]
+
+]0;student@localhost:~[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][0-9][2-9][0-99]"[A[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][0-9][2-9][0[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][0-9[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][0-9][2-9][0-9][1P"[A[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][0-9[2-9][0-9]"[K[A[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][0-[2-9][0-9]" [K[A[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][0[1P[2-9][0-9]"
+[K[A[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[0-9][0-9][0-9][[1P2-9][0-9]"[1P[2-9][0-9]"[1P[2-9][0-9]"[1P[2-9][0-9]"[1P[2-9][0-9]"[1P2-9][0-9]"[1P[2-9][0-9]"[1P[2-9][0-9]"[1P[2-9][0-9]"[1P[2-9][0-9]"[1P2-9][0-9]"[1P[2-9][0-9]"[1P[2-9][0-9]"[1P[2-9][0-9]"[1P[2-9][0-9]"[1P2-9][0-9]"$[2-9][0-9]"
+egrep: invalid option -- [
+Usage: egrep [OPTION]... PATTERN [FILE]...
+Try `egrep --help' for more information.
+]0;student@localhost:~[student@localhost ~]$ man egrep
+[?1049h[?1h=[24;1H[KGREP(1)                                                                GREP(1)
+
+[1mNAME[0m
+       grep, egrep, fgrep - print lines matching a pattern
+
+[1mSYNOPSIS[0m
+       [1mgrep[0m [[4moptions[24m] [4mPATTERN[24m [[4mFILE[24m...]
+       [1mgrep[0m [[4moptions[24m] [[1m-e[0m [4mPATTERN[24m | [1m-f[0m [4mFILE[24m] [[4mFILE[24m...]
+
+[1mDESCRIPTION[0m
+       [1mGrep[0m  searches the named input [4mFILE[24ms (or standard input if no files are
+       named, or the file name [1m-[0m is given) for lines containing a match to the
+       given [4mPATTERN[24m.  By default, [1mgrep[0m prints the matching lines.
+
+       In addition, two variant programs [1megrep[0m and [1mfgrep[0m are available.  [1mEgrep[0m
+       is the same as [1mgrep[0m [1m-E[0m.  [1mFgrep[0m is the same as [1mgrep[0m [1m-F[0m.
+
+[1mOPTIONS[0m
+       [1m-A[0m [4mNUM[24m, [1m--after-context=[0m[4mNUM[24m
+              Print [4mNUM[24m  lines  of  trailing  context  after  matching  lines.
+              Places  a  line  containing  [1m--[0m  between  contiguous  groups  of
+              matches.
+
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-a[0m, [1m--text[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Process a binary file as if it were text; this is equivalent  to
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              the [1m--binary-files=text[0m option.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-B[0m [4mNUM[24m, [1m--before-context=[0m[4mNUM[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Print  [4mNUM[24m  lines  of  leading  context  before  matching lines.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Places  a  line  containing  [1m--[0m  between  contiguous  groups  of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              matches.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-C[0m [4mNUM[24m, [1m--context=[0m[4mNUM[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Print  [4mNUM[24m lines of output context.  Places a line containing [1m--[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              between contiguous groups of matches.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-b[0m, [1m--byte-offset[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Print the byte offset within the input file before each line  of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--binary-files=[0m[4mTYPE[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              If the first few bytes of a file indicate that the file contains
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              binary data, assume that the file is of type [4mTYPE[24m.  By  default,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [4mTYPE[24m is [1mbinary[0m, and [1mgrep[0m normally outputs either a one-line mes-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              sage saying that a binary file matches, or no message  if  there
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              is  no  match.   If  [4mTYPE[24m  is [1mwithout-match[0m, [1mgrep[0m assumes that a
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              binary file does not match; this is equivalent to the [1m-I[0m option.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              If  [4mTYPE[24m  is  [1mtext[0m,  [1mgrep[0m  processes a binary file as if it were
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              text; this is  equivalent  to  the  [1m-a[0m  option.   [4mWarning:[24m  [1mgrep[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1m--binary-files=text[0m  might output binary garbage, which can have
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              nasty side effects if the output is a terminal and if the termi-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              nal driver interprets some of it as commands.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--colour[=[0m[4mWHEN[24m][4m,[24m [1m--color[=[0m[4mWHEN[24m]
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Surround  the matching string with the marker find in [1mGREP_COLOR[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              environment variable. WHEN may be ‘never’, ‘always’, or ‘auto’
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-c[0m, [1m--count[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Suppress normal output; instead print a count of matching  lines
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              for  each  input  file.  With the [1m-v[0m, [1m--invert-match[0m option (see
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              below), count non-matching lines.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-D[0m [4mACTION[24m, [1m--devices=[0m[4mACTION[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              If an input file is a device, FIFO or socket, use [4mACTION[24m to pro-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              cess  it.   By default, [4mACTION[24m is [1mread[0m, which means that devices
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              are read just as if they were  ordinary  files.   If  [4mACTION[24m  is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1mskip[0m, devices are silently skipped.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-d[0m [4mACTION[24m, [1m--directories=[0m[4mACTION[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              If  an  input file is a directory, use [4mACTION[24m to process it.  By
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              default, [4mACTION[24m is [1mread[0m, which means that directories  are  read
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              just  as if they were ordinary files.  If [4mACTION[24m is [1mskip[0m, direc-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              tories are silently skipped.  If [4mACTION[24m is [1mrecurse[0m,  [1mgrep[0m  reads
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              all  files under each directory, recursively; this is equivalent
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              to the [1m-r[0m option.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-E[0m, [1m--extended-regexp[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Interpret [4mPATTERN[24m as an extended regular expression (see below).
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-e[0m [4mPATTERN[24m, [1m--regexp=[0m[4mPATTERN[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Use [4mPATTERN[24m as the pattern; useful to protect patterns beginning
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              with [1m-[0m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-F[0m, [1m--fixed-strings[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Interpret [4mPATTERN[24m as a list of fixed strings, separated by  new-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              lines, any of which is to be matched.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-P[0m, [1m--perl-regexp[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Interpret [4mPATTERN[24m as a Perl regular expression.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-f[0m [4mFILE[24m, [1m--file=[0m[4mFILE[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Obtain  patterns  from  [4mFILE[24m, one per line.  The empty file con-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              tains zero patterns, and therefore matches nothing.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-G[0m, [1m--basic-regexp[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Interpret [4mPATTERN[24m as a basic  regular  expression  (see  below).
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              This is the default.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-H[0m, [1m--with-filename[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Print the filename for each match.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-h[0m, [1m--no-filename[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Suppress  the  prefixing  of  filenames  on output when multiple
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              files are searched.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--help[0m Output a brief help message.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-I[0m     Process a binary file as if it did not  contain  matching  data;
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              this is equivalent to the [1m--binary-files=without-match[0m option.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-i[0m, [1m--ignore-case[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Ignore  case  distinctions  in  both  the  [4mPATTERN[24m and the input
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              files.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-L[0m, [1m--files-without-match[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Suppress normal output; instead print the  name  of  each  input
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              file from which no output would normally have been printed.  The
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              scanning will stop on the first match.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-l[0m, [1m--files-with-matches[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Suppress normal output; instead print the  name  of  each  input
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              file  from  which  output would normally have been printed.  The
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              scanning will stop on the first match.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-m[0m [4mNUM[24m, [1m--max-count=[0m[4mNUM[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Stop reading a file after [4mNUM[24m matching lines.  If the  input  is
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              standard  input  from a regular file, and [4mNUM[24m matching lines are
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              output, [1mgrep[0m ensures that the standard input  is  positioned  to
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              just  after the last matching line before exiting, regardless of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              the presence of trailing context lines.  This enables a  calling
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              process  to resume a search.  When [1mgrep[0m stops after [4mNUM[24m matching
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              lines, it outputs any trailing context lines.  When  the  [1m-c[0m  or
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1m--count[0m  option  is  also  used,  [1mgrep[0m  does  not output a count
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              greater than [4mNUM[24m.  When the [1m-v[0m or [1m--invert-match[0m option is  also
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              used, [1mgrep[0m stops after outputting [4mNUM[24m non-matching lines.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--mmap[0m If  possible, use the [1mmmap[0m(2) system call to read input, instead
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              of the default [1mread[0m(2) system call.  In some situations,  [1m--mmap[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              yields  better performance.  However, [1m--mmap[0m can cause undefined
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              behavior (including core dumps) if an input file  shrinks  while
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1mgrep[0m is operating, or if an I/O error occurs.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-n[0m, [1m--line-number[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Prefix each line of output with the line number within its input
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              file.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-o[0m, [1m--only-matching[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Show only the part of a matching line that matches [4mPATTERN.[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--label=[0m[4mLABEL[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Displays input actually coming from standard input as input com-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              ing  from  file [4mLABEL.[24m  This is especially useful for tools like
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              zgrep, e.g.  [1mgzip[0m [1m-cd[0m [1mfoo.gz[0m [1m|grep[0m [1m--label=foo[0m [1msomething[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m--line-buffered[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Use line buffering, it can be a performance penality.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-q[0m, [1m--quiet[0m, [1m--silent[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Quiet; do not write anything to standard output.   Exit  immedi-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              ately  with  zero status if any match is found, even if an error
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              was detected.  Also see the [1m-s[0m or [1m--no-messages[0m option.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-R[0m, [1m-r[0m, [1m--recursive[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Read all files under each directory, recursively; this is equiv-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              alent to the [1m-d[0m [1mrecurse[0m option.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K         [1m--include=[0mPATTERN
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Recurse in directories only searching file matching [4mPATTERN.[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K         [1m--exclude=[0mPATTERN
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Recurse in directories skip file matching [4mPATTERN.[24m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-s[0m, [1m--no-messages[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Suppress  error  messages about nonexistent or unreadable files.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Portability note: unlike GNU [1mgrep[0m, traditional [1mgrep[0m did not con-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              form to POSIX.2, because traditional [1mgrep[0m lacked a [1m-q[0m option and
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              its [1m-s[0m option behaved like GNU [1mgrep[0m’s [1m-q[0m option.  Shell  scripts
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              intended to be portable to traditional [1mgrep[0m should avoid both [1m-q[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              and [1m-s[0m and should redirect output to /dev/null instead.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-U[0m, [1m--binary[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Treat the file(s) as binary.  By default, under MS-DOS  and  MS-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Windows,  [1mgrep[0m  guesses the file type by looking at the contents
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              of the first 32KB read from the file.  If [1mgrep[0m decides the  file
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              is  a  text  file, it strips the CR characters from the original
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              file contents (to make regular expressions with  [1m^[0m  and  [1m$[0m  work
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              correctly).  Specifying [1m-U[0m overrules this guesswork, causing all
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              files to be read and passed to the matching mechanism  verbatim;
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              if  the  file is a text file with CR/LF pairs at the end of each
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              line, this will cause some regular expressions  to  fail.   This
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              option  has no effect on platforms other than MS-DOS and MS-Win-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              dows.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-u[0m, [1m--unix-byte-offsets[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Report Unix-style byte offsets.   This  switch  causes  [1mgrep[0m  to
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              report  byte  offsets  as if the file were Unix-style text file,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              i.e. with CR characters stripped off.  This will produce results
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              identical to running [1mgrep[0m on a Unix machine.  This option has no
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              effect unless [1m-b[0m option is also used; it has no effect on  plat-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              forms other than MS-DOS and MS-Windows.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-V[0m, [1m--version[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Print  the  version number of [1mgrep[0m to standard error.  This ver-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              sion number should be included in all bug reports (see below).
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-v[0m, [1m--invert-match[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Invert the sense of matching, to select non-matching lines.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-w[0m, [1m--word-regexp[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Select only those  lines  containing  matches  that  form  whole
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              words.   The  test is that the matching substring must either be
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              at the beginning of the line, or preceded  by  a  non-word  con-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              stituent  character.  Similarly, it must be either at the end of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              the line or followed by a non-word constituent character.  Word-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              constituent  characters are letters, digits, and the underscore.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-x[0m, [1m--line-regexp[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Select only those matches that exactly match the whole line.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-y[0m     Obsolete synonym for [1m-i[0m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-Z[0m, [1m--null[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              Output a zero byte (the ASCII  [1mNUL[0m  character)  instead  of  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              character  that normally follows a file name.  For example, [1mgrep[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1m-lZ[0m outputs a zero byte after each  file  name  instead  of  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              usual  newline.   This option makes the output unambiguous, even
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              in the presence of file names containing unusual characters like
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              newlines.   This  option  can  be  used  with commands like [1mfind[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              [1m-print0[0m, [1mperl[0m [1m-0[0m, [1msort[0m [1m-z[0m, and [1mxargs[0m  [1m-0[0m  to  process  arbitrary
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              file names, even those that contain newline characters.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K[1mREGULAR[0m [1mEXPRESSIONS[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       A  regular  expression  is  a  pattern that describes a set of strings.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Regular expressions are constructed analogously to  arithmetic  expres-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       sions, by using various operators to combine smaller expressions.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1mGrep[0m  understands  two different versions of regular expression syntax:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       “basic” and “extended.”  In GNU [1mgrep[0m, there is no difference in  avail-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       able  functionality  using  either  syntax.   In other implementations,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       basic regular expressions are less powerful.  The following description
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       applies  to extended regular expressions; differences for basic regular
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       expressions are summarized afterwards.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       The fundamental building blocks are the regular expressions that  match
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       a single character.  Most characters, including all letters and digits,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       are regular expressions that match themselves.  Any metacharacter  with
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       special meaning may be quoted by preceding it with a backslash.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       A  [4mbracket[24m  [4mexpression[24m is a list of characters enclosed by [1m[[0m and [1m][0m.  It
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       matches any single character in that list; if the  first  character  of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the  list is the caret [1m^[0m then it matches any character [4mnot[24m in the list.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       For example, the regular expression  [1m[0123456789][0m  matches  any  single
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       digit.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Within a bracket expression, a [4mrange[24m [4mexpression[24m consists of two charac-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       ters separated by a hyphen.  It matches any single character that sorts
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       between  the  two  characters,  inclusive, using the locale’s collating
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       sequence and character set.  For example,  in  the  default  C  locale,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m[a-d][0m is equivalent to [1m[abcd][0m.  Many locales sort characters in dictio-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       nary order, and in these locales [1m[a-d][0m is typically not  equivalent  to
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m[abcd][0m;  it  might  be equivalent to [1m[aBbCcDd][0m, for example.  To obtain
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       the traditional interpretation of bracket expressions, you can use  the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       C locale by setting the [1mLC_ALL[0m environment variable to the value [1mC[0m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Finally,  certain  named  classes  of  characters are predefined within
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       bracket expressions, as follows.  Their names are self explanatory, and
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       they   are   [1m[:alnum:][0m,  [1m[:alpha:][0m,  [1m[:cntrl:][0m,  [1m[:digit:][0m,  [1m[:graph:][0m,
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m[:lower:][0m, [1m[:print:][0m, [1m[:punct:][0m, [1m[:space:][0m, [1m[:upper:][0m, and  [1m[:xdigit:].[0m
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       For  example,  [1m[[:alnum:]][0m  means  [1m[0-9A-Za-z][0m,  except the latter form
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       depends upon the C locale and the ASCII character encoding, whereas the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       former  is  independent  of  locale  and character set.  (Note that the
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       brackets in these class names are part of the symbolic names, and  must
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       be  included  in addition to the brackets delimiting the bracket list.)
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Most metacharacters  lose  their  special  meaning  inside  lists.   To
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       include  a literal [1m][0m place it first in the list.  Similarly, to include
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       a literal [1m^[0m place it anywhere but first.  Finally, to include a literal
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m-[0m place it last.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       The period [1m.[0m  matches any single character.  The symbol [1m\w[0m is a synonym
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       for [1m[[:alnum:]][0m and [1m\W[0m is a synonym for [1m[^[:alnum]][0m.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       The caret [1m^[0m and the dollar sign [1m$[0m are metacharacters that  respectively
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       match the empty string at the beginning and end of a line.  The symbols
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m\<[0m and [1m\>[0m respectively match the empty string at the beginning and  end
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       of  a  word.   The  symbol [1m\b[0m matches the empty string at the edge of a
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       word, and [1m\B[0m matches the empty string provided it’s [4mnot[24m at the edge  of
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       a word.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       A regular expression may be followed by one of several repetition oper-
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       ators:
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m?[0m      The preceding item is optional and matched at most once.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m*[0m      The preceding item will be matched zero or more times.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m+[0m      The preceding item will be matched one or more times.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m{[0m[4mn[24m[1m}[0m    The preceding item is matched exactly [4mn[24m times.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m{[0m[4mn[24m[1m,}[0m   The preceding item is matched [4mn[24m or more times.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       [1m{[0m[4mn[24m[1m,[0m[4mm[24m[1m}[0m  The preceding item is matched at least [4mn[24m  times,  but  not  more
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K              than [4mm[24m times.
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K
+[24;1H[K:[24;1H[K [KESCESC[KOO[KBB[24;1H[24;1H[K       Two  regular  expressions  may  be  concatenated; the resulting regular
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;student@localhost:~[student@localhost ~]$ man egrepcut -f 1,4 Ch10S1F1 | egrep "$[2-9][0-9]"[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | eg[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egr[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egre[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep [1P$[2-9][0-9]"[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep $[1P[2-9][0-9]""[2-9][0-9]"
+1425	14.25
+4321	21.11
+6781	16.77
+1451	21.77
+2277	18.77
+]0;student@localhost:~[student@localhost ~]$ cut -f 1,4 Ch10S1F1 | egrep "[2-9][0-9]"[4h3[4l[4h,[4l[student@localhost ~]$ cut -f 1,3,4[student@localhost ~]$ cut -f 1,3,4 [student@localhost ~]$ cut -f 1,3,4 C[student@localhost ~]$ cut -f 1,3,4 Ch[student@localhost ~]$ cut -f 1,3,4 Ch1[student@localhost ~]$ cut -f 1,3,4 Ch10[student@localhost ~]$ cut -f 1,3,4 Ch10S[student@localhost ~]$ cut -f 1,3,4 Ch10S1[student@localhost ~]$ cut -f 1,3,4 Ch10S1F[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 |[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | e[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | eg[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egr[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egre[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9][student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]"23[K[K
+1425	18	14.25
+4321	22	21.11
+6781	44	16.77
+1451	36	21.77
+2277	16	18.77
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Mon 08 May 2006 08:49:41 AM EDT
+Script started on Mon 08 May 2006 04:20:42 PM EDT
+]0;student@localhost:~[student@localhost ~]$ script Stevenson.10.II.txt-a Stevenson.10.I.txt[student@localhost ~]$ man cp[Kvi Ch10S2F1[4hcat[4l >[student@localhost ~]$ cat > Ch10S2F1ut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]"[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]"[student@localhost ~]$ cut -f 1,3,4 [student@localhost ~]$ cut -f 1,3,4 C[student@localhost ~]$ cut -f 1,3,4 Ch[student@localhost ~]$ cut -f 1,3,4 Ch1[student@localhost ~]$ cut -f 1,3,4 Ch10[student@localhost ~]$ cut -f 1,3,4 Ch10S[student@localhost ~]$ cut -f 1,3,4 Ch10S1[student@localhost ~]$ cut -f 1,3,4 Ch10S1F[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 |[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | e[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | eg[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egr[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egre[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9][student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]"[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9$]"[1P]"[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$"[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$"
+1425	18	14.25
+6781	44	16.77
+1451	36	21.77
+2277	16	18.77
+]0;student@localhost:~[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$"[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | e[student@localhost ~]$ cut -f 1,3,4 Ch1[student@localhost ~]$ cut -f 1,3,4 Ch10[student@localhost ~]$ cut -f 1,3,4 Ch10S[student@localhost ~]$ cut -f 1,3,4 Ch10S1[student@localhost ~]$ cut -f 1,3,4 Ch10S1F[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 |[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | e[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | eg[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egr[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egre[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9][student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f 1,2[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$"[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" |[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | c[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cu[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f 1[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f 1,[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f 1,2  ch[K[KCh10S1F1
+1425	Juan
+4321	George
+6781	Anne
+1451	Ben
+2277	Tuan
+]0;student@localhost:~[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f 1,2 CCh10S1F1[A[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f 1,2[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9][student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$"[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" |[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | c[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cu[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" |[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | c[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cu[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f 1[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f 1,[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f 1,2
+CChCh1Ch10Ch10SCh10S1Ch10S1FCh10S1F1[K[K[K[K[K[K[K[K[A[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f 1,2[K
+[K[A[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f 1,2
+1425	18
+6781	44
+1451	36
+2277	16
+]0;student@localhost:~[student@localhost ~]$ ls Ch10S1F1
+[00m[00mCh10S1F1[00m
+[m]0;student@localhost:~[student@localhost ~]$ cat Ch10S1F2[K1
+1425	Juan	18	14.25
+4321	George	22	21.11
+6781	Anne	44	16.77
+1451	Ben	36	21.77
+2277	Tuan	16	18.77
+]0;student@localhost:~[student@localhost ~]$ cat Ch10S1F1[1Pls[student@localhost ~]$ ls Ch10S1F1cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]$" | cut -f 1,2[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9].$" | cut -f 1,2 [A[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]..$" | cut -f 1,22[A[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$" | cut -f 1,2[A[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$"[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$" [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$" |[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$" | [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$" | c[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$" | cu[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$" | cut[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$" | cut [student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$" | cut -[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$" | cut -f[student@localhost ~]$ cut -f 1,3,4 Ch10S1F1 | egrep "[2-9][0-9]...$" | cut -f 
+,,2
+4321	22
+1451	36
+]0;student@localhost:~[student@localhost ~]$ cut [K[K[K[Kegrep "[0-[K][0-9].....$" Ch10S1F1 | cut -f 1,2,4
+]0;student@localhost:~[student@localhost ~]$ exit
+
+Script done on Mon 08 May 2006 04:26:07 PM EDT

@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName cpsc375Students
+AuthUserFile /home/webusers/obie/cpsc375/HW/.htpasswd
+Order deny,allow
+require valid-user

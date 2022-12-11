@@ -1,0 +1,13 @@
+-- Pass 2 (020505) e option  --
+INPUT VALUES FOR GRAPH:
+A blank line terminates input
+TAIL,HEAD,WEIGHT,
+SCALAR OPERATIONS 171
+PARALLEL OPERATIONS 3771
+DUMP OF ASSOCIATION RESULT FOLLOWS:
+ TAIL,HEAD,WEIGHT,
+   1     8     4  
+   8     9     6  
+   9    10     2  
+  10    11     4  
+STOP quadruple detected. 

@@ -1,0 +1,30 @@
+#/bin/bash
+#Script: rfbackup
+if (( $#  != 2 ))
+	then
+		echo 'This script requires 2 arguments'
+	exit
+	fi
+if [[ ! -f $1 ]]
+	then
+        	echo "1st argument must be a valid file"
+	exit
+	fi
+
+if [[ ! -d $2 ]]
+	then
+        	echo "2nd argument must be a directory"
+	exit
+	fi
+
+cat $1 | while read file
+	do 
+if [[ -f $file ]]
+	then
+		cp $file $2/$file.bak
+		echo "$file is backed up in $2"
+	fi
+done
+	
+
+

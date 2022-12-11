@@ -1,0 +1,64 @@
+Script started on Tue 25 Apr 2006 07:48:14 AM EDT
+]0;Student@localhost:~[Student@localhost ~]$ echo[K[K[K[Kecho 
+$SHELL
+/bin/bash
+]0;Student@localhost:~[Student@localhost ~]$ cd etc[K[K[K/etc
+]0;Student@localhost:/etc[Student@localhost etc]$ vi paw[Ksswd
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"passwd" 
+[readonly] 34L, 1553C[1;1Hoperator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+gdm:x:42:42::/var/gdm:/sbin/nologin
+Student:x:500:500:Computer Science 
+Student:/home/Student:/bin/bash[24;63H34,1[10CBot[23;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h
+[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;Student@localhost:/etc[Student@localhost 
+etc]$ p[Kecho $0
+bash
+]0;Student@localhost:/etc[Student@localhost etc]$ echo yes it is the 
+c[Ksame
+yes it is the same
+]0;Student@localhost:/etc[Student@localhost etc]$ csh
+[Student@localhost /etc]$ echo $0
+csh
+[Student@localhost /etc]$ no[K[Kecho no it is nt[Kopt[K[Kt the 
+same
+no it is not the same
+[Student@localhost /etc]$ bach[K[Ksh
+]0;Student@localhost:/etc[Student@localhost etc]$ echo $0
+bash
+]0;Student@localhost:/etc[Student@localhost etc]$ echo yues 
+[K[K[K[Kes it is the same
+yes it is the same
+]0;Student@localhost:/etc[Student@localhost etc]$ echo no it is different 
+that n[Kthe [K[K[K[K[K[Km [K[Kj [K[Kn the previous
+no it is different than the previous
+]0;Student@localhost:/etc[Student@localhost etc]$ exit
+exit
+[Student@localhost /etc]$ echo [K[K[K[Kexit
+exit
+]0;Student@localhost:/etc[Student@localhost etc]$ echo $0
+bash
+]0;Student@localhost:/etc[Student@localhost etc]$ echo yes it is the same
+yes it is the same
+]0;Student@localhost:/etc[Student@localhost etc]$ exit
+
+Script done on Tue 25 Apr 2006 07:51:41 AM EDT
+

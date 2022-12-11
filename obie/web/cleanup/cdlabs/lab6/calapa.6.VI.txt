@@ -1,0 +1,93 @@
+Script started on Thu 27 Apr 2006 05:46:20 PM EDT
+]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6s6f1
+CIS	15	1	45
+CIS 54 1 20
+BUS	^[[D       ]0;Student@localhost:~[Student@localhost ~]$ cat > Ch6s6f1
+CIS  	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67]0;Student@localhost:~[Student@localhost ~]$ cat Ch6s6f1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67]0;Student@localhost:~[Student@localhost ~]$ vi Ch6s6f1
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"Ch6s6f1" [noeol] 9L, 106C[1;1HCIS     15      1[7C45
+CIS     54      1[7C20
+BUS     34      2[7C20
+ENG     11      2[7C89
+CIS     45      1[7C38
+MTH     35      1[7C56
+MTH     35      2[7C41
+PE      17      2[7C25
+CIS     54      2[7C67
+[1m[34m~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;63H9[9;1H[?12l[?25h[?25l[24;65H2[9;2H[?12l[?25h[?25l[24;65H3[9;3H[?12l[?25h[?25l[24;65H4[9;4H[?12l[?25h[?25l[24;65H5-9[9;9H[?12l[?25h[?25l[24;65H6-10[9;10H[?12l[?25h[?25l[24;65H7-11[9;11H[?12l[?25h[?25l[24;65H8-17[9;17H[?12l[?25h[?25l[24;65H9-18[9;18H[?12l[?25h[?25l[24;65H10-25[9;25H[?12l[?25h[?25l[24;66H1-26[9;26H[?12l[?25h[?25l[24;66H2-27[9;27H[?12l[?25h[24;1H[K[9;26H[?25l[24;63H9,11-26[7CAll[9;26H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Ch6s6f1" 9L, 107C written
+[?1l>[?12l[?25h[?1049l]0;Student@localhost:~[Student@localhost ~]$ vi Ch6s6f1[4hc[4lat[Student@localhost ~]$ cat Ch6s6f1
+CIS	15	1	45
+CIS	54	1	20
+BUS	34	2	20
+ENG	11	2	89
+CIS	45	1	38
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 +1 -n +2 -n V[KCh6s6f1
+ENG	11	2	89
+CIS	15	1	45
+PE	17	2	25
+BUS	34	2	20
+MTH	35	1	56
+MTH	35	2	41
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -1 Ch6s6f1
+BUS	34	2	20
+CIS	15	1	45
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+ENG	11	2	89
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ sort +1 -2 -n Ch6s6f1
+ENG	11	2	89
+CIS	15	1	45
+PE	17	2	25
+BUS	34	2	20
+MTH	35	1	56
+MTH	35	2	41
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+]0;Student@localhost:~[Student@localhost ~]$ sort[K[K[K[Kcat  sort[K[K[K[K[Ksort+[K +0 -1 Ch6s6f1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcp Ch6s6f1 poo
+]0;Student@localhost:~[Student@localhost ~]$ cat sort +0 -1 (+1[1P (+1[1P (+1[1P(+1[Student@localhost ~]$ cat sort +0 [Student@localhost ~]$ cat sort +0 ([Student@localhost ~]$ cat sort +0 (+[Student@localhost ~]$ cat sort +0 (+1 -3 -n) Ch6s6f1
+bash: syntax error near unexpected token `('
+]0;Student@localhost:~[Student@localhost ~]$ cat sort +0 (+1 -3 -n) Ch6s6f1[1P[1P[1P[1P[1P[1P[1P Ch6s6f1[1P[1P[4h-[4l
+cat: invalid option -- 1
+Try `cat --help' for more information.
+]0;Student@localhost:~[Student@localhost ~]$ sort +0 -1 +2[K1n -2 Ch6s6f1
+BUS	34	2	20
+CIS	15	1	45
+CIS	45	1	38
+CIS	54	1	20
+CIS	54	2	67
+ENG	11	2	89
+MTH	35	1	56
+MTH	35	2	41
+PE	17	2	25
+]0;Student@localhost:~[Student@localhost ~]$ exit
+exit
+
+Script done on Thu 27 Apr 2006 06:31:02 PM EDT

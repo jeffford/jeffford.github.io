@@ -1,0 +1,970 @@
+From: <Saved by Windows Internet Explorer 7>
+Subject: Writing Systems and Networking Articles
+Date: Fri, 15 Aug 2008 01:21:09 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cs.columbia.edu/~hgs/etc/writing-style.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3350
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Writing Systems and Networking Articles</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META content=3D"Henning Schulzrinne" name=3Dauthor>
+<META content=3D"MSHTML 6.00.6000.16705" name=3DGENERATOR></HEAD>
+<BODY bgColor=3Dwhite>
+<H1>Writing Technical Articles</H1>
+<P>The notes below apply to technical papers in computer science and =
+electrical=20
+engineering, with emphasis on papers in systems and networks.=20
+<P>Read Strunk and White, <I><A=20
+href=3D"http://www.bartleby.com/141/index.html">Elements of =
+Style</A></I>. Again.=20
+<P>Give the paper to somebody else to read. If you can, find two people: =
+one=20
+person familiar with the technical matter, another only generally =
+familiar with=20
+the area.=20
+<P>Papers can be divided roughly into two categories, namely original =
+research=20
+papers and survey papers. There are papers that combine the two =
+elements, but=20
+most publication venues either only accept one or the other type or =
+require the=20
+author to identify whether the paper should be evaluated as a research=20
+contribution or a survey paper. (Most research papers contain a "related =
+work"=20
+section that can be considered a survey, but it is usually brief =
+compared to the=20
+rest of the paper and only addresses a much narrower slice of the =
+field.)=20
+<H2>Research Papers</H2>
+<P>A good research paper has a clear statement of the problem the paper =
+is=20
+addressing, the proposed solution(s), and results achieved. It describes =
+clearly=20
+what has been done before on the problem, and what is new.=20
+<P>The goal of a paper is to describe novel technical results. There are =
+four=20
+types of technical results:=20
+<OL>
+  <LI>An algorithm;=20
+  <LI>A system construct: such as hardware design, software system, =
+protocol,=20
+  etc.;=20
+  <BLOCKQUOTE>One goal of the paper is to ensure that the next person =
+who=20
+    designs a system like yours doesn't make the same mistakes and takes =
+
+    advantage of some of your best solutions. So make sure that the hard =
+
+    problems (and their solutions) are discussed and the non-obvious =
+mistakes=20
+    (and how to avoid them) are discussed. (Craig Partridge) =
+</BLOCKQUOTE>
+  <LI>A performance evaluation: obtained through analyses, simulation or =
+
+  measurements;=20
+  <LI>A theory: consisting of a collection of theorems. </LI></OL>A =
+paper should=20
+focus on=20
+<UL>
+  <LI>describing the results in sufficient details to establish their =
+validity;=20
+  <LI>identifying the novel aspects of the results, i.e., what new =
+knowledge is=20
+  reported and what makes it non-obvious;=20
+  <LI>identifying the significance of the results: what improvements and =
+impact=20
+  do they suggest. </LI></UL>
+<H2>Paper Structure</H2>
+<UL>
+  <LI>Typical outline of a paper is:=20
+  <UL>
+    <LI>Abstract, typically not more than 100-150 words;=20
+    <LI><A=20
+    =
+href=3D"http://www.cs.columbia.edu/~hgs/etc/intro-style.html">Introductio=
+n</A>=20
+    (brief!): introduce problem, outline solution; the statement of the =
+problem=20
+    should include a clear statement why the problem is important (or=20
+    interesting).=20
+    <LI>Related Work (or before summary). Hint: In the case of a =
+conference,=20
+    make sure to cite the work of the PC co-chairs and as many other PC =
+members=20
+    as are remotely plausible, as well as from anything relevant from =
+the=20
+    previous two proceedings. In the case of a journal or magazine, cite =
+
+    anything relevant from last 2-3 years or so volumes.=20
+    <LI>Outline of the rest of the paper: "The remainder of the paper is =
+
+    organized as follows. In Section 2, we introduce ..Section 3 =
+describes ...=20
+    Finally, we describe future work in Section 5." [Note that Section =
+is=20
+    capitalized. Also, vary your expression between "section" being the =
+subject=20
+    of the sentence, as in "Section 2 discusses ..." and "In Section, we =
+discuss=20
+    ...".]=20
+    <LI>Body of paper=20
+    <UL>
+      <LI>problem=20
+      <LI>approach, architecture=20
+      <LI>results </LI></UL>
+    <P>The body should contain sufficient motivation, with at least one =
+example=20
+    scenario, preferably two, with illustrating figures, followed by a =
+crisp=20
+    generic problem statement model, i.e., functionality, particularly=20
+    emphasizing "new" functionality. The paper may or may not include=20
+    formalisms. General evaluations of your algorithm or architecture, =
+e.g.,=20
+    material proving that the algorithm is O(log N), go here, not in the =
+
+    evaluation section.=20
+    <P><I>Architecture</I> of proposed system(s) to achieve this model =
+should be=20
+    more generic than your own peculiar implementation. Always include =
+at least=20
+    one figure.=20
+    <P><I>Realization</I>: contains actual implementation details when=20
+    implementing architecture isn't totally straightforward. Mention =
+briefly=20
+    implementation language, platform, location, dependencies on other =
+packages=20
+    and minimum resource usage if pertinent.=20
+    <P><I>Evaluation</I>: How does it really work in practice? Provide =
+real or=20
+    simulated performance metrics, end-user studies, mention external =
+technology=20
+    adoptors, if any, etc. </P>
+    <LI>Related work, if not done at the beginning=20
+    <LI>Summary and Future Work=20
+    <UL>
+      <LI>often repeats the main result </LI></UL>
+    <LI>Acknowledgements=20
+    <LI>Bibliography=20
+    <LI>Appendix (to be cut first if forced to):=20
+    <UL>
+      <LI>detailed protocol descriptions=20
+      <LI>proofs with more than two lines=20
+      <LI>other low-level but important details =
+</LI></UL></LI></UL></LI></UL>
+<P>It is recommended that you write the approach and results sections =
+first,=20
+which go together. Then problem section, if it is separate from the=20
+introduction. Then the conclusions, then the intro. Write the intro last =
+since=20
+it glosses the conclusions in one of the last paragraphs. Finally, write =
+the=20
+abstract. Last, give your paper a title.=20
+<H2>Title</H2>
+<UL>
+  <LI>Avoid all but the most readily understood abbreviations.=20
+  <LI>Avoid common phrases like "novel", "performance evaluation" and=20
+  "architecture", since almost every paper does a performance evaluation =
+of some=20
+  architecture and it better be novel. Unless somebody wants to see =
+10,000=20
+  Google results, nobody searches for these types of words.=20
+  <P>Use adjectives that describe the distinctive features of your work, =
+e.g.,=20
+  reliable, scalable, high-performance, robust, low-complexity, or =
+low-cost.=20
+  (There are obviously exceptions, e.g., when the performance evaluation =
+is the=20
+  core of the paper. Even in that case, something more specific is =
+preferable,=20
+  as in "Delay measurements of X" or "The quality of service for FedEx=20
+  deliveries".) </P>
+  <LI>If you need inspiration for a paper title, you can <A=20
+  =
+href=3D"http://www.cs.ucsd.edu/users/braghava/systems-topic-generator.htm=
+l">consult</A>=20
+  the <I>Automatic Systems Research Topic or Paper Title Generator</I>. =
+</LI></UL>
+<H2>Authors</H2>
+<LI>The IEEE policies (Section 6.4.1) used to state the following about=20
+authorship:=20
+<BLOCKQUOTE>The IEEE affirms that authorship credit must be reserved for =
+
+  individuals who have met each of the following conditions: 1) made a=20
+  significant intellectual contribution to the theoretical development, =
+system=20
+  or experimental design, prototype development, and/or the analysis and =
+
+  interpretation of data associated with the work contained in the =
+manuscript,=20
+  2) contributed to drafting the article or reviewing and/or revising it =
+for=20
+  intellectual content, and 3) approved the final version of the =
+manuscript,=20
+  including references. </BLOCKQUOTE>
+<P>This has now moved to the <A=20
+href=3D"http://www.ieee.org/portal/cms_docs_iportals/iportals/publication=
+s/PSPB/opsmanual.pdf">IEEE=20
+PSPB Operations Manual</A>, Section 8.2.1.=20
+<H2>Abstract</H2>
+<UL>
+  <LI>The abstract must <B>not</B> contain references, as it may be used =
+without=20
+  the main article. It is acceptable, although not common, to identify =
+work by=20
+  author, abbreviation or RFC number. (For example, "Our algorithm is =
+based upon=20
+  the work by Smith and Wesson.")=20
+  <LI>Avoid use of "in this paper" in the abstract. What other paper =
+would you=20
+  be talking about here?=20
+  <LI>Avoid general motivation in the abstract. You do not have to =
+justify the=20
+  importance of the Internet or explain what QoS is.=20
+  <LI>Highlight not just the problem, but also the principal results. =
+Many=20
+  people read abstracts and then decide whether to bother with the rest =
+of the=20
+  paper.=20
+  <LI>Since the abstract will be used by search engines, be sure that =
+terms that=20
+  identify your work are found there. In particular, the name of any =
+protocol or=20
+  system developed and the general area ("quality of service", "protocol =
+
+  verification", "service creation environment") should be contained in =
+the=20
+  abstract.=20
+  <LI>Avoid equations and math. Exceptions: Your paper proposes <I>E =3D =
+m c=20
+  <SUP>2</SUP></I>. </LI></UL>
+<H2>Introduction</H2>
+<UL>
+  <LI>Avoid stock and cliche phrases such as "recent advances in XYZ" or =
+
+  anything alluding to the growth of the Internet.=20
+  <LI>Be sure that the introduction lets the reader know what this paper =
+is=20
+  about, not just how important your general area of research is. =
+Readers won't=20
+  stick with you for three pages to find out what you are talking about. =
+
+  <LI>The introduction must motivate your work by pinpointing the =
+problem you=20
+  are addressing and then give an overview of your approach and/or =
+contributions=20
+  (and perhaps even a general description of your results). In this way, =
+the=20
+  intro sets up my expectations for the rest of your paper -- it =
+provides the=20
+  context, and a preview.=20
+  <LI>Repeating the abstract in the introduction is a waste of space.=20
+  <LI>Example bad introduction: <SMALL>
+  <BLOCKQUOTE>
+    <P>Here at the institute for computer research, me and my colleagues =
+have=20
+    created the SUPERGP system and have applied it to several toy =
+problems. We=20
+    had previously fumbled with earlier versions of SUPERGPSYSTEM for a =
+while.=20
+    This system allows the programmer to easily try lots of parameters, =
+and=20
+    problems, but incorporates a special constraint system for parameter =
+
+    settings and LISP S-expression parenthesis counting.=20
+    <P>The search space of GP is large and many things we are thinking =
+about=20
+    putting into the supergpsystem will make this space much more =
+colorful.=20
+  </P></BLOCKQUOTE></SMALL>
+  <LI>A pretty good introduction, drawn from Eric Siegel's class:=20
+  <BLOCKQUOTE>
+    <P>Many new domains for genetic programming require evolved programs =
+to be=20
+    executed for longer amounts of time. For example, it is beneficial =
+to give=20
+    evolved programs direct access to low-level data arrays, as in some=20
+    approaches to signal processing \cite{teller5}, and protein segment=20
+    classification \cite{handley,koza6}. This type of system =
+automatically=20
+    performs more problem-specific engineering than a system that =
+accesses=20
+    highly preprocessed data. However, evolved programs may require more =
+time to=20
+    execute, since they are solving a harder task.=20
+    <DL>
+      <DT><B>Previous or obvious approach</B>:=20
+      <DD>(Note that you can also have a related work section that gives =
+more=20
+      details about previous work.)) One way to control the execution =
+time of=20
+      evolved programs is to impose an absolute time limit. However, =
+this is too=20
+      constraining if some test cases require more processing time than =
+others.=20
+      To use computation time efficiently, evolved programs must take =
+extra time=20
+      when it is necessary to perform well, but also spend less time =
+whenever=20
+      possible.=20
+      <DT><B>Approach/solution/contribution</B>:=20
+      <DD>The first sentence of a paragraph like this should say what =
+the=20
+      contribution is. Also gloss the results.=20
+      <P>In this chapter, we introduce a method that gives evolved =
+programs the=20
+      incentive to strategically allocate computation time among fitness =
+cases.=20
+      Specifically, with an <I>aggregate computation time ceiling</I> =
+imposed=20
+      over a series of fitness cases, evolved programs dynamically =
+choose when=20
+      to stop processing each fitness case. We present experiments that =
+show=20
+      that programs evolved using this form of fitness take less time =
+per test=20
+      case on average, with minimal damage to domain performance. We =
+also=20
+      discuss the implications of such a time constraint, as well as its =
+
+      differences from other approaches to {\it multiobjective =
+problems}. The=20
+      dynamic use of resources other than computation time, e.g., memory =
+or=20
+      fuel, may also result from placing an aggregate limit over a =
+series of=20
+      fitness cases.=20
+      <P></P>
+      <DT><B>Overview:</B>=20
+      <DD>The following section surveys related work in both optimizing =
+the=20
+      execution time of evolved programs and evolution over =
+Turing-complete=20
+      representations. Next we introduce the game Tetris as a test =
+problem. This=20
+      is followed by a description of the aggregate computation time =
+ceiling,=20
+      and its application to Tetris in particular. We then present =
+experimental=20
+      results, discuss other current efforts with Tetris, and end with=20
+      conclusions and future work. </DD></DL></BLOCKQUOTE></LI></UL>
+<H2>Body of Paper</H2><A=20
+href=3D"http://www.cs.columbia.edu/~hgs/etc/writing-bugs.html">Hints and =
+common=20
+mistakes</A>=20
+<H2>Bibliography</H2>
+<UL>
+  <LI>Avoid use of <I>et al.</I> in a bibliography unless list is very =
+long=20
+  (five or more authors). The author subsumed into <I>et al.</I> may be =
+your=20
+  advisor or the reviewer... Note punctuation of <I>et al.</I>.=20
+  <LI>If writing about networks or multimedia, use the <A=20
+  href=3D"http://www.cs.columbia.edu/~hgs/netbib">network =
+bibliography</A>. All=20
+  entries not found there should be sent to me. A listing of =
+frequently-used=20
+  references for <A=20
+  href=3D"http://www.cs.columbia.edu/~hgs/netbib/std.html">networks</A> =
+is=20
+  available.=20
+  <LI>Internet drafts must be marked ``work in progress''. Make sure =
+that they=20
+  have been replaced by newer versions or RFCs. Any Internet Draft =
+reference=20
+  older than six months should automatically be suspicious since =
+Internet Drafts=20
+  expire after that time period.=20
+  <LI>Book citations include publication years, but no ISBN number.=20
+  <LI>It is now acceptable to <A=20
+  href=3D"http://www.cs.columbia.edu/~hgs/etc/urls.html">include =
+URLs</A> to=20
+  material, but it is probably bad form to include a URL pointing to the =
+
+  author's web page for papers published in IEEE and ACM publications, =
+given the=20
+  copyright situation. Use it for software and other non-library =
+material. Avoid=20
+  long URLs; it may be sufficient to point to the general page and let =
+the=20
+  reader find the material. General URLs are also less likely to change. =
+
+  <LI>Leave a space between first names and last name, i.e., "J. P. =
+Doe", not=20
+  "J.P.Doe".=20
+  <LI>References such as <PRE>John Doe, "Some paper on something", =
+technical report.
+</PRE>are useless. Cite the source, date and other identifying =
+information.=20
+  <LI>For conference papers, you MUST name the conference location, =
+month and=20
+  the full conference name, not just some abbreviation. Page numbers are =
+nice,=20
+  but optional. All of this information is readily available via the =
+IEEE or ACM=20
+  digital libraries.=20
+  <LI>Check if Internet drafts have been published as RFCs or if there's =
+a newer=20
+  version.=20
+  <LI>Having a citation <PRE>Jane Doe, "Some random paper", to be =
+published, 2003.
+</PRE>is useless, as the paper has presumably been published by now. =
+Google or=20
+  the ACM or IEEE digital libraries will help you find it. </LI></UL>
+<H2>Acknowledgements</H2>
+<UL>
+  <LI>Acknowledge your funding sources. Some sources have specific =
+wording=20
+  requirements and may prefer that the grant number is listed. The NSF =
+requires=20
+  text like "This work was supported by the National Science Foundation =
+under=20
+  grant EIA NN-NNNNN."=20
+  <LI>Generally, anonymous reviewers don't get acknowledged, unless they =
+really=20
+  provided an exceptional level of feedback or insight. Rather than "We =
+thank X=20
+  for helping us with Y", you might vary this as "X helped with Y.". =
+</LI></UL>
+<UL></UL>
+<H2>Reporting Numerical Results and Simulations</H2>
+<P>In all but extended abstracts, numerical results and simulations =
+should be=20
+reported in enough detail that the reader can duplicate the results. =
+This should=20
+include all parameters used, indications of the number of samples that=20
+contributed to the analysis and any initial conditions, if relevant.=20
+<P>When presenting simulation results, provide insight into the =
+statistical=20
+confidence. If at all possible, provide confidence intervals. If there's =
+a=20
+"strange" behavior in the graph (e.g., a dip, peak or change in slope), =
+this=20
+behavior either needs to be explained or reasons must be given why this =
+is=20
+simply due to statistical aberration. In the latter case, gathering more =
+samples=20
+is probably advised.=20
+<P>Figures should be chosen wisely. You can never lay out the whole =
+parameter=20
+space, so provide insight into which parameters are significant over =
+what range=20
+and which ones are less important. It's not very entertaining to present =
+lots of=20
+flat or linear lines.=20
+<P>The description of the graph should not just repeat the graphically =
+obvious=20
+such as "the delay rises with the load", but explain, for example, how =
+this=20
+increase relates to the load increase. Is it linear? Does it follow some =
+
+well-known other system behaviors such as standard queueing systems?=20
+<H2>LaTeX Considerations</H2>
+<UL>
+  <LI>There's no need to enclose numbers in $$ (math mode).=20
+  <LI>Use <TT>\cite{a,b,c}</TT>, not <TT>\cite{a} \cite{b} =
+\cite{c}</TT>.=20
+  <LI>Use the <TT>\usepackage{times}</TT> option for LaTeX2e - it comes =
+out much=20
+  nicer on printers with different resolutions. Plus, compared to cmr, =
+it=20
+  probably squeezes an extra 10% of text out of your conference =
+allotment.=20
+  <LI>Multi-letter subscripts are set in roman, not italics. For =
+example, <PRE>x_{\mathrm max}
+</PRE>
+  <LI>For uniformity, use the LaTeX2e graphics set, not the earlier =
+psfigure=20
+  set: <PRE>\usepackage{graphics}
+...
+\begin{figure}
+\resizebox{!}{0.5\textheight}{\includegraphics{foo.eps}}
+\caption{Some figure}
+\label{fig:figure}
+\end{figure}
+</PRE></LI></UL>
+<H2>Things to Avoid</H2>
+<DL>
+  <DT>Too much motivational material=20
+  <DD>Three reasons are enough -- and they should be described very =
+briefly.=20
+  <DT>Describing the obvious parts of the result=20
+  <DD>"Obvious" is defined as any result that a graduate of our program =
+would=20
+  suggest as a solution if you pose the problem that the result solves.=20
+  <DT>Describing unnecessary details=20
+  <DD>A detail is unnecessary, if its omission will not harm the =
+reader's=20
+  ability to understand the important novel aspects of the result.=20
+  <DT>Spelling errors=20
+  <DD>With the availability of spell checkers, there is no reason to =
+have=20
+  spelling errors in a manuscript. If you as the author didn't take the =
+time to=20
+  spell-check your paper, why should the editor or reviewer take the =
+time to=20
+  read it or trust that your diligence in technical matters is any =
+higher than=20
+  your diligence in presentation? Note, however, that spell checkers =
+don't catch=20
+  all common errors, in particular word duplication ("the the"). If in =
+doubt,=20
+  consult a dictionary such as the (on line) <A=20
+  href=3D"http://www.m-w.com/">Merriam Webster</A>.=20
+  <DT>Text in Arial:=20
+  <DD>Arial and other sans-serif fonts are fine for slides and posters, =
+but are=20
+  harder to read in continuous text. Use Times Roman or similar serif =
+fonts.=20
+  Unusual fonts are less likely to be available at the recipient and may =
+cause=20
+  printing or display problems. </DD></DL>
+<H2>Guidelines for Experimental Papers</H2>"Guidelines for Experimental =
+Papers"=20
+set forth for researchers submitting articles to the journal, <I>Machine =
+
+Learning</I>.=20
+<OL>
+  <LI>Papers that introduce a new learning "setting" or type of =
+application=20
+  should justify the relevance and importance of this setting, for =
+example,=20
+  based on its utility in applications, its appropriateness as a model =
+of human=20
+  or animal learning, or its importance in addressing fundamental =
+questions in=20
+  machine learning.=20
+  <LI>Papers describing a new algorithm should be clear, precise, and =
+written in=20
+  a way that allows the reader to compare the algorithm to other =
+algorithms. For=20
+  example, most learning algorithms can be viewed as optimizing (at =
+least=20
+  approximately) some measure of performance. A good way to describe a =
+new=20
+  algorithm is to make this performance measure explicit. Another useful =
+way of=20
+  describing an algorithm is to define the space of hypotheses that it =
+searches=20
+  when optimizing the performance measure.=20
+  <LI>Papers introducing a new algorithm should conduct experiments =
+comparing it=20
+  to state-of-the-art algorithms for the same or similar problems. Where =
+
+  possible, performance should also be compared against an absolute =
+standard of=20
+  ideal performance. Performance should also be compared against a naive =
+
+  standard (e.g., random guessing, guessing the most common class, etc.) =
+as=20
+  well. Unusual performance criteria should be carefully defined and =
+justified.=20
+  <LI>All experiments must include measures of uncertainty of the =
+conclusions.=20
+  These typically take the form of confidence intervals, statistical =
+tests, or=20
+  estimates of standard error. Proper experimental methodology should be =
+
+  employed. For example, if "test sets" are used to measure =
+generalization=20
+  performance, no information from the test set should be available to =
+the=20
+  learning process.=20
+  <LI>Descriptions of the software and data sufficient to replicate the=20
+  experiments must be included in the paper. Once the paper has appeared =
+in=20
+  Machine Learning, authors are strongly urged to make the data used in=20
+  experiments available to other scientists wishing to replicate the=20
+  experiments. An excellent way to achieve this is to deposit the data =
+sets at=20
+  the Irvine Repository of Machine Learning Databases. Another good =
+option is to=20
+  add your data sets to the DELVE benchmark collection at the University =
+of=20
+  Toronto. For proprietary data sets, authors are encouraged to develop=20
+  synthetic data sets having the same statistical properties. These =
+synthetic=20
+  data sets can then be made freely available.=20
+  <LI>Conclusions drawn from a series of experimental runs should be =
+clearly=20
+  stated. Graphical display of experimental data can be very effective.=20
+  Supporting tables of exact numerical results from experiments should =
+be=20
+  provided in an appendix.=20
+  <LI>Limitations of the algorithm should be described in detail. =
+Interesting=20
+  cases where an algorithm fails are important in clarifying the range =
+of=20
+  applicability of an algorithm. </LI></OL>
+<H2>Other Hints and Notes</H2>
+<P>From Bill Stewart (Slashdot, May 7, 2006), edited=20
+<BLOCKQUOTE>
+  <UL>
+    <LI>Write like a newspaper reporter, not a grad student.=20
+    <LI>Your objective is clear communication to the reader, not beauty =
+or=20
+    eruditeness or narration of your discoveries and reasoning process. =
+Don't=20
+    waste their time, or at least don't waste it up front.=20
+    <LI>Hit the important conclusions in the first few sentences so your =
+reader=20
+    will read them. If you'd like to wrap up with them at the end of =
+your memo,=20
+    that's fine too, in case anybody's still reading by then, but =
+conclusions=20
+    come first.=20
+    <LI>If you're trying to express something complex, simplify your =
+writing so=20
+    it doesn't get in the way. For something simple, 10th grade language =
+
+    structures will do, but if it's really hairy stuff, back down to 8th =
+grade=20
+    or so.=20
+    <LI>Think about what your audience knows and doesn't know, and what =
+they=20
+    want and don't want. Express things in terms of what they know and =
+want, not=20
+    what you know. </LI></UL></BLOCKQUOTE>
+<P>From MarkusQ, Slashdot, May 7, 2006=20
+<BLOCKQUOTE>
+  <UL>
+    <LI><B>Top down design</B> Starting with an outline and working out =
+the=20
+    details is the normal way of tackling an engineering problem.=20
+    <LI><B>Checking your facts</B> Engineers should be used to checking =
+anything=20
+    that is even remotely doubtful before committing to it. So should =
+writers.=20
+    <LI><B>Failure mode analysis</B> For each sentence ask yourself, =
+could it be=20
+    misread? How? What is the best way to fix it?=20
+    <LI><B>Dependency analysis</B> Are the ideas presented in an order =
+that=20
+    assures that each point can be understood on the basis of the =
+readers=20
+    assumed knowledge and the information provided by preceding points?=20
+    <LI><B>Optimization</B> Are there any unnecessary parts? Does the =
+structure=20
+    require the reader to remember to many details at once, before =
+linking them?=20
+
+    <LI><B>Structured testing</B> If you read what you have written =
+assuming=20
+    only the knowledge that the reader can be expected to have, does =
+each part=20
+    work the way you intended? If you read it aloud, does it sound the =
+way you=20
+    intended? </LI></UL></BLOCKQUOTE>
+<H2>The Conference Review Process</H2>
+<P>It is hard to generalize the review process for conferences, but most =
+
+reputable conferences operate according to these basic rules:=20
+<OL>
+  <LI>The paper is submitted to the technical program chair(s). Many =
+current=20
+  conferences require electronic submission, in either PostScript or PDF =
+
+  formats, occasionally in Word.=20
+  <LI>The technical program chair assigns the paper to one or more =
+technical=20
+  program committee members, hopefully experts in their field. The =
+identity of=20
+  this TPC member is kept secret.=20
+  <LI>The TPC member usually provides a review, but may also be asked to =
+find=20
+  between one and three reviewers who are not members of the TPC. They =
+may be=20
+  colleagues of the reviewer at the same institution, his or her =
+graduate=20
+  students or somebody listed in the references. The graduate student =
+reviews=20
+  can be quite helpful, since these reviewers often provide more =
+detailed=20
+  criticism rather than blanket dismissal. Any good conference will =
+strive to=20
+  provide at least three reviews, however, since conferences operate =
+under tight=20
+  deadlines and not all reviewers deliver as promised, it is not =
+uncommon that=20
+  you receive only two reviews.=20
+  <LI>In some conferences, there is an on-line discussion of papers =
+among the=20
+  reviewers for a particular paper. Usually, a lead TPC member drives =
+the=20
+  discussion and then recommends the paper for acceptance, rejection or=20
+  discussion at the TPC meeting.=20
+  <LI>The technical program chair then collects the reviews and sorts =
+the papers=20
+  according to their average review scores.=20
+  <LI>The TPC (or, rather, the subset that can make the meeting), then =
+meets in=20
+  person or by phone conference. Usually, the bottom third and the top =
+third are=20
+  rejected and accepted, respectively, without (much) further =
+discussion. The=20
+  papers discussed are those in the middle of the range, or where a TPC =
+member=20
+  feels strongly that the paper ended up in the wrong bin, or where the =
+review=20
+  scores differ significantly. Papers that only received two reviews are =
+also=20
+  often discussed, maybe with a quick review by one of the TPC members =
+as=20
+  additional background. The rigor of the TPC meeting depends on the =
+size and=20
+  reputation of the conference. In some workshops and conferences, the =
+TPC=20
+  chairs may well make the final decision themselves, without involving =
+the=20
+  whole TPC. </LI></OL>
+<H2>Other References</H2>
+<UL>
+  <LI><A=20
+  =
+href=3D"http://research.microsoft.com/~simonpj/papers/giving-a-talk/givin=
+g-a-talk.htm">How=20
+  to give a good research talk</A> and how to give a good research paper =
+
+  <LI><A=20
+  =
+href=3D"http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-=
+reading.pdf"><I>How=20
+  to read a paper</I></A>, CCR, July 2007.=20
+  <LI><A=20
+  =
+href=3D"http://www-net.cs.umass.edu/kurose/talks/top_10_tips_for_writing_=
+a_paper.ppt">Top=20
+  10 tips for writing a paper</A>, by Jim Kurose=20
+  <LI><A href=3D"http://www.bartleby.com/">Bartleby</A> has =
+dictionaries,=20
+  grammars, an encyclopedia, and <I>Columbia Guide To Standard American=20
+  English</I>=20
+  <LI><A href=3D"http://www.thefreedictionary.com/">The Free =
+Dictionary</A>, also=20
+  <A href=3D"http://www.webster-dictionary.org/">an online =
+dictionary</A>=20
+  <LI><A href=3D"http://www.dictionarist.com/">Dictionarist</A>: =
+multi-lingual=20
+  dictionary=20
+  <LI><A=20
+  =
+href=3D"http://www.computer.org/portal/pages/ieeecs/publications/author/s=
+tyle/index.html">IEEE=20
+  <I>IEEE Computer Society</I> style guide, including hints on how to =
+reference=20
+  Internet drafts and RFCs=20
+  <LI><A href=3D"http://www.sc.edu/webpresence/editorial_guide/">USC =
+editorial=20
+  style guide</A>=20
+  <LI><A href=3D"http://istpub.berkeley.edu:4201/style/">Berkeley =
+Information=20
+  Systems and Technology Publications</A> style guide=20
+  <LI><A =
+href=3D"http://andromeda.rutgers.edu/~jlynch/Writing/index.html">Guide =
+to=20
+  Grammar and Style</A>, by J. Lynch=20
+  <LI><A=20
+  =
+href=3D"http://alt-usage-english.org/fast_faq.shtml">alt.usage.english</A=
+> FAQ,=20
+  addressing common grammar questions=20
+  <LI><A=20
+  =
+href=3D"http://www.uiowa.edu/~c030162/Common/Writing_Tips/tips.html">Writ=
+ing=20
+  Tips</A>=20
+  <LI><A href=3D"http://ucsub.colorado.edu/~robertme/paperkey.htm">Key =
+to common=20
+  comments made on your papers</A>=20
+  <LI><A =
+href=3D"http://contentselect.pearsoned.com/unit10.html">Drafting the=20
+  Paper in an Academic Style</A>=20
+  <LI><A=20
+  =
+href=3D"http://www-relg-studies.scu.edu/facstaff/murphy/courses/style-she=
+et.htm">Religious=20
+  Studies</A> style sheet=20
+  <LI><A=20
+  =
+href=3D"http://www.cisco.com/univercd/cc/td/doc/product/wrtrres/stylegd/0=
+1style.htm">Cisco</A>=20
+  style guide=20
+  <LI>Oded Goldreich wrote an essay entitled <A=20
+  href=3D"http://www.wisdom.weizmann.ac.il/~oded/writing.html">"How not =
+to write a=20
+  paper"</A>, with recommendations on style and organization.=20
+  <LI>Don Knuth has online the TeX source of a book on <A=20
+  =
+href=3D"http://www-cs-faculty.stanford.edu/~knuth/klr.html">"Mathematical=
+=20
+  Writing"</A> (also useful for Computer Science).=20
+  <LI><A=20
+  =
+href=3D"http://www.cs.ucr.edu/~michalis/TECHWRITING/structure.html"><I>Th=
+e=20
+  structure of paper/report in Systems</I></A>, by Michalis Faloutsos, =
+U.C.=20
+  Riverside=20
+  <LI><A=20
+  =
+href=3D"http://www.amazon.com/exec/obidos/ASIN/0205191584/ref=3Ded_oe_p/0=
+02-4207005-4000631">The=20
+  Elements of Style</A>. William Strunk Jr. and E.B. White. Macmillan =
+Publishing=20
+  Co., New York, 1979.=20
+  <BLOCKQUOTE>This is an <B>amazing</B> little book that you can read in =
+a few=20
+    hours. Your writing style will never be the same afterwards. This $8 =
+book is=20
+    the best investment you can ever make. </BLOCKQUOTE>
+  <LI>"A Guide to Writing as an Engineer"=20
+  <LI><I>Spring into Technical Writing for Engineers and Scientists</I>=20
+  <LI><A=20
+  =
+href=3D"http://www.amazon.com/exec/obidos/ASIN/020137921X/qid=3D929133980=
+/sr=3D1-1/002-4207005-4000631">Bugs=20
+  in Writing</A>. Lyn Dupre', (2nd ed.)=20
+  <BLOCKQUOTE>This is a great book that expands on Strunk&amp;White. It =
+has=20
+    more examples, and was written by an author who edited numerous =
+technical=20
+    publications, many of which were in computer science. </BLOCKQUOTE>
+  <LI><A=20
+  =
+href=3D"http://www.amazon.com/exec/obidos/ASIN/0226103897/qid=3D929134146=
+/sr=3D1-1/002-4207005-4000631">The=20
+  Chicago Manual of Style</A>, Univ. of Chicago Press.=20
+  <BLOCKQUOTE>This is the bible for American academic style. It's long =
+and=20
+    heavy, but has everything you ever want to know about style. When in =
+doubt,=20
+    or if you get conflicting stylistic advice, following The Chicago =
+Manual of=20
+    Style is your best choice. </BLOCKQUOTE>
+  <LI><A=20
+  =
+href=3D"http://www.amazon.com/exec/obidos/ASIN/0195069544/qid=3D929134195=
+/sr=3D1-2/002-4207005-4000631">A=20
+  Handbook for Scholars</A> by Mary Claire van Leunen; Alfred Knopf, =
+Publisher.=20
+  <BLOCKQUOTE>This is another useful book written for publishing =
+(computer)=20
+    scientists. </BLOCKQUOTE>
+  <LI>The <A href=3D"http://www.acm.org/uist/guide.html">UIST Guide for=20
+  Authors</A> is geared towards a specific conference, but the general =
+process=20
+  and guidelines are similar to many other conferences.=20
+  <LI><A =
+href=3D"http://www.amstat.org/publications/jcgs/sci.pdf"><EM>The Science =
+
+  of Scientific Writing</EM></A>, George D. Gopen and Judith A. Swan, In =
+
+  <I>American Scientist</I>, Vol. 78, No. 6 (Nov-Dec, 1990), pp. =
+550-558.=20
+  <BLOCKQUOTE>This is a useful article that teaches scientists how to =
+write=20
+    single sentences and paragraphs, such as "follow a grammatical =
+subject as=20
+    soon as possible with its verb" and "articulate the action of every =
+clause=20
+    or sentence in its verb". </BLOCKQUOTE>
+  <LI><EM>The Mayfield Handbook of Technical and Scientific =
+Writing</EM>,=20
+  Perelman, Paradis and Barrett, Mayfield, 1998.=20
+  <BLOCKQUOTE>It is an extensive resource explaining how to write =
+papers,=20
+    reports, memoranda and Ph.D. thesis, how to make high-performance =
+slides and=20
+    oral presentations, how to avoid common pitfalls and mistakes in =
+English,=20
+    etc., with many examples of "good" and "bad" practices. =
+</BLOCKQUOTE>
+  <LI>Roy Levin and David D. Redell, <A=20
+  href=3D"http://www.usenix.org/events/samples/submit/advice.html">An =
+evaluation=20
+  of the ninth SOSP submissions -or- How (and how not) to write a good =
+systems=20
+  paper</A>, <EM>ACM SIGOPS Operating Systems Review</EM> =
+<B>17</B>(3):35-40=20
+  (July, 1983).=20
+  <LI>Alan Snyder, <A=20
+  href=3D"http://www.acm.org/sigplan/oopsla/oopsla96/how91.html">How to =
+get your=20
+  paper accepted at OOPSLA</A>, <EM>OOPSLA '91 Proceedings</EM>, pp. =
+359-363.=20
+  <LI>Mark Allman, <A href=3D"http://www.icir.org/mallman/plea.txt">A =
+Referee's=20
+  Plea</A>, 2001=20
+  <LI>Ralph Johnson <EM>et al</EM>, <A=20
+  href=3D"http://www.acm.org/sigplan/oopsla/oopsla96/how93.html">How to =
+get a=20
+  paper accepted at OOPSLA</A>, <EM>Panel at OOPSLA'93</EM>, pp 429-436. =
+
+  <LI>Craig Partridge, <A=20
+  =
+href=3D"http://www.acm.org/sigcomm/conference-misc/author-guide.html">How=
+ to=20
+  Increase the Chances Your Paper is Accepted at ACM SIGCOMML</A>.=20
+  <BLOCKQUOTE>Generally useful advice that also applies to other =
+networking=20
+    conferences. </BLOCKQUOTE>
+  <LI><A =
+href=3D"http://www.usenix.org/events/lisa99/cfp/guidelines.html">What=20
+  kinds of papers does USENIX publish?</A>=20
+  <LI>Alan Jay Smith, <EM>The Task of the Referee</EM>, <EM>IEEE =
+Computer</EM>=20
+  <B>23</B>(4):65-71 (April 1990).=20
+  <LI><A href=3D"http://stipo.larc.nasa.gov/sp7084/index.html">Grammar,=20
+  Punctuation, and Capitalization</A>, NASA SP-7084=20
+  <LI><A=20
+  =
+href=3D"http://www.editorsoftware.com/stylewriter-software/">Stylewriter<=
+/A>=20
+  software </LI></UL>
+<H2>Talks</H2>
+<UL>
+  <LI><A href=3D"http://www.cs.cornell.edu/cv/ShortTalk.htm">"The Short =
+Talk"</A>=20
+  (Charles Van Loan)=20
+  <LI><A =
+href=3D"http://cusg.eecs.berkeley.edu/~messer/Bad_talk.html">"Pointers =
+on=20
+  giving a talk"</A> (D. Messerschmitt)=20
+  <LI><A =
+href=3D"http://www.onr.navy.mil/onr/speak_tips/Default.htm"><I>Tips for=20
+  Preparing Delivering Scientific Talks and Using Visual Aids</I></A> =
+(ONR)=20
+</LI></UL>
+<H2>Miscellaneous</H2>
+<UL>
+  <LI><A =
+href=3D"http://www.cl.cam.ac.uk/~mgk25/iso-paper.html">International=20
+  Standard Paper Sizes</A> </LI></UL>
+<H2>Contributors</H2>
+<P>This page contains material provided by Gail Kaiser, Craig Partridge, =
+Sumit=20
+Roy, Eric Siegel, Sal Stolfo, Luca Trevisan, Yechiam Yemini, Erez Zadok. =
+
+<HR>
+
+<P>[<A =
+href=3D"http://www.cs.columbia.edu/~hgs/etc/proposal-hints.html">Hints =
+for=20
+PhD proposal defenses</A>] [<A=20
+href=3D"http://www.cs.columbia.edu/~hgs/etc/defense-hints.html">Hints =
+for PhD=20
+thesis defenses</A>] &nbsp; [<A=20
+href=3D"http://www.cs.columbia.edu/~hgs/etc/writing-bugs.html">Writing =
+bugs</A>]=20
+&nbsp;=20
+<HR>
+<SMALL>Last updated
+<SCRIPT type=3Dtext/JavaScript>=0A=
+document.write(document.lastModified)=0A=
+</SCRIPT>
+ by <A href=3D"http://www.cs.columbia.edu/~hgs">Henning Schulzrinne</A>=20
+</SMALL></LI></BODY></HTML>
